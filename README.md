@@ -11,9 +11,7 @@
 - [5. Configuração](#5-configuração)
 - [6. Execução](#6-execução)
 - [7. Saídas Geradas](#7-saídas-geradas)
-- [8. Exemplo de Uso](#8-exemplo-de-uso)
-- [9. Troubleshooting](#9-troubleshooting)
-- [10. Citação](#10-citação)
+- [8. Referências](#8-referências)
 
 ## 1. Sobre o Pipeline
 
