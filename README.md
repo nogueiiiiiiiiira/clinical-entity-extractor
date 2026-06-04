@@ -193,18 +193,7 @@ python 04_evaluate.py
 | `output/evaluation/erros_classificados.csv` | Análise qualitativa dos erros |
 
 
-## 8. Troubleshooting
-
-| Problema | Solução |
-|----------|---------|
-| `ModuleNotFoundError: No module named 'config'` | Execute os scripts a partir da raiz do projeto ou ajuste `sys.path` nos scripts. |
-| Ollama não responde | Verifique se o serviço está ativo: `ollama serve`. Teste com `curl http://localhost:11434/api/tags`. |
-| Erro de autenticação nas APIs | Confirme as credenciais no `config/config.py`. Verifique sua conexão com a internet. |
-| Tempo de execução muito longo | Reduza `MAX_WORKERS` para 2 ou 1, ou aumente `MAX_TOKENS` (mais lento, porém mais preciso). |
-| Baixa acurácia nos mapeamentos | Aumente o número de `RETRIES` (ex.: 7) e utilize um modelo LLM mais robusto (ex.: `llama3.1:70b`). |
-| `KeyError: 'expansao_correta'` | Certifique-se de que a coluna foi gerada no `01_extract_terms.py`. Verifique os logs. |
-
-## 9. Referências
+## 8. Referências
 
 ```bibtex
 @article{Oliveira2022,
