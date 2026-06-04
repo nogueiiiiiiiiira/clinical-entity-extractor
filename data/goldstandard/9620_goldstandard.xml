@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 08/10/2013
+
+
+Lucas, 85A
+FA DESDE JAN/13
+HAS
+DEFICIT COGNITIVO
+EM USO DE: ADDERA    ATENOLOL 50MG 1X / D   ENL 10MG 2X / D   AAS 200MG    EXELON / QUETIAPINA
+S: 
+PCTE SEM QEUIXAS, NEGA DISPNEIA, PALPITACOES E DOR TORACICA.
+AINDA NAO OPEROU A CATARATA.
+O:
+PA 110X70   P 60
+BCANF SS
+CPP LIVRES
+A:
+FA CRONICA SEM ACO - AGUARDA CX CATARATA
+HAS
+P:
+MANTIDAS MEDICS E DOSES
+AGUARDA CX CATARATA PARA INICIAR ACO
+RET 6M
+ENCAMINHO PARA OFTALMO DA STA CASA
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="54~56" text="FA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="70~73" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="74~91" text="DEFICIT COGNITIVO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="103~109" text="ADDERA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="113~126" text="ATENOLOL 50MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="136~144" text="ENL 10MG" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="154~163" text="AAS 200MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="167~173" text="EXELON" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="176~186" text="QUETIAPINA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="200~207" text="QEUIXAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="209~213" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E11" spans="214~222" text="DISPNEIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="224~235" text="PALPITACOES" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="238~250" text="DOR TORACICA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="271~279" text="CATARATA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="262~268" text="OPEROU" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="284~286" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E17" spans="296~297" text="P" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E18" spans="307~309" text="SS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E19" spans="324~334" text="FA CRONICA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E20" spans="339~342" text="ACO" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E21" spans="353~364" text="CX CATARATA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E22" spans="365~368" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E23" spans="372~380" text="MANTIDAS" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E24" spans="381~387" text="MEDICS" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E25" spans="404~415" text="CX CATARATA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E26" spans="429~432" text="ACO" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E27" spans="433~436" text="RET" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E28" spans="440~449" text="ENCAMINHO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E29" spans="455~474" text="OFTALMO DA STA CASA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="127~133" text="1X / D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T1" spans="145~151" text="2X / D" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T2" spans="437~439" text="6M" Type="Date" Value="2014-04-08" Mod="NA" />
+<TIMEX3 id="T3" spans="57~69" text="DESDE JAN/13" Type="Date" Value="2013-01" Mod="NA" />
+<RELATION id="R0" fromID="E0" fromText="FA" toID="T3" toText="DESDE JAN/13" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R1" fromID="E4" fromText="ATENOLOL 50MG" toID="T0" toText="1X / D" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E5" fromText="ENL 10MG" toID="T1" toText="2X / D" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E19" fromText="FA CRONICA" toID="E20" toText="ACO" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E23" fromText="MANTIDAS" toID="E24" toText="MEDICS" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E25" fromText="CX CATARATA" toID="E26" toText="ACO" Relação_Temporal="BEFORE" />
+<RELATION id="R6" fromID="T2" fromText="6M" toID="E27" toText="RET" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="E28" fromText="ENCAMINHO" toID="E29" toText="OFTALMO DA STA CASA" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

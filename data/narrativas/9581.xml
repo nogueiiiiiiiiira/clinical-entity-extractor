@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># Lucas, 55 ANOS
+# NATURAL DE ALAGOAS, RESIDENTE EM CURITIBA.
+# DÇ DE CHAGAS
+# BAVT
+# MARCA-PASSO DUPLACAMARA EM DDD 50-60 DESDE 2007
+# PACIENTE ENCAMINHADO DO AMBULATÓRIO DE ARRITMIAS.
+PACIENTE NEGA DISPNEIA, NEGA ORTOPNEIA, NEGA DPN.
+SEM OUTRAS QUEIXAS
+# NEGA HX DE HAS, DM, DISLIPIDEMIA E TIREOIDOPATIAS.
+# MÃE FALECIDA POR CARDIOPATIA ( IAM ?), 65 ANOS.
+# CX DE APENDICITE E HERNIAS PARAMEDIANAS HÁ &gt; 20 ANOS
+# EM USO DE:
+METOPROLOL 50MG 12/12HS
+ENALAPRIL 10 MG 12/12HS
+ESPIRONO 25
+SVT 20
+EXAMES LAB 11/11: CREAT 1; UR 58; GLI 71; TG 88; HDL 52; CT 160; LDL 90; Na 140; K 5,2; Hb 14,8/ Ht 46,6/LEUC 5150
+EF # BEG, LOTE, CORADO E HIDRATADO.
+PA: 90/60MMHG; P: 72
+AUSENCIA DE TURGÊNCIA JUGULAR
+ICTUS PALPÁVEL EM 7º EIC EM LINHA HEMIAXILAR E
+BCRNF 2T SS
+AUSCULTA PULMONAR SEM ALTERAÇÕES.
+ABDOME INOCENTE.
+SEM EDEMA EM MMII. PULSOS + BL, SIMÉTRICOS.
+A: DÇA CHAGAS
+P: MANTENHO MEDICAÇÕES
+SOLICITO ECOCARDIO
+RETORNO EM 3 MESES
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="28743" tag="Abbreviation|Disease or Syndrome" start="82" end="86" text="BAVT" abbr="" />
+<annotation id="28744" tag="Medical Device|Therapeutic or Preventive Procedure" start="90" end="101" text="MARCA-PASSO" abbr="" />
+<annotation id="28745" tag="Patient or Disabled Group" start="141" end="149" text="PACIENTE" abbr="" />
+<annotation id="28746" tag="Health Care Activity" start="150" end="161" text="ENCAMINHADO" abbr="" />
+<annotation id="28747" tag="Patient or Disabled Group" start="192" end="200" text="PACIENTE" abbr="" />
+<annotation id="28748" tag="Negation" start="201" end="205" text="NEGA" abbr="" />
+<annotation id="28749" tag="Sign or Symptom" start="206" end="214" text="DISPNEIA" abbr="" />
+<annotation id="28750" tag="Negation" start="216" end="220" text="NEGA" abbr="" />
+<annotation id="28751" tag="Sign or Symptom" start="221" end="230" text="ORTOPNEIA" abbr="" />
+<annotation id="28752" tag="Negation" start="232" end="236" text="NEGA" abbr="" />
+<annotation id="28753" tag="Abbreviation|Sign or Symptom" start="237" end="240" text="DPN" abbr="" />
+<annotation id="28754" tag="Negation" start="243" end="246" text="SEM" abbr="" />
+<annotation id="28755" tag="Sign or Symptom" start="254" end="261" text="QUEIXAS" abbr="" />
+<annotation id="28756" tag="Negation" start="265" end="269" text="NEGA" abbr="" />
+<annotation id="28757" tag="Abbreviation|Disease or Syndrome" start="276" end="279" text="HAS" abbr="" />
+<annotation id="28758" tag="Disease or Syndrome|Abbreviation" start="281" end="283" text="DM" abbr="Diabetes Mellitus" />
+<annotation id="28759" tag="Disease or Syndrome" start="285" end="297" text="DISLIPIDEMIA" abbr="" />
+<annotation id="28760" tag="Disease or Syndrome" start="300" end="314" text="TIREOIDOPATIAS" abbr="" />
+<annotation id="28761" tag="Family Group" start="319" end="322" text="MÃE" abbr="" />
+<annotation id="28762" tag="Disease or Syndrome" start="336" end="347" text="CARDIOPATIA" abbr="" />
+<annotation id="28763" tag="Abbreviation|Disease or Syndrome" start="350" end="353" text="IAM" abbr="" />
+<annotation id="28764" tag="Pharmacologic Substance" start="438" end="448" text="METOPROLOL" abbr="" />
+<annotation id="28765" tag="Quantitative Concept" start="449" end="453" text="50MG" abbr="" />
+<annotation id="28766" tag="Temporal Concept|Abbreviation|Quantitative Concept" start="454" end="461" text="12/12HS" abbr="" />
+<annotation id="28767" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="463" end="472" text="ENALAPRIL" abbr="" />
+<annotation id="28768" tag="Temporal Concept" start="479" end="486" text="12/12HS" abbr="" />
+<annotation id="28769" tag="Abbreviation|Pharmacologic Substance" start="488" end="496" text="ESPIRONO" abbr="" />
+<annotation id="28770" tag="Quantitative Concept" start="497" end="499" text="25" abbr="" />
+<annotation id="28771" tag="Abbreviation|Pharmacologic Substance" start="501" end="504" text="SVT" abbr="" />
+<annotation id="28772" tag="Quantitative Concept" start="505" end="507" text="20" abbr="" />
+<annotation id="28773" tag="Abbreviation|Diagnostic Procedure" start="625" end="627" text="EF" abbr="" />
+<annotation id="28774" tag="Abbreviation|Finding" start="630" end="633" text="BEG" abbr="" />
+<annotation id="28775" tag="Abbreviation|Finding" start="635" end="639" text="LOTE" abbr="" />
+<annotation id="28776" tag="Finding" start="641" end="647" text="CORADO" abbr="" />
+<annotation id="28777" tag="Finding" start="650" end="659" text="HIDRATADO" abbr="" />
+<annotation id="28778" tag="Clinical Attribute|Abbreviation" start="662" end="664" text="PA" abbr="Pressão Arterial" />
+<annotation id="28779" tag="Quantitative Concept" start="666" end="675" text="90/60MMHG" abbr="" />
+<annotation id="28780" tag="Clinical Attribute|Abbreviation" start="677" end="678" text="P" abbr="Pulso" />
+<annotation id="28781" tag="Quantitative Concept" start="680" end="682" text="72" abbr="" />
+<annotation id="28782" tag="Negation" start="684" end="692" text="AUSENCIA" abbr="" />
+<annotation id="28783" tag="Body Location or Region" start="715" end="720" text="ICTUS" abbr="" />
+<annotation id="28784" tag="Finding|Abbreviation" start="763" end="768" text="BCRNF" abbr="Bulhas Cardíacas Rítmicas e Normofonéticas" />
+<annotation id="28785" tag="Negation" start="772" end="774" text="SS" abbr="" />
+<annotation id="28786" tag="Negation" start="794" end="797" text="SEM" abbr="" />
+<annotation id="28787" tag="Sign or Symptom" start="798" end="808" text="ALTERAÇÕES" abbr="" />
+<annotation id="28788" tag="Negation" start="829" end="832" text="SEM" abbr="" />
+<annotation id="28789" tag="Sign or Symptom" start="833" end="838" text="EDEMA" abbr="" />
+<annotation id="28790" tag="Abbreviation|Body Location or Region" start="842" end="846" text="MMII" abbr="" />
+<annotation id="28791" tag="Clinical Attribute" start="848" end="854" text="PULSOS" abbr="" />
+<annotation id="28792" tag="Finding" start="861" end="871" text="SIMÉTRICOS" abbr="" />
+<annotation id="28793" tag="Health Care Activity" start="892" end="900" text="MANTENHO" abbr="" />
+<annotation id="28794" tag="Therapeutic or Preventive Procedure|Pharmacologic Substance" start="901" end="911" text="MEDICAÇÕES" abbr="" />
+<annotation id="28795" tag="Health Care Activity" start="913" end="921" text="SOLICITO" abbr="" />
+<annotation id="28796" tag="Diagnostic Procedure|Abbreviation" start="922" end="931" text="ECOCARDIO" abbr="" />
+<annotation id="28797" tag="Abbreviation|Disease or Syndrome" start="66" end="78" text="DÇ DE CHAGAS" />
+<annotation id="28798" tag="Health Care Related Organization" start="165" end="189" text="AMBULATÓRIO DE ARRITMIAS" />
+<annotation id="28799" tag="Abbreviation|Therapeutic or Preventive Procedure" start="370" end="386" text="CX DE APENDICITE" />
+<annotation id="28800" tag="Quantitative Concept" start="473" end="478" text="10 MG" />
+<annotation id="28801" tag="Laboratory Procedure|Abbreviation" start="509" end="519" text="EXAMES LAB" />
+<annotation id="28802" tag="Abbreviation|Laboratory or Test Result" start="527" end="534" text="CREAT 1" />
+<annotation id="28803" tag="Abbreviation|Laboratory or Test Result" start="536" end="541" text="UR 58" />
+<annotation id="28804" tag="Laboratory or Test Result|Abbreviation" start="543" end="549" text="GLI 71" />
+<annotation id="28805" tag="Abbreviation|Laboratory or Test Result" start="551" end="556" text="TG 88" />
+<annotation id="28806" tag="Laboratory or Test Result" start="558" end="564" text="HDL 52" />
+<annotation id="28807" tag="Abbreviation|Laboratory or Test Result" start="566" end="572" text="CT 160" />
+<annotation id="28808" tag="Laboratory or Test Result" start="574" end="580" text="LDL 90" />
+<annotation id="28809" tag="Abbreviation|Laboratory or Test Result" start="582" end="588" text="Na 140" />
+<annotation id="28810" tag="Abbreviation|Laboratory or Test Result" start="590" end="595" text="K 5 , 2" />
+<annotation id="28811" tag="Abbreviation|Laboratory or Test Result" start="597" end="605" text="Hb 14 , 8/" />
+<annotation id="28812" tag="Abbreviation|Laboratory or Test Result" start="606" end="611" text="Ht 46" />
+<annotation id="28813" tag="Sign or Symptom" start="696" end="713" text="TURGÊNCIA JUGULAR" />
+<annotation id="28814" tag="Finding" start="721" end="759" text="PALPÁVEL EM 7º EIC EM LINHA HEMIAXILAR" />
+<annotation id="28815" tag="Clinical Attribute|Diagnostic Procedure" start="776" end="793" text="AUSCULTA PULMONAR" />
+<annotation id="28816" tag="Finding" start="811" end="826" text="ABDOME INOCENTE" />
+<annotation id="28817" tag="Abbreviation|Finding" start="855" end="859" text="+ BL" />
+<annotation id="28818" tag="Abbreviation|Disease or Syndrome" start="877" end="887" text="DÇA CHAGAS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28746" annotation2="28798" reltype="associated_with" />
+<rel annotation1="28748" annotation2="28749" reltype="negation_of" />
+<rel annotation1="28750" annotation2="28751" reltype="negation_of" />
+<rel annotation1="28752" annotation2="28753" reltype="negation_of" />
+<rel annotation1="28754" annotation2="28755" reltype="negation_of" />
+<rel annotation1="28756" annotation2="28759" reltype="negation_of" />
+<rel annotation1="28756" annotation2="28757" reltype="negation_of" />
+<rel annotation1="28756" annotation2="28760" reltype="negation_of" />
+<rel annotation1="28756" annotation2="28758" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

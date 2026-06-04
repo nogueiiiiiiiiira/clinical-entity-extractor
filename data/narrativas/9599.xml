@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS, 56,  procedente Curitiba, aposentado, casado, 4 filhos.
+Acompanhamento pela cardio após 3 pontes de safena e troca valvar na mesma operação (5/5/06).
+HMA: " quando esquenta demais, os pés incham ".
+HMP: em 2006 desmaiou após sentir um " sufoco ", falta de ar; após avaliação médica foi encaminhado para cateterismo;
+ja ficou internado por 21 dias por cisticercose (1987); fraturou 2 costelas em 1986;
+HAS em uso de losartana 50 mg 2x / dia, atenolol 25 mg, furosemida 40 mg, atorvastatina 20 mg 2 cps, ezetimibe 10 mg, AAS 100 mg
+também em uso de omeprazol 20 mg 2 cps e fenitoina 100 mg.
+HMF: irmãos com HAS, mãe teve 3 IAM, irmãos com DM, irmão câncer intestino e prostata e cistolitiase, 
+CHV: não fuma, não bebe, 
+ROS: sem queixas, somente quando está para chover, sente dor nos grampos da esternotomia mediana.
+EF: PA 100/60, FC 68, FR 20, 
+AC: desdobramento de B1 (?).
+AR: MV + bilateralmente sem RA;
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="29662" tag="Finding" start="33" end="43" text="aposentado" abbr="" />
+<annotation id="29663" tag="Finding" start="45" end="51" text="casado" abbr="" />
+<annotation id="29664" tag="Health Care Activity|Health Care Activity" start="64" end="78" text="Acompanhamento" abbr="" />
+<annotation id="29665" tag="Professional or Occupational Group|Health Care Related Organization|Abbreviation" start="84" end="90" text="cardio" abbr="cardiologia" />
+<annotation id="29666" tag="Temporal Concept|Temporal Concept" start="91" end="95" text="após" abbr="" />
+<annotation id="29667" tag="Therapeutic or Preventive Procedure" start="139" end="147" text="operação" abbr="" />
+<annotation id="29668" tag="Abbreviation" start="159" end="162" text="HMA" abbr="" />
+<annotation id="29669" tag="Body Part, Organ, or Organ Component" start="193" end="196" text="pés" abbr="" />
+<annotation id="29670" tag="Sign or Symptom" start="221" end="229" text="desmaiou" abbr="" />
+<annotation id="29671" tag="Temporal Concept|Temporal Concept" start="230" end="234" text="após" abbr="" />
+<annotation id="29672" tag="Sign or Symptom" start="247" end="253" text="sufoco" abbr="" />
+<annotation id="29673" tag="Temporal Concept|Temporal Concept" start="270" end="274" text="após" abbr="" />
+<annotation id="29674" tag="Health Care Activity|Health Care Activity" start="296" end="307" text="encaminhado" abbr="" />
+<annotation id="29675" tag="Therapeutic or Preventive Procedure|Diagnostic Procedure|Diagnostic Procedure|Therapeutic or Preventive Procedure" start="313" end="324" text="cateterismo" abbr="" />
+<annotation id="29676" tag="Health Care Activity" start="336" end="345" text="internado" abbr="" />
+<annotation id="29677" tag="Disease or Syndrome" start="362" end="374" text="cisticercose" abbr="" />
+<annotation id="29678" tag="Injury or Poisoning" start="383" end="391" text="fraturou" abbr="" />
+<annotation id="29679" tag="Quantitative Concept" start="392" end="393" text="2" abbr="" />
+<annotation id="29680" tag="Body Part, Organ, or Organ Component" start="394" end="402" text="costelas" abbr="" />
+<annotation id="29681" tag="Abbreviation|Disease or Syndrome|Disease or Syndrome|Abbreviation" start="413" end="416" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="29682" tag="Organic Chemical|Pharmacologic Substance" start="427" end="436" text="losartana" abbr="" />
+<annotation id="29683" tag="Pharmacologic Substance|Organic Chemical" start="453" end="461" text="atenolol" abbr="" />
+<annotation id="29684" tag="Organic Chemical|Pharmacologic Substance" start="469" end="479" text="furosemida" abbr="" />
+<annotation id="29685" tag="Pharmacologic Substance" start="487" end="500" text="atorvastatina" abbr="" />
+<annotation id="29686" tag="Organic Chemical|Pharmacologic Substance" start="514" end="523" text="ezetimibe" abbr="" />
+<annotation id="29687" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="531" end="534" text="AAS" abbr="" />
+<annotation id="29688" tag="Pharmacologic Substance|Pharmacologic Substance|Organic Chemical" start="560" end="569" text="omeprazol" abbr="" />
+<annotation id="29689" tag="Pharmacologic Substance|Organic Chemical" start="584" end="593" text="fenitoina" abbr="" />
+<annotation id="29690" tag="Family Group" start="608" end="614" text="irmãos" abbr="" />
+<annotation id="29691" tag="Abbreviation|Disease or Syndrome|Disease or Syndrome|Abbreviation" start="619" end="622" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="29692" tag="Family Group" start="624" end="627" text="mãe" abbr="" />
+<annotation id="29693" tag="Abbreviation|Disease or Syndrome|Disease or Syndrome|Abbreviation" start="635" end="638" text="IAM" abbr="infarto agudo do miocárdio" />
+<annotation id="29694" tag="Family Group" start="640" end="646" text="irmãos" abbr="" />
+<annotation id="29695" tag="Abbreviation|Disease or Syndrome" start="651" end="653" text="DM" abbr="" />
+<annotation id="29696" tag="Family Group" start="655" end="660" text="irmão" abbr="" />
+<annotation id="29697" tag="Neoplastic Process" start="661" end="667" text="câncer" abbr="" />
+<annotation id="29698" tag="Body Part, Organ, or Organ Component" start="668" end="677" text="intestino" abbr="" />
+<annotation id="29699" tag="Disease or Syndrome" start="691" end="703" text="cistolitiase" abbr="" />
+<annotation id="29700" tag="Negation|Negation" start="712" end="715" text="não" abbr="" />
+<annotation id="29701" tag="Sign or Symptom" start="716" end="720" text="fuma" abbr="" />
+<annotation id="29702" tag="Negation|Negation" start="722" end="725" text="não" abbr="" />
+<annotation id="29703" tag="Finding" start="726" end="730" text="bebe" abbr="" />
+<annotation id="29704" tag="Negation|Negation" start="739" end="742" text="sem" abbr="" />
+<annotation id="29705" tag="Sign or Symptom|Sign or Symptom" start="743" end="750" text="queixas" abbr="" />
+<annotation id="29706" tag="Sign or Symptom|Sign or Symptom" start="791" end="794" text="dor" abbr="" />
+<annotation id="29707" tag="Medical Device" start="799" end="806" text="grampos" abbr="" />
+<annotation id="29708" tag="Abbreviation|Abbreviation|Diagnostic Procedure" start="833" end="835" text="EF" abbr="" />
+<annotation id="29709" tag="Clinical Attribute|Clinical Attribute|Abbreviation|Abbreviation" start="837" end="839" text="PA" abbr="pressão arterial" />
+<annotation id="29710" tag="Quantitative Concept" start="840" end="846" text="100/60" abbr="" />
+<annotation id="29711" tag="Clinical Attribute|Clinical Attribute|Abbreviation|Abbreviation" start="848" end="850" text="FC" abbr="frequência cardíaca" />
+<annotation id="29712" tag="Quantitative Concept" start="851" end="853" text="68" abbr="" />
+<annotation id="29713" tag="Clinical Attribute|Abbreviation" start="855" end="857" text="FR" abbr="frequência respiratória" />
+<annotation id="29714" tag="Quantitative Concept|Quantitative Concept" start="858" end="860" text="20" abbr="" />
+<annotation id="29715" tag="Abbreviation|Diagnostic Procedure" start="864" end="866" text="AC" abbr="" />
+<annotation id="29716" tag="Abbreviation|Diagnostic Procedure" start="894" end="896" text="AR" abbr="" />
+<annotation id="29717" tag="Spatial Concept" start="903" end="917" text="bilateralmente" abbr="" />
+<annotation id="29718" tag="Negation|Negation" start="918" end="921" text="sem" abbr="" />
+<annotation id="29719" tag="Abbreviation|Sign or Symptom" start="922" end="924" text="RA" abbr="" />
+<annotation id="29720" tag="Finding" start="53" end="61" text="4 filhos" />
+<annotation id="29721" tag="Therapeutic or Preventive Procedure" start="98" end="114" text="pontes de safena" />
+<annotation id="29722" tag="Therapeutic or Preventive Procedure" start="117" end="129" text="troca valvar" />
+<annotation id="29723" tag="Sign or Symptom" start="257" end="268" text="falta de ar" />
+<annotation id="29724" tag="Diagnostic Procedure|Health Care Activity" start="275" end="291" text="avaliação médica" />
+<annotation id="29725" tag="Quantitative Concept" start="437" end="451" text="50 mg 2x / dia" />
+<annotation id="29726" tag="Quantitative Concept" start="462" end="467" text="25 mg" />
+<annotation id="29727" tag="Quantitative Concept" start="480" end="485" text="40 mg" />
+<annotation id="29728" tag="Quantitative Concept" start="501" end="512" text="20 mg 2 cps" />
+<annotation id="29729" tag="Quantitative Concept" start="524" end="529" text="10 mg" />
+<annotation id="29730" tag="Quantitative Concept" start="535" end="541" text="100 mg" />
+<annotation id="29731" tag="Quantitative Concept" start="570" end="581" text="20 mg 2 cps" />
+<annotation id="29732" tag="Quantitative Concept" start="594" end="600" text="100 mg" />
+<annotation id="29733" tag="Therapeutic or Preventive Procedure" start="810" end="830" text="esternotomia mediana" />
+<annotation id="29734" tag="Sign or Symptom" start="868" end="887" text="desdobramento de B1" />
+<annotation id="29735" tag="Finding|Abbreviation" start="898" end="902" text="MV +" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="29670" annotation2="29671" reltype="associated_with" />
+<rel annotation1="29671" annotation2="29672" reltype="associated_with" />
+<rel annotation1="29674" annotation2="29675" reltype="associated_with" />
+<rel annotation1="29676" annotation2="29677" reltype="associated_with" />
+<rel annotation1="29678" annotation2="29680" reltype="associated_with" />
+<rel annotation1="29679" annotation2="29680" reltype="associated_with" />
+<rel annotation1="29682" annotation2="29725" reltype="associated_with" />
+<rel annotation1="29683" annotation2="29726" reltype="associated_with" />
+<rel annotation1="29684" annotation2="29727" reltype="associated_with" />
+<rel annotation1="29685" annotation2="29728" reltype="associated_with" />
+<rel annotation1="29686" annotation2="29729" reltype="associated_with" />
+<rel annotation1="29687" annotation2="29730" reltype="associated_with" />
+<rel annotation1="29688" annotation2="29731" reltype="associated_with" />
+<rel annotation1="29689" annotation2="29732" reltype="associated_with" />
+<rel annotation1="29690" annotation2="29691" reltype="associated_with" />
+<rel annotation1="29692" annotation2="29693" reltype="associated_with" />
+<rel annotation1="29694" annotation2="29695" reltype="associated_with" />
+<rel annotation1="29697" annotation2="29698" reltype="associated_with" />
+<rel annotation1="29700" annotation2="29701" reltype="negation_of" />
+<rel annotation1="29702" annotation2="29703" reltype="associated_with" />
+<rel annotation1="29704" annotation2="29705" reltype="negation_of" />
+<rel annotation1="29706" annotation2="29707" reltype="associated_with" />
+<rel annotation1="29707" annotation2="29733" reltype="associated_with" />
+<rel annotation1="29707" annotation2="29733" reltype="associated_with" />
+<rel annotation1="29709" annotation2="29710" reltype="associated_with" />
+<rel annotation1="29711" annotation2="29712" reltype="associated_with" />
+<rel annotation1="29713" annotation2="29714" reltype="associated_with" />
+<rel annotation1="29715" annotation2="29734" reltype="associated_with" />
+<rel annotation1="29716" annotation2="29735" reltype="associated_with" />
+<rel annotation1="29718" annotation2="29719" reltype="negation_of" />
+<rel annotation1="29735" annotation2="29717" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

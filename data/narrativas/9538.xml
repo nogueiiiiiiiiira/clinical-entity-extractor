@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>1ª CONSULTA 
+Lucas, 43 ANOS
+NATURAL E PROCEDENTE DE UNIÃO DA VITÓRIA 
+# CIRURGIA BARIÁTRICA EM 2010 E 2013
+# HAS
+# EX-TABAGISTA - PAROU HÁ 04 ANOS
+# NEGA IAM, ETILISMO
+# ICC COM DIAGNÓSTICO HÁ 04 ANOS
+# MEDICAÇÕES : ENALAPRIL 10MG 12/12H, CARVEDILOL 6,25 MG 12/12H, ESPIRONOLACTONA 25MG / D, FUROSEMIDA 40MG / D, MONOCORDIL 20MG 2X/D 
+* ECOCARDIOGRAMA DEZ/2013 Ao 34 / AE 62 / VD 21 / DDVE 83 / DSVE 63 / SEPTO 12 / PPVE 08 / FE 45% 
+REFLUXO MITRAL DISCRETO / PRESENÇA DE FIBRILAÇÃO ATRIAL 
+PACIENTE REFERE DISPNEIA AO SUBIR UM LANCE DE ESCADAS, ESTÁ DORMINDO COM 05 TRAVESSEIROS E APRESENTA D.P.N.
+RELATA EDEMA EM MMII DE LEVE INTENSIDADE.
+NEGA DOR TORÁCICA, SÍNCOPE OU PALPITAÇÕES. 
+PA 120/80 MMHG, FC 88 BPM
+MV+ BILATERAL SEM RA
+RC IRREGULAR, SOPRO SISTÓLICO MITRAL 3+ / 6+
+BOA PERFUSÃO PERIFÉRICA
+EDEMA MMII 1+ / 4+ 
+GLICOSE 92 / URÉIA 24 / CREATININA 0,96 
+A # ICC + INSUF MITRAL 2ª + FA ? 
+P # SOLICITO ECG + NOVO ECOCARDIOGRAMA TRANSTORÁCICO
+AUMENTO CARVEDILOL 12,5 MG 12/12H E ENALAPRIL 20MG 12/12H
+ORIENTO INICIO DE ANTICOAGULAÇÃO
+ORIENTO PEGAR O LAUDO DO CATETERISMO NA SANTA CASA 
+
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="26496" tag="Health Care Activity" start="3" end="11" text="CONSULTA" abbr="" />
+<annotation id="26497" tag="Disease or Syndrome|Abbreviation" start="113" end="116" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="26498" tag="Finding" start="120" end="132" text="EX-TABAGISTA" abbr="" />
+<annotation id="26499" tag="Negation" start="155" end="159" text="NEGA" abbr="" />
+<annotation id="26500" tag="Abbreviation|Disease or Syndrome" start="160" end="163" text="IAM" abbr="" />
+<annotation id="26501" tag="Disease or Syndrome" start="165" end="173" text="ETILISMO" abbr="" />
+<annotation id="26502" tag="Disease or Syndrome|Abbreviation" start="177" end="180" text="ICC" abbr="insuficiência cardíaca congestiva" />
+<annotation id="26503" tag="Intellectual Product|Health Care Activity" start="185" end="196" text="DIAGNÓSTICO" abbr="" />
+<annotation id="26504" tag="Pharmacologic Substance" start="211" end="221" text="MEDICAÇÕES" abbr="" />
+<annotation id="26505" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="224" end="233" text="ENALAPRIL" abbr="" />
+<annotation id="26506" tag="Quantitative Concept" start="234" end="238" text="10MG" abbr="" />
+<annotation id="26507" tag="Temporal Concept" start="239" end="245" text="12/12H" abbr="" />
+<annotation id="26508" tag="Organic Chemical|Pharmacologic Substance" start="247" end="257" text="CARVEDILOL" abbr="" />
+<annotation id="26509" tag="Temporal Concept" start="266" end="272" text="12/12H" abbr="" />
+<annotation id="26510" tag="Organic Chemical|Pharmacologic Substance" start="274" end="289" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="26511" tag="Abbreviation|Temporal Concept" start="297" end="298" text="D" abbr="" />
+<annotation id="26512" tag="Pharmacologic Substance|Organic Chemical" start="300" end="310" text="FUROSEMIDA" abbr="" />
+<annotation id="26513" tag="Abbreviation|Temporal Concept" start="318" end="319" text="D" abbr="" />
+<annotation id="26514" tag="Organic Chemical|Pharmacologic Substance" start="321" end="331" text="MONOCORDIL" abbr="" />
+<annotation id="26515" tag="Quantitative Concept" start="332" end="336" text="20MG" abbr="" />
+<annotation id="26516" tag="Quantitative Concept|Temporal Concept" start="337" end="341" text="2X/D" abbr="" />
+<annotation id="26517" tag="Diagnostic Procedure" start="346" end="360" text="ECOCARDIOGRAMA" abbr="" />
+<annotation id="26518" tag="Patient or Disabled Group" start="502" end="510" text="PACIENTE" abbr="" />
+<annotation id="26519" tag="Sign or Symptom" start="618" end="623" text="EDEMA" abbr="" />
+<annotation id="26520" tag="Body Location or Region|Abbreviation" start="627" end="631" text="MMII" abbr="membros inferiores" />
+<annotation id="26521" tag="Negation" start="654" end="658" text="NEGA" abbr="" />
+<annotation id="26522" tag="Sign or Symptom" start="673" end="680" text="SÍNCOPE" abbr="" />
+<annotation id="26523" tag="Sign or Symptom" start="684" end="695" text="PALPITAÇÕES" abbr="" />
+<annotation id="26524" tag="Abbreviation|Clinical Attribute" start="699" end="701" text="PA" abbr="" />
+<annotation id="26525" tag="Abbreviation|Clinical Attribute" start="715" end="717" text="FC" abbr="" />
+<annotation id="26526" tag="Negation" start="740" end="743" text="SEM" abbr="" />
+<annotation id="26527" tag="Abbreviation|Sign or Symptom" start="744" end="746" text="RA" abbr="" />
+<annotation id="26528" tag="Sign or Symptom" start="819" end="824" text="EDEMA" abbr="" />
+<annotation id="26529" tag="Abbreviation|Body Location or Region" start="825" end="829" text="MMII" abbr="" />
+<annotation id="26530" tag="Abbreviation|Disease or Syndrome" start="886" end="889" text="ICC" abbr="" />
+<annotation id="26531" tag="Abbreviation|Disease or Syndrome" start="910" end="912" text="FA" abbr="" />
+<annotation id="26532" tag="Health Care Activity" start="921" end="929" text="SOLICITO" abbr="" />
+<annotation id="26533" tag="Abbreviation|Diagnostic Procedure" start="930" end="933" text="ECG" abbr="" />
+<annotation id="26534" tag="Health Care Activity" start="971" end="978" text="AUMENTO" abbr="" />
+<annotation id="26535" tag="Organic Chemical|Pharmacologic Substance" start="979" end="989" text="CARVEDILOL" abbr="" />
+<annotation id="26536" tag="Temporal Concept" start="998" end="1004" text="12/12H" abbr="" />
+<annotation id="26537" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="1007" end="1016" text="ENALAPRIL" abbr="" />
+<annotation id="26538" tag="Quantitative Concept" start="1017" end="1021" text="20MG" abbr="" />
+<annotation id="26539" tag="Temporal Concept" start="1022" end="1028" text="12/12H" abbr="" />
+<annotation id="26540" tag="Health Care Activity" start="1030" end="1037" text="ORIENTO" abbr="" />
+<annotation id="26541" tag="Health Care Activity" start="1064" end="1071" text="ORIENTO" abbr="" />
+<annotation id="26542" tag="Therapeutic or Preventive Procedure" start="1089" end="1100" text="CATETERISMO" abbr="" />
+<annotation id="26543" tag="Therapeutic or Preventive Procedure" start="75" end="94" text="CIRURGIA BARIÁTRICA" />
+<annotation id="26544" tag="Temporal Concept" start="197" end="207" text="HÁ 04 ANOS" />
+<annotation id="26545" tag="Quantitative Concept" start="258" end="265" text="6 , 25 MG" />
+<annotation id="26546" tag="Abbreviation|Laboratory or Test Result" start="370" end="375" text="Ao 34" />
+<annotation id="26547" tag="Abbreviation|Laboratory or Test Result" start="378" end="383" text="AE 62" />
+<annotation id="26548" tag="Laboratory or Test Result|Abbreviation" start="386" end="391" text="VD 21" />
+<annotation id="26549" tag="Abbreviation|Laboratory or Test Result" start="394" end="401" text="DDVE 83" />
+<annotation id="26550" tag="Abbreviation|Laboratory or Test Result" start="404" end="411" text="DSVE 63" />
+<annotation id="26551" tag="Laboratory or Test Result" start="414" end="422" text="SEPTO 12" />
+<annotation id="26552" tag="Abbreviation|Laboratory or Test Result" start="425" end="432" text="PPVE 08" />
+<annotation id="26553" tag="Abbreviation|Laboratory or Test Result" start="435" end="441" text="FE 45%" />
+<annotation id="26554" tag="Laboratory or Test Result|Sign or Symptom" start="444" end="467" text="REFLUXO MITRAL DISCRETO" />
+<annotation id="26555" tag="Disease or Syndrome|Laboratory or Test Result" start="482" end="499" text="FIBRILAÇÃO ATRIAL" />
+<annotation id="26556" tag="Sign or Symptom" start="518" end="555" text="DISPNEIA AO SUBIR UM LANCE DE ESCADAS" />
+<annotation id="26557" tag="Finding" start="562" end="590" text="DORMINDO COM 05 TRAVESSEIROS" />
+<annotation id="26558" tag="Qualitative Concept|Sign or Symptom" start="635" end="651" text="LEVE INTENSIDADE" />
+<annotation id="26559" tag="Sign or Symptom" start="659" end="671" text="DOR TORÁCICA" />
+<annotation id="26560" tag="Quantitative Concept" start="702" end="713" text="120/80 MMHG" />
+<annotation id="26561" tag="Quantitative Concept" start="718" end="724" text="88 BPM" />
+<annotation id="26562" tag="Abbreviation|Finding" start="726" end="739" text="MV+ BILATERAL" />
+<annotation id="26563" tag="Abbreviation|Sign or Symptom" start="748" end="760" text="RC IRREGULAR" />
+<annotation id="26564" tag="Sign or Symptom" start="762" end="784" text="SOPRO SISTÓLICO MITRAL" />
+<annotation id="26565" tag="Quantitative Concept" start="785" end="792" text="3+ / 6+" />
+<annotation id="26566" tag="Finding" start="794" end="817" text="BOA PERFUSÃO PERIFÉRICA" />
+<annotation id="26567" tag="Laboratory or Test Result" start="840" end="850" text="GLICOSE 92" />
+<annotation id="26568" tag="Laboratory or Test Result" start="853" end="861" text="URÉIA 24" />
+<annotation id="26569" tag="Laboratory or Test Result" start="864" end="879" text="CREATININA 0 , 96" />
+<annotation id="26570" tag="Abbreviation|Disease or Syndrome" start="892" end="907" text="INSUF MITRAL 2ª" />
+<annotation id="26571" tag="Diagnostic Procedure" start="941" end="969" text="ECOCARDIOGRAMA TRANSTORÁCICO" />
+<annotation id="26572" tag="Quantitative Concept" start="990" end="997" text="12 , 5 MG" />
+<annotation id="26573" tag="Health Care Related Organization" start="1104" end="1114" text="SANTA CASA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="26499" annotation2="26500" reltype="negation_of" />
+<rel annotation1="26499" annotation2="26501" reltype="negation_of" />
+<rel annotation1="26505" annotation2="26506" reltype="associated_with" />
+<rel annotation1="26508" annotation2="26545" reltype="associated_with" />
+<rel annotation1="26514" annotation2="26515" reltype="associated_with" />
+<rel annotation1="26519" annotation2="26558" reltype="associated_with" />
+<rel annotation1="26521" annotation2="26559" reltype="negation_of" />
+<rel annotation1="26521" annotation2="26522" reltype="negation_of" />
+<rel annotation1="26521" annotation2="26523" reltype="negation_of" />
+<rel annotation1="26524" annotation2="26560" reltype="associated_with" />
+<rel annotation1="26525" annotation2="26561" reltype="associated_with" />
+<rel annotation1="26526" annotation2="26527" reltype="negation_of" />
+<rel annotation1="26534" annotation2="26535" reltype="associated_with" />
+<rel annotation1="26537" annotation2="26538" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

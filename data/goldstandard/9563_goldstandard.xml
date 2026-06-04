@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 03/07/2015
+
+
+INVESTIGAVA  DOR ATIPICA 
+CINTILO ISQUEMIA  DISCRETA   P INFERIOR  VE    FE 34 - 46 
+2-6-15   CATE  TORTUOSIDADES -- MIOCSRDIOPATIA   VE   DISCRETA MODERADA
+S  MELHORA  GRADATIVA DOS  SINTOMAS
+O  NDN
+A  MCP DILATADA X
+P  AO  AMB IC
+HOLTER
+OTIMIZO
+CVD  12,5 12-12   DEMAIS MANTIDO
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="56~67" text="DOR ATIPICA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="69~76" text="CINTILO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="137~141" text="CATE" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="143~156" text="TORTUOSIDADES" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="160~199" text="MIOCSRDIOPATIA   VE   DISCRETA MODERADA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="203~235" text="MELHORA  GRADATIVA DOS  SINTOMAS" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="246~258" text="MCP DILATADA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="268~274" text="AMB IC" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E9" spans="275~281" text="HOLTER" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E10" spans="282~289" text="OTIMIZO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E11" spans="290~299" text="CVD  12,5" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E12" spans="308~322" text="DEMAIS MANTIDO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E13" spans="77~112" text="ISQUEMIA  DISCRETA   P INFERIOR  VE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="128~134" text="2-6-15" Type="Date" Value="2015-06-02" Mod="NA" />
+<TIMEX3 id="T1" spans="300~305" text="12-12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<RELATION id="R0" fromID="E1" fromText="CINTILO" toID="E13" toText="ISQUEMIA  DISCRETA   P INFERIOR  VE" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="T0" fromText="2-6-15" toID="E3" toText="CATE" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E3" fromText="CATE" toID="E5" toText="MIOCSRDIOPATIA   VE   DISCRETA MODERADA" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E3" fromText="CATE" toID="E4" toText="TORTUOSIDADES" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="E10" fromText="OTIMIZO" toID="E11" toText="CVD  12,5" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E11" fromText="CVD  12,5" toID="T1" toText="12-12" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

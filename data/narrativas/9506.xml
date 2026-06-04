@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS , 68 ANOS.  QP: ACOMPANHAMENTO POS RM HMA : PACIENTE RELATA TOSSE SECA, FREQUENTES, MAIS A NOITE. RM COM 2 SAFENAS E 1 MAMARIA, CIRURGIA REALIZADA EM JULHO DE 2015.  NEGA DISPNEIA.NEGA SINCOPE.  RELATA DOR TIPO QUEIMAÇÃO EM HEMITORAX ESQUERDO, COM DURAÇÃO MENOR QUE 1 MINUTO, SEM RELÇAO COM EXERCICIIOS FISICOS, ALIVIANDO COM PARACETAMOL.  HMP : HAS, DM.  MEDICAMENTOS DE USO CONTINUO :  -  AAS 100 MG -CLOPIDROGEL 75 MG -SINVASTATINA 40 MG -CAPTOPRIL 25 MG -CARVEDILOL 12,5 -OMEPRAZOL 20 MG -PARACETAMOL 500 MG - METFORMINA 850 MG - INSULINA NPH 16 UI PELA MANHA E 12 UI A TARDE.   EXAMES :  - ECG : ALTERAÇÃO DA REPOLARIZAÇÃO VENTRICULAR LATERAL E ALTA. RITMO SINUSAL. FC : 70 BPM . - SODIO : 135 - CREATININA : 1,6 ( CLEARENCE 44 ) - GLICOSE : 188 - UREIA : 71 - POTASSIO : 5,4 - HDL : 27 - TG : 187 - HB1AC : 9,42% - RX : SEM ANORMALIDADES  EXAME FISICO : - FC : 74 BPM - FR : 18 - PA : 120/70   PLANO :  - ENCAMINHO PACIENTE PARA AMBULATORIO DE ENDOCRINOLOGIA PARA CONTROLE DE DIABETES MAL CONTROLADA - ENCAMINHO PACIENTE PARA AMBULATORIO DE NEFROLOGIA PARA ACOMPANHAMENTO DE IRC - TROCO CAPTOPRIL POR LOSARTANA.</TEXT>
+<TAGS>
+<annotation id="25124" tag="Health Care Activity" start="22" end="36" text="ACOMPANHAMENTO" abbr="" />
+<annotation id="25125" tag="Temporal Concept" start="37" end="40" text="POS" abbr="" />
+<annotation id="25126" tag="Abbreviation|Therapeutic or Preventive Procedure" start="41" end="43" text="RM" abbr="" />
+<annotation id="25127" tag="Patient or Disabled Group" start="50" end="58" text="PACIENTE" abbr="" />
+<annotation id="25128" tag="Temporal Concept" start="78" end="88" text="FREQUENTES" abbr="" />
+<annotation id="25129" tag="Temporal Concept" start="97" end="102" text="NOITE" abbr="" />
+<annotation id="25130" tag="Abbreviation|Therapeutic or Preventive Procedure" start="104" end="106" text="RM" abbr="" />
+<annotation id="25131" tag="Quantitative Concept" start="111" end="112" text="2" abbr="" />
+<annotation id="25132" tag="Body Part, Organ, or Organ Component" start="113" end="120" text="SAFENAS" abbr="" />
+<annotation id="25133" tag="Quantitative Concept" start="123" end="124" text="1" abbr="" />
+<annotation id="25134" tag="Body Part, Organ, or Organ Component" start="125" end="132" text="MAMARIA" abbr="" />
+<annotation id="25135" tag="Therapeutic or Preventive Procedure" start="134" end="142" text="CIRURGIA" abbr="" />
+<annotation id="25136" tag="Health Care Activity" start="143" end="152" text="REALIZADA" abbr="" />
+<annotation id="25137" tag="Negation" start="172" end="176" text="NEGA" abbr="" />
+<annotation id="25138" tag="Sign or Symptom" start="177" end="185" text="DISPNEIA" abbr="" />
+<annotation id="25139" tag="Negation" start="186" end="190" text="NEGA" abbr="" />
+<annotation id="25140" tag="Sign or Symptom" start="191" end="198" text="SINCOPE" abbr="" />
+<annotation id="25141" tag="Temporal Concept" start="254" end="261" text="DURAÇÃO" abbr="" />
+<annotation id="25142" tag="Negation" start="282" end="285" text="SEM" abbr="" />
+<annotation id="25143" tag="Finding" start="318" end="327" text="ALIVIANDO" abbr="" />
+<annotation id="25144" tag="Organic Chemical|Pharmacologic Substance" start="332" end="343" text="PARACETAMOL" abbr="" />
+<annotation id="25145" tag="Disease or Syndrome|Abbreviation" start="352" end="355" text="HAS" abbr="Hipertensão Arterial Sistêmica" />
+<annotation id="25146" tag="Disease or Syndrome|Abbreviation" start="357" end="359" text="DM" abbr="Diabetes Mellitus" />
+<annotation id="25147" tag="Pharmacologic Substance" start="362" end="374" text="MEDICAMENTOS" abbr="" />
+<annotation id="25148" tag="Temporal Concept" start="382" end="390" text="CONTINUO" abbr="" />
+<annotation id="25149" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="397" end="400" text="AAS" abbr="" />
+<annotation id="25150" tag="Organic Chemical|Pharmacologic Substance" start="408" end="420" text="-CLOPIDROGEL" abbr="" />
+<annotation id="25151" tag="Organic Chemical|Pharmacologic Substance" start="427" end="440" text="-SINVASTATINA" abbr="" />
+<annotation id="25152" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="447" end="457" text="-CAPTOPRIL" abbr="" />
+<annotation id="25153" tag="Pharmacologic Substance|Organic Chemical" start="464" end="475" text="-CARVEDILOL" abbr="" />
+<annotation id="25154" tag="Organic Chemical|Pharmacologic Substance" start="481" end="491" text="-OMEPRAZOL" abbr="" />
+<annotation id="25155" tag="Organic Chemical|Pharmacologic Substance" start="498" end="510" text="-PARACETAMOL" abbr="" />
+<annotation id="25156" tag="Organic Chemical|Pharmacologic Substance" start="520" end="530" text="METFORMINA" abbr="" />
+<annotation id="25157" tag="Hormone|Organic Chemical|Amino Acid, Peptide, or Protein" start="540" end="548" text="INSULINA" abbr="" />
+<annotation id="25158" tag="Hormone|Amino Acid, Peptide, or Protein" start="549" end="552" text="NPH" abbr="" />
+<annotation id="25159" tag="Temporal Concept" start="564" end="569" text="MANHA" abbr="" />
+<annotation id="25160" tag="Temporal Concept" start="580" end="585" text="TARDE" abbr="" />
+<annotation id="25161" tag="Laboratory or Test Result|Diagnostic Procedure" start="589" end="595" text="EXAMES" abbr="" />
+<annotation id="25162" tag="Abbreviation|Diagnostic Procedure" start="601" end="604" text="ECG" abbr="" />
+<annotation id="25163" tag="Abbreviation|Clinical Attribute" start="677" end="679" text="FC" abbr="" />
+<annotation id="25164" tag="Diagnostic Procedure|Abbreviation" start="827" end="829" text="RX" abbr="raio-x" />
+<annotation id="25165" tag="Negation" start="832" end="835" text="SEM" abbr="" />
+<annotation id="25166" tag="Negation|Laboratory or Test Result|Sign or Symptom" start="836" end="849" text="ANORMALIDADES" abbr="" />
+<annotation id="25167" tag="Abbreviation|Clinical Attribute" start="868" end="870" text="FC" abbr="" />
+<annotation id="25168" tag="Abbreviation|Clinical Attribute" start="882" end="884" text="FR" abbr="" />
+<annotation id="25169" tag="Quantitative Concept" start="887" end="889" text="18" abbr="" />
+<annotation id="25170" tag="Abbreviation|Clinical Attribute" start="892" end="894" text="PA" abbr="" />
+<annotation id="25171" tag="Quantitative Concept" start="897" end="903" text="120/70" abbr="" />
+<annotation id="25172" tag="Health Care Activity" start="906" end="911" text="PLANO" abbr="" />
+<annotation id="25173" tag="Health Care Activity" start="917" end="926" text="ENCAMINHO" abbr="" />
+<annotation id="25174" tag="Patient or Disabled Group" start="927" end="935" text="PACIENTE" abbr="" />
+<annotation id="25175" tag="Health Care Activity" start="1014" end="1023" text="ENCAMINHO" abbr="" />
+<annotation id="25176" tag="Patient or Disabled Group" start="1024" end="1032" text="PACIENTE" abbr="" />
+<annotation id="25177" tag="Health Care Activity" start="1069" end="1083" text="ACOMPANHAMENTO" abbr="" />
+<annotation id="25178" tag="Disease or Syndrome|Abbreviation" start="1087" end="1090" text="IRC" abbr="insuficiência renal crônica" />
+<annotation id="25179" tag="Health Care Activity" start="1093" end="1098" text="TROCO" abbr="" />
+<annotation id="25180" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="1099" end="1108" text="CAPTOPRIL" abbr="" />
+<annotation id="25181" tag="Pharmacologic Substance|Organic Chemical" start="1113" end="1122" text="LOSARTANA" abbr="" />
+<annotation id="25182" tag="Sign or Symptom" start="66" end="76" text="TOSSE SECA" />
+<annotation id="25183" tag="Sign or Symptom" start="208" end="226" text="DOR TIPO QUEIMAÇÃO" />
+<annotation id="25184" tag="Body Location or Region" start="230" end="248" text="HEMITORAX ESQUERDO" />
+<annotation id="25185" tag="Sign or Symptom" start="262" end="280" text="MENOR QUE 1 MINUTO" />
+<annotation id="25186" tag="Sign or Symptom" start="286" end="316" text="RELÇAO COM EXERCICIIOS FISICOS" />
+<annotation id="25187" tag="Quantitative Concept" start="401" end="407" text="100 MG" />
+<annotation id="25188" tag="Quantitative Concept" start="421" end="426" text="75 MG" />
+<annotation id="25189" tag="Quantitative Concept" start="441" end="446" text="40 MG" />
+<annotation id="25190" tag="Quantitative Concept" start="458" end="463" text="25 MG" />
+<annotation id="25191" tag="Quantitative Concept" start="476" end="480" text="12 , 5" />
+<annotation id="25192" tag="Quantitative Concept" start="492" end="497" text="20 MG" />
+<annotation id="25193" tag="Quantitative Concept" start="511" end="517" text="500 MG" />
+<annotation id="25194" tag="Quantitative Concept" start="531" end="537" text="850 MG" />
+<annotation id="25195" tag="Quantitative Concept" start="553" end="558" text="16 UI" />
+<annotation id="25196" tag="Quantitative Concept" start="572" end="577" text="12 UI" />
+<annotation id="25197" tag="Laboratory or Test Result" start="607" end="660" text="ALTERAÇÃO DA REPOLARIZAÇÃO VENTRICULAR LATERAL E ALTA" />
+<annotation id="25198" tag="Finding|Laboratory or Test Result" start="662" end="675" text="RITMO SINUSAL" />
+<annotation id="25199" tag="Abbreviation|Quantitative Concept" start="682" end="688" text="70 BPM" />
+<annotation id="25200" tag="Laboratory or Test Result" start="693" end="704" text="SODIO : 135" />
+<annotation id="25201" tag="Laboratory or Test Result" start="707" end="723" text="CREATININA : 1 , 6" />
+<annotation id="25202" tag="Laboratory or Test Result" start="726" end="738" text="CLEARENCE 44" />
+<annotation id="25203" tag="Laboratory or Test Result" start="743" end="756" text="GLICOSE : 188" />
+<annotation id="25204" tag="Laboratory or Test Result" start="759" end="769" text="UREIA : 71" />
+<annotation id="25205" tag="Laboratory or Test Result" start="772" end="786" text="POTASSIO : 5 , 4" />
+<annotation id="25206" tag="Laboratory or Test Result" start="789" end="797" text="HDL : 27" />
+<annotation id="25207" tag="Abbreviation|Laboratory or Test Result" start="800" end="808" text="TG : 187" />
+<annotation id="25208" tag="Laboratory or Test Result" start="811" end="824" text="HB1AC : 9 , 42%" />
+<annotation id="25209" tag="Diagnostic Procedure" start="851" end="863" text="EXAME FISICO" />
+<annotation id="25210" tag="Abbreviation|Quantitative Concept" start="873" end="879" text="74 BPM" />
+<annotation id="25211" tag="Health Care Related Organization" start="941" end="970" text="AMBULATORIO DE ENDOCRINOLOGIA" />
+<annotation id="25212" tag="Disease or Syndrome" start="988" end="1011" text="DIABETES MAL CONTROLADA" />
+<annotation id="25213" tag="Health Care Related Organization" start="1038" end="1063" text="AMBULATORIO DE NEFROLOGIA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="25125" annotation2="25126" reltype="associated_with" />
+<rel annotation1="25128" annotation2="25182" reltype="associated_with" />
+<rel annotation1="25130" annotation2="25132" reltype="associated_with" />
+<rel annotation1="25130" annotation2="25134" reltype="associated_with" />
+<rel annotation1="25131" annotation2="25132" reltype="associated_with" />
+<rel annotation1="25133" annotation2="25134" reltype="associated_with" />
+<rel annotation1="25135" annotation2="25136" reltype="associated_with" />
+<rel annotation1="25137" annotation2="25138" reltype="negation_of" />
+<rel annotation1="25139" annotation2="25140" reltype="negation_of" />
+<rel annotation1="25142" annotation2="25186" reltype="negation_of" />
+<rel annotation1="25143" annotation2="25144" reltype="associated_with" />
+<rel annotation1="25149" annotation2="25187" reltype="associated_with" />
+<rel annotation1="25150" annotation2="25188" reltype="associated_with" />
+<rel annotation1="25151" annotation2="25189" reltype="associated_with" />
+<rel annotation1="25152" annotation2="25190" reltype="associated_with" />
+<rel annotation1="25153" annotation2="25191" reltype="associated_with" />
+<rel annotation1="25154" annotation2="25192" reltype="associated_with" />
+<rel annotation1="25155" annotation2="25193" reltype="associated_with" />
+<rel annotation1="25156" annotation2="25194" reltype="associated_with" />
+<rel annotation1="25157" annotation2="25158" reltype="associated_with" />
+<rel annotation1="25158" annotation2="25195" reltype="associated_with" />
+<rel annotation1="25161" annotation2="25162" reltype="associated_with" />
+<rel annotation1="25162" annotation2="25198" reltype="associated_with" />
+<rel annotation1="25162" annotation2="25197" reltype="associated_with" />
+<rel annotation1="25163" annotation2="25199" reltype="associated_with" />
+<rel annotation1="25164" annotation2="25166" reltype="associated_with" />
+<rel annotation1="25165" annotation2="25166" reltype="negation_of" />
+<rel annotation1="25167" annotation2="25210" reltype="associated_with" />
+<rel annotation1="25168" annotation2="25169" reltype="associated_with" />
+<rel annotation1="25170" annotation2="25171" reltype="associated_with" />
+<rel annotation1="25173" annotation2="25174" reltype="associated_with" />
+<rel annotation1="25173" annotation2="25211" reltype="associated_with" />
+<rel annotation1="25175" annotation2="25213" reltype="associated_with" />
+<rel annotation1="25177" annotation2="25178" reltype="associated_with" />
+<rel annotation1="25182" annotation2="25128" reltype="associated_with" />
+<rel annotation1="25182" annotation2="25129" reltype="associated_with" />
+<rel annotation1="25183" annotation2="25184" reltype="associated_with" />
+<rel annotation1="25183" annotation2="25186" reltype="associated_with" />
+<rel annotation1="25185" annotation2="25183" reltype="associated_with" />
+<rel annotation1="25195" annotation2="25159" reltype="associated_with" />
+<rel annotation1="25196" annotation2="25160" reltype="associated_with" />
+<rel annotation1="25202" annotation2="25201" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

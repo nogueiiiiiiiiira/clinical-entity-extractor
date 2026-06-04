@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 12/02/2016
+
+
+Protese Metalica Aortica em 2004.
+Uso: Enalapril 10 - 2cp - 12/12 / Atenolol 50 - 1cp = 12/12; Espironolactona 25 - 1xd; Sinvastatina 20 - 1x noite; Calcio 500 - 3x d;Marevan 5 - amb da ACXO; Trazodona 25 1x d.
+Dispnia esporadica, edema mmii eventual, sem palpitação, dor toracica quando epigastralgia que melhoram com paracetamol.
+Lab (21/01/16): Hbglic 6,34; TSH 2,15; Hb 13,5; VG 42% leuco 9610; plaq 234000; Urina I ok;  K 4,4; Cr 1,1; Gli 71; U 69; Tri 67; HDL- C 77; ColT 160; LDL- C 70;
+Ecocardio (04/12/15): AE 42; DDVE 39; DSVE 23; FE 73%; VMi area 1,65; calcificada, refluxo discreto. VAo protese metalica com espessamento, e relfuxo discreto.Grad medio de 16 e max de 30. ARea de 1,12. VTri = refluxo discreto com PSAP 56mmHg. VP refluxo minimo. VE hipertrofiado., SIv 13. PPVE 14.
+PA ( sentada ): 140x60mmHg, P 76. EM pé 2 idem.
+MV normodist sem ruidos adsventicios. RCR, 2T, BNF ss++ / 6+ FAo e Mi ( +/6+.
+BEG, eupneica, acianotica, orientada, Sem edema mmii.
+HD:protese Metalica AOrtoca normofuncionante.Disfunbção diastolica.
+CD:Suspendo Espironolactona.Reduzo Sinvastatina para 10mg / noite. ACrescento Omeprazol 20 -1x d. Retonro em 6m com lab.
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E1" spans="82~94" text="Enalapril 10" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="111~122" text="Atenolol 50" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="138~156" text="Espironolactona 25" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="164~179" text="Sinvastatina 20" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="192~202" text="Calcio 500" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="210~219" text="Marevan 5" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="222~233" text="amb da ACXO" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="235~247" text="Trazodona 25" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="254~272" text="Dispnia esporadica" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="274~293" text="edema mmii eventual" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="299~309" text="palpitação" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="311~323" text="dor toracica" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="331~344" text="epigastralgia" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="349~357" text="melhoram" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="362~373" text="paracetamol" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="375~378" text="Lab" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="391~397" text="Hbglic" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="404~407" text="TSH" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="414~416" text="Hb" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="423~425" text="VG" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="430~435" text="leuco" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="442~446" text="plaq" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="455~462" text="Urina I" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="468~469" text="K" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="475~477" text="Cr" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="483~486" text="Gli" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="491~492" text="U" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="497~500" text="Tri" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="505~511" text="HDL- C" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="516~520" text="ColT" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E31" spans="526~532" text="LDL- C" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E32" spans="537~546" text="Ecocardio" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E33" spans="607~618" text="calcificada" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E34" spans="620~636" text="refluxo discreto" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E35" spans="638~675" text="VAo protese metalica com espessamento" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E36" spans="679~695" text="relfuxo discreto" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E37" spans="747~763" text="refluxo discreto" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E38" spans="781~798" text="VP refluxo minimo" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E39" spans="800~816" text="VE hipertrofiado" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E40" spans="836~850" text="PA ( sentada )" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E41" spans="901~920" text="ruidos adsventicios" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E42" spans="935~948" text="ss++ / 6+ FAo" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E43" spans="951~960" text="Mi ( +/6+" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E45" spans="1061~1082" text="Disfunbção diastolica" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E46" spans="1087~1095" text="Suspendo" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E48" spans="1096~1111" text="Espironolactona" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E49" spans="1112~1118" text="Reduzo" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E51" spans="1162~1174" text="Omeprazol 20" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E52" spans="1182~1189" text="Retonro" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E53" spans="1200~1203" text="lab" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E54" spans="43~67" text="Protese Metalica Aortica" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E55" spans="1004~1014" text="edema mmii" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E57" spans="864~865" text="P" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E44" spans="1119~1141" text="Sinvastatina para 10mg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="71~75" text="2004" Type="Date" Value="2004" Mod="NA" />
+<TIMEX3 id="T1" spans="97~108" text="2cp - 12/12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="2" />
+<TIMEX3 id="T2" spans="125~136" text="1cp = 12/12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="1" />
+<TIMEX3 id="T3" spans="159~162" text="1xd" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="182~190" text="1x noite" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="205~209" text="3x d" Type="Set" Value="P1D" Mod="NA" Freq="3X" Cps="NA" />
+<TIMEX3 id="T6" spans="248~252" text="1x d" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T7" spans="380~388" text="21/01/16" Type="Date" Value="2016-01-21" Mod="NA" />
+<TIMEX3 id="T8" spans="548~556" text="04/12/15" Type="Date" Value="2015-12-04" Mod="NA" />
+<TIMEX3 id="T9" spans="1142~1149" text="/ noite" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T10" spans="1176~1180" text="1x d" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T11" spans="1190~1195" text="em 6m" Type="Date" Value="2016-08-12" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="2004" toID="E54" toText="Protese Metalica Aortica" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E1" fromText="Enalapril 10" toID="T1" toText="2cp - 12/12" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E2" fromText="Atenolol 50" toID="T2" toText="1cp = 12/12" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E3" fromText="Espironolactona 25" toID="T3" toText="1xd" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E4" fromText="Sinvastatina 20" toID="T4" toText="1x noite" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E5" fromText="Calcio 500" toID="T5" toText="3x d" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E6" fromText="Marevan 5" toID="E7" toText="amb da ACXO" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E8" fromText="Trazodona 25" toID="T6" toText="1x d" Relação_Temporal="OVERLAP" />
+<RELATION id="R8" fromID="E12" fromText="dor toracica" toID="E14" toText="melhoram" Relação_Temporal="OVERLAP" />
+<RELATION id="R9" fromID="E12" fromText="dor toracica" toID="E13" toText="epigastralgia" Relação_Temporal="OVERLAP" />
+<RELATION id="R10" fromID="E12" fromText="dor toracica" toID="E15" toText="paracetamol" Relação_Temporal="OVERLAP" />
+<RELATION id="R11" fromID="T7" fromText="21/01/16" toID="E16" toText="Lab" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="E16" fromText="Lab" toID="E17" toText="Hbglic" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E16" fromText="Lab" toID="E18" toText="TSH" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="E16" fromText="Lab" toID="E19" toText="Hb" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="E16" fromText="Lab" toID="E20" toText="VG" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="E16" fromText="Lab" toID="E21" toText="leuco" Relação_Temporal="CONTAINS" />
+<RELATION id="R17" fromID="E16" fromText="Lab" toID="E22" toText="plaq" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="E16" fromText="Lab" toID="E23" toText="Urina I" Relação_Temporal="CONTAINS" />
+<RELATION id="R19" fromID="E16" fromText="Lab" toID="E24" toText="K" Relação_Temporal="CONTAINS" />
+<RELATION id="R20" fromID="E16" fromText="Lab" toID="E25" toText="Cr" Relação_Temporal="CONTAINS" />
+<RELATION id="R21" fromID="E16" fromText="Lab" toID="E26" toText="Gli" Relação_Temporal="CONTAINS" />
+<RELATION id="R22" fromID="E16" fromText="Lab" toID="E27" toText="U" Relação_Temporal="CONTAINS" />
+<RELATION id="R23" fromID="E16" fromText="Lab" toID="E28" toText="Tri" Relação_Temporal="CONTAINS" />
+<RELATION id="R24" fromID="E16" fromText="Lab" toID="E29" toText="HDL- C" Relação_Temporal="CONTAINS" />
+<RELATION id="R25" fromID="E16" fromText="Lab" toID="E30" toText="ColT" Relação_Temporal="CONTAINS" />
+<RELATION id="R26" fromID="E16" fromText="Lab" toID="E31" toText="LDL- C" Relação_Temporal="CONTAINS" />
+<RELATION id="R27" fromID="T8" fromText="04/12/15" toID="E32" toText="Ecocardio" Relação_Temporal="CONTAINS" />
+<RELATION id="R28" fromID="E32" fromText="Ecocardio" toID="E33" toText="calcificada" Relação_Temporal="CONTAINS" />
+<RELATION id="R29" fromID="E32" fromText="Ecocardio" toID="E34" toText="refluxo discreto" Relação_Temporal="CONTAINS" />
+<RELATION id="R30" fromID="E32" fromText="Ecocardio" toID="E35" toText="VAo protese metalica com espessamento" Relação_Temporal="CONTAINS" />
+<RELATION id="R31" fromID="E32" fromText="Ecocardio" toID="E36" toText="relfuxo discreto" Relação_Temporal="CONTAINS" />
+<RELATION id="R32" fromID="E32" fromText="Ecocardio" toID="E37" toText="refluxo discreto" Relação_Temporal="CONTAINS" />
+<RELATION id="R33" fromID="E32" fromText="Ecocardio" toID="E38" toText="VP refluxo minimo" Relação_Temporal="CONTAINS" />
+<RELATION id="R34" fromID="E32" fromText="Ecocardio" toID="E39" toText="VE hipertrofiado" Relação_Temporal="CONTAINS" />
+<RELATION id="R35" fromID="E46" fromText="Suspendo" toID="E48" toText="Espironolactona" Relação_Temporal="OVERLAP" />
+<RELATION id="R36" fromID="E49" fromText="Reduzo" toID="E44" toText="Sinvastatina para 10mg" Relação_Temporal="OVERLAP" />
+<RELATION id="R37" fromID="E44" fromText="Sinvastatina para 10mg" toID="T9" toText="/ noite" Relação_Temporal="OVERLAP" />
+<RELATION id="R38" fromID="E51" fromText="Omeprazol 20" toID="T10" toText="1x d" Relação_Temporal="OVERLAP" />
+<RELATION id="R39" fromID="E52" fromText="Retonro" toID="E53" toText="lab" Relação_Temporal="CONTAINS" />
+<RELATION id="R40" fromID="T11" fromText="em 6m" toID="E52" toText="Retonro" Relação_Temporal="CONTAINS" />
+<RELATION id="R41" fromID="E13" fromText="epigastralgia" toID="E15" toText="paracetamol" Relação_Temporal="OVERLAP" />
+<RELATION id="R42" fromID="E13" fromText="epigastralgia" toID="E14" toText="melhoram" Relação_Temporal="OVERLAP" />
+<RELATION id="R43" fromID="E14" fromText="melhoram" toID="E15" toText="paracetamol" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

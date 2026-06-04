@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 09/06/2014
+
+
+AMBULATORIO DO TAP
+- PACIENTE NÃO ESTAVA PRESENTE NA CONSULTA, APENAS FAMILIAR
+- POSOLOGIA E RETORNO NA CARTEIRINHA
+- RNI 6,0, SEM SINAIS DE SANGRAMENTO - EM USO DE ATB
+- ORIENTADO SUSPENDER MEDICAÇÃO E RETORNO NO DIA 13/06/14
+- ORIENTADO LEVAR PACIENTE AO CMUM OU NA UDT DA SANTA CASA, CASO HAJA ALGUM TIPO DE SANGRAMENTO
+R3 CARDIO 
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="43~61" text="AMBULATORIO DO TAP" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E1" spans="96~104" text="CONSULTA" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E2" spans="136~143" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E3" spans="161~164" text="RNI" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="174~195" text="SINAIS DE SANGRAMENTO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="208~211" text="ATB" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="224~233" text="SUSPENDER" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E7" spans="234~243" text="MEDICAÇÃO" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E8" spans="246~253" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E9" spans="300~304" text="CMUM" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Não-Factual" Relação_DCT="Depois" />
+<EVENT id="E10" spans="311~328" text="UDT DA SANTA CASA" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Não-Factual" Relação_DCT="Depois" />
+<EVENT id="E11" spans="354~365" text="SANGRAMENTO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Não-Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="261~269" text="13/06/14" Type="Date" Value="2014-06-13" Mod="NA" />
+<RELATION id="R0" fromID="E0" fromText="AMBULATORIO DO TAP" toID="E1" toText="CONSULTA" Relação_Temporal="OVERLAP" />
+<RELATION id="R1" fromID="E6" fromText="SUSPENDER" toID="E7" toText="MEDICAÇÃO" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="T0" fromText="13/06/14" toID="E8" toText="RETORNO" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="E9" fromText="CMUM" toID="E11" toText="SANGRAMENTO" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E10" fromText="UDT DA SANTA CASA" toID="E11" toText="SANGRAMENTO" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

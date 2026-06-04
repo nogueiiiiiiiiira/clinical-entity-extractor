@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># Lucas, 78 anos  * HAS, * Gota, * DAC - IAM + ATC em 2012 (angina instavel)  - Ecocardiograma mar/14: FE 42% / comprometimento difuso do VE grau moderado, insuf Mi discreta, insuf Tri discreta, hipetensao pulmonar discreta.  Paciente refere fraqueza intermitente em MMII, associada a tontura, turvação visual e epigastralgia. Nega dor toracica associada ou dispneia.  Nega DPN. Nega sincope.  Nega edema de MMII. Alimenta-se bem. Nega queixas urinarias e gastrointestinais.  Nega tabagismo atual e pregresso.  - Laboratorio Cr 1,5 / glicose 85 / ureia 70 / CPK 161 / acido urico 5,3 / TG 107 / TGP 23 / HDL 38 / Na 143 / TGO 26 / CT 103 / LDL 44 / K 5,1 / HB 16,1 / leucocitos 6800 / plaquetas 116000 / - Albumina/Cr isolada = 174,3 *** CKD 44; Paciente encaminhado via UBS para nefrologia - aguarda consulta.  Em uso de: alopurinol 150mg /dia, anlodipino 5mg /noite, enalapril 10mg 12/12 h, selozok 100mg /dia, AAS 100mg /dia, clopidogrel 75mg /dia, sinvastatina 40mg /dia, colecalciferol 10 gotas /semana.  Ao exame: PA: 90/60 mmHg / FC 55 bpm, BCRNF, SS, MV + bilateralmente, sem RA, MMII edema +/IV bilateral.  ##  Reduzimos anlodipino para 2,5mg /dia. Suspendemos clopidogrel. Mantemos demais medicações. Retorno em 10 meses com a cardio com novos exames. Encaminhado à nefrologia.  R1 CM Lucas, Dr Fortes. * HAS * Gota * DAC - IAM + ATC em 2012 (angina instavel).</TEXT>
+<TAGS>
+<annotation id="21443" tag="Disease or Syndrome|Abbreviation" start="20" end="23" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="21444" tag="Disease or Syndrome" start="27" end="31" text="Gota" abbr="" />
+<annotation id="21445" tag="Disease or Syndrome|Abbreviation" start="35" end="38" text="DAC" abbr="doença arterial coronariana" />
+<annotation id="21446" tag="Disease or Syndrome|Abbreviation" start="41" end="44" text="IAM" abbr="infarto agudo do miocárdio" />
+<annotation id="21447" tag="Therapeutic or Preventive Procedure|Abbreviation" start="47" end="50" text="ATC" abbr="angioplastia transluminal coronariana" />
+<annotation id="21448" tag="Diagnostic Procedure" start="80" end="94" text="Ecocardiograma" abbr="" />
+<annotation id="21449" tag="Patient or Disabled Group|Patient or Disabled Group" start="226" end="234" text="Paciente" abbr="" />
+<annotation id="21450" tag="Abbreviation|Body Location or Region|Abbreviation" start="267" end="271" text="MMII" abbr="membros inferiores" />
+<annotation id="21451" tag="Sign or Symptom" start="312" end="325" text="epigastralgia" abbr="" />
+<annotation id="21452" tag="Negation" start="327" end="331" text="Nega" abbr="" />
+<annotation id="21453" tag="Sign or Symptom" start="358" end="366" text="dispneia" abbr="" />
+<annotation id="21454" tag="Negation" start="369" end="373" text="Nega" abbr="" />
+<annotation id="21455" tag="Sign or Symptom|Abbreviation" start="374" end="377" text="DPN" abbr="dispneia paroxística noturna" />
+<annotation id="21456" tag="Negation" start="379" end="383" text="Nega" abbr="" />
+<annotation id="21457" tag="Sign or Symptom" start="384" end="391" text="sincope" abbr="" />
+<annotation id="21458" tag="Negation" start="394" end="398" text="Nega" abbr="" />
+<annotation id="21459" tag="Pathologic Function|Sign or Symptom" start="399" end="404" text="edema" abbr="" />
+<annotation id="21460" tag="Body Location or Region|Abbreviation|Abbreviation" start="408" end="412" text="MMII" abbr="membros inferiores" />
+<annotation id="21461" tag="Negation" start="431" end="435" text="Nega" abbr="" />
+<annotation id="21462" tag="Sign or Symptom" start="436" end="443" text="queixas" abbr="" />
+<annotation id="21463" tag="Body System" start="444" end="453" text="urinarias" abbr="" />
+<annotation id="21464" tag="Body System" start="456" end="473" text="gastrointestinais" abbr="" />
+<annotation id="21465" tag="Negation" start="476" end="480" text="Nega" abbr="" />
+<annotation id="21466" tag="Disease or Syndrome" start="481" end="490" text="tabagismo" abbr="" />
+<annotation id="21467" tag="Laboratory Procedure" start="513" end="524" text="Laboratorio" abbr="" />
+<annotation id="21468" tag="Patient or Disabled Group|Patient or Disabled Group" start="746" end="754" text="Paciente" abbr="" />
+<annotation id="21469" tag="Health Care Activity" start="755" end="766" text="encaminhado" abbr="" />
+<annotation id="21470" tag="Health Care Related Organization|Abbreviation" start="771" end="774" text="UBS" abbr="" />
+<annotation id="21471" tag="Professional or Occupational Group" start="780" end="790" text="nefrologia" abbr="" />
+<annotation id="21472" tag="Organic Chemical|Pharmacologic Substance" start="823" end="833" text="alopurinol" abbr="" />
+<annotation id="21473" tag="Pharmacologic Substance|Organic Chemical" start="846" end="856" text="anlodipino" abbr="" />
+<annotation id="21474" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="869" end="878" text="enalapril" abbr="" />
+<annotation id="21475" tag="Pharmacologic Substance" start="893" end="900" text="selozok" abbr="" />
+<annotation id="21476" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="913" end="916" text="AAS" abbr="" />
+<annotation id="21477" tag="Organic Chemical|Pharmacologic Substance" start="929" end="940" text="clopidogrel" abbr="" />
+<annotation id="21478" tag="Organic Chemical|Pharmacologic Substance" start="952" end="964" text="sinvastatina" abbr="" />
+<annotation id="21479" tag="Pharmacologic Substance|Organic Chemical|Vitamin" start="976" end="990" text="colecalciferol" abbr="" />
+<annotation id="21480" tag="Diagnostic Procedure" start="1013" end="1018" text="exame" abbr="" />
+<annotation id="21481" tag="Abbreviation|Clinical Attribute" start="1020" end="1022" text="PA" abbr="" />
+<annotation id="21482" tag="Clinical Attribute|Abbreviation" start="1037" end="1039" text="FC" abbr="fraquencia cardíaca" />
+<annotation id="21483" tag="Finding|Abbreviation" start="1048" end="1053" text="BCRNF" abbr="bulhas cardíacas rítmicas normofonéticas" />
+<annotation id="21484" tag="Finding|Abbreviation" start="1055" end="1057" text="SS" abbr="" />
+<annotation id="21485" tag="Negation" start="1080" end="1083" text="sem" abbr="" />
+<annotation id="21486" tag="Sign or Symptom" start="1084" end="1086" text="RA" abbr="" />
+<annotation id="21487" tag="Abbreviation|Body Location or Region" start="1088" end="1092" text="MMII" abbr="" />
+<annotation id="21488" tag="Spatial Concept" start="1104" end="1113" text="bilateral" abbr="" />
+<annotation id="21489" tag="Pharmacologic Substance" start="1130" end="1140" text="anlodipino" abbr="" />
+<annotation id="21490" tag="Pharmacologic Substance" start="1199" end="1209" text="medicações" abbr="" />
+<annotation id="21491" tag="Health Care Activity" start="1211" end="1218" text="Retorno" abbr="" />
+<annotation id="21492" tag="Abbreviation" start="1237" end="1243" text="cardio" abbr="" />
+<annotation id="21493" tag="Health Care Activity" start="1262" end="1273" text="Encaminhado" abbr="" />
+<annotation id="21494" tag="Professional or Occupational Group" start="1276" end="1286" text="nefrologia" abbr="" />
+<annotation id="21495" tag="Abbreviation|Disease or Syndrome" start="1315" end="1318" text="HAS" abbr="" />
+<annotation id="21496" tag="Disease or Syndrome" start="1321" end="1325" text="Gota" abbr="" />
+<annotation id="21497" tag="Disease or Syndrome|Abbreviation" start="1328" end="1331" text="DAC" abbr="doença arterial coronariana" />
+<annotation id="21498" tag="Abbreviation|Disease or Syndrome" start="1334" end="1337" text="IAM" abbr="" />
+<annotation id="21499" tag="Therapeutic or Preventive Procedure|Abbreviation" start="1340" end="1343" text="ATC" abbr="angioplastia transluminal coronariana" />
+<annotation id="21500" tag="Disease or Syndrome" start="60" end="75" text="angina instavel" />
+<annotation id="21501" tag="Abbreviation|Laboratory or Test Result" start="103" end="109" text="FE 42%" />
+<annotation id="21502" tag="Abbreviation|Laboratory or Test Result" start="112" end="154" text="comprometimento difuso do VE grau moderado" />
+<annotation id="21503" tag="Laboratory or Test Result|Abbreviation" start="156" end="173" text="insuf Mi discreta" />
+<annotation id="21504" tag="Abbreviation|Laboratory or Test Result" start="175" end="193" text="insuf Tri discreta" />
+<annotation id="21505" tag="Laboratory or Test Result" start="195" end="223" text="hipetensao pulmonar discreta" />
+<annotation id="21506" tag="Sign or Symptom" start="242" end="263" text="fraqueza intermitente" />
+<annotation id="21507" tag="Sign or Symptom" start="273" end="292" text="associada a tontura" />
+<annotation id="21508" tag="Sign or Symptom" start="294" end="309" text="turvação visual" />
+<annotation id="21509" tag="Sign or Symptom" start="332" end="354" text="dor toracica associada" />
+<annotation id="21510" tag="Finding" start="414" end="429" text="Alimenta-se bem" />
+<annotation id="21511" tag="Temporal Concept" start="491" end="508" text="atual e pregresso" />
+<annotation id="21512" tag="Laboratory or Test Result" start="525" end="531" text="Cr 1 , 5" />
+<annotation id="21513" tag="Laboratory or Test Result" start="534" end="544" text="glicose 85" />
+<annotation id="21514" tag="Laboratory or Test Result" start="547" end="555" text="ureia 70" />
+<annotation id="21515" tag="Laboratory or Test Result" start="558" end="565" text="CPK 161" />
+<annotation id="21516" tag="Laboratory or Test Result" start="568" end="583" text="acido urico 5 , 3" />
+<annotation id="21517" tag="Laboratory or Test Result" start="586" end="592" text="TG 107" />
+<annotation id="21518" tag="Laboratory or Test Result" start="595" end="601" text="TGP 23" />
+<annotation id="21519" tag="Laboratory or Test Result" start="604" end="610" text="HDL 38" />
+<annotation id="21520" tag="Laboratory or Test Result" start="613" end="619" text="Na 143" />
+<annotation id="21521" tag="Laboratory or Test Result" start="622" end="628" text="TGO 26" />
+<annotation id="21522" tag="Laboratory or Test Result" start="631" end="637" text="CT 103" />
+<annotation id="21523" tag="Laboratory or Test Result" start="640" end="646" text="LDL 44" />
+<annotation id="21524" tag="Laboratory or Test Result" start="649" end="654" text="K 5 , 1" />
+<annotation id="21525" tag="Laboratory or Test Result" start="657" end="664" text="HB 16 , 1" />
+<annotation id="21526" tag="Laboratory or Test Result" start="667" end="682" text="leucocitos 6800" />
+<annotation id="21527" tag="Laboratory or Test Result" start="685" end="701" text="plaquetas 116000" />
+<annotation id="21528" tag="Laboratory or Test Result" start="706" end="733" text="Albumina/Cr isolada = 174 , 3" />
+<annotation id="21529" tag="Laboratory or Test Result" start="738" end="744" text="CKD 44" />
+<annotation id="21530" tag="Finding" start="793" end="809" text="aguarda consulta" />
+<annotation id="21531" tag="Quantitative Concept" start="834" end="844" text="150mg /dia" />
+<annotation id="21532" tag="Quantitative Concept" start="857" end="867" text="5mg /noite" />
+<annotation id="21533" tag="Quantitative Concept|Temporal Concept" start="884" end="891" text="12/12 h" />
+<annotation id="21534" tag="Temporal Concept|Quantitative Concept" start="991" end="1007" text="10 gotas /semana" />
+<annotation id="21535" tag="Quantitative Concept" start="1024" end="1034" text="90/60 mmHg" />
+<annotation id="21536" tag="Quantitative Concept" start="1040" end="1046" text="55 bpm" />
+<annotation id="21537" tag="Abbreviation|Finding" start="1059" end="1078" text="MV + bilateralmente" />
+<annotation id="21538" tag="Health Care Activity" start="1158" end="1181" text="Suspendemos clopidogrel" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="21452" annotation2="21453" reltype="negation_of" />
+<rel annotation1="21454" annotation2="21455" reltype="negation_of" />
+<rel annotation1="21456" annotation2="21457" reltype="negation_of" />
+<rel annotation1="21458" annotation2="21459" reltype="negation_of" />
+<rel annotation1="21460" annotation2="21459" reltype="associated_with" />
+<rel annotation1="21461" annotation2="21462" reltype="negation_of" />
+<rel annotation1="21465" annotation2="21466" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

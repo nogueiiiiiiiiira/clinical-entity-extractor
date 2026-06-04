@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 56 anos
+# HAS
+# ABLAÇÃO DE TAQUICARDIA ATRIAL 2009 E A SEGUNDA EM 2010
+# CATETERISMO COM AUSENCIA DE CORONARIOPATIA
+# ANALFABETISMO
+FAZ USO DE ATENOLOL 100MG 12/12H, DILTIAZEN 60MG 8/8H, ENALAPRIL 10MG 12/12H, HCTZ 25MG, MAREVAN 7,5MG.
+S # última consulta em Março/15. Mantendo-se assintomático. Traz exames.
+Lab 13/5/15: PU sp,  HG sp,  Hb1AC 5%,  Cr 1,0;  HDL 50,  Ur 22,  TG 82,  LDL 202,  Glic 88,  CT 268,  AU 4,1;  T4l 1,02;  TSH 1,19;  PSA total 0,8.
+Holter 11/5/15: normal.
+ETT 12/5/15: AE 36,  FE 64%,  Disfunção diastólica grau I.
+O # BEG, normocorado, hidratado, FC 64, PA 110X80.
+AC 2t ss.
+Conforme discutido com Doutor Vital Brazil : Suspenso marevan, demais medicamentos mantidos.
+Retorno em 1 ano.
+
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="29427" tag="Abbreviation|Disease or Syndrome" start="18" end="21" text="HAS" abbr="" />
+<annotation id="29428" tag="Temporal Concept" start="55" end="59" text="2009" abbr="" />
+<annotation id="29429" tag="Quantitative Concept" start="64" end="71" text="SEGUNDA" abbr="" />
+<annotation id="29430" tag="Temporal Concept" start="75" end="79" text="2010" abbr="" />
+<annotation id="29431" tag="Diagnostic Procedure|Therapeutic or Preventive Procedure" start="83" end="94" text="CATETERISMO" abbr="" />
+<annotation id="29432" tag="Negation" start="99" end="107" text="AUSENCIA" abbr="" />
+<annotation id="29433" tag="Disease or Syndrome" start="111" end="125" text="CORONARIOPATIA" abbr="" />
+<annotation id="29434" tag="Finding" start="129" end="142" text="ANALFABETISMO" abbr="" />
+<annotation id="29435" tag="Organic Chemical|Pharmacologic Substance" start="155" end="163" text="ATENOLOL" abbr="" />
+<annotation id="29436" tag="Quantitative Concept" start="164" end="169" text="100MG" abbr="" />
+<annotation id="29437" tag="Temporal Concept" start="170" end="176" text="12/12H" abbr="" />
+<annotation id="29438" tag="Pharmacologic Substance|Organic Chemical" start="178" end="187" text="DILTIAZEN" abbr="" />
+<annotation id="29439" tag="Quantitative Concept" start="188" end="192" text="60MG" abbr="" />
+<annotation id="29440" tag="Temporal Concept" start="193" end="197" text="8/8H" abbr="" />
+<annotation id="29441" tag="Pharmacologic Substance" start="199" end="208" text="ENALAPRIL" abbr="" />
+<annotation id="29442" tag="Quantitative Concept" start="209" end="213" text="10MG" abbr="" />
+<annotation id="29443" tag="Temporal Concept" start="214" end="220" text="12/12H" abbr="" />
+<annotation id="29444" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="222" end="226" text="HCTZ" abbr="hidroclorotiazida" />
+<annotation id="29445" tag="Quantitative Concept" start="227" end="231" text="25MG" abbr="" />
+<annotation id="29446" tag="Organic Chemical|Pharmacologic Substance" start="233" end="240" text="MAREVAN" abbr="" />
+<annotation id="29447" tag="Finding|Abbreviation" start="249" end="250" text="S" abbr="" />
+<annotation id="29448" tag="Temporal Concept" start="253" end="259" text="última" abbr="" />
+<annotation id="29449" tag="Health Care Activity" start="260" end="268" text="consulta" abbr="" />
+<annotation id="29450" tag="Negation|Sign or Symptom" start="294" end="307" text="assintomático" abbr="" />
+<annotation id="29451" tag="Diagnostic Procedure" start="314" end="320" text="exames" abbr="" />
+<annotation id="29452" tag="Laboratory Procedure|Abbreviation" start="323" end="326" text="Lab" abbr="exame laboratorial" />
+<annotation id="29453" tag="Laboratory Procedure" start="336" end="338" text="PU" abbr="" />
+<annotation id="29454" tag="Negation|Sign or Symptom" start="339" end="341" text="sp" abbr="" />
+<annotation id="29455" tag="Negation|Sign or Symptom" start="347" end="349" text="sp" abbr="" />
+<annotation id="29456" tag="Diagnostic Procedure" start="473" end="479" text="Holter" abbr="" />
+<annotation id="29457" tag="Laboratory or Test Result|Finding" start="489" end="495" text="normal" abbr="" />
+<annotation id="29458" tag="Diagnostic Procedure|Abbreviation" start="498" end="501" text="ETT" abbr="ecocardiograma trans esofágico" />
+<annotation id="29459" tag="Health Care Activity|Abbreviation" start="558" end="559" text="O" abbr="" />
+<annotation id="29460" tag="Abbreviation|Finding" start="562" end="565" text="BEG" abbr="" />
+<annotation id="29461" tag="Finding" start="567" end="578" text="normocorado" abbr="" />
+<annotation id="29462" tag="Finding" start="580" end="589" text="hidratado" abbr="" />
+<annotation id="29463" tag="Clinical Attribute|Abbreviation" start="591" end="593" text="FC" abbr="frequência cardíaca" />
+<annotation id="29464" tag="Quantitative Concept" start="594" end="596" text="64" abbr="" />
+<annotation id="29465" tag="Clinical Attribute|Abbreviation" start="598" end="600" text="PA" abbr="pressão arterial" />
+<annotation id="29466" tag="Quantitative Concept" start="601" end="607" text="110X80" abbr="" />
+<annotation id="29467" tag="Abbreviation|Diagnostic Procedure" start="610" end="612" text="AC" abbr="" />
+<annotation id="29468" tag="Negation|Sign or Symptom" start="616" end="618" text="ss" abbr="" />
+<annotation id="29469" tag="Health Care Activity" start="666" end="674" text="Suspenso" abbr="" />
+<annotation id="29470" tag="Organic Chemical|Pharmacologic Substance" start="675" end="682" text="marevan" abbr="" />
+<annotation id="29471" tag="Pharmacologic Substance" start="691" end="703" text="medicamentos" abbr="" />
+<annotation id="29472" tag="Therapeutic or Preventive Procedure" start="25" end="54" text="ABLAÇÃO DE TAQUICARDIA ATRIAL" />
+<annotation id="29473" tag="Quantitative Concept" start="241" end="246" text="7 , 5MG" />
+<annotation id="29474" tag="Abbreviation|Laboratory or Test Result" start="352" end="360" text="Hb1AC 5%" />
+<annotation id="29475" tag="Abbreviation|Laboratory or Test Result" start="363" end="369" text="Cr 1 , 0" />
+<annotation id="29476" tag="Laboratory or Test Result" start="372" end="378" text="HDL 50" />
+<annotation id="29477" tag="Abbreviation|Laboratory or Test Result" start="381" end="386" text="Ur 22" />
+<annotation id="29478" tag="Abbreviation|Laboratory or Test Result" start="389" end="394" text="TG 82" />
+<annotation id="29479" tag="Laboratory or Test Result" start="397" end="404" text="LDL 202" />
+<annotation id="29480" tag="Abbreviation|Laboratory or Test Result" start="407" end="414" text="Glic 88" />
+<annotation id="29481" tag="Abbreviation|Laboratory or Test Result" start="417" end="423" text="CT 268" />
+<annotation id="29482" tag="Laboratory or Test Result" start="426" end="432" text="AU 4 , 1" />
+<annotation id="29483" tag="Laboratory or Test Result" start="435" end="443" text="T4l 1 , 02" />
+<annotation id="29484" tag="Laboratory or Test Result" start="446" end="454" text="TSH 1 , 19" />
+<annotation id="29485" tag="Laboratory or Test Result" start="457" end="470" text="PSA total 0 , 8" />
+<annotation id="29486" tag="Abbreviation|Laboratory or Test Result" start="511" end="516" text="AE 36" />
+<annotation id="29487" tag="Abbreviation|Laboratory or Test Result" start="519" end="525" text="FE 64%" />
+<annotation id="29488" tag="Laboratory or Test Result|Disease or Syndrome" start="528" end="555" text="Disfunção diastólica grau I" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="29429" annotation2="29430" reltype="associated_with" />
+<rel annotation1="29432" annotation2="29433" reltype="associated_with" />
+<rel annotation1="29433" annotation2="29431" reltype="associated_with" />
+<rel annotation1="29435" annotation2="29436" reltype="associated_with" />
+<rel annotation1="29435" annotation2="29437" reltype="associated_with" />
+<rel annotation1="29438" annotation2="29439" reltype="associated_with" />
+<rel annotation1="29438" annotation2="29440" reltype="associated_with" />
+<rel annotation1="29441" annotation2="29442" reltype="associated_with" />
+<rel annotation1="29441" annotation2="29443" reltype="associated_with" />
+<rel annotation1="29444" annotation2="29445" reltype="associated_with" />
+<rel annotation1="29448" annotation2="29449" reltype="associated_with" />
+<rel annotation1="29452" annotation2="29451" reltype="associated_with" />
+<rel annotation1="29453" annotation2="29452" reltype="associated_with" />
+<rel annotation1="29453" annotation2="29454" reltype="associated_with" />
+<rel annotation1="29456" annotation2="29457" reltype="associated_with" />
+<rel annotation1="29458" annotation2="29486" reltype="associated_with" />
+<rel annotation1="29458" annotation2="29487" reltype="associated_with" />
+<rel annotation1="29458" annotation2="29488" reltype="associated_with" />
+<rel annotation1="29463" annotation2="29464" reltype="associated_with" />
+<rel annotation1="29465" annotation2="29466" reltype="associated_with" />
+<rel annotation1="29467" annotation2="29468" reltype="associated_with" />
+<rel annotation1="29469" annotation2="29470" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

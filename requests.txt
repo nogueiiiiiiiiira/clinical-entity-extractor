@@ -1,0 +1,7 @@
+pandas
+openpyxl
+unidecode
+scikit-learn
+rapidfuzz
+requests
+ollama

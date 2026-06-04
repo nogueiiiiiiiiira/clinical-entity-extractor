@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Pcte relata síncope há 30 dias mais com o calor.
+pródromos: tontura e sudorese e escurecimento visual.
+Duração de segundos há 3 minutos.
+Nega confusão mental ou salivação após.
+Nega uso de medicação.
+Nega outros sintomas.
+HF - p cardiopatia.
+ECG: DCRD.
+PA 110x70.
+AC bnf em 2t e ss.
+AP mv+ simetrico s ra.
+Abd sp.
+mmii s edema.
+Vaso vagal?
+
+c # ecocardio, holter e TE.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="33769" tag="Patient or Disabled Group|Abbreviation" start="0" end="4" text="Pcte" abbr="paciente" />
+<annotation id="33770" tag="Sign or Symptom" start="12" end="19" text="síncope" abbr="" />
+<annotation id="33771" tag="Sign or Symptom" start="50" end="59" text="pródromos" abbr="" />
+<annotation id="33772" tag="Sign or Symptom" start="61" end="68" text="tontura" abbr="" />
+<annotation id="33773" tag="Sign or Symptom" start="71" end="79" text="sudorese" abbr="" />
+<annotation id="33774" tag="Negation" start="140" end="144" text="Nega" abbr="" />
+<annotation id="33775" tag="Sign or Symptom" start="164" end="173" text="salivação" abbr="" />
+<annotation id="33776" tag="Temporal Concept" start="174" end="178" text="após" abbr="" />
+<annotation id="33777" tag="Negation" start="181" end="185" text="Nega" abbr="" />
+<annotation id="33778" tag="Pharmacologic Substance" start="193" end="202" text="medicação" abbr="" />
+<annotation id="33779" tag="Negation" start="205" end="209" text="Nega" abbr="" />
+<annotation id="33780" tag="Sign or Symptom" start="217" end="225" text="sintomas" abbr="" />
+<annotation id="33781" tag="Finding|Abbreviation" start="228" end="230" text="HF" abbr="história familiar" />
+<annotation id="33782" tag="Disease or Syndrome" start="235" end="246" text="cardiopatia" abbr="" />
+<annotation id="33783" tag="Diagnostic Procedure|Abbreviation" start="249" end="252" text="ECG" abbr="ecocardiograma" />
+<annotation id="33784" tag="Abbreviation|Laboratory or Test Result" start="254" end="258" text="DCRD" abbr="" />
+<annotation id="33785" tag="Abbreviation|Clinical Attribute" start="261" end="263" text="PA" abbr="" />
+<annotation id="33786" tag="Quantitative Concept" start="264" end="270" text="110x70" abbr="" />
+<annotation id="33787" tag="Abbreviation|Diagnostic Procedure" start="273" end="275" text="AC" abbr="" />
+<annotation id="33788" tag="Abbreviation|Diagnostic Procedure" start="293" end="295" text="AP" abbr="" />
+<annotation id="33789" tag="Abbreviation|Negation" start="310" end="311" text="s" abbr="" />
+<annotation id="33790" tag="Sign or Symptom|Abbreviation" start="312" end="314" text="ra" abbr="ruídos hidroaéreos" />
+<annotation id="33791" tag="Abbreviation|Body Part, Organ, or Organ Component" start="317" end="320" text="Abd" abbr="" />
+<annotation id="33792" tag="Abbreviation|Finding" start="321" end="323" text="sp" abbr="" />
+<annotation id="33793" tag="Body Part, Organ, or Organ Component|Abbreviation" start="326" end="330" text="mmii" abbr="membros inferiores" />
+<annotation id="33794" tag="Negation|Abbreviation" start="331" end="332" text="s" abbr="sem" />
+<annotation id="33795" tag="Sign or Symptom|Pathologic Function" start="333" end="338" text="edema" abbr="" />
+<annotation id="33796" tag="Abbreviation|Intellectual Product" start="356" end="357" text="c" abbr="" />
+<annotation id="33797" tag="Abbreviation|Diagnostic Procedure" start="360" end="369" text="ecocardio" abbr="" />
+<annotation id="33798" tag="Diagnostic Procedure" start="371" end="377" text="holter" abbr="" />
+<annotation id="33799" tag="Abbreviation|Diagnostic Procedure" start="380" end="382" text="TE" abbr="" />
+<annotation id="33800" tag="Sign or Symptom" start="82" end="102" text="escurecimento visual" />
+<annotation id="33801" tag="Sign or Symptom" start="145" end="160" text="confusão mental" />
+<annotation id="33802" tag="Abbreviation|Finding" start="276" end="290" text="bnf em 2t e ss" />
+<annotation id="33803" tag="Abbreviation|Finding" start="296" end="309" text="mv+ simetrico" />
+<annotation id="33804" tag="Disease or Syndrome" start="341" end="351" text="Vaso vagal" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33774" annotation2="33801" reltype="negation_of" />
+<rel annotation1="33774" annotation2="33775" reltype="negation_of" />
+<rel annotation1="33776" annotation2="33775" reltype="associated_with" />
+<rel annotation1="33776" annotation2="33801" reltype="associated_with" />
+<rel annotation1="33777" annotation2="33778" reltype="negation_of" />
+<rel annotation1="33779" annotation2="33780" reltype="negation_of" />
+<rel annotation1="33783" annotation2="33784" reltype="associated_with" />
+<rel annotation1="33785" annotation2="33786" reltype="associated_with" />
+<rel annotation1="33787" annotation2="33802" reltype="associated_with" />
+<rel annotation1="33788" annotation2="33803" reltype="associated_with" />
+<rel annotation1="33789" annotation2="33790" reltype="negation_of" />
+<rel annotation1="33792" annotation2="33791" reltype="associated_with" />
+<rel annotation1="33793" annotation2="33795" reltype="associated_with" />
+<rel annotation1="33794" annotation2="33795" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 14/09/2015
+
+
+* ENCAMINHADO DA UBS
+Lucas, 63 ANOS
+# PERDA DE VISÃO À ESQUERDA EM 2006
+# HAS
+# HF NEGATIVA
+# MEDICAÇÕES: ENALAPRIL 10MG 12/12H
+ASSINTOMÁTICO.
+GOSTARIA DE UM CHECK-UP.
+MÉDICOS FALARAM QUE O PERDA DE VISÃO PODERIA SER POR PROBLEMAS CARDÍACOS
+PA 140/90 MMHG, FC 94 BPM
+RCR 2T SS
+MV+ BILATERAL SEM RA
+ECG: FC 75 BPM, SINUSAL, DISTÚRBIOS DE CONDUÇÃO DE RAMO DIREITO
+ECOCARDIO NORMAL
+TE NORMAL
+ALTA DO AMBULATORIO
+ACOMPANHAR NA UBS
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="45~56" text="ENCAMINHADO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="60~63" text="UBS" Pre_anotacao="Sim" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="81~106" text="PERDA DE VISÃO À ESQUERDA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="117~120" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="137~147" text="MEDICAÇÕES" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="149~163" text="ENALAPRIL 10MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="233~247" text="PERDA DE VISÃO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="264~283" text="PROBLEMAS CARDÍACOS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Não-Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="284~286" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E9" spans="300~302" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E10" spans="317~319" text="SS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E11" spans="338~340" text="RA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E12" spans="341~344" text="ECG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="346~348" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="366~404" text="DISTÚRBIOS DE CONDUÇÃO DE RAMO DIREITO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="405~414" text="ECOCARDIO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="422~424" text="TE" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="432~436" text="ALTA" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E18" spans="440~451" text="AMBULATORIO" Pre_anotacao="Sim" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E19" spans="452~462" text="ACOMPANHAR" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E20" spans="466~469" text="UBS" Pre_anotacao="Sim" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="110~114" text="2006" Type="Date" Value="2006" Mod="NA" />
+<TIMEX3 id="T1" spans="164~170" text="12/12H" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<RELATION id="R0" fromID="E0" fromText="ENCAMINHADO" toID="E1" toText="UBS" Relação_Temporal="OVERLAP" />
+<RELATION id="R1" fromID="T0" fromText="2006" toID="E2" toText="PERDA DE VISÃO À ESQUERDA" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E5" fromText="ENALAPRIL 10MG" toID="T1" toText="12/12H" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E6" fromText="PERDA DE VISÃO" toID="E7" toText="PROBLEMAS CARDÍACOS" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E12" fromText="ECG" toID="E14" toText="DISTÚRBIOS DE CONDUÇÃO DE RAMO DIREITO" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="E12" fromText="ECG" toID="E13" toText="FC" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E17" fromText="ALTA" toID="E18" toText="AMBULATORIO" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E19" fromText="ACOMPANHAR" toID="E20" toText="UBS" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

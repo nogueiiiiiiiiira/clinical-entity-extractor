@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>ID # Lucas, 60 anos.  QP # sem queixas.  HMA # Nega dispneia, palpitações, dor toracica ou outros sintomas cardíacos. Edema matinal. Acompanha no ambulatório por cardiomiopatia dilatada idiopatica e fibrilação atrial.  Comorbidades: HAS, DM e gota. Atualmente em uso furosemida 40mg 1 cp ao dia, digoxina 0,25mg 1 cp/dia, carvedilol 25mg 2 cp/dia, monocordil 20mg 2 cp/dia, hidralazina 25mg 2 cp/dia, alopurinol 300mg 1 cp/dia, colchicina 0,5mg  se dor, marevan 5mg 2 cp seg, qua e sex, sab e 1 cp nos demais, metformina 850mg 1 cp após almoço.  HMP # Já esteve na fila para transplante - mretirado por melhora clinica. CATE há aprox 2 anos - sem evidência de doença coronariana. Internado por insuficiência renal??? (inicio 2014).  Herniorrafia de parede abdominal (sangramento retroperitoneal por discrasia sanguinea) há 1 ano.  CHV # nega tabagismo e etilismo, sedentário.  HMF # mãe falecida por trombose aos 64 anos e pai falecida nefropatia com 78 anos; filhos saudáveis.  Exames: Leucocitose discreta - 10800; - segmentados 65,4; Ureia: 92; Cr: 2,1; Acido urico: 7,3; Sodio: 138; K: 5,7;  TFG (CKD-EPI): 33.</TEXT>
+<TAGS>
+<annotation id="22222" tag="Abbreviation" start="0" end="2" text="ID" abbr="identificação" />
+<annotation id="22223" tag="Finding|Abbreviation" start="22" end="24" text="QP" abbr="queixa principal" />
+<annotation id="22224" tag="Negation|Negation" start="27" end="30" text="sem" abbr="" />
+<annotation id="22225" tag="Sign or Symptom" start="31" end="38" text="queixas" abbr="" />
+<annotation id="22226" tag="Finding|Abbreviation" start="41" end="44" text="HMA" abbr="história mórbida atual" />
+<annotation id="22227" tag="Negation" start="47" end="51" text="Nega" abbr="" />
+<annotation id="22228" tag="Sign or Symptom" start="52" end="60" text="dispneia" abbr="" />
+<annotation id="22229" tag="Sign or Symptom" start="62" end="73" text="palpitações" abbr="" />
+<annotation id="22230" tag="Health Care Related Organization" start="146" end="157" text="ambulatório" abbr="" />
+<annotation id="22231" tag="Abbreviation|Disease or Syndrome" start="233" end="236" text="HAS" abbr="" />
+<annotation id="22232" tag="Abbreviation|Disease or Syndrome" start="238" end="240" text="DM" abbr="" />
+<annotation id="22233" tag="Disease or Syndrome" start="243" end="247" text="gota" abbr="" />
+<annotation id="22234" tag="Organic Chemical|Pharmacologic Substance" start="267" end="277" text="furosemida" abbr="" />
+<annotation id="22235" tag="Organic Chemical|Pharmacologic Substance" start="296" end="304" text="digoxina" abbr="" />
+<annotation id="22236" tag="Pharmacologic Substance|Organic Chemical" start="322" end="332" text="carvedilol" abbr="" />
+<annotation id="22237" tag="Pharmacologic Substance|Organic Chemical" start="348" end="358" text="monocordil" abbr="" />
+<annotation id="22238" tag="Organic Chemical|Pharmacologic Substance" start="374" end="385" text="hidralazina" abbr="" />
+<annotation id="22239" tag="Organic Chemical|Pharmacologic Substance" start="401" end="411" text="alopurinol" abbr="" />
+<annotation id="22240" tag="Organic Chemical|Pharmacologic Substance" start="428" end="438" text="colchicina" abbr="" />
+<annotation id="22241" tag="Sign or Symptom" start="449" end="452" text="dor" abbr="" />
+<annotation id="22242" tag="Organic Chemical|Pharmacologic Substance" start="454" end="461" text="marevan" abbr="" />
+<annotation id="22243" tag="Pharmacologic Substance|Organic Chemical" start="510" end="520" text="metformina" abbr="" />
+<annotation id="22244" tag="Abbreviation|Finding" start="546" end="549" text="HMP" abbr="" />
+<annotation id="22245" tag="Therapeutic or Preventive Procedure" start="575" end="586" text="transplante" abbr="" />
+<annotation id="22246" tag="Therapeutic or Preventive Procedure|Abbreviation" start="620" end="624" text="CATE" abbr="cateterismo" />
+<annotation id="22247" tag="Negation" start="643" end="646" text="sem" abbr="" />
+<annotation id="22248" tag="Health Care Activity" start="680" end="689" text="Internado" abbr="" />
+<annotation id="22249" tag="Finding|Abbreviation" start="831" end="834" text="CHV" abbr="condições e hábitos de vida" />
+<annotation id="22250" tag="Negation" start="837" end="841" text="nega" abbr="" />
+<annotation id="22251" tag="Disease or Syndrome" start="842" end="851" text="tabagismo" abbr="" />
+<annotation id="22252" tag="Disease or Syndrome" start="854" end="862" text="etilismo" abbr="" />
+<annotation id="22253" tag="Disease or Syndrome" start="864" end="874" text="sedentário" abbr="" />
+<annotation id="22254" tag="Abbreviation|Finding" start="877" end="880" text="HMF" abbr="" />
+<annotation id="22255" tag="Disease or Syndrome" start="900" end="908" text="trombose" abbr="" />
+<annotation id="22256" tag="Disease or Syndrome" start="936" end="946" text="nefropatia" abbr="" />
+<annotation id="22257" tag="Laboratory Procedure" start="979" end="985" text="Exames" abbr="" />
+<annotation id="22258" tag="Sign or Symptom" start="75" end="87" text="dor toracica" />
+<annotation id="22259" tag="Sign or Symptom" start="98" end="116" text="sintomas cardíacos" />
+<annotation id="22260" tag="Sign or Symptom" start="118" end="131" text="Edema matinal" />
+<annotation id="22261" tag="Disease or Syndrome" start="162" end="196" text="cardiomiopatia dilatada idiopatica" />
+<annotation id="22262" tag="Disease or Syndrome" start="199" end="216" text="fibrilação atrial" />
+<annotation id="22263" tag="Abbreviation|Quantitative Concept" start="283" end="294" text="1 cp ao dia" />
+<annotation id="22264" tag="Quantitative Concept" start="305" end="311" text="0 , 25mg" />
+<annotation id="22265" tag="Abbreviation|Quantitative Concept" start="312" end="320" text="1 cp/dia" />
+<annotation id="22266" tag="Abbreviation|Quantitative Concept" start="338" end="346" text="2 cp/dia" />
+<annotation id="22267" tag="Abbreviation|Quantitative Concept" start="364" end="372" text="2 cp/dia" />
+<annotation id="22268" tag="Abbreviation|Quantitative Concept" start="391" end="399" text="2 cp/dia" />
+<annotation id="22269" tag="Abbreviation|Quantitative Concept" start="418" end="426" text="1 cp/dia" />
+<annotation id="22270" tag="Quantitative Concept" start="439" end="444" text="0 , 5mg" />
+<annotation id="22271" tag="Quantitative Concept|Abbreviation" start="466" end="470" text="2 cp" />
+<annotation id="22272" tag="Abbreviation|Temporal Concept" start="471" end="490" text="seg , qua e sex , sab" />
+<annotation id="22273" tag="Abbreviation|Quantitative Concept" start="493" end="497" text="1 cp" />
+<annotation id="22274" tag="Abbreviation|Quantitative Concept" start="527" end="531" text="1 cp" />
+<annotation id="22275" tag="Temporal Concept" start="532" end="543" text="após almoço" />
+<annotation id="22276" tag="Finding" start="603" end="618" text="melhora clinica" />
+<annotation id="22277" tag="Disease or Syndrome" start="660" end="678" text="doença coronariana" />
+<annotation id="22278" tag="Disease or Syndrome" start="694" end="713" text="insuficiência renal" />
+<annotation id="22279" tag="Finding" start="960" end="977" text="filhos saudáveis ." />
+<annotation id="22280" tag="Laboratory or Test Result" start="987" end="1015" text="Leucocitose discreta - 10800" />
+<annotation id="22281" tag="Laboratory or Test Result" start="1019" end="1035" text="segmentados 65 , 4" />
+<annotation id="22282" tag="Laboratory or Test Result" start="1037" end="1046" text="Ureia : 92" />
+<annotation id="22283" tag="Laboratory or Test Result" start="1048" end="1050" text="Cr" />
+<annotation id="22284" tag="Laboratory or Test Result" start="1087" end="1093" text="K : 5 , 7" />
+<annotation id="22285" tag="Laboratory or Test Result" start="1096" end="1113" text="TFG ( CKD-EPI ) : 33" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="22224" annotation2="22225" reltype="negation_of" />
+<rel annotation1="22227" annotation2="22228" reltype="negation_of" />
+<rel annotation1="22227" annotation2="22229" reltype="negation_of" />
+<rel annotation1="22250" annotation2="22251" reltype="negation_of" />
+<rel annotation1="22250" annotation2="22252" reltype="negation_of" />
+<rel annotation1="22250" annotation2="22253" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

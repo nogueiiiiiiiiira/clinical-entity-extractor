@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># MCP dilatada - IDIOPÁTICA
+CF II-III OSCILANTE.
+** PROTOCOLO DE TX CARDIACO - INDICE CARDIACO 
+*** Em uso de: Omeprazol 20mg / d, AAS 100mg / d, Losartan 50mg 12/12hs, Espironolactona 25mg / d, Hidralazina 50mg 12/12hs, Carvedilol 12,5mg 12/12hs
+S # QUEIXA DE CANSAÇO AOS ESFORÇOS. DEMAIS SP
+TG 111, HDL 37, K 4,7, CT 162, LDL 103, TSH 1,59, HB 13, HB GLICASADA 5,87, NA 145, TGP 28, TGO 26, CREAT 0,98
+AO EAXME PA 110/70 FC 64
+SEM TURGÊNCIA JUGULAR
+CPP - MV + BILATERAL, 
+PC - BCR SEM SOPROS,
+MMII - SEM EDEM
+A # MCP dilatada CF II / III
+P # MEDICAÇÕES MANTIDAS.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="32130" tag="Pharmacologic Substance|Organic Chemical" start="114" end="123" text="Omeprazol" abbr="" />
+<annotation id="32131" tag="Quantitative Concept" start="124" end="128" text="20mg" abbr="" />
+<annotation id="32132" tag="Temporal Concept|Abbreviation" start="131" end="132" text="d" abbr="dia" />
+<annotation id="32133" tag="Pharmacologic Substance|Pharmacologic Substance|Organic Chemical|Abbreviation" start="134" end="137" text="AAS" abbr="ácida acetilsalicílico" />
+<annotation id="32134" tag="Quantitative Concept" start="138" end="143" text="100mg" abbr="" />
+<annotation id="32135" tag="Abbreviation|Temporal Concept" start="146" end="147" text="d" abbr="" />
+<annotation id="32136" tag="Pharmacologic Substance|Organic Chemical" start="149" end="157" text="Losartan" abbr="" />
+<annotation id="32137" tag="Quantitative Concept" start="158" end="162" text="50mg" abbr="" />
+<annotation id="32138" tag="Temporal Concept|Abbreviation" start="163" end="170" text="12/12hs" abbr="" />
+<annotation id="32139" tag="Pharmacologic Substance|Organic Chemical" start="172" end="187" text="Espironolactona" abbr="" />
+<annotation id="32140" tag="Quantitative Concept" start="188" end="192" text="25mg" abbr="" />
+<annotation id="32141" tag="Abbreviation|Temporal Concept" start="195" end="196" text="d" abbr="" />
+<annotation id="32142" tag="Pharmacologic Substance|Organic Chemical" start="198" end="209" text="Hidralazina" abbr="" />
+<annotation id="32143" tag="Quantitative Concept" start="210" end="214" text="50mg" abbr="" />
+<annotation id="32144" tag="Temporal Concept" start="215" end="222" text="12/12hs" abbr="" />
+<annotation id="32145" tag="Organic Chemical|Pharmacologic Substance" start="224" end="234" text="Carvedilol" abbr="" />
+<annotation id="32146" tag="Temporal Concept|Abbreviation" start="242" end="249" text="12/12hs" abbr="" />
+<annotation id="32147" tag="Sign or Symptom" start="255" end="261" text="QUEIXA" abbr="" />
+<annotation id="32148" tag="Abbreviation|Clinical Attribute|Clinical Attribute" start="419" end="421" text="PA" abbr="" />
+<annotation id="32149" tag="Quantitative Concept" start="422" end="428" text="110/70" abbr="" />
+<annotation id="32150" tag="Clinical Attribute|Abbreviation|Clinical Attribute" start="429" end="431" text="FC" abbr="" />
+<annotation id="32151" tag="Quantitative Concept" start="432" end="434" text="64" abbr="" />
+<annotation id="32152" tag="Negation|Negation" start="436" end="439" text="SEM" abbr="" />
+<annotation id="32153" tag="Abbreviation|Clinical Attribute" start="483" end="485" text="PC" abbr="" />
+<annotation id="32154" tag="Abbreviation|Body Location or Region|Body Part, Organ, or Organ Component|Abbreviation" start="505" end="509" text="MMII" abbr="membros inferiores" />
+<annotation id="32155" tag="Negation|Negation" start="512" end="515" text="SEM" abbr="" />
+<annotation id="32156" tag="Therapeutic or Preventive Procedure|Pharmacologic Substance" start="556" end="566" text="MEDICAÇÕES" abbr="" />
+<annotation id="32157" tag="Health Care Activity" start="567" end="575" text="MANTIDAS" abbr="" />
+<annotation id="32158" tag="Abbreviation|Disease or Syndrome" start="2" end="48" text="MCP dilatada - IDIOPÁTICA CF II-III OSCILANTE" />
+<annotation id="32159" tag="Abbreviation|Therapeutic or Preventive Procedure" start="67" end="78" text="TX CARDIACO" />
+<annotation id="32160" tag="Quantitative Concept" start="235" end="241" text="12 , 5mg" />
+<annotation id="32161" tag="Sign or Symptom" start="265" end="285" text="CANSAÇO AOS ESFORÇOS" />
+<annotation id="32162" tag="Abbreviation|Laboratory or Test Result" start="298" end="304" text="TG 111" />
+<annotation id="32163" tag="Abbreviation|Laboratory or Test Result" start="306" end="312" text="HDL 37" />
+<annotation id="32164" tag="Abbreviation|Laboratory or Test Result" start="314" end="319" text="K 4 , 7" />
+<annotation id="32165" tag="Abbreviation|Laboratory or Test Result" start="321" end="327" text="CT 162" />
+<annotation id="32166" tag="Abbreviation|Laboratory or Test Result" start="329" end="336" text="LDL 103" />
+<annotation id="32167" tag="Abbreviation|Laboratory or Test Result" start="338" end="346" text="TSH 1 , 59" />
+<annotation id="32168" tag="Abbreviation|Laboratory or Test Result" start="348" end="353" text="HB 13" />
+<annotation id="32169" tag="Abbreviation|Laboratory or Test Result" start="355" end="372" text="HB GLICASADA 5 , 87" />
+<annotation id="32170" tag="Abbreviation|Laboratory or Test Result" start="374" end="380" text="NA 145" />
+<annotation id="32171" tag="Abbreviation|Laboratory or Test Result" start="382" end="388" text="TGP 28" />
+<annotation id="32172" tag="Abbreviation|Laboratory or Test Result" start="390" end="396" text="TGO 26" />
+<annotation id="32173" tag="Abbreviation|Laboratory or Test Result" start="398" end="408" text="CREAT 0 , 98" />
+<annotation id="32174" tag="Sign or Symptom" start="440" end="457" text="TURGÊNCIA JUGULAR" />
+<annotation id="32175" tag="Abbreviation|Finding" start="465" end="479" text="MV + BILATERAL" />
+<annotation id="32176" tag="Abbreviation|Finding" start="488" end="502" text="BCR SEM SOPROS" />
+<annotation id="32177" tag="Sign or Symptom" start="516" end="523" text="EDEM A" />
+<annotation id="32178" tag="Abbreviation|Disease or Syndrome" start="526" end="550" text="MCP dilatada CF II / III" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="32130" annotation2="32131" reltype="associated_with" />
+<rel annotation1="32131" annotation2="32132" reltype="associated_with" />
+<rel annotation1="32133" annotation2="32134" reltype="associated_with" />
+<rel annotation1="32134" annotation2="32135" reltype="associated_with" />
+<rel annotation1="32136" annotation2="32137" reltype="associated_with" />
+<rel annotation1="32137" annotation2="32138" reltype="associated_with" />
+<rel annotation1="32139" annotation2="32140" reltype="associated_with" />
+<rel annotation1="32140" annotation2="32141" reltype="associated_with" />
+<rel annotation1="32142" annotation2="32143" reltype="associated_with" />
+<rel annotation1="32143" annotation2="32144" reltype="associated_with" />
+<rel annotation1="32145" annotation2="32160" reltype="associated_with" />
+<rel annotation1="32145" annotation2="32146" reltype="associated_with" />
+<rel annotation1="32148" annotation2="32149" reltype="associated_with" />
+<rel annotation1="32150" annotation2="32151" reltype="associated_with" />
+<rel annotation1="32152" annotation2="32174" reltype="negation_of" />
+<rel annotation1="32153" annotation2="32176" reltype="associated_with" />
+<rel annotation1="32154" annotation2="32177" reltype="associated_with" />
+<rel annotation1="32155" annotation2="32177" reltype="negation_of" />
+<rel annotation1="32156" annotation2="32157" reltype="associated_with" />
+<rel annotation1="32160" annotation2="32146" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

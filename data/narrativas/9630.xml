@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 68 anos, natural de Colombro e mora em Barreirinha há 66 anos, casada, do lar, dois filhos
+QP Dor retroesternal, em repouso, em pontada, sem irradiação, com duração de 10 min, escala 3, acorda a noite por causa da dor, desde a angioplastia
+HMA Ao realizar um ECG para realizaçõa de cirurgia de catarata, foi encaminhada um teste ergométrico (30/09/15) que revelou a presença de um IAM, uma semana depois realizou angioplasta (05/10/15).
+HMP Episódio de infarto no dia 05 de outubro, realizaçõa de cateterismo cardíaco esquerdo, coronariografia com ventriculografia esquerda
+Hipotireoidismo há 5 anos
+HMF Pai falecido por trombose
+mãe falecida 
+Irmão com câncer de próstata 
+CHV
+Alimentação saudável
+Nega etilismo e tabagismo 
+Alergia a penicilina
+RS
+Obstipação há 1 mês, chegando a ficar 5 dias sem ir ao banheiro
+Amnésia recente
+Sente muito desânimo, angústia, humor deprimido
+Insônia terminal
+Muito cansaço
+Medicação
+Clopidogrel 75mg, AAs 100mg, Enalapril 10mg, Omeprazol 20mg, Levotiroxina 50 microgramas, Sinvastatina 40mg
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="31318" tag="Sign or Symptom|Abbreviation" start="99" end="101" text="QP" abbr="" />
+<annotation id="31319" tag="Qualitative Concept" start="136" end="143" text="pontada" abbr="" />
+<annotation id="31320" tag="Negation|Negation" start="145" end="148" text="sem" abbr="" />
+<annotation id="31321" tag="Natural Phenomenon or Process|Sign or Symptom" start="149" end="159" text="irradiação" abbr="" />
+<annotation id="31322" tag="Therapeutic or Preventive Procedure" start="235" end="247" text="angioplastia" abbr="" />
+<annotation id="31323" tag="Diagnostic Procedure|Abbreviation" start="268" end="271" text="ECG" abbr="eletrocardiograma" />
+<annotation id="31324" tag="Health Care Activity" start="277" end="287" text="realizaçõa" abbr="" />
+<annotation id="31325" tag="Health Care Activity" start="317" end="328" text="encaminhada" abbr="" />
+<annotation id="31326" tag="Disease or Syndrome|Abbreviation|Laboratory or Test Result" start="390" end="393" text="IAM" abbr="" />
+<annotation id="31327" tag="Therapeutic or Preventive Procedure" start="422" end="433" text="angioplasta" abbr="" />
+<annotation id="31328" tag="Disease or Syndrome" start="463" end="470" text="infarto" abbr="" />
+<annotation id="31329" tag="Disease or Syndrome" start="585" end="600" text="Hipotireoidismo" abbr="" />
+<annotation id="31330" tag="Family Group" start="616" end="619" text="Pai" abbr="" />
+<annotation id="31331" tag="Disease or Syndrome|Pathologic Function" start="633" end="641" text="trombose" abbr="" />
+<annotation id="31332" tag="Family Group" start="643" end="646" text="mãe" abbr="" />
+<annotation id="31333" tag="Family Group" start="658" end="663" text="Irmão" abbr="" />
+<annotation id="31334" tag="Negation" start="716" end="720" text="Nega" abbr="" />
+<annotation id="31335" tag="Disease or Syndrome" start="721" end="729" text="etilismo" abbr="" />
+<annotation id="31336" tag="Disease or Syndrome" start="732" end="741" text="tabagismo" abbr="" />
+<annotation id="31337" tag="Pharmacologic Substance|Antibiotic" start="754" end="764" text="penicilina" abbr="" />
+<annotation id="31338" tag="Abbreviation|Clinical Attribute" start="766" end="768" text="RS" abbr="" />
+<annotation id="31339" tag="Sign or Symptom" start="770" end="780" text="Obstipação" abbr="" />
+<annotation id="31340" tag="Finding" start="864" end="872" text="desânimo" abbr="" />
+<annotation id="31341" tag="Sign or Symptom" start="874" end="882" text="angústia" abbr="" />
+<annotation id="31342" tag="Finding" start="925" end="932" text="cansaço" abbr="" />
+<annotation id="31343" tag="Therapeutic or Preventive Procedure|Pharmacologic Substance" start="934" end="943" text="Medicação" abbr="" />
+<annotation id="31344" tag="Pharmacologic Substance|Organic Chemical" start="945" end="956" text="Clopidogrel" abbr="" />
+<annotation id="31345" tag="Quantitative Concept" start="957" end="961" text="75mg" abbr="" />
+<annotation id="31346" tag="Pharmacologic Substance|Organic Chemical|Abbreviation|Pharmacologic Substance" start="963" end="966" text="AAs" abbr="" />
+<annotation id="31347" tag="Quantitative Concept" start="967" end="972" text="100mg" abbr="" />
+<annotation id="31348" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein|Organic Chemical" start="974" end="983" text="Enalapril" abbr="" />
+<annotation id="31349" tag="Quantitative Concept" start="984" end="988" text="10mg" abbr="" />
+<annotation id="31350" tag="Pharmacologic Substance|Organic Chemical" start="990" end="999" text="Omeprazol" abbr="" />
+<annotation id="31351" tag="Quantitative Concept" start="1000" end="1004" text="20mg" abbr="" />
+<annotation id="31352" tag="Hormone|Amino Acid, Peptide, or Protein|Pharmacologic Substance|Organic Chemical" start="1006" end="1018" text="Levotiroxina" abbr="" />
+<annotation id="31353" tag="Organic Chemical|Pharmacologic Substance" start="1035" end="1047" text="Sinvastatina" abbr="" />
+<annotation id="31354" tag="Quantitative Concept" start="1048" end="1052" text="40mg" abbr="" />
+<annotation id="31355" tag="Sign or Symptom" start="102" end="119" text="Dor retroesternal" />
+<annotation id="31356" tag="Abbreviation|Quantitative Concept" start="176" end="182" text="10 min" />
+<annotation id="31357" tag="Classification" start="184" end="192" text="escala 3" />
+<annotation id="31358" tag="Therapeutic or Preventive Procedure" start="291" end="311" text="cirurgia de catarata" />
+<annotation id="31359" tag="Diagnostic Procedure" start="332" end="349" text="teste ergométrico" />
+<annotation id="31360" tag="Therapeutic or Preventive Procedure" start="507" end="536" text="cateterismo cardíaco esquerdo" />
+<annotation id="31361" tag="Diagnostic Procedure|Therapeutic or Preventive Procedure" start="538" end="583" text="coronariografia com ventriculografia esquerda" />
+<annotation id="31362" tag="Temporal Concept" start="601" end="610" text="há 5 anos" />
+<annotation id="31363" tag="Disease or Syndrome|Neoplastic Process" start="668" end="686" text="câncer de próstata" />
+<annotation id="31364" tag="Finding" start="694" end="714" text="Alimentação saudável" />
+<annotation id="31365" tag="Temporal Concept" start="781" end="789" text="há 1 mês" />
+<annotation id="31366" tag="Mental or Behavioral Dysfunction|Sign or Symptom" start="835" end="850" text="Amnésia recente" />
+<annotation id="31367" tag="Sign or Symptom|Mental or Behavioral Dysfunction" start="884" end="899" text="humor deprimido" />
+<annotation id="31368" tag="Mental or Behavioral Dysfunction|Sign or Symptom" start="901" end="917" text="Insônia terminal" />
+<annotation id="31369" tag="Quantitative Concept" start="1019" end="1033" text="50 microgramas" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="31320" annotation2="31321" reltype="negation_of" />
+<rel annotation1="31323" annotation2="31324" reltype="associated_with" />
+<rel annotation1="31324" annotation2="31358" reltype="associated_with" />
+<rel annotation1="31325" annotation2="31359" reltype="associated_with" />
+<rel annotation1="31329" annotation2="31362" reltype="associated_with" />
+<rel annotation1="31330" annotation2="31331" reltype="associated_with" />
+<rel annotation1="31333" annotation2="31363" reltype="associated_with" />
+<rel annotation1="31334" annotation2="31335" reltype="negation_of" />
+<rel annotation1="31334" annotation2="31336" reltype="negation_of" />
+<rel annotation1="31344" annotation2="31345" reltype="associated_with" />
+<rel annotation1="31346" annotation2="31347" reltype="associated_with" />
+<rel annotation1="31348" annotation2="31349" reltype="associated_with" />
+<rel annotation1="31350" annotation2="31351" reltype="associated_with" />
+<rel annotation1="31352" annotation2="31369" reltype="associated_with" />
+<rel annotation1="31353" annotation2="31354" reltype="associated_with" />
+<rel annotation1="31355" annotation2="31319" reltype="associated_with" />
+<rel annotation1="31355" annotation2="31321" reltype="associated_with" />
+<rel annotation1="31359" annotation2="31326" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

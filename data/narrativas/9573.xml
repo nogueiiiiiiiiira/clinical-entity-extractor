@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 63 ANOS
+COMORBIDADES:
+# MCP DILATADA / CHAGAS
+# HAS
+# DISLIPIDEMIA
+# MARCA-PASSO HÁ 5 ANOS --&gt; 11 MESES DE BATERIA
+# DAC FAMILIAR
+# CHV: EX-TABAGISTA DE 38 MAÇOS-ANO
+Lucas, 63 ANOS
+COMORBIDADES:
+# MCP DILATADA/CHAGAS
+# HAS
+# DISLIPIDEMIA
+# MARCA-PASSO HÁ 5 ANOS --&gt; 11 MESES DE BATERIA
+# DAC FAMILIAR
+# CHV: EX-TABAGISTA DE 38 MAÇOS-ANO
+CATE DO DIA 29/07/2014: PROTOCOLO PRÉ - TRANSPLANTE CARDÍACO REALIZADO COM SUCESSO; RVP WOOD POSITIVA: CANDIDATO A TRANSPLANTE
+S # MANTEM-SE EM CLASSE FUNCIONAL III. RELATA EDEMA DE MMII. NEGA PRECORDIALGIA. 
+MEDICAMENTOS:
+# ENALAPRIL 10 MG; 1/2 CP DE 12/12 HORAS
+# APRESOLINA 50 MG 1 CP DE 8/8 HORAS
+# MONOCORDL 20 MG 1 CP AS 8 E OUTRO AS 14 HORAS
+# ESPIRONOLACTONA 25 MG 1 CP AO DIA
+# FUROSEMIDA 40 MG 1 CP AS 8 E OUTRO AS 14 HORAS
+# CARVEDILOL 25 MG 1 CP DE 12/12 HORAS
+# SINVASTATINA 20 MG 1 CP A NOITE
+Exame Físico
+PA 90/70 mmHG FC 76bpm, FR 18bpm
+ACV: BCRNF SS EM FOCO TRICUSPIDE 3+ / 6+, SS EM FOCO MITRLA 2+ / 6+
+AP: MV+ BILAT, SEM RA
+ABD: GLOBOSO, FLÁCIDO, PIPAROTE +
+Edema em MMII ++/++++
+A # IC CF III
+P # AUMENTO FSM PARA 80MG / 40MG
+-  DEMAIS MANTISO
+R4 CARDIO Doutor Vital Brazil </TEXT>
+<TAGS>
+<annotation id="28317" tag="Disease or Syndrome" start="16" end="28" text="COMORBIDADES" abbr="" />
+<annotation id="28318" tag="Disease or Syndrome" start="48" end="54" text="CHAGAS" abbr="" />
+<annotation id="28319" tag="Abbreviation|Disease or Syndrome" start="58" end="61" text="HAS" abbr="" />
+<annotation id="28320" tag="Disease or Syndrome" start="65" end="77" text="DISLIPIDEMIA" abbr="" />
+<annotation id="28321" tag="Medical Device|Therapeutic or Preventive Procedure" start="81" end="92" text="MARCA-PASSO" abbr="" />
+<annotation id="28322" tag="Abbreviation|Disease or Syndrome" start="130" end="133" text="DAC" abbr="" />
+<annotation id="28323" tag="Family Group" start="134" end="142" text="FAMILIAR" abbr="" />
+<annotation id="28324" tag="Finding|Abbreviation" start="146" end="149" text="CHV" abbr="" />
+<annotation id="28325" tag="Finding" start="151" end="163" text="EX-TABAGISTA" abbr="" />
+<annotation id="28326" tag="Disease or Syndrome" start="197" end="209" text="COMORBIDADES" abbr="" />
+<annotation id="28327" tag="Disease or Syndrome|Abbreviation" start="237" end="240" text="HAS" abbr="Hipertensão Arterial Sistêmica" />
+<annotation id="28328" tag="Disease or Syndrome" start="244" end="256" text="DISLIPIDEMIA" abbr="" />
+<annotation id="28329" tag="Medical Device|Therapeutic or Preventive Procedure" start="260" end="271" text="MARCA-PASSO" abbr="" />
+<annotation id="28330" tag="Disease or Syndrome|Abbreviation" start="309" end="312" text="DAC" abbr="doença arterial coronariana" />
+<annotation id="28331" tag="Family Group" start="313" end="321" text="FAMILIAR" abbr="" />
+<annotation id="28332" tag="Finding|Abbreviation" start="325" end="328" text="CHV" abbr="" />
+<annotation id="28333" tag="Finding" start="330" end="342" text="EX-TABAGISTA" abbr="" />
+<annotation id="28334" tag="Therapeutic or Preventive Procedure|Abbreviation|Diagnostic Procedure" start="360" end="364" text="CATE" abbr="" />
+<annotation id="28335" tag="Temporal Concept" start="394" end="397" text="PRÉ" abbr="" />
+<annotation id="28336" tag="Health Care Activity" start="421" end="430" text="REALIZADO" abbr="" />
+<annotation id="28337" tag="Finding" start="435" end="442" text="SUCESSO" abbr="" />
+<annotation id="28338" tag="Sign or Symptom" start="534" end="539" text="EDEMA" abbr="" />
+<annotation id="28339" tag="Abbreviation|Body Location or Region" start="543" end="547" text="MMII" abbr="" />
+<annotation id="28340" tag="Negation" start="549" end="553" text="NEGA" abbr="" />
+<annotation id="28341" tag="Sign or Symptom" start="554" end="567" text="PRECORDIALGIA" abbr="" />
+<annotation id="28342" tag="Pharmacologic Substance" start="571" end="583" text="MEDICAMENTOS" abbr="" />
+<annotation id="28343" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="588" end="597" text="ENALAPRIL" abbr="" />
+<annotation id="28344" tag="Pharmacologic Substance" start="630" end="640" text="APRESOLINA" abbr="" />
+<annotation id="28345" tag="Pharmacologic Substance" start="668" end="677" text="MONOCORDL" abbr="" />
+<annotation id="28346" tag="Pharmacologic Substance" start="717" end="732" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="28347" tag="Pharmacologic Substance" start="754" end="764" text="FUROSEMIDA" abbr="" />
+<annotation id="28348" tag="Pharmacologic Substance" start="804" end="814" text="CARVEDILOL" abbr="" />
+<annotation id="28349" tag="Pharmacologic Substance" start="844" end="856" text="SINVASTATINA" abbr="" />
+<annotation id="28350" tag="Abbreviation|Clinical Attribute" start="891" end="893" text="PA" abbr="" />
+<annotation id="28351" tag="Clinical Attribute|Abbreviation" start="905" end="907" text="FC" abbr="Frequência Cardíaca" />
+<annotation id="28352" tag="Quantitative Concept" start="908" end="913" text="76bpm" abbr="" />
+<annotation id="28353" tag="Abbreviation|Clinical Attribute" start="915" end="917" text="FR" abbr="" />
+<annotation id="28354" tag="Quantitative Concept" start="918" end="923" text="18bpm" abbr="" />
+<annotation id="28355" tag="Clinical Attribute|Body System|Abbreviation" start="925" end="928" text="ACV" abbr="aparelho cardiovascular" />
+<annotation id="28356" tag="Abbreviation|Finding" start="930" end="935" text="BCRNF" abbr="" />
+<annotation id="28357" tag="Finding|Sign or Symptom|Abbreviation" start="936" end="938" text="SS" abbr="" />
+<annotation id="28358" tag="Abbreviation|Sign or Symptom" start="967" end="969" text="SS" abbr="" />
+<annotation id="28359" tag="Clinical Attribute|Abbreviation" start="994" end="996" text="AP" abbr="Ausculta Pulmonar" />
+<annotation id="28360" tag="Negation" start="1009" end="1012" text="SEM" abbr="" />
+<annotation id="28361" tag="Abbreviation|Sign or Symptom" start="1013" end="1015" text="RA" abbr="" />
+<annotation id="28362" tag="Body Location or Region|Abbreviation" start="1017" end="1020" text="ABD" abbr="Abdômen" />
+<annotation id="28363" tag="Sign or Symptom" start="1022" end="1029" text="GLOBOSO" abbr="" />
+<annotation id="28364" tag="Finding" start="1031" end="1038" text="FLÁCIDO" abbr="" />
+<annotation id="28365" tag="Sign or Symptom" start="1052" end="1057" text="Edema" abbr="" />
+<annotation id="28366" tag="Body Location or Region|Abbreviation" start="1061" end="1065" text="MMII" abbr="Membros Inferiores" />
+<annotation id="28367" tag="Quantitative Concept|Laboratory or Test Result" start="1066" end="1073" text="++/++++" abbr="" />
+<annotation id="28368" tag="Health Care Activity" start="1094" end="1101" text="AUMENTO" abbr="" />
+<annotation id="28369" tag="Pharmacologic Substance|Abbreviation" start="1102" end="1105" text="FSM" abbr="furosemida" />
+<annotation id="28370" tag="Quantitative Concept" start="1111" end="1115" text="80MG" abbr="" />
+<annotation id="28371" tag="Quantitative Concept" start="1118" end="1122" text="40MG" abbr="" />
+<annotation id="28372" tag="Abbreviation|Disease or Syndrome" start="33" end="45" text="MCP DILATADA" />
+<annotation id="28373" tag="Quantitative Concept" start="167" end="179" text="38 MAÇOS-ANO" />
+<annotation id="28374" tag="Abbreviation|Disease or Syndrome" start="214" end="233" text="MCP DILATADA/CHAGAS" />
+<annotation id="28375" tag="Quantitative Concept" start="346" end="358" text="38 MAÇOS-ANO" />
+<annotation id="28376" tag="Therapeutic or Preventive Procedure" start="400" end="420" text="TRANSPLANTE CARDÍACO" />
+<annotation id="28377" tag="Abbreviation|Sign or Symptom" start="444" end="461" text="RVP WOOD POSITIVA" />
+<annotation id="28378" tag="Laboratory or Test Result" start="463" end="486" text="CANDIDATO A TRANSPLANTE" />
+<annotation id="28379" tag="Qualitative Concept" start="505" end="525" text="CLASSE FUNCIONAL III" />
+<annotation id="28380" tag="Quantitative Concept" start="598" end="603" text="10 MG" />
+<annotation id="28381" tag="Abbreviation|Quantitative Concept" start="605" end="611" text="1/2 CP" />
+<annotation id="28382" tag="Temporal Concept" start="615" end="626" text="12/12 HORAS" />
+<annotation id="28383" tag="Quantitative Concept" start="641" end="646" text="50 MG" />
+<annotation id="28384" tag="Abbreviation|Quantitative Concept" start="647" end="651" text="1 CP" />
+<annotation id="28385" tag="Temporal Concept" start="655" end="664" text="8/8 HORAS" />
+<annotation id="28386" tag="Quantitative Concept" start="678" end="683" text="20 MG" />
+<annotation id="28387" tag="Abbreviation|Quantitative Concept" start="684" end="688" text="1 CP" />
+<annotation id="28388" tag="Quantitative Concept" start="733" end="738" text="25 MG" />
+<annotation id="28389" tag="Abbreviation|Quantitative Concept" start="739" end="743" text="1 CP" />
+<annotation id="28390" tag="Quantitative Concept" start="765" end="770" text="40 MG" />
+<annotation id="28391" tag="Abbreviation|Quantitative Concept" start="771" end="775" text="1 CP" />
+<annotation id="28392" tag="Quantitative Concept" start="815" end="820" text="25 MG" />
+<annotation id="28393" tag="Abbreviation|Quantitative Concept" start="821" end="825" text="1 CP" />
+<annotation id="28394" tag="Temporal Concept" start="829" end="840" text="12/12 HORAS" />
+<annotation id="28395" tag="Quantitative Concept" start="857" end="862" text="20 MG" />
+<annotation id="28396" tag="Abbreviation|Quantitative Concept" start="863" end="867" text="1 CP" />
+<annotation id="28397" tag="Temporal Concept" start="868" end="875" text="A NOITE" />
+<annotation id="28398" tag="Diagnostic Procedure" start="877" end="889" text="Exame Físico" />
+<annotation id="28399" tag="Quantitative Concept" start="894" end="904" text="90/70 mmHG" />
+<annotation id="28400" tag="Body Location or Region|Laboratory or Test Result" start="942" end="957" text="FOCO TRICUSPIDE" />
+<annotation id="28401" tag="Quantitative Concept" start="958" end="965" text="3+ / 6+" />
+<annotation id="28402" tag="Body Location or Region" start="973" end="984" text="FOCO MITRLA" />
+<annotation id="28403" tag="Quantitative Concept" start="985" end="992" text="2+ / 6+" />
+<annotation id="28404" tag="Abbreviation|Finding" start="998" end="1007" text="MV+ BILAT" />
+<annotation id="28405" tag="Abbreviation|Laboratory or Test Result|Sign or Symptom" start="1040" end="1050" text="PIPAROTE +" />
+<annotation id="28406" tag="Abbreviation|Disease or Syndrome" start="1079" end="1088" text="IC CF III" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28317" annotation2="28318" reltype="associated_with" />
+<rel annotation1="28317" annotation2="28319" reltype="associated_with" />
+<rel annotation1="28317" annotation2="28320" reltype="associated_with" />
+<rel annotation1="28322" annotation2="28323" reltype="associated_with" />
+<rel annotation1="28325" annotation2="28373" reltype="associated_with" />
+<rel annotation1="28326" annotation2="28327" reltype="associated_with" />
+<rel annotation1="28326" annotation2="28328" reltype="associated_with" />
+<rel annotation1="28330" annotation2="28331" reltype="associated_with" />
+<rel annotation1="28333" annotation2="28375" reltype="associated_with" />
+<rel annotation1="28335" annotation2="28376" reltype="associated_with" />
+<rel annotation1="28337" annotation2="28336" reltype="associated_with" />
+<rel annotation1="28337" annotation2="28376" reltype="associated_with" />
+<rel annotation1="28338" annotation2="28339" reltype="associated_with" />
+<rel annotation1="28340" annotation2="28341" reltype="negation_of" />
+<rel annotation1="28343" annotation2="28380" reltype="associated_with" />
+<rel annotation1="28343" annotation2="28381" reltype="associated_with" />
+<rel annotation1="28343" annotation2="28382" reltype="associated_with" />
+<rel annotation1="28344" annotation2="28383" reltype="associated_with" />
+<rel annotation1="28344" annotation2="28384" reltype="associated_with" />
+<rel annotation1="28344" annotation2="28385" reltype="associated_with" />
+<rel annotation1="28345" annotation2="28386" reltype="associated_with" />
+<rel annotation1="28345" annotation2="28387" reltype="associated_with" />
+<rel annotation1="28346" annotation2="28388" reltype="associated_with" />
+<rel annotation1="28346" annotation2="28389" reltype="associated_with" />
+<rel annotation1="28347" annotation2="28390" reltype="associated_with" />
+<rel annotation1="28347" annotation2="28391" reltype="associated_with" />
+<rel annotation1="28348" annotation2="28392" reltype="associated_with" />
+<rel annotation1="28348" annotation2="28393" reltype="associated_with" />
+<rel annotation1="28348" annotation2="28394" reltype="associated_with" />
+<rel annotation1="28349" annotation2="28395" reltype="associated_with" />
+<rel annotation1="28349" annotation2="28396" reltype="associated_with" />
+<rel annotation1="28349" annotation2="28397" reltype="associated_with" />
+<rel annotation1="28350" annotation2="28399" reltype="associated_with" />
+<rel annotation1="28351" annotation2="28352" reltype="associated_with" />
+<rel annotation1="28353" annotation2="28354" reltype="associated_with" />
+<rel annotation1="28355" annotation2="28356" reltype="associated_with" />
+<rel annotation1="28355" annotation2="28357" reltype="associated_with" />
+<rel annotation1="28355" annotation2="28358" reltype="associated_with" />
+<rel annotation1="28357" annotation2="28400" reltype="associated_with" />
+<rel annotation1="28358" annotation2="28402" reltype="associated_with" />
+<rel annotation1="28358" annotation2="28356" reltype="associated_with" />
+<rel annotation1="28358" annotation2="28403" reltype="associated_with" />
+<rel annotation1="28359" annotation2="28404" reltype="associated_with" />
+<rel annotation1="28359" annotation2="28361" reltype="associated_with" />
+<rel annotation1="28360" annotation2="28361" reltype="negation_of" />
+<rel annotation1="28400" annotation2="28401" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

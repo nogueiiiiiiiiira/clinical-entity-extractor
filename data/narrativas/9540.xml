@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 43 anos 
+Paciente refere dispneia aos mínimos esforços com piora progressiva, ortopneia, roncos noturnos, edema de MMII. Relata o aparecimento de angina há mais ou menos 3 meses, aos mínimos esforços.
+Cx bariátrica há 1 ano e meio, 3 episódios de internamento por edema agudo de pulmão, última sendo em Agosto de 2014. Paciente hipertenso, portador de ICC, hérnia de hiato. Em uso de enalapril 10mg 12/12h, carvedilol 12,5mg 12/12h, furosemida 40mg 12/12h, espironolactona 25mg 12/12h, apresolina 25mg, 12/12h, monocordil 20mg 12/12h, warfarina 50mg 1 comprimido por dia.
+Ex fumante, fumou 27 anos em media de 2 carteiras por dia.  
+Eletro 13/05/2014: fibrilação atrial, hipertrofia ventricular esquerda, alterações difusas de repolarização ventricular.
+Ecocardiograma 6/05/2014: importante aumento das dimensões do ventriculo esquerdo, espessura normal, disfunção sistolica global moderada por hipocinesia difusa com FE 41%. Aumento das dimensões do atrio direito e esquerdo, estenose aortica de grau leve, insuficiencia aortica de grau leve, insuf mitral de grau leve, pressao sistolica pulmonar de 20mmHg.
+Cateterismo não evidencia doença coronariana importante
+Laboratorio 13/08/2014
+Creatinina 0,98
+Glic jejum 90
+PCR nao reag
+TAP 23,6
+Conduta: paciente encaminhado à UDT para compensação da ICC. Retorno após internamento
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="26593" tag="Patient or Disabled Group" start="17" end="25" text="Paciente" abbr="" />
+<annotation id="26594" tag="Sign or Symptom" start="86" end="95" text="ortopneia" abbr="" />
+<annotation id="26595" tag="Body Location or Region" start="123" end="127" text="MMII" abbr="" />
+<annotation id="26596" tag="Sign or Symptom" start="154" end="160" text="angina" abbr="" />
+<annotation id="26597" tag="Quantitative Concept" start="241" end="242" text="3" abbr="" />
+<annotation id="26598" tag="Health Care Activity" start="256" end="268" text="internamento" abbr="" />
+<annotation id="26599" tag="Patient or Disabled Group" start="328" end="336" text="Paciente" abbr="" />
+<annotation id="26600" tag="Disease or Syndrome" start="337" end="347" text="hipertenso" abbr="" />
+<annotation id="26601" tag="Disease or Syndrome|Abbreviation" start="361" end="364" text="ICC" abbr="insuficiência cardíaca congestiva" />
+<annotation id="26602" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="393" end="402" text="enalapril" abbr="" />
+<annotation id="26603" tag="Quantitative Concept" start="403" end="407" text="10mg" abbr="" />
+<annotation id="26604" tag="Temporal Concept" start="408" end="414" text="12/12h" abbr="" />
+<annotation id="26605" tag="Pharmacologic Substance|Organic Chemical" start="416" end="426" text="carvedilol" abbr="" />
+<annotation id="26606" tag="Temporal Concept" start="434" end="440" text="12/12h" abbr="" />
+<annotation id="26607" tag="Organic Chemical|Pharmacologic Substance" start="442" end="452" text="furosemida" abbr="" />
+<annotation id="26608" tag="Quantitative Concept" start="453" end="457" text="40mg" abbr="" />
+<annotation id="26609" tag="Temporal Concept" start="458" end="464" text="12/12h" abbr="" />
+<annotation id="26610" tag="Pharmacologic Substance|Organic Chemical" start="466" end="481" text="espironolactona" abbr="" />
+<annotation id="26611" tag="Quantitative Concept" start="482" end="486" text="25mg" abbr="" />
+<annotation id="26612" tag="Temporal Concept" start="487" end="493" text="12/12h" abbr="" />
+<annotation id="26613" tag="Organic Chemical|Pharmacologic Substance" start="495" end="505" text="apresolina" abbr="" />
+<annotation id="26614" tag="Quantitative Concept" start="506" end="510" text="25mg" abbr="" />
+<annotation id="26615" tag="Temporal Concept" start="512" end="518" text="12/12h" abbr="" />
+<annotation id="26616" tag="Pharmacologic Substance|Organic Chemical" start="520" end="530" text="monocordil" abbr="" />
+<annotation id="26617" tag="Quantitative Concept" start="531" end="535" text="20mg" abbr="" />
+<annotation id="26618" tag="Temporal Concept" start="536" end="542" text="12/12h" abbr="" />
+<annotation id="26619" tag="Pharmacologic Substance|Hazardous or Poisonous Substance|Organic Chemical" start="544" end="553" text="warfarina" abbr="" />
+<annotation id="26620" tag="Quantitative Concept" start="554" end="558" text="50mg" abbr="" />
+<annotation id="26621" tag="Temporal Concept" start="576" end="579" text="dia" abbr="" />
+<annotation id="26622" tag="Abbreviation|Diagnostic Procedure" start="644" end="650" text="Eletro" abbr="" />
+<annotation id="26623" tag="Diagnostic Procedure" start="766" end="780" text="Ecocardiograma" abbr="" />
+<annotation id="26624" tag="Therapeutic or Preventive Procedure|Diagnostic Procedure" start="1122" end="1133" text="Cateterismo" abbr="" />
+<annotation id="26625" tag="Negation" start="1134" end="1137" text="não" abbr="" />
+<annotation id="26626" tag="Laboratory Procedure" start="1179" end="1190" text="Laboratorio" abbr="" />
+<annotation id="26627" tag="Health Care Activity" start="1259" end="1266" text="Conduta" abbr="" />
+<annotation id="26628" tag="Patient or Disabled Group" start="1268" end="1276" text="paciente" abbr="" />
+<annotation id="26629" tag="Health Care Activity" start="1277" end="1288" text="encaminhado" abbr="" />
+<annotation id="26630" tag="Abbreviation|Health Care Related Organization" start="1291" end="1294" text="UDT" abbr="" />
+<annotation id="26631" tag="Health Care Activity" start="1320" end="1327" text="Retorno" abbr="" />
+<annotation id="26632" tag="Health Care Activity" start="1333" end="1345" text="internamento" abbr="" />
+<annotation id="26633" tag="Sign or Symptom" start="33" end="62" text="dispneia aos mínimos esforços" />
+<annotation id="26634" tag="Sign or Symptom" start="67" end="84" text="piora progressiva" />
+<annotation id="26635" tag="Sign or Symptom" start="97" end="112" text="roncos noturnos" />
+<annotation id="26636" tag="Temporal Concept" start="161" end="185" text="há mais ou menos 3 meses" />
+<annotation id="26637" tag="Sign or Symptom" start="187" end="207" text="aos mínimos esforços" />
+<annotation id="26638" tag="Therapeutic or Preventive Procedure|Abbreviation" start="210" end="223" text="Cx bariátrica" />
+<annotation id="26639" tag="Temporal Concept" start="224" end="239" text="há 1 ano e meio" />
+<annotation id="26640" tag="Disease or Syndrome" start="273" end="294" text="edema agudo de pulmão" />
+<annotation id="26641" tag="Anatomical Abnormality" start="366" end="381" text="hérnia de hiato" />
+<annotation id="26642" tag="Quantitative Concept" start="427" end="433" text="12 , 5mg" />
+<annotation id="26643" tag="Quantitative Concept" start="559" end="571" text="1 comprimido" />
+<annotation id="26644" tag="Finding" start="582" end="592" text="Ex fumante" />
+<annotation id="26645" tag="Temporal Concept" start="600" end="607" text="27 anos" />
+<annotation id="26646" tag="Quantitative Concept" start="620" end="639" text="2 carteiras por dia" />
+<annotation id="26647" tag="Disease or Syndrome|Laboratory or Test Result" start="663" end="680" text="fibrilação atrial" />
+<annotation id="26648" tag="Laboratory or Test Result|Sign or Symptom" start="682" end="714" text="hipertrofia ventricular esquerda" />
+<annotation id="26649" tag="Laboratory or Test Result" start="716" end="763" text="alterações difusas de repolarização ventricular" />
+<annotation id="26650" tag="Laboratory or Test Result" start="792" end="847" text="importante aumento das dimensões do ventriculo esquerdo" />
+<annotation id="26651" tag="Laboratory or Test Result" start="849" end="865" text="espessura normal" />
+<annotation id="26652" tag="Abbreviation|Laboratory or Test Result" start="867" end="925" text="disfunção sistolica global moderada por hipocinesia difusa" />
+<annotation id="26653" tag="Abbreviation|Laboratory or Test Result" start="930" end="936" text="FE 41%" />
+<annotation id="26654" tag="Laboratory or Test Result" start="938" end="987" text="Aumento das dimensões do atrio direito e esquerdo" />
+<annotation id="26655" tag="Laboratory or Test Result" start="989" end="1018" text="estenose aortica de grau leve" />
+<annotation id="26656" tag="Laboratory or Test Result" start="1020" end="1054" text="insuficiencia aortica de grau leve" />
+<annotation id="26657" tag="Abbreviation|Laboratory or Test Result" start="1056" end="1081" text="insuf mitral de grau leve" />
+<annotation id="26658" tag="Laboratory or Test Result" start="1083" end="1119" text="pressao sistolica pulmonar de 20mmHg" />
+<annotation id="26659" tag="Laboratory or Test Result" start="1138" end="1177" text="evidencia doença coronariana importante" />
+<annotation id="26660" tag="Abbreviation|Laboratory or Test Result" start="1203" end="1218" text="Creatinina 0 , 98" />
+<annotation id="26661" tag="Abbreviation|Laboratory or Test Result" start="1220" end="1233" text="Glic jejum 90" />
+<annotation id="26662" tag="Laboratory or Test Result|Abbreviation" start="1235" end="1247" text="PCR nao reag" />
+<annotation id="26663" tag="Abbreviation|Laboratory or Test Result" start="1249" end="1257" text="TAP 23 , 6" />
+<annotation id="26664" tag="Health Care Activity|Therapeutic or Preventive Procedure|Abbreviation" start="1300" end="1318" text="compensação da ICC" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="26596" annotation2="26637" reltype="associated_with" />
+<rel annotation1="26598" annotation2="26640" reltype="associated_with" />
+<rel annotation1="26602" annotation2="26603" reltype="associated_with" />
+<rel annotation1="26605" annotation2="26642" reltype="associated_with" />
+<rel annotation1="26607" annotation2="26608" reltype="associated_with" />
+<rel annotation1="26610" annotation2="26611" reltype="associated_with" />
+<rel annotation1="26613" annotation2="26614" reltype="associated_with" />
+<rel annotation1="26616" annotation2="26617" reltype="associated_with" />
+<rel annotation1="26622" annotation2="26647" reltype="associated_with" />
+<rel annotation1="26622" annotation2="26648" reltype="associated_with" />
+<rel annotation1="26622" annotation2="26649" reltype="associated_with" />
+<rel annotation1="26623" annotation2="26658" reltype="associated_with" />
+<rel annotation1="26623" annotation2="26655" reltype="associated_with" />
+<rel annotation1="26623" annotation2="26656" reltype="associated_with" />
+<rel annotation1="26623" annotation2="26657" reltype="associated_with" />
+<rel annotation1="26634" annotation2="26633" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

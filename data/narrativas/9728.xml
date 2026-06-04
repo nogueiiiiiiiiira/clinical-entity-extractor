@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS, 48 ANOS 
+
+# HAS HÁ 10 ANOS
+# DSLP 
+# HIPOTIREOIDISMO HÁ  8 MESES EM USO DE PURA T4 25 MCG /DIA 
+# DEPRESSÃO, EM USO DE FLUOXETINA 20 MG /DIAS 
+# CAT EM JUNHO/2011: SEM INDICAÇÃO CIRÚRGICA 
+# HÉRNIA DE DISCO HÁ 3 ANOS 
+# CINTILOGRAFIA MIOCÁRDICA COM DIPIRIDAMOL EM 2011: HIPOCAPTAÇÃO APICAL, DO SEGMENTO ANTERIOR (TRANSITÓRIO) E BASAL DO SEGMENTO ANTERO-SEPTAL.
+# DEMAIS MEDICAÇÕES: ENALAPRIL 20 MG 1 CP 12/12H, AAS 100MG /DIA, CARVEDILOL 6,25 MG 2 CP 12/12 HORAS, SINVASTATINA 20 MG 2 CP/NOITE, HCTZ 25 MG /DIA, SUSTRATE 100 MG SE DOR PRECORDIAL , COMPLEXO B 1 CP APÓS ALMOÇO., PURAN 25 mcg 1 x dia, fFLUXETINA 20 mg 1 x dia, HIDROXIDOCLOROQUINA  400mg 1 x dia, COLCHICINA 0,5 mg 2x dia.
+
+PACIENTE REFERE EPISÓDIOS INTERMINTES DE PALPITAÇÕES E DOR PRECORDIAL (1-2 X/SEMANA), COM  RELAÇÃO COM EXERCICÍO FÍSICO OU COM O ESTRESSE. SEM OUTROS SINTOMAS ASSSOCIADOS. NEGA QUEIXAS RESPIRATÓRIAS, URINÁRIAS OU GASTROINTESTINAIS. 
+
+SINDORME X.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="35880" tag="Abbreviation|Abbreviation|Disease or Syndrome|Disease or Syndrome" start="21" end="24" text="HAS" abbr="" />
+<annotation id="35881" tag="Abbreviation|Disease or Syndrome" start="39" end="43" text="DSLP" abbr="" />
+<annotation id="35882" tag="Disease or Syndrome|Disease or Syndrome" start="48" end="63" text="HIPOTIREOIDISMO" abbr="" />
+<annotation id="35883" tag="Disease or Syndrome|Mental or Behavioral Dysfunction" start="110" end="119" text="DEPRESSÃO" abbr="" />
+<annotation id="35884" tag="Pharmacologic Substance|Organic Chemical" start="131" end="141" text="FLUOXETINA" abbr="" />
+<annotation id="35885" tag="Therapeutic or Preventive Procedure|Abbreviation|Abbreviation|Diagnostic Procedure|Diagnostic Procedure" start="158" end="161" text="CAT" abbr="" />
+<annotation id="35886" tag="Negation|Negation" start="177" end="180" text="SEM" abbr="" />
+<annotation id="35887" tag="Organic Chemical|Pharmacologic Substance" start="264" end="275" text="DIPIRIDAMOL" abbr="" />
+<annotation id="35888" tag="Therapeutic or Preventive Procedure" start="386" end="396" text="MEDICAÇÕES" abbr="" />
+<annotation id="35889" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="398" end="407" text="ENALAPRIL" abbr="" />
+<annotation id="35890" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="427" end="430" text="AAS" abbr="" />
+<annotation id="35891" tag="Pharmacologic Substance|Organic Chemical" start="443" end="453" text="CARVEDILOL" abbr="" />
+<annotation id="35892" tag="Pharmacologic Substance|Organic Chemical" start="480" end="492" text="SINVASTATINA" abbr="" />
+<annotation id="35893" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="511" end="515" text="HCTZ" abbr="" />
+<annotation id="35894" tag="Pharmacologic Substance" start="528" end="536" text="SUSTRATE" abbr="" />
+<annotation id="35895" tag="Abbreviation|Organic Chemical|Hormone|Pharmacologic Substance|Pharmacologic Substance" start="594" end="599" text="PURAN" abbr="" />
+<annotation id="35896" tag="Organic Chemical|Pharmacologic Substance" start="616" end="626" text="fFLUXETINA" abbr="" />
+<annotation id="35897" tag="Pharmacologic Substance|Organic Chemical" start="642" end="661" text="HIDROXIDOCLOROQUINA" abbr="" />
+<annotation id="35898" tag="Organic Chemical|Pharmacologic Substance" start="678" end="688" text="COLCHICINA" abbr="" />
+<annotation id="35899" tag="Sign or Symptom" start="748" end="759" text="PALPITAÇÕES" abbr="" />
+<annotation id="35900" tag="Sign or Symptom" start="836" end="844" text="ESTRESSE" abbr="" />
+<annotation id="35901" tag="Negation|Negation" start="846" end="849" text="SEM" abbr="" />
+<annotation id="35902" tag="Negation|Negation" start="879" end="883" text="NEGA" abbr="" />
+<annotation id="35903" tag="Organism Function" start="892" end="905" text="RESPIRATÓRIAS" abbr="" />
+<annotation id="35904" tag="Organism Function" start="907" end="916" text="URINÁRIAS" abbr="" />
+<annotation id="35905" tag="Organism Function" start="920" end="937" text="GASTROINTESTINAIS" abbr="" />
+<annotation id="35906" tag="Abbreviation|Organic Chemical|Pharmacologic Substance" start="86" end="93" text="PURA T4" />
+<annotation id="35907" tag="Quantitative Concept" start="94" end="105" text="25 MCG /DIA" />
+<annotation id="35908" tag="Quantitative Concept" start="142" end="153" text="20 MG /DIAS" />
+<annotation id="35909" tag="Health Care Activity|Therapeutic or Preventive Procedure" start="181" end="200" text="INDICAÇÃO CIRÚRGICA" />
+<annotation id="35910" tag="Disease or Syndrome" start="205" end="220" text="HÉRNIA DE DISCO" />
+<annotation id="35911" tag="Diagnostic Procedure" start="235" end="259" text="CINTILOGRAFIA MIOCÁRDICA" />
+<annotation id="35912" tag="Laboratory or Test Result" start="285" end="304" text="HIPOCAPTAÇÃO APICAL" />
+<annotation id="35913" tag="Body Location or Region" start="309" end="339" text="SEGMENTO ANTERIOR ( TRANSITÓRIO" />
+<annotation id="35914" tag="Quantitative Concept" start="408" end="425" text="20 MG 1 CP 12/12H" />
+<annotation id="35915" tag="Quantitative Concept" start="431" end="441" text="100MG /DIA" />
+<annotation id="35916" tag="Quantitative Concept" start="454" end="478" text="6 , 25 MG 2 CP 12/12 HORAS" />
+<annotation id="35917" tag="Quantitative Concept" start="493" end="509" text="20 MG 2 CP/NOITE" />
+<annotation id="35918" tag="Quantitative Concept" start="516" end="526" text="25 MG /DIA" />
+<annotation id="35919" tag="Quantitative Concept" start="537" end="543" text="100 MG" />
+<annotation id="35920" tag="Sign or Symptom" start="547" end="561" text="DOR PRECORDIAL" />
+<annotation id="35921" tag="Organic Chemical|Pharmacologic Substance|Vitamin" start="564" end="574" text="COMPLEXO B" />
+<annotation id="35922" tag="Quantitative Concept" start="575" end="579" text="1 CP" />
+<annotation id="35923" tag="Temporal Concept" start="580" end="591" text="APÓS ALMOÇO" />
+<annotation id="35924" tag="Quantitative Concept" start="600" end="614" text="25 mcg 1 x dia" />
+<annotation id="35925" tag="Quantitative Concept" start="627" end="640" text="20 mg 1 x dia" />
+<annotation id="35926" tag="Quantitative Concept" start="663" end="676" text="400mg 1 x dia" />
+<annotation id="35927" tag="Temporal Concept" start="723" end="744" text="EPISÓDIOS INTERMINTES" />
+<annotation id="35928" tag="Sign or Symptom" start="762" end="776" text="DOR PRECORDIAL" />
+<annotation id="35929" tag="Daily or Recreational Activity" start="810" end="826" text="EXERCICÍO FÍSICO" />
+<annotation id="35930" tag="Sign or Symptom" start="857" end="877" text="SINTOMAS ASSSOCIADOS" />
+<annotation id="35931" tag="Disease or Syndrome" start="943" end="953" text="SINDORME X" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="35884" annotation2="35908" reltype="associated_with" />
+<rel annotation1="35886" annotation2="35909" reltype="negation_of" />
+<rel annotation1="35889" annotation2="35914" reltype="associated_with" />
+<rel annotation1="35890" annotation2="35915" reltype="associated_with" />
+<rel annotation1="35891" annotation2="35916" reltype="associated_with" />
+<rel annotation1="35892" annotation2="35917" reltype="associated_with" />
+<rel annotation1="35894" annotation2="35919" reltype="associated_with" />
+<rel annotation1="35901" annotation2="35930" reltype="negation_of" />
+<rel annotation1="35921" annotation2="35922" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

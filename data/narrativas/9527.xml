@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>ID: Lucas, 55 ANOS, PROCEDENCIA CURITIBA, NATURAL DE SIQUEIRA CAMPOS, NÃO TRABALHA
+HMA : PALPITAÇÕES E TAQUICARDIA AO REPOUSO.
+FA CRONICA
+# 2CX DE TROCA DE MITRAL + ATRIOSEPTOPLASTIA (2006)
+# 23/09/14 PROTESE METALICA EM POSIÇÃO MITRAL NORMOFUNCIONANTE. VE APRESENTA DIMENSÕES NORMAIS COM FUNÇÃO SISTOLICA PRESERVADA. VENTRICULO DIREITO APRESENTA DIMENSÕES AUMENTADAS E FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE. REGURGITAÇÃO TRICUSPIDE DISCRETA. PSAP ESTIMADA EM 45MMHG. ATRIO ESQUERDO E DIREITO DILATADOS.
+# MEDICAMENTOS EM USO: 
+WARFARIM 5MG
+SELOKEN 100MG
+DIGOXINA 0,25MG
+* NÃO ESTÁ UTILIZANDO PENICILINA BENZATINA FALTA NA UNIDADE DE SAÚDE
+# RNI 14/03: 3,27
+13/06 2,68
+12/09 4,01 ( TROCOU MARCA DO REMEDIO )
+FC 72 
+PA 100X60MMHG
+CONDUTA :
+SUBSTITUIR SELOKEN POR SELOZOK
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="25979" tag="Sign or Symptom" start="90" end="101" text="PALPITAÇÕES" abbr="" />
+<annotation id="25980" tag="Therapeutic or Preventive Procedure" start="168" end="185" text="ATRIOSEPTOPLASTIA" abbr="" />
+<annotation id="25981" tag="Abbreviation|Body Part, Organ, or Organ Component" start="258" end="260" text="VE" abbr="" />
+<annotation id="25982" tag="Clinical Attribute|Abbreviation" start="453" end="457" text="PSAP" abbr="" />
+<annotation id="25983" tag="Quantitative Concept" start="470" end="476" text="45MMHG" abbr="" />
+<annotation id="25984" tag="Spatial Concept" start="484" end="492" text="ESQUERDO" abbr="" />
+<annotation id="25985" tag="Spatial Concept" start="495" end="502" text="DIREITO" abbr="" />
+<annotation id="25986" tag="Sign or Symptom" start="503" end="512" text="DILATADOS" abbr="" />
+<annotation id="25987" tag="Pharmacologic Substance" start="517" end="529" text="MEDICAMENTOS" abbr="" />
+<annotation id="25988" tag="Pharmacologic Substance" start="540" end="548" text="WARFARIM" abbr="" />
+<annotation id="25989" tag="Quantitative Concept" start="549" end="552" text="5MG" abbr="" />
+<annotation id="25990" tag="Pharmacologic Substance" start="554" end="561" text="SELOKEN" abbr="" />
+<annotation id="25991" tag="Quantitative Concept" start="562" end="567" text="100MG" abbr="" />
+<annotation id="25992" tag="Pharmacologic Substance" start="569" end="577" text="DIGOXINA" abbr="" />
+<annotation id="25993" tag="Negation" start="588" end="591" text="NÃO" abbr="" />
+<annotation id="25994" tag="Negation" start="629" end="634" text="FALTA" abbr="" />
+<annotation id="25995" tag="Laboratory Procedure|Laboratory or Test Result" start="658" end="661" text="RNI" abbr="" />
+<annotation id="25996" tag="Health Care Activity" start="700" end="706" text="TROCOU" abbr="" />
+<annotation id="25997" tag="Clinical Attribute|Abbreviation" start="727" end="729" text="FC" abbr="Frequência Cardíaca" />
+<annotation id="25998" tag="Quantitative Concept" start="730" end="732" text="72" abbr="" />
+<annotation id="25999" tag="Clinical Attribute|Abbreviation" start="735" end="737" text="PA" abbr="Pressão Arterial" />
+<annotation id="26000" tag="Quantitative Concept" start="738" end="748" text="100X60MMHG" abbr="" />
+<annotation id="26001" tag="Intellectual Product|Health Care Activity" start="750" end="757" text="CONDUTA" abbr="" />
+<annotation id="26002" tag="Health Care Activity" start="761" end="771" text="SUBSTITUIR" abbr="" />
+<annotation id="26003" tag="Pharmacologic Substance" start="772" end="779" text="SELOKEN" abbr="" />
+<annotation id="26004" tag="Pharmacologic Substance" start="784" end="791" text="SELOZOK" abbr="" />
+<annotation id="26005" tag="Sign or Symptom" start="104" end="126" text="TAQUICARDIA AO REPOUSO" />
+<annotation id="26006" tag="Abbreviation|Disease or Syndrome" start="129" end="139" text="FA CRONICA" />
+<annotation id="26007" tag="Abbreviation|Therapeutic or Preventive Procedure" start="143" end="165" text="2CX DE TROCA DE MITRAL" />
+<annotation id="26008" tag="Medical Device" start="205" end="221" text="PROTESE METALICA" />
+<annotation id="26009" tag="Finding" start="225" end="256" text="POSIÇÃO MITRAL NORMOFUNCIONANTE" />
+<annotation id="26010" tag="Finding" start="271" end="288" text="DIMENSÕES NORMAIS" />
+<annotation id="26011" tag="Finding" start="293" end="320" text="FUNÇÃO SISTOLICA PRESERVADA" />
+<annotation id="26012" tag="Body Part, Organ, or Organ Component" start="322" end="340" text="VENTRICULO DIREITO" />
+<annotation id="26013" tag="Sign or Symptom" start="351" end="371" text="DIMENSÕES AUMENTADAS" />
+<annotation id="26014" tag="Acquired Abnormality|Sign or Symptom" start="374" end="417" text="FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE" />
+<annotation id="26015" tag="Anatomical Abnormality|Sign or Symptom" start="419" end="451" text="REGURGITAÇÃO TRICUSPIDE DISCRETA" />
+<annotation id="26016" tag="Quantitative Concept" start="578" end="584" text="0 , 25MG" />
+<annotation id="26017" tag="Antibiotic|Pharmacologic Substance" start="608" end="628" text="PENICILINA BENZATINA" />
+<annotation id="26018" tag="Health Care Related Organization" start="638" end="654" text="UNIDADE DE SAÚDE" />
+<annotation id="26019" tag="Quantitative Concept" start="669" end="673" text="3 , 27" />
+<annotation id="26020" tag="Quantitative Concept" start="681" end="685" text="2 , 68" />
+<annotation id="26021" tag="Quantitative Concept" start="693" end="697" text="4 , 01" />
+<annotation id="26022" tag="Clinical Drug" start="707" end="723" text="MARCA DO REMEDIO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="25981" annotation2="26010" reltype="associated_with" />
+<rel annotation1="25981" annotation2="26011" reltype="associated_with" />
+<rel annotation1="25983" annotation2="25982" reltype="associated_with" />
+<rel annotation1="25989" annotation2="25988" reltype="associated_with" />
+<rel annotation1="25991" annotation2="25990" reltype="associated_with" />
+<rel annotation1="25993" annotation2="26017" reltype="associated_with" />
+<rel annotation1="25998" annotation2="25997" reltype="associated_with" />
+<rel annotation1="25999" annotation2="26000" reltype="associated_with" />
+<rel annotation1="26002" annotation2="26003" reltype="associated_with" />
+<rel annotation1="26008" annotation2="26009" reltype="associated_with" />
+<rel annotation1="26012" annotation2="26013" reltype="associated_with" />
+<rel annotation1="26012" annotation2="26014" reltype="associated_with" />
+<rel annotation1="26016" annotation2="25992" reltype="associated_with" />
+<rel annotation1="26019" annotation2="25995" reltype="associated_with" />
+<rel annotation1="26020" annotation2="25995" reltype="associated_with" />
+<rel annotation1="26021" annotation2="25995" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

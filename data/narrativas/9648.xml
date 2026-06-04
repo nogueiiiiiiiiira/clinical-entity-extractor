@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>POS TX CARDIACO HA 3 ANOS e 7 MESES 
+ULTIMA BIOPSIA
+EM USO DE CICLOSPORINA 100 / 100, MYFORTIC 360 / 360 ( REDUZIU PARA ESSA DOSE POR ENGANO ) , E PREDNISONA 5 MG / DIA
+USO DE AAS 100 / DIA
+S # SEM QUEIXAS 
+DEMAIS SP 
+AGURADA BIOPSIA.
+O # PA 120/80, FC 70
+ACV BCRNF 
+CPP LIVRE
+MMII SEM EDEMA 
+A # POS TX CARDIACO , COM BOA EVOLUÇÃO. AGUARDA LAUDO DA BIOPSIA
+P # SOLICITO LAB E ECOCC
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="32327" tag="Temporal Concept" start="0" end="3" text="POS" abbr="" />
+<annotation id="32328" tag="Diagnostic Procedure" start="45" end="52" text="BIOPSIA" abbr="" />
+<annotation id="32329" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="64" end="76" text="CICLOSPORINA" abbr="" />
+<annotation id="32330" tag="Antibiotic|Organic Chemical" start="88" end="96" text="MYFORTIC" abbr="" />
+<annotation id="32331" tag="Health Care Activity" start="109" end="116" text="REDUZIU" abbr="" />
+<annotation id="32332" tag="Pharmacologic Substance|Organic Chemical|Hormone" start="149" end="159" text="PREDNISONA" abbr="" />
+<annotation id="32333" tag="Temporal Concept" start="167" end="170" text="DIA" abbr="" />
+<annotation id="32334" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="179" end="182" text="AAS" abbr="" />
+<annotation id="32335" tag="Quantitative Concept" start="183" end="186" text="100" abbr="" />
+<annotation id="32336" tag="Temporal Concept" start="189" end="192" text="DIA" abbr="" />
+<annotation id="32337" tag="Negation" start="198" end="201" text="SEM" abbr="" />
+<annotation id="32338" tag="Sign or Symptom" start="202" end="209" text="QUEIXAS" abbr="" />
+<annotation id="32339" tag="Abbreviation|Finding" start="219" end="221" text="SP" abbr="" />
+<annotation id="32340" tag="Health Care Activity" start="224" end="231" text="AGURADA" abbr="" />
+<annotation id="32341" tag="Diagnostic Procedure" start="232" end="239" text="BIOPSIA" abbr="" />
+<annotation id="32342" tag="Clinical Attribute|Abbreviation|Clinical Attribute" start="246" end="248" text="PA" abbr="" />
+<annotation id="32343" tag="Quantitative Concept" start="249" end="255" text="120/80" abbr="" />
+<annotation id="32344" tag="Clinical Attribute|Clinical Attribute|Abbreviation" start="257" end="259" text="FC" abbr="frequência cardíaca" />
+<annotation id="32345" tag="Quantitative Concept" start="260" end="262" text="70" abbr="" />
+<annotation id="32346" tag="Clinical Attribute|Abbreviation" start="264" end="267" text="ACV" abbr="ausculta cardiovascular" />
+<annotation id="32347" tag="Finding|Abbreviation|Abbreviation|Finding" start="268" end="273" text="BCRNF" abbr="" />
+<annotation id="32348" tag="Abbreviation|Abbreviation|Body Part, Organ, or Organ Component|Body Location or Region" start="287" end="291" text="MMII" abbr="" />
+<annotation id="32349" tag="Negation" start="292" end="295" text="SEM" abbr="" />
+<annotation id="32350" tag="Sign or Symptom|Sign or Symptom" start="296" end="301" text="EDEMA" abbr="" />
+<annotation id="32351" tag="Temporal Concept" start="308" end="311" text="POS" abbr="" />
+<annotation id="32352" tag="Laboratory or Test Result" start="352" end="357" text="LAUDO" abbr="" />
+<annotation id="32353" tag="Diagnostic Procedure" start="361" end="368" text="BIOPSIA" abbr="" />
+<annotation id="32354" tag="Health Care Activity" start="374" end="382" text="SOLICITO" abbr="" />
+<annotation id="32355" tag="Laboratory Procedure|Abbreviation" start="383" end="386" text="LAB" abbr="" />
+<annotation id="32356" tag="Diagnostic Procedure|Abbreviation" start="389" end="394" text="ECOCC" abbr="ecocardiograma" />
+<annotation id="32357" tag="Abbreviation|Therapeutic or Preventive Procedure" start="4" end="15" text="TX CARDIACO" />
+<annotation id="32358" tag="Temporal Concept" start="16" end="35" text="HA 3 ANOS e 7 MESES" />
+<annotation id="32359" tag="Quantitative Concept" start="77" end="86" text="100 / 100" />
+<annotation id="32360" tag="Quantitative Concept" start="97" end="106" text="360 / 360" />
+<annotation id="32361" tag="Quantitative Concept" start="160" end="164" text="5 MG" />
+<annotation id="32362" tag="Abbreviation|Finding" start="276" end="285" text="CPP LIVRE" />
+<annotation id="32363" tag="Abbreviation|Therapeutic or Preventive Procedure" start="312" end="323" text="TX CARDIACO" />
+<annotation id="32364" tag="Qualitative Concept" start="330" end="342" text="BOA EVOLUÇÃO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="32327" annotation2="32357" reltype="associated_with" />
+<rel annotation1="32329" annotation2="32359" reltype="associated_with" />
+<rel annotation1="32330" annotation2="32360" reltype="associated_with" />
+<rel annotation1="32332" annotation2="32361" reltype="associated_with" />
+<rel annotation1="32334" annotation2="32335" reltype="associated_with" />
+<rel annotation1="32335" annotation2="32336" reltype="associated_with" />
+<rel annotation1="32337" annotation2="32338" reltype="negation_of" />
+<rel annotation1="32340" annotation2="32341" reltype="associated_with" />
+<rel annotation1="32342" annotation2="32343" reltype="associated_with" />
+<rel annotation1="32344" annotation2="32345" reltype="associated_with" />
+<rel annotation1="32346" annotation2="32347" reltype="associated_with" />
+<rel annotation1="32348" annotation2="32350" reltype="associated_with" />
+<rel annotation1="32349" annotation2="32350" reltype="negation_of" />
+<rel annotation1="32351" annotation2="32363" reltype="associated_with" />
+<rel annotation1="32354" annotation2="32355" reltype="associated_with" />
+<rel annotation1="32354" annotation2="32356" reltype="associated_with" />
+<rel annotation1="32360" annotation2="32330" reltype="associated_with" />
+<rel annotation1="32361" annotation2="32333" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

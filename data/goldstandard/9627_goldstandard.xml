@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 02/09/2014
+
+
+Lucas, 59
+# HAS
+# FA em Anticoagulação
+# Hipotireoidismo
+# Dislipidemia
+# Obesidade
+# Nega HF para DAC
+# Nega tabagismo/etilismo
+# Sem alergias
+# Med em Uso: Atenolol 50mg 12/12h; enalapril  10mg 12/12h; marevan 1 1/2cp todos dias ( seg a sábado ) + 01cp aos domingos LT4 50mcg + SVT 20mg;
+# traz exames lab: 
+   - Triglicerídeos 304;
+   - Cr 0,8; U 22; CT 168; HDL 30; HMG normal; TGO e TGp normais;
+S # Sem queixas; nega dispnéia ou palpitação;
+O # Euneica em AA, FC 85; Sp02 96%; Ac B. Arrítmicas; Ap CPP livres; abd sp MMII sem edema; P 90Kg; IMC 31,88
+A # Oriento atividade física; Solicito novos exames; Verificar Triglicerídeos na próxima consulta;
+      Solicito novo Ecocardio ( Há mais de 1 ano q não faz ); mantenho medicamentos; retorno em 3 meses
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="55~58" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="61~63" text="FA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="67~81" text="Anticoagulação" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="84~99" text="Hipotireoidismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="102~114" text="Dislipidemia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="117~126" text="Obesidade" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="148~152" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E7" spans="153~162" text="tabagismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="163~171" text="etilismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="178~186" text="alergias" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="189~192" text="Med" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="201~214" text="Atenolol 50mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="223~238" text="enalapril  10mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="247~256" text="marevan 1" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="311~320" text="LT4 50mcg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="323~331" text="SVT 20mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="340~350" text="exames lab" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="358~372" text="Triglicerídeos" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="383~385" text="Cr" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="391~392" text="U" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="397~399" text="CT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="405~408" text="HDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="413~416" text="HMG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="425~428" text="TGO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="431~434" text="TGp" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="452~459" text="queixas" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="461~465" text="nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E27" spans="466~474" text="dispnéia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="478~488" text="palpitação" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="509~511" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E30" spans="516~520" text="Sp02" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E31" spans="529~542" text="B. Arrítmicas" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E32" spans="575~580" text="edema" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E33" spans="582~583" text="P" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E34" spans="590~593" text="IMC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E35" spans="612~628" text="atividade física" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E36" spans="645~651" text="exames" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E37" spans="663~677" text="Triglicerídeos" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E38" spans="719~728" text="Ecocardio" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E39" spans="761~769" text="mantenho" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E40" spans="770~782" text="medicamentos" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E41" spans="784~791" text="retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E42" spans="689~697" text="consulta" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="215~221" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T1" spans="239~245" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T2" spans="257~290" text="1/2cp todos dias ( seg a sábado )" Type="Set" Value="P1W" Mod="NA" Freq="6X" Cps="0.5" />
+<TIMEX3 id="T3" spans="293~310" text="01cp aos domingos" Type="Set" Value="P1W" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T4" spans="731~747" text="Há mais de 1 ano" Type="Duration" Value="P1Y" Mod="MORE" />
+<TIMEX3 id="T5" spans="792~802" text="em 3 meses" Type="Date" Value="2014-12-02" Mod="NA" />
+<RELATION id="R0" fromID="E1" fromText="FA" toID="E2" toText="Anticoagulação" Relação_Temporal="OVERLAP" />
+<RELATION id="R1" fromID="E11" fromText="Atenolol 50mg" toID="T0" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E12" fromText="enalapril  10mg" toID="T1" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E13" fromText="marevan 1" toID="T3" toText="01cp aos domingos" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E13" fromText="marevan 1" toID="T2" toText="1/2cp todos dias ( seg a sábado )" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E16" fromText="exames lab" toID="E24" toText="TGp" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E16" fromText="exames lab" toID="E23" toText="TGO" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="E16" fromText="exames lab" toID="E20" toText="CT" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E16" fromText="exames lab" toID="E19" toText="U" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E16" fromText="exames lab" toID="E21" toText="HDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="E16" fromText="exames lab" toID="E22" toText="HMG" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E16" fromText="exames lab" toID="E18" toText="Cr" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="E16" fromText="exames lab" toID="E17" toText="Triglicerídeos" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="T5" fromText="em 3 meses" toID="E41" toText="retorno" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="E41" fromText="retorno" toID="E36" toText="exames" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="E41" fromText="retorno" toID="E42" toText="consulta" Relação_Temporal="OVERLAP" />
+<RELATION id="R16" fromID="E36" fromText="exames" toID="E38" toText="Ecocardio" Relação_Temporal="CONTAINS" />
+<RELATION id="R17" fromID="E36" fromText="exames" toID="E37" toText="Triglicerídeos" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="T5" fromText="em 3 meses" toID="E42" toText="consulta" Relação_Temporal="CONTAINS" />
+<RELATION id="R20" fromID="E39" fromText="mantenho" toID="E40" toText="medicamentos" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

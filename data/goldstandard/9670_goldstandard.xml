@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 27/09/2013
+
+
+PACIENTE, 80 ANOS.
+ELETROCARDIOGRAMA: ALTERAÇÕES DIFUSAS DA REPOLARIZAÇÃO VENTRICULAR.
+EXAMES LABORATORIAIS: CREATININA 1,3 / GLICOSE 107 /  UREIA 46 /  TRIGLICERIDEOS 259 /  HDL 42 / POTASSIO 5,4 / COLESTEROL TOTAL 257 / LDL 163 / KPTT 1,31.
+CX CARDÍACA REALIZADA EM 2005: 3 PONTES DE SAFENA, COM HISTÓRIA DE INFARTO EM 2005.
+PACIENTE RELATA VERTIGEM MESMO SENTADA, NAO RELATA ANGINA, NEGA DISPNÉIA, RELATA EDEMA DE MMII.
+EM USO DE: ATENOLOL (1 CP), CAPTOPRIL(2 CP), FUROSEMIDA(1 CP), SINVASTATINA (1 CP A NOITE), OMEPRAZOL.
+ 
+ 
+HIPERTENSA.
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="62~79" text="ELETROCARDIOGRAMA" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="81~128" text="ALTERAÇÕES DIFUSAS DA REPOLARIZAÇÃO VENTRICULAR" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="130~150" text="EXAMES LABORATORIAIS" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="152~162" text="CREATININA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="169~176" text="GLICOSE" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="184~189" text="UREIA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="196~210" text="TRIGLICERIDEOS" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="218~221" text="HDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="227~235" text="POTASSIO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="242~258" text="COLESTEROL TOTAL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="265~268" text="LDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="275~279" text="KPTT" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="286~297" text="CX CARDÍACA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="317~335" text="3 PONTES DE SAFENA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="353~360" text="INFARTO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="379~385" text="RELATA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E17" spans="414~420" text="RELATA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E18" spans="421~427" text="ANGINA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="429~433" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E20" spans="434~442" text="DISPNÉIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="444~450" text="RELATA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E23" spans="477~485" text="ATENOLOL" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E24" spans="494~503" text="CAPTOPRIL" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E25" spans="511~521" text="FUROSEMIDA" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E26" spans="529~541" text="SINVASTATINA" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E27" spans="558~567" text="OMEPRAZOL" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E28" spans="386~394" text="VERTIGEM" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="451~464" text="EDEMA DE MMII" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E31" spans="573~583" text="HIPERTENSA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<TIMEX3 id="T0" spans="311~315" text="2005" Type="Date" Value="2005" Mod="NA" />
+<TIMEX3 id="T1" spans="364~368" text="2005" Type="Date" Value="2005" Mod="NA" />
+<TIMEX3 id="T2" spans="487~491" text="1 CP" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T3" spans="504~508" text="2 CP" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="2" />
+<TIMEX3 id="T4" spans="522~526" text="1 CP" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T5" spans="543~555" text="1 CP A NOITE" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<RELATION id="R0" fromID="E0" fromText="ELETROCARDIOGRAMA" toID="E1" toText="ALTERAÇÕES DIFUSAS DA REPOLARIZAÇÃO VENTRICULAR" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E2" fromText="EXAMES LABORATORIAIS" toID="E3" toText="CREATININA" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E2" fromText="EXAMES LABORATORIAIS" toID="E4" toText="GLICOSE" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E2" fromText="EXAMES LABORATORIAIS" toID="E5" toText="UREIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="E2" fromText="EXAMES LABORATORIAIS" toID="E6" toText="TRIGLICERIDEOS" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="E2" fromText="EXAMES LABORATORIAIS" toID="E7" toText="HDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E2" fromText="EXAMES LABORATORIAIS" toID="E8" toText="POTASSIO" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="E2" fromText="EXAMES LABORATORIAIS" toID="E9" toText="COLESTEROL TOTAL" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E2" fromText="EXAMES LABORATORIAIS" toID="E10" toText="LDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E2" fromText="EXAMES LABORATORIAIS" toID="E11" toText="KPTT" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="T0" fromText="2005" toID="E12" toText="CX CARDÍACA" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E12" fromText="CX CARDÍACA" toID="E13" toText="3 PONTES DE SAFENA" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="T1" fromText="2005" toID="E14" toText="INFARTO" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E23" fromText="ATENOLOL" toID="T2" toText="1 CP" Relação_Temporal="OVERLAP" />
+<RELATION id="R14" fromID="E24" fromText="CAPTOPRIL" toID="T3" toText="2 CP" Relação_Temporal="OVERLAP" />
+<RELATION id="R15" fromID="E25" fromText="FUROSEMIDA" toID="T4" toText="1 CP" Relação_Temporal="OVERLAP" />
+<RELATION id="R16" fromID="E26" fromText="SINVASTATINA" toID="T5" toText="1 CP A NOITE" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

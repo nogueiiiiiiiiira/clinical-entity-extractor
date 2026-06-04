@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 03/09/2013
+
+
+# Lucas, 58 anos
+# Comorbidades: HAS, Dislipidemia, Tabagismo 115 maços/ano
+# HMA: IAM ST - Killip I em 10 de junho de 2013. Realizado ATC com stent em DA com sucesso
+# Em uso de:
+AAS 100 mg - 1cp ao dia
+Enalapril 10 mg - 1 cp de 12/12h
+Brilinta 90 mg - 1 cp de 12/12h
+Selozok 50 mg - 2 cp ao dia
+Sinvastatina 40 mg - 1 cp ao dia
+Espironolactona 25 mg- 1 cp ao dia
+# S: dispneia paroxística noturna e dispneia durante o dia também. angina leve
+# O:
+P = 84 bpm
+PA = 110x80 mmHg
+Estetores finos
+# A: paciente pós IAM evoluiu com dispneia paroxística noturna
+# P: Furosemida 40 mg - 1 cp ao dia
+       Ecocardiograma transtorácico
+       Espirometria
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="62~74" text="Comorbidades" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="76~79" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="81~93" text="Dislipidemia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="126~143" text="IAM ST - Killip I" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="178~181" text="ATC" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="186~197" text="stent em DA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="202~209" text="sucesso" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="223~233" text="AAS 100 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="247~262" text="Enalapril 10 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="280~294" text="Brilinta 90 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="312~325" text="Selozok 50 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="340~358" text="Sinvastatina 40 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="373~394" text="Espironolactona 25 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="413~441" text="dispneia paroxística noturna" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="444~452" text="dispneia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="475~486" text="angina leve" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="492~493" text="P" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E18" spans="503~505" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E19" spans="520~535" text="Estetores finos" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E20" spans="554~557" text="IAM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="570~598" text="dispneia paroxística noturna" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E22" spans="604~620" text="Furosemida 40 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E23" spans="95~104" text="Tabagismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="642~670" text="Ecocardiograma transtorácico" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E26" spans="678~690" text="Espirometria" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="147~166" text="10 de junho de 2013" Type="Date" Value="2013-06-10" Mod="NA" />
+<TIMEX3 id="T1" spans="236~246" text="1cp ao dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T2" spans="265~279" text="1 cp de 12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="1" />
+<TIMEX3 id="T3" spans="297~311" text="1 cp de 12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="1" />
+<TIMEX3 id="T4" spans="328~339" text="2 cp ao dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="2" />
+<TIMEX3 id="T5" spans="361~372" text="1 cp ao dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T6" spans="396~407" text="1 cp ao dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T7" spans="453~466" text="durante o dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T8" spans="623~634" text="1 cp ao dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<RELATION id="R0" fromID="T0" fromText="10 de junho de 2013" toID="E4" toText="IAM ST - Killip I" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E5" fromText="ATC" toID="E7" toText="sucesso" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E5" fromText="ATC" toID="E6" toText="stent em DA" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E8" fromText="AAS 100 mg" toID="T1" toText="1cp ao dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E9" fromText="Enalapril 10 mg" toID="T2" toText="1 cp de 12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E10" fromText="Brilinta 90 mg" toID="T3" toText="1 cp de 12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E11" fromText="Selozok 50 mg" toID="T4" toText="2 cp ao dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E12" fromText="Sinvastatina 40 mg" toID="T5" toText="1 cp ao dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R8" fromID="E13" fromText="Espironolactona 25 mg" toID="T6" toText="1 cp ao dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R9" fromID="E15" fromText="dispneia" toID="T7" toText="durante o dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R10" fromID="E20" fromText="IAM" toID="E21" toText="dispneia paroxística noturna" Relação_Temporal="BEFORE" />
+<RELATION id="R11" fromID="E22" fromText="Furosemida 40 mg" toID="T8" toText="1 cp ao dia" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

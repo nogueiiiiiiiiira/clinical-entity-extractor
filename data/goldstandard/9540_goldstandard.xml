@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 11/09/2014
+
+
+Lucas, 43 anos 
+Paciente refere dispneia aos mínimos esforços com piora progressiva, ortopneia, roncos noturnos, edema de MMII. Relata o aparecimento de angina há mais ou menos 3 meses, aos mínimos esforços.
+Cx bariátrica há 1 ano e meio, 3 episódios de internamento por edema agudo de pulmão, última sendo em Agosto de 2014. Paciente hipertenso, portador de ICC, hérnia de hiato. Em uso de enalapril 10mg 12/12h, carvedilol 12,5mg 12/12h, furosemida 40mg 12/12h, espironolactona 25mg 12/12h, apresolina 25mg, 12/12h, monocordil 20mg 12/12h, warfarina 50mg 1 comprimido por dia.
+Ex fumante, fumou 27 anos em media de 2 carteiras por dia.  
+Eletro 13/05/2014: fibrilação atrial, hipertrofia ventricular esquerda, alterações difusas de repolarização ventricular.
+Ecocardiograma 6/05/2014: importante aumento das dimensões do ventriculo esquerdo, espessura normal, disfunção sistolica global moderada por hipocinesia difusa com FE 41%. Aumento das dimensões do atrio direito e esquerdo, estenose aortica de grau leve, insuficiencia aortica de grau leve, insuf mitral de grau leve, pressao sistolica pulmonar de 20mmHg.
+Cateterismo não evidencia doença coronariana importante
+Laboratorio 13/08/2014
+Creatinina 0,98
+Glic jejum 90
+PCR nao reag
+TAP 23,6
+Conduta: paciente encaminhado à UDT para compensação da ICC. Retorno após internamento
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="68~74" text="refere" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E1" spans="75~104" text="dispneia aos mínimos esforços" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="109~126" text="piora progressiva" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="128~137" text="ortopneia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="139~154" text="roncos noturnos" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="156~169" text="edema de MMII" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="171~177" text="Relata" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E7" spans="196~202" text="angina" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="251~264" text="Cx bariátrica" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="314~335" text="edema agudo de pulmão" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="378~388" text="hipertenso" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="402~405" text="ICC" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="407~422" text="hérnia de hiato" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="434~448" text="enalapril 10mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="457~474" text="carvedilol 12,5mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="483~498" text="furosemida 40mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="507~527" text="espironolactona 25mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E18" spans="536~551" text="apresolina 25mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E19" spans="561~576" text="monocordil 20mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E20" spans="585~599" text="warfarina 50mg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E21" spans="622~632" text="Ex fumante" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E22" spans="683~689" text="Eletro" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="702~719" text="fibrilação atrial" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="721~753" text="hipertrofia ventricular esquerda" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="755~802" text="alterações difusas de repolarização ventricular" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="804~818" text="Ecocardiograma" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="905~940" text="disfunção sistolica global moderada" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="945~963" text="hipocinesia difusa" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="976~1025" text="Aumento das dimensões do atrio direito e esquerdo" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E31" spans="1027~1056" text="estenose aortica de grau leve" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E32" spans="1058~1092" text="insuficiencia aortica de grau leve" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E33" spans="1094~1119" text="insuf mitral de grau leve" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E34" spans="1159~1170" text="Cateterismo" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E35" spans="1175~1184" text="evidencia" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E36" spans="1185~1214" text="doença coronariana importante" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E37" spans="830~885" text="importante aumento das dimensões do ventriculo esquerdo" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E38" spans="1215~1226" text="Laboratorio" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E39" spans="1238~1248" text="Creatinina" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E40" spans="1254~1264" text="Glic jejum" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E41" spans="1268~1271" text="PCR" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E42" spans="1281~1284" text="TAP" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E43" spans="1308~1319" text="encaminhado" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E44" spans="1322~1325" text="UDT" Pre_anotacao="Sim" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E45" spans="1331~1349" text="compensação da ICC" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E46" spans="1351~1358" text="Retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E47" spans="1364~1376" text="internamento" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E27" spans="282~309" text="3 episódios de internamento" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="203~227" text="há mais ou menos 3 meses" Type="Date" Value="2014-06-11" Mod="APPROX" />
+<TIMEX3 id="T1" spans="265~280" text="há 1 ano e meio" Type="Date" Value="2013-03-11" Mod="NA" />
+<TIMEX3 id="T2" spans="353~367" text="Agosto de 2014" Type="Date" Value="2014-08" Mod="NA" />
+<TIMEX3 id="T3" spans="449~455" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T4" spans="475~481" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T5" spans="499~505" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T6" spans="528~534" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T7" spans="553~559" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T8" spans="577~583" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T9" spans="600~620" text="1 comprimido por dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T10" spans="640~647" text="27 anos" Type="Duration" Value="P27Y" Mod="NA" />
+<TIMEX3 id="T11" spans="690~700" text="13/05/2014" Type="Date" Value="2014-05-13" Mod="NA" />
+<TIMEX3 id="T12" spans="819~828" text="6/05/2014" Type="Date" Value="2014-05-06" Mod="NA" />
+<TIMEX3 id="T13" spans="1227~1237" text="13/08/2014" Type="Date" Value="2014-08-13" Mod="NA" />
+<RELATION id="R0" fromID="E1" fromText="dispneia aos mínimos esforços" toID="E2" toText="piora progressiva" Relação_Temporal="OVERLAP" />
+<RELATION id="R1" fromID="T0" fromText="há mais ou menos 3 meses" toID="E7" toText="angina" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="T1" fromText="há 1 ano e meio" toID="E8" toText="Cx bariátrica" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E27" fromText="3 episódios de internamento" toID="E10" toText="edema agudo de pulmão" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="T2" fromText="Agosto de 2014" toID="E10" toText="edema agudo de pulmão" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="E14" fromText="enalapril 10mg" toID="T3" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E15" fromText="carvedilol 12,5mg" toID="T4" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E16" fromText="furosemida 40mg" toID="T5" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R8" fromID="E17" fromText="espironolactona 25mg" toID="T6" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R9" fromID="E18" fromText="apresolina 25mg" toID="T7" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R10" fromID="E19" fromText="monocordil 20mg" toID="T8" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R11" fromID="E20" fromText="warfarina 50mg" toID="T9" toText="1 comprimido por dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R12" fromID="T11" fromText="13/05/2014" toID="E22" toText="Eletro" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E22" fromText="Eletro" toID="E23" toText="fibrilação atrial" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="E22" fromText="Eletro" toID="E24" toText="hipertrofia ventricular esquerda" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="E22" fromText="Eletro" toID="E25" toText="alterações difusas de repolarização ventricular" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="T12" fromText="6/05/2014" toID="E26" toText="Ecocardiograma" Relação_Temporal="CONTAINS" />
+<RELATION id="R17" fromID="E26" fromText="Ecocardiograma" toID="E37" toText="importante aumento das dimensões do ventriculo esquerdo" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="E26" fromText="Ecocardiograma" toID="E28" toText="disfunção sistolica global moderada" Relação_Temporal="CONTAINS" />
+<RELATION id="R19" fromID="E26" fromText="Ecocardiograma" toID="E29" toText="hipocinesia difusa" Relação_Temporal="CONTAINS" />
+<RELATION id="R20" fromID="E26" fromText="Ecocardiograma" toID="E30" toText="Aumento das dimensões do atrio direito e esquerdo" Relação_Temporal="CONTAINS" />
+<RELATION id="R21" fromID="E26" fromText="Ecocardiograma" toID="E31" toText="estenose aortica de grau leve" Relação_Temporal="CONTAINS" />
+<RELATION id="R22" fromID="E26" fromText="Ecocardiograma" toID="E32" toText="insuficiencia aortica de grau leve" Relação_Temporal="CONTAINS" />
+<RELATION id="R23" fromID="E26" fromText="Ecocardiograma" toID="E33" toText="insuf mitral de grau leve" Relação_Temporal="CONTAINS" />
+<RELATION id="R24" fromID="E35" fromText="evidencia" toID="E36" toText="doença coronariana importante" Relação_Temporal="OVERLAP" />
+<RELATION id="R25" fromID="E34" fromText="Cateterismo" toID="E36" toText="doença coronariana importante" Relação_Temporal="CONTAINS" />
+<RELATION id="R26" fromID="E34" fromText="Cateterismo" toID="E35" toText="evidencia" Relação_Temporal="CONTAINS" />
+<RELATION id="R27" fromID="T13" fromText="13/08/2014" toID="E38" toText="Laboratorio" Relação_Temporal="CONTAINS" />
+<RELATION id="R28" fromID="E38" fromText="Laboratorio" toID="E39" toText="Creatinina" Relação_Temporal="CONTAINS" />
+<RELATION id="R29" fromID="E38" fromText="Laboratorio" toID="E40" toText="Glic jejum" Relação_Temporal="CONTAINS" />
+<RELATION id="R30" fromID="E38" fromText="Laboratorio" toID="E41" toText="PCR" Relação_Temporal="CONTAINS" />
+<RELATION id="R31" fromID="E38" fromText="Laboratorio" toID="E42" toText="TAP" Relação_Temporal="CONTAINS" />
+<RELATION id="R32" fromID="E43" fromText="encaminhado" toID="E44" toText="UDT" Relação_Temporal="OVERLAP" />
+<RELATION id="R33" fromID="E43" fromText="encaminhado" toID="E45" toText="compensação da ICC" Relação_Temporal="OVERLAP" />
+<RELATION id="R34" fromID="E44" fromText="UDT" toID="E45" toText="compensação da ICC" Relação_Temporal="OVERLAP" />
+<RELATION id="R35" fromID="E47" fromText="internamento" toID="E46" toText="Retorno" Relação_Temporal="BEFORE" />
+</TAGS>
+</Annotation_v1>

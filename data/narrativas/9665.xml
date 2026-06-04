@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>IAM  2013   + ATC.
+HAS /  DM / EX TBG.
+ECG   FC  50,  BS  ZEI  AS   IS AL. 
+USA AAS,   CVD  25 - D,   ENL 5 - D;  MTF 850 - D,  SVT 20 - D.
+
+RERTORNA  COM  CINTILO  FIBROSE   PERSISTENTE   APICE   E  MEDIO  APICAL DA P  ANTERIOR  E  ANTERO SEPTAL  DISCRETA  ISQUEMIA ASSOCIADA;  FE   23-28%.
+1'2-80 50 15  
+P MANTEIDA. 
+CONRTROLE NO AMB IC  COM ECO. 
+LIBERADA  A CX  CATARATA.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="33018" tag="Abbreviation|Disease or Syndrome|Finding" start="0" end="3" text="IAM" abbr="" />
+<annotation id="33019" tag="Therapeutic or Preventive Procedure|Abbreviation" start="14" end="17" text="ATC" abbr="angioplastia transluminal coronariana" />
+<annotation id="33020" tag="Abbreviation|Disease or Syndrome" start="20" end="23" text="HAS" abbr="" />
+<annotation id="33021" tag="Abbreviation|Disease or Syndrome" start="27" end="29" text="DM" abbr="" />
+<annotation id="33022" tag="Abbreviation|Diagnostic Procedure" start="41" end="44" text="ECG" abbr="" />
+<annotation id="33023" tag="Abbreviation|Clinical Attribute" start="47" end="49" text="FC" abbr="" />
+<annotation id="33024" tag="Quantitative Concept" start="51" end="53" text="50" abbr="" />
+<annotation id="33025" tag="Finding|Abbreviation" start="56" end="58" text="BS" abbr="" />
+<annotation id="33026" tag="Laboratory or Test Result|Abbreviation" start="60" end="63" text="ZEI" abbr="" />
+<annotation id="33027" tag="Abbreviation|Laboratory or Test Result" start="65" end="67" text="AS" abbr="" />
+<annotation id="33028" tag="Abbreviation|Laboratory or Test Result" start="70" end="72" text="IS" abbr="" />
+<annotation id="33029" tag="Abbreviation|Laboratory or Test Result" start="73" end="75" text="AL" abbr="" />
+<annotation id="33030" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="83" end="86" text="AAS" abbr="" />
+<annotation id="33031" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="90" end="93" text="CVD" abbr="" />
+<annotation id="33032" tag="Quantitative Concept" start="95" end="97" text="25" abbr="" />
+<annotation id="33033" tag="Abbreviation|Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="105" end="108" text="ENL" abbr="" />
+<annotation id="33034" tag="Quantitative Concept" start="109" end="110" text="5" abbr="" />
+<annotation id="33035" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="117" end="120" text="MTF" abbr="" />
+<annotation id="33036" tag="Quantitative Concept" start="121" end="124" text="850" abbr="" />
+<annotation id="33037" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="131" end="134" text="SVT" abbr="" />
+<annotation id="33038" tag="Quantitative Concept" start="135" end="137" text="20" abbr="" />
+<annotation id="33039" tag="Abbreviation|Diagnostic Procedure" start="161" end="168" text="CINTILO" abbr="" />
+<annotation id="33040" tag="Intellectual Product|Abbreviation" start="314" end="315" text="P" abbr="" />
+<annotation id="33041" tag="Health Care Activity" start="316" end="324" text="MANTEIDA" abbr="" />
+<annotation id="33042" tag="Abbreviation|Diagnostic Procedure" start="353" end="356" text="ECO" abbr="" />
+<annotation id="33043" tag="Health Care Activity" start="360" end="368" text="LIBERADA" abbr="" />
+<annotation id="33044" tag="Abbreviation|Finding" start="32" end="38" text="EX TBG" />
+<annotation id="33045" tag="Laboratory or Test Result" start="170" end="233" text="FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR" />
+<annotation id="33046" tag="Laboratory or Test Result" start="238" end="281" text="ANTERO SEPTAL DISCRETA ISQUEMIA ASSOCIADA" />
+<annotation id="33047" tag="Abbreviation|Laboratory or Test Result" start="284" end="295" text="FE 23-28%" />
+<annotation id="33048" tag="Abbreviation" start="341" end="347" text="AMB IC" />
+<annotation id="33049" tag="Abbreviation|Therapeutic or Preventive Procedure" start="372" end="384" text="CX CATARATA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33043" annotation2="33049" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

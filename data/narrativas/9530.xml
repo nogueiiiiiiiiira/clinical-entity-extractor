@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># 2 CX DE TROCA DE MITRAL + ATRIOSEPTOPLASTIA (2006)
+# FA PERMANENTE 
+# 23/09/14:  PROTESE METALICA EM POSIÇÃO MITRAL NORMOFUNCIONANTE. VE APRESENTA DIMENSÕES NORMAIS COM FUNÇÃO SISTOLICA
+PRESERVADA. VENTRICULO DIREITO APRESENTA DIMENSÕES AUMENTADAS E FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE.
+REGURGITAÇÃO TRICUSPIDE DISCRETA. PSAP ESTIMADA EM 45MMHG. ATRIO ESQUERDO E DIREITO DILATADOS. 
+# MEDICAMENTOS EM USO:
+WARFARIM 5MG
+SELOKEN 100MG 12/12H
+PENICILINA BENZATINA 21/21 DIAS 
+# PACIENTE NEGA DISPNEIA OU DOR, REFERE PALPITAÇÕES EVENTUAIS.
+SEM OUTRAS QUEIXAS NO PERIODO 
+# AO EXAME :
+BEG, CORADA, HIDRATADA, LOTE, EUPNÉICA.
+MV + SEM RA. RITMO CARDÍACO IRREGULAR,
+ACV : BULHAS NORMOFONÉTICAS, PRESENÇA DE ESTALIDO METÁLICO.
+FC 71
+PA 100/70
+FC : 97 
+CONDUTA : 
+- retornoem 1 ano com edocardio
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="26135" tag="Quantitative Concept" start="2" end="3" text="2" abbr="" />
+<annotation id="26136" tag="Therapeutic or Preventive Procedure" start="28" end="45" text="ATRIOSEPTOPLASTIA" abbr="" />
+<annotation id="26137" tag="Abbreviation|Body Part, Organ, or Organ Component" start="138" end="140" text="VE" abbr="" />
+<annotation id="26138" tag="Clinical Attribute|Abbreviation" start="335" end="339" text="PSAP" abbr="" />
+<annotation id="26139" tag="Quantitative Concept" start="352" end="358" text="45MMHG" abbr="" />
+<annotation id="26140" tag="Sign or Symptom" start="385" end="394" text="DILATADOS" abbr="" />
+<annotation id="26141" tag="Pharmacologic Substance" start="400" end="412" text="MEDICAMENTOS" abbr="" />
+<annotation id="26142" tag="Pharmacologic Substance" start="422" end="430" text="WARFARIM" abbr="" />
+<annotation id="26143" tag="Quantitative Concept" start="431" end="434" text="5MG" abbr="" />
+<annotation id="26144" tag="Pharmacologic Substance" start="436" end="443" text="SELOKEN" abbr="" />
+<annotation id="26145" tag="Patient or Disabled Group" start="494" end="502" text="PACIENTE" abbr="" />
+<annotation id="26146" tag="Negation" start="503" end="507" text="NEGA" abbr="" />
+<annotation id="26147" tag="Sign or Symptom" start="508" end="516" text="DISPNEIA" abbr="" />
+<annotation id="26148" tag="Sign or Symptom" start="520" end="523" text="DOR" abbr="" />
+<annotation id="26149" tag="Temporal Concept" start="544" end="553" text="EVENTUAIS" abbr="" />
+<annotation id="26150" tag="Negation" start="556" end="559" text="SEM" abbr="" />
+<annotation id="26151" tag="Sign or Symptom" start="567" end="574" text="QUEIXAS" abbr="" />
+<annotation id="26152" tag="Temporal Concept" start="578" end="585" text="PERIODO" abbr="" />
+<annotation id="26153" tag="Health Care Activity" start="593" end="598" text="EXAME" abbr="" />
+<annotation id="26154" tag="Finding|Abbreviation" start="602" end="605" text="BEG" abbr="Bom Estado Geral" />
+<annotation id="26155" tag="Finding" start="607" end="613" text="CORADA" abbr="" />
+<annotation id="26156" tag="Finding" start="615" end="624" text="HIDRATADA" abbr="" />
+<annotation id="26157" tag="Abbreviation|Finding" start="626" end="630" text="LOTE" abbr="" />
+<annotation id="26158" tag="Finding" start="632" end="640" text="EUPNÉICA" abbr="" />
+<annotation id="26159" tag="Negation" start="648" end="651" text="SEM" abbr="" />
+<annotation id="26160" tag="Sign or Symptom|Abbreviation" start="652" end="654" text="RA" abbr="Ruídos Adventícios" />
+<annotation id="26161" tag="Clinical Attribute|Abbreviation|Diagnostic Procedure" start="683" end="686" text="ACV" abbr="" />
+<annotation id="26162" tag="Clinical Attribute|Abbreviation" start="744" end="746" text="FC" abbr="Frequência Cardíaca" />
+<annotation id="26163" tag="Quantitative Concept" start="747" end="749" text="71" abbr="" />
+<annotation id="26164" tag="Clinical Attribute|Abbreviation" start="751" end="753" text="PA" abbr="Pressão Arterial" />
+<annotation id="26165" tag="Quantitative Concept" start="754" end="760" text="100/70" abbr="" />
+<annotation id="26166" tag="Abbreviation|Clinical Attribute" start="762" end="764" text="FC" abbr="" />
+<annotation id="26167" tag="Quantitative Concept" start="767" end="769" text="97" abbr="" />
+<annotation id="26168" tag="Health Care Activity" start="772" end="779" text="CONDUTA" abbr="" />
+<annotation id="26169" tag="Health Care Activity" start="786" end="795" text="retornoem" abbr="" />
+<annotation id="26170" tag="Professional or Occupational Group|Diagnostic Procedure|Abbreviation" start="806" end="815" text="edocardio" abbr="" />
+<annotation id="26171" tag="Abbreviation|Therapeutic or Preventive Procedure" start="4" end="25" text="CX DE TROCA DE MITRAL" />
+<annotation id="26172" tag="Abbreviation|Disease or Syndrome" start="56" end="69" text="FA PERMANENTE" />
+<annotation id="26173" tag="Medical Device" start="85" end="101" text="PROTESE METALICA" />
+<annotation id="26174" tag="Finding" start="105" end="136" text="POSIÇÃO MITRAL NORMOFUNCIONANTE" />
+<annotation id="26175" tag="Finding" start="151" end="168" text="DIMENSÕES NORMAIS" />
+<annotation id="26176" tag="Finding" start="173" end="201" text="FUNÇÃO SISTOLICA PRESERVADA" />
+<annotation id="26177" tag="Body Part, Organ, or Organ Component" start="203" end="221" text="VENTRICULO DIREITO" />
+<annotation id="26178" tag="Pathologic Function|Sign or Symptom" start="232" end="252" text="DIMENSÕES AUMENTADAS" />
+<annotation id="26179" tag="Sign or Symptom" start="255" end="298" text="FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE" />
+<annotation id="26180" tag="Sign or Symptom" start="301" end="333" text="REGURGITAÇÃO TRICUSPIDE DISCRETA" />
+<annotation id="26181" tag="Body Part, Organ, or Organ Component" start="360" end="384" text="ATRIO ESQUERDO E DIREITO" />
+<annotation id="26182" tag="Quantitative Concept" start="444" end="456" text="100MG 12/12H" />
+<annotation id="26183" tag="Antibiotic|Pharmacologic Substance" start="458" end="478" text="PENICILINA BENZATINA" />
+<annotation id="26184" tag="Quantitative Concept" start="479" end="489" text="21/21 DIAS" />
+<annotation id="26185" tag="Abbreviation|Finding" start="643" end="647" text="MV +" />
+<annotation id="26186" tag="Sign or Symptom" start="656" end="680" text="RITMO CARDÍACO IRREGULAR" />
+<annotation id="26187" tag="Finding" start="689" end="710" text="BULHAS NORMOFONÉTICAS" />
+<annotation id="26188" tag="Finding" start="712" end="741" text="PRESENÇA DE ESTALIDO METÁLICO" />
+<annotation id="26189" tag="Temporal Concept" start="796" end="801" text="1 ano" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="26137" annotation2="26175" reltype="associated_with" />
+<rel annotation1="26137" annotation2="26176" reltype="associated_with" />
+<rel annotation1="26138" annotation2="26139" reltype="associated_with" />
+<rel annotation1="26143" annotation2="26142" reltype="associated_with" />
+<rel annotation1="26144" annotation2="26182" reltype="associated_with" />
+<rel annotation1="26146" annotation2="26147" reltype="negation_of" />
+<rel annotation1="26146" annotation2="26148" reltype="negation_of" />
+<rel annotation1="26150" annotation2="26151" reltype="negation_of" />
+<rel annotation1="26159" annotation2="26160" reltype="negation_of" />
+<rel annotation1="26162" annotation2="26163" reltype="associated_with" />
+<rel annotation1="26164" annotation2="26165" reltype="associated_with" />
+<rel annotation1="26166" annotation2="26167" reltype="associated_with" />
+<rel annotation1="26174" annotation2="26173" reltype="associated_with" />
+<rel annotation1="26177" annotation2="26178" reltype="associated_with" />
+<rel annotation1="26177" annotation2="26179" reltype="associated_with" />
+<rel annotation1="26181" annotation2="26140" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

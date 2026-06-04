@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 08/10/2013
+
+
+Paciente em consulta de rotina após episódio de IAM em janeiro, desde então apresenta-se estável.
+Relata dor em MMII com edema em pés.
+Ocasionalmente relata dor em ombros.
+Nega dispneia, precordialgia, ortopneia ou DPN.
+
+Em uso: AAS 100 mg, Hidroclorotiazida 25 mg, Sinvastatina 20 mg, Carvedilol 25 mg 1 xdia 1'1'1'1'1, Clopidogrel 75 mg 1 xdia e Cilostazol 50 mg 1 xdia.
+
+Conduta: Exame de sangue, ecocardiograma e retorno.
+ 
+Irmão com IAM aos 50 anos.
+Paciente realizou CAT (dezembro) e angioplastia em Janeiro (lesão de 80% em grande ramo marginal).
+HAS.
+DAC.
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="55~63" text="consulta" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E1" spans="91~94" text="IAM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="132~139" text="estável" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="141~147" text="Relata" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E4" spans="148~159" text="dor em MMII" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="164~176" text="edema em pés" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="193~199" text="relata" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E7" spans="200~213" text="dor em ombros" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="215~219" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E9" spans="220~228" text="dispneia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="230~243" text="precordialgia" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="245~254" text="ortopneia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="258~261" text="DPN" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="272~282" text="AAS 100 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="284~307" text="Hidroclorotiazida 25 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="309~327" text="Sinvastatina 20 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="329~345" text="Carvedilol 25 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="364~381" text="Clopidogrel 75 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E18" spans="391~407" text="Cilostazol 50 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E19" spans="426~441" text="Exame de sangue" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E20" spans="443~457" text="ecocardiograma" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E21" spans="460~467" text="retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E22" spans="516~519" text="CAT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="533~545" text="angioplastia" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="558~594" text="lesão de 80% em grande ramo marginal" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="597~600" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E26" spans="602~605" text="DAC" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<TIMEX3 id="T0" spans="98~105" text="janeiro" Type="Date" Value="2013-01" Mod="NA" />
+<TIMEX3 id="T1" spans="346~352" text="1 xdia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T2" spans="382~388" text="1 xdia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T3" spans="408~414" text="1 xdia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="521~529" text="dezembro" Type="Date" Value="2012-12" Mod="NA" />
+<TIMEX3 id="T5" spans="549~556" text="Janeiro" Type="Date" Value="2013-01" Mod="NA" />
+<RELATION id="R0" fromID="E1" fromText="IAM" toID="E0" toText="consulta" Relação_Temporal="BEFORE" />
+<RELATION id="R1" fromID="T0" fromText="janeiro" toID="E1" toText="IAM" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="T0" fromText="janeiro" toID="E2" toText="estável" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E5" fromText="edema em pés" toID="E4" toText="dor em MMII" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E16" fromText="Carvedilol 25 mg" toID="T1" toText="1 xdia" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E17" fromText="Clopidogrel 75 mg" toID="T2" toText="1 xdia" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E18" fromText="Cilostazol 50 mg" toID="T3" toText="1 xdia" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E21" fromText="retorno" toID="E19" toText="Exame de sangue" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E21" fromText="retorno" toID="E20" toText="ecocardiograma" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="T4" fromText="dezembro" toID="E22" toText="CAT" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="T5" fromText="Janeiro" toID="E23" toText="angioplastia" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E23" fromText="angioplastia" toID="E24" toText="lesão de 80% em grande ramo marginal" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>ABLAÇÃO DE TAQUICARDIA ATRIAL 2009 E A SEGUNDA EM 2010.
+HAS, NEGA DM, DLPD, TABAGISMO, ALERGIA MEDICAMENTOSA.
+CATETERISMO COM AUSENCIA DE CORONARIOPATIA.
+FAZ USO DE ATENOLOL 100MG 12/12H, DILTIAZEN 60MG 12/12H, ENALAPRIL 10MG 12/12H, HCTZ  25MG, MAREVAN 5MG.
+HOLTER COM PRESENCA DE EV E ESV RARAS COM EPISODIOS NAO SUSTENTADOS DE TAQUICARDIA ATRIAL SEM PRESENCA DE SINTOMAS.
+# PACIENTE REFERE ESTAR SE SENTINDO BEM COM AS MEDICAÇÕES. NEGA SINTOMAS DE PALPITAÇÕES. RELATA DISPNEIA AOS GRANDES ESFORCOS, COM MELHORA COM REPOUSO. RELATA QUE APRESENTOU 1 EPISODIO DE HIPOTENSAO. RELATA CEFALEIA.
+# BEG, PA 120/80MMHG,   FC 70.
+C/P : SEM ALT.
+CORAÇÃO: BRNF 2T, SEM SOPRO.
+PULMAO: MV+, SEM RA.
+CD: MEDICAÇÃO MANTIDA. SOLICITO NOVO HOLTER E ECOCARDIO.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="29333" tag="Abbreviation|Disease or Syndrome" start="57" end="60" text="HAS" abbr="" />
+<annotation id="29334" tag="Negation" start="62" end="66" text="NEGA" abbr="" />
+<annotation id="29335" tag="Disease or Syndrome|Abbreviation" start="67" end="69" text="DM" abbr="diabetes mellitus" />
+<annotation id="29336" tag="Abbreviation|Disease or Syndrome" start="71" end="75" text="DLPD" abbr="" />
+<annotation id="29337" tag="Disease or Syndrome" start="77" end="86" text="TABAGISMO" abbr="" />
+<annotation id="29338" tag="Therapeutic or Preventive Procedure" start="112" end="123" text="CATETERISMO" abbr="" />
+<annotation id="29339" tag="Negation" start="128" end="136" text="AUSENCIA" abbr="" />
+<annotation id="29340" tag="Disease or Syndrome" start="140" end="154" text="CORONARIOPATIA" abbr="" />
+<annotation id="29341" tag="Pharmacologic Substance|Organic Chemical" start="168" end="176" text="ATENOLOL" abbr="" />
+<annotation id="29342" tag="Quantitative Concept" start="177" end="182" text="100MG" abbr="" />
+<annotation id="29343" tag="Temporal Concept" start="183" end="189" text="12/12H" abbr="" />
+<annotation id="29344" tag="Organic Chemical|Pharmacologic Substance" start="191" end="200" text="DILTIAZEN" abbr="" />
+<annotation id="29345" tag="Quantitative Concept" start="201" end="205" text="60MG" abbr="" />
+<annotation id="29346" tag="Temporal Concept" start="206" end="212" text="12/12H" abbr="" />
+<annotation id="29347" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="214" end="223" text="ENALAPRIL" abbr="" />
+<annotation id="29348" tag="Quantitative Concept" start="224" end="228" text="10MG" abbr="" />
+<annotation id="29349" tag="Temporal Concept" start="229" end="235" text="12/12H" abbr="" />
+<annotation id="29350" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="237" end="241" text="HCTZ" abbr="" />
+<annotation id="29351" tag="Quantitative Concept" start="243" end="247" text="25MG" abbr="" />
+<annotation id="29352" tag="Organic Chemical|Pharmacologic Substance" start="249" end="256" text="MAREVAN" abbr="" />
+<annotation id="29353" tag="Quantitative Concept" start="257" end="260" text="5MG" abbr="" />
+<annotation id="29354" tag="Diagnostic Procedure" start="263" end="269" text="HOLTER" abbr="" />
+<annotation id="29355" tag="Negation" start="315" end="318" text="NAO" abbr="" />
+<annotation id="29356" tag="Negation|Negation" start="353" end="356" text="SEM" abbr="" />
+<annotation id="29357" tag="Patient or Disabled Group|Patient or Disabled Group" start="382" end="390" text="PACIENTE" abbr="" />
+<annotation id="29358" tag="Pharmacologic Substance" start="427" end="437" text="MEDICAÇÕES" abbr="" />
+<annotation id="29359" tag="Negation" start="439" end="443" text="NEGA" abbr="" />
+<annotation id="29360" tag="Sign or Symptom" start="444" end="452" text="SINTOMAS" abbr="" />
+<annotation id="29361" tag="Sign or Symptom" start="456" end="467" text="PALPITAÇÕES" abbr="" />
+<annotation id="29362" tag="Sign or Symptom" start="568" end="578" text="HIPOTENSAO" abbr="" />
+<annotation id="29363" tag="Sign or Symptom" start="587" end="595" text="CEFALEIA" abbr="" />
+<annotation id="29364" tag="Finding|Abbreviation" start="600" end="603" text="BEG" abbr="bom estado geral" />
+<annotation id="29365" tag="Clinical Attribute|Abbreviation" start="605" end="607" text="PA" abbr="pressão arterial" />
+<annotation id="29366" tag="Quantitative Concept" start="608" end="618" text="120/80MMHG" abbr="" />
+<annotation id="29367" tag="Clinical Attribute|Abbreviation" start="622" end="624" text="FC" abbr="frequência cardíaca" />
+<annotation id="29368" tag="Quantitative Concept" start="625" end="627" text="70" abbr="" />
+<annotation id="29369" tag="Body Part, Organ, or Organ Component|Abbreviation" start="630" end="633" text="C/P" abbr="" />
+<annotation id="29370" tag="Negation" start="636" end="639" text="SEM" abbr="" />
+<annotation id="29371" tag="Abbreviation|Sign or Symptom" start="640" end="643" text="ALT" abbr="" />
+<annotation id="29372" tag="Body Part, Organ, or Organ Component" start="646" end="653" text="CORAÇÃO" abbr="" />
+<annotation id="29373" tag="Negation|Negation" start="664" end="667" text="SEM" abbr="" />
+<annotation id="29374" tag="Sign or Symptom" start="668" end="673" text="SOPRO" abbr="" />
+<annotation id="29375" tag="Body Part, Organ, or Organ Component" start="676" end="682" text="PULMAO" abbr="" />
+<annotation id="29376" tag="Finding|Abbreviation" start="684" end="687" text="MV+" abbr="murmúrio vesicular presente" />
+<annotation id="29377" tag="Negation|Negation" start="689" end="692" text="SEM" abbr="" />
+<annotation id="29378" tag="Abbreviation|Sign or Symptom" start="693" end="695" text="RA" abbr="" />
+<annotation id="29379" tag="Health Care Activity|Abbreviation|Intellectual Product" start="698" end="700" text="CD" abbr="" />
+<annotation id="29380" tag="Health Care Activity" start="721" end="729" text="SOLICITO" abbr="" />
+<annotation id="29381" tag="Diagnostic Procedure" start="735" end="741" text="HOLTER" abbr="" />
+<annotation id="29382" tag="Abbreviation|Diagnostic Procedure" start="744" end="753" text="ECOCARDIO" abbr="" />
+<annotation id="29383" tag="Therapeutic or Preventive Procedure" start="0" end="29" text="ABLAÇÃO DE TAQUICARDIA ATRIAL" />
+<annotation id="29384" tag="Disease or Syndrome" start="88" end="109" text="ALERGIA MEDICAMENTOSA" />
+<annotation id="29385" tag="Abbreviation|Laboratory or Test Result" start="274" end="314" text="PRESENCA DE EV E ESV RARAS COM EPISODIOS" />
+<annotation id="29386" tag="Laboratory or Test Result" start="319" end="352" text="SUSTENTADOS DE TAQUICARDIA ATRIAL" />
+<annotation id="29387" tag="Laboratory or Test Result" start="357" end="377" text="PRESENCA DE SINTOMAS" />
+<annotation id="29388" tag="Finding" start="407" end="419" text="SENTINDO BEM" />
+<annotation id="29389" tag="Sign or Symptom" start="476" end="505" text="DISPNEIA AOS GRANDES ESFORCOS" />
+<annotation id="29390" tag="Finding" start="511" end="530" text="MELHORA COM REPOUSO" />
+<annotation id="29391" tag="Quantitative Concept" start="554" end="564" text="1 EPISODIO" />
+<annotation id="29392" tag="Abbreviation|Finding" start="655" end="662" text="BRNF 2T" />
+<annotation id="29393" tag="Health Care Activity" start="702" end="719" text="MEDICAÇÃO MANTIDA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="29334" annotation2="29335" reltype="negation_of" />
+<rel annotation1="29339" annotation2="29340" reltype="negation_of" />
+<rel annotation1="29355" annotation2="29386" reltype="negation_of" />
+<rel annotation1="29359" annotation2="29360" reltype="negation_of" />
+<rel annotation1="29370" annotation2="29371" reltype="negation_of" />
+<rel annotation1="29373" annotation2="29374" reltype="negation_of" />
+<rel annotation1="29377" annotation2="29378" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

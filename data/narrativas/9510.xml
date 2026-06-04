@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>IAM  2011
+ATC   NO HUEC     CD  REMENECENTE  LIMITROFE  MODERADA 
+SEM QX  CARDIOLOGICAS   ESPECIFICAS HPP  NAO CESSOU  TBGH
+USA  ENL 10 12-12     CLOPIDOGREL 
+CESSOU SVT  AAS 
+AO  EXAME  ND N
+P ECO TE  LAB
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="25343" tag="Abbreviation|Disease or Syndrome" start="0" end="3" text="IAM" abbr="" />
+<annotation id="25344" tag="Therapeutic or Preventive Procedure|Abbreviation" start="11" end="14" text="ATC" abbr="" />
+<annotation id="25345" tag="Abbreviation|Body Part, Organ, or Organ Component" start="29" end="31" text="CD" abbr="" />
+<annotation id="25346" tag="Negation" start="68" end="71" text="SEM" abbr="" />
+<annotation id="25347" tag="Qualitative Concept" start="92" end="103" text="ESPECIFICAS" abbr="" />
+<annotation id="25348" tag="Abbreviation|Disease or Syndrome" start="104" end="107" text="HPP" abbr="" />
+<annotation id="25349" tag="Negation" start="109" end="112" text="NAO" abbr="" />
+<annotation id="25350" tag="Activity" start="113" end="119" text="CESSOU" abbr="" />
+<annotation id="25351" tag="Amino Acid, Peptide, or Protein|Abbreviation|Pharmacologic Substance" start="132" end="135" text="ENL" abbr="" />
+<annotation id="25352" tag="Pharmacologic Substance" start="149" end="160" text="CLOPIDOGREL" abbr="" />
+<annotation id="25353" tag="Pharmacologic Substance|Abbreviation" start="170" end="173" text="SVT" abbr="sinvastatina" />
+<annotation id="25354" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="175" end="178" text="AAS" abbr="" />
+<annotation id="25355" tag="Diagnostic Procedure" start="185" end="190" text="EXAME" abbr="" />
+<annotation id="25356" tag="Finding|Abbreviation" start="195" end="196" text="N" abbr="" />
+<annotation id="25357" tag="Abbreviation|Health Care Activity" start="198" end="199" text="P" abbr="" />
+<annotation id="25358" tag="Abbreviation" start="208" end="211" text="LAB" abbr="" />
+<annotation id="25359" tag="Laboratory or Test Result" start="33" end="65" text="REMENECENTE LIMITROFE MODERADA" />
+<annotation id="25360" tag="Abbreviation|Sign or Symptom" start="72" end="89" text="QX CARDIOLOGICAS" />
+<annotation id="25361" tag="Quantitative Concept" start="136" end="144" text="10 12-12" />
+<annotation id="25362" tag="Abbreviation|Diagnostic Procedure" start="200" end="206" text="ECO TE" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="25345" annotation2="25359" reltype="associated_with" />
+<rel annotation1="25346" annotation2="25360" reltype="negation_of" />
+<rel annotation1="25349" annotation2="25350" reltype="negation_of" />
+<rel annotation1="25351" annotation2="25361" reltype="associated_with" />
+<rel annotation1="25360" annotation2="25347" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

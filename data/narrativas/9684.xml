@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Paciente em acompanhamento com a cardiologia devido a 2 IAM previos ( em 2004  e 2012).
+Em uso de  : carvediol 6, 25 mg , AAS 100 mg , furosemida 40 mg , losartana 100 mg, atorvstatina 20 mg , omeprazol 20 mg.
+Paciente relata dispnéia e cansaço aos minimos esforços. Paciente relata parestesias em pé direito , dores musculares na panturrilha.
+Comorbidades : HAS, ICC , dislipidemia.
+Eventos: 2 CATs e 3 angioplastias.
+Na ultima consulta foi trocada sinvastatina por atorvastatina mas o paciente continua em uso de sinvastatina. 
+Paciente nao traz exames.
+EF:
+PA: 120/80 mmhg.
+BCRNF.
+Pulso MMII pedioso poplíteo e femoral presentes.
+Conduta : troco sinvastatina por atorvastatina e solicito exames de sangue ( CT, LDL, HDL, TG ); mantenho as demais medicações.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="33997" tag="Patient or Disabled Group|Patient or Disabled Group" start="0" end="8" text="Paciente" abbr="" />
+<annotation id="33998" tag="Health Care Activity" start="12" end="26" text="acompanhamento" abbr="" />
+<annotation id="33999" tag="Professional or Occupational Group" start="33" end="44" text="cardiologia" abbr="" />
+<annotation id="34000" tag="Quantitative Concept" start="54" end="55" text="2" abbr="" />
+<annotation id="34001" tag="Abbreviation|Disease or Syndrome" start="56" end="59" text="IAM" abbr="" />
+<annotation id="34002" tag="Temporal Concept" start="60" end="67" text="previos" abbr="" />
+<annotation id="34003" tag="Pharmacologic Substance|Organic Chemical" start="102" end="111" text="carvediol" abbr="" />
+<annotation id="34004" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="123" end="126" text="AAS" abbr="ácido acetilsalicílico" />
+<annotation id="34005" tag="Organic Chemical|Pharmacologic Substance" start="136" end="146" text="furosemida" abbr="" />
+<annotation id="34006" tag="Organic Chemical|Pharmacologic Substance" start="155" end="164" text="losartana" abbr="" />
+<annotation id="34007" tag="Organic Chemical|Pharmacologic Substance" start="173" end="185" text="atorvstatina" abbr="" />
+<annotation id="34008" tag="Pharmacologic Substance|Organic Chemical" start="194" end="203" text="omeprazol" abbr="" />
+<annotation id="34009" tag="Patient or Disabled Group" start="212" end="220" text="Paciente" abbr="" />
+<annotation id="34010" tag="Sign or Symptom" start="228" end="236" text="dispnéia" abbr="" />
+<annotation id="34011" tag="Patient or Disabled Group" start="269" end="277" text="Paciente" abbr="" />
+<annotation id="34012" tag="Sign or Symptom" start="285" end="296" text="parestesias" abbr="" />
+<annotation id="34013" tag="Abbreviation|Disease or Syndrome" start="362" end="365" text="HAS" abbr="" />
+<annotation id="34014" tag="Abbreviation|Disease or Syndrome" start="367" end="370" text="ICC" abbr="" />
+<annotation id="34015" tag="Disease or Syndrome" start="373" end="385" text="dislipidemia" abbr="" />
+<annotation id="34016" tag="Quantitative Concept" start="397" end="398" text="2" abbr="" />
+<annotation id="34017" tag="Abbreviation|Therapeutic or Preventive Procedure" start="399" end="403" text="CATs" abbr="" />
+<annotation id="34018" tag="Quantitative Concept" start="406" end="407" text="3" abbr="" />
+<annotation id="34019" tag="Therapeutic or Preventive Procedure" start="408" end="421" text="angioplastias" abbr="" />
+<annotation id="34020" tag="Health Care Activity" start="447" end="454" text="trocada" abbr="" />
+<annotation id="34021" tag="Organic Chemical|Pharmacologic Substance" start="455" end="467" text="sinvastatina" abbr="" />
+<annotation id="34022" tag="Organic Chemical|Pharmacologic Substance" start="472" end="485" text="atorvastatina" abbr="" />
+<annotation id="34023" tag="Patient or Disabled Group" start="492" end="500" text="paciente" abbr="" />
+<annotation id="34024" tag="Organic Chemical|Pharmacologic Substance" start="520" end="532" text="sinvastatina" abbr="" />
+<annotation id="34025" tag="Patient or Disabled Group" start="536" end="544" text="Paciente" abbr="" />
+<annotation id="34026" tag="Negation" start="545" end="548" text="nao" abbr="" />
+<annotation id="34027" tag="Diagnostic Procedure|Abbreviation" start="563" end="565" text="EF" abbr="exame físico" />
+<annotation id="34028" tag="Clinical Attribute|Abbreviation" start="568" end="570" text="PA" abbr="pressão arterial" />
+<annotation id="34029" tag="Finding|Abbreviation" start="586" end="591" text="BCRNF" abbr="bulhas cardíacas rítmicas normofonéticas" />
+<annotation id="34030" tag="Clinical Attribute" start="594" end="599" text="Pulso" abbr="" />
+<annotation id="34031" tag="Body Part, Organ, or Organ Component|Abbreviation" start="600" end="604" text="MMII" abbr="membros inferiores" />
+<annotation id="34032" tag="Body Part, Organ, or Organ Component" start="605" end="612" text="pedioso" abbr="" />
+<annotation id="34033" tag="Body Part, Organ, or Organ Component" start="613" end="621" text="poplíteo" abbr="" />
+<annotation id="34034" tag="Body Part, Organ, or Organ Component" start="624" end="631" text="femoral" abbr="" />
+<annotation id="34035" tag="Finding" start="632" end="641" text="presentes" abbr="" />
+<annotation id="34036" tag="Intellectual Product|Health Care Activity" start="644" end="651" text="Conduta" abbr="" />
+<annotation id="34037" tag="Health Care Activity" start="654" end="659" text="troco" abbr="" />
+<annotation id="34038" tag="Organic Chemical|Pharmacologic Substance" start="660" end="672" text="sinvastatina" abbr="" />
+<annotation id="34039" tag="Organic Chemical|Pharmacologic Substance" start="677" end="690" text="atorvastatina" abbr="" />
+<annotation id="34040" tag="Laboratory Procedure|Abbreviation" start="721" end="723" text="CT" abbr="colesterol total" />
+<annotation id="34041" tag="Laboratory Procedure" start="725" end="728" text="LDL" abbr="" />
+<annotation id="34042" tag="Laboratory Procedure" start="730" end="733" text="HDL" abbr="" />
+<annotation id="34043" tag="Laboratory Procedure" start="735" end="737" text="TG" abbr="" />
+<annotation id="34044" tag="Health Care Activity" start="741" end="749" text="mantenho" abbr="" />
+<annotation id="34045" tag="Pharmacologic Substance" start="760" end="770" text="medicações" abbr="" />
+<annotation id="34046" tag="Quantitative Concept" start="112" end="120" text="6 , 25 mg" />
+<annotation id="34047" tag="Quantitative Concept" start="127" end="133" text="100 mg" />
+<annotation id="34048" tag="Quantitative Concept" start="147" end="152" text="40 mg" />
+<annotation id="34049" tag="Quantitative Concept" start="165" end="171" text="100 mg" />
+<annotation id="34050" tag="Quantitative Concept" start="186" end="191" text="20 mg" />
+<annotation id="34051" tag="Quantitative Concept" start="204" end="209" text="20 mg" />
+<annotation id="34052" tag="Sign or Symptom" start="239" end="267" text="cansaço aos minimos esforços" />
+<annotation id="34053" tag="Body Part, Organ, or Organ Component" start="300" end="310" text="pé direito" />
+<annotation id="34054" tag="Sign or Symptom" start="313" end="329" text="dores musculares" />
+<annotation id="34055" tag="Quantitative Concept" start="572" end="583" text="120/80 mmhg" />
+<annotation id="34056" tag="Laboratory Procedure" start="702" end="718" text="exames de sangue" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="34001" annotation2="34002" reltype="associated_with" />
+<rel annotation1="34012" annotation2="34053" reltype="associated_with" />
+<rel annotation1="34020" annotation2="34021" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

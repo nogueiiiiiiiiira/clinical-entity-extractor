@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>has / 10 anos/maço.
+aas 100 / carvedilol 25 1x/d / sinva 40 mg 1 x/d / enalapril 1 cp 12/12 hs / furo 40 mg 1 x/d.
+fez cat + angioplastia 2013.
+ECOCARDIO 25/11/13 - VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA E FUNÇÃO GLOBAL MODERADAMENTE DIMINUIDA POR ACINESIA
+MEDIO APICAL PAREDE ANTERO SEPTAL. AUMENTO DE AE. REFLUXO MITRAL DISCRETO. ECTASIA DA RAIZ AÓRTICA. REFLUXO AÓRTICO DISCRETO.
+FEVE: 47%.
+01/03/11: ECODOPPLER ARTERIAR MMII ESQ: ESTENOSE APROX DE 75% DA BIFURCAÇÃO DOS VASOS FEMORAIS.
+LESOES SUBSEGMENTARES DAS ART, TIBIAL ANTERIOR E FIBULAR.
+OCLUSÃO DA ARTERIA POPLITEA MEDIO DISTAL.
+ESTENOSE &gt; A OCLUSAO DA ARTERIA TIBIAL POSTERIOR.
+quadro de disfunção sistólica após iam, perdeu seguimento.
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="33547" tag="Abbreviation|Disease or Syndrome|Finding" start="0" end="3" text="has" abbr="" />
+<annotation id="33548" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="21" end="24" text="aas" abbr="ácido acetilsalicílico" />
+<annotation id="33549" tag="Quantitative Concept" start="25" end="28" text="100" abbr="" />
+<annotation id="33550" tag="Organic Chemical|Pharmacologic Substance" start="31" end="41" text="carvedilol" abbr="" />
+<annotation id="33551" tag="Quantitative Concept" start="42" end="44" text="25" abbr="" />
+<annotation id="33552" tag="Abbreviation|Temporal Concept|Quantitative Concept" start="45" end="49" text="1x/d" abbr="" />
+<annotation id="33553" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="52" end="57" text="sinva" abbr="" />
+<annotation id="33554" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="72" end="81" text="enalapril" abbr="" />
+<annotation id="33555" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="98" end="102" text="furo" abbr="" />
+<annotation id="33556" tag="Therapeutic or Preventive Procedure|Abbreviation" start="121" end="124" text="cat" abbr="cateterismo" />
+<annotation id="33557" tag="Therapeutic or Preventive Procedure" start="127" end="139" text="angioplastia" abbr="" />
+<annotation id="33558" tag="Diagnostic Procedure|Abbreviation" start="147" end="156" text="ECOCARDIO" abbr="ecocardiograma" />
+<annotation id="33559" tag="Temporal Concept" start="689" end="693" text="após" abbr="" />
+<annotation id="33560" tag="Abbreviation|Disease or Syndrome" start="694" end="697" text="iam" abbr="" />
+<annotation id="33561" tag="Quantitative Concept" start="6" end="18" text="10 anos/maço" />
+<annotation id="33562" tag="Quantitative Concept" start="58" end="63" text="40 mg" />
+<annotation id="33563" tag="Abbreviation|Quantitative Concept|Temporal Concept" start="64" end="69" text="1 x/d" />
+<annotation id="33564" tag="Abbreviation|Quantitative Concept" start="82" end="86" text="1 cp" />
+<annotation id="33565" tag="Temporal Concept" start="87" end="95" text="12/12 hs" />
+<annotation id="33566" tag="Quantitative Concept" start="103" end="108" text="40 mg" />
+<annotation id="33567" tag="Quantitative Concept|Abbreviation|Temporal Concept" start="109" end="114" text="1 x/d" />
+<annotation id="33568" tag="Abbreviation|Laboratory or Test Result" start="168" end="215" text="VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA" />
+<annotation id="33569" tag="Laboratory or Test Result" start="216" end="255" text="E FUNÇÃO GLOBAL MODERADAMENTE DIMINUIDA" />
+<annotation id="33570" tag="Laboratory or Test Result" start="256" end="303" text="POR ACINESIA MEDIO APICAL PAREDE ANTERO SEPTAL" />
+<annotation id="33571" tag="Abbreviation|Laboratory or Test Result" start="305" end="318" text="AUMENTO DE AE" />
+<annotation id="33572" tag="Laboratory or Test Result" start="320" end="334" text="REFLUXO MITRAL" />
+<annotation id="33573" tag="Laboratory or Test Result" start="345" end="368" text="ECTASIA DA RAIZ AÓRTICA" />
+<annotation id="33574" tag="Laboratory or Test Result" start="370" end="394" text="REFLUXO AÓRTICO DISCRETO" />
+<annotation id="33575" tag="Abbreviation|Laboratory or Test Result" start="397" end="406" text="FEVE : 47%" />
+<annotation id="33576" tag="Abbreviation|Diagnostic Procedure" start="419" end="447" text="ECODOPPLER ARTERIAR MMII ESQ" />
+<annotation id="33577" tag="Abbreviation|Laboratory or Test Result" start="449" end="503" text="ESTENOSE APROX DE 75% DA BIFURCAÇÃO DOS VASOS FEMORAIS" />
+<annotation id="33578" tag="Abbreviation|Laboratory or Test Result" start="506" end="535" text="LESOES SUBSEGMENTARES DAS ART" />
+<annotation id="33579" tag="Laboratory or Test Result" start="537" end="562" text="TIBIAL ANTERIOR E FIBULAR" />
+<annotation id="33580" tag="Laboratory or Test Result" start="565" end="605" text="OCLUSÃO DA ARTERIA POPLITEA MEDIO DISTAL" />
+<annotation id="33581" tag="Laboratory or Test Result" start="608" end="656" text="ESTENOSE &amp;gt; A OCLUSAO DA ARTERIA TIBIAL POSTERIOR" />
+<annotation id="33582" tag="Pathologic Function" start="669" end="688" text="disfunção sistólica" />
+<annotation id="33583" tag="Finding" start="699" end="716" text="perdeu seguimento" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33548" annotation2="33549" reltype="associated_with" />
+<rel annotation1="33550" annotation2="33551" reltype="associated_with" />
+<rel annotation1="33550" annotation2="33552" reltype="associated_with" />
+<rel annotation1="33553" annotation2="33562" reltype="associated_with" />
+<rel annotation1="33553" annotation2="33563" reltype="associated_with" />
+<rel annotation1="33554" annotation2="33564" reltype="associated_with" />
+<rel annotation1="33554" annotation2="33565" reltype="associated_with" />
+<rel annotation1="33555" annotation2="33566" reltype="associated_with" />
+<rel annotation1="33555" annotation2="33567" reltype="associated_with" />
+<rel annotation1="33558" annotation2="33568" reltype="associated_with" />
+<rel annotation1="33558" annotation2="33571" reltype="associated_with" />
+<rel annotation1="33558" annotation2="33572" reltype="associated_with" />
+<rel annotation1="33558" annotation2="33573" reltype="associated_with" />
+<rel annotation1="33558" annotation2="33575" reltype="associated_with" />
+<rel annotation1="33559" annotation2="33560" reltype="associated_with" />
+<rel annotation1="33560" annotation2="33582" reltype="associated_with" />
+<rel annotation1="33579" annotation2="33578" reltype="associated_with" />
+<rel annotation1="33582" annotation2="33560" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

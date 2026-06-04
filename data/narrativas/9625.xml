@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 58 anos, dona de casa, casada, 1 filha.
+Refere arritmia descoberta há 2 anos. Traz exames
+Nega palpitações.
+Faz caminhada 1h dia 3x / semana ( iniciou há um mês )
+Refere dores por artrose, toma dipirona apenas com muita dor
+Mãe falecida com problemas cardíacos (?). Pai, 90anos, hipertenso. Sem casos de cancer na família.
+Hipertensa há 15 anos. Hipotireoidismo; refere queda de cabelo.
+Menopausa há 4 anos. G 1 P 1 C 1 A 0
+Nunca fumou nem bebeu.
+Atenolol 50 mg 2x / dia
+Enalapril 10 mg 2x / dia
+Warfarina 25 mg 2x / dia durante a semana e 1x / dia nos sábados e domingos
+Levotiroxina 25 mcg
+Holter: FA durante toda a gravação com frequencia ventricular média de 87 bpm, variando entre 55 e 135
+RNI:  mês 9: 1,94; 10: 2,31; 12: 3,01
+HAS e FA</TEXT>
+<TAGS>
+<annotation id="30958" tag="Disease or Syndrome" start="55" end="63" text="arritmia" abbr="" />
+<annotation id="30959" tag="Laboratory Procedure|Laboratory or Test Result" start="91" end="97" text="exames" abbr="" />
+<annotation id="30960" tag="Negation" start="99" end="103" text="Nega" abbr="" />
+<annotation id="30961" tag="Sign or Symptom" start="104" end="115" text="palpitações" abbr="" />
+<annotation id="30962" tag="Daily or Recreational Activity|Activity" start="122" end="131" text="caminhada" abbr="" />
+<annotation id="30963" tag="Abbreviation" start="132" end="134" text="1h" abbr="" />
+<annotation id="30964" tag="Temporal Concept" start="135" end="138" text="dia" abbr="" />
+<annotation id="30965" tag="Abbreviation|Quantitative Concept" start="139" end="141" text="3x" abbr="" />
+<annotation id="30966" tag="Temporal Concept" start="144" end="150" text="semana" abbr="" />
+<annotation id="30967" tag="Sign or Symptom" start="181" end="186" text="dores" abbr="" />
+<annotation id="30968" tag="Disease or Syndrome" start="191" end="198" text="artrose" abbr="" />
+<annotation id="30969" tag="Organic Chemical|Pharmacologic Substance" start="205" end="213" text="dipirona" abbr="" />
+<annotation id="30970" tag="Sign or Symptom" start="231" end="234" text="dor" abbr="" />
+<annotation id="30971" tag="Family Group" start="236" end="239" text="Mãe" abbr="" />
+<annotation id="30972" tag="Family Group" start="278" end="281" text="Pai" abbr="" />
+<annotation id="30973" tag="Disease or Syndrome" start="291" end="301" text="hipertenso" abbr="" />
+<annotation id="30974" tag="Negation" start="303" end="306" text="Sem" abbr="" />
+<annotation id="30975" tag="Neoplastic Process" start="316" end="322" text="cancer" abbr="" />
+<annotation id="30976" tag="Family Group" start="326" end="333" text="família" abbr="" />
+<annotation id="30977" tag="Disease or Syndrome" start="336" end="346" text="Hipertensa" abbr="" />
+<annotation id="30978" tag="Disease or Syndrome" start="359" end="374" text="Hipotireoidismo" abbr="" />
+<annotation id="30979" tag="Physiologic Function" start="401" end="410" text="Menopausa" abbr="" />
+<annotation id="30980" tag="Organism Function" start="422" end="423" text="G" abbr="" />
+<annotation id="30981" tag="Quantitative Concept" start="424" end="425" text="1" abbr="" />
+<annotation id="30982" tag="Therapeutic or Preventive Procedure" start="426" end="427" text="P" abbr="" />
+<annotation id="30983" tag="Quantitative Concept" start="428" end="429" text="1" abbr="" />
+<annotation id="30984" tag="Therapeutic or Preventive Procedure" start="430" end="431" text="C" abbr="" />
+<annotation id="30985" tag="Quantitative Concept" start="432" end="433" text="1" abbr="" />
+<annotation id="30986" tag="Quantitative Concept" start="436" end="437" text="0" abbr="" />
+<annotation id="30987" tag="Negation" start="439" end="444" text="Nunca" abbr="" />
+<annotation id="30988" tag="Individual Behavior" start="445" end="450" text="fumou" abbr="" />
+<annotation id="30989" tag="Negation" start="451" end="454" text="nem" abbr="" />
+<annotation id="30990" tag="Individual Behavior" start="455" end="460" text="bebeu" abbr="" />
+<annotation id="30991" tag="Organic Chemical|Pharmacologic Substance" start="463" end="471" text="Atenolol" abbr="" />
+<annotation id="30992" tag="Quantitative Concept|Abbreviation" start="478" end="480" text="2x" abbr="" />
+<annotation id="30993" tag="Temporal Concept" start="483" end="486" text="dia" abbr="" />
+<annotation id="30994" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein|Organic Chemical" start="488" end="497" text="Enalapril" abbr="" />
+<annotation id="30995" tag="Abbreviation|Quantitative Concept" start="504" end="506" text="2x" abbr="" />
+<annotation id="30996" tag="Temporal Concept" start="509" end="512" text="dia" abbr="" />
+<annotation id="30997" tag="Pharmacologic Substance|Organic Chemical|Hazardous or Poisonous Substance" start="514" end="523" text="Warfarina" abbr="" />
+<annotation id="30998" tag="Abbreviation|Quantitative Concept" start="530" end="532" text="2x" abbr="" />
+<annotation id="30999" tag="Temporal Concept" start="535" end="538" text="dia" abbr="" />
+<annotation id="31000" tag="Temporal Concept" start="549" end="555" text="semana" abbr="" />
+<annotation id="31001" tag="Quantitative Concept|Abbreviation" start="558" end="560" text="1x" abbr="" />
+<annotation id="31002" tag="Temporal Concept" start="563" end="566" text="dia" abbr="" />
+<annotation id="31003" tag="Organic Chemical|Hormone|Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="591" end="603" text="Levotiroxina" abbr="" />
+<annotation id="31004" tag="Diagnostic Procedure" start="612" end="618" text="Holter" abbr="" />
+<annotation id="31005" tag="Disease or Syndrome" start="620" end="622" text="FA" abbr="" />
+<annotation id="31006" tag="Laboratory Procedure|Abbreviation|Laboratory or Test Result" start="716" end="719" text="RNI" abbr="" />
+<annotation id="31007" tag="Temporal Concept" start="735" end="737" text="10" abbr="" />
+<annotation id="31008" tag="Temporal Concept" start="745" end="747" text="12" abbr="" />
+<annotation id="31009" tag="Abbreviation|Disease or Syndrome" start="755" end="758" text="HAS" abbr="" />
+<annotation id="31010" tag="Abbreviation|Disease or Syndrome" start="761" end="763" text="FA" abbr="" />
+<annotation id="31011" tag="Temporal Concept" start="75" end="84" text="há 2 anos" />
+<annotation id="31012" tag="Temporal Concept" start="161" end="170" text="há um mês" />
+<annotation id="31013" tag="Finding" start="253" end="272" text="problemas cardíacos" />
+<annotation id="31014" tag="Temporal Concept" start="347" end="357" text="há 15 anos" />
+<annotation id="31015" tag="Sign or Symptom" start="383" end="398" text="queda de cabelo" />
+<annotation id="31016" tag="Temporal Concept" start="411" end="420" text="há 4 anos" />
+<annotation id="31017" tag="Quantitative Concept" start="472" end="477" text="50 mg" />
+<annotation id="31018" tag="Quantitative Concept" start="498" end="503" text="10 mg" />
+<annotation id="31019" tag="Quantitative Concept" start="524" end="529" text="25 mg" />
+<annotation id="31020" tag="Temporal Concept" start="571" end="589" text="sábados e domingos" />
+<annotation id="31021" tag="Quantitative Concept" start="604" end="610" text="25 mcg" />
+<annotation id="31022" tag="Abbreviation|Laboratory or Test Result" start="651" end="689" text="frequencia ventricular média de 87 bpm" />
+<annotation id="31023" tag="Laboratory or Test Result" start="691" end="714" text="variando entre 55 e 135" />
+<annotation id="31024" tag="Temporal Concept" start="722" end="727" text="mês 9" />
+<annotation id="31025" tag="Laboratory or Test Result|Quantitative Concept" start="729" end="733" text="1 , 94" />
+<annotation id="31026" tag="Laboratory or Test Result|Quantitative Concept" start="739" end="743" text="2 , 31" />
+<annotation id="31027" tag="Laboratory or Test Result|Quantitative Concept" start="749" end="753" text="3 , 01" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="30960" annotation2="30961" reltype="negation_of" />
+<rel annotation1="30965" annotation2="30966" reltype="associated_with" />
+<rel annotation1="30971" annotation2="31013" reltype="associated_with" />
+<rel annotation1="30972" annotation2="30973" reltype="associated_with" />
+<rel annotation1="30974" annotation2="30975" reltype="negation_of" />
+<rel annotation1="30975" annotation2="30976" reltype="associated_with" />
+<rel annotation1="30977" annotation2="31014" reltype="associated_with" />
+<rel annotation1="30979" annotation2="31016" reltype="associated_with" />
+<rel annotation1="30980" annotation2="30981" reltype="associated_with" />
+<rel annotation1="30982" annotation2="30983" reltype="associated_with" />
+<rel annotation1="30984" annotation2="30985" reltype="associated_with" />
+<rel annotation1="30987" annotation2="30988" reltype="negation_of" />
+<rel annotation1="30991" annotation2="31017" reltype="associated_with" />
+<rel annotation1="30992" annotation2="30993" reltype="associated_with" />
+<rel annotation1="30994" annotation2="31018" reltype="associated_with" />
+<rel annotation1="30995" annotation2="30996" reltype="associated_with" />
+<rel annotation1="30997" annotation2="31019" reltype="associated_with" />
+<rel annotation1="30997" annotation2="31001" reltype="associated_with" />
+<rel annotation1="30998" annotation2="30999" reltype="associated_with" />
+<rel annotation1="31001" annotation2="31002" reltype="associated_with" />
+<rel annotation1="31003" annotation2="31021" reltype="associated_with" />
+<rel annotation1="31017" annotation2="30992" reltype="associated_with" />
+<rel annotation1="31018" annotation2="30995" reltype="associated_with" />
+<rel annotation1="31019" annotation2="30998" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

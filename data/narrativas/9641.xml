@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas
+# MCP dilatada
+Cansaço CF III
+PA 120/80 mmHg
+sem ingurgitamento jugular
+MV+ bilateral sem RA
+RCR 2t SS
+Sem VCM
+Sem edema MMII
+CAT 09/06/2014: ausência de coronariopatia obstrutiva crítica
+IC 3,449 pré / 3,602 pós
+RVP em woods 0,217 pré / 0,147 pós
+Espirometria normal
+CD # Retorno 3 semanas
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="31903" tag="Sign or Symptom" start="23" end="30" text="Cansaço" abbr="" />
+<annotation id="31904" tag="Clinical Attribute|Abbreviation" start="39" end="41" text="PA" abbr="pressão arterial" />
+<annotation id="31905" tag="Negation" start="55" end="58" text="sem" abbr="" />
+<annotation id="31906" tag="Negation" start="97" end="100" text="sem" abbr="" />
+<annotation id="31907" tag="Abbreviation|Sign or Symptom" start="101" end="103" text="RA" abbr="" />
+<annotation id="31908" tag="Negation|Abbreviation|Sign or Symptom" start="112" end="114" text="SS" abbr="" />
+<annotation id="31909" tag="Negation" start="116" end="119" text="Sem" abbr="" />
+<annotation id="31910" tag="Abbreviation|Finding" start="120" end="123" text="VCM" abbr="" />
+<annotation id="31911" tag="Negation" start="125" end="128" text="Sem" abbr="" />
+<annotation id="31912" tag="Sign or Symptom" start="129" end="134" text="edema" abbr="" />
+<annotation id="31913" tag="Abbreviation|Abbreviation|Body Part, Organ, or Organ Component|Body Location or Region" start="135" end="139" text="MMII" abbr="" />
+<annotation id="31914" tag="Therapeutic or Preventive Procedure|Abbreviation" start="141" end="144" text="CAT" abbr="cateterismo" />
+<annotation id="31915" tag="Negation" start="157" end="165" text="ausência" abbr="" />
+<annotation id="31916" tag="Abbreviation|Disease or Syndrome" start="204" end="206" text="IC" abbr="" />
+<annotation id="31917" tag="Diagnostic Procedure" start="266" end="278" text="Espirometria" abbr="" />
+<annotation id="31918" tag="Laboratory or Test Result" start="279" end="285" text="normal" abbr="" />
+<annotation id="31919" tag="Health Care Activity|Abbreviation" start="287" end="289" text="CD" abbr="" />
+<annotation id="31920" tag="Health Care Activity|Health Care Activity" start="292" end="299" text="Retorno" abbr="" />
+<annotation id="31921" tag="Abbreviation|Disease or Syndrome" start="9" end="21" text="MCP dilatada" />
+<annotation id="31922" tag="Classification|Abbreviation" start="31" end="37" text="CF III" />
+<annotation id="31923" tag="Quantitative Concept" start="42" end="53" text="120/80 mmHg" />
+<annotation id="31924" tag="Sign or Symptom" start="59" end="81" text="ingurgitamento jugular" />
+<annotation id="31925" tag="Abbreviation|Finding" start="83" end="96" text="MV+ bilateral" />
+<annotation id="31926" tag="Abbreviation|Finding" start="105" end="111" text="RCR 2t" />
+<annotation id="31927" tag="Disease or Syndrome" start="169" end="202" text="coronariopatia obstrutiva crítica" />
+<annotation id="31928" tag="Abbreviation|Quantitative Concept" start="207" end="233" text="3 , 449 pré / 3 , 602 pós RVP" />
+<annotation id="31929" tag="Quantitative Concept" start="243" end="264" text="0 , 217 pré / 0 , 147 pós" />
+<annotation id="31930" tag="Temporal Concept" start="300" end="309" text="3 semanas" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="31904" annotation2="31923" reltype="associated_with" />
+<rel annotation1="31905" annotation2="31924" reltype="negation_of" />
+<rel annotation1="31906" annotation2="31907" reltype="negation_of" />
+<rel annotation1="31909" annotation2="31910" reltype="negation_of" />
+<rel annotation1="31911" annotation2="31912" reltype="negation_of" />
+<rel annotation1="31915" annotation2="31927" reltype="negation_of" />
+<rel annotation1="31920" annotation2="31930" reltype="associated_with" />
+<rel annotation1="31921" annotation2="31922" reltype="associated_with" />
+<rel annotation1="31925" annotation2="31907" reltype="associated_with" />
+<rel annotation1="31926" annotation2="31908" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

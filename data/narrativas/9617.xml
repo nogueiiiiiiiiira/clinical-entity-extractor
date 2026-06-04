@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>51 anos
+Paciente em PO de valvuloplastia mitral e tricúspide.
+Paciente tem IRC e faz diálise. Atualmente na fila de transplante renal
+Paciente vem passar por avaliação cardiológica para transplante renal
+Comorbidades: Dopença renal policística . Não relata HAS, diabetes.
+Medicamentos:
+Renagel 800 mg 3x dia
+Cabornato de cálcio 500mg 3 x dia
+Conduta:
+Solicitado ECO e retorno 6 meses
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="30573" tag="Patient or Disabled Group|Patient or Disabled Group" start="9" end="17" text="Paciente" abbr="" />
+<annotation id="30574" tag="Temporal Concept" start="21" end="23" text="PO" abbr="" />
+<annotation id="30575" tag="Patient or Disabled Group|Patient or Disabled Group" start="64" end="72" text="Paciente" abbr="" />
+<annotation id="30576" tag="Abbreviation|Disease or Syndrome" start="77" end="80" text="IRC" abbr="" />
+<annotation id="30577" tag="Therapeutic or Preventive Procedure" start="87" end="94" text="diálise" abbr="" />
+<annotation id="30578" tag="Patient or Disabled Group" start="137" end="145" text="Paciente" abbr="" />
+<annotation id="30579" tag="Negation" start="250" end="253" text="Não" abbr="" />
+<annotation id="30580" tag="Abbreviation|Disease or Syndrome" start="261" end="264" text="HAS" abbr="" />
+<annotation id="30581" tag="Disease or Syndrome" start="266" end="274" text="diabetes" abbr="" />
+<annotation id="30582" tag="Pharmacologic Substance" start="277" end="289" text="Medicamentos" abbr="" />
+<annotation id="30583" tag="Organic Chemical|Pharmacologic Substance" start="292" end="299" text="Renagel" abbr="" />
+<annotation id="30584" tag="Abbreviation" start="307" end="309" text="3x" abbr="" />
+<annotation id="30585" tag="Temporal Concept" start="310" end="313" text="dia" abbr="" />
+<annotation id="30586" tag="Quantitative Concept" start="335" end="340" text="500mg" abbr="" />
+<annotation id="30587" tag="Temporal Concept" start="345" end="348" text="dia" abbr="" />
+<annotation id="30588" tag="Health Care Activity" start="350" end="357" text="Conduta" abbr="" />
+<annotation id="30589" tag="Health Care Activity" start="360" end="370" text="Solicitado" abbr="" />
+<annotation id="30590" tag="Abbreviation|Diagnostic Procedure" start="371" end="374" text="ECO" abbr="" />
+<annotation id="30591" tag="Health Care Activity" start="377" end="384" text="retorno" abbr="" />
+<annotation id="30592" tag="Therapeutic or Preventive Procedure" start="27" end="61" text="valvuloplastia mitral e tricúspide" />
+<annotation id="30593" tag="Therapeutic or Preventive Procedure" start="118" end="135" text="transplante renal" />
+<annotation id="30594" tag="Diagnostic Procedure|Health Care Activity" start="161" end="183" text="avaliação cardiológica" />
+<annotation id="30595" tag="Therapeutic or Preventive Procedure" start="189" end="206" text="transplante renal" />
+<annotation id="30596" tag="Disease or Syndrome" start="222" end="247" text="Dopença renal policística" />
+<annotation id="30597" tag="Quantitative Concept" start="300" end="306" text="800 mg" />
+<annotation id="30598" tag="Inorganic Chemical|Organic Chemical|Pharmacologic Substance" start="315" end="334" text="Cabornato de cálcio" />
+<annotation id="30599" tag="Abbreviation|Quantitative Concept" start="341" end="344" text="3 x" />
+<annotation id="30600" tag="Temporal Concept" start="385" end="392" text="6 6 meses meses" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="30574" annotation2="30592" reltype="associated_with" />
+<rel annotation1="30575" annotation2="30576" reltype="associated_with" />
+<rel annotation1="30576" annotation2="30577" reltype="associated_with" />
+<rel annotation1="30579" annotation2="30580" reltype="negation_of" />
+<rel annotation1="30583" annotation2="30597" reltype="associated_with" />
+<rel annotation1="30589" annotation2="30590" reltype="associated_with" />
+<rel annotation1="30594" annotation2="30595" reltype="associated_with" />
+<rel annotation1="30598" annotation2="30586" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

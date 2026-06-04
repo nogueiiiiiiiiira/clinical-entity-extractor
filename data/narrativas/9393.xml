@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>S # angioplastia, implante de marcapasso (pacte assintomatico, ecg de repouso com bav de 2 grau mobitz 2), cat em agosto desse ano. Permaneceu em UTI por 10 dias. DM, HAS, DAC (rvm há 4 anos), dislipidemia. Em uso de insulina nph, metformina, sinvastatina 40mg 2 cp, carvedilol 6,25mg, losartana 50mg 2 x dia, AAS 100mg, clopidogrel 75mg. Tabagista há mais de 40 anos. Hoje fuma 8 cigarros por dia. Antes 2 carteiras/dia. Nega queixas.  O # LAboratorial 07/08/2013: HB: 12,9; Hematocrito 37,5; glicemia: 144; microalbuminuria: 2030,7 mg.  Cintilografia de perfusao miocardica agosto/13: Sem evidencias de isquemia miocardica, fç do VE preservada com hipocinesia septal. DIlatação do VE, FE VE em repouso 61%, FE VE apos estresse 60%.  CAt agosto 2013: reestenose de stent 70% em cd, Oclusao total de stent em ramo diagonalis, *angioplastia de agosto 2013 de cornoaria direita com stent.  O # EF cardiaco e abdominal sp. Pulmonar: ? em base E, PA: 150/75 mmhg.  P # retorno em 6 meses com exames prescrito, anlodipino e enalapril para tto de microalbuminuria.</TEXT>
+<TAGS>
+<annotation id="19948" tag="Abbreviation|Finding" start="0" end="1" text="S" abbr="" />
+<annotation id="19949" tag="Therapeutic or Preventive Procedure" start="4" end="16" text="angioplastia" abbr="" />
+<annotation id="19950" tag="Abbreviation|Patient or Disabled Group" start="42" end="47" text="pacte" abbr="" />
+<annotation id="19951" tag="Finding|Negation" start="48" end="61" text="assintomatico" abbr="" />
+<annotation id="19952" tag="Abbreviation|Therapeutic or Preventive Procedure" start="107" end="110" text="cat" abbr="" />
+<annotation id="19953" tag="Abbreviation|Health Care Related Organization" start="146" end="149" text="UTI" abbr="" />
+<annotation id="19954" tag="Abbreviation|Disease or Syndrome" start="163" end="165" text="DM" abbr="" />
+<annotation id="19955" tag="Disease or Syndrome|Abbreviation" start="167" end="170" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="19956" tag="Abbreviation|Disease or Syndrome" start="172" end="175" text="DAC" abbr="" />
+<annotation id="19957" tag="Abbreviation|Therapeutic or Preventive Procedure" start="177" end="180" text="rvm" abbr="" />
+<annotation id="19958" tag="Disease or Syndrome" start="193" end="205" text="dislipidemia" abbr="" />
+<annotation id="19959" tag="Organic Chemical|Pharmacologic Substance" start="231" end="241" text="metformina" abbr="" />
+<annotation id="19960" tag="Organic Chemical|Pharmacologic Substance" start="243" end="255" text="sinvastatina" abbr="" />
+<annotation id="19961" tag="Quantitative Concept" start="256" end="260" text="40mg" abbr="" />
+<annotation id="19962" tag="Organic Chemical|Pharmacologic Substance" start="267" end="277" text="carvedilol" abbr="" />
+<annotation id="19963" tag="Pharmacologic Substance" start="286" end="295" text="losartana" abbr="" />
+<annotation id="19964" tag="Quantitative Concept" start="296" end="300" text="50mg" abbr="" />
+<annotation id="19965" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="310" end="313" text="AAS" abbr="acido acetilsalicílico" />
+<annotation id="19966" tag="Quantitative Concept" start="314" end="319" text="100mg" abbr="" />
+<annotation id="19967" tag="Pharmacologic Substance|Organic Chemical" start="321" end="332" text="clopidogrel" abbr="" />
+<annotation id="19968" tag="Quantitative Concept" start="333" end="337" text="75mg" abbr="" />
+<annotation id="19969" tag="Mental or Behavioral Dysfunction" start="339" end="348" text="Tabagista" abbr="" />
+<annotation id="19970" tag="Social Behavior" start="374" end="378" text="fuma" abbr="" />
+<annotation id="19971" tag="Negation" start="422" end="426" text="Nega" abbr="" />
+<annotation id="19972" tag="Sign or Symptom" start="427" end="434" text="queixas" abbr="" />
+<annotation id="19973" tag="Abbreviation|Health Care Activity" start="437" end="438" text="O" abbr="" />
+<annotation id="19974" tag="Negation" start="587" end="590" text="Sem" abbr="" />
+<annotation id="19975" tag="Abbreviation|Therapeutic or Preventive Procedure" start="735" end="738" text="CAt" abbr="" />
+<annotation id="19976" tag="Therapeutic or Preventive Procedure" start="826" end="839" text="*angioplastia" abbr="" />
+<annotation id="19977" tag="Health Care Activity|Abbreviation" start="888" end="889" text="O" abbr="" />
+<annotation id="19978" tag="Body Location or Region" start="906" end="915" text="abdominal" abbr="" />
+<annotation id="19979" tag="Clinical Attribute|Abbreviation" start="943" end="945" text="PA" abbr="" />
+<annotation id="19980" tag="Intellectual Product|Abbreviation" start="961" end="962" text="P" abbr="" />
+<annotation id="19981" tag="Health Care Activity" start="965" end="972" text="retorno" abbr="" />
+<annotation id="19982" tag="Pharmacologic Substance|Organic Chemical" start="1006" end="1016" text="anlodipino" abbr="" />
+<annotation id="19983" tag="Pharmacologic Substance" start="1019" end="1028" text="enalapril" abbr="" />
+<annotation id="19984" tag="Disease or Syndrome" start="1041" end="1057" text="microalbuminuria" abbr="" />
+<annotation id="19985" tag="Therapeutic or Preventive Procedure" start="18" end="40" text="implante de marcapasso" />
+<annotation id="19986" tag="Diagnostic Procedure" start="63" end="77" text="ecg de repouso" />
+<annotation id="19987" tag="Laboratory or Test Result" start="82" end="104" text="bav de 2 grau mobitz 2" />
+<annotation id="19988" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="217" end="229" text="insulina nph" />
+<annotation id="19989" tag="Abbreviation|Quantitative Concept" start="261" end="265" text="2 cp" />
+<annotation id="19990" tag="Quantitative Concept" start="278" end="284" text="6 , 25mg" />
+<annotation id="19991" tag="Temporal Concept" start="301" end="308" text="2 x dia" />
+<annotation id="19992" tag="Quantitative Concept" start="379" end="397" text="8 cigarros por dia" />
+<annotation id="19993" tag="Quantitative Concept" start="405" end="420" text="2 carteiras/dia" />
+<annotation id="19994" tag="Abbreviation|Laboratory or Test Result" start="466" end="474" text="HB : 12 , 9" />
+<annotation id="19995" tag="Laboratory or Test Result" start="476" end="492" text="Hematocrito 37 , 5" />
+<annotation id="19996" tag="Laboratory or Test Result" start="494" end="507" text="glicemia : 144" />
+<annotation id="19997" tag="Laboratory or Test Result" start="509" end="536" text="microalbuminuria : 2030 , 7 mg" />
+<annotation id="19998" tag="Diagnostic Procedure" start="539" end="575" text="Cintilografia de perfusao miocardica" />
+<annotation id="19999" tag="Laboratory or Test Result" start="591" end="624" text="evidencias de isquemia miocardica" />
+<annotation id="20000" tag="Abbreviation|Laboratory or Test Result" start="670" end="685" text="DIlatação do VE" />
+<annotation id="20001" tag="Laboratory or Test Result|Abbreviation" start="687" end="707" text="FE VE em repouso 61%" />
+<annotation id="20002" tag="Abbreviation|Laboratory or Test Result" start="709" end="732" text="FE VE apos estresse 60%" />
+<annotation id="20003" tag="Laboratory or Test Result|Abbreviation" start="752" end="781" text="reestenose de stent 70% em cd" />
+<annotation id="20004" tag="Laboratory or Test Result" start="783" end="824" text="Oclusao total de stent em ramo diagonalis" />
+<annotation id="20005" tag="Finding" start="858" end="885" text="cornoaria direita com stent" />
+<annotation id="20006" tag="Abbreviation|Body Location or Region" start="935" end="941" text="base E" />
+<annotation id="20007" tag="Quantitative Concept" start="947" end="958" text="150/75 mmhg" />
+<annotation id="20008" tag="Health Care Activity" start="988" end="1004" text="exames prescrito" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="19949" annotation2="19985" reltype="associated_with" />
+<rel annotation1="19950" annotation2="19951" reltype="negation_of" />
+<rel annotation1="19957" annotation2="19956" reltype="associated_with" />
+<rel annotation1="19961" annotation2="19960" reltype="associated_with" />
+<rel annotation1="19964" annotation2="19963" reltype="associated_with" />
+<rel annotation1="19965" annotation2="19966" reltype="associated_with" />
+<rel annotation1="19968" annotation2="19967" reltype="associated_with" />
+<rel annotation1="19970" annotation2="19969" reltype="associated_with" />
+<rel annotation1="19970" annotation2="19993" reltype="associated_with" />
+<rel annotation1="19971" annotation2="19972" reltype="negation_of" />
+<rel annotation1="19974" annotation2="19999" reltype="negation_of" />
+<rel annotation1="19975" annotation2="20003" reltype="associated_with" />
+<rel annotation1="19975" annotation2="20004" reltype="associated_with" />
+<rel annotation1="19976" annotation2="20005" reltype="associated_with" />
+<rel annotation1="19979" annotation2="20007" reltype="associated_with" />
+<rel annotation1="19986" annotation2="19987" reltype="associated_with" />
+<rel annotation1="19989" annotation2="19960" reltype="associated_with" />
+<rel annotation1="19990" annotation2="19962" reltype="associated_with" />
+<rel annotation1="19991" annotation2="19963" reltype="associated_with" />
+<rel annotation1="19999" annotation2="19998" reltype="associated_with" />
+<rel annotation1="20000" annotation2="19998" reltype="associated_with" />
+<rel annotation1="20001" annotation2="19998" reltype="associated_with" />
+<rel annotation1="20002" annotation2="19998" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

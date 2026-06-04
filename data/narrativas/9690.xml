@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS, 61 ANOS
+
+# HAS
+# IC
+# HIPOTIREOIDISMO
+# MIOCARDIOPATIA DILATADA
+# IMPLANTE DE MP + CDI EM NOV/13
+
+EM USO: CARVEDILOL 50 MG 2X/D + MONONITRATO DE ISOSSORBITA 20 MG 2X/D + ANCORON 200 MG 2X/D + ALDACTONE 25 MG /D + FUROSEMIDA 40 MG 2X/D + LOSARTAN 50 MG 2X/D + DIGOXINA 0,25 MG /D + SINVASTATINA 40 MG /D + LEVOTIROXINA 50 MCG /D + RIVOTRIL 2 MG /D + PROCIMAX.
+
+PACIENTE REFERE QUE HÁ 6 MESES VEM APRESENTANDO EPISÓDIOS DE DOR TORÁCICA EM APERTO, COM DURAÇÃO DE 10 A 30 MINUTOS, EM REPOUSO, MAS COM PIORA AOS ESFORÇOS. 
+RELATA AINDA DISPNÉIA / CANSAÇO AOS MODERADOS ESFORÇOS. NEGA ORTOPNEIA OU DPN.
+HÁ 2 MESES NÃO FAZ REVISÃO DO MP.
+
+AO EXAME:
+BEG, EUPNEICA, AFEBRIL.
+AC: RCR 2T BNF SS.
+AP: MV +, SEM RA.
+ABD: FLÁCIDO, INDOLOR.
+MMII: SEM EDEMA, PANTURRILHAS LIVRES.
+
+LAB 29/04/15: TSH 15,  T4L 0,97.
+
+CD: PRESCREVO HIDRALAZINA,
+      SOLICITO ECOTT E ECOSTRESS,
+      ENCAMINHO PARA AVALIAÇÃO DO MP,
+      SOLICITO LAB,
+      AUMENTO PURAN PARA 75 MCG /D,
+      RETORNO EM 3 MESES OU COM RESULTADO DE ECOSTRESS ANTES,
+
+R4 CARDIO XX LUCAS 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="34213" tag="Abbreviation|Disease or Syndrome" start="20" end="23" text="HAS" abbr="" />
+<annotation id="34214" tag="Abbreviation|Disease or Syndrome" start="27" end="29" text="IC" abbr="" />
+<annotation id="34215" tag="Disease or Syndrome" start="33" end="48" text="HIPOTIREOIDISMO" abbr="" />
+<annotation id="34216" tag="Therapeutic or Preventive Procedure|Abbreviation|Medical Device" start="96" end="99" text="CDI" abbr="" />
+<annotation id="34217" tag="Pharmacologic Substance|Organic Chemical" start="121" end="131" text="CARVEDILOL" abbr="" />
+<annotation id="34218" tag="Quantitative Concept|Temporal Concept" start="138" end="142" text="2X/D" abbr="" />
+<annotation id="34219" tag="Quantitative Concept|Temporal Concept" start="178" end="182" text="2X/D" abbr="" />
+<annotation id="34220" tag="Pharmacologic Substance|Organic Chemical" start="185" end="192" text="ANCORON" abbr="" />
+<annotation id="34221" tag="Temporal Concept|Quantitative Concept" start="200" end="204" text="2X/D" abbr="" />
+<annotation id="34222" tag="Pharmacologic Substance" start="207" end="216" text="ALDACTONE" abbr="" />
+<annotation id="34223" tag="Temporal Concept" start="223" end="225" text="/D" abbr="" />
+<annotation id="34224" tag="Organic Chemical|Pharmacologic Substance" start="228" end="238" text="FUROSEMIDA" abbr="" />
+<annotation id="34225" tag="Quantitative Concept|Temporal Concept" start="245" end="249" text="2X/D" abbr="" />
+<annotation id="34226" tag="Pharmacologic Substance|Organic Chemical" start="252" end="260" text="LOSARTAN" abbr="" />
+<annotation id="34227" tag="Temporal Concept|Quantitative Concept" start="267" end="271" text="2X/D" abbr="" />
+<annotation id="34228" tag="Organic Chemical|Pharmacologic Substance" start="274" end="282" text="DIGOXINA" abbr="" />
+<annotation id="34229" tag="Temporal Concept" start="291" end="293" text="/D" abbr="" />
+<annotation id="34230" tag="Organic Chemical|Pharmacologic Substance" start="296" end="308" text="SINVASTATINA" abbr="" />
+<annotation id="34231" tag="Temporal Concept" start="315" end="317" text="/D" abbr="" />
+<annotation id="34232" tag="Pharmacologic Substance|Organic Chemical" start="320" end="332" text="LEVOTIROXINA" abbr="" />
+<annotation id="34233" tag="Temporal Concept" start="340" end="342" text="/D" abbr="" />
+<annotation id="34234" tag="Pharmacologic Substance" start="345" end="353" text="RIVOTRIL" abbr="" />
+<annotation id="34235" tag="Temporal Concept" start="359" end="361" text="/D" abbr="" />
+<annotation id="34236" tag="Pharmacologic Substance|Organic Chemical" start="364" end="372" text="PROCIMAX" abbr="" />
+<annotation id="34237" tag="Patient or Disabled Group|Patient or Disabled Group" start="377" end="385" text="PACIENTE" abbr="" />
+<annotation id="34238" tag="Sign or Symptom" start="497" end="504" text="REPOUSO" abbr="" />
+<annotation id="34239" tag="Sign or Symptom" start="549" end="557" text="DISPNÉIA" abbr="" />
+<annotation id="34240" tag="Negation" start="592" end="596" text="NEGA" abbr="" />
+<annotation id="34241" tag="Sign or Symptom" start="597" end="606" text="ORTOPNEIA" abbr="" />
+<annotation id="34242" tag="Disease or Syndrome|Abbreviation" start="610" end="613" text="DPN" abbr="dispneia paroxística noturna" />
+<annotation id="34243" tag="Negation" start="627" end="630" text="NÃO" abbr="" />
+<annotation id="34244" tag="Abbreviation" start="646" end="648" text="MP" abbr="" />
+<annotation id="34245" tag="Diagnostic Procedure" start="656" end="661" text="EXAME" abbr="" />
+<annotation id="34246" tag="Finding|Abbreviation" start="664" end="667" text="BEG" abbr="bom estado geral" />
+<annotation id="34247" tag="Finding" start="669" end="677" text="EUPNEICA" abbr="" />
+<annotation id="34248" tag="Sign or Symptom|Negation" start="679" end="686" text="AFEBRIL" abbr="" />
+<annotation id="34249" tag="Diagnostic Procedure|Abbreviation" start="689" end="691" text="AC" abbr="ausculta cardíaca" />
+<annotation id="34250" tag="Sign or Symptom|Negation" start="704" end="706" text="SS" abbr="" />
+<annotation id="34251" tag="Abbreviation|Diagnostic Procedure" start="709" end="711" text="AP" abbr="" />
+<annotation id="34252" tag="Negation|Negation" start="719" end="722" text="SEM" abbr="" />
+<annotation id="34253" tag="Sign or Symptom|Abbreviation" start="723" end="725" text="RA" abbr="ruídos adventícios" />
+<annotation id="34254" tag="Body Part, Organ, or Organ Component|Abbreviation" start="728" end="731" text="ABD" abbr="abdome" />
+<annotation id="34255" tag="Finding" start="733" end="740" text="FLÁCIDO" abbr="" />
+<annotation id="34256" tag="Sign or Symptom|Negation" start="742" end="749" text="INDOLOR" abbr="" />
+<annotation id="34257" tag="Body Part, Organ, or Organ Component|Abbreviation|Abbreviation" start="752" end="756" text="MMII" abbr="membros inferiores" />
+<annotation id="34258" tag="Negation|Negation" start="758" end="761" text="SEM" abbr="" />
+<annotation id="34259" tag="Pathologic Function|Sign or Symptom" start="762" end="767" text="EDEMA" abbr="" />
+<annotation id="34260" tag="Abbreviation|Laboratory Procedure" start="793" end="796" text="LAB" abbr="" />
+<annotation id="34261" tag="Abbreviation|Intellectual Product" start="829" end="831" text="CD" abbr="" />
+<annotation id="34262" tag="Health Care Activity" start="833" end="842" text="PRESCREVO" abbr="" />
+<annotation id="34263" tag="Pharmacologic Substance|Organic Chemical" start="843" end="854" text="HIDRALAZINA" abbr="" />
+<annotation id="34264" tag="Health Care Activity" start="863" end="871" text="SOLICITO" abbr="" />
+<annotation id="34265" tag="Abbreviation|Diagnostic Procedure" start="872" end="877" text="ECOTT" abbr="" />
+<annotation id="34266" tag="Abbreviation|Diagnostic Procedure" start="880" end="889" text="ECOSTRESS" abbr="" />
+<annotation id="34267" tag="Health Care Activity" start="898" end="907" text="ENCAMINHO" abbr="" />
+<annotation id="34268" tag="Abbreviation" start="926" end="928" text="MP" abbr="" />
+<annotation id="34269" tag="Health Care Activity" start="937" end="945" text="SOLICITO" abbr="" />
+<annotation id="34270" tag="Abbreviation|Laboratory Procedure" start="946" end="949" text="LAB" abbr="" />
+<annotation id="34271" tag="Health Care Activity" start="958" end="965" text="AUMENTO" abbr="" />
+<annotation id="34272" tag="Organic Chemical|Pharmacologic Substance" start="966" end="971" text="PURAN" abbr="" />
+<annotation id="34273" tag="Temporal Concept" start="984" end="986" text="/D" abbr="" />
+<annotation id="34274" tag="Abbreviation" start="1057" end="1063" text="CARDIO" abbr="" />
+<annotation id="34275" tag="Disease or Syndrome" start="52" end="75" text="MIOCARDIOPATIA DILATADA" />
+<annotation id="34276" tag="Therapeutic or Preventive Procedure|Abbreviation" start="79" end="93" text="IMPLANTE DE MP" />
+<annotation id="34277" tag="Quantitative Concept" start="132" end="137" text="50 MG" />
+<annotation id="34278" tag="Organic Chemical|Pharmacologic Substance" start="145" end="171" text="MONONITRATO DE ISOSSORBITA" />
+<annotation id="34279" tag="Quantitative Concept" start="172" end="177" text="20 MG" />
+<annotation id="34280" tag="Quantitative Concept" start="193" end="199" text="200 MG" />
+<annotation id="34281" tag="Quantitative Concept" start="217" end="222" text="25 MG" />
+<annotation id="34282" tag="Quantitative Concept" start="239" end="244" text="40 MG" />
+<annotation id="34283" tag="Quantitative Concept" start="261" end="266" text="50 MG" />
+<annotation id="34284" tag="Quantitative Concept" start="283" end="290" text="0 , 25 MG" />
+<annotation id="34285" tag="Quantitative Concept" start="309" end="314" text="40 MG" />
+<annotation id="34286" tag="Quantitative Concept" start="333" end="339" text="50 MCG" />
+<annotation id="34287" tag="Quantitative Concept" start="354" end="358" text="2 MG" />
+<annotation id="34288" tag="Temporal Concept" start="397" end="407" text="HÁ 6 MESES" />
+<annotation id="34289" tag="Sign or Symptom" start="438" end="450" text="DOR TORÁCICA" />
+<annotation id="34290" tag="Qualitative Concept" start="451" end="460" text="EM APERTO" />
+<annotation id="34291" tag="Sign or Symptom" start="514" end="532" text="PIORA AOS ESFORÇOS" />
+<annotation id="34292" tag="Sign or Symptom" start="560" end="590" text="CANSAÇO AOS MODERADOS ESFORÇOS" />
+<annotation id="34293" tag="Abbreviation|Finding" start="713" end="717" text="MV +" />
+<annotation id="34294" tag="Finding" start="769" end="788" text="PANTURRILHAS LIVRES" />
+<annotation id="34295" tag="Laboratory or Test Result" start="807" end="813" text="TSH 15" />
+<annotation id="34296" tag="Laboratory or Test Result" start="816" end="824" text="T4L 0 , 97" />
+<annotation id="34297" tag="Quantitative Concept" start="977" end="983" text="75 MCG" />
+<annotation id="34298" tag="Laboratory or Test Result" start="1021" end="1049" text="RESULTADO DE ECOSTRESS ANTES" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="34216" annotation2="34276" reltype="associated_with" />
+<rel annotation1="34218" annotation2="34217" reltype="associated_with" />
+<rel annotation1="34219" annotation2="34278" reltype="associated_with" />
+<rel annotation1="34221" annotation2="34220" reltype="associated_with" />
+<rel annotation1="34223" annotation2="34222" reltype="associated_with" />
+<rel annotation1="34225" annotation2="34224" reltype="associated_with" />
+<rel annotation1="34227" annotation2="34226" reltype="associated_with" />
+<rel annotation1="34229" annotation2="34228" reltype="associated_with" />
+<rel annotation1="34231" annotation2="34230" reltype="associated_with" />
+<rel annotation1="34233" annotation2="34232" reltype="associated_with" />
+<rel annotation1="34237" annotation2="34289" reltype="associated_with" />
+<rel annotation1="34240" annotation2="34241" reltype="negation_of" />
+<rel annotation1="34240" annotation2="34242" reltype="negation_of" />
+<rel annotation1="34249" annotation2="34250" reltype="associated_with" />
+<rel annotation1="34251" annotation2="34293" reltype="associated_with" />
+<rel annotation1="34251" annotation2="34253" reltype="associated_with" />
+<rel annotation1="34252" annotation2="34253" reltype="negation_of" />
+<rel annotation1="34254" annotation2="34255" reltype="associated_with" />
+<rel annotation1="34254" annotation2="34256" reltype="associated_with" />
+<rel annotation1="34257" annotation2="34259" reltype="associated_with" />
+<rel annotation1="34257" annotation2="34294" reltype="associated_with" />
+<rel annotation1="34258" annotation2="34259" reltype="negation_of" />
+<rel annotation1="34260" annotation2="34295" reltype="associated_with" />
+<rel annotation1="34260" annotation2="34296" reltype="associated_with" />
+<rel annotation1="34262" annotation2="34263" reltype="associated_with" />
+<rel annotation1="34264" annotation2="34265" reltype="associated_with" />
+<rel annotation1="34264" annotation2="34266" reltype="associated_with" />
+<rel annotation1="34269" annotation2="34270" reltype="associated_with" />
+<rel annotation1="34271" annotation2="34272" reltype="associated_with" />
+<rel annotation1="34271" annotation2="34297" reltype="associated_with" />
+<rel annotation1="34272" annotation2="34273" reltype="associated_with" />
+<rel annotation1="34277" annotation2="34217" reltype="associated_with" />
+<rel annotation1="34279" annotation2="34278" reltype="associated_with" />
+<rel annotation1="34280" annotation2="34220" reltype="associated_with" />
+<rel annotation1="34281" annotation2="34222" reltype="associated_with" />
+<rel annotation1="34282" annotation2="34224" reltype="associated_with" />
+<rel annotation1="34283" annotation2="34226" reltype="associated_with" />
+<rel annotation1="34284" annotation2="34228" reltype="associated_with" />
+<rel annotation1="34285" annotation2="34230" reltype="associated_with" />
+<rel annotation1="34286" annotation2="34232" reltype="associated_with" />
+<rel annotation1="34288" annotation2="34289" reltype="associated_with" />
+<rel annotation1="34289" annotation2="34290" reltype="associated_with" />
+<rel annotation1="34289" annotation2="34291" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 22/06/2015
+
+
+DAC ESTAVEL -LESAO  REMANESCENTE    MODERADA 
+NAO CESSOU TBG
+SEM QX  CARDILOGICAS
+QX    MUIALGIA  E  DESCONFORTO  DE  MMII 
+30-4-15 FE  61   EP 33 AE  42 INSUF MI DISCRETA 21-5-15   T6 E POSITIVO PAR  ISQUEMIA
+7-5-15  HB 15    HT  46   K  5,3  NA  133   CRE  1  GLI  85   U    51    CK  71  TRI 310 TGP 36  HDL  47  TGO  31    COL  296   LDL  187  --LAB SEM  SVT P  CINTILO  VIA ROTA 
+ CESSAR  SVT  INICIO ATORVA  20    LIPANON   MTP 25  D MANTENHO    ENL 10 12-12  CLOPIDOGREL 75 D   AAS
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="43~46" text="DAC" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="47~54" text="ESTAVEL" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="56~87" text="LESAO  REMANESCENTE    MODERADA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="100~103" text="TBG" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="108~124" text="QX  CARDILOGICAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="131~139" text="MUIALGIA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="144~165" text="DESCONFORTO  DE  MMII" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="197~214" text="INSUF MI DISCRETA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="244~252" text="ISQUEMIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="261~263" text="HB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="270~272" text="HT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="279~280" text="K" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="287~289" text="NA" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="297~300" text="CRE" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="305~308" text="GLI" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="315~316" text="U" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="326~328" text="CK" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="334~337" text="TRI" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="342~345" text="TGP" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="350~353" text="HDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="359~362" text="TGO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="370~373" text="COL" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="381~384" text="LDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="393~396" text="LAB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="402~405" text="SVT" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="409~416" text="CINTILO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E26" spans="429~435" text="CESSAR" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E27" spans="437~440" text="SVT" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E28" spans="449~459" text="ATORVA  20" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E29" spans="463~470" text="LIPANON" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E30" spans="473~479" text="MTP 25" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E31" spans="483~491" text="MANTENHO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E32" spans="495~501" text="ENL 10" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E33" spans="509~523" text="CLOPIDOGREL 75" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E34" spans="528~531" text="AAS" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="215~222" text="21-5-15" Type="Date" Value="2015-05-21" Mod="NA" />
+<TIMEX3 id="T1" spans="167~174" text="30-4-15" Type="Date" Value="2015-04-30" Mod="NA" />
+<TIMEX3 id="T2" spans="253~259" text="7-5-15" Type="Date" Value="2015-05-07" Mod="NA" />
+<TIMEX3 id="T3" spans="481~482" text="D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="502~507" text="12-12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T5" spans="524~525" text="D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<RELATION id="R0" fromID="E0" fromText="DAC" toID="E2" toText="LESAO  REMANESCENTE    MODERADA" Relação_Temporal="OVERLAP" />
+<RELATION id="R1" fromID="E0" fromText="DAC" toID="E1" toText="ESTAVEL" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="T1" fromText="30-4-15" toID="E7" toText="INSUF MI DISCRETA" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="T0" fromText="21-5-15" toID="E8" toText="ISQUEMIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="T2" fromText="7-5-15" toID="E9" toText="HB" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="T2" fromText="7-5-15" toID="E10" toText="HT" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="T2" fromText="7-5-15" toID="E11" toText="K" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="T2" fromText="7-5-15" toID="E12" toText="NA" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="T2" fromText="7-5-15" toID="E13" toText="CRE" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="T2" fromText="7-5-15" toID="E14" toText="GLI" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="T2" fromText="7-5-15" toID="E15" toText="U" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="T2" fromText="7-5-15" toID="E16" toText="CK" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="T2" fromText="7-5-15" toID="E17" toText="TRI" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="T2" fromText="7-5-15" toID="E18" toText="TGP" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="T2" fromText="7-5-15" toID="E19" toText="HDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="T2" fromText="7-5-15" toID="E20" toText="TGO" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="T2" fromText="7-5-15" toID="E21" toText="COL" Relação_Temporal="CONTAINS" />
+<RELATION id="R17" fromID="T2" fromText="7-5-15" toID="E22" toText="LDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="E23" fromText="LAB" toID="E24" toText="SVT" Relação_Temporal="OVERLAP" />
+<RELATION id="R19" fromID="E26" fromText="CESSAR" toID="E27" toText="SVT" Relação_Temporal="OVERLAP" />
+<RELATION id="R20" fromID="E30" fromText="MTP 25" toID="T3" toText="D" Relação_Temporal="OVERLAP" />
+<RELATION id="R21" fromID="E31" fromText="MANTENHO" toID="E32" toText="ENL 10" Relação_Temporal="OVERLAP" />
+<RELATION id="R22" fromID="E32" fromText="ENL 10" toID="T4" toText="12-12" Relação_Temporal="OVERLAP" />
+<RELATION id="R23" fromID="E33" fromText="CLOPIDOGREL 75" toID="T5" toText="D" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

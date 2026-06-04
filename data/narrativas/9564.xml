@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>MCP  DILATADA  
+CINTILO  NEGATIVA  E CETS  SEM  CORONARIOPATIAS
+13-7-15  HOLTER  ALTA  DENSIDADE DE ESV  
+NAO RETORNOU  AO AMB  IC ?
+S   VERTIGEM  ESPORADICA - ASSOCIO  A  DOSE  OTIMIZADA  DE  CVD 
+P  MANETNHO CVD  12,5 12-12 
+MANTENHO AAS    SVT
+ENCAMINHAO AO AMB  ARRITMIAS   VIA ROTA
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="27787" tag="Diagnostic Procedure" start="17" end="24" text="CINTILO" abbr="" />
+<annotation id="27788" tag="Abbreviation" start="38" end="42" text="CETS" abbr="" />
+<annotation id="27789" tag="Negation" start="44" end="47" text="SEM" abbr="" />
+<annotation id="27790" tag="Disease or Syndrome" start="49" end="64" text="CORONARIOPATIAS" abbr="" />
+<annotation id="27791" tag="Diagnostic Procedure" start="75" end="81" text="HOLTER" abbr="" />
+<annotation id="27792" tag="Negation" start="109" end="112" text="NAO" abbr="" />
+<annotation id="27793" tag="Abbreviation|Finding" start="137" end="138" text="S" abbr="" />
+<annotation id="27794" tag="Pharmacologic Substance" start="197" end="200" text="CVD" abbr="" />
+<annotation id="27795" tag="Abbreviation|Intellectual Product" start="203" end="204" text="P" abbr="" />
+<annotation id="27796" tag="Health Care Activity" start="206" end="214" text="MANETNHO" abbr="" />
+<annotation id="27797" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="215" end="218" text="CVD" abbr="" />
+<annotation id="27798" tag="Temporal Concept" start="225" end="230" text="12-12" abbr="" />
+<annotation id="27799" tag="Health Care Activity" start="233" end="241" text="MANTENHO" abbr="" />
+<annotation id="27800" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="242" end="245" text="AAS" abbr="" />
+<annotation id="27801" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="249" end="252" text="SVT" abbr="" />
+<annotation id="27802" tag="Abbreviation|Disease or Syndrome" start="0" end="13" text="MCP DILATADA" />
+<annotation id="27803" tag="Abbreviation|Laboratory or Test Result" start="83" end="105" text="ALTA DENSIDADE DE ESV" />
+<annotation id="27804" tag="Abbreviation|Health Care Related Organization" start="126" end="133" text="AMB IC" />
+<annotation id="27805" tag="Sign or Symptom" start="141" end="161" text="VERTIGEM ESPORADICA" />
+<annotation id="27806" tag="Quantitative Concept" start="220" end="224" text="12 , 5" />
+<annotation id="27807" tag="Abbreviation|Health Care Related Organization" start="268" end="282" text="AMB ARRITMIAS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="27788" annotation2="27790" reltype="associated_with" />
+<rel annotation1="27789" annotation2="27790" reltype="negation_of" />
+<rel annotation1="27791" annotation2="27803" reltype="associated_with" />
+<rel annotation1="27797" annotation2="27806" reltype="associated_with" />
+<rel annotation1="27799" annotation2="27800" reltype="associated_with" />
+<rel annotation1="27799" annotation2="27801" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

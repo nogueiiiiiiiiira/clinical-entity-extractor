@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 26/09/2013
+
+
+Lucas, 77 ANOS
+CATETERISMO COM ANGIOPLASTIA EM 19/ABRIL/13
+HISTORIA DE HEMATURIA EM 2012
+SONDA DESDE JANEIRO. NAO CONSEGUE FICAR SEM SONDA - NAO CONSEGUE URINAR
+VEM À CONSULTA PARA AVALIAÇÃO PRÉ-OP. UROLOGISTA PEDE AVALIAÇÃO PARA CX DE 
+COMORBIDADES:
+	DM
+	HAS
+	HIPOTIREOIDISMO
+	DISLIPIDEMIA
+EM USO DE:
+	AAS 100MG
+	CLOPIDOGREL 75MG
+	SINVASTATINA 40MG
+	LOSARTANA 50MG
+	SELOZOK 50MG
+	LEVOTIROXINA 125MCG
+	FINASTERIDA 5MG
+	INSULINA
+NEGA ANGINA, NEGA DISPINEIA.
+NEGA TABAGISMO. EX-ETILISTA, PAROU HÁ MAIS DE 10 ANOS
+REFERE BOA ALIMENTAÇAO
+REFERE HABITO INTESTINAL MAIS RESSECADO. EVACUA A CADA 2 DIAS
+HX DE HEMORROIDA, SEM SANGRAMENTO RECENTES
+HX DE TUBERCULOSE HÁ MAIS DE 10 ANOS
+REFERE AMORTECIMENTO DE MEMBROS SUPERIORES
+APENDICECTOMIA PREVIA HÁ MUITOS ANOS ( JUVENTUDE )
+EXAMES (15/08): LDL 47; HBA1C 7,6%; GLICOSE 71; UREIA 62; CREATININA 2; COLESTEROL TOTAL 138; TG 234; HDL 44; PROT TOTAIS 6,90; ALBUMINA 3,90; GLOBULINA 3,0; TSH 0,14; HB 15,5; PLAQUETAS 186,000
+AO EXAME:
+PA 170/100
+FC 66
+FR 22
+MV + , SEM RA
+BCRNFSS
+MEMBROS COM EDEMA +/4
+CONDUTA:
+SOLICITO CINTILOGRAFIA MIOCÁRDICA PARA AVALIAÇÃO DE RISCO CIRURGICO
+ELETRONEUROMIOGRAFIA DE MEMBROS SUPERIORES
+RETORNO COM EXAMES
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="58~69" text="CATETERISMO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="74~86" text="ANGIOPLASTIA" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="114~123" text="HEMATURIA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="132~137" text="SONDA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="184~203" text="NAO CONSEGUE URINAR" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="210~218" text="CONSULTA" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E6" spans="224~240" text="AVALIAÇÃO PRÉ-OP" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E7" spans="242~252" text="UROLOGISTA" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="258~267" text="AVALIAÇÃO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E9" spans="280~292" text="COMORBIDADES" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="295~297" text="DM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="299~302" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="304~319" text="HIPOTIREOIDISMO" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="321~333" text="DISLIPIDEMIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="346~355" text="AAS 100MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="357~373" text="CLOPIDOGREL 75MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="375~392" text="SINVASTATINA 40MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="394~408" text="LOSARTANA 50MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E18" spans="410~422" text="SELOZOK 50MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E19" spans="424~443" text="LEVOTIROXINA 125MCG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E20" spans="445~460" text="FINASTERIDA 5MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E21" spans="462~470" text="INSULINA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E22" spans="471~475" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E23" spans="476~482" text="ANGINA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="484~488" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E26" spans="500~504" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E27" spans="505~514" text="TABAGISMO" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E28" spans="516~527" text="EX-ETILISTA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E29" spans="554~560" text="REFERE" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E30" spans="577~583" text="REFERE" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E31" spans="584~616" text="HABITO INTESTINAL MAIS RESSECADO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E32" spans="645~655" text="HEMORROIDA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E33" spans="661~672" text="SANGRAMENTO" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E34" spans="688~699" text="TUBERCULOSE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E35" spans="719~725" text="REFERE" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E36" spans="726~761" text="AMORTECIMENTO DE MEMBROS SUPERIORES" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E37" spans="762~776" text="APENDICECTOMIA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E38" spans="813~819" text="EXAMES" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E39" spans="829~832" text="LDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E40" spans="837~842" text="HBA1C" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E41" spans="849~856" text="GLICOSE" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E42" spans="861~866" text="UREIA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E43" spans="871~881" text="CREATININA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E44" spans="885~901" text="COLESTEROL TOTAL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E45" spans="907~909" text="TG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E46" spans="915~918" text="HDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E48" spans="923~934" text="PROT TOTAIS" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E49" spans="941~949" text="ALBUMINA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E50" spans="956~965" text="GLOBULINA" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E51" spans="971~974" text="TSH" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E52" spans="981~983" text="HB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E53" spans="990~999" text="PLAQUETAS" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E54" spans="1011~1016" text="EXAME" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E55" spans="1018~1020" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E56" spans="1029~1031" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E57" spans="1035~1037" text="FR" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E58" spans="1052~1054" text="RA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E60" spans="1063~1084" text="MEMBROS COM EDEMA +/4" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E61" spans="1103~1127" text="CINTILOGRAFIA MIOCÁRDICA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E62" spans="1133~1161" text="AVALIAÇÃO DE RISCO CIRURGICO" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E63" spans="1162~1204" text="ELETRONEUROMIOGRAFIA DE MEMBROS SUPERIORES" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E64" spans="1205~1212" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E65" spans="1217~1223" text="EXAMES" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E47" spans="489~498" text="DISPINEIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="90~101" text="19/ABRIL/13" Type="Date" Value="2013-04-19" Mod="NA" />
+<TIMEX3 id="T1" spans="127~131" text="2012" Type="Date" Value="2012" Mod="NA" />
+<TIMEX3 id="T2" spans="138~151" text="DESDE JANEIRO" Type="Date" Value="2013-01" Mod="NA" />
+<TIMEX3 id="T3" spans="535~553" text="HÁ MAIS DE 10 ANOS" Type="Duration" Value="P10Y" Mod="MORE" />
+<TIMEX3 id="T4" spans="625~638" text="A CADA 2 DIAS" Type="Set" Value="P2D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="700~718" text="HÁ MAIS DE 10 ANOS" Type="Date" Value="2003-09-26" Mod="MORE" />
+<TIMEX3 id="T6" spans="784~798" text="HÁ MUITOS ANOS" Type="Date" Value="XXXX-XX-XX" Mod="NA" />
+<TIMEX3 id="T7" spans="821~826" text="15/08" Type="Date" Value="2013-08-15" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="19/ABRIL/13" toID="E1" toText="ANGIOPLASTIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="T0" fromText="19/ABRIL/13" toID="E0" toText="CATETERISMO" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="T1" fromText="2012" toID="E2" toText="HEMATURIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E3" fromText="SONDA" toID="T2" toText="DESDE JANEIRO" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R4" fromID="E5" fromText="CONSULTA" toID="E6" toText="AVALIAÇÃO PRÉ-OP" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="T3" fromText="HÁ MAIS DE 10 ANOS" toID="E28" toText="EX-ETILISTA" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="T5" fromText="HÁ MAIS DE 10 ANOS" toID="E34" toText="TUBERCULOSE" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="T6" fromText="HÁ MUITOS ANOS" toID="E37" toText="APENDICECTOMIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="T7" fromText="15/08" toID="E38" toText="EXAMES" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E38" fromText="EXAMES" toID="E39" toText="LDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="E38" fromText="EXAMES" toID="E40" toText="HBA1C" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E38" fromText="EXAMES" toID="E41" toText="GLICOSE" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="E38" fromText="EXAMES" toID="E42" toText="UREIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E38" fromText="EXAMES" toID="E43" toText="CREATININA" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="E38" fromText="EXAMES" toID="E44" toText="COLESTEROL TOTAL" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="E38" fromText="EXAMES" toID="E45" toText="TG" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="E38" fromText="EXAMES" toID="E46" toText="HDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R17" fromID="E38" fromText="EXAMES" toID="E48" toText="PROT TOTAIS" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="E38" fromText="EXAMES" toID="E49" toText="ALBUMINA" Relação_Temporal="CONTAINS" />
+<RELATION id="R19" fromID="E38" fromText="EXAMES" toID="E50" toText="GLOBULINA" Relação_Temporal="CONTAINS" />
+<RELATION id="R20" fromID="E38" fromText="EXAMES" toID="E51" toText="TSH" Relação_Temporal="CONTAINS" />
+<RELATION id="R21" fromID="E38" fromText="EXAMES" toID="E52" toText="HB" Relação_Temporal="CONTAINS" />
+<RELATION id="R22" fromID="E38" fromText="EXAMES" toID="E53" toText="PLAQUETAS" Relação_Temporal="CONTAINS" />
+<RELATION id="R23" fromID="E65" fromText="EXAMES" toID="E61" toText="CINTILOGRAFIA MIOCÁRDICA" Relação_Temporal="CONTAINS" />
+<RELATION id="R24" fromID="E64" fromText="RETORNO" toID="E65" toText="EXAMES" Relação_Temporal="CONTAINS" />
+<RELATION id="R25" fromID="E65" fromText="EXAMES" toID="E63" toText="ELETRONEUROMIOGRAFIA DE MEMBROS SUPERIORES" Relação_Temporal="CONTAINS" />
+<RELATION id="R26" fromID="E61" fromText="CINTILOGRAFIA MIOCÁRDICA" toID="E62" toText="AVALIAÇÃO DE RISCO CIRURGICO" Relação_Temporal="BEFORE" />
+</TAGS>
+</Annotation_v1>

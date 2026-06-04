@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 59
+# HAS
+# FA em Anticoagulação
+# Hipotireoidismo
+# Dislipidemia
+# Obesidade
+# Nega HF para DAC
+# Nega tabagismo/etilismo
+# Sem alergias
+# Med em Uso: Atenolol 50mg 12/12h; enalapril  10mg 12/12h; marevan 1 1/2cp todos dias ( seg a sábado ) + 01cp aos domingos LT4 50mcg + SVT 20mg;
+# traz exames lab: 
+   - Triglicerídeos 304;
+   - Cr 0,8; U 22; CT 168; HDL 30; HMG normal; TGO e TGp normais;
+S # Sem queixas; nega dispnéia ou palpitação;
+O # Euneica em AA, FC 85; Sp02 96%; Ac B. Arrítmicas; Ap CPP livres; abd sp MMII sem edema; P 90Kg; IMC 31,88
+A # Oriento atividade física; Solicito novos exames; Verificar Triglicerídeos na próxima consulta;
+      Solicito novo Ecocardio ( Há mais de 1 ano q não faz ); mantenho medicamentos; retorno em 3 meses
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="31050" tag="Abbreviation|Disease or Syndrome" start="13" end="16" text="HAS" abbr="" />
+<annotation id="31051" tag="Abbreviation|Disease or Syndrome" start="20" end="22" text="FA" abbr="" />
+<annotation id="31052" tag="Therapeutic or Preventive Procedure" start="26" end="40" text="Anticoagulação" abbr="" />
+<annotation id="31053" tag="Disease or Syndrome" start="44" end="59" text="Hipotireoidismo" abbr="" />
+<annotation id="31054" tag="Disease or Syndrome" start="63" end="75" text="Dislipidemia" abbr="" />
+<annotation id="31055" tag="Disease or Syndrome" start="79" end="88" text="Obesidade" abbr="" />
+<annotation id="31056" tag="Negation|Negation" start="92" end="96" text="Nega" abbr="" />
+<annotation id="31057" tag="Finding|Abbreviation" start="97" end="99" text="HF" abbr="história familiar" />
+<annotation id="31058" tag="Abbreviation|Disease or Syndrome" start="105" end="108" text="DAC" abbr="" />
+<annotation id="31059" tag="Negation" start="112" end="116" text="Nega" abbr="" />
+<annotation id="31060" tag="Disease or Syndrome" start="117" end="135" text="tabagismo/etilismo" abbr="" />
+<annotation id="31061" tag="Negation|Negation" start="139" end="142" text="Sem" abbr="" />
+<annotation id="31062" tag="Pathologic Function" start="143" end="151" text="alergias" abbr="" />
+<annotation id="31063" tag="Therapeutic or Preventive Procedure" start="155" end="158" text="Med" abbr="" />
+<annotation id="31064" tag="Pharmacologic Substance|Organic Chemical" start="167" end="175" text="Atenolol" abbr="" />
+<annotation id="31065" tag="Quantitative Concept" start="176" end="180" text="50mg" abbr="" />
+<annotation id="31066" tag="Temporal Concept|Abbreviation" start="181" end="187" text="12/12h" abbr="" />
+<annotation id="31067" tag="Organic Chemical|Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="189" end="198" text="enalapril" abbr="" />
+<annotation id="31068" tag="Quantitative Concept" start="200" end="204" text="10mg" abbr="" />
+<annotation id="31069" tag="Quantitative Concept|Temporal Concept|Abbreviation" start="205" end="211" text="12/12h" abbr="" />
+<annotation id="31070" tag="Pharmacologic Substance|Organic Chemical" start="213" end="220" text="marevan" abbr="" />
+<annotation id="31071" tag="Abbreviation" start="242" end="245" text="seg" abbr="" />
+<annotation id="31072" tag="Abbreviation|Quantitative Concept" start="259" end="263" text="01cp" abbr="" />
+<annotation id="31073" tag="Temporal Concept" start="268" end="276" text="domingos" abbr="" />
+<annotation id="31074" tag="Amino Acid, Peptide, or Protein|Hormone|Organic Chemical|Pharmacologic Substance|Abbreviation" start="277" end="280" text="LT4" abbr="levotiroxina T4" />
+<annotation id="31075" tag="Quantitative Concept" start="281" end="286" text="50mcg" abbr="" />
+<annotation id="31076" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="289" end="292" text="SVT" abbr="" />
+<annotation id="31077" tag="Quantitative Concept" start="293" end="297" text="20mg" abbr="" />
+<annotation id="31078" tag="Negation|Negation" start="418" end="421" text="Sem" abbr="" />
+<annotation id="31079" tag="Sign or Symptom|Sign or Symptom" start="422" end="429" text="queixas" abbr="" />
+<annotation id="31080" tag="Negation|Negation" start="431" end="435" text="nega" abbr="" />
+<annotation id="31081" tag="Sign or Symptom" start="436" end="444" text="dispnéia" abbr="" />
+<annotation id="31082" tag="Sign or Symptom" start="448" end="458" text="palpitação" abbr="" />
+<annotation id="31083" tag="Abbreviation|Clinical Attribute|Clinical Attribute" start="480" end="482" text="FC" abbr="" />
+<annotation id="31084" tag="Quantitative Concept" start="483" end="485" text="85" abbr="" />
+<annotation id="31085" tag="Clinical Attribute|Abbreviation" start="487" end="491" text="Sp02" abbr="saturação periférica de oxigênio" />
+<annotation id="31086" tag="Quantitative Concept" start="492" end="495" text="96%" abbr="" />
+<annotation id="31087" tag="Abbreviation|Clinical Attribute" start="497" end="499" text="Ac" abbr="" />
+<annotation id="31088" tag="Finding|Abbreviation" start="500" end="501" text="B" abbr="" />
+<annotation id="31089" tag="Sign or Symptom" start="503" end="513" text="Arrítmicas" abbr="" />
+<annotation id="31090" tag="Abbreviation|Clinical Attribute" start="515" end="517" text="Ap" abbr="" />
+<annotation id="31091" tag="Body Part, Organ, or Organ Component|Abbreviation" start="537" end="541" text="MMII" abbr="membros inferiores" />
+<annotation id="31092" tag="Negation" start="542" end="545" text="sem" abbr="" />
+<annotation id="31093" tag="Sign or Symptom" start="546" end="551" text="edema" abbr="" />
+<annotation id="31094" tag="Clinical Attribute" start="553" end="554" text="P" abbr="" />
+<annotation id="31095" tag="Diagnostic Procedure" start="561" end="564" text="IMC" abbr="" />
+<annotation id="31096" tag="Health Care Activity" start="576" end="583" text="Oriento" abbr="" />
+<annotation id="31097" tag="Health Care Activity" start="602" end="610" text="Solicito" abbr="" />
+<annotation id="31098" tag="Laboratory Procedure" start="617" end="623" text="exames" abbr="" />
+<annotation id="31099" tag="Health Care Activity" start="625" end="634" text="Verificar" abbr="" />
+<annotation id="31100" tag="Laboratory or Test Result" start="635" end="649" text="Triglicerídeos" abbr="" />
+<annotation id="31101" tag="Health Care Activity" start="661" end="669" text="consulta" abbr="" />
+<annotation id="31102" tag="Health Care Activity" start="678" end="686" text="Solicito" abbr="" />
+<annotation id="31103" tag="Diagnostic Procedure|Abbreviation" start="692" end="701" text="Ecocardio" abbr="" />
+<annotation id="31104" tag="Health Care Activity" start="734" end="742" text="mantenho" abbr="" />
+<annotation id="31105" tag="Pharmacologic Substance|Therapeutic or Preventive Procedure" start="743" end="755" text="medicamentos" abbr="" />
+<annotation id="31106" tag="Health Care Activity" start="757" end="764" text="retorno" abbr="" />
+<annotation id="31107" tag="Abbreviation|Quantitative Concept" start="221" end="228" text="1 1/2cp" />
+<annotation id="31108" tag="Temporal Concept" start="229" end="239" text="todos dias" />
+<annotation id="31109" tag="Laboratory Procedure|Abbreviation" start="307" end="317" text="exames lab" />
+<annotation id="31110" tag="Laboratory or Test Result" start="326" end="344" text="Triglicerídeos 304" />
+<annotation id="31111" tag="Abbreviation|Laboratory or Test Result" start="352" end="358" text="Cr 0 , 8" />
+<annotation id="31112" tag="Abbreviation|Laboratory or Test Result" start="360" end="364" text="U 22" />
+<annotation id="31113" tag="Abbreviation|Laboratory or Test Result" start="366" end="372" text="CT 168" />
+<annotation id="31114" tag="Abbreviation|Laboratory or Test Result" start="374" end="380" text="HDL 30" />
+<annotation id="31115" tag="Abbreviation|Laboratory or Test Result" start="382" end="392" text="HMG normal" />
+<annotation id="31116" tag="Abbreviation|Laboratory or Test Result" start="394" end="411" text="TGO e TGp normais" />
+<annotation id="31117" tag="Abbreviation|Finding" start="465" end="478" text="Euneica em AA" />
+<annotation id="31118" tag="Abbreviation|Finding" start="518" end="528" text="CPP livres" />
+<annotation id="31119" tag="Quantitative Concept" start="565" end="570" text="31 , 88" />
+<annotation id="31120" tag="Daily or Recreational Activity" start="584" end="600" text="atividade física" />
+<annotation id="31121" tag="Temporal Concept" start="768" end="775" text="3 meses" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="31051" annotation2="31052" reltype="associated_with" />
+<rel annotation1="31056" annotation2="31057" reltype="negation_of" />
+<rel annotation1="31057" annotation2="31058" reltype="associated_with" />
+<rel annotation1="31059" annotation2="31060" reltype="negation_of" />
+<rel annotation1="31061" annotation2="31062" reltype="negation_of" />
+<rel annotation1="31064" annotation2="31065" reltype="associated_with" />
+<rel annotation1="31065" annotation2="31066" reltype="associated_with" />
+<rel annotation1="31067" annotation2="31068" reltype="associated_with" />
+<rel annotation1="31068" annotation2="31069" reltype="associated_with" />
+<rel annotation1="31070" annotation2="31107" reltype="associated_with" />
+<rel annotation1="31070" annotation2="31072" reltype="associated_with" />
+<rel annotation1="31072" annotation2="31073" reltype="associated_with" />
+<rel annotation1="31074" annotation2="31075" reltype="associated_with" />
+<rel annotation1="31076" annotation2="31077" reltype="associated_with" />
+<rel annotation1="31078" annotation2="31079" reltype="negation_of" />
+<rel annotation1="31080" annotation2="31081" reltype="negation_of" />
+<rel annotation1="31080" annotation2="31082" reltype="negation_of" />
+<rel annotation1="31083" annotation2="31084" reltype="associated_with" />
+<rel annotation1="31085" annotation2="31086" reltype="associated_with" />
+<rel annotation1="31087" annotation2="31088" reltype="associated_with" />
+<rel annotation1="31090" annotation2="31118" reltype="associated_with" />
+<rel annotation1="31091" annotation2="31093" reltype="associated_with" />
+<rel annotation1="31092" annotation2="31093" reltype="negation_of" />
+<rel annotation1="31095" annotation2="31119" reltype="associated_with" />
+<rel annotation1="31096" annotation2="31120" reltype="associated_with" />
+<rel annotation1="31097" annotation2="31098" reltype="associated_with" />
+<rel annotation1="31099" annotation2="31100" reltype="associated_with" />
+<rel annotation1="31099" annotation2="31101" reltype="associated_with" />
+<rel annotation1="31102" annotation2="31103" reltype="associated_with" />
+<rel annotation1="31104" annotation2="31105" reltype="associated_with" />
+<rel annotation1="31106" annotation2="31121" reltype="associated_with" />
+<rel annotation1="31107" annotation2="31108" reltype="associated_with" />
+<rel annotation1="31109" annotation2="31110" reltype="associated_with" />
+<rel annotation1="31109" annotation2="31111" reltype="associated_with" />
+<rel annotation1="31109" annotation2="31112" reltype="associated_with" />
+<rel annotation1="31109" annotation2="31113" reltype="associated_with" />
+<rel annotation1="31109" annotation2="31114" reltype="associated_with" />
+<rel annotation1="31109" annotation2="31115" reltype="associated_with" />
+<rel annotation1="31109" annotation2="31116" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

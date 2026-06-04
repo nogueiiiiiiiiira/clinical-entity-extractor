@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>POS ATC.
+QUEIXAS DE DISPNEIA.
+NEGA DOR .
+EM USO CORRETO DA MEDICACAO. 
+SEM OUTRAS QUEIXAS EXCETO DEPRESSAO , MULHR O ABANDONOU HA 6 MESES. REFERE PERDA DE APETITE E FALTA DE SONO.
+ICO.
+ 
+ 
+SOLICITO EXAMES LABORATORIAIS E CATETERISMO DIAGNOSTICO PARA VER OSSTENTS IMPLANTADOS.</TEXT>
+<TAGS>
+<annotation id="34057" tag="Temporal Concept" start="0" end="3" text="POS" abbr="" />
+<annotation id="34058" tag="Abbreviation|Therapeutic or Preventive Procedure" start="4" end="7" text="ATC" abbr="" />
+<annotation id="34059" tag="Negation" start="32" end="36" text="NEGA" abbr="" />
+<annotation id="34060" tag="Sign or Symptom" start="37" end="40" text="DOR" abbr="" />
+<annotation id="34061" tag="Pharmacologic Substance" start="62" end="71" text="MEDICACAO" abbr="" />
+<annotation id="34062" tag="Negation" start="75" end="78" text="SEM" abbr="" />
+<annotation id="34063" tag="Sign or Symptom" start="86" end="93" text="QUEIXAS" abbr="" />
+<annotation id="34064" tag="Disease or Syndrome" start="101" end="110" text="DEPRESSAO" abbr="" />
+<annotation id="34065" tag="Abbreviation" start="185" end="188" text="ICO" abbr="" />
+<annotation id="34066" tag="Health Care Activity" start="197" end="205" text="SOLICITO" abbr="" />
+<annotation id="34067" tag="Sign or Symptom" start="10" end="29" text="QUEIXAS DE DISPNEIA" />
+<annotation id="34068" tag="Sign or Symptom" start="150" end="166" text="PERDA DE APETITE" />
+<annotation id="34069" tag="Sign or Symptom" start="169" end="182" text="FALTA DE SONO" />
+<annotation id="34070" tag="Laboratory Procedure" start="206" end="226" text="EXAMES LABORATORIAIS" />
+<annotation id="34071" tag="Diagnostic Procedure" start="229" end="252" text="CATETERISMO DIAGNOSTICO" />
+<annotation id="34072" tag="Medical Device" start="262" end="282" text="OSSTENTS IMPLANTADOS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="34057" annotation2="34058" reltype="associated_with" />
+<rel annotation1="34059" annotation2="34060" reltype="negation_of" />
+<rel annotation1="34062" annotation2="34063" reltype="negation_of" />
+<rel annotation1="34066" annotation2="34070" reltype="associated_with" />
+<rel annotation1="34066" annotation2="34071" reltype="associated_with" />
+<rel annotation1="34071" annotation2="34072" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

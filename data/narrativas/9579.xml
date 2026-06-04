@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>PROTESE  VALVAR MI 2012
+USA S MAREVAN   ENL   20 12-12  ATL 50 12-12   ESPIRONOLACTONA  25 MG - D   SVT  20 MG - D 
+SEM QX  CARDIOLOGICAS
+27-01-15    FE   50 EP 25   AE  46  VE  REMODELAMENTO CONCENTRICO  AE  E AD   AUMENTADOS    VD  NL  PROTESE    AO NF  REFLUXO DISCRETO = DUPLA  LESAO MI  COM ESTENOSE E INSUF MODERADAS - INSUF TRI MODERADA  A  IMPORTANTE  = HIPERTENSAO PULMONAR 
+CONTROLE  NO AMB VALVAS E ACO
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="28612" tag="Body Location or Region|Abbreviation" start="16" end="18" text="MI" abbr="mitral" />
+<annotation id="28613" tag="Pharmacologic Substance" start="31" end="38" text="MAREVAN" abbr="" />
+<annotation id="28614" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein|Abbreviation" start="41" end="44" text="ENL" abbr="enalapril" />
+<annotation id="28615" tag="Quantitative Concept" start="47" end="49" text="20" abbr="" />
+<annotation id="28616" tag="Temporal Concept" start="50" end="55" text="12-12" abbr="" />
+<annotation id="28617" tag="Pharmacologic Substance|Abbreviation" start="57" end="60" text="ATL" abbr="atenolol" />
+<annotation id="28618" tag="Quantitative Concept" start="61" end="63" text="50" abbr="" />
+<annotation id="28619" tag="Temporal Concept" start="64" end="69" text="12-12" abbr="" />
+<annotation id="28620" tag="Pharmacologic Substance" start="72" end="87" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="28621" tag="Abbreviation|Pharmacologic Substance" start="101" end="104" text="SVT" abbr="" />
+<annotation id="28622" tag="Negation" start="118" end="121" text="SEM" abbr="" />
+<annotation id="28623" tag="Clinical Attribute" start="153" end="155" text="FE" abbr="" />
+<annotation id="28624" tag="Quantitative Concept" start="158" end="160" text="50" abbr="" />
+<annotation id="28625" tag="Clinical Attribute" start="161" end="163" text="EP" abbr="" />
+<annotation id="28626" tag="Quantitative Concept" start="164" end="166" text="25" abbr="" />
+<annotation id="28627" tag="Clinical Attribute" start="169" end="171" text="AE" abbr="" />
+<annotation id="28628" tag="Quantitative Concept" start="173" end="175" text="46" abbr="" />
+<annotation id="28629" tag="Abbreviation" start="414" end="417" text="ACO" abbr="" />
+<annotation id="28630" tag="Medical Device|Therapeutic or Preventive Procedure" start="0" end="15" text="PROTESE VALVAR" />
+<annotation id="28631" tag="Quantitative Concept" start="89" end="94" text="25 MG" />
+<annotation id="28632" tag="Quantitative Concept" start="106" end="111" text="20 MG" />
+<annotation id="28633" tag="Abbreviation" start="122" end="139" text="QX CARDIOLOGICAS" />
+<annotation id="28634" tag="Abbreviation|Laboratory or Test Result" start="177" end="206" text="VE REMODELAMENTO CONCENTRICO" />
+<annotation id="28635" tag="Abbreviation|Laboratory or Test Result" start="208" end="239" text="AE E AD AUMENTADOS VD NL" />
+<annotation id="28636" tag="Abbreviation|Laboratory or Test Result" start="241" end="275" text="PROTESE AO NF REFLUXO DISCRETO" />
+<annotation id="28637" tag="Abbreviation|Laboratory or Test Result" start="278" end="307" text="DUPLA LESAO MI COM ESTENOSE" />
+<annotation id="28638" tag="Abbreviation|Laboratory or Test Result" start="310" end="325" text="INSUF MODERADAS" />
+<annotation id="28639" tag="Abbreviation|Laboratory or Test Result" start="328" end="361" text="INSUF TRI MODERADA A IMPORTANTE" />
+<annotation id="28640" tag="Disease or Syndrome" start="365" end="385" text="HIPERTENSAO PULMONAR" />
+<annotation id="28641" tag="Abbreviation|Health Care Related Organization" start="401" end="411" text="AMB VALVAS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28612" annotation2="28630" reltype="associated_with" />
+<rel annotation1="28614" annotation2="28615" reltype="associated_with" />
+<rel annotation1="28614" annotation2="28616" reltype="associated_with" />
+<rel annotation1="28617" annotation2="28618" reltype="associated_with" />
+<rel annotation1="28617" annotation2="28619" reltype="associated_with" />
+<rel annotation1="28620" annotation2="28631" reltype="associated_with" />
+<rel annotation1="28621" annotation2="28632" reltype="associated_with" />
+<rel annotation1="28622" annotation2="28633" reltype="negation_of" />
+<rel annotation1="28623" annotation2="28624" reltype="associated_with" />
+<rel annotation1="28625" annotation2="28626" reltype="associated_with" />
+<rel annotation1="28627" annotation2="28628" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

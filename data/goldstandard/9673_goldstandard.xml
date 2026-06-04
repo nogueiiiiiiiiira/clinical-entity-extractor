@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 29/04/2014
+
+
+LUCAS, MASC, 86 ANOS.
+
+QP: CONSULTA DE ROTINA.
+
+HMA: INICIO DE 2013 IAM COM CAT E ANGIOPLASTIA. PACIENTE SEM QUEIXAS CARDIOLOGICAS. RELATA DOR A DEAMBULACAO. 
+
+EM USO DE: AAS 100 MG / CARVEDILOL 25 MG / HCTZ 25 MG / SINVASTATINA 20 MG.
+
+ECOCARDIO 25/11/13 - VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA E FUNÇÃO  GLOBAL MODERADAMENTE DIMINUIDA POR ACINESIA MEDIO APICAL PAREDE ANTERO SEPTAL. AUMENTO DE AE. REFLUXO MITRAL DISCRETO. ECTASIA DA RAIZ AÓRTICA. REFLUXO AÓRTICO DISCRETO.
+FEVE: 47%.
+
+EX:
+PA 120/60,
+FC: 73,
+SAT: 98,
+PC: BC HIPOFONETICAS SEM SORPOS COM EXTRASSISTOLES.
+EDEMA EM MMII ++/4.
+
+CONDUTA: A MEDICAÇAO FOI MANTIDA. RETONRO EM 1  MESES.
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="70~78" text="CONSULTA" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E1" spans="111~114" text="IAM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="119~122" text="CAT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="125~137" text="ANGIOPLASTIA" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="152~173" text="QUEIXAS CARDIOLOGICAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="175~181" text="RELATA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E6" spans="182~199" text="DOR A DEAMBULACAO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="214~224" text="AAS 100 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="227~243" text="CARVEDILOL 25 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="246~256" text="HCTZ 25 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="259~277" text="SINVASTATINA 20 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="280~289" text="ECOCARDIO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="351~389" text="FUNÇÃO  GLOBAL MODERADAMENTE DIMINUIDA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="394~436" text="ACINESIA MEDIO APICAL PAREDE ANTERO SEPTAL" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="438~451" text="AUMENTO DE AE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="453~476" text="REFLUXO MITRAL DISCRETO" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="478~501" text="ECTASIA DA RAIZ AÓRTICA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="503~527" text="REFLUXO AÓRTICO DISCRETO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="541~543" text="EX" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E22" spans="545~547" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E23" spans="556~558" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E24" spans="564~567" text="SAT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E25" spans="577~593" text="BC HIPOFONETICAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E26" spans="598~604" text="SORPOS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E27" spans="609~623" text="EXTRASSISTOLES" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E28" spans="625~643" text="EDEMA EM MMII ++/4" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E29" spans="657~666" text="MEDICAÇAO" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E30" spans="671~678" text="MANTIDA" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E31" spans="680~687" text="RETONRO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E32" spans="301~348" text="VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="96~110" text="INICIO DE 2013" Type="Date" Value="2013" Mod="START" />
+<TIMEX3 id="T1" spans="290~298" text="25/11/13" Type="Date" Value="2013-11-25" Mod="NA" />
+<TIMEX3 id="T2" spans="688~699" text="EM 1  MESES" Type="Date" Value="2014-05-29" Mod="NA" />
+<RELATION id="R0" fromID="E1" fromText="IAM" toID="E2" toText="CAT" Relação_Temporal="BEFORE" />
+<RELATION id="R1" fromID="T0" fromText="INICIO DE 2013" toID="E2" toText="CAT" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E1" fromText="IAM" toID="E3" toText="ANGIOPLASTIA" Relação_Temporal="BEFORE" />
+<RELATION id="R3" fromID="T0" fromText="INICIO DE 2013" toID="E1" toText="IAM" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="T0" fromText="INICIO DE 2013" toID="E3" toText="ANGIOPLASTIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="T1" fromText="25/11/13" toID="E12" toText="ECOCARDIO" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E12" fromText="ECOCARDIO" toID="E32" toText="VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="E12" fromText="ECOCARDIO" toID="E15" toText="FUNÇÃO  GLOBAL MODERADAMENTE DIMINUIDA" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E12" fromText="ECOCARDIO" toID="E16" toText="ACINESIA MEDIO APICAL PAREDE ANTERO SEPTAL" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E12" fromText="ECOCARDIO" toID="E17" toText="AUMENTO DE AE" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="E12" fromText="ECOCARDIO" toID="E18" toText="REFLUXO MITRAL DISCRETO" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E12" fromText="ECOCARDIO" toID="E19" toText="ECTASIA DA RAIZ AÓRTICA" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="E12" fromText="ECOCARDIO" toID="E20" toText="REFLUXO AÓRTICO DISCRETO" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E29" fromText="MEDICAÇAO" toID="E30" toText="MANTIDA" Relação_Temporal="OVERLAP" />
+<RELATION id="R14" fromID="T2" fromText="EM 1  MESES" toID="E31" toText="RETONRO" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

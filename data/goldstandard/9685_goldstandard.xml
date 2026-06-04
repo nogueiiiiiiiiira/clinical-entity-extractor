@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 11/03/2015
+
+
+POS ATC.
+QUEIXAS DE DISPNEIA.
+NEGA DOR .
+EM USO CORRETO DA MEDICACAO. 
+SEM OUTRAS QUEIXAS EXCETO DEPRESSAO , MULHR O ABANDONOU HA 6 MESES. REFERE PERDA DE APETITE E FALTA DE SONO.
+ICO.
+ 
+ 
+SOLICITO EXAMES LABORATORIAIS E CATETERISMO DIAGNOSTICO PARA VER OSSTENTS IMPLANTADOS.]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="52~59" text="QUEIXAS" Pre_anotacao="Não" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E1" spans="47~50" text="ATC" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="63~71" text="DISPNEIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="73~77" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E4" spans="78~81" text="DOR" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="102~111" text="MEDICACAO" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="118~132" text="OUTRAS QUEIXAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="140~149" text="DEPRESSAO" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="182~188" text="REFERE" Pre_anotacao="Não" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E9" spans="189~205" text="PERDA DE APETITE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="208~221" text="FALTA DE SONO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="223~226" text="ICO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="241~261" text="EXAMES LABORATORIAIS" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E13" spans="264~287" text="CATETERISMO DIAGNOSTICO" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E14" spans="297~305" text="OSSTENTS" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="170~180" text="HA 6 MESES" Type="Date" Value="2014-09-11" Mod="NA" />
+</TAGS>
+</Annotation_v1>

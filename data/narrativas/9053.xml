@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Dispneia importante aos esforços + dor tipo peso no peito no esforço.
+Obeso, has, icc
+
+c # cintilografia miocardica para avaliar angina.        </TEXT>
+<TAGS>
+<annotation id="7308" tag="Sign or Symptom" start="35" end="38" text="dor" abbr="" />
+<annotation id="7309" tag="Body Location or Region" start="52" end="57" text="peito" abbr="" />
+<annotation id="7310" tag="Sign or Symptom" start="61" end="68" text="esforço" abbr="" />
+<annotation id="7311" tag="Disease or Syndrome" start="70" end="75" text="Obeso" abbr="" />
+<annotation id="7312" tag="Abbreviation|Disease or Syndrome" start="77" end="80" text="has" abbr="" />
+<annotation id="7313" tag="Disease or Syndrome|Abbreviation" start="82" end="85" text="icc" abbr="insuficiência cardíaca congestiva" />
+<annotation id="7314" tag="Sign or Symptom|Disease or Syndrome" start="129" end="135" text="angina" abbr="" />
+<annotation id="7315" tag="Diagnostic Procedure" start="91" end="115" text="cintilografia miocardica" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="7309" annotation2="7308" reltype="associated_with" />
+<rel annotation1="7310" annotation2="7308" reltype="associated_with" />
+<rel annotation1="7315" annotation2="7314" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

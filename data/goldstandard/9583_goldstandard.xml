@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 24/11/2015
+
+
+sem queixas.
+sente-se bem.
+# hoje avaliação exclusiva de mp
+# mp camara-dupla
+# programado em modo ddd
+# bat ok
+# para eri = 2 meses
+# a - imp = 388, sense = 5,0, clv - menor que 1,0 x 0,4
+# v - imp = 395, sense = 11,5, clv = menor que 1,0 x 0,4
+# cd =  retorno como encaixe para avaliar bat - pcte ciente que NÃO PODE DIXAR DE VIR, se intercorrencias = procura direta.
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="47~54" text="queixas" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="77~102" text="avaliação exclusiva de mp" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E2" spans="105~120" text="mp camara-dupla" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="297~304" text="retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="72~76" text="hoje" Type="Date" Value="2015-11-24" Mod="NA" />
+<TIMEX3 id="T1" spans="168~175" text="2 meses" Type="Duration" Value="P2M" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="hoje" toID="E1" toText="avaliação exclusiva de mp" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

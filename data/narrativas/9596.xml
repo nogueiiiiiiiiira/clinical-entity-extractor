@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>PACIENTE COM QUEIXA DE PALPITAÇÃO, RELATA TRÊS CRISES; A PRIMEIRA FOI 1 ANO ATRÁS A ÚLTIMA HÁ DOIS MESES. A ÚLTIMA TEVE DURAÇÃO MAIOR ( DUAS HORAS ) E SINTOMAS MAIS EXACERBADOS ASSOCIADOS ( DISPNEIA, DOR RETROESTERNAL EM APERTO E NÁUSEA ); DISPNEIA AOS MÉDIOS ESFORÇOS, ASSOCIADO A QUEIMAÇÃO NO PESCOÇO.
+HAS EM USO DE ATENOLOL 25 MG (3 VEZES POR DIA ).
+GASTRITE EM USO DE DOMPERIDONA E RANITIDINA.
+EX-TABAGISTA PAROU HÁ 22 ANOS.
+MÃE FALECEU DE IAM.
+ECOCARDIO 04/10/14: DENTRO DOS LIMITES DA NORMALIDADE.
+ECG DE REPOUSO 12/09/14: TAQUICARDIA PAROXÍSTICA SUPRA VENTRICULAR.
+FC: 68 BPM.
+PA: 140/100 MMHG.
+AUSCULTA PULMONAR: MV PRESENTE BILATERALMENTE, SEM RA.
+AUSCULTA CARDÍACA: BCRNF.
+MMII COM EDEMA +/4+.
+SOLICITADO NOVO ECG E RETORNO EM 2 MESES.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="29489" tag="Patient or Disabled Group|Patient or Disabled Group" start="0" end="8" text="PACIENTE" abbr="" />
+<annotation id="29490" tag="Finding" start="177" end="187" text="ASSOCIADOS" abbr="" />
+<annotation id="29491" tag="Sign or Symptom" start="190" end="198" text="DISPNEIA" abbr="" />
+<annotation id="29492" tag="Sign or Symptom" start="230" end="236" text="NÁUSEA" abbr="" />
+<annotation id="29493" tag="Sign or Symptom" start="282" end="291" text="QUEIMAÇÃO" abbr="" />
+<annotation id="29494" tag="Body Part, Organ, or Organ Component" start="295" end="302" text="PESCOÇO" abbr="" />
+<annotation id="29495" tag="Abbreviation|Disease or Syndrome" start="305" end="308" text="HAS" abbr="" />
+<annotation id="29496" tag="Organic Chemical|Pharmacologic Substance" start="319" end="327" text="ATENOLOL" abbr="" />
+<annotation id="29497" tag="Disease or Syndrome" start="355" end="363" text="GASTRITE" abbr="" />
+<annotation id="29498" tag="Organic Chemical|Pharmacologic Substance" start="374" end="385" text="DOMPERIDONA" abbr="" />
+<annotation id="29499" tag="Pharmacologic Substance|Organic Chemical" start="388" end="398" text="RANITIDINA" abbr="" />
+<annotation id="29500" tag="Finding" start="401" end="413" text="EX-TABAGISTA" abbr="" />
+<annotation id="29501" tag="Finding" start="414" end="419" text="PAROU" abbr="" />
+<annotation id="29502" tag="Family Group" start="433" end="436" text="MÃE" abbr="" />
+<annotation id="29503" tag="Finding" start="437" end="444" text="FALECEU" abbr="" />
+<annotation id="29504" tag="Abbreviation|Disease or Syndrome" start="448" end="451" text="IAM" abbr="" />
+<annotation id="29505" tag="Abbreviation|Diagnostic Procedure" start="454" end="463" text="ECOCARDIO" abbr="" />
+<annotation id="29506" tag="Clinical Attribute|Abbreviation" start="579" end="581" text="FC" abbr="frequência cardíaca" />
+<annotation id="29507" tag="Clinical Attribute|Abbreviation" start="592" end="594" text="PA" abbr="pressão arterial" />
+<annotation id="29508" tag="Spatial Concept" start="642" end="656" text="BILATERALMENTE" abbr="" />
+<annotation id="29509" tag="Negation|Negation" start="658" end="661" text="SEM" abbr="" />
+<annotation id="29510" tag="Abbreviation|Sign or Symptom" start="662" end="664" text="RA" abbr="" />
+<annotation id="29511" tag="Abbreviation|Finding" start="686" end="691" text="BCRNF" abbr="" />
+<annotation id="29512" tag="Abbreviation|Abbreviation|Body Part, Organ, or Organ Component" start="694" end="698" text="MMII" abbr="" />
+<annotation id="29513" tag="Pathologic Function|Sign or Symptom" start="703" end="708" text="EDEMA" abbr="" />
+<annotation id="29514" tag="Laboratory or Test Result" start="709" end="713" text="+/4+" abbr="" />
+<annotation id="29515" tag="Health Care Activity" start="716" end="726" text="SOLICITADO" abbr="" />
+<annotation id="29516" tag="Diagnostic Procedure|Abbreviation" start="732" end="735" text="ECG" abbr="ecocardiograma" />
+<annotation id="29517" tag="Sign or Symptom" start="13" end="33" text="QUEIXA DE PALPITAÇÃO" />
+<annotation id="29518" tag="Quantitative Concept" start="42" end="53" text="TRÊS CRISES" />
+<annotation id="29519" tag="Sign or Symptom" start="120" end="133" text="DURAÇÃO MAIOR" />
+<annotation id="29520" tag="Sign or Symptom" start="151" end="176" text="SINTOMAS MAIS EXACERBADOS" />
+<annotation id="29521" tag="Sign or Symptom" start="200" end="217" text="DOR RETROESTERNAL" />
+<annotation id="29522" tag="Qualitative Concept" start="218" end="227" text="EM APERTO" />
+<annotation id="29523" tag="Sign or Symptom" start="240" end="268" text="DISPNEIA AOS MÉDIOS ESFORÇOS" />
+<annotation id="29524" tag="Quantitative Concept" start="328" end="333" text="25 MG" />
+<annotation id="29525" tag="Temporal Concept" start="335" end="350" text="3 VEZES POR DIA" />
+<annotation id="29526" tag="Temporal Concept" start="420" end="430" text="HÁ 22 ANOS" />
+<annotation id="29527" tag="Laboratory or Test Result" start="474" end="507" text="DENTRO DOS LIMITES DA NORMALIDADE" />
+<annotation id="29528" tag="Abbreviation|Diagnostic Procedure" start="510" end="524" text="ECG DE REPOUSO" />
+<annotation id="29529" tag="Laboratory or Test Result" start="535" end="576" text="TAQUICARDIA PAROXÍSTICA SUPRA VENTRICULAR" />
+<annotation id="29530" tag="Quantitative Concept" start="583" end="589" text="68 BPM" />
+<annotation id="29531" tag="Quantitative Concept" start="596" end="608" text="140/100 MMHG" />
+<annotation id="29532" tag="Diagnostic Procedure" start="611" end="628" text="AUSCULTA PULMONAR" />
+<annotation id="29533" tag="Abbreviation|Finding" start="630" end="641" text="MV PRESENTE" />
+<annotation id="29534" tag="Diagnostic Procedure" start="667" end="684" text="AUSCULTA CARDÍACA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="29493" annotation2="29494" reltype="associated_with" />
+<rel annotation1="29496" annotation2="29524" reltype="associated_with" />
+<rel annotation1="29497" annotation2="29498" reltype="associated_with" />
+<rel annotation1="29497" annotation2="29499" reltype="associated_with" />
+<rel annotation1="29500" annotation2="29501" reltype="associated_with" />
+<rel annotation1="29501" annotation2="29526" reltype="associated_with" />
+<rel annotation1="29502" annotation2="29503" reltype="associated_with" />
+<rel annotation1="29503" annotation2="29504" reltype="associated_with" />
+<rel annotation1="29505" annotation2="29527" reltype="associated_with" />
+<rel annotation1="29506" annotation2="29530" reltype="associated_with" />
+<rel annotation1="29507" annotation2="29531" reltype="associated_with" />
+<rel annotation1="29509" annotation2="29510" reltype="negation_of" />
+<rel annotation1="29513" annotation2="29512" reltype="associated_with" />
+<rel annotation1="29514" annotation2="29513" reltype="associated_with" />
+<rel annotation1="29515" annotation2="29516" reltype="associated_with" />
+<rel annotation1="29521" annotation2="29522" reltype="associated_with" />
+<rel annotation1="29532" annotation2="29533" reltype="associated_with" />
+<rel annotation1="29532" annotation2="29510" reltype="associated_with" />
+<rel annotation1="29533" annotation2="29508" reltype="associated_with" />
+<rel annotation1="29534" annotation2="29511" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS, 69 anos.
+
+HMA: paciente relata cansaço, dor precordial quando tosse. Nega dispneia, ortopneia e DNP. Paciente relata apenas um episodio no momento de gripe.
+HAS, ICC, nega DM.
+carvedilol 1 cp 12/12, furosemida 20mg 2 cp de 12/12, sinvastatina 1cp a noite, AAS 100mg apos almoço e Omeprazol 20mg 1 xdia.
+
+HMP: paciente relata 4 angioplastia, ultima em 2012.
+
+CHV: tabagista de mais de maço dia ha 3 anos. etilista de moderado de cerveja.
+
+S # paciente relata cansaço.
+
+O # BEG, orientado, anicterico, afebril.
+Cardiaco: sp, FC: 74bpm. 
+Pulmonar: sp.
+MMII: sem edema e sem empastamento.
+Abdome: flacido, indolor, RHA+.
+
+# C: solicito exames laboratoriais e encaminho para Doutor Vital Brazil.</TEXT>
+<TAGS>
+<annotation id="34073" tag="Abbreviation|Finding" start="19" end="22" text="HMA" abbr="" />
+<annotation id="34074" tag="Patient or Disabled Group|Patient or Disabled Group" start="24" end="32" text="paciente" abbr="" />
+<annotation id="34075" tag="Sign or Symptom" start="40" end="47" text="cansaço" abbr="" />
+<annotation id="34076" tag="Sign or Symptom" start="71" end="76" text="tosse" abbr="" />
+<annotation id="34077" tag="Negation" start="78" end="82" text="Nega" abbr="" />
+<annotation id="34078" tag="Sign or Symptom" start="83" end="91" text="dispneia" abbr="" />
+<annotation id="34079" tag="Sign or Symptom" start="93" end="102" text="ortopneia" abbr="" />
+<annotation id="34080" tag="Sign or Symptom|Abbreviation" start="105" end="108" text="DNP" abbr="dispneia paroxística noturna" />
+<annotation id="34081" tag="Patient or Disabled Group|Patient or Disabled Group" start="110" end="118" text="Paciente" abbr="" />
+<annotation id="34082" tag="Abbreviation|Disease or Syndrome" start="167" end="170" text="HAS" abbr="" />
+<annotation id="34083" tag="Abbreviation|Disease or Syndrome" start="172" end="175" text="ICC" abbr="" />
+<annotation id="34084" tag="Negation" start="177" end="181" text="nega" abbr="" />
+<annotation id="34085" tag="Abbreviation|Disease or Syndrome" start="182" end="184" text="DM" abbr="" />
+<annotation id="34086" tag="Organic Chemical|Pharmacologic Substance" start="187" end="197" text="carvedilol" abbr="" />
+<annotation id="34087" tag="Temporal Concept" start="203" end="208" text="12/12" abbr="" />
+<annotation id="34088" tag="Organic Chemical|Pharmacologic Substance" start="210" end="220" text="furosemida" abbr="" />
+<annotation id="34089" tag="Quantitative Concept" start="221" end="225" text="20mg" abbr="" />
+<annotation id="34090" tag="Temporal Concept" start="234" end="239" text="12/12" abbr="" />
+<annotation id="34091" tag="Pharmacologic Substance|Organic Chemical" start="241" end="253" text="sinvastatina" abbr="" />
+<annotation id="34092" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="267" end="270" text="AAS" abbr="" />
+<annotation id="34093" tag="Quantitative Concept" start="271" end="276" text="100mg" abbr="" />
+<annotation id="34094" tag="Organic Chemical|Pharmacologic Substance" start="291" end="300" text="Omeprazol" abbr="" />
+<annotation id="34095" tag="Quantitative Concept" start="301" end="305" text="20mg" abbr="" />
+<annotation id="34096" tag="Abbreviation|Finding" start="317" end="320" text="HMP" abbr="" />
+<annotation id="34097" tag="Patient or Disabled Group|Patient or Disabled Group" start="322" end="330" text="paciente" abbr="" />
+<annotation id="34098" tag="Therapeutic or Preventive Procedure" start="340" end="352" text="angioplastia" abbr="" />
+<annotation id="34099" tag="Finding|Abbreviation" start="373" end="376" text="CHV" abbr="condições e hábitos de vida" />
+<annotation id="34100" tag="Mental or Behavioral Dysfunction" start="378" end="387" text="tabagista" abbr="" />
+<annotation id="34101" tag="Food" start="443" end="450" text="cerveja" abbr="" />
+<annotation id="34102" tag="Abbreviation|Finding" start="455" end="456" text="S" abbr="" />
+<annotation id="34103" tag="Patient or Disabled Group|Patient or Disabled Group" start="459" end="467" text="paciente" abbr="" />
+<annotation id="34104" tag="Sign or Symptom" start="475" end="482" text="cansaço" abbr="" />
+<annotation id="34105" tag="Health Care Activity|Abbreviation" start="487" end="488" text="O" abbr="" />
+<annotation id="34106" tag="Finding|Abbreviation" start="491" end="494" text="BEG" abbr="bom estado geral" />
+<annotation id="34107" tag="Finding" start="496" end="505" text="orientado" abbr="" />
+<annotation id="34108" tag="Sign or Symptom|Negation" start="507" end="517" text="anicterico" abbr="" />
+<annotation id="34109" tag="Sign or Symptom|Negation" start="519" end="526" text="afebril" abbr="" />
+<annotation id="34110" tag="Body Location or Region" start="529" end="537" text="Cardiaco" abbr="" />
+<annotation id="34111" tag="Finding|Abbreviation" start="539" end="541" text="sp" abbr="sem particularidades" />
+<annotation id="34112" tag="Clinical Attribute|Abbreviation" start="543" end="545" text="FC" abbr="" />
+<annotation id="34113" tag="Quantitative Concept" start="547" end="552" text="74bpm" abbr="" />
+<annotation id="34114" tag="Body Part, Organ, or Organ Component|Body Location or Region" start="556" end="564" text="Pulmonar" abbr="" />
+<annotation id="34115" tag="Finding|Abbreviation" start="566" end="568" text="sp" abbr="sem particularidades" />
+<annotation id="34116" tag="Body Part, Organ, or Organ Component|Abbreviation|Abbreviation" start="571" end="575" text="MMII" abbr="membros inferiores" />
+<annotation id="34117" tag="Negation|Negation" start="577" end="580" text="sem" abbr="" />
+<annotation id="34118" tag="Pathologic Function|Sign or Symptom" start="581" end="586" text="edema" abbr="" />
+<annotation id="34119" tag="Negation|Negation" start="589" end="592" text="sem" abbr="" />
+<annotation id="34120" tag="Sign or Symptom" start="593" end="605" text="empastamento" abbr="" />
+<annotation id="34121" tag="Body Part, Organ, or Organ Component" start="608" end="614" text="Abdome" abbr="" />
+<annotation id="34122" tag="Finding" start="616" end="623" text="flacido" abbr="" />
+<annotation id="34123" tag="Negation|Sign or Symptom" start="625" end="632" text="indolor" abbr="" />
+<annotation id="34124" tag="Finding|Abbreviation" start="634" end="638" text="RHA+" abbr="ruídos hidroaéreos presentes" />
+<annotation id="34125" tag="Intellectual Product" start="645" end="646" text="C" abbr="" />
+<annotation id="34126" tag="Health Care Activity" start="648" end="656" text="solicito" abbr="" />
+<annotation id="34127" tag="Health Care Activity" start="680" end="689" text="encaminho" abbr="" />
+<annotation id="34128" tag="Sign or Symptom" start="49" end="63" text="dor precordial" />
+<annotation id="34129" tag="Quantitative Concept" start="133" end="144" text="um episodio" />
+<annotation id="34130" tag="Temporal Concept" start="145" end="164" text="no momento de gripe" />
+<annotation id="34131" tag="Temporal Concept" start="254" end="265" text="1cp a noite" />
+<annotation id="34132" tag="Temporal Concept" start="277" end="288" text="apos almoço" />
+<annotation id="34133" tag="Quantitative Concept|Temporal Concept" start="306" end="312" text="1 xdia" />
+<annotation id="34134" tag="Quantitative Concept" start="391" end="407" text="mais de maço dia" />
+<annotation id="34135" tag="Laboratory Procedure" start="657" end="677" text="exames laboratoriais" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="34077" annotation2="34078" reltype="negation_of" />
+<rel annotation1="34077" annotation2="34079" reltype="negation_of" />
+<rel annotation1="34077" annotation2="34080" reltype="negation_of" />
+<rel annotation1="34084" annotation2="34085" reltype="negation_of" />
+<rel annotation1="34087" annotation2="34086" reltype="associated_with" />
+<rel annotation1="34089" annotation2="34088" reltype="associated_with" />
+<rel annotation1="34092" annotation2="34132" reltype="associated_with" />
+<rel annotation1="34093" annotation2="34092" reltype="associated_with" />
+<rel annotation1="34095" annotation2="34094" reltype="associated_with" />
+<rel annotation1="34100" annotation2="34134" reltype="associated_with" />
+<rel annotation1="34111" annotation2="34110" reltype="associated_with" />
+<rel annotation1="34112" annotation2="34113" reltype="associated_with" />
+<rel annotation1="34115" annotation2="34114" reltype="associated_with" />
+<rel annotation1="34117" annotation2="34118" reltype="negation_of" />
+<rel annotation1="34119" annotation2="34120" reltype="negation_of" />
+<rel annotation1="34121" annotation2="34124" reltype="associated_with" />
+<rel annotation1="34121" annotation2="34123" reltype="associated_with" />
+<rel annotation1="34121" annotation2="34122" reltype="associated_with" />
+<rel annotation1="34126" annotation2="34135" reltype="associated_with" />
+<rel annotation1="34129" annotation2="34130" reltype="associated_with" />
+<rel annotation1="34133" annotation2="34094" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

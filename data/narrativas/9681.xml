@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS, 18 anos.
+
+# HF -  cardiopatia.
+
+Em uso de : Diclin  (ACO).
+
+HMA: Pcte relata síncope inicio em janeiro mais com o calor.
+pródromos: tontura e sudorese e escurecimento visual.
+Refere exacerbação dos sintomas com nervosismo.
+Duração de segundos há 3 minutos.
+Nega confusão mental ou salivação após.
+Nega uso de medicação.
+Nega outros sintomas.
+Refere que continua apresentando sintomas, com ultimo ha 1 semana, durante atividades domesticas.
+
+Ecocardio 18/02/15: RA 20, AE 26, VD 17, Septo 08, PP 08, VE 39, FE 63%. Exame dentro da normalidade.
+Teste ergometrico: Resposta cardiovascular normal ao esforço fisico, atingiu 11 METS.
+ECG: DCRD.
+
+HF - p cardiopatia.
+
+BEG, hidratada, normocorada, acianotica.
+FC 80, FR 18, PA: 120/70, SAT 98%AA.
+AC bnf em 2t e ss,
+AP mv+ simetrico s ra,
+Abd sp.
+mmii s edema,
+
+Vaso vagal?
+
+A: Aguarda holter.
+Retorno com exames.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="33805" tag="Finding|Abbreviation" start="21" end="23" text="HF" abbr="" />
+<annotation id="33806" tag="Disease or Syndrome" start="27" end="38" text="cardiopatia" abbr="" />
+<annotation id="33807" tag="Pharmacologic Substance|Organic Chemical" start="55" end="61" text="Diclin" abbr="" />
+<annotation id="33808" tag="Abbreviation|Pharmacologic Substance" start="64" end="67" text="ACO" abbr="" />
+<annotation id="33809" tag="Abbreviation|Finding" start="73" end="76" text="HMA" abbr="" />
+<annotation id="33810" tag="Patient or Disabled Group|Abbreviation" start="78" end="82" text="Pcte" abbr="paciente" />
+<annotation id="33811" tag="Sign or Symptom" start="90" end="97" text="síncope" abbr="" />
+<annotation id="33812" tag="Sign or Symptom" start="146" end="153" text="tontura" abbr="" />
+<annotation id="33813" tag="Sign or Symptom" start="156" end="164" text="sudorese" abbr="" />
+<annotation id="33814" tag="Sign or Symptom" start="226" end="236" text="nervosismo" abbr="" />
+<annotation id="33815" tag="Negation" start="274" end="278" text="Nega" abbr="" />
+<annotation id="33816" tag="Sign or Symptom" start="298" end="307" text="salivação" abbr="" />
+<annotation id="33817" tag="Temporal Concept" start="308" end="312" text="após" abbr="" />
+<annotation id="33818" tag="Negation" start="315" end="319" text="Nega" abbr="" />
+<annotation id="33819" tag="Pharmacologic Substance" start="327" end="336" text="medicação" abbr="" />
+<annotation id="33820" tag="Negation" start="339" end="343" text="Nega" abbr="" />
+<annotation id="33821" tag="Sign or Symptom" start="395" end="403" text="sintomas" abbr="" />
+<annotation id="33822" tag="Abbreviation|Diagnostic Procedure" start="463" end="472" text="Ecocardio" abbr="" />
+<annotation id="33823" tag="Diagnostic Procedure|Abbreviation" start="653" end="656" text="ECG" abbr="ecocardiograma" />
+<annotation id="33824" tag="Laboratory or Test Result|Abbreviation" start="658" end="662" text="DCRD" abbr="" />
+<annotation id="33825" tag="Abbreviation" start="667" end="669" text="HF" abbr="" />
+<annotation id="33826" tag="Abbreviation" start="672" end="673" text="p" abbr="" />
+<annotation id="33827" tag="Disease or Syndrome" start="674" end="685" text="cardiopatia" abbr="" />
+<annotation id="33828" tag="Abbreviation|Finding" start="690" end="693" text="BEG" abbr="" />
+<annotation id="33829" tag="Finding" start="695" end="704" text="hidratada" abbr="" />
+<annotation id="33830" tag="Finding" start="706" end="717" text="normocorada" abbr="" />
+<annotation id="33831" tag="Sign or Symptom|Negation" start="719" end="729" text="acianotica" abbr="" />
+<annotation id="33832" tag="Clinical Attribute|Abbreviation" start="732" end="734" text="FC" abbr="frequência cardíaca" />
+<annotation id="33833" tag="Quantitative Concept" start="735" end="737" text="80" abbr="" />
+<annotation id="33834" tag="Abbreviation|Clinical Attribute" start="739" end="741" text="FR" abbr="" />
+<annotation id="33835" tag="Quantitative Concept" start="742" end="744" text="18" abbr="" />
+<annotation id="33836" tag="Abbreviation|Clinical Attribute" start="746" end="748" text="PA" abbr="" />
+<annotation id="33837" tag="Quantitative Concept" start="750" end="756" text="120/70" abbr="" />
+<annotation id="33838" tag="Clinical Attribute" start="758" end="761" text="SAT" abbr="" />
+<annotation id="33839" tag="Quantitative Concept" start="762" end="767" text="98%AA" abbr="" />
+<annotation id="33840" tag="Abbreviation|Diagnostic Procedure" start="770" end="772" text="AC" abbr="" />
+<annotation id="33841" tag="Negation" start="785" end="787" text="ss" abbr="" />
+<annotation id="33842" tag="Abbreviation|Diagnostic Procedure" start="790" end="792" text="AP" abbr="" />
+<annotation id="33843" tag="Abbreviation|Negation" start="807" end="808" text="s" abbr="" />
+<annotation id="33844" tag="Sign or Symptom|Abbreviation" start="809" end="811" text="ra" abbr="ruídos adventícios" />
+<annotation id="33845" tag="Body Part, Organ, or Organ Component|Abbreviation" start="814" end="817" text="Abd" abbr="abdome" />
+<annotation id="33846" tag="Sign or Symptom|Abbreviation|Negation" start="818" end="820" text="sp" abbr="" />
+<annotation id="33847" tag="Body Part, Organ, or Organ Component|Abbreviation" start="823" end="827" text="mmii" abbr="membros inferiores" />
+<annotation id="33848" tag="Abbreviation|Negation" start="828" end="829" text="s" abbr="" />
+<annotation id="33849" tag="Pathologic Function|Sign or Symptom" start="830" end="835" text="edema" abbr="" />
+<annotation id="33850" tag="Abbreviation|Diagnostic Procedure" start="855" end="856" text="A" abbr="" />
+<annotation id="33851" tag="Diagnostic Procedure" start="866" end="872" text="holter" abbr="" />
+<annotation id="33852" tag="Diagnostic Procedure" start="887" end="893" text="exames" abbr="" />
+<annotation id="33853" tag="Sign or Symptom" start="167" end="187" text="escurecimento visual" />
+<annotation id="33854" tag="Sign or Symptom" start="197" end="221" text="exacerbação dos sintomas" />
+<annotation id="33855" tag="Sign or Symptom" start="279" end="294" text="confusão mental" />
+<annotation id="33856" tag="Sign or Symptom" start="344" end="359" text="outros sintomas" />
+<annotation id="33857" tag="Temporal Concept" start="429" end="458" text="durante atividades domesticas" />
+<annotation id="33858" tag="Abbreviation|Laboratory or Test Result" start="483" end="488" text="RA 20" />
+<annotation id="33859" tag="Abbreviation|Laboratory or Test Result" start="490" end="495" text="AE 26" />
+<annotation id="33860" tag="Abbreviation|Laboratory or Test Result" start="497" end="502" text="VD 17" />
+<annotation id="33861" tag="Laboratory or Test Result" start="504" end="512" text="Septo 08" />
+<annotation id="33862" tag="Abbreviation|Laboratory or Test Result" start="514" end="519" text="PP 08" />
+<annotation id="33863" tag="Abbreviation|Laboratory or Test Result" start="521" end="526" text="VE 39" />
+<annotation id="33864" tag="Abbreviation|Laboratory or Test Result" start="528" end="534" text="FE 63%" />
+<annotation id="33865" tag="Finding" start="536" end="563" text="Exame dentro da normalidade" />
+<annotation id="33866" tag="Diagnostic Procedure" start="566" end="583" text="Teste ergometrico" />
+<annotation id="33867" tag="Laboratory or Test Result" start="585" end="633" text="Resposta cardiovascular normal ao esforço fisico" />
+<annotation id="33868" tag="Laboratory or Test Result" start="635" end="650" text="atingiu 11 METS" />
+<annotation id="33869" tag="Finding|Abbreviation" start="773" end="782" text="bnf em 2t" />
+<annotation id="33870" tag="Abbreviation|Finding" start="793" end="806" text="mv+ simetrico" />
+<annotation id="33871" tag="Disease or Syndrome|Sign or Symptom" start="840" end="850" text="Vaso vagal" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33805" annotation2="33806" reltype="associated_with" />
+<rel annotation1="33807" annotation2="33808" reltype="associated_with" />
+<rel annotation1="33810" annotation2="33811" reltype="associated_with" />
+<rel annotation1="33814" annotation2="33854" reltype="associated_with" />
+<rel annotation1="33815" annotation2="33855" reltype="negation_of" />
+<rel annotation1="33815" annotation2="33816" reltype="negation_of" />
+<rel annotation1="33817" annotation2="33816" reltype="associated_with" />
+<rel annotation1="33818" annotation2="33819" reltype="negation_of" />
+<rel annotation1="33820" annotation2="33856" reltype="negation_of" />
+<rel annotation1="33821" annotation2="33857" reltype="associated_with" />
+<rel annotation1="33822" annotation2="33858" reltype="associated_with" />
+<rel annotation1="33822" annotation2="33859" reltype="associated_with" />
+<rel annotation1="33822" annotation2="33860" reltype="associated_with" />
+<rel annotation1="33822" annotation2="33861" reltype="associated_with" />
+<rel annotation1="33822" annotation2="33862" reltype="associated_with" />
+<rel annotation1="33822" annotation2="33863" reltype="associated_with" />
+<rel annotation1="33822" annotation2="33864" reltype="associated_with" />
+<rel annotation1="33822" annotation2="33865" reltype="associated_with" />
+<rel annotation1="33823" annotation2="33824" reltype="associated_with" />
+<rel annotation1="33826" annotation2="33827" reltype="associated_with" />
+<rel annotation1="33832" annotation2="33833" reltype="associated_with" />
+<rel annotation1="33834" annotation2="33835" reltype="associated_with" />
+<rel annotation1="33836" annotation2="33837" reltype="associated_with" />
+<rel annotation1="33840" annotation2="33869" reltype="associated_with" />
+<rel annotation1="33842" annotation2="33870" reltype="associated_with" />
+<rel annotation1="33843" annotation2="33844" reltype="negation_of" />
+<rel annotation1="33845" annotation2="33846" reltype="associated_with" />
+<rel annotation1="33847" annotation2="33849" reltype="associated_with" />
+<rel annotation1="33848" annotation2="33849" reltype="negation_of" />
+<rel annotation1="33866" annotation2="33867" reltype="associated_with" />
+<rel annotation1="33869" annotation2="33841" reltype="associated_with" />
+<rel annotation1="33870" annotation2="33844" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

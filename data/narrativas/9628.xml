@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>HÁ 20 ANOS EM ACOMPANHAMENTO POR CARDIOPATIA ( IAM COM ANGIOPLASTIA ), HÁ 3 ANOS SUBMETIDO A 3 PONTE DE SAFENA ELETIVAMENTE, POR CANSAÇO,DOR NO PEITO DE VARIADAS INTENSIDADES, INCLUSIVE AO REPOUSO.
+ATUALMENTE APRESENTA CANSAÇO QUANDO CAMINHA EM TORNO DE UMA QUADRA, ASSOCIADO A DOR EMPATURRILHA BILATERAL QUE CESSA COM O REPOUSO, COM EDEMA DE MMI, AINDA APRESENTA DOR TORÁCICA DE LEVE INTENSIDADE COM CARACTERISTICAS DIFERENTEDA ANTERIOR. REFERE ENJOO
+EXAMES:
+ECOCARDIOGRAMA 27/09/13
+CONCLUSÃO: HIPERTROFIADE VENTRICULO ESQUERDO,COM DIMENSOESAUMENTADAS E FUNÇÃO SISTOLICA COMPROMETIDA DE GRAU MODERADO, ACINESIA DE PAREDE INFERIOR  E HIPOCINESIANOS DEMAIS SEGMENTOS, ALTERAÇÃO DO RELAXAMENTO VENTRICULAR ESQUERDO.
+REGURGITAÇÃO MITRAL MODERADA, ATRIO ESQUERDO DILATADO.
+LABORATORIO: 
+GLICEMIA: 385MG/DL
+CT: 237
+CREATININA 1,89
+HDL: 32
+TGO: 18
+LDL: 126
+CPK: 149
+K: 4,9
+NA: 136
+TGP: 10
+UREIA: 70
+HEMOGRAMA: SEM ALTERAÇÕES
+KPTT: 51 ( CONTROL 31 )
+TAP: MAIOR QUE 70
+TSH: 4,111
+LABORATORIO 10/05/13
+MICROALBUMINURIA: 9,89
+ TIO CARDIOPATA
+EM USO DE AAS 100MG, LOSARTANA 50MG 2CP PELA MANHA 1 CP A TARDE, ESPIRONOLACTONA 25MG 1 CP PELA MANHA, AMIODARONA 200MG,1/2 CP DIA,  FUROSEMIDA 40MG 1CPPELAMANHA E 1/2CP A TARDE, MAREVAN 5MG 1 CP DOMINGO, SEGUNDA, QUARTA, QUINTA E SABADO E 1 CP E MEIO, TERÇAS E QUINTAS, CONCOR 5MG  1CP DIA)
+HAS DIABETES: INSULINA NÃO LEMBRA DOSE, E OUTRAS MEDICAÇÃO.
+CX: 6 CATETERISMO, 2 ANGIOSPLATIA, 3 PONTE DE SAFENA.
+NEGA ALERGIAS
+NEGA OUTRAS CIRURGAS E INTERNAMENTOS.
+ACOMPANHAMENTO</TEXT>
+<TAGS>
+<annotation id="31122" tag="Health Care Activity|Health Care Activity" start="14" end="28" text="ACOMPANHAMENTO" abbr="" />
+<annotation id="31123" tag="Disease or Syndrome" start="33" end="44" text="CARDIOPATIA" abbr="" />
+<annotation id="31124" tag="Disease or Syndrome|Disease or Syndrome|Abbreviation" start="47" end="50" text="IAM" abbr="infarto agudo do miocárdio" />
+<annotation id="31125" tag="Therapeutic or Preventive Procedure" start="55" end="67" text="ANGIOPLASTIA" abbr="" />
+<annotation id="31126" tag="Health Care Activity" start="81" end="90" text="SUBMETIDO" abbr="" />
+<annotation id="31127" tag="Sign or Symptom" start="129" end="136" text="CANSAÇO" abbr="" />
+<annotation id="31128" tag="Sign or Symptom|Sign or Symptom" start="335" end="340" text="EDEMA" abbr="" />
+<annotation id="31129" tag="Body Part, Organ, or Organ Component|Abbreviation" start="344" end="347" text="MMI" abbr="membros inferiores" />
+<annotation id="31130" tag="Sign or Symptom" start="447" end="452" text="ENJOO" abbr="" />
+<annotation id="31131" tag="Diagnostic Procedure" start="454" end="460" text="EXAMES" abbr="" />
+<annotation id="31132" tag="Diagnostic Procedure" start="463" end="477" text="ECOCARDIOGRAMA" abbr="" />
+<annotation id="31133" tag="Laboratory Procedure" start="775" end="786" text="LABORATORIO" abbr="" />
+<annotation id="31134" tag="Laboratory Procedure" start="911" end="920" text="HEMOGRAMA" abbr="" />
+<annotation id="31135" tag="Negation" start="922" end="925" text="SEM" abbr="" />
+<annotation id="31136" tag="Sign or Symptom" start="926" end="936" text="ALTERAÇÕES" abbr="" />
+<annotation id="31137" tag="Laboratory Procedure" start="994" end="1005" text="LABORATORIO" abbr="" />
+<annotation id="31138" tag="Family Group" start="1041" end="1044" text="TIO" abbr="" />
+<annotation id="31139" tag="Disease or Syndrome" start="1045" end="1055" text="CARDIOPATA" abbr="" />
+<annotation id="31140" tag="Pharmacologic Substance|Pharmacologic Substance|Organic Chemical|Abbreviation" start="1067" end="1070" text="AAS" abbr="ácido acetilsalicílico" />
+<annotation id="31141" tag="Quantitative Concept" start="1071" end="1076" text="100MG" abbr="" />
+<annotation id="31142" tag="Pharmacologic Substance|Organic Chemical" start="1078" end="1087" text="LOSARTANA" abbr="" />
+<annotation id="31143" tag="Quantitative Concept" start="1088" end="1092" text="50MG" abbr="" />
+<annotation id="31144" tag="Abbreviation|Quantitative Concept" start="1093" end="1096" text="2CP" abbr="" />
+<annotation id="31145" tag="Temporal Concept" start="1102" end="1107" text="MANHA" abbr="" />
+<annotation id="31146" tag="Organic Chemical|Pharmacologic Substance" start="1122" end="1137" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="31147" tag="Quantitative Concept" start="1138" end="1142" text="25MG" abbr="" />
+<annotation id="31148" tag="Temporal Concept" start="1153" end="1158" text="MANHA" abbr="" />
+<annotation id="31149" tag="Pharmacologic Substance|Organic Chemical" start="1160" end="1170" text="AMIODARONA" abbr="" />
+<annotation id="31150" tag="Quantitative Concept" start="1171" end="1176" text="200MG" abbr="" />
+<annotation id="31151" tag="Temporal Concept" start="1184" end="1187" text="DIA" abbr="" />
+<annotation id="31152" tag="Organic Chemical|Pharmacologic Substance" start="1190" end="1200" text="FUROSEMIDA" abbr="" />
+<annotation id="31153" tag="Quantitative Concept" start="1201" end="1205" text="40MG" abbr="" />
+<annotation id="31154" tag="Abbreviation|Quantitative Concept" start="1206" end="1218" text="1CPPELAMANHA" abbr="" />
+<annotation id="31155" tag="Quantitative Concept|Abbreviation" start="1221" end="1226" text="1/2CP" abbr="" />
+<annotation id="31156" tag="Pharmacologic Substance|Organic Chemical" start="1236" end="1243" text="MAREVAN" abbr="" />
+<annotation id="31157" tag="Quantitative Concept" start="1244" end="1247" text="5MG" abbr="" />
+<annotation id="31158" tag="Organic Chemical|Pharmacologic Substance" start="1328" end="1334" text="CONCOR" abbr="" />
+<annotation id="31159" tag="Quantitative Concept" start="1335" end="1338" text="5MG" abbr="" />
+<annotation id="31160" tag="Quantitative Concept|Abbreviation" start="1340" end="1343" text="1CP" abbr="um comprimido" />
+<annotation id="31161" tag="Temporal Concept" start="1344" end="1347" text="DIA" abbr="" />
+<annotation id="31162" tag="Disease or Syndrome|Abbreviation|Disease or Syndrome" start="1350" end="1353" text="HAS" abbr="" />
+<annotation id="31163" tag="Disease or Syndrome" start="1354" end="1362" text="DIABETES" abbr="" />
+<annotation id="31164" tag="Pharmacologic Substance|Pharmacologic Substance|Organic Chemical|Hormone" start="1364" end="1372" text="INSULINA" abbr="" />
+<annotation id="31165" tag="Negation" start="1373" end="1376" text="NÃO" abbr="" />
+<annotation id="31166" tag="Pharmacologic Substance" start="1399" end="1408" text="MEDICAÇÃO" abbr="" />
+<annotation id="31167" tag="Abbreviation|Therapeutic or Preventive Procedure" start="1411" end="1413" text="CX" abbr="" />
+<annotation id="31168" tag="Quantitative Concept" start="1415" end="1416" text="6" abbr="" />
+<annotation id="31169" tag="Therapeutic or Preventive Procedure|Therapeutic or Preventive Procedure" start="1417" end="1428" text="CATETERISMO" abbr="" />
+<annotation id="31170" tag="Quantitative Concept" start="1430" end="1431" text="2" abbr="" />
+<annotation id="31171" tag="Therapeutic or Preventive Procedure" start="1432" end="1444" text="ANGIOSPLATIA" abbr="" />
+<annotation id="31172" tag="Quantitative Concept" start="1446" end="1447" text="3" abbr="" />
+<annotation id="31173" tag="Negation" start="1466" end="1470" text="NEGA" abbr="" />
+<annotation id="31174" tag="Pathologic Function" start="1471" end="1479" text="ALERGIAS" abbr="" />
+<annotation id="31175" tag="Negation" start="1481" end="1485" text="NEGA" abbr="" />
+<annotation id="31176" tag="Therapeutic or Preventive Procedure" start="1493" end="1501" text="CIRURGAS" abbr="" />
+<annotation id="31177" tag="Health Care Activity|Therapeutic or Preventive Procedure" start="1504" end="1517" text="INTERNAMENTOS" abbr="" />
+<annotation id="31178" tag="Health Care Activity" start="1520" end="1534" text="ACOMPANHAMENTO" abbr="" />
+<annotation id="31179" tag="Temporal Concept" start="0" end="10" text="HÁ 20 ANOS" />
+<annotation id="31180" tag="Temporal Concept" start="71" end="80" text="HÁ 3 ANOS" />
+<annotation id="31181" tag="Therapeutic or Preventive Procedure" start="95" end="110" text="PONTE DE SAFENA" />
+<annotation id="31182" tag="Sign or Symptom" start="137" end="149" text="DOR NO PEITO" />
+<annotation id="31183" tag="Qualitative Concept" start="153" end="174" text="VARIADAS INTENSIDADES" />
+<annotation id="31184" tag="Sign or Symptom" start="220" end="265" text="CANSAÇO QUANDO CAMINHA EM TORNO DE UMA QUADRA" />
+<annotation id="31185" tag="Body Part, Organ, or Organ Component" start="283" end="305" text="EMPATURRILHA BILATERAL" />
+<annotation id="31186" tag="Sign or Symptom" start="365" end="377" text="DOR TORÁCICA" />
+<annotation id="31187" tag="Qualitative Concept" start="381" end="397" text="LEVE INTENSIDADE" />
+<annotation id="31188" tag="Finding" start="402" end="438" text="CARACTERISTICAS DIFERENTEDA ANTERIOR" />
+<annotation id="31189" tag="Laboratory or Test Result" start="499" end="556" text="HIPERTROFIADE VENTRICULO ESQUERDO , COM DIMENSOESAUMENTADAS" />
+<annotation id="31190" tag="Laboratory or Test Result|Qualitative Concept" start="559" end="605" text="FUNÇÃO SISTOLICA COMPROMETIDA DE GRAU MODERADO" />
+<annotation id="31191" tag="Laboratory or Test Result" start="607" end="669" text="ACINESIA DE PAREDE INFERIOR E HIPOCINESIANOS DEMAIS SEGMENTOS" />
+<annotation id="31192" tag="Laboratory or Test Result" start="671" end="716" text="ALTERAÇÃO DO RELAXAMENTO VENTRICULAR ESQUERDO" />
+<annotation id="31193" tag="Laboratory or Test Result" start="719" end="747" text="REGURGITAÇÃO MITRAL MODERADA" />
+<annotation id="31194" tag="Laboratory or Test Result" start="749" end="772" text="ATRIO ESQUERDO DILATADO" />
+<annotation id="31195" tag="Laboratory or Test Result" start="790" end="808" text="GLICEMIA : 385MG/DL" />
+<annotation id="31196" tag="Abbreviation|Laboratory or Test Result" start="810" end="817" text="CT : 237" />
+<annotation id="31197" tag="Laboratory or Test Result" start="819" end="834" text="CREATININA 1 , 89" />
+<annotation id="31198" tag="Abbreviation|Laboratory or Test Result" start="836" end="843" text="HDL : 32" />
+<annotation id="31199" tag="Abbreviation|Laboratory or Test Result" start="845" end="852" text="TGO : 18" />
+<annotation id="31200" tag="Abbreviation|Laboratory or Test Result" start="854" end="862" text="LDL : 126" />
+<annotation id="31201" tag="Abbreviation|Laboratory or Test Result" start="864" end="872" text="CPK : 149" />
+<annotation id="31202" tag="Abbreviation|Laboratory or Test Result" start="874" end="880" text="K : 4 , 9" />
+<annotation id="31203" tag="Abbreviation|Laboratory or Test Result" start="882" end="889" text="NA : 136" />
+<annotation id="31204" tag="Abbreviation|Laboratory or Test Result" start="891" end="898" text="TGP : 10" />
+<annotation id="31205" tag="Laboratory or Test Result" start="900" end="909" text="UREIA : 70" />
+<annotation id="31206" tag="Abbreviation|Laboratory or Test Result" start="938" end="961" text="KPTT : 51 ( CONTROL 31 )" />
+<annotation id="31207" tag="Abbreviation|Laboratory or Test Result" start="963" end="980" text="TAP : MAIOR QUE 70" />
+<annotation id="31208" tag="Abbreviation|Laboratory or Test Result" start="982" end="992" text="TSH : 4 , 111" />
+<annotation id="31209" tag="Laboratory or Test Result" start="1016" end="1038" text="MICROALBUMINURIA : 9 , 89" />
+<annotation id="31210" tag="Abbreviation|Quantitative Concept" start="1108" end="1112" text="1 CP" />
+<annotation id="31211" tag="Temporal Concept" start="1113" end="1120" text="A TARDE" />
+<annotation id="31212" tag="Abbreviation|Quantitative Concept" start="1143" end="1147" text="1 CP" />
+<annotation id="31213" tag="Abbreviation|Quantitative Concept" start="1177" end="1183" text="1/2 CP" />
+<annotation id="31214" tag="Temporal Concept" start="1227" end="1234" text="A TARDE" />
+<annotation id="31215" tag="Abbreviation|Quantitative Concept" start="1248" end="1252" text="1 CP" />
+<annotation id="31216" tag="Temporal Concept" start="1253" end="1294" text="DOMINGO , SEGUNDA , QUARTA , QUINTA E SABADO" />
+<annotation id="31217" tag="Quantitative Concept|Abbreviation" start="1297" end="1308" text="1 CP E MEIO" />
+<annotation id="31218" tag="Temporal Concept" start="1310" end="1326" text="TERÇAS E QUINTAS" />
+<annotation id="31219" tag="Finding" start="1377" end="1388" text="LEMBRA DOSE" />
+<annotation id="31220" tag="Therapeutic or Preventive Procedure" start="1448" end="1463" text="PONTE DE SAFENA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="31122" annotation2="31123" reltype="associated_with" />
+<rel annotation1="31124" annotation2="31125" reltype="associated_with" />
+<rel annotation1="31126" annotation2="31181" reltype="associated_with" />
+<rel annotation1="31132" annotation2="31192" reltype="associated_with" />
+<rel annotation1="31132" annotation2="31193" reltype="associated_with" />
+<rel annotation1="31132" annotation2="31194" reltype="associated_with" />
+<rel annotation1="31140" annotation2="31141" reltype="associated_with" />
+<rel annotation1="31142" annotation2="31143" reltype="associated_with" />
+<rel annotation1="31146" annotation2="31147" reltype="associated_with" />
+<rel annotation1="31149" annotation2="31150" reltype="associated_with" />
+<rel annotation1="31152" annotation2="31153" reltype="associated_with" />
+<rel annotation1="31152" annotation2="31154" reltype="associated_with" />
+<rel annotation1="31152" annotation2="31155" reltype="associated_with" />
+<rel annotation1="31156" annotation2="31157" reltype="associated_with" />
+<rel annotation1="31158" annotation2="31159" reltype="associated_with" />
+<rel annotation1="31158" annotation2="31160" reltype="associated_with" />
+<rel annotation1="31160" annotation2="31161" reltype="associated_with" />
+<rel annotation1="31167" annotation2="31169" reltype="associated_with" />
+<rel annotation1="31167" annotation2="31171" reltype="associated_with" />
+<rel annotation1="31167" annotation2="31220" reltype="associated_with" />
+<rel annotation1="31173" annotation2="31174" reltype="negation_of" />
+<rel annotation1="31175" annotation2="31176" reltype="negation_of" />
+<rel annotation1="31175" annotation2="31177" reltype="negation_of" />
+<rel annotation1="31179" annotation2="31122" reltype="associated_with" />
+<rel annotation1="31180" annotation2="31126" reltype="associated_with" />
+<rel annotation1="31182" annotation2="31183" reltype="associated_with" />
+<rel annotation1="31186" annotation2="31187" reltype="associated_with" />
+<rel annotation1="31186" annotation2="31188" reltype="associated_with" />
+<rel annotation1="31213" annotation2="31151" reltype="associated_with" />
+<rel annotation1="31215" annotation2="31216" reltype="associated_with" />
+<rel annotation1="31217" annotation2="31218" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

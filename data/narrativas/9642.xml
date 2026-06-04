@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 64 ANOS
+# MCP dilatada - IDIOPÁTICA
+CF III-II OSCILANTE.
+** PROTOCOLO DE TX CARDIACO - INDICE CARDIACO 3,44** 
+CAT 09/06/2014: ausência de coronariopatia obstrutiva crítica
+IC 3,449 pré / 3,602 pós
+RVP em woods 0,217 pré / 0,147 pós
+sintomas oscilantes, piora da dispnéia aos moderados.
+QUEIXA-SE DE TOSSE, SEGUIDA DE DISPNÉIA IMPORTANTER, CIANOSE CENTRAL, E SINCOPE.
+PA 120/80 mmHg
+sem ingurgitamento jugular
+MV+ bilateral sem RA
+RCR 2t SS
+Sem VCM
+Sem edema MMII
+A # TVNS ???
+P # ENCAMINHO PARA TX CARDIACO.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="31931" tag="Abbreviation|Diagnostic Procedure" start="122" end="125" text="CAT" abbr="" />
+<annotation id="31932" tag="Sign or Symptom" start="302" end="311" text="QUEIXA-SE" abbr="" />
+<annotation id="31933" tag="Sign or Symptom" start="315" end="320" text="TOSSE" abbr="" />
+<annotation id="31934" tag="Sign or Symptom" start="333" end="341" text="DISPNÉIA" abbr="" />
+<annotation id="31935" tag="Qualitative Concept" start="342" end="353" text="IMPORTANTER" abbr="" />
+<annotation id="31936" tag="Sign or Symptom" start="374" end="381" text="SINCOPE" abbr="" />
+<annotation id="31937" tag="Abbreviation|Clinical Attribute|Clinical Attribute" start="384" end="386" text="PA" abbr="" />
+<annotation id="31938" tag="Negation|Negation" start="400" end="403" text="sem" abbr="" />
+<annotation id="31939" tag="Abbreviation|Finding" start="428" end="431" text="MV+" abbr="" />
+<annotation id="31940" tag="Spatial Concept" start="432" end="441" text="bilateral" abbr="" />
+<annotation id="31941" tag="Negation|Negation" start="442" end="445" text="sem" abbr="" />
+<annotation id="31942" tag="Abbreviation|Sign or Symptom" start="446" end="448" text="RA" abbr="" />
+<annotation id="31943" tag="Negation|Sign or Symptom" start="457" end="459" text="SS" abbr="" />
+<annotation id="31944" tag="Negation|Negation" start="461" end="464" text="Sem" abbr="" />
+<annotation id="31945" tag="Sign or Symptom|Abbreviation" start="465" end="468" text="VCM" abbr="vísceromegalias" />
+<annotation id="31946" tag="Negation|Negation" start="470" end="473" text="Sem" abbr="" />
+<annotation id="31947" tag="Sign or Symptom|Sign or Symptom" start="474" end="479" text="edema" abbr="" />
+<annotation id="31948" tag="Abbreviation|Body Part, Organ, or Organ Component|Body Location or Region|Abbreviation" start="480" end="484" text="MMII" abbr="membros inferiores" />
+<annotation id="31949" tag="Abbreviation|Disease or Syndrome" start="490" end="494" text="TVNS" abbr="" />
+<annotation id="31950" tag="Health Care Activity" start="504" end="513" text="ENCAMINHO" abbr="" />
+<annotation id="31951" tag="Abbreviation|Disease or Syndrome" start="18" end="64" text="MCP dilatada - IDIOPÁTICA CF III-II OSCILANTE" />
+<annotation id="31952" tag="Abbreviation|Therapeutic or Preventive Procedure" start="83" end="94" text="TX CARDIACO" />
+<annotation id="31953" tag="Laboratory or Test Result" start="97" end="119" text="INDICE CARDIACO 3 , 44**" />
+<annotation id="31954" tag="Laboratory or Test Result" start="138" end="183" text="ausência de coronariopatia obstrutiva crítica" />
+<annotation id="31955" tag="Laboratory or Test Result|Abbreviation" start="185" end="209" text="IC 3 , 449 pré / 3 , 602 pós" />
+<annotation id="31956" tag="Abbreviation|Laboratory or Test Result" start="211" end="223" text="RVP em woods" />
+<annotation id="31957" tag="Laboratory or Test Result" start="224" end="245" text="0 , 217 pré / 0 , 147 pós" />
+<annotation id="31958" tag="Laboratory or Test Result" start="268" end="299" text="piora da dispnéia aos moderados" />
+<annotation id="31959" tag="Sign or Symptom" start="355" end="370" text="CIANOSE CENTRAL" />
+<annotation id="31960" tag="Quantitative Concept" start="387" end="398" text="120/80 mmHg" />
+<annotation id="31961" tag="Sign or Symptom" start="404" end="426" text="ingurgitamento jugular" />
+<annotation id="31962" tag="Abbreviation|Finding|Sign or Symptom" start="450" end="456" text="RCR 2t" />
+<annotation id="31963" tag="Abbreviation|Therapeutic or Preventive Procedure" start="519" end="530" text="TX CARDIACO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="31931" annotation2="31954" reltype="associated_with" />
+<rel annotation1="31931" annotation2="31955" reltype="associated_with" />
+<rel annotation1="31933" annotation2="31934" reltype="associated_with" />
+<rel annotation1="31934" annotation2="31935" reltype="associated_with" />
+<rel annotation1="31937" annotation2="31960" reltype="associated_with" />
+<rel annotation1="31938" annotation2="31961" reltype="negation_of" />
+<rel annotation1="31941" annotation2="31942" reltype="negation_of" />
+<rel annotation1="31944" annotation2="31945" reltype="negation_of" />
+<rel annotation1="31946" annotation2="31947" reltype="negation_of" />
+<rel annotation1="31947" annotation2="31948" reltype="associated_with" />
+<rel annotation1="31950" annotation2="31963" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

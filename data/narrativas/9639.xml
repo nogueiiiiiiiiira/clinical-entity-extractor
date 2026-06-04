@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 62 anos
+# EAo 
+# HAS
+# Uso: Atenol 50 - 1xd. Enalapril 5 - 12/12h.
+# Sem queixas cardiovasculares.
+Ecocardio (13/02/15): AE = 45; SIV = PPVE = 14mm; DDVE = 48; DSVE = 29; FE = 69%. VMi = folhetos espessados, abertura preservada, refluxo discreto, fluxo diastólico com padrão E&lt;A  VAo = cúspides calcificadas, com dupla lesão; Grad max de 54 e medio de 28mmHg. VP = ok; Vtri = folhetos espessados, abertura preservada, insuficiente, PSAP = 39mmHg. VE = hipertrofiado, cavidade, função sistólica e contração preservadas,alt de relaxamento. AD = aumentado.
+Eco (14/04/16) RA: 38 AE: 45  VD: 20 S: 14 PP: 14 VE: 50 / 30 FE: 70% 
+AO: CUSPIDES CALCIFICADAS, COM DUPLA LESAO. GRAD MAX = 43  MEDIO 25.
+INSUF TRICU DISCRETA ( PSAP 39 )
+REFLUXO MITRAL DISCRETO. 
+AO ASC: 41MM
+S. Nega dispneia, dor toracica, sincope. Nega edema de MMII. Refere controle pressorico bom em casa, porem nas consultas sempre apresenta elevação de PA. Sd Jaleco Branco ?)
+BEG, eupneico, acianotico, anicterico
+PA: 170/100 mmHg, P = 99 spm
+MV normodist sem ruidos . 
+RCR, 2T, taquicardico, ss ++/6+,
+crsec / decres, FAO, irradiação para todo o precórdio.
+A # DUPLA LESAO AO ESTENOSE MOD + INSUF DISCRETA
+P # aumento Enalapril 20mg 2x d e inicio HCTZ 25mg / dia . retorno em 1 ano com novo eco
+R4 cardio Doutor Vital Brazil </TEXT>
+<TAGS>
+<annotation id="31788" tag="Abbreviation|Disease or Syndrome" start="18" end="21" text="EAo" abbr="" />
+<annotation id="31789" tag="Abbreviation|Disease or Syndrome|Disease or Syndrome" start="26" end="29" text="HAS" abbr="" />
+<annotation id="31790" tag="Pharmacologic Substance|Organic Chemical" start="38" end="44" text="Atenol" abbr="" />
+<annotation id="31791" tag="Quantitative Concept" start="45" end="47" text="50" abbr="" />
+<annotation id="31792" tag="Quantitative Concept|Abbreviation" start="50" end="53" text="1xd" abbr="" />
+<annotation id="31793" tag="Organic Chemical|Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="55" end="64" text="Enalapril" abbr="" />
+<annotation id="31794" tag="Quantitative Concept" start="65" end="66" text="5" abbr="" />
+<annotation id="31795" tag="Abbreviation|Temporal Concept" start="69" end="75" text="12/12h" abbr="" />
+<annotation id="31796" tag="Negation" start="80" end="83" text="Sem" abbr="" />
+<annotation id="31797" tag="Body System" start="92" end="108" text="cardiovasculares" abbr="" />
+<annotation id="31798" tag="Abbreviation|Diagnostic Procedure" start="111" end="120" text="Ecocardio" abbr="" />
+<annotation id="31799" tag="Diagnostic Procedure|Abbreviation" start="567" end="570" text="Eco" abbr="" />
+<annotation id="31800" tag="Negation|Negation" start="787" end="791" text="Nega" abbr="" />
+<annotation id="31801" tag="Sign or Symptom" start="792" end="800" text="dispneia" abbr="" />
+<annotation id="31802" tag="Sign or Symptom" start="816" end="823" text="sincope" abbr="" />
+<annotation id="31803" tag="Negation" start="825" end="829" text="Nega" abbr="" />
+<annotation id="31804" tag="Sign or Symptom" start="830" end="835" text="edema" abbr="" />
+<annotation id="31805" tag="Abbreviation|Body Location or Region|Abbreviation" start="839" end="843" text="MMII" abbr="" />
+<annotation id="31806" tag="Health Care Activity" start="895" end="904" text="consultas" abbr="" />
+<annotation id="31807" tag="Abbreviation|Finding" start="959" end="962" text="BEG" abbr="" />
+<annotation id="31808" tag="Finding" start="964" end="972" text="eupneico" abbr="" />
+<annotation id="31809" tag="Finding" start="974" end="984" text="acianotico" abbr="" />
+<annotation id="31810" tag="Finding" start="986" end="996" text="anicterico" abbr="" />
+<annotation id="31811" tag="Clinical Attribute|Abbreviation|Clinical Attribute" start="998" end="1000" text="PA" abbr="" />
+<annotation id="31812" tag="Abbreviation|Clinical Attribute" start="1016" end="1017" text="P" abbr="" />
+<annotation id="31813" tag="Negation" start="1041" end="1044" text="sem" abbr="" />
+<annotation id="31814" tag="Sign or Symptom" start="1045" end="1051" text="ruidos" abbr="" />
+<annotation id="31815" tag="Finding|Abbreviation" start="1056" end="1059" text="RCR" abbr="" />
+<annotation id="31816" tag="Abbreviation|Finding" start="1061" end="1063" text="2T" abbr="" />
+<annotation id="31817" tag="Body Location or Region|Abbreviation" start="1106" end="1109" text="FAO" abbr="" />
+<annotation id="31818" tag="Health Care Activity" start="1200" end="1207" text="aumento" abbr="" />
+<annotation id="31819" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="1208" end="1217" text="Enalapril" abbr="" />
+<annotation id="31820" tag="Quantitative Concept" start="1218" end="1222" text="20mg" abbr="" />
+<annotation id="31821" tag="Quantitative Concept" start="1223" end="1225" text="2x" abbr="" />
+<annotation id="31822" tag="Abbreviation|Temporal Concept" start="1226" end="1227" text="d" abbr="" />
+<annotation id="31823" tag="Health Care Activity" start="1230" end="1236" text="inicio" abbr="" />
+<annotation id="31824" tag="Organic Chemical|Pharmacologic Substance|Abbreviation" start="1237" end="1241" text="HCTZ" abbr="" />
+<annotation id="31825" tag="Quantitative Concept" start="1242" end="1246" text="25mg" abbr="" />
+<annotation id="31826" tag="Temporal Concept" start="1249" end="1252" text="dia" abbr="" />
+<annotation id="31827" tag="Health Care Activity" start="1255" end="1262" text="retorno" abbr="" />
+<annotation id="31828" tag="Diagnostic Procedure|Abbreviation" start="1281" end="1284" text="eco" abbr="" />
+<annotation id="31829" tag="Professional or Occupational Group|Abbreviation" start="1286" end="1288" text="R4" abbr="" />
+<annotation id="31830" tag="Professional or Occupational Group" start="1289" end="1295" text="cardio" abbr="" />
+<annotation id="31831" tag="Professional or Occupational Group" start="1296" end="1302" text="Doutor" abbr="" />
+<annotation id="31832" tag="Abbreviation|Laboratory or Test Result" start="133" end="140" text="AE = 45" />
+<annotation id="31833" tag="Abbreviation|Laboratory or Test Result" start="142" end="159" text="SIV = PPVE = 14mm" />
+<annotation id="31834" tag="Abbreviation|Laboratory or Test Result" start="161" end="170" text="DDVE = 48" />
+<annotation id="31835" tag="Abbreviation|Laboratory or Test Result" start="172" end="181" text="DSVE = 29" />
+<annotation id="31836" tag="Abbreviation|Laboratory or Test Result" start="183" end="191" text="FE = 69%" />
+<annotation id="31837" tag="Laboratory or Test Result" start="199" end="257" text="folhetos espessados , abertura preservada , refluxo discreto" />
+<annotation id="31838" tag="Laboratory or Test Result" start="259" end="286" text="fluxo diastólico com padrão" />
+<annotation id="31839" tag="Laboratory or Test Result" start="298" end="336" text="cúspides calcificadas , com dupla lesão" />
+<annotation id="31840" tag="Abbreviation|Laboratory or Test Result" start="338" end="370" text="Grad max de 54 e medio de 28mmHg" />
+<annotation id="31841" tag="Abbreviation|Laboratory or Test Result" start="372" end="379" text="VP = ok" />
+<annotation id="31842" tag="Abbreviation|Laboratory or Test Result" start="381" end="442" text="Vtri = folhetos espessados , abertura preservada , insuficiente" />
+<annotation id="31843" tag="Abbreviation|Laboratory or Test Result" start="444" end="457" text="PSAP = 39mmHg" />
+<annotation id="31844" tag="Abbreviation|Laboratory or Test Result" start="459" end="487" text="VE = hipertrofiado , cavidade" />
+<annotation id="31845" tag="Laboratory or Test Result" start="489" end="529" text="função sistólica e contração preservadas" />
+<annotation id="31846" tag="Abbreviation|Laboratory or Test Result" start="530" end="548" text="alt de relaxamento" />
+<annotation id="31847" tag="Abbreviation|Laboratory or Test Result" start="550" end="564" text="AD = aumentado" />
+<annotation id="31848" tag="Abbreviation|Laboratory or Test Result" start="582" end="588" text="RA : 38" />
+<annotation id="31849" tag="Abbreviation|Laboratory or Test Result" start="589" end="595" text="AE : 45" />
+<annotation id="31850" tag="Abbreviation|Laboratory or Test Result" start="597" end="603" text="VD : 20" />
+<annotation id="31851" tag="Abbreviation|Laboratory or Test Result" start="604" end="609" text="S : 14" />
+<annotation id="31852" tag="Laboratory or Test Result|Abbreviation" start="610" end="616" text="PP : 14" />
+<annotation id="31853" tag="Abbreviation|Laboratory or Test Result" start="617" end="628" text="VE : 50 / 30" />
+<annotation id="31854" tag="Abbreviation|Laboratory or Test Result" start="629" end="636" text="FE : 70%" />
+<annotation id="31855" tag="Abbreviation|Laboratory or Test Result" start="639" end="681" text="AO : CUSPIDES CALCIFICADAS , COM DUPLA LESAO" />
+<annotation id="31856" tag="Abbreviation|Laboratory or Test Result" start="683" end="706" text="GRAD MAX = 43 MEDIO 25" />
+<annotation id="31857" tag="Abbreviation|Laboratory or Test Result" start="709" end="741" text="INSUF TRICU DISCRETA ( PSAP 39 )" />
+<annotation id="31858" tag="Laboratory or Test Result" start="743" end="766" text="REFLUXO MITRAL DISCRETO" />
+<annotation id="31859" tag="Abbreviation|Laboratory or Test Result" start="770" end="785" text="AO ASC : 41MM S" />
+<annotation id="31860" tag="Sign or Symptom" start="802" end="814" text="dor toracica" />
+<annotation id="31861" tag="Finding" start="852" end="883" text="controle pressorico bom em casa" />
+<annotation id="31862" tag="Abbreviation|Finding" start="922" end="936" text="elevação de PA" />
+<annotation id="31863" tag="Abbreviation|Disease or Syndrome" start="938" end="954" text="Sd Jaleco Branco" />
+<annotation id="31864" tag="Quantitative Concept" start="1002" end="1014" text="170/100 mmHg" />
+<annotation id="31865" tag="Quantitative Concept" start="1020" end="1026" text="99 spm" />
+<annotation id="31866" tag="Abbreviation|Finding" start="1028" end="1040" text="MV normodist" />
+<annotation id="31867" tag="Abbreviation|Finding" start="1090" end="1104" text="crsec / decres" />
+<annotation id="31868" tag="Sign or Symptom" start="1111" end="1143" text="irradiação para todo o precórdio" />
+<annotation id="31869" tag="Abbreviation|Finding" start="1150" end="1177" text="DUPLA LESAO AO ESTENOSE MOD" />
+<annotation id="31870" tag="Abbreviation|Finding" start="1180" end="1194" text="INSUF DISCRETA" />
+<annotation id="31871" tag="Temporal Concept" start="1266" end="1271" text="1 ano" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="31790" annotation2="31791" reltype="associated_with" />
+<rel annotation1="31791" annotation2="31792" reltype="associated_with" />
+<rel annotation1="31793" annotation2="31794" reltype="associated_with" />
+<rel annotation1="31794" annotation2="31795" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31832" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31833" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31834" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31835" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31836" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31840" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31841" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31842" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31844" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31845" reltype="associated_with" />
+<rel annotation1="31798" annotation2="31847" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31848" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31849" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31850" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31851" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31852" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31853" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31854" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31856" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31857" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31858" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31855" reltype="associated_with" />
+<rel annotation1="31799" annotation2="31859" reltype="associated_with" />
+<rel annotation1="31800" annotation2="31801" reltype="negation_of" />
+<rel annotation1="31800" annotation2="31860" reltype="negation_of" />
+<rel annotation1="31800" annotation2="31802" reltype="negation_of" />
+<rel annotation1="31803" annotation2="31804" reltype="negation_of" />
+<rel annotation1="31804" annotation2="31805" reltype="associated_with" />
+<rel annotation1="31806" annotation2="31862" reltype="associated_with" />
+<rel annotation1="31811" annotation2="31864" reltype="associated_with" />
+<rel annotation1="31812" annotation2="31865" reltype="associated_with" />
+<rel annotation1="31813" annotation2="31814" reltype="negation_of" />
+<rel annotation1="31815" annotation2="31816" reltype="associated_with" />
+<rel annotation1="31818" annotation2="31819" reltype="associated_with" />
+<rel annotation1="31820" annotation2="31821" reltype="associated_with" />
+<rel annotation1="31821" annotation2="31822" reltype="associated_with" />
+<rel annotation1="31823" annotation2="31824" reltype="associated_with" />
+<rel annotation1="31824" annotation2="31825" reltype="associated_with" />
+<rel annotation1="31825" annotation2="31826" reltype="associated_with" />
+<rel annotation1="31827" annotation2="31871" reltype="associated_with" />
+<rel annotation1="31827" annotation2="31828" reltype="associated_with" />
+<rel annotation1="31829" annotation2="31830" reltype="associated_with" />
+<rel annotation1="31842" annotation2="31843" reltype="associated_with" />
+<rel annotation1="31845" annotation2="31846" reltype="associated_with" />
+<rel annotation1="31866" annotation2="31814" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

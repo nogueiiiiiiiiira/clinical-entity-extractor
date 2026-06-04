@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 02/02/2015
+
+
+PROTESE  VALVAR MI 2012
+USA S MAREVAN   ENL   20 12-12  ATL 50 12-12   ESPIRONOLACTONA  25 MG - D   SVT  20 MG - D 
+SEM QX  CARDIOLOGICAS
+27-01-15    FE   50 EP 25   AE  46  VE  REMODELAMENTO CONCENTRICO  AE  E AD   AUMENTADOS    VD  NL  PROTESE    AO NF  REFLUXO DISCRETO = DUPLA  LESAO MI  COM ESTENOSE E INSUF MODERADAS - INSUF TRI MODERADA  A  IMPORTANTE  = HIPERTENSAO PULMONAR 
+CONTROLE  NO AMB VALVAS E ACO
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="43~61" text="PROTESE  VALVAR MI" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="73~80" text="MAREVAN" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="83~91" text="ENL   20" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="99~105" text="ATL 50" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="114~136" text="ESPIRONOLACTONA  25 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="143~153" text="SVT  20 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="163~180" text="QX  CARDIOLOGICAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="217~246" text="VE  REMODELAMENTO CONCENTRICO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="248~269" text="AE  E AD   AUMENTADOS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="299~315" text="REFLUXO DISCRETO" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="318~365" text="DUPLA  LESAO MI  COM ESTENOSE E INSUF MODERADAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="368~401" text="INSUF TRI MODERADA  A  IMPORTANTE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="405~425" text="HIPERTENSAO PULMONAR" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="427~435" text="CONTROLE" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E16" spans="440~450" text="AMB VALVAS" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E17" spans="453~456" text="ACO" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="62~66" text="2012" Type="Date" Value="2012" Mod="NA" />
+<TIMEX3 id="T1" spans="92~97" text="12-12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T2" spans="106~111" text="12-12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T3" spans="139~140" text="D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="156~157" text="D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="181~189" text="27-01-15" Type="Date" Value="2015-01-27" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="2012" toID="E0" toText="PROTESE  VALVAR MI" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E3" fromText="ENL   20" toID="T1" toText="12-12" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E4" fromText="ATL 50" toID="T2" toText="12-12" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E5" fromText="ESPIRONOLACTONA  25 MG" toID="T3" toText="D" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E6" fromText="SVT  20 MG" toID="T4" toText="D" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="T5" fromText="27-01-15" toID="E9" toText="VE  REMODELAMENTO CONCENTRICO" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="T5" fromText="27-01-15" toID="E10" toText="AE  E AD   AUMENTADOS" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="T5" fromText="27-01-15" toID="E11" toText="REFLUXO DISCRETO" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="T5" fromText="27-01-15" toID="E12" toText="DUPLA  LESAO MI  COM ESTENOSE E INSUF MODERADAS" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="T5" fromText="27-01-15" toID="E13" toText="INSUF TRI MODERADA  A  IMPORTANTE" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="T5" fromText="27-01-15" toID="E14" toText="HIPERTENSAO PULMONAR" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E15" fromText="CONTROLE" toID="E16" toText="AMB VALVAS" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

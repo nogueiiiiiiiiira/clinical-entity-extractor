@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 62 ANOS
+COMORBIDADES:
+# MCP DILATADA / CHAGAS
+# HAS
+# DISLIPIDEMIA
+# MARCA-PASSO HÁ 5 ANOS
+# DAC FAMILIAR
+CHV: EX-TABAGISTA DE 38 MAÇOS-ANO
+HMA: 
+# PACIENTE COM ICC CLASSE FUNCIONAL II RETORNA COM RESULTADO DO CAT SOLICITADO NA ÚLTIMA CONSULTA; RELATA MELHORA DO EDEMA DESDE A ÚLTIMA CONSULTA/ 
+CAT: DO DIA 29/07/2014: PROTOCOLO PRÉ - TRANSPLANTE CARDÍACO REALIZADO COM SUCESSO; RVP WOOD POSITIVA: CANDIDATO ATRANSPLANTE;
+MEDICAMENTOS:
+# ENALAPRIL 10 MG; 1/2 CP DE 12/12 HORAS
+# APRESOLINA 25 MG 1 CP DE 8/8 HORAS
+# MONOCORDL 20 MG 1 CP AS 8 E OUTRO AS 14 HORAS
+# ESPIRONOLACTONA 25 MG 1 CP AO DIA
+#  FUROSEMIDA 40 MG 1 CP AS 8 E OUTRO AS 14 HORAS
+#  CARVEDILOL 25 MG 1 CP DE 12/12 HORAS
+#  SINVASTATINA 20 MG 1 CP A NOITE
+CONDUTA: SOLICITADO INTERNAMENTO COM MONITORIZAÇÃO PARA REALIZAÇÃO DE TRANSPLANTE;
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="28258" tag="Disease or Syndrome" start="16" end="28" text="COMORBIDADES" abbr="" />
+<annotation id="28259" tag="Disease or Syndrome" start="48" end="54" text="CHAGAS" abbr="" />
+<annotation id="28260" tag="Abbreviation|Disease or Syndrome" start="58" end="61" text="HAS" abbr="" />
+<annotation id="28261" tag="Disease or Syndrome" start="65" end="77" text="DISLIPIDEMIA" abbr="" />
+<annotation id="28262" tag="Therapeutic or Preventive Procedure|Medical Device" start="81" end="92" text="MARCA-PASSO" abbr="" />
+<annotation id="28263" tag="Abbreviation|Disease or Syndrome" start="106" end="109" text="DAC" abbr="" />
+<annotation id="28264" tag="Family Group" start="110" end="118" text="FAMILIAR" abbr="" />
+<annotation id="28265" tag="Finding|Abbreviation" start="120" end="123" text="CHV" abbr="" />
+<annotation id="28266" tag="Finding" start="125" end="137" text="EX-TABAGISTA" abbr="" />
+<annotation id="28267" tag="Abbreviation|Finding" start="155" end="158" text="HMA" abbr="" />
+<annotation id="28268" tag="Patient or Disabled Group" start="164" end="172" text="PACIENTE" abbr="" />
+<annotation id="28269" tag="Laboratory or Test Result" start="213" end="222" text="RESULTADO" abbr="" />
+<annotation id="28270" tag="Therapeutic or Preventive Procedure|Abbreviation|Diagnostic Procedure" start="226" end="229" text="CAT" abbr="" />
+<annotation id="28271" tag="Health Care Activity" start="230" end="240" text="SOLICITADO" abbr="" />
+<annotation id="28272" tag="Health Care Activity" start="251" end="259" text="CONSULTA" abbr="" />
+<annotation id="28273" tag="Finding" start="268" end="275" text="MELHORA" abbr="" />
+<annotation id="28274" tag="Pathologic Function|Sign or Symptom" start="279" end="284" text="EDEMA" abbr="" />
+<annotation id="28275" tag="Health Care Activity" start="300" end="309" text="CONSULTA/" abbr="" />
+<annotation id="28276" tag="Diagnostic Procedure|Therapeutic or Preventive Procedure|Abbreviation" start="312" end="315" text="CAT" abbr="cateterismo" />
+<annotation id="28277" tag="Temporal Concept" start="346" end="349" text="PRÉ" abbr="" />
+<annotation id="28278" tag="Health Care Activity" start="373" end="382" text="REALIZADO" abbr="" />
+<annotation id="28279" tag="Finding" start="387" end="394" text="SUCESSO" abbr="" />
+<annotation id="28280" tag="Pharmacologic Substance" start="440" end="452" text="MEDICAMENTOS" abbr="" />
+<annotation id="28281" tag="Pharmacologic Substance" start="457" end="466" text="ENALAPRIL" abbr="" />
+<annotation id="28282" tag="Pharmacologic Substance" start="499" end="509" text="APRESOLINA" abbr="" />
+<annotation id="28283" tag="Pharmacologic Substance" start="537" end="546" text="MONOCORDL" abbr="" />
+<annotation id="28284" tag="Pharmacologic Substance" start="586" end="601" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="28285" tag="Pharmacologic Substance" start="624" end="634" text="FUROSEMIDA" abbr="" />
+<annotation id="28286" tag="Pharmacologic Substance" start="675" end="685" text="CARVEDILOL" abbr="" />
+<annotation id="28287" tag="Pharmacologic Substance" start="716" end="728" text="SINVASTATINA" abbr="" />
+<annotation id="28288" tag="Health Care Activity" start="749" end="756" text="CONDUTA" abbr="" />
+<annotation id="28289" tag="Health Care Activity" start="758" end="768" text="SOLICITADO" abbr="" />
+<annotation id="28290" tag="Health Care Activity" start="769" end="781" text="INTERNAMENTO" abbr="" />
+<annotation id="28291" tag="Diagnostic Procedure" start="786" end="799" text="MONITORIZAÇÃO" abbr="" />
+<annotation id="28292" tag="Abbreviation|Disease or Syndrome" start="33" end="45" text="MCP DILATADA" />
+<annotation id="28293" tag="Quantitative Concept" start="141" end="153" text="38 MAÇOS-ANO" />
+<annotation id="28294" tag="Abbreviation|Disease or Syndrome" start="177" end="200" text="ICC CLASSE FUNCIONAL II" />
+<annotation id="28295" tag="Therapeutic or Preventive Procedure" start="352" end="372" text="TRANSPLANTE CARDÍACO" />
+<annotation id="28296" tag="Abbreviation" start="396" end="413" text="RVP WOOD POSITIVA" />
+<annotation id="28297" tag="Quantitative Concept" start="467" end="472" text="10 MG" />
+<annotation id="28298" tag="Abbreviation|Quantitative Concept" start="474" end="480" text="1/2 CP" />
+<annotation id="28299" tag="Temporal Concept" start="484" end="495" text="12/12 HORAS" />
+<annotation id="28300" tag="Quantitative Concept" start="510" end="515" text="25 MG" />
+<annotation id="28301" tag="Quantitative Concept|Abbreviation" start="516" end="520" text="1 CP" />
+<annotation id="28302" tag="Quantitative Concept|Temporal Concept" start="524" end="533" text="8/8 HORAS" />
+<annotation id="28303" tag="Quantitative Concept" start="547" end="552" text="20 MG" />
+<annotation id="28304" tag="Abbreviation|Quantitative Concept" start="553" end="557" text="1 CP" />
+<annotation id="28305" tag="Quantitative Concept" start="602" end="607" text="25 MG" />
+<annotation id="28306" tag="Abbreviation|Quantitative Concept" start="608" end="612" text="1 CP" />
+<annotation id="28307" tag="Quantitative Concept" start="613" end="619" text="AO DIA" />
+<annotation id="28308" tag="Quantitative Concept" start="635" end="640" text="40 MG" />
+<annotation id="28309" tag="Quantitative Concept" start="641" end="645" text="1 CP" />
+<annotation id="28310" tag="Quantitative Concept" start="686" end="691" text="25 MG" />
+<annotation id="28311" tag="Abbreviation|Quantitative Concept" start="692" end="696" text="1 CP" />
+<annotation id="28312" tag="Temporal Concept" start="700" end="711" text="12/12 HORAS" />
+<annotation id="28313" tag="Quantitative Concept" start="729" end="734" text="20 MG" />
+<annotation id="28314" tag="Abbreviation|Quantitative Concept" start="735" end="739" text="1 CP" />
+<annotation id="28315" tag="Temporal Concept" start="740" end="747" text="A NOITE" />
+<annotation id="28316" tag="Therapeutic or Preventive Procedure" start="805" end="830" text="REALIZAÇÃO DE TRANSPLANTE" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28263" annotation2="28264" reltype="associated_with" />
+<rel annotation1="28266" annotation2="28293" reltype="associated_with" />
+<rel annotation1="28269" annotation2="28270" reltype="associated_with" />
+<rel annotation1="28271" annotation2="28270" reltype="associated_with" />
+<rel annotation1="28271" annotation2="28272" reltype="associated_with" />
+<rel annotation1="28273" annotation2="28274" reltype="associated_with" />
+<rel annotation1="28277" annotation2="28295" reltype="associated_with" />
+<rel annotation1="28278" annotation2="28279" reltype="associated_with" />
+<rel annotation1="28279" annotation2="28295" reltype="associated_with" />
+<rel annotation1="28281" annotation2="28298" reltype="associated_with" />
+<rel annotation1="28281" annotation2="28299" reltype="associated_with" />
+<rel annotation1="28281" annotation2="28297" reltype="associated_with" />
+<rel annotation1="28282" annotation2="28300" reltype="associated_with" />
+<rel annotation1="28282" annotation2="28301" reltype="associated_with" />
+<rel annotation1="28282" annotation2="28302" reltype="associated_with" />
+<rel annotation1="28283" annotation2="28303" reltype="associated_with" />
+<rel annotation1="28283" annotation2="28304" reltype="associated_with" />
+<rel annotation1="28284" annotation2="28305" reltype="associated_with" />
+<rel annotation1="28285" annotation2="28308" reltype="associated_with" />
+<rel annotation1="28285" annotation2="28309" reltype="associated_with" />
+<rel annotation1="28286" annotation2="28310" reltype="associated_with" />
+<rel annotation1="28286" annotation2="28311" reltype="associated_with" />
+<rel annotation1="28286" annotation2="28312" reltype="associated_with" />
+<rel annotation1="28287" annotation2="28313" reltype="associated_with" />
+<rel annotation1="28287" annotation2="28314" reltype="associated_with" />
+<rel annotation1="28287" annotation2="28315" reltype="associated_with" />
+<rel annotation1="28288" annotation2="28289" reltype="associated_with" />
+<rel annotation1="28289" annotation2="28290" reltype="associated_with" />
+<rel annotation1="28289" annotation2="28291" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

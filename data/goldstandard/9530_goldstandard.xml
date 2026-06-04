@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 15/07/2016
+
+
+# 2 CX DE TROCA DE MITRAL + ATRIOSEPTOPLASTIA (2006)
+# FA PERMANENTE 
+# 23/09/14:  PROTESE METALICA EM POSIÇÃO MITRAL NORMOFUNCIONANTE. VE APRESENTA DIMENSÕES NORMAIS COM FUNÇÃO SISTOLICA
+PRESERVADA. VENTRICULO DIREITO APRESENTA DIMENSÕES AUMENTADAS E FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE.
+REGURGITAÇÃO TRICUSPIDE DISCRETA. PSAP ESTIMADA EM 45MMHG. ATRIO ESQUERDO E DIREITO DILATADOS. 
+# MEDICAMENTOS EM USO:
+WARFARIM 5MG
+SELOKEN 100MG 12/12H
+PENICILINA BENZATINA 21/21 DIAS 
+# PACIENTE NEGA DISPNEIA OU DOR, REFERE PALPITAÇÕES EVENTUAIS.
+SEM OUTRAS QUEIXAS NO PERIODO 
+# AO EXAME :
+BEG, CORADA, HIDRATADA, LOTE, EUPNÉICA.
+MV + SEM RA. RITMO CARDÍACO IRREGULAR,
+ACV : BULHAS NORMOFONÉTICAS, PRESENÇA DE ESTALIDO METÁLICO.
+FC 71
+PA 100/70
+FC : 97 
+CONDUTA : 
+- retornoem 1 ano com edocardio
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="45~68" text="2 CX DE TROCA DE MITRAL" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="71~88" text="ATRIOSEPTOPLASTIA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="98~111" text="FA PERMANENTE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="295~338" text="FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="272~292" text="DIMENSÕES AUMENTADAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="340~372" text="REGURGITAÇÃO TRICUSPIDE DISCRETA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="399~433" text="ATRIO ESQUERDO E DIREITO DILATADOS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="438~450" text="MEDICAMENTOS" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="459~471" text="WARFARIM 5MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="472~485" text="SELOKEN 100MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="493~513" text="PENICILINA BENZATINA" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="537~541" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E13" spans="542~550" text="DISPNEIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="554~557" text="DOR" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="559~565" text="REFERE" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E16" spans="566~577" text="PALPITAÇÕES" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="593~607" text="OUTRAS QUEIXAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="625~630" text="EXAME" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E19" spans="682~684" text="RA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E20" spans="686~710" text="RITMO CARDÍACO IRREGULAR" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E21" spans="753~770" text="ESTALIDO METÁLICO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E22" spans="772~774" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E23" spans="778~780" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E24" spans="788~790" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E26" spans="830~839" text="edocardio" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E2" spans="810~819" text="retornoem" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="90~94" text="2006" Type="Date" Value="2006" Mod="NA" />
+<TIMEX3 id="T1" spans="115~123" text="23/09/14" Type="Date" Value="2014-09-23" Mod="NA" />
+<TIMEX3 id="T2" spans="486~492" text="12/12H" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T3" spans="514~524" text="21/21 DIAS" Type="Set" Value="P21D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="820~825" text="1 ano" Type="Date" Value="2017-07-15" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="2006" toID="E1" toText="ATRIOSEPTOPLASTIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="T1" fromText="23/09/14" toID="E7" toText="ATRIO ESQUERDO E DIREITO DILATADOS" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="T1" fromText="23/09/14" toID="E6" toText="REGURGITAÇÃO TRICUSPIDE DISCRETA" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="T1" fromText="23/09/14" toID="E5" toText="DIMENSÕES AUMENTADAS" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="T1" fromText="23/09/14" toID="E4" toText="FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="E10" fromText="SELOKEN 100MG" toID="T2" toText="12/12H" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E11" fromText="PENICILINA BENZATINA" toID="T3" toText="21/21 DIAS" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="T4" fromText="1 ano" toID="E2" toText="retornoem" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E2" fromText="retornoem" toID="E26" toText="edocardio" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="T0" fromText="2006" toID="E0" toText="2 CX DE TROCA DE MITRAL" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

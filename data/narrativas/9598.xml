@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 51 anos
+# HAS
+# Ex-tabagista ( parou ha 23 anos) - 2 anos/maço.
+# Acompanha por taquicardia supra - ventricular paroxicistica.
+Subjetivo:
+Paciente relata que segue tendo ainda alguns episódios de palpitações. A sensação de palpitação se localiza em regiçao de epigastro. Ultimamente está com astenia, dispneia quando deambula 1 qua Doutor Vital Brazil pré - cordialgia. Nega dispneia paroxistica noturna. Hábitos fisiológicos preservados. Sono preservado.
+Medicamentos em uso: Atenolol 25 mg 2cp de 12/12h.
+HOLTER: arritmia ventricular complexa , com episodio de taquicardia ventricular não sustentada.
+Objetivo:
+BEG, LOC, MUC - acianótica.
+Sem sopro carotideo.
+PA: 140/80,      FC: 72.
+AC; RR, 2t, BNF, sem sopro.
+AP: MVUD, sem ruidos adventicios.
+Ext aquecidas, bem perfundidas, sem edema.
+Impressão:
+TVNS - sintomas esporádicos.
+Conduta:
+Solicito estudo eletrofisiológicos. Aviso paciente da necessidade de parar atenolol 7 dias antes do exame.
+Doutor Vital Brazil </TEXT>
+<TAGS>
+<annotation id="29603" tag="Abbreviation|Abbreviation|Disease or Syndrome|Disease or Syndrome" start="18" end="21" text="HAS" abbr="" />
+<annotation id="29604" tag="Finding" start="25" end="37" text="Ex-tabagista" abbr="" />
+<annotation id="29605" tag="Health Care Activity" start="76" end="85" text="Acompanha" abbr="" />
+<annotation id="29606" tag="Temporal Concept" start="195" end="204" text="episódios" abbr="" />
+<annotation id="29607" tag="Sign or Symptom" start="208" end="219" text="palpitações" abbr="" />
+<annotation id="29608" tag="Sign or Symptom" start="304" end="311" text="astenia" abbr="" />
+<annotation id="29609" tag="Sign or Symptom" start="313" end="321" text="dispneia" abbr="" />
+<annotation id="29610" tag="Professional or Occupational Group" start="344" end="350" text="Doutor" abbr="" />
+<annotation id="29611" tag="Negation|Negation" start="382" end="386" text="Nega" abbr="" />
+<annotation id="29612" tag="Therapeutic or Preventive Procedure|Pharmacologic Substance" start="469" end="481" text="Medicamentos" abbr="" />
+<annotation id="29613" tag="Pharmacologic Substance|Organic Chemical" start="490" end="498" text="Atenolol" abbr="" />
+<annotation id="29614" tag="Diagnostic Procedure" start="521" end="527" text="HOLTER" abbr="" />
+<annotation id="29615" tag="Temporal Concept" start="565" end="573" text="episodio" abbr="" />
+<annotation id="29616" tag="Finding|Abbreviation|Abbreviation|Finding" start="629" end="632" text="BEG" abbr="" />
+<annotation id="29617" tag="Abbreviation|Finding" start="634" end="637" text="LOC" abbr="" />
+<annotation id="29618" tag="Abbreviation|Finding" start="639" end="642" text="MUC" abbr="" />
+<annotation id="29619" tag="Sign or Symptom|Negation" start="645" end="655" text="acianótica" abbr="" />
+<annotation id="29620" tag="Negation|Negation" start="658" end="661" text="Sem" abbr="" />
+<annotation id="29621" tag="Abbreviation|Abbreviation|Clinical Attribute|Clinical Attribute" start="680" end="682" text="PA" abbr="" />
+<annotation id="29622" tag="Quantitative Concept" start="684" end="690" text="140/80" abbr="" />
+<annotation id="29623" tag="Abbreviation|Clinical Attribute|Clinical Attribute|Abbreviation" start="697" end="699" text="FC" abbr="frequência cardíaca" />
+<annotation id="29624" tag="Quantitative Concept" start="701" end="703" text="72" abbr="" />
+<annotation id="29625" tag="Diagnostic Procedure|Diagnostic Procedure|Abbreviation" start="706" end="708" text="AC" abbr="" />
+<annotation id="29626" tag="Finding|Abbreviation" start="710" end="712" text="RR" abbr="ritmo regular" />
+<annotation id="29627" tag="Abbreviation|Finding" start="714" end="716" text="2t" abbr="" />
+<annotation id="29628" tag="Abbreviation|Finding" start="718" end="721" text="BNF" abbr="" />
+<annotation id="29629" tag="Negation|Negation" start="723" end="726" text="sem" abbr="" />
+<annotation id="29630" tag="Sign or Symptom" start="727" end="732" text="sopro" abbr="" />
+<annotation id="29631" tag="Diagnostic Procedure|Abbreviation|Abbreviation|Diagnostic Procedure" start="735" end="737" text="AP" abbr="" />
+<annotation id="29632" tag="Finding|Abbreviation" start="739" end="743" text="MVUD" abbr="murmúrio vesicular universalmente audível" />
+<annotation id="29633" tag="Negation|Negation" start="745" end="748" text="sem" abbr="" />
+<annotation id="29634" tag="Negation|Negation" start="802" end="805" text="sem" abbr="" />
+<annotation id="29635" tag="Sign or Symptom|Sign or Symptom" start="806" end="811" text="edema" abbr="" />
+<annotation id="29636" tag="Disease or Syndrome|Abbreviation" start="826" end="830" text="TVNS" abbr="taquicardia ventricular não sustentada" />
+<annotation id="29637" tag="Health Care Activity|Health Care Activity" start="856" end="863" text="Conduta" abbr="" />
+<annotation id="29638" tag="Health Care Activity" start="866" end="874" text="Solicito" abbr="" />
+<annotation id="29639" tag="Organic Chemical|Pharmacologic Substance" start="941" end="949" text="atenolol" abbr="" />
+<annotation id="29640" tag="Temporal Concept" start="957" end="962" text="antes" abbr="" />
+<annotation id="29641" tag="Diagnostic Procedure" start="966" end="971" text="exame" abbr="" />
+<annotation id="29642" tag="Professional or Occupational Group" start="974" end="980" text="Doutor" abbr="" />
+<annotation id="29643" tag="Temporal Concept" start="40" end="56" text="parou ha 23 anos" />
+<annotation id="29644" tag="Quantitative Concept" start="60" end="71" text="2 anos/maço" />
+<annotation id="29645" tag="Disease or Syndrome" start="90" end="135" text="taquicardia supra - ventricular paroxicistica" />
+<annotation id="29646" tag="Sign or Symptom" start="223" end="245" text="sensação de palpitação" />
+<annotation id="29647" tag="Body Location or Region" start="261" end="281" text="regiçao de epigastro" />
+<annotation id="29648" tag="Abbreviation|Finding" start="329" end="343" text="deambula 1 qua" />
+<annotation id="29649" tag="Sign or Symptom" start="364" end="380" text="pré - cordialgia" />
+<annotation id="29650" tag="Sign or Symptom" start="387" end="415" text="dispneia paroxistica noturna" />
+<annotation id="29651" tag="Finding" start="417" end="449" text="Hábitos fisiológicos preservados" />
+<annotation id="29652" tag="Finding" start="451" end="466" text="Sono preservado" />
+<annotation id="29653" tag="Quantitative Concept" start="499" end="508" text="25 mg 2cp" />
+<annotation id="29654" tag="Disease or Syndrome|Laboratory or Test Result" start="529" end="558" text="arritmia ventricular complexa" />
+<annotation id="29655" tag="Laboratory or Test Result" start="577" end="615" text="taquicardia ventricular não sustentada" />
+<annotation id="29656" tag="Sign or Symptom" start="662" end="677" text="sopro carotideo" />
+<annotation id="29657" tag="Sign or Symptom" start="749" end="767" text="ruidos adventicios" />
+<annotation id="29658" tag="Abbreviation|Finding" start="770" end="783" text="Ext aquecidas" />
+<annotation id="29659" tag="Finding" start="785" end="800" text="bem perfundidas" />
+<annotation id="29660" tag="Sign or Symptom" start="833" end="853" text="sintomas esporádicos" />
+<annotation id="29661" tag="Diagnostic Procedure" start="875" end="900" text="estudo eletrofisiológicos" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="29621" annotation2="29622" reltype="associated_with" />
+<rel annotation1="29623" annotation2="29624" reltype="associated_with" />
+<rel annotation1="29629" annotation2="29630" reltype="negation_of" />
+<rel annotation1="29633" annotation2="29657" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

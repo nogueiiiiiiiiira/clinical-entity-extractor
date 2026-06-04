@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 30/07/2015
+
+
+LUCAS, 61 ANOS
+
+# HAS
+# IC
+# HIPOTIREOIDISMO
+# MIOCARDIOPATIA DILATADA
+# IMPLANTE DE MP + CDI EM NOV/13
+
+EM USO: CARVEDILOL 50 MG 2X/D + MONONITRATO DE ISOSSORBITA 20 MG 2X/D + ANCORON 200 MG 2X/D + ALDACTONE 25 MG /D + FUROSEMIDA 40 MG 2X/D + LOSARTAN 50 MG 2X/D + DIGOXINA 0,25 MG /D + SINVASTATINA 40 MG /D + LEVOTIROXINA 50 MCG /D + RIVOTRIL 2 MG /D + PROCIMAX.
+
+PACIENTE REFERE QUE HÁ 6 MESES VEM APRESENTANDO EPISÓDIOS DE DOR TORÁCICA EM APERTO, COM DURAÇÃO DE 10 A 30 MINUTOS, EM REPOUSO, MAS COM PIORA AOS ESFORÇOS. 
+RELATA AINDA DISPNÉIA / CANSAÇO AOS MODERADOS ESFORÇOS. NEGA ORTOPNEIA OU DPN.
+HÁ 2 MESES NÃO FAZ REVISÃO DO MP.
+
+AO EXAME:
+BEG, EUPNEICA, AFEBRIL.
+AC: RCR 2T BNF SS.
+AP: MV +, SEM RA.
+ABD: FLÁCIDO, INDOLOR.
+MMII: SEM EDEMA, PANTURRILHAS LIVRES.
+
+LAB 29/04/15: TSH 15,  T4L 0,97.
+
+CD: PRESCREVO HIDRALAZINA,
+      SOLICITO ECOTT E ECOSTRESS,
+      ENCAMINHO PARA AVALIAÇÃO DO MP,
+      SOLICITO LAB,
+      AUMENTO PURAN PARA 75 MCG /D,
+      RETORNO EM 3 MESES OU COM RESULTADO DE ECOSTRESS ANTES,
+
+R4 CARDIO XX LUCAS 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="61~64" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="67~69" text="IC" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="72~87" text="HIPOTIREOIDISMO" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="90~113" text="MIOCARDIOPATIA DILATADA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="128~130" text="MP" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="133~136" text="CDI" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="156~172" text="CARVEDILOL 50 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="180~212" text="MONONITRATO DE ISOSSORBITA 20 MG" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="220~234" text="ANCORON 200 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="242~257" text="ALDACTONE 25 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="263~279" text="FUROSEMIDA 40 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="287~301" text="LOSARTAN 50 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="309~325" text="DIGOXINA 0,25 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="331~349" text="SINVASTATINA 40 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="380~393" text="RIVOTRIL 2 MG" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="399~407" text="PROCIMAX" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="419~425" text="REFERE" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E19" spans="547~565" text="PIORA AOS ESFORÇOS" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="568~574" text="RELATA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E21" spans="581~589" text="DISPNÉIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="592~622" text="CANSAÇO AOS MODERADOS ESFORÇOS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="624~628" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E24" spans="629~638" text="ORTOPNEIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="642~645" text="DPN" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="685~690" text="EXAME" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E28" spans="707~714" text="AFEBRIL" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E29" spans="731~733" text="SS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E30" spans="749~751" text="RA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E31" spans="786~791" text="EDEMA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E32" spans="815~818" text="LAB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E33" spans="829~832" text="TSH" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E34" spans="838~841" text="T4L" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E35" spans="863~874" text="HIDRALAZINA" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E36" spans="891~896" text="ECOTT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E37" spans="899~908" text="ECOSTRESS" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E38" spans="916~925" text="ENCAMINHO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E39" spans="931~946" text="AVALIAÇÃO DO MP" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E40" spans="963~966" text="LAB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E41" spans="974~981" text="AUMENTO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E43" spans="1010~1017" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E14" spans="355~374" text="LEVOTIROXINA 50 MCG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E44" spans="471~493" text="DOR TORÁCICA EM APERTO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E18" spans="666~679" text="REVISÃO DO MP" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E26" spans="982~999" text="PURAN PARA 75 MCG" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="140~146" text="NOV/13" Type="Date" Value="2013-11" Mod="NA" />
+<TIMEX3 id="T1" spans="173~177" text="2X/D" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T2" spans="213~217" text="2X/D" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T3" spans="235~239" text="2X/D" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T4" spans="258~260" text="/D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="280~284" text="2X/D" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T6" spans="302~306" text="2X/D" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T7" spans="326~328" text="/D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T8" spans="350~352" text="/D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T9" spans="375~377" text="/D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T10" spans="394~396" text="/D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T11" spans="430~440" text="HÁ 6 MESES" Type="Duration" Value="P6M" Mod="NA" />
+<TIMEX3 id="T12" spans="510~525" text="10 A 30 MINUTOS" Type="Duration" Value="PT20M" Mod="APPROX" />
+<TIMEX3 id="T13" spans="647~657" text="HÁ 2 MESES" Type="Duration" Value="P2M" Mod="NA" />
+<TIMEX3 id="T14" spans="819~827" text="29/04/15" Type="Date" Value="2015-04-29" Mod="NA" />
+<TIMEX3 id="T15" spans="1000~1002" text="/D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T17" spans="1018~1028" text="EM 3 MESES" Type="Date" Value="2015-10-30" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="NOV/13" toID="E4" toText="MP" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="T0" fromText="NOV/13" toID="E5" toText="CDI" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E6" fromText="CARVEDILOL 50 MG" toID="T1" toText="2X/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E7" fromText="MONONITRATO DE ISOSSORBITA 20 MG" toID="T2" toText="2X/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E8" fromText="ANCORON 200 MG" toID="T3" toText="2X/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E9" fromText="ALDACTONE 25 MG" toID="T4" toText="/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E10" fromText="FUROSEMIDA 40 MG" toID="T5" toText="2X/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E11" fromText="LOSARTAN 50 MG" toID="T6" toText="2X/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R8" fromID="E12" fromText="DIGOXINA 0,25 MG" toID="T7" toText="/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R9" fromID="E13" fromText="SINVASTATINA 40 MG" toID="T8" toText="/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R10" fromID="E14" fromText="LEVOTIROXINA 50 MCG" toID="T9" toText="/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R11" fromID="E15" fromText="RIVOTRIL 2 MG" toID="T10" toText="/D" Relação_Temporal="OVERLAP" />
+<RELATION id="R12" fromID="T11" fromText="HÁ 6 MESES" toID="E44" toText="DOR TORÁCICA EM APERTO" Relação_Temporal="OVERLAP" />
+<RELATION id="R13" fromID="E44" fromText="DOR TORÁCICA EM APERTO" toID="T12" toText="10 A 30 MINUTOS" Relação_Temporal="OVERLAP" />
+<RELATION id="R14" fromID="E44" fromText="DOR TORÁCICA EM APERTO" toID="E19" toText="PIORA AOS ESFORÇOS" Relação_Temporal="OVERLAP" />
+<RELATION id="R15" fromID="E21" fromText="DISPNÉIA" toID="E22" toText="CANSAÇO AOS MODERADOS ESFORÇOS" Relação_Temporal="OVERLAP" />
+<RELATION id="R16" fromID="T13" fromText="HÁ 2 MESES" toID="E18" toText="REVISÃO DO MP" Relação_Temporal="OVERLAP" />
+<RELATION id="R17" fromID="E32" fromText="LAB" toID="E34" toText="T4L" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="E32" fromText="LAB" toID="E33" toText="TSH" Relação_Temporal="CONTAINS" />
+<RELATION id="R19" fromID="T14" fromText="29/04/15" toID="E32" toText="LAB" Relação_Temporal="CONTAINS" />
+<RELATION id="R20" fromID="E38" fromText="ENCAMINHO" toID="E39" toText="AVALIAÇÃO DO MP" Relação_Temporal="OVERLAP" />
+<RELATION id="R21" fromID="E43" fromText="RETORNO" toID="E40" toText="LAB" Relação_Temporal="CONTAINS" />
+<RELATION id="R22" fromID="T17" fromText="EM 3 MESES" toID="E43" toText="RETORNO" Relação_Temporal="CONTAINS" />
+<RELATION id="R23" fromID="E43" fromText="RETORNO" toID="E36" toText="ECOTT" Relação_Temporal="CONTAINS" />
+<RELATION id="R24" fromID="E43" fromText="RETORNO" toID="E37" toText="ECOSTRESS" Relação_Temporal="CONTAINS" />
+<RELATION id="R25" fromID="E41" fromText="AUMENTO" toID="E26" toText="PURAN PARA 75 MCG" Relação_Temporal="OVERLAP" />
+<RELATION id="R26" fromID="E26" fromText="PURAN PARA 75 MCG" toID="T15" toText="/D" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

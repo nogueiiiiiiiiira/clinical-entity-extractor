@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 30/04/2015
+
+
+# IAM 2013 + ATC
+# HAS
+#  DM
+#  TBG ATIVA
+
+# ECG FC 50 BS ZEI AS IS AL.
+#  CINTILO: FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR E ANTERO SEPTAL DISCRETA ISQUEMIA ASSOCIADA,
+FE 23-28%.
+# CINTILOGRAFIA 16/01/15: HIPOPERFUSÃO ACENTUADA E PERSISTENTE NO APICE E MEDIO APICAL PAREDE ANTERIOR E ANTERO SEPTAL VE. HIPOCINESIA DIFUSA DAS PAREDES DO VE, ANTERIOR E APICAL. FE 23---28%.
+# TESTE ESFORÇO 16/01/15: AUSENCIA DE MANIFESTAÇÕES ELETROCARDIOGRAFICAS SUJESTIVAS DE ISQUEMIA MIOCARDICA.
+
+EM USO DE: AAS 100MG DIA, CARVEDILOL 25MG DIA, ENALAPRIL 10MG 1/2CP 1X DIA, METFORMINA 850MG 1CP AO DIA, SINVASTATINA 80MG A NOITE.
+
+S: PACIENTE REFERE CONSEGUIR REALIZAR AS ATIVIDADES DIARIAS SEM LIMITAÇÕES, APRESENTANDO APENAS QUADRO DE DISPNEIA AOS GRANDES ESFORÇOS.
+NEGA DISPNEIA PAROXISTICA NOTURNA OU ORTOPNEIA.
+REFERE EPISOIDOS ESPORADICOS DE PALPITAÇÃO, SEM SINTOMAS ASSOCIADOS.
+NEGA DOR TORACICA.
+
+
+EXAME FISICO:
+BEG, HIDRATADA, NORMOCORADA, ACIANOTICA.
+FC 64, PA 130/80, SAT 97%, P: 61KG.
+AFEBRIL,
+ACV: BRNF2T SEM SOPRO AUDIVEL.
+
+P: oTIMIZADO TRATAMENTO COM CARVEDILOL 12,5MG 12/12 H, ENALAPRIL 5 MG 12/12H E INICIADO ESPIRONOLACTONA 25MG DE MANHA.
+SOLICITADO EXAMES LABORATORIAIS DE CONTROLE.
+SOLICITADO ECOCARDIO DE CONTROLE.
+ORIENTADA A CESSAR O TABAGISMO E ENCAMINHADA AO PROGRAMA DE ABANDONO AO TABAGISMO.
+RETORNO COM EXAMES.
+
+R3 CARDIO LUCAS
+Doutor Vital Brazil ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="45~48" text="IAM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="56~59" text="ATC" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="62~65" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="69~71" text="DM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="75~84" text="TBG ATIVA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="88~91" text="ECG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="118~125" text="CINTILO" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="127~197" text="FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR E ANTERO SEPTAL" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="198~215" text="DISCRETA ISQUEMIA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="240~253" text="CINTILOGRAFIA" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="264~359" text="HIPOPERFUSÃO ACENTUADA E PERSISTENTE NO APICE E MEDIO APICAL PAREDE ANTERIOR E ANTERO SEPTAL VE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="361~416" text="HIPOCINESIA DIFUSA DAS PAREDES DO VE, ANTERIOR E APICAL" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="433~446" text="TESTE ESFORÇO" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="518~537" text="ISQUEMIA MIOCARDICA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="551~560" text="AAS 100MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="566~581" text="CARVEDILOL 25MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="587~601" text="ENALAPRIL 10MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="616~632" text="METFORMINA 850MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E18" spans="645~662" text="SINVASTATINA 80MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E19" spans="685~691" text="REFERE" Pre_anotacao="Não" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E20" spans="737~747" text="LIMITAÇÕES" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="779~808" text="DISPNEIA AOS GRANDES ESFORÇOS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="810~814" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E23" spans="815~843" text="DISPNEIA PAROXISTICA NOTURNA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="847~856" text="ORTOPNEIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="858~864" text="REFERE" Pre_anotacao="Não" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E26" spans="865~900" text="EPISOIDOS ESPORADICOS DE PALPITAÇÃO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="906~925" text="SINTOMAS ASSOCIADOS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="932~944" text="DOR TORACICA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="927~931" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E30" spans="948~960" text="EXAME FISICO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E31" spans="1003~1005" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E32" spans="1010~1012" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E33" spans="1021~1024" text="SAT" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E34" spans="1030~1031" text="P" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E35" spans="1039~1046" text="AFEBRIL" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E36" spans="1064~1077" text="SOPRO AUDIVEL" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E37" spans="1083~1092" text="oTIMIZADO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E38" spans="1093~1103" text="TRATAMENTO" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E39" spans="1108~1125" text="CARVEDILOL 12,5MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E40" spans="1135~1149" text="ENALAPRIL 5 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E41" spans="1168~1188" text="ESPIRONOLACTONA 25MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E42" spans="1210~1230" text="EXAMES LABORATORIAIS" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E43" spans="1255~1264" text="ECOCARDIO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E44" spans="1290~1308" text="CESSAR O TABAGISMO" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E45" spans="1311~1322" text="ENCAMINHADA" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E46" spans="1326~1359" text="PROGRAMA DE ABANDONO AO TABAGISMO" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E47" spans="1361~1368" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E48" spans="1373~1379" text="EXAMES" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="49~53" text="2013" Type="Date" Value="2013" Mod="NA" />
+<TIMEX3 id="T1" spans="254~262" text="16/01/15" Type="Date" Value="2015-01-16" Mod="NA" />
+<TIMEX3 id="T2" spans="447~455" text="16/01/15" Type="Date" Value="2015-01-16" Mod="NA" />
+<TIMEX3 id="T3" spans="561~564" text="DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="582~585" text="DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="602~614" text="1/2CP 1X DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="0.5" />
+<TIMEX3 id="T6" spans="633~643" text="1CP AO DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T7" spans="663~670" text="A NOITE" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T8" spans="1126~1133" text="12/12 H" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T9" spans="1150~1156" text="12/12H" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T10" spans="1189~1197" text="DE MANHA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<RELATION id="R0" fromID="E0" fromText="IAM" toID="E1" toText="ATC" Relação_Temporal="BEFORE" />
+<RELATION id="R1" fromID="T0" fromText="2013" toID="E0" toText="IAM" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E6" fromText="CINTILO" toID="E7" toText="FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR E ANTERO SEPTAL" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E6" fromText="CINTILO" toID="E8" toText="DISCRETA ISQUEMIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="T1" fromText="16/01/15" toID="E9" toText="CINTILOGRAFIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="E9" fromText="CINTILOGRAFIA" toID="E10" toText="HIPOPERFUSÃO ACENTUADA E PERSISTENTE NO APICE E MEDIO APICAL PAREDE ANTERIOR E ANTERO SEPTAL VE" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E9" fromText="CINTILOGRAFIA" toID="E11" toText="HIPOCINESIA DIFUSA DAS PAREDES DO VE, ANTERIOR E APICAL" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="T2" fromText="16/01/15" toID="E12" toText="TESTE ESFORÇO" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E12" fromText="TESTE ESFORÇO" toID="E13" toText="ISQUEMIA MIOCARDICA" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E14" fromText="AAS 100MG" toID="T3" toText="DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R10" fromID="E15" fromText="CARVEDILOL 25MG" toID="T4" toText="DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R11" fromID="E16" fromText="ENALAPRIL 10MG" toID="T5" toText="1/2CP 1X DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R12" fromID="E17" fromText="METFORMINA 850MG" toID="T6" toText="1CP AO DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R13" fromID="E18" fromText="SINVASTATINA 80MG" toID="T7" toText="A NOITE" Relação_Temporal="OVERLAP" />
+<RELATION id="R14" fromID="E26" fromText="EPISOIDOS ESPORADICOS DE PALPITAÇÃO" toID="E27" toText="SINTOMAS ASSOCIADOS" Relação_Temporal="OVERLAP" />
+<RELATION id="R15" fromID="E37" fromText="oTIMIZADO" toID="E38" toText="TRATAMENTO" Relação_Temporal="OVERLAP" />
+<RELATION id="R16" fromID="E39" fromText="CARVEDILOL 12,5MG" toID="T8" toText="12/12 H" Relação_Temporal="OVERLAP" />
+<RELATION id="R17" fromID="E40" fromText="ENALAPRIL 5 MG" toID="T9" toText="12/12H" Relação_Temporal="OVERLAP" />
+<RELATION id="R18" fromID="E41" fromText="ESPIRONOLACTONA 25MG" toID="T10" toText="DE MANHA" Relação_Temporal="OVERLAP" />
+<RELATION id="R21" fromID="E48" fromText="EXAMES" toID="E42" toText="EXAMES LABORATORIAIS" Relação_Temporal="CONTAINS" />
+<RELATION id="R22" fromID="E48" fromText="EXAMES" toID="E43" toText="ECOCARDIO" Relação_Temporal="CONTAINS" />
+<RELATION id="R23" fromID="E45" fromText="ENCAMINHADA" toID="E46" toText="PROGRAMA DE ABANDONO AO TABAGISMO" Relação_Temporal="OVERLAP" />
+<RELATION id="R24" fromID="E47" fromText="RETORNO" toID="E48" toText="EXAMES" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

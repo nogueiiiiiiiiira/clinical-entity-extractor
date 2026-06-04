@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 24/03/2016
+
+
+Aparecida 45 anos Natural de Goioere/PR Morou proximo a Cascavel/PR Procedente de Curitiba
+MCP dilatada de etiologia a esclarecer
+TE ALTERADO 2014
+21-5-14 ECOESTRESS NEGATIVO
+21-5-15 FE 35 EP 17 AE 38
+FÇAO SISTOLICA COMPROMETIDA HIPOCINESIA DIFUSA REG MI DISCRETA
+DOR TIPICA AOS ESFORÇOS , AOS ESTADO ANSIOSOS
+CINTILO 14-2-15 T5E POSITIVO POR ALT CLINICO ECG DE ISQUEMIA
+ISQUEMIA PEQUENA EXTENSAO PAREDE INFERIOR VE FE 34-46%
+CATETERISMO CARDIACO (02/06/15): TORTUOSIDADES CORONARIANAS.
+ECO TT (03/03/16): FE 66%, NORMAL
+ECG (30/09/15): RS ADRV
+HDP : Nega patologias previas
+Nega tabagismo
+Nega etilismo
+Nega uso de drogas ilicitas
+HF: PAI, avó e tios cardiopatas
+Medicamentos em uso: Carvedilol, AAS, ENALAPRIL 10 MG 12/12
+AO EXAME : FC 70 BPM PA 120/80 MMHG
+ACV : RCR EM 2T
+AP : MV+ ARA
+PANTURRILHAS LIVRES, SEM EDEMAS
+
+CD : MANTENHO CARVEDILOL E ENALAPRIL. RETORNO EM 01 ANO COM NOVO ECO TT
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="134~146" text="MCP dilatada" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="173~175" text="TE" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="198~208" text="ECOESTRESS" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="244~271" text="FÇAO SISTOLICA COMPROMETIDA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="272~290" text="HIPOCINESIA DIFUSA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="291~306" text="REG MI DISCRETA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="307~330" text="DOR TIPICA AOS ESFORÇOS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="353~360" text="CINTILO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="369~372" text="T5E" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="398~401" text="ECG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="405~413" text="ISQUEMIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="414~455" text="ISQUEMIA PEQUENA EXTENSAO PAREDE INFERIOR" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="469~489" text="CATETERISMO CARDIACO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="502~528" text="TORTUOSIDADES CORONARIANAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="530~536" text="ECO TT" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="564~567" text="ECG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="583~587" text="ADRV" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="594~598" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E18" spans="599~609" text="patologias" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="618~622" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E20" spans="623~632" text="tabagismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E21" spans="633~637" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E22" spans="638~646" text="etilismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E23" spans="647~651" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E25" spans="707~719" text="Medicamentos" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E26" spans="728~738" text="Carvedilol" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E27" spans="740~743" text="AAS" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E28" spans="745~760" text="ENALAPRIL 10 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E29" spans="770~775" text="EXAME" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E30" spans="778~780" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E31" spans="788~790" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E32" spans="828~831" text="ARA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E33" spans="857~863" text="EDEMAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E34" spans="870~878" text="MANTENHO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E35" spans="879~889" text="CARVEDILOL" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E36" spans="892~901" text="ENALAPRIL" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E37" spans="903~910" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E38" spans="930~936" text="ECO TT" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E39" spans="659~674" text="drogas ilicitas" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<TIMEX3 id="T0" spans="185~189" text="2014" Type="Date" Value="2014" Mod="NA" />
+<TIMEX3 id="T1" spans="190~197" text="21-5-14" Type="Date" Value="2014-05-21" Mod="NA" />
+<TIMEX3 id="T2" spans="218~225" text="21-5-15" Type="Date" Value="2015-05-21" Mod="NA" />
+<TIMEX3 id="T3" spans="361~368" text="14-2-15" Type="Date" Value="2015-02-14" Mod="NA" />
+<TIMEX3 id="T4" spans="491~499" text="02/06/15" Type="Date" Value="2015-06-02" Mod="NA" />
+<TIMEX3 id="T5" spans="538~546" text="03/03/16" Type="Date" Value="2016-03-03" Mod="NA" />
+<TIMEX3 id="T6" spans="569~577" text="30/09/15" Type="Date" Value="2015-09-30" Mod="NA" />
+<TIMEX3 id="T7" spans="761~766" text="12/12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T8" spans="911~920" text="EM 01 ANO" Type="Date" Value="2017-03-24" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="2014" toID="E1" toText="TE" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="T1" fromText="21-5-14" toID="E2" toText="ECOESTRESS" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="T2" fromText="21-5-15" toID="E5" toText="REG MI DISCRETA" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="T2" fromText="21-5-15" toID="E3" toText="FÇAO SISTOLICA COMPROMETIDA" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="T2" fromText="21-5-15" toID="E4" toText="HIPOCINESIA DIFUSA" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="T3" fromText="14-2-15" toID="E8" toText="T5E" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="T3" fromText="14-2-15" toID="E7" toText="CINTILO" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="T3" fromText="14-2-15" toID="E9" toText="ECG" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E9" fromText="ECG" toID="E11" toText="ISQUEMIA PEQUENA EXTENSAO PAREDE INFERIOR" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E9" fromText="ECG" toID="E10" toText="ISQUEMIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="T4" fromText="02/06/15" toID="E12" toText="CATETERISMO CARDIACO" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E12" fromText="CATETERISMO CARDIACO" toID="E13" toText="TORTUOSIDADES CORONARIANAS" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="T5" fromText="03/03/16" toID="E14" toText="ECO TT" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="T6" fromText="30/09/15" toID="E15" toText="ECG" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="E15" fromText="ECG" toID="E16" toText="ADRV" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="E28" fromText="ENALAPRIL 10 MG" toID="T7" toText="12/12" Relação_Temporal="OVERLAP" />
+<RELATION id="R16" fromID="E34" fromText="MANTENHO" toID="E36" toText="ENALAPRIL" Relação_Temporal="OVERLAP" />
+<RELATION id="R17" fromID="E34" fromText="MANTENHO" toID="E35" toText="CARVEDILOL" Relação_Temporal="OVERLAP" />
+<RELATION id="R18" fromID="T8" fromText="EM 01 ANO" toID="E37" toText="RETORNO" Relação_Temporal="CONTAINS" />
+<RELATION id="R19" fromID="E37" fromText="RETORNO" toID="E38" toText="ECO TT" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>
