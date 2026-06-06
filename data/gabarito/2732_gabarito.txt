@@ -1,0 +1,5 @@
+Subjetivo 
+ Paciente [PROFISSÃO] [NOME], 60 anos, [PROFISSÃO], apresentou dor abdominal intensa na última hora, segundo relato do acompanhante [NOME], telefone [CONTATO]. Fui notificada pela [PROFISSÃO] [NOME] e realizei avaliação direta do paciente. Há necessidade de intervenção analgésica conforme prescrição médica anterior. Aguardando nova avaliação do [PROFISSÃO] [NOME], CRM [IDs], que está em cirurgia emergencial. 
+ Escore FUGULIN 18.00 - CUIDADOS MODERADOS 
+ Escore MORSE 30.00 - RISCO MODERADO 
+ Elaborado e assinado por [PROFISSÃO] [NOME], Coren [IDs] em [DATA] [HORÁRIO]

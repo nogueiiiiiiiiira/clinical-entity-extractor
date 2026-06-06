@@ -1,0 +1,5 @@
+Subjetivo 
+ O paciente [PROFISSÃO] [NOME], 60 anos, [PROFISSÃO], que está sob monitorização cardíaca contínua, apresentou episódios de taquicardia no início desta manhã. Informo que, até o presente momento, não houve ajuste na terapia medicamentosa. Contato realizado com o [PROFISSÃO] [PROFISSÃO] [NOME] CRM [IDs] às [HORÁRIO], o qual solicita um ECG adicional e informa que passará para avaliação do caso assim que concluir sua ronda atual. Identificador do paciente: [IDs]
+ Escore FUGULIN 20.00 - CUIDADOS DE MODERADA DEPENDÊNCIA
+ Escore MORSE 35.00 - RISCO MODERADO
+ Registrado e assinado por [PROFISSÃO] [NOME], Coren [IDs] em [DATA] [HORÁRIO]

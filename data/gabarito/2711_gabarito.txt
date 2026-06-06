@@ -1,0 +1,33 @@
+Subjetivo 
+ # CARDIOLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 63 anos, [PROFISSÃO]. HC : [IDs] | DIH : [HORÁRIO]. 
+ Paciente reside na [LOCAL]. Telefone de contato : [CONTATO]. Email : [CONTATO]. 
+ HPMA : paciente encaminhado ao serviço de emergência devido a descompensação de insuficiência cardíaca congestiva. 
+ Paciente relata dispneia progressiva, ortopneia e aumento do perímetro abdominal. Já em tratamento ambulatorial para ICC, mas sem resposta satisfatória nos últimos dias. 
+ AP : Cardiopatia isquêmica | FA | Hipotireoidismo controlado. 
+ Alergias : Não relatadas. 
+ MUC : carvedilol | digoxina | furosemida | levo-tiroxina | warfarina. 
+ Dados vitais : 
+ Peso : 88 kg | Altura : 1.75 m 
+ # Evolução : 
+ Paciente dispneico, em uso de O2 por cateter nasal a 2L / min, ortopneico, fala em frases entrecortadas, relata melhora parcial com posição semi-inclinada. 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : paciente pálido, sudoreico, levemente taquidispneico. 
+ AR : crepitações em bases pulmonares, dispneia à mínima movimentação. 
+ ACV : ritmo de galope presente; sopro sistólico audível. 
+ Abdome : distendido; presença de ascite; hepatomegalia 4 cm abaixo do rebordo costal. 
+ MMII : edema +3/4 bilateral. 
+ # Exame cardiológico sumário : 
+ FC : 110 bpm. PA : 90/60 mmHg. 
+ ECG : FA com resposta ventricular rápida. 
+ # Exames complementares : 
+ > Ecocardiograma - com [PROFISSÃO] [NOME] ([DATA]): fração de ejeção diminuída (30%), dilatação das câmaras cardíacas, insuficiência mitral moderada. 
+ Conduta 
+ -Iniciar infusão de dobutamina para suporte inotrópico. 
+ -Ajuste de diuréticos e monitorização do volume urinário. 
+ -Avaliação para possível paracentese terapêutica da ascite. 
+ -Reavaliação da anticoagulação e controle de INR. 
+ -Preparo para avaliação de ressincronizador cardíaco. 
+ [PROFISSÃO] [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

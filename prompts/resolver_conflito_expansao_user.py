@@ -1,1 +1,0 @@
-USER_TEMPLATE = "Abreviação: {abrev}\nOpção 1: {exp1}\nOpção 2: {exp2}\nQual é a correta? (1/2):"

@@ -1,0 +1,24 @@
+Subjetivo 
+ # PNEUMOLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 37 anos, [PROFISSÃO] . HC : [IDs] | DIH : [HORÁRIO] . 
+ HPMA : paciente com asma brônquica, procura atendimento por piora do quadro dispneico . 
+ Referência de aumento da tosse e do uso de beta-2 agonistas nas últimas semanas . História de múltiplas internações por exacerbações . 
+ AP : Asma grave não controlada | Rinite Alérgica . 
+ Alergias : Nenhuma conhecida . 
+ MUC : Salmeterol / Fluticasona | Montelucaste | Prednisona . 
+ Dados adicionais : 
+ Peso : 72 kg | Altura : 1,82 m | Telefone : [CONTATO] | Email : [CONTATO] | Endereço : [LOCAL] . 
+ # Evolução : 
+ Paciente apresenta-se ofegante, com sibilos audíveis a ausculta pulmonar . Relata melhora parcial com beta-2 agonistas de ação curta . PA 130/85 mmHg, FR 22 irpm . 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : paciente ansioso, utilizando musculatura acessória para respirar . 
+ AR : aumento do diâmetro ântero-posterior do tórax, hiperinsuflação pulmonar à inspeção . 
+ ACV : ritmo cardíaco regular, bulhas normofonéticas, sem sopros . 
+ Abdome : sem alterações . 
+ MMII : sem edema ou alterações tróficas . 
+ # Exame pulmonar sumário : 
+ Sibilância bilateral à ausculta, redução de murmúrio vesicular nos campos pulmonares inferiores . 
+ # Exames complementares : 
+ > Espirometria : VEF1 / CVF [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

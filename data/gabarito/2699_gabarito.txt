@@ -1,0 +1,12 @@
+Subjetivo 
+ Paciente [NOME], 58 anos, [PROFISSÃO], EVOLUÇÃO HOSPITALAR - PELA GASTROENTEROLOGIA # 
+ # Seguindo protocolos para manejo de pancreatite aguda, recomendamos : 
+ -Prosseguir com jejum e nutrição parenteral até melhora dos sintomas e enzimas . 
+ -Iniciar antibioticoterapia empírica conforme o protocolo institucional . 
+ -Realizar nova tomografia computadorizada de abdômen para avaliação de complicações . 
+ -Avaliar diariamente os parâmetros hemodinâmicos para detectar sinais de choque . 
+ -Considerar drenagem de coleções necróticas caso seja indicado pelo próximo exame . 
+ -Mobilização progressiva para evitar atrofia muscular e trombose venosa profunda . 
+ -Manter contato com a equipe cirúrgica para avaliação constante da necessidade de intervenção . 
+ Elaborado e assinado pela [PROFISSÃO] [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO] . 
+ Acompanhada pelo filho [NOME], número de telefone [CONTATO] e email [CONTATO], residente na [LOCAL]. Identificador do paciente [IDs]

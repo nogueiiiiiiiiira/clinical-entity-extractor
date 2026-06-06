@@ -1,7 +1,3 @@
-pandas
-openpyxl
-unidecode
-scikit-learn
-rapidfuzz
-requests
-ollama
+requests>=2.31.0
+numpy>=1.24.0
+matplotlib>=3.7.0

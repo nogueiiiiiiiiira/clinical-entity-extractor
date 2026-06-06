@@ -1,1 +1,0 @@
-USER_TEMPLATE = "Abreviação: {abrev}\nExpansão: {expandido}\nCorreta? (1/0):"

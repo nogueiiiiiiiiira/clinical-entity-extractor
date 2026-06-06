@@ -1,0 +1,31 @@
+Subjetivo * * 
+ # ENDOCRINOLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 63 anos, [PROFISSÃO] . HC : [IDs] | DIH : [HORÁRIO] . 
+ HPMA : encaminhado pela endocrinologia ambulatorial da [ORGANIZAÇÃO] devido a controle glicêmico pobre e ulceração plantar infectada . Relata hiperfagia e poliúria . Nega dor no pé afetado . Admissão às [HORÁRIO] do dia [DATA] . 
+ AP : Diabetes Mellitus tipo 2 | Neuropatia diabética | Retinopatia diabética . 
+ Alergias : penicilina e derivados . 
+ MUC : Insulina NPH | Insulina Regular | Metformina | Losartana | AAS . 
+ Segundo informações colhidas : 
+ Peso : 85 kg | Altura : 1.73 m 
+ # Evolução : 
+ Paciente desperto, orientado, mas apático . Refere sede intensa e cansaço crônico . Ulceração no pé esquerdo malcheirosa, com secreção purulenta . 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : obeso, desidratado, turgor de pele diminuído . 
+ AR : sem alterações pulmonares ao exame . 
+ ACV : ritmo cardíaco regular em dois tempos, sem alterações . 
+ Abdome : ausência de sensibilidade à palpação, sem massas ou megalias . 
+ MMII : úlcera neuropática plantar esquerda, com bordas irregulares e necrose central . 
+ # Exame de risco de pé diabético : 
+ Paciente com comprometimento avançado e risco aumentado de amputação . 
+ # Exames complementares : 
+ > Hemoglobina glicada ( HbA1c ) - realizada em [DATA] : 9.5 %, indicativo de controle glicêmico inadequado . 
+ Conduta 
+ -Ajuste no regime de insulina . 
+ -Internação para desbridamento cirúrgico e antibioticoterapia endovenosa . 
+ -Educação diabetológica . 
+ -Acompanhamento multiprofissional para prevenção de futuras complicações . 
+ Telefone para contato em caso de urgências : [CONTATO] 
+ [PROFISSÃO] [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO] 
+ Email do paciente : [CONTATO]

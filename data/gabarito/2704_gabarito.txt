@@ -1,0 +1,9 @@
+Subjetivo 
+ # EVOLUÇÃO PSIQUIÁTRICA - PSIQUIATRIA # 
+ # Orientado pelo [PROFISSÃO] [NOME], [PROFISSÃO], temos as seguintes condutas : 
+ -Paciente [NOME], 29 anos, [PROFISSÃO], aumento da dose de Sertralina para manejo da depressão maior . 
+ -Início de terapia cognitivo-comportamental com [PROFISSÃO] da equipe duas vezes por semana . 
+ -Reforçar a importância da rotina de sono regulada para estabilidade do humor . 
+ -Planejar reavaliação do plano medicamentoso após 4 semanas de ajustes . 
+ -Monitorar possíveis efeitos colaterais dos ajustes medicamentosos e reportar ao contato [CONTATO] e [CONTATO], residência : [LOCAL] . 
+ Elaborado e assinado pela [PROFISSÃO] [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

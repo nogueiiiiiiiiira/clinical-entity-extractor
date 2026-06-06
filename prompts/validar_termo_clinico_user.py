@@ -1,1 +1,0 @@
-USER_TEMPLATE = """O termo "{term}"{contexto} é uma entidade clínica válida (doença, sintoma, exame, medicamento, procedimento)? Responda apenas SIM ou NAO."""

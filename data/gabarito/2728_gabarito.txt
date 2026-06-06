@@ -1,0 +1,5 @@
+Subjetivo 
+ Paciente [PROFISSÃO] [NOME], 58 anos, [PROFISSÃO], se queixa de dor torácica intensa. EM TEMPO: Alertada pela equipe de plantão do [ORGANIZAÇÃO]. Contato imediato com o [PROFISSÃO] [PROFISSÃO] [NOME] (CRM [IDs]) por telefone [CONTATO] às [HORÁRIO]. Informei a situação e o [PROFISSÃO] prometeu chegar em 10 minutos para avaliação. Enquanto isso, administrado protocolo inicial para dor torácica. Identificador do quarto:22A.
+ Escore FUGULIN 18.00 - CUIDADOS DE MÉDIA DEPENDÊNCIA
+ Escore MORSE 30.00 - RISCO MODERADO
+ Elaborado e assinado por [PROFISSÃO] [NOME], Coren [IDs] em [DATA] [HORÁRIO]

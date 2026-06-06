@@ -1,0 +1,35 @@
+Subjetivo 
+ # CARDIOLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 63 anos, [PROFISSÃO], morador de [LOCAL] . HC : [IDs] | DIH : [HORÁRIO] . [CONTATO] . [CONTATO] . 
+ HPMA : paciente encaminhado ao pronto-socorro após episódio de dor torácica súbita em repouso . 
+ Paciente relata dor precordial de início súbito, com irradiação para membro superior esquerdo, acompanhada de sudorese e náuseas . 
+ Nega dispneia ou sincope . Procurou atendimento imediato e chegou ao hospital ainda com sintomas . ECG realizado na chegada 
+ demonstrou elevação do segmento ST . Foi submetido a angioplastia primária . 
+ AP : Ex-fumante | Hipertensão arterial sistêmica | Dislipidemia . 
+ Alergias : Sem alergias conhecidas . 
+ MUC : Enalapril | AAS | Atorvastatina . 
+ Segundo informações colhidas : 
+ Peso : 78 kg | Altura : 1.72 m 
+ # Evolução : 
+ Paciente consciente, relatando melhora substancial da dor . Hemodinamicamente estável, mantido em terapia antiplaquetária e 
+ estatinas conforme protocolo . Sem necessidade de suporte ventilatório ou drogas vasoativas . 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : bom estado geral, corado, anictérico, acianótico . 
+ AR : expansibilidade torácica preservada bilateralmente, sem ruídos adventícios . 
+ ACV : ritmo cardíaco rítmico, bulhas hipofonéticas, sem sopros auscultados . 
+ Abdome : plano, indolor à palpação, sem massas palpáveis . 
+ MMII : pulsos presentes e simétricos, ausência de edema . 
+ # Exame cardiológico sumário : 
+ Paciente orientado no tempo e no espaço . 
+ Exame da região precordial sem alterações à inspeção e palpação . 
+ Escala de dor : 0/10 . 
+ # Exames complementares : 
+ > Ecocardiograma ( [DATA] ): Disfunção de ventrículo esquerdo discreta, FE : 50 % . 
+ Conduta 
+ - Manter em monitorização contínua devido ao risco de arritmias . 
+ - Continuação do tratamento com inibidores da enzima conversora, antiplaquetários e estatinas . 
+ - Avaliação diária pela equipe de cardiologia . 
+ - Agendar teste ergométrico para estratificação de risco antes da alta . 
+ [PROFISSÃO] [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO] .

@@ -1,39 +1,28 @@
-"""Configurações centrais para o pipeline de extração e mapeamento de termos clínicos."""
+"""Configurações globais do pipeline de anonimização."""
 
 class Config:
-    """Armazena todos os parâmetros de configuração, caminhos e credenciais de API."""
+    """Armazena parâmetros de execução, caminhos e configurações do modelo."""
 
     OLLAMA_MODEL = "llama3.1:8b"
+    OLLAMA_API_URL = "http://localhost:11434/api/generate"
     TEMPERATURE = 0.0
-    TOP_P = 0.9
-    MAX_TOKENS = 8192
-    REPEAT_PENALTY = 1.1
+    TOP_P = 0.95
+    MAX_TOKENS = 256
+    REQUEST_TIMEOUT = None
 
     NARRATIVES_FOLDER = "../data/narrativas"
-    GOLDSTANDARD_FOLDER = "../data/goldstandard"
-    OUTPUT_BASE = "../data/output"
-    CSV_INDIVIDUAL_FOLDER = "../data/output/csv_individual"
-    LOGS_FOLDER = "../data/output/logs"
-    DICIONARIOS_FOLDER = "../data/dicionarios"
-    PROMPTS_FOLDER = "../prompts"
+    GABARITOS_FOLDER = "data/gabarito"
+    OUTPUT_BASE = "data/output"
+    CLEAN_TEXTS_FOLDER = "data/output/textos_limpos"
+    LLM_OUTPUT_FOLDER = "data/output/LLM_only"
+    REGEX_OUTPUT_FOLDER = "data/output/REGEX_only"
+    METADATA_FOLDER = "../data/output/metadata"
+    PROMPTS_FOLDER = "../data/prompts"
 
-    RETRIES = 5
-    EXTRA_RETRIES = 3
-    MAX_WORKERS = None
-    FUZZY_THRESHOLD = 65
-    TFIDF_SIMILARITY_THRESHOLD = 0.7
-
-    BIOPORTAL_API_KEY = "09b5677b-aa9d-4e32-b509-bfccfe44c479"
-    BIOPORTAL_URL = "http://data.bioontology.org/search"
-    SNOMED_ONTOLOGY = "SNOMEDCT"
-
-    ICD_CLIENT_ID = "afb2f66b-de75-4d66-8681-34e43d850e7f_2d7236dc-d3fb-4a0c-b82d-1df68052cc34"
-    ICD_CLIENT_SECRET = "mMQOGiELy99d3yU0KcXbM0NGw52zNbExxfdgaIBoMAw="
-    ICD_TOKEN_URL = "https://icdaccessmanagement.who.int/connect/token"
-    ICD_SEARCH_URL = "https://id.who.int/icd/release/11/2024-01/mms/search"
-
-    CACHE_FILE = "api_cache.json"
-    VALIDATION_CACHE_FILE = "validation_cache.json"
-    EXPANSION_CACHE_FILE = "expansion_cache.json"
-    NORM_CACHE_FILE = "norm_cache.json"
-    FP_VALIDATION_CACHE_FILE = "fp_validation_cache.json"
+    ROUNDS_PER_CATEGORY = 6
+    MAX_WORKERS = 3
+    DEBUG = False
+    BREAK_EVERY_N_FILES = 5
+    BREAK_DURATION = 30
+    FILE_PAUSE = 2
+    PROGRESSIVE_BREAK = True

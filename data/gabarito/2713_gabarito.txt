@@ -1,0 +1,30 @@
+Subjetivo 
+ # GASTROENTEROLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 49 anos, [PROFISSÃO]. HC : [IDs] | DIH : [HORÁRIO]. Local de residência : [LOCAL]. Número de contato : [CONTATO]. Email : [CONTATO]. 
+ HPMA : paciente encaminhada com diagnóstico de hepatite autoimune. Queixava-se de fadiga crônica, icterícia e urina escura. 
+ Relata aderência ao tratamento com azatioprina, porém percebeu piora do quadro nas últimas semanas. Exames laboratoriais com enzimas hepáticas elevadas. Indicada internação para manejo intensivo. 
+ AP : Hipotireoidismo, asma brônquica. 
+ Alergias : contraste iodado. 
+ MUC : azatioprina | levotiroxina | budenosida / formoterol. 
+ Segundo informações colhidas : 
+ Peso : 68 kg | Altura : 1,60 m | Identificador do atendimento : [IDs]. 
+ # Evolução : 
+ Paciente consciente e colaborativa, apresenta icterícia e colúria. Refere cansaço fácil. Sinais vitais estáveis. 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : caquética, icterícia + + /4 +, desidratada. 
+ AR : ruídos respiratórios normais, sem sibilos ou estertores. 
+ ACV : ritmo cardíaco regular, sem sopros. 
+ Abdome : hepatomegalia palpável a 2 cm do rebordo costal direito, dor à palpação no hipocôndrio direito, sem ascite. 
+ # Exame hepático sumário : 
+ Hepatomegalia, dor à mobilização, sem outros sinais de insuficiência hepática aguda. 
+ # Exames complementares : 
+ > Biopsia hepática guiada por ultrassonografia - discutida com [PROFISSÃO] [NOME] ([DATA]): padrões sugestivos de hepatite autoimune, com infiltrado linfoplasmocitário. 
+ Conduta 
+ - Continuação da azatioprina com aumento da dose. 
+ - Início de terapia corticosteroide. 
+ - Suplementação com vitamina D e cálcio. 
+ - Monitorização da função hepática a cada 48 horas. 
+ - Consulta com equipe de nutrição para manejo da caquexia. 
+ [PROFISSÃO] [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

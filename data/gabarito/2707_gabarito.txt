@@ -1,0 +1,33 @@
+Subjetivo 
+ # ENDOCRINOLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 50 anos, [PROFISSÃO] . HC : [IDs] | DIH : [HORÁRIO]. 
+ HPMA : homem admitido após apresentar descompensação glicêmica, com glicemias capilares > 300 mg / dL na última semana . 
+ Paciente relata adesão irregular ao tratamento medicamentoso e dietético, aumentou consumo de carboidratos . Polidipsia e poliúria presentes . 
+ AP : DM tipo 2 | HAS . 
+ Alergias : não relata . 
+ MUC : Metformina | Gliclazida | Enalapril | Atorvastatina . 
+ Dados Clínicos : 
+ Peso : 102 kg | Altura : 1.78 m 
+ # Evolução : 
+ Paciente orientado, colaborativo, relata melhora da polidipsia . Sedento, com melhora da poliúria após correção da hiperglicemia . Normotenso . 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : obeso, hidratado, anictérico, acianótico . 
+ AR : ruído vesicular presente, sem adventícios . 
+ ACV : ritmo cardíaco regular, 2 tempos, sem sopros . 
+ Abdome : obeso, flácido, ruídos hidroaéreos normoativos . 
+ MMII : sem sinais de insuficiência venosa, pulsos pediosos presentes e simétricos . 
+ # Exame endocrinológico sumário : 
+ Glicemia capilar ( [DATA] ): 180 mg / dL pós correção com insulina regular . 
+ Hemoglobina glicada ( HbA1c ) pendente . 
+ Avaliação de sensibilidade nos membros inferiores revela diminuição leve em polpas digitais . 
+ # Exames complementares : 
+ > Exames laboratoriais ( [DATA] ): glicemia de jejum 220 mg / dL, triglicerídeos 250 mg / dL, HDL 35 mg / dL. 
+ Conduta 
+ -Ajustar plano alimentar e reforçar a importância da dieta . 
+ -Educação diabetológica e ajuste de terapia medicamentosa . 
+ -Introduzir esquema de insulina basal-bolus . 
+ -Acompanhamento com [PROFISSÃO] e [PROFISSÃO] . 
+ Paciente tem telefone [CONTATO] email [CONTATO] e mora em [LOCAL] . 
+ [PROFISSÃO] [NOME], crm [IDs] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], Crm [IDs] em [DATA] [HORÁRIO]

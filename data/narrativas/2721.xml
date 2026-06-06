@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<record><id>2721</id><text>Subjetivo 
+ # PNEUMOLOGIA - UNIDADE DE INTERNAÇÃO # 
+ # ID : &lt;PATIENT&gt;Clara&lt;/PATIENT/&gt; &lt;PATIENT&gt;Rodrigues&lt;/PATIENT/&gt; &lt;PATIENT&gt;Gonçalves&lt;/PATIENT/&gt;, &lt;AGE&gt;68&lt;/AGE/&gt; anos . HC : &lt;MEDICAL_RECORD&gt;5594876&lt;/MEDICAL_RECORD/&gt; | DIH : 16H20 . 
+ HPMA : paciente com histórico de DPOC, encaminhada ao pronto atendimento do &lt;HOSPITAL&gt;Hospital&lt;/HOSPITAL/&gt; &lt;HOSPITAL&gt;Geral&lt;/HOSPITAL/&gt; &lt;HOSPITAL&gt;São&lt;/HOSPITAL/&gt; &lt;HOSPITAL&gt;Paulo&lt;/HOSPITAL/&gt; por piora do padrão respiratório e aumento da tosse produtiva, com expectoração amarelada, há 5 dias . Nega febre . Relata uso de broncodilatadores sem melhora significativa dos sintomas . Encaminhada ao hospital para avaliação e manejo do surto agudo de DPOC . 
+ AP : DPOC | Hipertensão arterial sistêmica | Osteoporose . 
+ Alergias : alergia a contrastes iodados . 
+ MUC : Salmeterol | Fluticasona | Tiotrópio | Alendronato | Captopril . 
+ Segundo informações colhidas : 
+ Peso : 65 kg | Altura : 1.58 m 
+ # Evolução : 
+ Paciente lúcida, um pouco taquipneica, uso leve de musculatura acessória . Nega dor torácica ou outras queixas novas . Precisa de O2 suplementar para manutenção de saturação . 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : corada, sudoreica, tórax em tonel . 
+ AR : diminuição do murmúrio vesicular bilateral com sibilos difusos . 
+ ACV : ritmo cardíaco regular, bulhas arrítmicas, sem sopros . 
+ Abdome : sem alterações à inspeção e palpação . 
+ MMII : sem edemas, pulsos palpáveis . 
+ # Exame pneumológico detalhado : 
+ Espirometria : evidência de limitação ao fluxo aéreo . 
+ SatO2 : 89 % em ar ambiente, melhora para 93 % com O2 2L / min . 
+ # Exames complementares : 
+ &gt; Radiografia de tórax - ( &lt;DATE&gt;17/10&lt;/DATE/&gt; ): hiperinsuflação pulmonar, sem áreas de consolidação . 
+ Conduta 
+ -Início de antibioticoterapia empírica para trato respiratório inferior . 
+ -Otimização da terapia broncodilatadora com incremento de corticosteroide inalatório . 
+ -Reavaliação da necessidade de oxigenoterapia contínua . 
+ -Planejamento de reabilitação pulmonar no contexto ambulatorial pós-alta . 
+ R2 PNL &lt;DOCTOR&gt;Leticia&lt;/DOCTOR/&gt; 
+ Elaborado e assinado por Dr. &lt;DOCTOR&gt;Leticia&lt;/DOCTOR/&gt; &lt;DOCTOR&gt;Porto&lt;/DOCTOR/&gt; &lt;DOCTOR&gt;Neves&lt;/DOCTOR/&gt;, CRM &lt;IDNUM&gt;345672&lt;/IDNUM/&gt;, contato &lt;EMAIL&gt;leticia.pn@gmail.com&lt;/EMAIL/&gt;, telefone &lt;PHONE&gt;(11)&lt;/PHONE/&gt; &lt;PHONE&gt;99876-5432&lt;/PHONE/&gt; em &lt;DATE&gt;17/10/2024&lt;/DATE/&gt; 12:20 . Paciente está sob acompanhamento domiciliar, residente em &lt;CITY&gt;Santo&lt;/CITY/&gt; &lt;CITY&gt;Amaro&lt;/CITY/&gt; .</text><synthetic>True</synthetic><labels><label><category>NAME</category><first_position>70</first_position><last_position>75</last_position><subcategory>PATIENT</subcategory><word>Clara</word></label><label><category>NAME</category><first_position>96</first_position><last_position>105</last_position><subcategory>PATIENT</subcategory><word>Rodrigues</word></label><label><category>NAME</category><first_position>126</first_position><last_position>135</last_position><subcategory>PATIENT</subcategory><word>Gonçalves</word></label><label><category>AGE</category><first_position>153</first_position><last_position>155</last_position><subcategory>AGE</subcategory><word>68</word></label><label><category>ID</category><first_position>191</first_position><last_position>198</last_position><subcategory>MEDICAL_RECORD</subcategory><word>5594876</word></label><label><category>LOCATION</category><first_position>321</first_position><last_position>329</last_position><subcategory>HOSPITAL</subcategory><word>Hospital</word></label><label><category>LOCATION</category><first_position>352</first_position><last_position>357</last_position><subcategory>HOSPITAL</subcategory><word>Geral</word></label><label><category>LOCATION</category><first_position>380</first_position><last_position>383</last_position><subcategory>HOSPITAL</subcategory><word>São</word></label><label><category>LOCATION</category><first_position>406</first_position><last_position>411</last_position><subcategory>HOSPITAL</subcategory><word>Paulo</word></label><label><category>DATE</category><first_position>1658</first_position><last_position>1663</last_position><subcategory>DATE</subcategory><word>17/10</word></label><label><category>NAME</category><first_position>2057</first_position><last_position>2064</last_position><subcategory>DOCTOR</subcategory><word>Leticia</word></label><label><category>NAME</category><first_position>2114</first_position><last_position>2121</last_position><subcategory>DOCTOR</subcategory><word>Leticia</word></label><label><category>NAME</category><first_position>2140</first_position><last_position>2145</last_position><subcategory>DOCTOR</subcategory><word>Porto</word></label><label><category>NAME</category><first_position>2164</first_position><last_position>2169</last_position><subcategory>DOCTOR</subcategory><word>Neves</word></label><label><category>ID</category><first_position>2192</first_position><last_position>2198</last_position><subcategory>IDNUM</subcategory><word>345672</word></label><label><category>CONTACT</category><first_position>2224</first_position><last_position>2244</last_position><subcategory>EMAIL</subcategory><word>leticia.pn@gmail.com</word></label><label><category>CONTACT</category><first_position>2271</first_position><last_position>2275</last_position><subcategory>PHONE</subcategory><word>(11)</word></label><label><category>CONTACT</category><first_position>2292</first_position><last_position>2302</last_position><subcategory>PHONE</subcategory><word>99876-5432</word></label><label><category>DATE</category><first_position>2321</first_position><last_position>2331</last_position><subcategory>DATE</subcategory><word>17/10/2024</word></label><label><category>LOCATION</category><first_position>2412</first_position><last_position>2417</last_position><subcategory>CITY</subcategory><word>Santo</word></label><label><category>LOCATION</category><first_position>2432</first_position><last_position>2437</last_position><subcategory>CITY</subcategory><word>Amaro</word></label></labels></record>

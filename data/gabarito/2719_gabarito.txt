@@ -1,0 +1,23 @@
+Subjetivo 
+ # CARDIOLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 63 anos, [PROFISSÃO]. HC : [IDs] | DIH : [HORÁRIO]. TELEFONE : [CONTATO]. 
+ HPMA : paciente encaminhado ao pronto-socorro com dor torácica de forte intensidade e sudorese. Dor iniciada há 3 horas após esforço físico, sem irradiação. Procurou atendimento após piora dos sintomas. Histórico de hipertensão arterial e tabagismo. 
+ Paciente refere uso irregular de anti-hipertensivos. Admitido às [HORÁRIO] do dia [DATA]. 
+ AP : HAS | Ex-tabagista | Histórico de infarto há 5 anos. 
+ Alergias : Nenhuma conhecida. 
+ MUC : Losartana | Metoprolol | Rosuvastatina (uso irregular). 
+ Segundo informações colhidas : 
+ Peso : 78 kg | Altura : 1,72 m 
+ # Evolução : 
+ Paciente consciente, angustiado, relata melhora parcial da dor após nitrato sublingual. Relata falta de ar ocasional. Mantém-se hemodinamicamente estável, sob monitorização contínua. Oxigenação adequada com O2 suplementar. VEIO DA [ORGANIZAÇÃO]. 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : paciente pálido, diaforético, acianótico, anictérico, TEC  Eletrocardiograma : alterações inespecíficas da repolarização ventricular . Sem sinais de isquemia aguda . 
+ > Enzimas cardíacas : Troponina I elevada, CK-MB levemente elevada . 
+ Conduta 
+ -Manutenção da terapêutica com nitratos e controle da dor torácica . 
+ -Internação para cateterismo cardíaco e possível angioplastia . 
+ -Solicitar avaliação cardiológica detalhada . 
+ -Reavaliação em 24 horas ou antes se houver mudança do quadro clínico . 
+ [PROFISSÃO] [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

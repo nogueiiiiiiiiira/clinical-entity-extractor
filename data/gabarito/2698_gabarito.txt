@@ -1,0 +1,13 @@
+Subjetivo 
+ Paciente [NOME], 52 anos, [PROFISSÃO], apresenta-se para reavaliação dos parâmetros endócrinos e metabólicos: 
+ # CONTROLE - ENDOCRINOLOGIA # 
+ - Ajustar dose de Levotiroxina considerando os níveis de TSH e T4 livre. 
+ - Iniciar Metformina em dose escalonada visando o controle glicêmico. 
+ - Encaminhar para educação diabetológica e ajuste de dieta. 
+ - Retirar Glimepirida para redução do risco de hipoglicemias. 
+ - Iniciar suplementação de vitamina D devido à insuficiência detectada. 
+ - Reavaliar em 30 dias para acompanhamento do controle endocrinológico. 
+ Elaborado e assinado pelo [PROFISSÃO] [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO] 
+ Telefone para contato do paciente: [CONTATO] 
+ Email: [CONTATO] 
+ Endereço de residência: [LOCAL]

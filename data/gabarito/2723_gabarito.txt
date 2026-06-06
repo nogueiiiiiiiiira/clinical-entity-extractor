@@ -1,0 +1,22 @@
+Subjetivo 
+ # GASTROENTEROLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 57 anos . HC : [IDs] | DIH : [HORÁRIO] . 
+ HPMA : referido para avaliação no ambulatório devido à elevação persistente de aminotransferases . Paciente relata consumo regular de bebidas alcoólicas até 2 anos atrás, quando decidiu parar . Refere desconforto no hipocôndrio direito e astenia . 
+ AP : Ex-etilista | Esteatose hepática . 
+ Alergias : contraste iodado . 
+ MUC : Dieta e atividade física como manejo clínico . 
+ Segundo informações colhidas : 
+ Peso : 88 kg | Altura : 1.82 m 
+ # Evolução : 
+ Paciente cooperativo, relata melhora no desconforto abdominal com dieta hipocalórica e exercícios físicos . Preocupado com as enzimas hepáticas elevadas . Mora em [LOCAL], telefone [CONTATO], email [CONTATO] . 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : emagrecido, acianótico, anictérico, desidratado leve ( TEC 4 s ) . 
+ ACV : ritmo cardíaco regular, sem sopros audíveis . 
+ AR : murmúrio vesicular presente bilateralmente sem ruídos anormais . 
+ Abdome : macicez hepática aumentada, bordo liso, doloroso à palpação profunda . Sem sinais de ascite . 
+ MMII : sem sinais de insuficiência venosa ou linfática . Sem edema . 
+ # Exames complementares : 
+ > Ultrassonografia de abdome : fígado de dimensões aumentadas com ecoestrutura homogênea . Ausência de sinais de cirrose hepática . 
+ > Exames laboratoriais : AST e ALT elevadas, com razão AST / ALT [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

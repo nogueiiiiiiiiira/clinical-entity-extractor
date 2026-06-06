@@ -1,0 +1,30 @@
+Subjetivo 
+ # PNEUMOLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 63 anos, [PROFISSÃO] . HC : [IDs] | DIH : [HORÁRIO] . 
+ HPMA : encaminhada ao setor devido a episódios de dispneia paroxística noturna e ortopneia nas últimas duas semanas . Relata história de tabagismo ativo ( 40 anos-pacote ) e exposição laboral a poeiras . Diagnóstico prévio de DPOC . 
+ Paciente queixosa e ansiosa em relação à dificuldade de respirar, sobretudo à noite . 
+ AP : Tabagismo | DPOC | Hipertensão Arterial Sistêmica . 
+ Alergias : Nenhuma conhecida . 
+ MUC : Salmeterol / Fluticasona | Tiotrópio | Captopril | Hidroclorotiazida . 
+ Segundo informações colhidas : 
+ Peso : 72 kg | Altura : 1.57 m | Telefone : [CONTATO] | E-mail : [CONTATO] | Endereço : [LOCAL] . 
+ # Evolução : 
+ Paciente agitada, com uso de musculatura acessória para respirar . Refere leve melhora com a administração de broncodilatadores inalatórios . 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : caquética, cianose de extremidades, taquipneia . 
+ AR : diminuição do murmúrio vesicular em bases pulmonares, com sibilos difusos e roncos à ausculta . 
+ ACV : RCR, 2 T, sem sopros . Presença de turgência jugular . 
+ Abdome : plano, depressível, indolor à palpação . Sem massas ou visceromegalias palpáveis . 
+ MMII : ausência de edema . 
+ # Exames complementares : 
+ > Espirometria : padrão obstrutivo severo, com melhora parcial pós-broncodilatador . 
+ > Radiografia de tórax : hiperinsuflação pulmonar e achatamento dos diafragmas . 
+ Conduta 
+ - Otimização da medicação inalatória com corticosteroides e longa duração de ação . 
+ - Introdução de corticoide sistêmico por via oral em curto prazo . 
+ - Oxigenoterapia domiciliar após avaliação de gasometria arterial . 
+ - Encaminhamento para reabilitação pulmonar . 
+ - Acompanhamento ambulatorial e retorno em 1 mês . 
+ [PROFISSÃO] [NOME]
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

@@ -1,0 +1,5 @@
+Subjetivo 
+ Paciente [NOME], 52 anos, [PROFISSÃO], relatou intensa dor abdominal na região do quadrante superior direito, com início súbito após a refeição. Relata que a dor piora com movimentos e não foi aliviada com a medicação usual prescrita para esse tipo de sintoma. Em observação e aguardando avaliação do [PROFISSÃO] de plantão [PROFISSÃO] [NOME] CRM [IDs].
+ Escore FUGULIN 18.00 - CUIDADOS DE MÉDIA DEPENDÊNCIA
+ Escore MORSE 30.00 - RISCO MODERADO
+ Elaborado e assinado por [PROFISSÃO] [NOME], Coren [IDs] em [DATA] [HORÁRIO], [ORGANIZAÇÃO], telefone [CONTATO], e-mail [CONTATO], Identificador de Atendimento: [IDs]

@@ -1,0 +1,32 @@
+Subjetivo 
+ # ENDOCRINOLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 42 anos, [PROFISSÃO], [CONTATO], [CONTATO], moradora de [LOCAL]. HC : [IDs] | DIH : [HORÁRIO]. 
+ HPMA : paciente encaminhada pelo [PROFISSÃO] [PROFISSÃO] [NOME], CRM [IDs], para ajuste glicêmico após episódios de cetoacidose diabética. 
+ Paciente com DM1 de longa data, reporta dificuldades em manter controle glicêmico, com episódios recorrentes de hipoglicemia seguidos de hiperglicemia. 
+ AP : DM1 | Hipotireoidismo | HAS. 
+ Alergias : penicilina. 
+ MUC : insulina glargina | insulina asparte | levotiroxina | losartana. 
+ Segundo informações colhidas : 
+ Peso : 55 kg | Altura : 1.60 m 
+ # Evolução : 
+ Paciente consciente, orientada, relatando estar preocupada com sua saúde devido às descompensações. Glucometria capilar com glicemias variando entre 280 mg/dL e 400 mg/dL. 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : normocorada, hidratada, eutrofia, ansiosa. 
+ AR : sem alterações à ausculta. 
+ ACV : ritmo regular, sem alterações de bulhas ou sopros. 
+ Abdome : flácido, indolor à palpação, sem massas. 
+ MMII : sem edemas; pulsos periféricos palpáveis e simétricos. 
+ # Exame específico em endocrinologia : 
+ Sem acantose nigricante ou outras lesões cutâneas. 
+ # Exames complementares : 
+ > Glicemias capilares em jejum e pós-prandiais - anotadas em gráfico para análise de padrão glicêmico. 
+ > Hemoglobina glicada : aguardando resultado. 
+ Conduta 
+ -Revisão do esquema terapêutico de insulina. 
+ -Educacional sobre contagem de carboidratos e técnicas de aplicação de insulina. 
+ -Consultar [PROFISSÃO] [NOME], CRN [IDs], para ajuste dietético. 
+ -Solicitar exames de função renal, perfil lipídico e monitorização contínua de glicose. 
+ -Acompanhamento ambulatorial frequente na [ORGANIZAÇÃO]. 
+ [PROFISSÃO] [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

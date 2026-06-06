@@ -1,1 +1,0 @@
-USER_TEMPLATE = "Termo original: {termo_original}\nConceito: {label_conceito} (código: {codigo})\nCorreto? (1/0):"

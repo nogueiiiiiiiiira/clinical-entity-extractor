@@ -1,0 +1,7 @@
+Subjetivo 
+ EM TEMPO : Notificado pelo [PROFISSÃO] [NOME] acerca do [PROFISSÃO] [NOME], 65 anos, [PROFISSÃO], que apresenta quadro de agitação e desconforto respiratório. Contato imediato realizado com o [PROFISSÃO] [PROFISSÃO] [NOME], CRM [IDs] às [HORÁRIO] em [DATA], o qual encontrava-se realizando um procedimento de emergência no [ORGANIZAÇÃO]. Informa que, assim que possível, irá avaliar o [PROFISSÃO] [NOME] e ajustar seu plano de cuidados. 
+ Escore FUGULIN 30.00 - CUIDADOS DE ALTA DEPENDÊNCIA 
+ Escore MORSE 45.00 - RISCO MODERADO 
+ Registrado e rubricado por [PROFISSÃO] [NOME], Coren [IDs] em [DATA] [HORÁRIO] 
+
+ Telefonista informado no momento para futuros contatos emergenciais: telefone [CONTATO], e email [CONTATO].

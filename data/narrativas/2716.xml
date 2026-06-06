@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<record><id>2716</id><text>Subjetivo 
+ # CARDIOLOGIA - UNIDADE DE INSUFICIÊNCIA CARDÍACA # 
+ # ID : &lt;PATIENT&gt;Marcos&lt;/PATIENT/&gt; &lt;PATIENT&gt;Ribeiro&lt;/PATIENT/&gt; &lt;PATIENT&gt;Alencar&lt;/PATIENT/&gt;, &lt;AGE&gt;63&lt;/AGE/&gt; anos, &lt;PROFESSION&gt;aposentado&lt;/PROFESSION/&gt;. HC : &lt;MEDICAL_RECORD&gt;2594637&lt;/MEDICAL_RECORD/&gt; | DIH : 14H20. 
+ HPMA : paciente encaminhado pela UBS Parque do Lago com piora de dispneia aos esforços e ortopneia. 
+ Refere que há cerca de 2 semanas notou aumento da dificuldade para realizar caminhadas que antes eram habituais, associando-se a despertares noturnos por falta de ar. 
+ Nega dor torácica. Referência de ganho ponderal de 3 kg em 1 semana. Internado para compensação de IC. 
+ AP : ICC | FA crônica | DM2. 
+ Alergias : Nega alergias conhecidas. 
+ MUC : enalapril | Carvedilol | Furosemida | Dabigatrana | Metformina. 
+ Segundo informações colhidas : 
+ Peso : 87 kg | Altura : 1.75 m 
+ # Evolução : 
+ Paciente vigil, ansioso devido à dispneia. Relata leve melhora com a posição sentada. Diurese presente, sem outros sintomas novos. 
+ Hemodinamicamente estável, sem drogas vasoativas. Ritmo cardíaco irregular. 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : paciente corado, dispneico, acianótico, anictérico, TEC &gt; 3 s. 
+ AR : estertoração crepitante em bases pulmonares até metade dos campos. 
+ ACV : irregularmente irregular, sem sopros. 
+ Abdome : globoso, indolor à palpação, sem visceromegalias palpáveis. 
+ MMII : edema +3/+4 até raiz da coxa, sem sinais flogísticos. 
+ # Exame cardiopulmonar : 
+ Ascite leve detectável. Pulsos presentes, porém filiformes. 
+ # Exames complementares : 
+ &gt; Eco Doppler cardíaco - solicitado pelo Dr. &lt;DOCTOR&gt;Ricardo&lt;/DOCTOR/&gt; &lt;DOCTOR&gt;Nunes&lt;/DOCTOR/&gt; (&lt;DATE&gt;14/10/2024&lt;/DATE/&gt;): FEVE 35%, aumento do AE, regurgitação mitral leve. 
+ &gt; Radiografia de tórax (&lt;DATE&gt;14/10/2024&lt;/DATE/&gt;): cardiomegalia, sinais de congestão pulmonar. 
+ Conduta 
+ -Otimizar diurético IV conforme curva de peso. 
+ -Reavaliar esquema de anticoagulação considerando função renal. 
+ -Educacional sobre dieta hipossódica e controle de ingesta hídrica. 
+ -Preparar para alta com acompanhamento em ambulatório especializado na Clínica de Insuficiência Cardíaca de &lt;CITY&gt;Campinas&lt;/CITY/&gt;. 
+ Contato de emergência : &lt;PHONE&gt;(19)&lt;/PHONE/&gt; &lt;PHONE&gt;99999-8888&lt;/PHONE/&gt; 
+ Responsável pelo acompanhamento pós-alta : &lt;EMAIL&gt;marcela.carvalho@hospitalexemplo.com.br&lt;/EMAIL/&gt; 
+ R1 CDL &lt;DOCTOR&gt;Viviane&lt;/DOCTOR/&gt; 
+ Elaborado e assinado por Dra. &lt;DOCTOR&gt;Viviane&lt;/DOCTOR/&gt; &lt;DOCTOR&gt;Lima&lt;/DOCTOR/&gt; &lt;DOCTOR&gt;de&lt;/DOCTOR/&gt; &lt;DOCTOR&gt;Carvalho&lt;/DOCTOR/&gt;, CRM &lt;IDNUM&gt;123457&lt;/IDNUM/&gt; em &lt;DATE&gt;14/10/2024&lt;/DATE/&gt; 16:20</text><synthetic>True</synthetic><labels><label><category>NAME</category><first_position>82</first_position><last_position>88</last_position><subcategory>PATIENT</subcategory><word>Marcos</word></label><label><category>NAME</category><first_position>109</first_position><last_position>116</last_position><subcategory>PATIENT</subcategory><word>Ribeiro</word></label><label><category>NAME</category><first_position>137</first_position><last_position>144</last_position><subcategory>PATIENT</subcategory><word>Alencar</word></label><label><category>AGE</category><first_position>162</first_position><last_position>164</last_position><subcategory>AGE</subcategory><word>63</word></label><label><category>PROFESSION</category><first_position>190</first_position><last_position>200</last_position><subcategory>PROFESSION</subcategory><word>aposentado</word></label><label><category>ID</category><first_position>237</first_position><last_position>244</last_position><subcategory>MEDICAL_RECORD</subcategory><word>2594637</word></label><label><category>NAME</category><first_position>1628</first_position><last_position>1635</last_position><subcategory>DOCTOR</subcategory><word>Ricardo</word></label><label><category>NAME</category><first_position>1654</first_position><last_position>1659</last_position><subcategory>DOCTOR</subcategory><word>Nunes</word></label><label><category>DATE</category><first_position>1677</first_position><last_position>1687</last_position><subcategory>DATE</subcategory><word>14/10/2024</word></label><label><category>DATE</category><first_position>1781</first_position><last_position>1791</last_position><subcategory>DATE</subcategory><word>14/10/2024</word></label><label><category>LOCATION</category><first_position>2158</first_position><last_position>2166</last_position><subcategory>CITY</subcategory><word>Campinas</word></label><label><category>CONTACT</category><first_position>2209</first_position><last_position>2213</last_position><subcategory>PHONE</subcategory><word>(19)</word></label><label><category>CONTACT</category><first_position>2230</first_position><last_position>2240</last_position><subcategory>PHONE</subcategory><word>99999-8888</word></label><label><category>CONTACT</category><first_position>2302</first_position><last_position>2341</last_position><subcategory>EMAIL</subcategory><word>marcela.carvalho@hospitalexemplo.com.br</word></label><label><category>NAME</category><first_position>2368</first_position><last_position>2375</last_position><subcategory>DOCTOR</subcategory><word>Viviane</word></label><label><category>NAME</category><first_position>2426</first_position><last_position>2433</last_position><subcategory>DOCTOR</subcategory><word>Viviane</word></label><label><category>NAME</category><first_position>2452</first_position><last_position>2456</last_position><subcategory>DOCTOR</subcategory><word>Lima</word></label><label><category>NAME</category><first_position>2475</first_position><last_position>2477</last_position><subcategory>DOCTOR</subcategory><word>de</word></label><label><category>NAME</category><first_position>2496</first_position><last_position>2504</last_position><subcategory>DOCTOR</subcategory><word>Carvalho</word></label><label><category>ID</category><first_position>2527</first_position><last_position>2533</last_position><subcategory>IDNUM</subcategory><word>123457</word></label><label><category>DATE</category><first_position>2552</first_position><last_position>2562</last_position><subcategory>DATE</subcategory><word>14/10/2024</word></label></labels></record>

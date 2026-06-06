@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<record><id>2718</id><text>Subjetivo 
+ # CARDIOLOGIA - UNIDADE CORONARIANA # 
+ # ID : &lt;PATIENT&gt;Roberto&lt;/PATIENT/&gt; &lt;PATIENT&gt;Nunes&lt;/PATIENT/&gt; &lt;PATIENT&gt;da&lt;/PATIENT/&gt; &lt;PATIENT&gt;Rocha&lt;/PATIENT/&gt;, &lt;AGE&gt;63&lt;/AGE/&gt; anos, &lt;PROFESSION&gt;advogado&lt;/PROFESSION/&gt;, morador de &lt;CITY&gt;Curitiba&lt;/CITY/&gt; . HC : &lt;MEDICAL_RECORD&gt;5874930&lt;/MEDICAL_RECORD/&gt; | DIH : 05H45 . &lt;PHONE&gt;(41)&lt;/PHONE/&gt; &lt;PHONE&gt;98765-4321&lt;/PHONE/&gt; . &lt;EMAIL&gt;roberto.nunes@advocacia.com&lt;/EMAIL/&gt; . 
+ HPMA : paciente encaminhado ao pronto-socorro após episódio de dor torácica súbita em repouso . 
+ Paciente relata dor precordial de início súbito, com irradiação para membro superior esquerdo, acompanhada de sudorese e náuseas . 
+ Nega dispneia ou sincope . Procurou atendimento imediato e chegou ao hospital ainda com sintomas . ECG realizado na chegada 
+ demonstrou elevação do segmento ST . Foi submetido a angioplastia primária . 
+ AP : Ex-fumante | Hipertensão arterial sistêmica | Dislipidemia . 
+ Alergias : Sem alergias conhecidas . 
+ MUC : Enalapril | AAS | Atorvastatina . 
+ Segundo informações colhidas : 
+ Peso : 78 kg | Altura : 1.72 m 
+ # Evolução : 
+ Paciente consciente, relatando melhora substancial da dor . Hemodinamicamente estável, mantido em terapia antiplaquetária e 
+ estatinas conforme protocolo . Sem necessidade de suporte ventilatório ou drogas vasoativas . 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : bom estado geral, corado, anictérico, acianótico . 
+ AR : expansibilidade torácica preservada bilateralmente, sem ruídos adventícios . 
+ ACV : ritmo cardíaco rítmico, bulhas hipofonéticas, sem sopros auscultados . 
+ Abdome : plano, indolor à palpação, sem massas palpáveis . 
+ MMII : pulsos presentes e simétricos, ausência de edema . 
+ # Exame cardiológico sumário : 
+ Paciente orientado no tempo e no espaço . 
+ Exame da região precordial sem alterações à inspeção e palpação . 
+ Escala de dor : 0/10 . 
+ # Exames complementares : 
+ &gt; Ecocardiograma ( &lt;DATE&gt;12&lt;/DATE/&gt;/ &lt;DATE&gt;10&lt;/DATE/&gt; ): Disfunção de ventrículo esquerdo discreta, FE : 50 % . 
+ Conduta 
+ - Manter em monitorização contínua devido ao risco de arritmias . 
+ - Continuação do tratamento com inibidores da enzima conversora, antiplaquetários e estatinas . 
+ - Avaliação diária pela equipe de cardiologia . 
+ - Agendar teste ergométrico para estratificação de risco antes da alta . 
+ R3 Car INT &lt;DOCTOR&gt;Rodrigo&lt;/DOCTOR/&gt; &lt;DOCTOR&gt;Santana&lt;/DOCTOR/&gt; 
+ Elaborado e assinado por Dr. &lt;DOCTOR&gt;Rodrigo&lt;/DOCTOR/&gt; &lt;DOCTOR&gt;Santana&lt;/DOCTOR/&gt; &lt;DOCTOR&gt;Cabral&lt;/DOCTOR/&gt;, CRM &lt;IDNUM&gt;458790&lt;/IDNUM/&gt; em &lt;DATE&gt;12&lt;/DATE/&gt;/ &lt;DATE&gt;10&lt;/DATE/&gt;/ &lt;DATE&gt;2024&lt;/DATE/&gt; 14:20 .</text><synthetic>True</synthetic><labels><label><category>NAME</category><first_position>68</first_position><last_position>75</last_position><subcategory>PATIENT</subcategory><word>Roberto</word></label><label><category>NAME</category><first_position>96</first_position><last_position>101</last_position><subcategory>PATIENT</subcategory><word>Nunes</word></label><label><category>NAME</category><first_position>122</first_position><last_position>124</last_position><subcategory>PATIENT</subcategory><word>da</word></label><label><category>NAME</category><first_position>145</first_position><last_position>150</last_position><subcategory>PATIENT</subcategory><word>Rocha</word></label><label><category>AGE</category><first_position>168</first_position><last_position>170</last_position><subcategory>AGE</subcategory><word>63</word></label><label><category>PROFESSION</category><first_position>196</first_position><last_position>204</last_position><subcategory>PROFESSION</subcategory><word>advogado</word></label><label><category>LOCATION</category><first_position>237</first_position><last_position>245</last_position><subcategory>CITY</subcategory><word>Curitiba</word></label><label><category>ID</category><first_position>277</first_position><last_position>284</last_position><subcategory>MEDICAL_RECORD</subcategory><word>5874930</word></label><label><category>CONTACT</category><first_position>326</first_position><last_position>330</last_position><subcategory>PHONE</subcategory><word>(41)</word></label><label><category>CONTACT</category><first_position>347</first_position><last_position>357</last_position><subcategory>PHONE</subcategory><word>98765-4321</word></label><label><category>CONTACT</category><first_position>376</first_position><last_position>403</last_position><subcategory>EMAIL</subcategory><word>roberto.nunes@advocacia.com</word></label><label><category>DATE</category><first_position>1914</first_position><last_position>1916</last_position><subcategory>DATE</subcategory><word>12</word></label><label><category>DATE</category><first_position>1932</first_position><last_position>1934</last_position><subcategory>DATE</subcategory><word>10</word></label><label><category>NAME</category><first_position>2323</first_position><last_position>2330</last_position><subcategory>DOCTOR</subcategory><word>Rodrigo</word></label><label><category>NAME</category><first_position>2349</first_position><last_position>2356</last_position><subcategory>DOCTOR</subcategory><word>Santana</word></label><label><category>NAME</category><first_position>2406</first_position><last_position>2413</last_position><subcategory>DOCTOR</subcategory><word>Rodrigo</word></label><label><category>NAME</category><first_position>2432</first_position><last_position>2439</last_position><subcategory>DOCTOR</subcategory><word>Santana</word></label><label><category>NAME</category><first_position>2458</first_position><last_position>2464</last_position><subcategory>DOCTOR</subcategory><word>Cabral</word></label><label><category>ID</category><first_position>2487</first_position><last_position>2493</last_position><subcategory>IDNUM</subcategory><word>458790</word></label><label><category>DATE</category><first_position>2512</first_position><last_position>2514</last_position><subcategory>DATE</subcategory><word>12</word></label><label><category>DATE</category><first_position>2530</first_position><last_position>2532</last_position><subcategory>DATE</subcategory><word>10</word></label><label><category>DATE</category><first_position>2548</first_position><last_position>2552</last_position><subcategory>DATE</subcategory><word>2024</word></label></labels></record>

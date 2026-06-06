@@ -1,0 +1,10 @@
+Subjetivo 
+ # ACOMPANHAMENTO AMBULATORIAL - NEFROLOGIA # 
+ # Conforme as diretrizes do [PROFISSÃO] [NOME], [PROFISSÃO] : 
+ -Reduzir dose de diuréticos devido a melhora da função renal . 
+ -Rever eletrólitos e ureia / creatinina séricos em 2 semanas . 
+ -Continuar com controle rigoroso da pressão arterial . 
+ -Discutir opções para tratamento conservador versus preparo para diálise futura . 
+ -Estabelecer plano de seguimento com equipe multidisciplinar . 
+ Paciente [NOME], 59 anos, [PROFISSÃO], residente de [LOCAL], telefone [CONTATO], email [CONTATO] . 
+ Elaborado e assinado pelo [PROFISSÃO] [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

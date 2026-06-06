@@ -1,0 +1,35 @@
+Subjetivo 
+ # CARDIOLOGIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 63 anos, [PROFISSÃO]. HC : [IDs] | DIH : [HORÁRIO]. 
+ HPMA : paciente encaminhado pela [ORGANIZAÇÃO] com piora de dispneia aos esforços e ortopneia. 
+ Refere que há cerca de 2 semanas notou aumento da dificuldade para realizar caminhadas que antes eram habituais, associando-se a despertares noturnos por falta de ar. 
+ Nega dor torácica. Referência de ganho ponderal de 3 kg em 1 semana. Internado para compensação de IC. 
+ AP : ICC | FA crônica | DM2. 
+ Alergias : Nega alergias conhecidas. 
+ MUC : enalapril | Carvedilol | Furosemida | Dabigatrana | Metformina. 
+ Segundo informações colhidas : 
+ Peso : 87 kg | Altura : 1.75 m 
+ # Evolução : 
+ Paciente vigil, ansioso devido à dispneia. Relata leve melhora com a posição sentada. Diurese presente, sem outros sintomas novos. 
+ Hemodinamicamente estável, sem drogas vasoativas. Ritmo cardíaco irregular. 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : paciente corado, dispneico, acianótico, anictérico, TEC > 3 s. 
+ AR : estertoração crepitante em bases pulmonares até metade dos campos. 
+ ACV : irregularmente irregular, sem sopros. 
+ Abdome : globoso, indolor à palpação, sem visceromegalias palpáveis. 
+ MMII : edema +3/+4 até raiz da coxa, sem sinais flogísticos. 
+ # Exame cardiopulmonar : 
+ Ascite leve detectável. Pulsos presentes, porém filiformes. 
+ # Exames complementares : 
+ > Eco Doppler cardíaco - solicitado pelo [PROFISSÃO] [NOME] ([DATA]): FEVE 35%, aumento do AE, regurgitação mitral leve. 
+ > Radiografia de tórax ([DATA]): cardiomegalia, sinais de congestão pulmonar. 
+ Conduta 
+ -Otimizar diurético IV conforme curva de peso. 
+ -Reavaliar esquema de anticoagulação considerando função renal. 
+ -Educacional sobre dieta hipossódica e controle de ingesta hídrica. 
+ -Preparar para alta com acompanhamento em ambulatório especializado na [ORGANIZAÇÃO]. 
+ Contato de emergência : [CONTATO] 
+ Responsável pelo acompanhamento pós-alta : [CONTATO] 
+ [PROFISSÃO] [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

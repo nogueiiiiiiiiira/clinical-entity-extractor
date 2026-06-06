@@ -1,0 +1,32 @@
+Subjetivo 
+ # ORTOPEDIA - [ORGANIZAÇÃO] # 
+ # ID : [NOME], 32 anos, [PROFISSÃO]. HC : [IDs] | DIH : [HORÁRIO]. 
+ HPMA : paciente admitida após queda de bicicleta com impacto direto sobre o ombro esquerdo na [LOCAL]. 
+ Queixa-se de dor intensa e incapacidade de movimentar o membro afetado. Relata que sofreu o acidente há aproximadamente 6 horas. 
+ Nega perda de consciência e outras lesões. História de osteoporose na família. 
+ AP : Osteopenia diagnósticada há 2 anos. 
+ Alergias : nega conhecidas. 
+ MUC : suplemento de cálcio e vitamina D. 
+ Segundo informações colhidas : 
+ Peso : 56 kg | Altura : 1.62 m | PHONE : [CONTATO] | EMAIL : [CONTATO] 
+ # Evolução : 
+ Paciente consciente, orientada, apresentando dor em ombro esquerdo agravada por movimentos e palpitação. 
+ Objetivo 
+ # Exame físico geral : 
+ Ectoscopia : consciente, colaborativa, apresenta palidez cutânea. 
+ Inspeção : ombro esquerdo com deformidade e edema local, equimose em formação. 
+ Palpação : dor intensa à mobilização do ombro esquerdo, crepitação sugestiva de fratura. 
+ Mobilidade : limitada pela dor, não se realiza teste de força no momento. 
+ # Exame específico de membros superiores : 
+ Exame do membro superior direito sem alterações. 
+ Avaliação do membro superior esquerdo sugestiva de fratura do terço proximal do úmero. 
+ # Exames complementares : 
+ > Radiografia de ombro - incidências AP e trans-escapular : fratura cominutiva do colo do úmero esquerdo. 
+ Conduta 
+ - Imobilização com tipóia velpeau. 
+ - Prescrição analgésica com AINEs e opióides se necessário. 
+ - Avaliação por especialista em cirurgia de ombro. 
+ - Programação para redução aberta e fixação interna da fratura. 
+ - Solicitar densitometria óssea para avaliação de osteoporose. 
+ [PROFISSÃO] [NOME] 
+ Elaborado e assinado por [PROFISSÃO] [NOME], CRM [IDs] em [DATA] [HORÁRIO]

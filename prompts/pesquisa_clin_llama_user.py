@@ -1,1 +1,0 @@
-USER_TEMPLATE = "Texto clínico (tentativa {attempt}):\n{textoClinico}\n\nJSON:"

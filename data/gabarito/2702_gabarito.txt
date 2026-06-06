@@ -1,0 +1,10 @@
+Subjetivo 
+ Paciente [NOME], 57 anos, [PROFISSÃO], residente de [LOCAL], está sob acompanhamento oncológico. 
+ # SEGUIMENTO EM ONCOLOGIA # 
+ # Após revisão do caso pelo [PROFISSÃO] [NOME], [PROFISSÃO] da Oncologia: 
+ - Continuar com o esquema atual de quimioterapia. 
+ - Adicionar suporte com Eritropoetina devido à queda dos níveis de hemoglobina. 
+ - Iniciar uso de Ondansetron para controle de náuseas pré e pós-quimioterapia. 
+ - Monitorar função renal e hepática semanalmente. 
+ - Encaminhar para consulta com [PROFISSÃO] especializado em pacientes oncológicos. 
+ Documento elaborado e confirmado pela [PROFISSÃO] [NOME], CRM [IDs] em [DATA] às [HORÁRIO]. Paciente entrou em contato através do telefone [CONTATO] e do email [CONTATO]. Identificador do atendimento: [IDs].
