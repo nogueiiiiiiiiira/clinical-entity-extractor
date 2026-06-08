@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 65 anos
+# MCP dilatada - IDIOPÁTICA
+CF II-III OSCILANTE.
+** PROTOCOLO DE TX CARDIACO - INDICE CARDIACO 3,44 **
+*** Em uso de: Omeprazol 20mg / d, AAS 100mg / d, Losartan 50mg 12/12hs, Espironolactona 25mg / d, Hidralazina 50mg 12/12hs, Carvedilol 12,5mg 12/12hs
+# Exames:
+CAT 09/06/2014: ausência de coronariopatia obstrutiva crítica
+IC 3,449 pré / 3,602 pós
+RVP em woods 0,217 pré / 0,147 pós
+S # Não coletou laboratoriais devido à greve de ônibus. Apresentou episodio de dor torácica há 2 dias - retroesternal e em MSE, em queimação, duração de várias horas, pior de acordo com movimentação do tronco. Dispneia para moderados esforços CF II, às vezes para pequenos esforços. Sem ortopneia. Às vezes apresenta dor torácica associada à caminhada mais rápida. Nega sincope e palpitações. Edema de MMII esporadicamente.
+O # Pte em BEG, eupneico, corado, hidratado
+PA 106/60 FC 60
+SEM TURGÊNCIA JUGULAR
+CPP - MV + BILATERAL, CREPITANTES EM BASE DIREITA
+PC - BC HIPOFONETICAS, SEM SOPROS, ICTUS DESVIADO
+ABDOME - SEM VCM, DOR A PALPAÇÃO DE FLANCO E FIE
+MMII - SEM EDEMA
+A # MCP dilatada CF II / III
+P # MEDICAÇÕES MANTIDAS. RETORNO EM 2 MESES COM NOVO LAB
+R4 Doutor Vital Brazil </TEXT>
+<TAGS>
+<annotation id="32045" tag="Pharmacologic Substance|Organic Chemical" start="137" end="146" text="Omeprazol" abbr="" />
+<annotation id="32046" tag="Quantitative Concept" start="147" end="151" text="20mg" abbr="" />
+<annotation id="32047" tag="Temporal Concept|Abbreviation" start="154" end="155" text="d" abbr="dia" />
+<annotation id="32048" tag="Pharmacologic Substance|Pharmacologic Substance|Organic Chemical|Abbreviation" start="157" end="160" text="AAS" abbr="ácido acetilsalicílico" />
+<annotation id="32049" tag="Quantitative Concept" start="161" end="166" text="100mg" abbr="" />
+<annotation id="32050" tag="Abbreviation|Temporal Concept" start="169" end="170" text="d" abbr="" />
+<annotation id="32051" tag="Pharmacologic Substance|Organic Chemical" start="172" end="180" text="Losartan" abbr="" />
+<annotation id="32052" tag="Quantitative Concept" start="181" end="185" text="50mg" abbr="" />
+<annotation id="32053" tag="Temporal Concept|Abbreviation" start="186" end="193" text="12/12hs" abbr="" />
+<annotation id="32054" tag="Pharmacologic Substance|Organic Chemical" start="195" end="210" text="Espironolactona" abbr="" />
+<annotation id="32055" tag="Quantitative Concept" start="211" end="215" text="25mg" abbr="" />
+<annotation id="32056" tag="Abbreviation|Temporal Concept" start="218" end="219" text="d" abbr="" />
+<annotation id="32057" tag="Pharmacologic Substance|Organic Chemical" start="221" end="232" text="Hidralazina" abbr="" />
+<annotation id="32058" tag="Quantitative Concept" start="233" end="237" text="50mg" abbr="" />
+<annotation id="32059" tag="Temporal Concept|Abbreviation" start="238" end="245" text="12/12hs" abbr="" />
+<annotation id="32060" tag="Pharmacologic Substance|Organic Chemical" start="247" end="257" text="Carvedilol" abbr="" />
+<annotation id="32061" tag="Abbreviation|Temporal Concept" start="265" end="272" text="12/12hs" abbr="" />
+<annotation id="32062" tag="Laboratory or Test Result" start="276" end="282" text="Exames" abbr="" />
+<annotation id="32063" tag="Diagnostic Procedure|Abbreviation" start="285" end="288" text="CAT" abbr="cateterismo" />
+<annotation id="32064" tag="Negation" start="414" end="417" text="Não" abbr="" />
+<annotation id="32065" tag="Health Care Activity" start="418" end="425" text="coletou" abbr="" />
+<annotation id="32066" tag="Laboratory Procedure" start="426" end="439" text="laboratoriais" abbr="" />
+<annotation id="32067" tag="Body Location or Region" start="514" end="527" text="retroesternal" abbr="" />
+<annotation id="32068" tag="Abbreviation|Body Part, Organ, or Organ Component" start="533" end="536" text="MSE" abbr="" />
+<annotation id="32069" tag="Sign or Symptom" start="541" end="550" text="queimação" abbr="" />
+<annotation id="32070" tag="Sign or Symptom" start="620" end="628" text="Dispneia" abbr="" />
+<annotation id="32071" tag="Negation" start="693" end="696" text="Sem" abbr="" />
+<annotation id="32072" tag="Sign or Symptom" start="697" end="706" text="ortopneia" abbr="" />
+<annotation id="32073" tag="Negation|Negation" start="775" end="779" text="Nega" abbr="" />
+<annotation id="32074" tag="Sign or Symptom" start="780" end="787" text="sincope" abbr="" />
+<annotation id="32075" tag="Sign or Symptom" start="790" end="801" text="palpitações" abbr="" />
+<annotation id="32076" tag="Sign or Symptom" start="803" end="808" text="Edema" abbr="" />
+<annotation id="32077" tag="Body Part, Organ, or Organ Component|Abbreviation" start="812" end="816" text="MMII" abbr="membros inferiores" />
+<annotation id="32078" tag="Temporal Concept" start="817" end="832" text="esporadicamente" abbr="" />
+<annotation id="32079" tag="Abbreviation|Patient or Disabled Group" start="839" end="842" text="Pte" abbr="" />
+<annotation id="32080" tag="Abbreviation|Finding" start="846" end="849" text="BEG" abbr="" />
+<annotation id="32081" tag="Finding" start="851" end="859" text="eupneico" abbr="" />
+<annotation id="32082" tag="Finding|Finding" start="861" end="867" text="corado" abbr="" />
+<annotation id="32083" tag="Finding|Finding" start="869" end="878" text="hidratado" abbr="" />
+<annotation id="32084" tag="Abbreviation|Clinical Attribute|Clinical Attribute" start="880" end="882" text="PA" abbr="" />
+<annotation id="32085" tag="Quantitative Concept" start="883" end="889" text="106/60" abbr="" />
+<annotation id="32086" tag="Clinical Attribute|Clinical Attribute|Abbreviation" start="890" end="892" text="FC" abbr="frequência cardíaca" />
+<annotation id="32087" tag="Quantitative Concept" start="893" end="895" text="60" abbr="" />
+<annotation id="32088" tag="Negation" start="897" end="900" text="SEM" abbr="" />
+<annotation id="32089" tag="Clinical Attribute|Abbreviation" start="920" end="923" text="CPP" abbr="" />
+<annotation id="32090" tag="Abbreviation|Clinical Attribute" start="971" end="973" text="PC" abbr="" />
+<annotation id="32091" tag="Negation" start="994" end="997" text="SEM" abbr="" />
+<annotation id="32092" tag="Sign or Symptom" start="998" end="1004" text="SOPROS" abbr="" />
+<annotation id="32093" tag="Body Part, Organ, or Organ Component" start="1022" end="1028" text="ABDOME" abbr="" />
+<annotation id="32094" tag="Negation" start="1031" end="1034" text="SEM" abbr="" />
+<annotation id="32095" tag="Abbreviation|Sign or Symptom" start="1035" end="1038" text="VCM" abbr="" />
+<annotation id="32096" tag="Diagnostic Procedure" start="1046" end="1054" text="PALPAÇÃO" abbr="" />
+<annotation id="32097" tag="Body Location or Region" start="1058" end="1064" text="FLANCO" abbr="" />
+<annotation id="32098" tag="Body Location or Region" start="1067" end="1070" text="FIE" abbr="" />
+<annotation id="32099" tag="Negation|Negation" start="1079" end="1082" text="SEM" abbr="" />
+<annotation id="32100" tag="Sign or Symptom|Sign or Symptom" start="1083" end="1088" text="EDEMA" abbr="" />
+<annotation id="32101" tag="Pharmacologic Substance|Therapeutic or Preventive Procedure" start="1124" end="1134" text="MEDICAÇÕES" abbr="" />
+<annotation id="32102" tag="Health Care Activity" start="1135" end="1143" text="MANTIDAS" abbr="" />
+<annotation id="32103" tag="Health Care Activity" start="1145" end="1152" text="RETORNO" abbr="" />
+<annotation id="32104" tag="Abbreviation|Laboratory or Test Result" start="1173" end="1176" text="LAB" abbr="" />
+<annotation id="32105" tag="Professional or Occupational Group|Abbreviation" start="1178" end="1180" text="R4" abbr="residente 4" />
+<annotation id="32106" tag="Professional or Occupational Group" start="1181" end="1187" text="Doutor" abbr="" />
+<annotation id="32107" tag="Abbreviation|Disease or Syndrome" start="18" end="64" text="MCP dilatada - IDIOPÁTICA CF II-III OSCILANTE" />
+<annotation id="32108" tag="Abbreviation|Intellectual Product" start="70" end="94" text="PROTOCOLO DE TX CARDIACO" />
+<annotation id="32109" tag="Laboratory or Test Result" start="97" end="117" text="INDICE CARDIACO 3 , 44" />
+<annotation id="32110" tag="Quantitative Concept" start="258" end="264" text="12 , 5mg" />
+<annotation id="32111" tag="Laboratory or Test Result" start="301" end="346" text="ausência de coronariopatia obstrutiva crítica" />
+<annotation id="32112" tag="Abbreviation|Laboratory or Test Result" start="348" end="372" text="IC 3 , 449 pré / 3 , 602 pós" />
+<annotation id="32113" tag="Abbreviation|Laboratory or Test Result" start="374" end="386" text="RVP em woods" />
+<annotation id="32114" tag="Laboratory or Test Result" start="387" end="408" text="0 , 217 pré / 0 , 147 pós" />
+<annotation id="32115" tag="Sign or Symptom" start="489" end="501" text="dor torácica" />
+<annotation id="32116" tag="Temporal Concept" start="502" end="511" text="há 2 dias" />
+<annotation id="32117" tag="Temporal Concept" start="552" end="575" text="duração de várias horas" />
+<annotation id="32118" tag="Daily or Recreational Activity" start="634" end="652" text="moderados esforços" />
+<annotation id="32119" tag="Classification|Abbreviation" start="653" end="658" text="CF II" />
+<annotation id="32120" tag="Daily or Recreational Activity" start="674" end="691" text="pequenos esforços" />
+<annotation id="32121" tag="Sign or Symptom" start="727" end="739" text="dor torácica" />
+<annotation id="32122" tag="Daily or Recreational Activity" start="752" end="773" text="caminhada mais rápida" />
+<annotation id="32123" tag="Sign or Symptom" start="901" end="918" text="TURGÊNCIA JUGULAR" />
+<annotation id="32124" tag="Abbreviation|Finding" start="926" end="940" text="MV + BILATERAL" />
+<annotation id="32125" tag="Sign or Symptom" start="942" end="969" text="CREPITANTES EM BASE DIREITA" />
+<annotation id="32126" tag="Abbreviation|Sign or Symptom" start="976" end="992" text="BC HIPOFONETICAS" />
+<annotation id="32127" tag="Sign or Symptom" start="1006" end="1020" text="ICTUS DESVIADO" />
+<annotation id="32128" tag="Abbreviation|Disease or Syndrome" start="1094" end="1118" text="MCP dilatada CF II / III" />
+<annotation id="32129" tag="Temporal Concept" start="1156" end="1163" text="2 MESES" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="32045" annotation2="32046" reltype="associated_with" />
+<rel annotation1="32046" annotation2="32047" reltype="associated_with" />
+<rel annotation1="32048" annotation2="32049" reltype="associated_with" />
+<rel annotation1="32049" annotation2="32050" reltype="associated_with" />
+<rel annotation1="32051" annotation2="32052" reltype="associated_with" />
+<rel annotation1="32052" annotation2="32053" reltype="associated_with" />
+<rel annotation1="32054" annotation2="32055" reltype="associated_with" />
+<rel annotation1="32055" annotation2="32056" reltype="associated_with" />
+<rel annotation1="32057" annotation2="32058" reltype="associated_with" />
+<rel annotation1="32058" annotation2="32059" reltype="associated_with" />
+<rel annotation1="32060" annotation2="32110" reltype="associated_with" />
+<rel annotation1="32063" annotation2="32111" reltype="associated_with" />
+<rel annotation1="32063" annotation2="32112" reltype="associated_with" />
+<rel annotation1="32071" annotation2="32072" reltype="negation_of" />
+<rel annotation1="32073" annotation2="32074" reltype="negation_of" />
+<rel annotation1="32073" annotation2="32075" reltype="negation_of" />
+<rel annotation1="32076" annotation2="32077" reltype="associated_with" />
+<rel annotation1="32076" annotation2="32078" reltype="associated_with" />
+<rel annotation1="32084" annotation2="32085" reltype="associated_with" />
+<rel annotation1="32086" annotation2="32087" reltype="associated_with" />
+<rel annotation1="32088" annotation2="32123" reltype="negation_of" />
+<rel annotation1="32101" annotation2="32102" reltype="associated_with" />
+<rel annotation1="32110" annotation2="32061" reltype="associated_with" />
+<rel annotation1="32115" annotation2="32067" reltype="associated_with" />
+<rel annotation1="32115" annotation2="32068" reltype="associated_with" />
+<rel annotation1="32115" annotation2="32069" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

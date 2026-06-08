@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># 2 CX DE TROCA DE MITRAL + ATRIOSEPTOPLASTIA (2006)
+# FA PERMANENTE 
+# 23/09/14 PROTESE METALICA EM POSIÇÃO MITRAL NORMOFUNCIONANTE. VE APRESENTA DIMENSÕES NORMAIS COM FUNÇÃO SISTOLICA
+PRESERVADA. VENTRICULO DIREITO APRESENTA DIMENSÕES AUMENTADAS E FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE.
+REGURGITAÇÃO TRICUSPIDE DISCRETA. PSAP ESTIMADA EM 45MMHG. ATRIO ESQUERDO E DIREITO DILATADOS. 
+# MEDICAMENTOS EM USO:
+WARFARIM 5MG
+SELOKEN 100MG 
+# PACIENTE VEM PARA CONSULTA DE ROTINA. NEGA QUAISQUER SINTOMAS. NEGA INTERCORRÊNCIAS DA ÚLTIMA CONSULTA PRA CÁ. 
+# AO EXAME :  
+BEG, CORADA, HIDRATADA, LOTE, EUPNÉICA.
+MV + SEM RA. RITMO CARDÍACO IRREGULAR, BULHAS NORMOFONÉTICAS, PRESENÇA DE ESTALIDO METÁLICO.   
+FC 60 
+PA 110X60 MMHG 
+CONDUTA : MANTEMOS SELOKEM.
+ENCAMINHAMOS A PACIENTE PARA AMBULATÓRIO DE VALVOPATIAS.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="26023" tag="Quantitative Concept" start="2" end="3" text="2" abbr="" />
+<annotation id="26024" tag="Therapeutic or Preventive Procedure" start="28" end="45" text="ATRIOSEPTOPLASTIA" abbr="" />
+<annotation id="26025" tag="Abbreviation|Body Part, Organ, or Organ Component" start="136" end="138" text="VE" abbr="" />
+<annotation id="26026" tag="Clinical Attribute|Abbreviation" start="333" end="337" text="PSAP" abbr="" />
+<annotation id="26027" tag="Quantitative Concept" start="350" end="356" text="45MMHG" abbr="" />
+<annotation id="26028" tag="Spatial Concept" start="364" end="372" text="ESQUERDO" abbr="" />
+<annotation id="26029" tag="Spatial Concept" start="375" end="382" text="DIREITO" abbr="" />
+<annotation id="26030" tag="Acquired Abnormality|Sign or Symptom" start="383" end="392" text="DILATADOS" abbr="" />
+<annotation id="26031" tag="Pharmacologic Substance|Clinical Drug" start="398" end="410" text="MEDICAMENTOS" abbr="" />
+<annotation id="26032" tag="Pharmacologic Substance" start="420" end="428" text="WARFARIM" abbr="" />
+<annotation id="26033" tag="Quantitative Concept" start="429" end="432" text="5MG" abbr="" />
+<annotation id="26034" tag="Pharmacologic Substance" start="434" end="441" text="SELOKEN" abbr="" />
+<annotation id="26035" tag="Quantitative Concept" start="442" end="447" text="100MG" abbr="" />
+<annotation id="26036" tag="Patient or Disabled Group" start="452" end="460" text="PACIENTE" abbr="" />
+<annotation id="26037" tag="Negation" start="490" end="494" text="NEGA" abbr="" />
+<annotation id="26038" tag="Sign or Symptom" start="505" end="513" text="SINTOMAS" abbr="" />
+<annotation id="26039" tag="Negation" start="515" end="519" text="NEGA" abbr="" />
+<annotation id="26040" tag="Sign or Symptom" start="520" end="535" text="INTERCORRÊNCIAS" abbr="" />
+<annotation id="26041" tag="Health Care Activity" start="546" end="554" text="CONSULTA" abbr="" />
+<annotation id="26042" tag="Abbreviation|Finding" start="581" end="584" text="BEG" abbr="" />
+<annotation id="26043" tag="Finding" start="586" end="592" text="CORADA" abbr="" />
+<annotation id="26044" tag="Finding" start="594" end="603" text="HIDRATADA" abbr="" />
+<annotation id="26045" tag="Abbreviation|Finding" start="605" end="609" text="LOTE" abbr="" />
+<annotation id="26046" tag="Finding" start="611" end="619" text="EUPNÉICA" abbr="" />
+<annotation id="26047" tag="Negation" start="627" end="630" text="SEM" abbr="" />
+<annotation id="26048" tag="Abbreviation|Sign or Symptom" start="631" end="633" text="RA" abbr="" />
+<annotation id="26049" tag="Abbreviation|Clinical Attribute" start="719" end="721" text="FC" abbr="" />
+<annotation id="26050" tag="Quantitative Concept" start="722" end="724" text="60" abbr="" />
+<annotation id="26051" tag="Abbreviation|Clinical Attribute" start="727" end="729" text="PA" abbr="" />
+<annotation id="26052" tag="Health Care Activity" start="744" end="751" text="CONDUTA" abbr="" />
+<annotation id="26053" tag="Health Care Activity" start="754" end="762" text="MANTEMOS" abbr="" />
+<annotation id="26054" tag="Pharmacologic Substance" start="763" end="770" text="SELOKEM" abbr="" />
+<annotation id="26055" tag="Health Care Activity" start="773" end="785" text="ENCAMINHAMOS" abbr="" />
+<annotation id="26056" tag="Patient or Disabled Group" start="788" end="796" text="PACIENTE" abbr="" />
+<annotation id="26057" tag="Abbreviation|Therapeutic or Preventive Procedure" start="4" end="25" text="CX DE TROCA DE MITRAL" />
+<annotation id="26058" tag="Abbreviation|Disease or Syndrome" start="56" end="69" text="FA PERMANENTE" />
+<annotation id="26059" tag="Medical Device" start="83" end="99" text="PROTESE METALICA" />
+<annotation id="26060" tag="Finding" start="103" end="134" text="POSIÇÃO MITRAL NORMOFUNCIONANTE" />
+<annotation id="26061" tag="Finding" start="149" end="166" text="DIMENSÕES NORMAIS" />
+<annotation id="26062" tag="Finding" start="171" end="199" text="FUNÇÃO SISTOLICA PRESERVADA" />
+<annotation id="26063" tag="Body Part, Organ, or Organ Component" start="201" end="219" text="VENTRICULO DIREITO" />
+<annotation id="26064" tag="Pathologic Function|Sign or Symptom" start="230" end="250" text="DIMENSÕES AUMENTADAS" />
+<annotation id="26065" tag="Pathologic Function|Sign or Symptom" start="253" end="296" text="FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE" />
+<annotation id="26066" tag="Acquired Abnormality|Sign or Symptom" start="299" end="331" text="REGURGITAÇÃO TRICUSPIDE DISCRETA" />
+<annotation id="26067" tag="Health Care Activity" start="470" end="488" text="CONSULTA DE ROTINA" />
+<annotation id="26068" tag="Abbreviation|Finding" start="622" end="626" text="MV +" />
+<annotation id="26069" tag="Sign or Symptom" start="635" end="659" text="RITMO CARDÍACO IRREGULAR" />
+<annotation id="26070" tag="Finding" start="661" end="682" text="BULHAS NORMOFONÉTICAS" />
+<annotation id="26071" tag="Finding" start="684" end="713" text="PRESENÇA DE ESTALIDO METÁLICO" />
+<annotation id="26072" tag="Quantitative Concept" start="730" end="741" text="110X60 MMHG" />
+<annotation id="26073" tag="Health Care Related Organization" start="802" end="828" text="AMBULATÓRIO DE VALVOPATIAS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="26025" annotation2="26061" reltype="associated_with" />
+<rel annotation1="26026" annotation2="26027" reltype="associated_with" />
+<rel annotation1="26039" annotation2="26040" reltype="negation_of" />
+<rel annotation1="26047" annotation2="26048" reltype="negation_of" />
+<rel annotation1="26051" annotation2="26072" reltype="associated_with" />
+<rel annotation1="26053" annotation2="26054" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 17/11/2015
+
+
+Lucas, 63 anos
+# PO Tx cardíaco 06/10/2015 / Miocardiopatia chagásica
+# IRC agudizada no pós-operatório com necessidade de HD - com melhora após
+# Cateterismo hemodinamico em 2014 - PSAP 44 mmhg
+# Marca-passo há 7 anos // HAS // Dislipidemia // Ex-tabagista - parou há 7 anos - 19 maços/ano // IRC
+# Medicamentos: furosemida 40mg 2x / dia, azatioprina 50mg 12/12h, prednisona 20mg e everolimus 0,75mg 8/8h
+# S: SEM QUEIXAS. 
+O # BEG, hipocorado 2+ / 4+, eupneico, afebril
+PA: 140X90 // FC:92
+CP: sp
+BRNF SS
+CPP: MV+ bilateral, REDUZIDO EM BASES
+ABD: globoso, flacido, sem VCM ou massas palpáveis
+MMII: edema 2+ / 4+
+A # POT DE TX CARDIACO
+P # SOLICITO ECOCARDIO TT
+REDUZO PDN PARA 10MG / DIA.
+INICIO CILOSPORINA 50
+RETONRO EM DEZ
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="63~74" text="Tx cardíaco" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="88~112" text="Miocardiopatia chagásica" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="115~118" text="IRC" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="119~146" text="agudizada no pós-operatório" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="166~168" text="HD" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="175~182" text="melhora" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="190~214" text="Cateterismo hemodinamico" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="240~251" text="Marca-passo" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="265~268" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="272~284" text="Dislipidemia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="288~300" text="Ex-tabagista" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="337~340" text="IRC" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="343~355" text="Medicamentos" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="357~372" text="furosemida 40mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="383~399" text="azatioprina 50mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="408~423" text="prednisona 20mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="426~443" text="everolimus 0,75mg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="458~465" text="QUEIXAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="477~495" text="hipocorado 2+ / 4+" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E19" spans="507~514" text="afebril" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E20" spans="515~517" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E21" spans="529~531" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E22" spans="547~549" text="SS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E23" spans="555~587" text="MV+ bilateral, REDUZIDO EM BASES" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E24" spans="615~618" text="VCM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E25" spans="622~638" text="massas palpáveis" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E26" spans="645~658" text="edema 2+ / 4+" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E27" spans="670~681" text="TX CARDIACO" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="695~707" text="ECOCARDIO TT" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E29" spans="708~714" text="REDUZO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E30" spans="715~728" text="PDN PARA 10MG" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E31" spans="743~757" text="CILOSPORINA 50" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E32" spans="758~765" text="RETONRO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="75~85" text="06/10/2015" Type="Date" Value="2015-10-06" Mod="NA" />
+<TIMEX3 id="T1" spans="218~222" text="2014" Type="Date" Value="2014" Mod="NA" />
+<TIMEX3 id="T2" spans="252~261" text="há 7 anos" Type="Duration" Value="P7Y" Mod="NA" />
+<TIMEX3 id="T3" spans="309~318" text="há 7 anos" Type="Duration" Value="P7Y" Mod="NA" />
+<TIMEX3 id="T4" spans="373~381" text="2x / dia" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T5" spans="400~406" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T6" spans="444~448" text="8/8h" Type="Set" Value="P1D" Mod="NA" Freq="3X" Cps="NA" />
+<TIMEX3 id="T7" spans="729~734" text="/ DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T8" spans="766~772" text="EM DEZ" Type="Date" Value="2015-12" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="06/10/2015" toID="E0" toText="Tx cardíaco" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E1" fromText="Miocardiopatia chagásica" toID="E0" toText="Tx cardíaco" Relação_Temporal="BEFORE" />
+<RELATION id="R2" fromID="E3" fromText="agudizada no pós-operatório" toID="E5" toText="melhora" Relação_Temporal="BEFORE" />
+<RELATION id="R3" fromID="E3" fromText="agudizada no pós-operatório" toID="E4" toText="HD" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E2" fromText="IRC" toID="E3" toText="agudizada no pós-operatório" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E2" fromText="IRC" toID="E4" toText="HD" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E5" fromText="melhora" toID="E2" toText="IRC" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E4" fromText="HD" toID="E5" toText="melhora" Relação_Temporal="BEFORE" />
+<RELATION id="R8" fromID="T1" fromText="2014" toID="E6" toText="Cateterismo hemodinamico" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E7" fromText="Marca-passo" toID="T2" toText="há 7 anos" Relação_Temporal="OVERLAP" />
+<RELATION id="R10" fromID="E10" fromText="Ex-tabagista" toID="T3" toText="há 7 anos" Relação_Temporal="OVERLAP" />
+<RELATION id="R11" fromID="E13" fromText="furosemida 40mg" toID="T4" toText="2x / dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R12" fromID="E14" fromText="azatioprina 50mg" toID="T5" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R13" fromID="E16" fromText="everolimus 0,75mg" toID="T6" toText="8/8h" Relação_Temporal="OVERLAP" />
+<RELATION id="R14" fromID="E32" fromText="RETONRO" toID="E28" toText="ECOCARDIO TT" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="T8" fromText="EM DEZ" toID="E32" toText="RETONRO" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="E29" fromText="REDUZO" toID="E30" toText="PDN PARA 10MG" Relação_Temporal="OVERLAP" />
+<RELATION id="R17" fromID="E30" fromText="PDN PARA 10MG" toID="T7" toText="/ DIA" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

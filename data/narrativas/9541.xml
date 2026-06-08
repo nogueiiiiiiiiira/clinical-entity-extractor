@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Cx bariatrica 2x ( ultima ha 1,5a ).Valva aortica bicúspide com gra no cate de 38 mmHg..Uso: Enalapril 10 - 12/12h; Monocordil ?mg - 2xd ; FSM - 1/2cp ao dia; Espironolactona 25 - 1xd; Apresolina 25 - 12/12h; Carvedilol 12.5 - 12/12h.
+Dispnéia de longa data, progressiva,aos moderados esforços. Ardencia retoresternal aos grandes esforços vespertino
+BEG, eupneico, acianotico, anictrico, PA (sentado): 130x90mmHg, P = 68 spm, FR = 12 rpm. MV normodist sem ruidoa adv. RCR, 2T, BNFss++ / 6+ FAO e Ao ac. 
+Cate (18/09/2014): sem coronariopatia obstrutiva, VE disfunção de grau moderado, estenose aortica grau moderado.
+CD; mantida e retorno amanha com Doutor Vital Brazil e vamos discutir a situação.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="26665" tag="Quantitative Concept" start="14" end="16" text="2x" abbr="" />
+<annotation id="26666" tag="Diagnostic Procedure" start="71" end="75" text="cate" abbr="" />
+<annotation id="26667" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="93" end="102" text="Enalapril" abbr="" />
+<annotation id="26668" tag="Quantitative Concept" start="103" end="105" text="10" abbr="" />
+<annotation id="26669" tag="Temporal Concept" start="108" end="114" text="12/12h" abbr="" />
+<annotation id="26670" tag="Pharmacologic Substance|Organic Chemical" start="116" end="126" text="Monocordil" abbr="" />
+<annotation id="26671" tag="Temporal Concept|Quantitative Concept" start="133" end="136" text="2xd" abbr="" />
+<annotation id="26672" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="139" end="142" text="FSM" abbr="" />
+<annotation id="26673" tag="Temporal Concept" start="154" end="157" text="dia" abbr="" />
+<annotation id="26674" tag="Pharmacologic Substance|Organic Chemical" start="159" end="174" text="Espironolactona" abbr="" />
+<annotation id="26675" tag="Quantitative Concept" start="175" end="177" text="25" abbr="" />
+<annotation id="26676" tag="Quantitative Concept|Temporal Concept" start="180" end="183" text="1xd" abbr="" />
+<annotation id="26677" tag="Pharmacologic Substance|Organic Chemical" start="185" end="195" text="Apresolina" abbr="" />
+<annotation id="26678" tag="Quantitative Concept" start="196" end="198" text="25" abbr="" />
+<annotation id="26679" tag="Temporal Concept" start="201" end="207" text="12/12h" abbr="" />
+<annotation id="26680" tag="Organic Chemical|Pharmacologic Substance" start="209" end="219" text="Carvedilol" abbr="" />
+<annotation id="26681" tag="Temporal Concept" start="227" end="233" text="12/12h" abbr="" />
+<annotation id="26682" tag="Sign or Symptom" start="236" end="244" text="Dispnéia" abbr="" />
+<annotation id="26683" tag="Qualitative Concept|Sign or Symptom" start="260" end="271" text="progressiva" abbr="" />
+<annotation id="26684" tag="Finding|Abbreviation" start="352" end="355" text="BEG" abbr="bom estado geral" />
+<annotation id="26685" tag="Finding" start="357" end="365" text="eupneico" abbr="" />
+<annotation id="26686" tag="Finding|Negation" start="367" end="377" text="acianotico" abbr="" />
+<annotation id="26687" tag="Finding|Negation" start="379" end="388" text="anictrico" abbr="" />
+<annotation id="26688" tag="Abbreviation|Clinical Attribute" start="390" end="392" text="PA" abbr="" />
+<annotation id="26689" tag="Quantitative Concept" start="404" end="414" text="130x90mmHg" abbr="" />
+<annotation id="26690" tag="Clinical Attribute|Abbreviation" start="416" end="417" text="P" abbr="pulso" />
+<annotation id="26691" tag="Abbreviation|Clinical Attribute" start="428" end="430" text="FR" abbr="" />
+<annotation id="26692" tag="Negation" start="454" end="457" text="sem" abbr="" />
+<annotation id="26693" tag="Negation" start="479" end="486" text="BNFss++" abbr="" />
+<annotation id="26694" tag="Abbreviation|Diagnostic Procedure" start="507" end="511" text="Cate" abbr="" />
+<annotation id="26695" tag="Negation" start="526" end="529" text="sem" abbr="" />
+<annotation id="26696" tag="Abbreviation|Health Care Activity" start="621" end="623" text="CD" abbr="" />
+<annotation id="26697" tag="Health Care Activity" start="625" end="632" text="mantida" abbr="" />
+<annotation id="26698" tag="Health Care Activity" start="635" end="642" text="retorno" abbr="" />
+<annotation id="26699" tag="Temporal Concept" start="643" end="649" text="amanha" abbr="" />
+<annotation id="26700" tag="Professional or Occupational Group" start="654" end="660" text="Doutor" abbr="" />
+<annotation id="26701" tag="Health Care Activity" start="682" end="690" text="discutir" abbr="" />
+<annotation id="26702" tag="Abbreviation|Therapeutic or Preventive Procedure" start="0" end="13" text="Cx bariatrica" />
+<annotation id="26703" tag="Body Part, Organ, or Organ Component" start="36" end="59" text="Valva aortica bicúspide" />
+<annotation id="26704" tag="Quantitative Concept" start="79" end="86" text="38 mmHg" />
+<annotation id="26705" tag="Temporal Concept" start="248" end="258" text="longa data" />
+<annotation id="26706" tag="Sign or Symptom" start="276" end="294" text="moderados esforços" />
+<annotation id="26707" tag="Sign or Symptom" start="296" end="339" text="Ardencia retoresternal aos grandes esforços" />
+<annotation id="26708" tag="Quantitative Concept" start="420" end="426" text="68 spm" />
+<annotation id="26709" tag="Quantitative Concept" start="433" end="439" text="12 rpm" />
+<annotation id="26710" tag="Abbreviation|Finding" start="441" end="453" text="MV normodist" />
+<annotation id="26711" tag="Abbreviation|Sign or Symptom" start="458" end="468" text="ruidoa adv" />
+<annotation id="26712" tag="Abbreviation|Finding" start="470" end="477" text="RCR , 2T" />
+<annotation id="26713" tag="Laboratory or Test Result" start="530" end="555" text="coronariopatia obstrutiva" />
+<annotation id="26714" tag="Abbreviation|Laboratory or Test Result" start="557" end="586" text="VE disfunção de grau moderado" />
+<annotation id="26715" tag="Laboratory or Test Result" start="588" end="618" text="estenose aortica grau moderado" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="26666" annotation2="26704" reltype="associated_with" />
+<rel annotation1="26667" annotation2="26669" reltype="associated_with" />
+<rel annotation1="26668" annotation2="26667" reltype="associated_with" />
+<rel annotation1="26670" annotation2="26671" reltype="associated_with" />
+<rel annotation1="26675" annotation2="26674" reltype="associated_with" />
+<rel annotation1="26676" annotation2="26674" reltype="associated_with" />
+<rel annotation1="26677" annotation2="26679" reltype="associated_with" />
+<rel annotation1="26678" annotation2="26677" reltype="associated_with" />
+<rel annotation1="26681" annotation2="26680" reltype="associated_with" />
+<rel annotation1="26682" annotation2="26683" reltype="associated_with" />
+<rel annotation1="26688" annotation2="26689" reltype="associated_with" />
+<rel annotation1="26690" annotation2="26708" reltype="associated_with" />
+<rel annotation1="26691" annotation2="26709" reltype="associated_with" />
+<rel annotation1="26692" annotation2="26711" reltype="negation_of" />
+<rel annotation1="26694" annotation2="26714" reltype="associated_with" />
+<rel annotation1="26694" annotation2="26715" reltype="associated_with" />
+<rel annotation1="26695" annotation2="26713" reltype="negation_of" />
+<rel annotation1="26706" annotation2="26682" reltype="associated_with" />
+<rel annotation1="26711" annotation2="26710" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

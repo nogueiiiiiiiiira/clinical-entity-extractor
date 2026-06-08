@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 10/12/2013
+
+
+Lucas, 58 anos, dona de casa, casada, 1 filha.
+Refere arritmia descoberta há 2 anos. Traz exames
+Nega palpitações.
+Faz caminhada 1h dia 3x / semana ( iniciou há um mês )
+Refere dores por artrose, toma dipirona apenas com muita dor
+Mãe falecida com problemas cardíacos (?). Pai, 90anos, hipertenso. Sem casos de cancer na família.
+Hipertensa há 15 anos. Hipotireoidismo; refere queda de cabelo.
+Menopausa há 4 anos. G 1 P 1 C 1 A 0
+Nunca fumou nem bebeu.
+Atenolol 50 mg 2x / dia
+Enalapril 10 mg 2x / dia
+Warfarina 25 mg 2x / dia durante a semana e 1x / dia nos sábados e domingos
+Levotiroxina 25 mcg
+Holter: FA durante toda a gravação com frequencia ventricular média de 87 bpm, variando entre 55 e 135
+RNI:  mês 9: 1,94; 10: 2,31; 12: 3,01
+HAS e FA]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="90~96" text="Refere" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E1" spans="97~105" text="arritmia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="133~139" text="exames" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="140~144" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E4" spans="145~156" text="palpitações" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="213~219" text="Refere" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E6" spans="220~225" text="dores" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="230~237" text="artrose" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="244~252" text="dipirona" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="264~273" text="muita dor" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="420~435" text="queda de cabelo" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="413~419" text="refere" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E12" spans="396~411" text="Hipotireoidismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="373~383" text="Hipertensa" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="437~446" text="Menopausa" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="480~485" text="fumou" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="490~495" text="bebeu" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="497~511" text="Atenolol 50 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E18" spans="521~536" text="Enalapril 10 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E19" spans="546~561" text="Warfarina 25 mg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E20" spans="622~641" text="Levotiroxina 25 mcg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E21" spans="642~648" text="Holter" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="650~652" text="FA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="745~748" text="RNI" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="783~786" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E25" spans="789~791" text="FA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<TIMEX3 id="T0" spans="117~126" text="há 2 anos" Type="Date" Value="2011-12-10" Mod="NA" />
+<TIMEX3 id="T1" spans="179~190" text="3x / semana" Type="Set" Value="P1W" Mod="NA" Freq="3X" Cps="NA" />
+<TIMEX3 id="T2" spans="193~210" text="iniciou há um mês" Type="Date" Value="2013-11-10" Mod="START" />
+<TIMEX3 id="T3" spans="384~394" text="há 15 anos" Type="Duration" Value="P15Y" Mod="NA" />
+<TIMEX3 id="T4" spans="447~456" text="há 4 anos" Type="Duration" Value="P4Y" Mod="NA" />
+<TIMEX3 id="T5" spans="512~520" text="2x / dia" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T6" spans="537~545" text="2x / dia" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T7" spans="562~587" text="2x / dia durante a semana" Type="Set" Value="P1W" Mod="NA" Freq="10X" Cps="NA" />
+<TIMEX3 id="T8" spans="590~621" text="1x / dia nos sábados e domingos" Type="Set" Value="P1W" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T9" spans="751~756" text="mês 9" Type="Date" Value="2013-9" Mod="NA" />
+<TIMEX3 id="T10" spans="764~766" text="10" Type="Date" Value="2013-10" Mod="NA" />
+<TIMEX3 id="T11" spans="774~776" text="12" Type="Date" Value="2013-12" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="há 2 anos" toID="E1" toText="arritmia" Relação_Temporal="OVERLAP" />
+<RELATION id="R1" fromID="E6" fromText="dores" toID="E7" toText="artrose" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E8" fromText="dipirona" toID="E9" toText="muita dor" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="T3" fromText="há 15 anos" toID="E13" toText="Hipertensa" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="T4" fromText="há 4 anos" toID="E14" toText="Menopausa" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E17" fromText="Atenolol 50 mg" toID="T5" toText="2x / dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E18" fromText="Enalapril 10 mg" toID="T6" toText="2x / dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E19" fromText="Warfarina 25 mg" toID="T8" toText="1x / dia nos sábados e domingos" Relação_Temporal="OVERLAP" />
+<RELATION id="R8" fromID="E19" fromText="Warfarina 25 mg" toID="T7" toText="2x / dia durante a semana" Relação_Temporal="OVERLAP" />
+<RELATION id="R9" fromID="E21" fromText="Holter" toID="E22" toText="FA" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="T9" fromText="mês 9" toID="E23" toText="RNI" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="T11" fromText="12" toID="E23" toText="RNI" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="T10" fromText="10" toID="E23" toText="RNI" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E12" fromText="Hipotireoidismo" toID="E10" toText="queda de cabelo" Relação_Temporal="OVERLAP" />
+<RELATION id="R14" fromID="E2" fromText="exames" toID="E21" toText="Holter" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="E2" fromText="exames" toID="E23" toText="RNI" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

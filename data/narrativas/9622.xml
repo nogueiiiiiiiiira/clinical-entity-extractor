@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># Lucas, 58 anos
+# Comorbidades: HAS, Dislipidemia, Tabagismo 115 maços/ano
+# HMA: IAM ST - Killip I em 10 de junho de 2013. Realizado ATC com stent em DA com sucesso
+# Em uso de:
+AAS 100 mg - 1cp ao dia
+Enalapril 10 mg - 1 cp de 12/12h
+Brilinta 90 mg - 1 cp de 12/12h
+Selozok 50 mg - 2 cp ao dia
+Sinvastatina 40 mg - 1 cp ao dia
+Espironolactona 25 mg- 1 cp ao dia
+# S: dispneia paroxística noturna e dispneia durante o dia também. angina leve
+# O:
+P = 84 bpm
+PA = 110x80 mmHg
+Estetores finos
+# A: paciente pós IAM evoluiu com dispneia paroxística noturna
+# P: Furosemida 40 mg - 1 cp ao dia
+       Ecocardiograma transtorácico
+       Espirometria
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="30764" tag="Abbreviation|Disease or Syndrome|Disease or Syndrome" start="34" end="37" text="HAS" abbr="" />
+<annotation id="30765" tag="Disease or Syndrome" start="39" end="51" text="Dislipidemia" abbr="" />
+<annotation id="30766" tag="Disease or Syndrome" start="53" end="62" text="Tabagismo" abbr="" />
+<annotation id="30767" tag="Medical Device" start="145" end="150" text="stent" abbr="" />
+<annotation id="30768" tag="Body Part, Organ, or Organ Component" start="154" end="156" text="DA" abbr="" />
+<annotation id="30769" tag="Pharmacologic Substance|Pharmacologic Substance|Organic Chemical|Abbreviation" start="184" end="187" text="AAS" abbr="ácido acetilsalicílico" />
+<annotation id="30770" tag="Quantitative Concept|Abbreviation" start="197" end="200" text="1cp" abbr="um comprimido" />
+<annotation id="30771" tag="Temporal Concept" start="204" end="207" text="dia" abbr="" />
+<annotation id="30772" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein|Organic Chemical" start="209" end="218" text="Enalapril" abbr="" />
+<annotation id="30773" tag="Temporal Concept|Abbreviation" start="235" end="241" text="12/12h" abbr="" />
+<annotation id="30774" tag="Pharmacologic Substance|Nucleic Acid, Nucleoside, or Nucleotide" start="243" end="251" text="Brilinta" abbr="" />
+<annotation id="30775" tag="Abbreviation|Temporal Concept" start="268" end="274" text="12/12h" abbr="" />
+<annotation id="30776" tag="Pharmacologic Substance|Organic Chemical" start="276" end="283" text="Selozok" abbr="" />
+<annotation id="30777" tag="Temporal Concept" start="300" end="303" text="dia" abbr="" />
+<annotation id="30778" tag="Organic Chemical|Pharmacologic Substance" start="305" end="317" text="Sinvastatina" abbr="" />
+<annotation id="30779" tag="Temporal Concept" start="334" end="337" text="dia" abbr="" />
+<annotation id="30780" tag="Organic Chemical|Pharmacologic Substance" start="339" end="354" text="Espironolactona" abbr="" />
+<annotation id="30781" tag="Temporal Concept" start="370" end="373" text="dia" abbr="" />
+<annotation id="30782" tag="Sign or Symptom" start="411" end="419" text="dispneia" abbr="" />
+<annotation id="30783" tag="Abbreviation|Clinical Attribute" start="461" end="462" text="P" abbr="" />
+<annotation id="30784" tag="Abbreviation|Clinical Attribute" start="473" end="475" text="PA" abbr="" />
+<annotation id="30785" tag="Patient or Disabled Group" start="513" end="521" text="paciente" abbr="" />
+<annotation id="30786" tag="Temporal Concept" start="522" end="525" text="pós" abbr="" />
+<annotation id="30787" tag="Disease or Syndrome|Abbreviation" start="526" end="529" text="IAM" abbr="infarto agudo do miocárdio" />
+<annotation id="30788" tag="Pharmacologic Substance|Organic Chemical" start="577" end="587" text="Furosemida" abbr="" />
+<annotation id="30789" tag="Temporal Concept" start="604" end="607" text="dia" abbr="" />
+<annotation id="30790" tag="Diagnostic Procedure" start="653" end="665" text="Espirometria" abbr="" />
+<annotation id="30791" tag="Quantitative Concept" start="63" end="76" text="115 maços/ano" />
+<annotation id="30792" tag="Abbreviation|Disease or Syndrome" start="85" end="91" text="IAM ST" />
+<annotation id="30793" tag="Classification" start="94" end="102" text="Killip I" />
+<annotation id="30794" tag="Quantitative Concept" start="188" end="194" text="100 mg" />
+<annotation id="30795" tag="Quantitative Concept" start="219" end="224" text="10 mg" />
+<annotation id="30796" tag="Abbreviation|Quantitative Concept" start="227" end="231" text="1 cp" />
+<annotation id="30797" tag="Quantitative Concept" start="252" end="257" text="90 mg" />
+<annotation id="30798" tag="Abbreviation|Quantitative Concept" start="260" end="264" text="1 cp" />
+<annotation id="30799" tag="Quantitative Concept" start="284" end="289" text="50 mg" />
+<annotation id="30800" tag="Abbreviation|Quantitative Concept" start="292" end="296" text="2 cp" />
+<annotation id="30801" tag="Quantitative Concept" start="318" end="323" text="40 mg" />
+<annotation id="30802" tag="Abbreviation|Quantitative Concept" start="326" end="330" text="1 cp" />
+<annotation id="30803" tag="Quantitative Concept" start="355" end="361" text="25 mg-" />
+<annotation id="30804" tag="Abbreviation|Quantitative Concept" start="362" end="366" text="1 cp" />
+<annotation id="30805" tag="Sign or Symptom" start="380" end="408" text="dispneia paroxística noturna" />
+<annotation id="30806" tag="Disease or Syndrome|Sign or Symptom" start="442" end="453" text="angina leve" />
+<annotation id="30807" tag="Abbreviation|Quantitative Concept" start="465" end="471" text="84 bpm" />
+<annotation id="30808" tag="Quantitative Concept" start="478" end="489" text="110x80 mmHg" />
+<annotation id="30809" tag="Sign or Symptom" start="491" end="506" text="Estetores finos" />
+<annotation id="30810" tag="Sign or Symptom" start="542" end="570" text="dispneia paroxística noturna" />
+<annotation id="30811" tag="Quantitative Concept" start="588" end="593" text="40 mg" />
+<annotation id="30812" tag="Abbreviation|Quantitative Concept" start="596" end="600" text="1 cp" />
+<annotation id="30813" tag="Diagnostic Procedure" start="616" end="644" text="Ecocardiograma transtorácico" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="30766" annotation2="30791" reltype="associated_with" />
+<rel annotation1="30769" annotation2="30794" reltype="associated_with" />
+<rel annotation1="30769" annotation2="30770" reltype="associated_with" />
+<rel annotation1="30772" annotation2="30795" reltype="associated_with" />
+<rel annotation1="30772" annotation2="30796" reltype="associated_with" />
+<rel annotation1="30774" annotation2="30797" reltype="associated_with" />
+<rel annotation1="30776" annotation2="30799" reltype="associated_with" />
+<rel annotation1="30778" annotation2="30801" reltype="associated_with" />
+<rel annotation1="30780" annotation2="30803" reltype="associated_with" />
+<rel annotation1="30783" annotation2="30807" reltype="associated_with" />
+<rel annotation1="30784" annotation2="30808" reltype="associated_with" />
+<rel annotation1="30786" annotation2="30787" reltype="associated_with" />
+<rel annotation1="30788" annotation2="30811" reltype="associated_with" />
+<rel annotation1="30792" annotation2="30793" reltype="associated_with" />
+<rel annotation1="30794" annotation2="30771" reltype="associated_with" />
+<rel annotation1="30795" annotation2="30796" reltype="associated_with" />
+<rel annotation1="30795" annotation2="30773" reltype="associated_with" />
+<rel annotation1="30796" annotation2="30773" reltype="associated_with" />
+<rel annotation1="30797" annotation2="30798" reltype="associated_with" />
+<rel annotation1="30797" annotation2="30775" reltype="associated_with" />
+<rel annotation1="30798" annotation2="30775" reltype="associated_with" />
+<rel annotation1="30799" annotation2="30800" reltype="associated_with" />
+<rel annotation1="30800" annotation2="30777" reltype="associated_with" />
+<rel annotation1="30801" annotation2="30802" reltype="associated_with" />
+<rel annotation1="30802" annotation2="30779" reltype="associated_with" />
+<rel annotation1="30803" annotation2="30804" reltype="associated_with" />
+<rel annotation1="30804" annotation2="30781" reltype="associated_with" />
+<rel annotation1="30811" annotation2="30812" reltype="associated_with" />
+<rel annotation1="30812" annotation2="30789" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

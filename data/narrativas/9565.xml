@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Aparecida 45 anos Natural de Goioere/PR Morou proximo a Cascavel/PR Procedente de Curitiba
+MCP dilatada de etiologia a esclarecer
+TE ALTERADO 2014
+21-5-14 ECOESTRESS NEGATIVO
+21-5-15 FE 35 EP 17 AE 38
+FÇAO SISTOLICA COMPROMETIDA HIPOCINESIA DIFUSA REG MI DISCRETA
+DOR TIPICA AOS ESFORÇOS , AOS ESTADO ANSIOSOS
+CINTILO 14-2-15 T5E POSITIVO POR ALT CLINICO ECG DE ISQUEMIA
+ISQUEMIA PEQUENA EXTENSAO PAREDE INFERIOR VE FE 34-46%
+CATETERISMO CARDIACO (02/06/15): TORTUOSIDADES CORONARIANAS.
+ECO TT (03/03/16): FE 66%, NORMAL
+ECG (30/09/15): RS ADRV
+HDP : Nega patologias previas
+Nega tabagismo
+Nega etilismo
+Nega uso de drogas ilicitas
+HF: PAI, avó e tios cardiopatas
+Medicamentos em uso: Carvedilol, AAS, ENALAPRIL 10 MG 12/12
+AO EXAME : FC 70 BPM PA 120/80 MMHG
+ACV : RCR EM 2T
+AP : MV+ ARA
+PANTURRILHAS LIVRES, SEM EDEMAS
+
+CD : MANTENHO CARVEDILOL E ENALAPRIL. RETORNO EM 01 ANO COM NOVO ECO TT
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="27808" tag="Abbreviation|Diagnostic Procedure" start="132" end="134" text="TE" abbr="" />
+<annotation id="27809" tag="Laboratory or Test Result" start="135" end="143" text="ALTERADO" abbr="" />
+<annotation id="27810" tag="Sign or Symptom" start="253" end="256" text="REG" abbr="" />
+<annotation id="27811" tag="Body Location or Region" start="257" end="259" text="MI" abbr="" />
+<annotation id="27812" tag="Sign or Symptom" start="307" end="315" text="ANSIOSOS" abbr="" />
+<annotation id="27813" tag="Diagnostic Procedure|Abbreviation" start="317" end="324" text="CINTILO" abbr="cintilografia" />
+<annotation id="27814" tag="Diagnostic Procedure|Abbreviation" start="333" end="336" text="T5E" abbr="" />
+<annotation id="27815" tag="Laboratory or Test Result" start="524" end="530" text="NORMAL" abbr="" />
+<annotation id="27816" tag="Diagnostic Procedure|Abbreviation" start="532" end="535" text="ECG" abbr="eletrocardiograma" />
+<annotation id="27817" tag="Abbreviation|Laboratory or Test Result" start="548" end="550" text="RS" abbr="" />
+<annotation id="27818" tag="Abbreviation|Laboratory or Test Result" start="551" end="555" text="ADRV" abbr="" />
+<annotation id="27819" tag="Finding|Health Care Activity|Abbreviation" start="557" end="560" text="HDP" abbr="história da doença pregressa" />
+<annotation id="27820" tag="Negation" start="563" end="567" text="Nega" abbr="" />
+<annotation id="27821" tag="Disease or Syndrome" start="568" end="578" text="patologias" abbr="" />
+<annotation id="27822" tag="Temporal Concept" start="579" end="586" text="previas" abbr="" />
+<annotation id="27823" tag="Negation" start="588" end="592" text="Nega" abbr="" />
+<annotation id="27824" tag="Disease or Syndrome" start="593" end="602" text="tabagismo" abbr="" />
+<annotation id="27825" tag="Negation" start="604" end="608" text="Nega" abbr="" />
+<annotation id="27826" tag="Disease or Syndrome" start="609" end="617" text="etilismo" abbr="" />
+<annotation id="27827" tag="Negation" start="619" end="623" text="Nega" abbr="" />
+<annotation id="27828" tag="Finding|Abbreviation" start="648" end="650" text="HF" abbr="" />
+<annotation id="27829" tag="Family Group" start="652" end="655" text="PAI" abbr="" />
+<annotation id="27830" tag="Family Group" start="657" end="660" text="avó" abbr="" />
+<annotation id="27831" tag="Family Group" start="663" end="667" text="tios" abbr="" />
+<annotation id="27832" tag="Acquired Abnormality|Finding" start="668" end="679" text="cardiopatas" abbr="" />
+<annotation id="27833" tag="Pharmacologic Substance" start="681" end="693" text="Medicamentos" abbr="" />
+<annotation id="27834" tag="Organic Chemical|Pharmacologic Substance" start="702" end="712" text="Carvedilol" abbr="" />
+<annotation id="27835" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="714" end="717" text="AAS" abbr="" />
+<annotation id="27836" tag="Organic Chemical|Pharmacologic Substance" start="719" end="728" text="ENALAPRIL" abbr="" />
+<annotation id="27837" tag="Temporal Concept" start="735" end="740" text="12/12" abbr="" />
+<annotation id="27838" tag="Diagnostic Procedure" start="745" end="750" text="EXAME" abbr="" />
+<annotation id="27839" tag="Abbreviation|Clinical Attribute" start="753" end="755" text="FC" abbr="" />
+<annotation id="27840" tag="Clinical Attribute|Abbreviation" start="763" end="765" text="PA" abbr="pressão arterial" />
+<annotation id="27841" tag="Abbreviation|Body Location or Region|Body System" start="779" end="782" text="ACV" abbr="" />
+<annotation id="27842" tag="Abbreviation|Body Location or Region|Diagnostic Procedure" start="796" end="798" text="AP" abbr="" />
+<annotation id="27843" tag="Finding|Abbreviation" start="801" end="804" text="MV+" abbr="murmúrios vesiculares presentes" />
+<annotation id="27844" tag="Finding|Abbreviation|Negation|Sign or Symptom" start="805" end="808" text="ARA" abbr="" />
+<annotation id="27845" tag="Negation" start="831" end="834" text="SEM" abbr="" />
+<annotation id="27846" tag="Sign or Symptom" start="835" end="841" text="EDEMAS" abbr="" />
+<annotation id="27847" tag="Abbreviation|Intellectual Product" start="845" end="847" text="CD" abbr="" />
+<annotation id="27848" tag="Pharmacologic Substance" start="859" end="869" text="CARVEDILOL" abbr="" />
+<annotation id="27849" tag="Pharmacologic Substance" start="872" end="881" text="ENALAPRIL" abbr="" />
+<annotation id="27850" tag="Abbreviation|Disease or Syndrome" start="92" end="104" text="MCP dilatada" />
+<annotation id="27851" tag="Finding" start="108" end="130" text="etiologia a esclarecer" />
+<annotation id="27852" tag="Laboratory or Test Result" start="158" end="177" text="ECOESTRESS NEGATIVO" />
+<annotation id="27853" tag="Abbreviation|Laboratory or Test Result" start="187" end="192" text="FE 35" />
+<annotation id="27854" tag="Abbreviation|Laboratory or Test Result" start="193" end="198" text="EP 17" />
+<annotation id="27855" tag="Laboratory or Test Result|Abbreviation" start="199" end="204" text="AE 38" />
+<annotation id="27856" tag="Abbreviation|Laboratory or Test Result" start="206" end="233" text="FÇAO SISTOLICA COMPROMETIDA" />
+<annotation id="27857" tag="Laboratory or Test Result" start="234" end="252" text="HIPOCINESIA DIFUSA" />
+<annotation id="27858" tag="Sign or Symptom" start="260" end="293" text="DISCRETA DOR TIPICA AOS ESFORÇOS" />
+<annotation id="27859" tag="Abbreviation|Laboratory or Test Result" start="337" end="361" text="POSITIVO POR ALT CLINICO" />
+<annotation id="27860" tag="Abbreviation|Diagnostic Procedure" start="362" end="377" text="ECG DE ISQUEMIA" />
+<annotation id="27861" tag="Abbreviation|Laboratory or Test Result" start="379" end="423" text="ISQUEMIA PEQUENA EXTENSAO PAREDE INFERIOR VE" />
+<annotation id="27862" tag="Abbreviation|Laboratory or Test Result" start="424" end="433" text="FE 34-46%" />
+<annotation id="27863" tag="Diagnostic Procedure|Therapeutic or Preventive Procedure" start="435" end="455" text="CATETERISMO CARDIACO" />
+<annotation id="27864" tag="Laboratory or Test Result" start="468" end="494" text="TORTUOSIDADES CORONARIANAS" />
+<annotation id="27865" tag="Abbreviation|Diagnostic Procedure" start="497" end="503" text="ECO TT" />
+<annotation id="27866" tag="Abbreviation|Laboratory or Test Result" start="516" end="522" text="FE 66%" />
+<annotation id="27867" tag="Disease or Syndrome|Finding" start="624" end="646" text="uso de drogas ilicitas" />
+<annotation id="27868" tag="Quantitative Concept" start="729" end="734" text="10 MG" />
+<annotation id="27869" tag="Quantitative Concept" start="756" end="762" text="70 BPM" />
+<annotation id="27870" tag="Quantitative Concept" start="766" end="777" text="120/80 MMHG" />
+<annotation id="27871" tag="Abbreviation|Finding" start="785" end="794" text="RCR EM 2T" />
+<annotation id="27872" tag="Finding" start="810" end="829" text="PANTURRILHAS LIVRES" />
+<annotation id="27873" tag="Health Care Activity" start="883" end="900" text="RETORNO EM 01 ANO" />
+<annotation id="27874" tag="Abbreviation|Diagnostic Procedure" start="910" end="916" text="ECO TT" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="27808" annotation2="27809" reltype="associated_with" />
+<rel annotation1="27811" annotation2="27858" reltype="associated_with" />
+<rel annotation1="27816" annotation2="27817" reltype="associated_with" />
+<rel annotation1="27816" annotation2="27818" reltype="associated_with" />
+<rel annotation1="27820" annotation2="27821" reltype="negation_of" />
+<rel annotation1="27823" annotation2="27824" reltype="negation_of" />
+<rel annotation1="27825" annotation2="27826" reltype="negation_of" />
+<rel annotation1="27827" annotation2="27867" reltype="negation_of" />
+<rel annotation1="27829" annotation2="27832" reltype="associated_with" />
+<rel annotation1="27830" annotation2="27832" reltype="associated_with" />
+<rel annotation1="27831" annotation2="27832" reltype="associated_with" />
+<rel annotation1="27836" annotation2="27868" reltype="associated_with" />
+<rel annotation1="27836" annotation2="27837" reltype="associated_with" />
+<rel annotation1="27839" annotation2="27869" reltype="associated_with" />
+<rel annotation1="27840" annotation2="27870" reltype="associated_with" />
+<rel annotation1="27842" annotation2="27843" reltype="associated_with" />
+<rel annotation1="27842" annotation2="27844" reltype="associated_with" />
+<rel annotation1="27845" annotation2="27846" reltype="negation_of" />
+<rel annotation1="27863" annotation2="27864" reltype="associated_with" />
+<rel annotation1="27865" annotation2="27815" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,816 @@
+{
+  "dor toracica": {
+    "snomed_results": [],
+    "icd11_results": [
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em> <em class='found'>torácica</em>, não especificada"
+      },
+      {
+        "code": "1365807043",
+        "title": "Outra <em class='found'>dor</em> <em class='found'>torácica</em>"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em>, não especificada"
+      },
+      {
+        "code": "2125857013",
+        "title": "<em class='found'>Dor</em> na coluna <em class='found'>torácica</em>"
+      },
+      {
+        "code": "unspecified",
+        "title": "Angina pectoris não especificada"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em> <em class='found'>torácica</em> musculoesquelética, não especificada"
+      },
+      {
+        "code": "other",
+        "title": "Outra <em class='found'>dor</em> <em class='found'>torácica</em> musculoesquelética especificada"
+      },
+      {
+        "code": "1236923870",
+        "title": "<em class='found'>Dor</em> musculoesquelética primária crônica"
+      },
+      {
+        "code": "unspecified",
+        "title": "Transtornos de <em class='found'>dor</em>, não especificados"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em> crônica, não especificada"
+      },
+      {
+        "code": "other",
+        "title": "Outra <em class='found'>dor</em> crônica especificada"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em> aguda, não especificaca"
+      },
+      {
+        "code": "other",
+        "title": "Outra <em class='found'>dor</em> aguda especificada"
+      },
+      {
+        "code": "9272848",
+        "title": "<em class='found'>Dor</em> articular"
+      },
+      {
+        "code": "166022696",
+        "title": "Outras <em class='found'>dores</em> abdominais e as não especificadas"
+      },
+      {
+        "code": "415195404",
+        "title": "Mialgia"
+      },
+      {
+        "code": "679352876",
+        "title": "<em class='found'>Dor</em> visceral primária crônica"
+      },
+      {
+        "code": "1083052714",
+        "title": "<em class='found'>Dor</em> <em class='found'>torácica</em> ao respirar"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em> na coluna vertebral, não especificada"
+      },
+      {
+        "code": "534629524",
+        "title": "<em class='found'>Dor</em> na coluna cervical"
+      },
+      {
+        "code": "1247223172",
+        "title": "Flatulência e afecções correlatas"
+      },
+      {
+        "code": "other",
+        "title": "Outros transtornos de <em class='found'>dor</em> especificados"
+      },
+      {
+        "code": "1092998509",
+        "title": "<em class='found'>Dor</em> cardiovascular"
+      },
+      {
+        "code": "other",
+        "title": "Outras afecções especificadas associadas à coluna vertebral"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em> lombar não especificada"
+      },
+      {
+        "code": "other",
+        "title": "Outra <em class='found'>dor</em> lombar especificada"
+      },
+      {
+        "code": "821552851",
+        "title": "Cólica renal"
+      },
+      {
+        "code": "other",
+        "title": "Outros transtornos especificados de dentes ou estruturas de suporte"
+      },
+      {
+        "code": "1810710745",
+        "title": "<em class='found'>Dor</em> localizada no abdome superior"
+      },
+      {
+        "code": "874725975",
+        "title": "<em class='found'>Dor</em> precordial"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em> primária crônica, não especificada"
+      },
+      {
+        "code": "other",
+        "title": "Outras doenças ou transtornos especificados do complexo orofacial"
+      },
+      {
+        "code": "322466810",
+        "title": "<em class='found'>Dor</em> crônica de câncer"
+      },
+      {
+        "code": "1163249568",
+        "title": "<em class='found'>Dor</em> ocular"
+      },
+      {
+        "code": "1936927312",
+        "title": "Outros transtornos do tecido mole especificados"
+      },
+      {
+        "code": "1800532632",
+        "title": "<em class='found'>Dor</em> em membro"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em> neuropática, não especificada"
+      },
+      {
+        "code": "other",
+        "title": "Outra <em class='found'>dor</em> neuropática especificada"
+      },
+      {
+        "code": "1703914672",
+        "title": "Dismenorreia"
+      },
+      {
+        "code": "962492793",
+        "title": "Otalgia"
+      },
+      {
+        "code": "61287910",
+        "title": "<em class='found'>Dor</em> ovariana"
+      },
+      {
+        "code": "1149252262",
+        "title": "<em class='found'>Dor</em> testicular"
+      },
+      {
+        "code": "other",
+        "title": "Outros transtornos especificados do trato respiratório superior"
+      },
+      {
+        "code": "other",
+        "title": "Outros sinais ou sintomas especificados do complexo orofacial"
+      },
+      {
+        "code": "2032614033",
+        "title": "<em class='found'>Dor</em> perineal"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Dor</em> oncológica crônica, não especificada"
+      },
+      {
+        "code": "1405405864",
+        "title": "Cefaleia, não classificada em outra parte"
+      },
+      {
+        "code": "715712738",
+        "title": "Sintoma ou queixa da mandíbula"
+      },
+      {
+        "code": "176864342",
+        "title": "<em class='found'>Dor</em> no pênis"
+      },
+      {
+        "code": "other",
+        "title": "Outra <em class='found'>dor</em> primária crônica especificada"
+      }
+    ]
+  },
+  "dor torácica": {
+    "SCTID": null,
+    "CID11": "other",
+    "SCTID_correto": 0,
+    "CID11_correto": 1
+  },
+  "hipertensao arterial sistemica": {
+    "snomed_results": [
+      {
+        "code": "234002001",
+        "label": "Arterial contusion"
+      },
+      {
+        "code": "408707005",
+        "label": "Arterial stasis"
+      },
+      {
+        "code": "233957006",
+        "label": "Arterial ischemia"
+      },
+      {
+        "code": "303727009",
+        "label": "Arterial catheter"
+      },
+      {
+        "code": "252060001",
+        "label": "Arterial measure"
+      },
+      {
+        "code": "234013003",
+        "label": "Arterial avulsion"
+      },
+      {
+        "code": "75192006",
+        "label": "Arterial cannula"
+      },
+      {
+        "code": "233981004",
+        "label": "Arterial aneurysm"
+      },
+      {
+        "code": "234009005",
+        "label": "Arterial laceration"
+      },
+      {
+        "code": "252073002",
+        "label": "Arterial impedance"
+      },
+      {
+        "code": "364088008",
+        "label": "Arterial feature"
+      },
+      {
+        "code": "54687002",
+        "label": "Arterial embolism"
+      },
+      {
+        "code": "360046005",
+        "label": "Arterial stent"
+      },
+      {
+        "code": "260717007",
+        "label": "Arterial anatomy"
+      },
+      {
+        "code": "234119001",
+        "label": "Arterial malformation"
+      },
+      {
+        "code": "261240000",
+        "label": "Arterial graft"
+      },
+      {
+        "code": "1332250003",
+        "label": "Arterial plasma"
+      },
+      {
+        "code": "119205003",
+        "label": "Arterial part"
+      },
+      {
+        "code": "302286009",
+        "label": "Arterial diameter"
+      },
+      {
+        "code": "123679006",
+        "label": "Arterial anastomosis"
+      },
+      {
+        "code": "51114001",
+        "label": "Arterial structure"
+      },
+      {
+        "code": "182756003",
+        "label": "Arterial perfusion"
+      },
+      {
+        "code": "4635002",
+        "label": "Arterial blood"
+      },
+      {
+        "code": "261054002",
+        "label": "Arterio-arterial"
+      },
+      {
+        "code": "30846001",
+        "label": "Arterial bruit"
+      },
+      {
+        "code": "246280004",
+        "label": "Arterial site"
+      },
+      {
+        "code": "263551008",
+        "label": "Arterial anastomosis"
+      },
+      {
+        "code": "229801003",
+        "label": "Intra-arterial"
+      },
+      {
+        "code": "252064005",
+        "label": "Arterial velocity"
+      },
+      {
+        "code": "65198009",
+        "label": "Arterial thrombosis"
+      },
+      {
+        "code": "195374003",
+        "label": "Arterial insufficiency"
+      },
+      {
+        "code": "234003006",
+        "label": "Arterial hemorrhage"
+      },
+      {
+        "code": "252061002",
+        "label": "Arterial flow"
+      },
+      {
+        "code": "789563006",
+        "label": "Arterial ulcer"
+      },
+      {
+        "code": "397045002",
+        "label": "Arterial embolectomy"
+      },
+      {
+        "code": "128443005",
+        "label": "Pulmonary arterial waveform"
+      },
+      {
+        "code": "246282007",
+        "label": "Arterial inflow site"
+      },
+      {
+        "code": "461391002",
+        "label": "Arterial duct finding"
+      },
+      {
+        "code": "22883003",
+        "label": "Arterial-enteric fistula"
+      },
+      {
+        "code": "252066007",
+        "label": "Mean arterial velocity"
+      },
+      {
+        "code": "261236009",
+        "label": "Pedicled arterial autograft"
+      },
+      {
+        "code": "307393002",
+        "label": "Infected arterial graft"
+      },
+      {
+        "code": "278489004",
+        "label": "Traumatic arterial perforation"
+      },
+      {
+        "code": "252036000",
+        "label": "Penile arterial insufficiency"
+      },
+      {
+        "code": "247123003",
+        "label": "Retinal arterial tortuosity"
+      },
+      {
+        "code": "174826008",
+        "label": "Arterial switch operation"
+      },
+      {
+        "code": "1237098007",
+        "label": "Metal arterial stent"
+      },
+      {
+        "code": "274831009",
+        "label": "Arterial bruit absent"
+      },
+      {
+        "code": "25774008",
+        "label": "Anomalous arterial connection"
+      },
+      {
+        "code": "72313002",
+        "label": "Systolic arterial pressure"
+      }
+    ],
+    "icd11_results": [
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Hipertensão</em> essencial não especificada"
+      },
+      {
+        "code": "1931148955",
+        "title": "<em class='found'>Hipertensão</em> <em class='found'>arterial</em> pulmonar"
+      },
+      {
+        "code": "1971950106",
+        "title": "<em class='found'>Hipertensão</em> pulmonar com mecanismo multifatorial"
+      },
+      {
+        "code": "1910517058",
+        "title": "<em class='found'>Hipertensão</em> neonatal"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Hipertensão</em> secundária não especificado."
+      },
+      {
+        "code": "other",
+        "title": "Outra <em class='found'>hipertensão</em> secundária especificada"
+      },
+      {
+        "code": "1210166201",
+        "title": "Doença cardíaca hipertensiva"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Hipertensão</em> pulmonar não especificada"
+      },
+      {
+        "code": "2118553363",
+        "title": "<em class='found'>Hipertensão</em> gestacional"
+      },
+      {
+        "code": "other",
+        "title": "Outra pressão intracraniana aumentada especificada"
+      },
+      {
+        "code": "535283437",
+        "title": "<em class='found'>Hipertensão</em> ocular"
+      },
+      {
+        "code": "other",
+        "title": "Outra <em class='found'>hipertensão</em> essencial especificada"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Hipertensão</em> portal, não especificada"
+      },
+      {
+        "code": "other",
+        "title": "Outra <em class='found'>hipertensão</em> portal especificada"
+      },
+      {
+        "code": "1788452129",
+        "title": "<em class='found'>Hipertensão</em> sistólica isolada"
+      },
+      {
+        "code": "1461918574",
+        "title": "<em class='found'>Hipertensão</em> diastólica isolada"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Hipertensão</em> <em class='found'>arterial</em> pulmonar associada a shunt <em class='found'>sistêmico</em>-pulmonar congênito"
+      },
+      {
+        "code": "unspecified",
+        "title": "Doença renal hipertensiva com insuficiência renal"
+      },
+      {
+        "code": "1822573082",
+        "title": "<em class='found'>Hipertensão</em> portal secundária"
+      },
+      {
+        "code": "1065786072",
+        "title": "<em class='found'>Hipertensão</em> portopulmonar"
+      },
+      {
+        "code": "157703821",
+        "title": "<em class='found'>Hipertensão</em> portal idiopática"
+      },
+      {
+        "code": "unspecified",
+        "title": "<em class='found'>Hipertensão</em> <em class='found'>arterial</em> pulmonar associada à <em class='found'>hipertensão</em> portal"
+      },
+      {
+        "code": "unspecified",
+        "title": "Doenças das <em class='found'>artérias</em> ou arteríolas, não especificadas"
+      },
+      {
+        "code": "1015872326",
+        "title": "Doença renal hipertensiva"
+      },
+      {
+        "code": "346808536",
+        "title": "<em class='found'>Hipertensão</em> pulmonar persistente do recém-nascido"
+      },
+      {
+        "code": "1863674681",
+        "title": "<em class='found'>Hipertensão</em> pulmonar devida a doença pulmonar ou hipóxia"
+      },
+      {
+        "code": "1969898416",
+        "title": "Alguns transtornos especificados de <em class='found'>artérias</em> ou arteríolas"
+      },
+      {
+        "code": "22800152",
+        "title": "Estenose de <em class='found'>artéria</em>"
+      },
+      {
+        "code": "1979103207",
+        "title": "Ruptura de <em class='found'>artéria</em>"
+      },
+      {
+        "code": "1981398038",
+        "title": "<em class='found'>Hipertensão</em> pulmonar devida a transtornos mieloproliferativos"
+      },
+      {
+        "code": "197924221",
+        "title": "Hiperaldosteronismo primário"
+      },
+      {
+        "code": "1917449952",
+        "title": "<em class='found'>Hipertensão</em> diastólica e sistólica combinadas"
+      },
+      {
+        "code": "other",
+        "title": "Outras displasias acromélicas especificadas"
+      },
+      {
+        "code": "unspecified",
+        "title": "Doença <em class='found'>arterial</em> obstrutiva crônica aterosclerótica, não especificada"
+      },
+      {
+        "code": "unspecified",
+        "title": "Doença cardíaca hipertensiva com insuficiência cardíaca"
+      },
+      {
+        "code": "709098927",
+        "title": "Lesão de vaso sanguíneo de região corporal não especificada"
+      },
+      {
+        "code": "461779987",
+        "title": "<em class='found'>Hipertensão</em> do jaleco branco"
+      },
+      {
+        "code": "unspecified",
+        "title": "Aneurisma e dissecção de <em class='found'>artéria</em> não especificada"
+      },
+      {
+        "code": "1567490107",
+        "title": "<em class='found'>Hipertensão</em> pulmonar tromboembólica crônica"
+      },
+      {
+        "code": "other",
+        "title": "Outra cefaleia secundária especificada"
+      },
+      {
+        "code": "1678781070",
+        "title": "Fístula arteriovenosa adquirida"
+      },
+      {
+        "code": "unspecified",
+        "title": "Esclerose <em class='found'>sistêmica</em> não especificada"
+      },
+      {
+        "code": "1894811648",
+        "title": "<em class='found'>Hipertensão</em> secundária sistólica isolada"
+      },
+      {
+        "code": "1822573082",
+        "title": "<em class='found'>Hipertensão</em> portal na fibrose cística não especificada"
+      },
+      {
+        "code": "1975822334",
+        "title": "<em class='found'>Hipertensão</em> secundária diastólica isolada"
+      },
+      {
+        "code": "102245491",
+        "title": "Necrose de <em class='found'>artéria</em>"
+      },
+      {
+        "code": "1900721887",
+        "title": "Exame especial de rastreamento de doenças cardiovasculares"
+      },
+      {
+        "code": "other",
+        "title": "Outro ataque isquêmico transitório especificado"
+      },
+      {
+        "code": "other",
+        "title": "Outra anomalia congênita especificada das grandes <em class='found'>artérias</em> incluindo canal <em class='found'>arterial</em>"
+      },
+      {
+        "code": "unspecified",
+        "title": "Doenças de <em class='found'>artéria</em> coronária não especificadas"
+      }
+    ]
+  },
+  "hipertensão arterial sistêmica": {
+    "SCTID": "246280004",
+    "CID11": "1015872326",
+    "SCTID_correto": 1,
+    "CID11_correto": 1
+  },
+  "cintilografia miocardica": {
+    "snomed_results": [],
+    "icd11_results": [
+      {
+        "code": "unspecified",
+        "title": "Insuficiência cardíaca não especificada"
+      },
+      {
+        "code": "unspecified",
+        "title": "Infarto agudo do miocárdio não especificado"
+      },
+      {
+        "code": "other",
+        "title": "Outras doenças especificadas do sistema circulatório"
+      },
+      {
+        "code": "unspecified",
+        "title": "Aterosclerose coronária, localização não especificada"
+      },
+      {
+        "code": "other",
+        "title": "Outra lesão especificada do coração"
+      },
+      {
+        "code": "273368763",
+        "title": "Cardiomegalia"
+      },
+      {
+        "code": "unspecified",
+        "title": "Doenças isquêmicas do coração não especificadas"
+      },
+      {
+        "code": "unspecified",
+        "title": "Anomalia de desenvolvimento estrutural de coração ou grandes vasos, não especificada"
+      },
+      {
+        "code": "unspecified",
+        "title": "Lesão do coração, não especificada"
+      },
+      {
+        "code": "2134193116",
+        "title": "Ruptura <em class='found'>miocárdica</em> traumática"
+      },
+      {
+        "code": "unspecified",
+        "title": "Doença cardíaca isquêmica aguda não especificada"
+      },
+      {
+        "code": "1177212968",
+        "title": "Miocardite reumática"
+      },
+      {
+        "code": "unspecified",
+        "title": "Infarto do miocárdio subsequente não especificado"
+      },
+      {
+        "code": "unspecified",
+        "title": "Cardiomiopatia hipertrófica, não especificada"
+      },
+      {
+        "code": "1210166201",
+        "title": "Doença cardíaca hipertensiva"
+      },
+      {
+        "code": "unspecified",
+        "title": "Cardiomiopatia não especificada"
+      },
+      {
+        "code": "391388807",
+        "title": "Infarto agudo do miocárdio com supradesnível de ST"
+      },
+      {
+        "code": "unspecified",
+        "title": "Insuficiência cardíaca neonatal não especificada"
+      },
+      {
+        "code": "1187107383",
+        "title": "Doença de depósito de glicogênio"
+      },
+      {
+        "code": "654702340",
+        "title": "Miocardite sifilítica"
+      },
+      {
+        "code": "other",
+        "title": "Outra anomalia congênita especificada da artéria coronária"
+      },
+      {
+        "code": "654702340",
+        "title": "Tuberculose do miocárdio"
+      },
+      {
+        "code": "654702340",
+        "title": "Miocardite infecciosa"
+      },
+      {
+        "code": "unspecified",
+        "title": "Miocardiopatia isquêmica não especificada"
+      },
+      {
+        "code": "other",
+        "title": "Outra doença isquêmica crônica do coração especificada"
+      },
+      {
+        "code": "479843281",
+        "title": "Neoplasia benigna de órgãos intratorácicos"
+      },
+      {
+        "code": "660512363",
+        "title": "Infarto agudo transmural da parede anterior do miocárdio"
+      },
+      {
+        "code": "956002477",
+        "title": "Infarto antigo do miocárdio"
+      },
+      {
+        "code": "573695921",
+        "title": "Miocardite reumática aguda"
+      },
+      {
+        "code": "1732604740",
+        "title": "Isquemia <em class='found'>miocárdica</em> transitória do recém-nascido"
+      },
+      {
+        "code": "680129526",
+        "title": "Infarto agudo do miocárdio sem supradesnível de ST"
+      },
+      {
+        "code": "other",
+        "title": "Outra doença do metabolismo do ferro especificada"
+      },
+      {
+        "code": "1974956233",
+        "title": "Choque cardiogênico"
+      },
+      {
+        "code": "1401866267",
+        "title": "Infarto <em class='found'>miocárdico</em> subsequente, infarto <em class='found'>miocárdico</em> com supradesnível do segmento ST"
+      },
+      {
+        "code": "2070501946",
+        "title": "Infarto do miocárdio subsequente, infarto <em class='found'>miocárdico</em> sem supradesnível do segmento ST"
+      },
+      {
+        "code": "1493826598",
+        "title": "Infarto <em class='found'>miocárdico</em> subsequente, infarto <em class='found'>miocárdico</em> com supradesnível do segmento ST, parede inferior"
+      },
+      {
+        "code": "660512363",
+        "title": "Infarto <em class='found'>miocárdico</em> subsequente, infarto <em class='found'>miocárdico</em> com supradesnível do segmento ST, parede anterior"
+      },
+      {
+        "code": "1493826598",
+        "title": "Infarto <em class='found'>miocárdico</em> subsequente, sem especificação de supradesnível de ST, parede inferior."
+      },
+      {
+        "code": "660512363",
+        "title": "Infarto <em class='found'>miocárdico</em> subsequente, sem especificação de supradesnível de ST, parede anterior."
+      },
+      {
+        "code": "1493826598",
+        "title": "Infarto do miocárdio subsequente, infarto <em class='found'>miocárdico</em> sem supradesnível do segmento ST, parede inferior"
+      },
+      {
+        "code": "660512363",
+        "title": "Infarto do miocárdio subsequente, infarto <em class='found'>miocárdico</em> sem supradesnível do segmento ST, parede anterior"
+      },
+      {
+        "code": "1799992159",
+        "title": "Coreia reumática"
+      }
+    ]
+  },
+  "cintilografia miocárdica": {
+    "SCTID": null,
+    "CID11": "654702340",
+    "SCTID_correto": 0,
+    "CID11_correto": 1
+  },
+  "dispneia": {
+    "SCTID": null,
+    "CID11": "960305085",
+    "SCTID_correto": 0,
+    "CID11_correto": 1
+  },
+  "obesidade visceral e abdominal": {
+    "SCTID": "438506002",
+    "CID11": "1704980054",
+    "SCTID_correto": 1,
+    "CID11_correto": 1
+  }
+}

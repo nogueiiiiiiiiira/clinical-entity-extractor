@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 61 ANOS
+# IC ETIOLOGIA ISQUEMICA
+# IAM EM 27/08/2010
+# POT ATC C STENT
+# POT RVM 2011 MIE - DA / SF - DIAG
+# EM USO DE:
+- CARVEDILOL 25MG 12/12HS
+- ROSUVA 10
+- VALSARTAN 320
+- FURO 40
+- APRESOLINA 50MG 12/12HS
+- ESPIRO 25
+- AAS 100
+- MONOC 20MG NOITE
+- MTF 850 3X
+- LEVOTIROX 50
+- INDAPAMIDA 1,5
+S # RELATA DISPNEIA PARA GRANDES ESFORÇOS. NEGA DOR PRECORDIAL, EDEMA DE MMII, ORTOPNEIA E DPN.
+- CINTILO (06/10/14): HIPOPERFUSÃO PERSISTENTE ( FIBROSE ) DE GRANDE EXTENSÃO, NO SEGMENTO MEDIOAPICAL DA PAREDE ANTERIOR E ÁPICE
+DE VE, EM GRAU DISCRETO NA PAREDE ANTEROSSEPTAL. FE REPOUSO 49%
+- ECO 17/09/15: AE 42, VD 26, SE 10, PP 9, DD 55, DS 46, FE 34%, PSAP 49 MMHG. VE ACINESIA ANTERO-SEPTAL E ANTERIOR MEDIO-APICAL E APICAL.
+O # PA 110/70, FC 80 SAT 96%
+CORADO, HIDRATADO, EUPNEICO
+BCRNFSS2T
+MV+ SIM BILART SRA
+ABD SP 
+MMII S EDEMA
+A # IC ISQUEMICA
+P # MANTENHO MEDICAÇÕES
+- SOLICITO NOVOS EXAMES LABORATORIAIS E ECOCARDIO TT
+- RETORNO 8 MESES
+ E4 CARDIO Doutor Vital Brazil 
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="26918" tag="Abbreviation|Disease or Syndrome" start="44" end="47" text="IAM" abbr="" />
+<annotation id="26919" tag="Abbreviation|Temporal Concept" start="65" end="68" text="POT" abbr="" />
+<annotation id="26920" tag="Abbreviation|Therapeutic or Preventive Procedure" start="69" end="72" text="ATC" abbr="" />
+<annotation id="26921" tag="Medical Device|Therapeutic or Preventive Procedure" start="75" end="80" text="STENT" abbr="" />
+<annotation id="26922" tag="Temporal Concept|Abbreviation" start="84" end="87" text="POT" abbr="pós-operatório tardio" />
+<annotation id="26923" tag="Abbreviation|Therapeutic or Preventive Procedure" start="88" end="91" text="RVM" abbr="" />
+<annotation id="26924" tag="Body Location or Region|Abbreviation" start="97" end="100" text="MIE" abbr="Membro Inferior Esquerdo" />
+<annotation id="26925" tag="Body Part, Organ, or Organ Component|Abbreviation" start="103" end="105" text="DA" abbr="descente anterior" />
+<annotation id="26926" tag="Body Part, Organ, or Organ Component|Abbreviation" start="108" end="110" text="SF" abbr="safena" />
+<annotation id="26927" tag="Abbreviation|Body Part, Organ, or Organ Component" start="113" end="117" text="DIAG" abbr="" />
+<annotation id="26928" tag="Organic Chemical|Pharmacologic Substance" start="135" end="145" text="CARVEDILOL" abbr="" />
+<annotation id="26929" tag="Quantitative Concept" start="146" end="150" text="25MG" abbr="" />
+<annotation id="26930" tag="Quantitative Concept|Temporal Concept|Abbreviation" start="151" end="158" text="12/12HS" abbr="" />
+<annotation id="26931" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="162" end="168" text="ROSUVA" abbr="rosuvastatina" />
+<annotation id="26932" tag="Quantitative Concept" start="169" end="171" text="10" abbr="" />
+<annotation id="26933" tag="Organic Chemical|Pharmacologic Substance" start="175" end="184" text="VALSARTAN" abbr="" />
+<annotation id="26934" tag="Quantitative Concept" start="185" end="188" text="320" abbr="" />
+<annotation id="26935" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="192" end="196" text="FURO" abbr="" />
+<annotation id="26936" tag="Quantitative Concept" start="197" end="199" text="40" abbr="" />
+<annotation id="26937" tag="Pharmacologic Substance|Organic Chemical" start="203" end="213" text="APRESOLINA" abbr="" />
+<annotation id="26938" tag="Quantitative Concept" start="214" end="218" text="50MG" abbr="" />
+<annotation id="26939" tag="Quantitative Concept|Abbreviation|Temporal Concept" start="219" end="226" text="12/12HS" abbr="" />
+<annotation id="26940" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="230" end="236" text="ESPIRO" abbr="" />
+<annotation id="26941" tag="Quantitative Concept" start="237" end="239" text="25" abbr="" />
+<annotation id="26942" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="243" end="246" text="AAS" abbr="Ácido acetil salicílico" />
+<annotation id="26943" tag="Quantitative Concept" start="247" end="250" text="100" abbr="" />
+<annotation id="26944" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="254" end="259" text="MONOC" abbr="" />
+<annotation id="26945" tag="Quantitative Concept" start="260" end="264" text="20MG" abbr="" />
+<annotation id="26946" tag="Temporal Concept" start="265" end="270" text="NOITE" abbr="" />
+<annotation id="26947" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="274" end="277" text="MTF" abbr="" />
+<annotation id="26948" tag="Quantitative Concept" start="278" end="281" text="850" abbr="" />
+<annotation id="26949" tag="Temporal Concept|Abbreviation|Quantitative Concept" start="282" end="284" text="3X" abbr="" />
+<annotation id="26950" tag="Abbreviation|Hormone|Pharmacologic Substance" start="288" end="297" text="LEVOTIROX" abbr="" />
+<annotation id="26951" tag="Quantitative Concept" start="298" end="300" text="50" abbr="" />
+<annotation id="26952" tag="Pharmacologic Substance|Organic Chemical" start="304" end="314" text="INDAPAMIDA" abbr="" />
+<annotation id="26953" tag="Negation" start="363" end="367" text="NEGA" abbr="" />
+<annotation id="26954" tag="Sign or Symptom" start="384" end="389" text="EDEMA" abbr="" />
+<annotation id="26955" tag="Body Location or Region|Abbreviation" start="393" end="397" text="MMII" abbr="Membros Inferiores" />
+<annotation id="26956" tag="Sign or Symptom" start="399" end="408" text="ORTOPNEIA" abbr="" />
+<annotation id="26957" tag="Abbreviation|Sign or Symptom" start="411" end="414" text="DPN" abbr="" />
+<annotation id="26958" tag="Abbreviation|Diagnostic Procedure" start="419" end="426" text="CINTILO" abbr="" />
+<annotation id="26959" tag="Diagnostic Procedure|Abbreviation" start="615" end="618" text="ECO" abbr="ecocardiograma" />
+<annotation id="26960" tag="Clinical Attribute|Abbreviation" start="757" end="759" text="PA" abbr="Pressão Arterial" />
+<annotation id="26961" tag="Quantitative Concept" start="760" end="766" text="110/70" abbr="" />
+<annotation id="26962" tag="Clinical Attribute|Abbreviation" start="768" end="770" text="FC" abbr="Frequência Cardíaca" />
+<annotation id="26963" tag="Quantitative Concept" start="771" end="773" text="80" abbr="" />
+<annotation id="26964" tag="Clinical Attribute" start="774" end="777" text="SAT" abbr="" />
+<annotation id="26965" tag="Quantitative Concept" start="778" end="781" text="96%" abbr="" />
+<annotation id="26966" tag="Finding" start="783" end="789" text="CORADO" abbr="" />
+<annotation id="26967" tag="Finding" start="791" end="800" text="HIDRATADO" abbr="" />
+<annotation id="26968" tag="Finding" start="802" end="810" text="EUPNEICO" abbr="" />
+<annotation id="26969" tag="Abbreviation|Finding" start="812" end="821" text="BCRNFSS2T" abbr="" />
+<annotation id="26970" tag="Negation|Finding|Abbreviation" start="838" end="841" text="SRA" abbr="sem ruídos adventícios" />
+<annotation id="26971" tag="Body Location or Region" start="843" end="846" text="ABD" abbr="" />
+<annotation id="26972" tag="Negation" start="847" end="849" text="SP" abbr="" />
+<annotation id="26973" tag="Abbreviation|Body Location or Region" start="852" end="856" text="MMII" abbr="" />
+<annotation id="26974" tag="Abbreviation|Negation" start="857" end="858" text="S" abbr="" />
+<annotation id="26975" tag="Sign or Symptom" start="859" end="864" text="EDEMA" abbr="" />
+<annotation id="26976" tag="Health Care Activity" start="888" end="896" text="MANTENHO" abbr="" />
+<annotation id="26977" tag="Therapeutic or Preventive Procedure|Pharmacologic Substance" start="897" end="907" text="MEDICAÇÕES" abbr="" />
+<annotation id="26978" tag="Health Care Activity" start="911" end="919" text="SOLICITO" abbr="" />
+<annotation id="26979" tag="Health Care Activity" start="965" end="972" text="RETORNO" abbr="" />
+<annotation id="26980" tag="Quantitative Concept" start="973" end="974" text="8" abbr="" />
+<annotation id="26981" tag="Temporal Concept" start="975" end="980" text="MESES" abbr="" />
+<annotation id="26982" tag="Abbreviation" start="986" end="992" text="CARDIO" abbr="" />
+<annotation id="26983" tag="Abbreviation|Disease or Syndrome" start="18" end="40" text="IC ETIOLOGIA ISQUEMICA" />
+<annotation id="26984" tag="Quantitative Concept" start="315" end="318" text="1 , 5" />
+<annotation id="26985" tag="Sign or Symptom" start="331" end="361" text="DISPNEIA PARA GRANDES ESFORÇOS" />
+<annotation id="26986" tag="Sign or Symptom" start="368" end="382" text="DOR PRECORDIAL" />
+<annotation id="26987" tag="Laboratory or Test Result" start="439" end="494" text="HIPOPERFUSÃO PERSISTENTE ( FIBROSE ) DE GRANDE EXTENSÃO" />
+<annotation id="26988" tag="Abbreviation|Laboratory or Test Result" start="499" end="553" text="SEGMENTO MEDIOAPICAL DA PAREDE ANTERIOR E ÁPICE DE VE" />
+<annotation id="26989" tag="Laboratory or Test Result" start="558" end="595" text="GRAU DISCRETO NA PAREDE ANTEROSSEPTAL" />
+<annotation id="26990" tag="Abbreviation|Laboratory or Test Result" start="597" end="611" text="FE REPOUSO 49%" />
+<annotation id="26991" tag="Abbreviation|Laboratory or Test Result" start="629" end="634" text="AE 42" />
+<annotation id="26992" tag="Abbreviation|Laboratory or Test Result" start="636" end="641" text="VD 26" />
+<annotation id="26993" tag="Abbreviation|Laboratory or Test Result" start="643" end="648" text="SE 10" />
+<annotation id="26994" tag="Abbreviation|Laboratory or Test Result" start="650" end="654" text="PP 9" />
+<annotation id="26995" tag="Laboratory or Test Result|Abbreviation" start="656" end="661" text="DD 55" />
+<annotation id="26996" tag="Abbreviation|Laboratory or Test Result" start="663" end="668" text="DS 46" />
+<annotation id="26997" tag="Abbreviation|Laboratory or Test Result" start="670" end="676" text="FE 34%" />
+<annotation id="26998" tag="Abbreviation|Laboratory or Test Result" start="678" end="690" text="PSAP 49 MMHG" />
+<annotation id="26999" tag="Abbreviation|Laboratory or Test Result" start="692" end="750" text="VE ACINESIA ANTERO-SEPTAL E ANTERIOR MEDIO-APICAL E APICAL" />
+<annotation id="27000" tag="Abbreviation|Finding" start="823" end="837" text="MV+ SIM BILART" />
+<annotation id="27001" tag="Abbreviation|Disease or Syndrome" start="870" end="882" text="IC ISQUEMICA" />
+<annotation id="27002" tag="Laboratory Procedure" start="926" end="946" text="EXAMES LABORATORIAIS" />
+<annotation id="27003" tag="Abbreviation|Diagnostic Procedure" start="949" end="961" text="ECOCARDIO TT" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="26919" annotation2="26920" reltype="associated_with" />
+<rel annotation1="26920" annotation2="26921" reltype="associated_with" />
+<rel annotation1="26922" annotation2="26923" reltype="associated_with" />
+<rel annotation1="26924" annotation2="26925" reltype="associated_with" />
+<rel annotation1="26926" annotation2="26927" reltype="associated_with" />
+<rel annotation1="26929" annotation2="26928" reltype="associated_with" />
+<rel annotation1="26930" annotation2="26928" reltype="associated_with" />
+<rel annotation1="26931" annotation2="26932" reltype="associated_with" />
+<rel annotation1="26933" annotation2="26934" reltype="associated_with" />
+<rel annotation1="26935" annotation2="26936" reltype="associated_with" />
+<rel annotation1="26937" annotation2="26938" reltype="associated_with" />
+<rel annotation1="26940" annotation2="26941" reltype="associated_with" />
+<rel annotation1="26942" annotation2="26943" reltype="associated_with" />
+<rel annotation1="26944" annotation2="26945" reltype="associated_with" />
+<rel annotation1="26947" annotation2="26948" reltype="associated_with" />
+<rel annotation1="26950" annotation2="26951" reltype="associated_with" />
+<rel annotation1="26953" annotation2="26986" reltype="negation_of" />
+<rel annotation1="26953" annotation2="26954" reltype="negation_of" />
+<rel annotation1="26953" annotation2="26956" reltype="negation_of" />
+<rel annotation1="26953" annotation2="26957" reltype="negation_of" />
+<rel annotation1="26958" annotation2="26987" reltype="associated_with" />
+<rel annotation1="26958" annotation2="26990" reltype="associated_with" />
+<rel annotation1="26959" annotation2="26999" reltype="associated_with" />
+<rel annotation1="26960" annotation2="26961" reltype="associated_with" />
+<rel annotation1="26962" annotation2="26963" reltype="associated_with" />
+<rel annotation1="26974" annotation2="26975" reltype="negation_of" />
+<rel annotation1="26976" annotation2="26977" reltype="associated_with" />
+<rel annotation1="26978" annotation2="27002" reltype="associated_with" />
+<rel annotation1="26978" annotation2="27003" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

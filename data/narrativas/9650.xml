@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Ecocardio (17/11/14): AE = 50; SIV = PPVE = 12; DDVE = 57; DSVE = 43; FE = 48%; VMi = protese biologica com espessamentoi de seus folhetos;mobioidade adequada e rgurgitação moderada a importante. Gra max de 25  e medio de 13 Area de 2.
+VAo = cuspides calcificadas com mobilidade comprometida. Grad max de 55  e medio de 33. Regurgitação moderada. VTri = abertura adequada coim refluxo disreto. PSAP = 40mmHg.
+Assintomático. Não trouxe receita.
+Ex Fisico: BEG, eupneico, acianotico, anicterico, sem edema mmii. PA ( sentado ): 120x70mmHg, P = 56. MV OK. RCR 2T, BNF ss++/6+ FAo e Mi e SD +/6+.
+CD: mantida 6m.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="32397" tag="Abbreviation|Diagnostic Procedure" start="0" end="9" text="Ecocardio" abbr="" />
+<annotation id="32398" tag="Negation|Sign or Symptom" start="411" end="424" text="Assintomático" abbr="" />
+<annotation id="32399" tag="Negation" start="426" end="429" text="Não" abbr="" />
+<annotation id="32400" tag="Health Care Activity" start="437" end="444" text="receita" abbr="" />
+<annotation id="32401" tag="Finding|Abbreviation" start="458" end="461" text="BEG" abbr="bom estado geral" />
+<annotation id="32402" tag="Finding" start="463" end="471" text="eupneico" abbr="" />
+<annotation id="32403" tag="Negation|Sign or Symptom" start="473" end="483" text="acianotico" abbr="" />
+<annotation id="32404" tag="Negation|Sign or Symptom" start="485" end="495" text="anicterico" abbr="" />
+<annotation id="32405" tag="Negation|Negation" start="497" end="500" text="sem" abbr="" />
+<annotation id="32406" tag="Sign or Symptom|Sign or Symptom" start="501" end="506" text="edema" abbr="" />
+<annotation id="32407" tag="Body Location or Region|Abbreviation|Abbreviation|Body Part, Organ, or Organ Component" start="507" end="511" text="mmii" abbr="" />
+<annotation id="32408" tag="Clinical Attribute|Abbreviation" start="513" end="515" text="PA" abbr="pressão arterial" />
+<annotation id="32409" tag="Quantitative Concept" start="529" end="539" text="120x70mmHg" abbr="" />
+<annotation id="32410" tag="Clinical Attribute|Abbreviation" start="541" end="542" text="P" abbr="" />
+<annotation id="32411" tag="Quantitative Concept" start="545" end="547" text="56" abbr="" />
+<annotation id="32412" tag="Abbreviation|Finding" start="564" end="567" text="BNF" abbr="" />
+<annotation id="32413" tag="Health Care Activity|Abbreviation" start="597" end="599" text="CD" abbr="conduta" />
+<annotation id="32414" tag="Health Care Activity" start="601" end="608" text="mantida" abbr="" />
+<annotation id="32415" tag="Abbreviation|Laboratory or Test Result" start="22" end="29" text="AE = 50" />
+<annotation id="32416" tag="Abbreviation|Laboratory or Test Result" start="31" end="46" text="SIV = PPVE = 12" />
+<annotation id="32417" tag="Abbreviation|Laboratory or Test Result" start="48" end="57" text="DDVE = 57" />
+<annotation id="32418" tag="Abbreviation|Laboratory or Test Result" start="59" end="68" text="DSVE = 43" />
+<annotation id="32419" tag="Abbreviation|Laboratory or Test Result" start="70" end="78" text="FE = 48%" />
+<annotation id="32420" tag="Abbreviation|Laboratory or Test Result" start="80" end="138" text="VMi = protese biologica com espessamentoi de seus folhetos" />
+<annotation id="32421" tag="Laboratory or Test Result" start="139" end="194" text="mobioidade adequada e rgurgitação moderada a importante" />
+<annotation id="32422" tag="Abbreviation|Laboratory or Test Result" start="196" end="224" text="Gra max de 25 e medio de 13" />
+<annotation id="32423" tag="Laboratory or Test Result" start="225" end="234" text="Area de 2" />
+<annotation id="32424" tag="Abbreviation|Laboratory or Test Result" start="237" end="292" text="VAo = cuspides calcificadas com mobilidade comprometida" />
+<annotation id="32425" tag="Abbreviation|Laboratory or Test Result" start="294" end="323" text="Grad max de 55 e medio de 33" />
+<annotation id="32426" tag="Laboratory or Test Result" start="325" end="346" text="Regurgitação moderada" />
+<annotation id="32427" tag="Abbreviation|Laboratory or Test Result" start="348" end="393" text="VTri = abertura adequada coim refluxo disreto" />
+<annotation id="32428" tag="Abbreviation|Laboratory or Test Result" start="395" end="408" text="PSAP = 40mmHg" />
+<annotation id="32429" tag="Abbreviation" start="447" end="456" text="Ex Fisico" />
+<annotation id="32430" tag="Finding|Abbreviation" start="549" end="554" text="MV OK" />
+<annotation id="32431" tag="Abbreviation|Finding" start="556" end="562" text="RCR 2T" />
+<annotation id="32432" tag="Abbreviation|Sign or Symptom" start="587" end="594" text="SD +/6+" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="32397" annotation2="32415" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32416" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32417" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32418" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32419" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32422" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32423" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32424" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32425" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32426" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32427" reltype="associated_with" />
+<rel annotation1="32397" annotation2="32428" reltype="associated_with" />
+<rel annotation1="32399" annotation2="32400" reltype="negation_of" />
+<rel annotation1="32405" annotation2="32406" reltype="negation_of" />
+<rel annotation1="32406" annotation2="32407" reltype="associated_with" />
+<rel annotation1="32408" annotation2="32409" reltype="associated_with" />
+<rel annotation1="32410" annotation2="32411" reltype="associated_with" />
+<rel annotation1="32413" annotation2="32414" reltype="associated_with" />
+<rel annotation1="32429" annotation2="32401" reltype="associated_with" />
+<rel annotation1="32429" annotation2="32402" reltype="associated_with" />
+<rel annotation1="32429" annotation2="32403" reltype="associated_with" />
+<rel annotation1="32429" annotation2="32404" reltype="associated_with" />
+<rel annotation1="32429" annotation2="32406" reltype="associated_with" />
+<rel annotation1="32429" annotation2="32430" reltype="associated_with" />
+<rel annotation1="32431" annotation2="32412" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

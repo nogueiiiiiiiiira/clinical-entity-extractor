@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 51 ANOS
+S # VEM PARA ACOMPANHAMENTO
+ECO 15/10/13  AE 55 FE 53% VALVA MITRAL COM IMAGEM SUGESTIVA DE VEGETAÇÃO E COM REGURGITAÇÃO MODERADA A ACENTUADA, HIPOCINESIA DIFUSA DO VE CATE  CIR CORONARIA SEM LESOES E COM IRREGULARIDADES PARIETAIS, VE COM HIPOCINESIA DIFUSA , INSUF MITRAL SEVERA
+P3 SOL ECO ETE URGENTE
+RETORNO COM EXAMES
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="30557" tag="Health Care Activity" start="29" end="43" text="ACOMPANHAMENTO" abbr="" />
+<annotation id="30558" tag="Diagnostic Procedure|Abbreviation" start="45" end="48" text="ECO" abbr="ecocardiograma" />
+<annotation id="30559" tag="Health Care Activity|Abbreviation" start="301" end="304" text="SOL" abbr="coonduta" />
+<annotation id="30560" tag="Qualitative Concept" start="313" end="320" text="URGENTE" abbr="" />
+<annotation id="30561" tag="Health Care Activity" start="322" end="329" text="RETORNO" abbr="" />
+<annotation id="30562" tag="Laboratory or Test Result" start="334" end="340" text="EXAMES" abbr="" />
+<annotation id="30563" tag="Abbreviation|Laboratory or Test Result" start="59" end="64" text="AE 55" />
+<annotation id="30564" tag="Laboratory or Test Result|Abbreviation" start="65" end="71" text="FE 53%" />
+<annotation id="30565" tag="Laboratory or Test Result" start="72" end="118" text="VALVA MITRAL COM IMAGEM SUGESTIVA DE VEGETAÇÃO" />
+<annotation id="30566" tag="Laboratory or Test Result" start="125" end="158" text="REGURGITAÇÃO MODERADA A ACENTUADA" />
+<annotation id="30567" tag="Abbreviation|Laboratory or Test Result" start="160" end="184" text="HIPOCINESIA DIFUSA DO VE" />
+<annotation id="30568" tag="Abbreviation|Therapeutic or Preventive Procedure|Laboratory or Test Result" start="185" end="194" text="CATE CIR" />
+<annotation id="30569" tag="Laboratory or Test Result" start="195" end="247" text="CORONARIA SEM LESOES E COM IRREGULARIDADES PARIETAIS" />
+<annotation id="30570" tag="Abbreviation|Laboratory or Test Result" start="249" end="274" text="VE COM HIPOCINESIA DIFUSA" />
+<annotation id="30571" tag="Disease or Syndrome" start="277" end="296" text="INSUF MITRAL SEVERA" />
+<annotation id="30572" tag="Abbreviation|Diagnostic Procedure" start="305" end="312" text="ECO ETE" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="30558" annotation2="30563" reltype="associated_with" />
+<rel annotation1="30558" annotation2="30564" reltype="associated_with" />
+<rel annotation1="30558" annotation2="30565" reltype="associated_with" />
+<rel annotation1="30558" annotation2="30567" reltype="associated_with" />
+<rel annotation1="30559" annotation2="30572" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

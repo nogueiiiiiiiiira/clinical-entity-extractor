@@ -1,0 +1,12 @@
+
+Iniciando extração paralela com até 4 threads.
+
+
+Iniciando tentativa 1 para 9053.xml
+
+Tentativa 1 gerou 5 termos válidos.
+
+
+Processado 9053.xml -> 5 termos únicos. Validando expansões...
+
+Extração concluída.

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 65 ANOS
+
+# IC CF III EM ACOMPANHAMENTO COM Doutor Vital Brazil.
+# NEGA DM, DSLP, TABAGISMO, IAM´S PRÉVIOS
+# EM USO DE LST 50MG 12/12 H, CARVEDILOL 12,5MG 12/12 HORAS, APRESOLINA 50MG 8/8H, ESPIRONOLACTONA 25MG / DIA, OMP 20
+# ECOCARDIO COM STRESS (03/02/14): AUMENTO DE CABIDADES ESQUERDA COM FUNÇÃO DE VE REDUZIDA, REFLUXO MITRAL MODERADO / IMPORTANTES, REFLUXO AORTICO MODERADO, REFLUXO TRICUSPIDE DISCRETO. NÃO HOUVE AVALIAÇÃO DA ISQUEMIA POR DISFUNÇÃO SEVERA DO VE.
+# ECG COM PADRÃO DE BRE.
+# AVALIAÇÃO PRÉ-TRANSPLANTE.
+# DOPPLER CAROTIDAS + VERTEBRAIS: CERVICAL D: CAROTIDA: ESTENOSE 20-30% NA BIFURCAÇÃO CAROTÍDEA;
+PACIENTE SEM QUEIXAS. 
+CATE 16/06/15: PRÉ: RVP 2,19 // RVS 24
+	      PÓS: RVP 2,08 // RVS 12,59
+EXAMES LAB 21/07/15: NA 141; K 5; CREAT 1; GLI 89; UREIA 32; CPK 81; AC URICO 4,9; TG 102; TGP 36; HDL 41; TGO 23; CT 156; LDL 95; HMG OK; TSH 1,83; T4L 1,23; EQU NORMAL
+P: AMNTIDO TTO CLINICO
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="32179" tag="Health Care Activity" start="33" end="47" text="ACOMPANHAMENTO" abbr="" />
+<annotation id="32180" tag="Professional or Occupational Group" start="52" end="58" text="Doutor" abbr="" />
+<annotation id="32181" tag="Negation" start="76" end="80" text="NEGA" abbr="" />
+<annotation id="32182" tag="Disease or Syndrome|Abbreviation" start="81" end="83" text="DM" abbr="diabetes mellitus" />
+<annotation id="32183" tag="Abbreviation|Disease or Syndrome" start="85" end="89" text="DSLP" abbr="" />
+<annotation id="32184" tag="Disease or Syndrome" start="91" end="100" text="TABAGISMO" abbr="" />
+<annotation id="32185" tag="Disease or Syndrome|Abbreviation" start="102" end="107" text="IAM´S" abbr="infarto agudo do miocárdio" />
+<annotation id="32186" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="129" end="132" text="LST" abbr="losartana" />
+<annotation id="32187" tag="Quantitative Concept" start="133" end="137" text="50MG" abbr="" />
+<annotation id="32188" tag="Organic Chemical|Pharmacologic Substance" start="147" end="157" text="CARVEDILOL" abbr="" />
+<annotation id="32189" tag="Organic Chemical|Pharmacologic Substance" start="178" end="188" text="APRESOLINA" abbr="" />
+<annotation id="32190" tag="Quantitative Concept" start="189" end="193" text="50MG" abbr="" />
+<annotation id="32191" tag="Abbreviation|Temporal Concept|Quantitative Concept" start="194" end="198" text="8/8H" abbr="" />
+<annotation id="32192" tag="Pharmacologic Substance|Organic Chemical" start="200" end="215" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="32193" tag="Quantitative Concept" start="216" end="220" text="25MG" abbr="" />
+<annotation id="32194" tag="Temporal Concept" start="223" end="226" text="DIA" abbr="" />
+<annotation id="32195" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="228" end="231" text="OMP" abbr="" />
+<annotation id="32196" tag="Quantitative Concept" start="232" end="234" text="20" abbr="" />
+<annotation id="32197" tag="Negation" start="422" end="425" text="NÃO" abbr="" />
+<annotation id="32198" tag="Abbreviation|Abbreviation|Diagnostic Procedure|Diagnostic Procedure" start="485" end="488" text="ECG" abbr="" />
+<annotation id="32199" tag="Body Part, Organ, or Organ Component" start="585" end="593" text="CAROTIDA" abbr="" />
+<annotation id="32200" tag="Patient or Disabled Group" start="637" end="645" text="PACIENTE" abbr="" />
+<annotation id="32201" tag="Negation" start="646" end="649" text="SEM" abbr="" />
+<annotation id="32202" tag="Sign or Symptom" start="650" end="657" text="QUEIXAS" abbr="" />
+<annotation id="32203" tag="Diagnostic Procedure|Abbreviation" start="661" end="665" text="CATE" abbr="cateterismo" />
+<annotation id="32204" tag="Temporal Concept" start="676" end="679" text="PRÉ" abbr="" />
+<annotation id="32205" tag="Temporal Concept" start="708" end="711" text="PÓS" abbr="" />
+<annotation id="32206" tag="Health Care Activity" start="910" end="917" text="AMNTIDO" abbr="" />
+<annotation id="32207" tag="Abbreviation|Disease or Syndrome" start="20" end="29" text="IC CF III" />
+<annotation id="32208" tag="Abbreviation|Temporal Concept|Quantitative Concept" start="138" end="145" text="12/12 H" />
+<annotation id="32209" tag="Quantitative Concept" start="158" end="164" text="12 , 5MG" />
+<annotation id="32210" tag="Quantitative Concept|Temporal Concept" start="165" end="176" text="12/12 HORAS" />
+<annotation id="32211" tag="Abbreviation|Diagnostic Procedure" start="238" end="258" text="ECOCARDIO COM STRESS" />
+<annotation id="32212" tag="Abbreviation|Laboratory or Test Result" start="271" end="326" text="AUMENTO DE CABIDADES ESQUERDA COM FUNÇÃO DE VE REDUZIDA" />
+<annotation id="32213" tag="Laboratory or Test Result" start="328" end="365" text="REFLUXO MITRAL MODERADO / IMPORTANTES" />
+<annotation id="32214" tag="Laboratory or Test Result" start="367" end="391" text="REFLUXO AORTICO MODERADO" />
+<annotation id="32215" tag="Laboratory or Test Result" start="393" end="420" text="REFLUXO TRICUSPIDE DISCRETO" />
+<annotation id="32216" tag="Health Care Activity" start="432" end="453" text="AVALIAÇÃO DA ISQUEMIA" />
+<annotation id="32217" tag="Sign or Symptom" start="458" end="480" text="DISFUNÇÃO SEVERA DO VE" />
+<annotation id="32218" tag="Abbreviation|Laboratory or Test Result" start="493" end="506" text="PADRÃO DE BRE" />
+<annotation id="32219" tag="Diagnostic Procedure|Therapeutic or Preventive Procedure" start="511" end="536" text="AVALIAÇÃO PRÉ-TRANSPLANTE" />
+<annotation id="32220" tag="Diagnostic Procedure" start="541" end="571" text="DOPPLER CAROTIDAS + VERTEBRAIS" />
+<annotation id="32221" tag="Abbreviation|Body Part, Organ, or Organ Component" start="573" end="583" text="CERVICAL D" />
+<annotation id="32222" tag="Laboratory or Test Result" start="595" end="634" text="ESTENOSE 20-30% NA BIFURCAÇÃO CAROTÍDEA" />
+<annotation id="32223" tag="Abbreviation|Laboratory or Test Result" start="681" end="689" text="RVP 2 , 19" />
+<annotation id="32224" tag="Abbreviation|Laboratory or Test Result" start="693" end="699" text="RVS 24" />
+<annotation id="32225" tag="Abbreviation|Laboratory or Test Result" start="713" end="721" text="RVP 2 , 08" />
+<annotation id="32226" tag="Abbreviation|Laboratory or Test Result" start="725" end="734" text="RVS 12 , 59" />
+<annotation id="32227" tag="Abbreviation|Laboratory or Test Result|Laboratory Procedure" start="736" end="746" text="EXAMES LAB" />
+<annotation id="32228" tag="Abbreviation|Laboratory or Test Result" start="757" end="763" text="NA 141" />
+<annotation id="32229" tag="Abbreviation|Laboratory or Test Result" start="765" end="768" text="K 5" />
+<annotation id="32230" tag="Abbreviation|Laboratory or Test Result" start="770" end="777" text="CREAT 1" />
+<annotation id="32231" tag="Abbreviation|Laboratory or Test Result" start="779" end="785" text="GLI 89" />
+<annotation id="32232" tag="Laboratory or Test Result" start="787" end="795" text="UREIA 32" />
+<annotation id="32233" tag="Abbreviation|Laboratory or Test Result" start="797" end="803" text="CPK 81" />
+<annotation id="32234" tag="Abbreviation|Laboratory or Test Result" start="805" end="817" text="AC URICO 4 , 9" />
+<annotation id="32235" tag="Abbreviation|Laboratory or Test Result" start="819" end="825" text="TG 102" />
+<annotation id="32236" tag="Abbreviation|Laboratory or Test Result" start="827" end="833" text="TGP 36" />
+<annotation id="32237" tag="Abbreviation|Laboratory or Test Result" start="835" end="841" text="HDL 41" />
+<annotation id="32238" tag="Abbreviation|Laboratory or Test Result" start="843" end="849" text="TGO 23" />
+<annotation id="32239" tag="Abbreviation|Laboratory or Test Result" start="851" end="857" text="CT 156" />
+<annotation id="32240" tag="Abbreviation|Laboratory or Test Result" start="859" end="865" text="LDL 95" />
+<annotation id="32241" tag="Abbreviation|Laboratory or Test Result" start="867" end="873" text="HMG OK" />
+<annotation id="32242" tag="Abbreviation|Laboratory or Test Result" start="875" end="883" text="TSH 1 , 83" />
+<annotation id="32243" tag="Abbreviation|Laboratory or Test Result" start="885" end="893" text="T4L 1 , 23" />
+<annotation id="32244" tag="Abbreviation|Laboratory or Test Result" start="895" end="905" text="EQU NORMAL" />
+<annotation id="32245" tag="Abbreviation|Therapeutic or Preventive Procedure" start="918" end="929" text="TTO CLINICO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="32181" annotation2="32182" reltype="negation_of" />
+<rel annotation1="32186" annotation2="32187" reltype="associated_with" />
+<rel annotation1="32188" annotation2="32209" reltype="associated_with" />
+<rel annotation1="32189" annotation2="32190" reltype="associated_with" />
+<rel annotation1="32192" annotation2="32193" reltype="associated_with" />
+<rel annotation1="32193" annotation2="32194" reltype="associated_with" />
+<rel annotation1="32195" annotation2="32196" reltype="associated_with" />
+<rel annotation1="32197" annotation2="32216" reltype="negation_of" />
+<rel annotation1="32198" annotation2="32218" reltype="associated_with" />
+<rel annotation1="32199" annotation2="32222" reltype="associated_with" />
+<rel annotation1="32201" annotation2="32202" reltype="negation_of" />
+<rel annotation1="32211" annotation2="32213" reltype="associated_with" />
+<rel annotation1="32211" annotation2="32214" reltype="associated_with" />
+<rel annotation1="32211" annotation2="32212" reltype="associated_with" />
+<rel annotation1="32211" annotation2="32215" reltype="associated_with" />
+<rel annotation1="32216" annotation2="32217" reltype="associated_with" />
+<rel annotation1="32221" annotation2="32199" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

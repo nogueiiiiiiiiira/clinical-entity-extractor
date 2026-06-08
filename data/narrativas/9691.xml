@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS, 61 ANOS
+ACOMPANHAMENTO HÁ 1 ANO
+
+# HAS
+# IC
+# HIPOTIREOIDISMO
+# MIOCARDIOPATIA DILATADA
+# IMPLANTE DE RESSINCRONIZADOR / DESFIBRILADOR EM MAIO/2012
+# DEPRESSÃO
+
+EM USO: CARVEDILOL 50 MG 2X/D + MONONITRATO DE ISOSSORBITA 20 MG 2X/D + ANCORON (AMIODARONA) 200 MG 2X/D + ESPIRONOLACTONA 25 MG /D + FUROSEMIDA 40 MG 2X/D + LOSARTAN 50 MG 2X/D + DIGOXINA 0,25 MG /D + SINVASTATINA 40 MG /D + LEVOTIROXINA 50 MCG /D + RIVOTRIL 2 MG /D + CITALOPRAM 20MG 3X/DIA.
+
+REFERE DOR PRECORDIAL LEVE A MODERADA DO TIPO QUEIMAÇÃO, SEM IRRADIAÇÃO, SEM PIORA AOS ESFORÇOS.
+DISPNEIA, MAL ESTAR E FADIGA AO SUBIR ESCADAS, ANDAR RÁPIDO. NEGA ORTOPNEIA E DPN.
+NEGA TOSSE E EDEMA.
+
+HÁ 2 ANOS NÃO FAZ REVISÃO DO MP.
+
+# HMP: 
+1 CESAREA PRÉVIA, LIPOASPIRAÇÃO.
+NEGA ALERGIAS.
+JÁ REALIZOU 3 CATETERISMOS, CINTILOGRAFIA E EXAMES PARA DOENÇA DE CHAGAS.
+
+# HMA:
+AVÓ TEVE IAM.
+
+# CHDV
+NEGA TABAGISMO, NEGA ETILISMO, NEGA EXERCÍCIO FÍSICO.
+
+EXAMES:
+HB 14,7.
+HT 43,9%.
+CREATININA 0,8.
+GLICOSE 87.
+UREIA 48 48.
+HDL 28.
+SODIO 139.
+POTASSIO 4,8.
+COLESTEROL TOTAL 268.
+TSH 5,87.
+T4 LIVRE 0,86.
+TRIGLICERIDEOS 626.
+
+STRESS FARMACOLOGICO COM DIPIRIDAMOL: ECOCARDIOGRAMA DE STRESS FARMACOLOGICO SEM EVIDENCIA DE ISQUEMIA MIOCÁRDICA.
+
+CONDUTA: AUMENTO DA DOSE DE LEVOTIROXINA PARA 100 MCG, CIPROFIBRATO 100MG 1X/DIA, FUROSEMIDA SE FALTA DE AR, SINVASTATINA PARA 40MG, HIDRALAZINA 25MG DE 8/8H.
+EXAMES DE TSH, T4 LIVRE, CK, TGO E TGP E PERFIL LIPIDICO. 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="34299" tag="Health Care Activity" start="16" end="30" text="ACOMPANHAMENTO" abbr="" />
+<annotation id="34300" tag="Disease or Syndrome|Abbreviation" start="45" end="48" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="34301" tag="Abbreviation|Disease or Syndrome" start="52" end="54" text="IC" abbr="" />
+<annotation id="34302" tag="Disease or Syndrome" start="58" end="73" text="HIPOTIREOIDISMO" abbr="" />
+<annotation id="34303" tag="Therapeutic or Preventive Procedure|Medical Device" start="135" end="148" text="DESFIBRILADOR" abbr="" />
+<annotation id="34304" tag="Disease or Syndrome" start="165" end="174" text="DEPRESSÃO" abbr="" />
+<annotation id="34305" tag="Organic Chemical|Pharmacologic Substance" start="186" end="196" text="CARVEDILOL" abbr="" />
+<annotation id="34306" tag="Temporal Concept|Quantitative Concept" start="203" end="207" text="2X/D" abbr="" />
+<annotation id="34307" tag="Quantitative Concept|Temporal Concept" start="243" end="247" text="2X/D" abbr="" />
+<annotation id="34308" tag="Organic Chemical" start="250" end="257" text="ANCORON" abbr="" />
+<annotation id="34309" tag="Organic Chemical" start="259" end="269" text="AMIODARONA" abbr="" />
+<annotation id="34310" tag="Quantitative Concept|Temporal Concept" start="278" end="282" text="2X/D" abbr="" />
+<annotation id="34311" tag="Pharmacologic Substance|Organic Chemical" start="285" end="300" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="34312" tag="Temporal Concept" start="307" end="309" text="/D" abbr="" />
+<annotation id="34313" tag="Organic Chemical|Pharmacologic Substance" start="312" end="322" text="FUROSEMIDA" abbr="" />
+<annotation id="34314" tag="Temporal Concept|Quantitative Concept" start="329" end="333" text="2X/D" abbr="" />
+<annotation id="34315" tag="Pharmacologic Substance|Organic Chemical" start="336" end="344" text="LOSARTAN" abbr="" />
+<annotation id="34316" tag="Quantitative Concept|Temporal Concept" start="351" end="355" text="2X/D" abbr="" />
+<annotation id="34317" tag="Organic Chemical|Pharmacologic Substance" start="358" end="366" text="DIGOXINA" abbr="" />
+<annotation id="34318" tag="Temporal Concept" start="375" end="377" text="/D" abbr="" />
+<annotation id="34319" tag="Pharmacologic Substance|Organic Chemical" start="380" end="392" text="SINVASTATINA" abbr="" />
+<annotation id="34320" tag="Temporal Concept" start="399" end="401" text="/D" abbr="" />
+<annotation id="34321" tag="Organic Chemical|Pharmacologic Substance" start="404" end="416" text="LEVOTIROXINA" abbr="" />
+<annotation id="34322" tag="Temporal Concept" start="424" end="426" text="/D" abbr="" />
+<annotation id="34323" tag="Pharmacologic Substance|Organic Chemical" start="429" end="437" text="RIVOTRIL" abbr="" />
+<annotation id="34324" tag="Temporal Concept" start="443" end="445" text="/D" abbr="" />
+<annotation id="34325" tag="Pharmacologic Substance|Organic Chemical" start="448" end="458" text="CITALOPRAM" abbr="" />
+<annotation id="34326" tag="Quantitative Concept" start="459" end="463" text="20MG" abbr="" />
+<annotation id="34327" tag="Quantitative Concept|Temporal Concept" start="464" end="470" text="3X/DIA" abbr="" />
+<annotation id="34328" tag="Qualitative Concept" start="497" end="501" text="LEVE" abbr="" />
+<annotation id="34329" tag="Qualitative Concept" start="504" end="512" text="MODERADA" abbr="" />
+<annotation id="34330" tag="Negation|Negation" start="532" end="535" text="SEM" abbr="" />
+<annotation id="34331" tag="Sign or Symptom" start="536" end="546" text="IRRADIAÇÃO" abbr="" />
+<annotation id="34332" tag="Negation|Negation" start="548" end="551" text="SEM" abbr="" />
+<annotation id="34333" tag="Sign or Symptom" start="573" end="581" text="DISPNEIA" abbr="" />
+<annotation id="34334" tag="Negation" start="634" end="638" text="NEGA" abbr="" />
+<annotation id="34335" tag="Sign or Symptom" start="639" end="648" text="ORTOPNEIA" abbr="" />
+<annotation id="34336" tag="Abbreviation|Sign or Symptom" start="651" end="654" text="DPN" abbr="" />
+<annotation id="34337" tag="Negation" start="657" end="661" text="NEGA" abbr="" />
+<annotation id="34338" tag="Sign or Symptom" start="662" end="667" text="TOSSE" abbr="" />
+<annotation id="34339" tag="Pathologic Function|Sign or Symptom" start="670" end="675" text="EDEMA" abbr="" />
+<annotation id="34340" tag="Negation" start="690" end="693" text="NÃO" abbr="" />
+<annotation id="34341" tag="Health Care Activity" start="698" end="705" text="REVISÃO" abbr="" />
+<annotation id="34342" tag="Abbreviation" start="709" end="711" text="MP" abbr="" />
+<annotation id="34343" tag="Abbreviation|Finding" start="718" end="721" text="HMP" abbr="" />
+<annotation id="34344" tag="Quantitative Concept" start="725" end="726" text="1" abbr="" />
+<annotation id="34345" tag="Therapeutic or Preventive Procedure" start="727" end="734" text="CESAREA" abbr="" />
+<annotation id="34346" tag="Temporal Concept" start="735" end="741" text="PRÉVIA" abbr="" />
+<annotation id="34347" tag="Therapeutic or Preventive Procedure" start="743" end="756" text="LIPOASPIRAÇÃO" abbr="" />
+<annotation id="34348" tag="Negation" start="759" end="763" text="NEGA" abbr="" />
+<annotation id="34349" tag="Disease or Syndrome" start="764" end="772" text="ALERGIAS" abbr="" />
+<annotation id="34350" tag="Quantitative Concept" start="787" end="788" text="3" abbr="" />
+<annotation id="34351" tag="Therapeutic or Preventive Procedure" start="789" end="801" text="CATETERISMOS" abbr="" />
+<annotation id="34352" tag="Diagnostic Procedure" start="803" end="816" text="CINTILOGRAFIA" abbr="" />
+<annotation id="34353" tag="Diagnostic Procedure" start="819" end="825" text="EXAMES" abbr="" />
+<annotation id="34354" tag="Finding|Abbreviation" start="854" end="857" text="HMA" abbr="história mórbida atual" />
+<annotation id="34355" tag="Family Group" start="860" end="863" text="AVÓ" abbr="" />
+<annotation id="34356" tag="Abbreviation|Disease or Syndrome" start="869" end="872" text="IAM" abbr="" />
+<annotation id="34357" tag="Abbreviation" start="879" end="883" text="CHDV" abbr="condições e hábitos de vida" />
+<annotation id="34358" tag="Negation" start="885" end="889" text="NEGA" abbr="" />
+<annotation id="34359" tag="Disease or Syndrome" start="890" end="899" text="TABAGISMO" abbr="" />
+<annotation id="34360" tag="Negation" start="901" end="905" text="NEGA" abbr="" />
+<annotation id="34361" tag="Disease or Syndrome" start="906" end="914" text="ETILISMO" abbr="" />
+<annotation id="34362" tag="Negation" start="916" end="920" text="NEGA" abbr="" />
+<annotation id="34363" tag="Diagnostic Procedure|Laboratory Procedure" start="942" end="948" text="EXAMES" abbr="" />
+<annotation id="34364" tag="Organic Chemical|Pharmacologic Substance" start="1150" end="1161" text="DIPIRIDAMOL" abbr="" />
+<annotation id="34365" tag="Negation|Negation" start="1202" end="1205" text="SEM" abbr="" />
+<annotation id="34366" tag="Intellectual Product|Health Care Activity" start="1243" end="1250" text="CONDUTA" abbr="" />
+<annotation id="34367" tag="Organic Chemical|Pharmacologic Substance" start="1271" end="1283" text="LEVOTIROXINA" abbr="" />
+<annotation id="34368" tag="Organic Chemical|Pharmacologic Substance" start="1298" end="1310" text="CIPROFIBRATO" abbr="" />
+<annotation id="34369" tag="Quantitative Concept" start="1311" end="1316" text="100MG" abbr="" />
+<annotation id="34370" tag="Temporal Concept" start="1317" end="1323" text="1X/DIA" abbr="" />
+<annotation id="34371" tag="Pharmacologic Substance|Organic Chemical" start="1325" end="1335" text="FUROSEMIDA" abbr="" />
+<annotation id="34372" tag="Organic Chemical|Pharmacologic Substance" start="1352" end="1364" text="SINVASTATINA" abbr="" />
+<annotation id="34373" tag="Quantitative Concept" start="1370" end="1374" text="40MG" abbr="" />
+<annotation id="34374" tag="Organic Chemical|Pharmacologic Substance" start="1376" end="1387" text="HIDRALAZINA" abbr="" />
+<annotation id="34375" tag="Quantitative Concept" start="1388" end="1392" text="25MG" abbr="" />
+<annotation id="34376" tag="Temporal Concept" start="1396" end="1400" text="8/8H" abbr="" />
+<annotation id="34377" tag="Laboratory Procedure" start="1428" end="1430" text="CK" abbr="" />
+<annotation id="34378" tag="Laboratory Procedure" start="1432" end="1435" text="TGO" abbr="" />
+<annotation id="34379" tag="Laboratory Procedure" start="1438" end="1441" text="TGP" abbr="" />
+<annotation id="34380" tag="Temporal Concept" start="31" end="39" text="HÁ 1 ANO" />
+<annotation id="34381" tag="Disease or Syndrome" start="77" end="100" text="MIOCARDIOPATIA DILATADA" />
+<annotation id="34382" tag="Finding|Therapeutic or Preventive Procedure" start="104" end="132" text="IMPLANTE DE RESSINCRONIZADOR" />
+<annotation id="34383" tag="Quantitative Concept" start="197" end="202" text="50 MG" />
+<annotation id="34384" tag="Organic Chemical|Pharmacologic Substance" start="210" end="236" text="MONONITRATO DE ISOSSORBITA" />
+<annotation id="34385" tag="Quantitative Concept" start="237" end="242" text="20 MG" />
+<annotation id="34386" tag="Quantitative Concept" start="271" end="277" text="200 MG" />
+<annotation id="34387" tag="Quantitative Concept" start="301" end="306" text="25 MG" />
+<annotation id="34388" tag="Quantitative Concept" start="323" end="328" text="40 MG" />
+<annotation id="34389" tag="Quantitative Concept" start="345" end="350" text="50 MG" />
+<annotation id="34390" tag="Quantitative Concept" start="367" end="374" text="0 , 25 MG" />
+<annotation id="34391" tag="Quantitative Concept" start="393" end="398" text="40 MG" />
+<annotation id="34392" tag="Quantitative Concept" start="417" end="423" text="50 MCG" />
+<annotation id="34393" tag="Quantitative Concept" start="438" end="442" text="2 MG" />
+<annotation id="34394" tag="Sign or Symptom" start="482" end="496" text="DOR PRECORDIAL" />
+<annotation id="34395" tag="Qualitative Concept" start="516" end="530" text="TIPO QUEIMAÇÃO" />
+<annotation id="34396" tag="Sign or Symptom" start="552" end="570" text="PIORA AOS ESFORÇOS" />
+<annotation id="34397" tag="Sign or Symptom" start="583" end="592" text="MAL ESTAR" />
+<annotation id="34398" tag="Sign or Symptom" start="595" end="618" text="FADIGA AO SUBIR ESCADAS" />
+<annotation id="34399" tag="Finding" start="620" end="632" text="ANDAR RÁPIDO" />
+<annotation id="34400" tag="Temporal Concept" start="680" end="689" text="HÁ 2 ANOS" />
+<annotation id="34401" tag="Disease or Syndrome" start="831" end="847" text="DOENÇA DE CHAGAS" />
+<annotation id="34402" tag="Finding|Health Care Activity" start="921" end="937" text="EXERCÍCIO FÍSICO" />
+<annotation id="34403" tag="Laboratory or Test Result|Abbreviation" start="951" end="958" text="HB 14 , 7" />
+<annotation id="34404" tag="Abbreviation|Laboratory or Test Result" start="961" end="969" text="HT 43 , 9%" />
+<annotation id="34405" tag="Laboratory or Test Result" start="972" end="986" text="CREATININA 0 , 8" />
+<annotation id="34406" tag="Laboratory or Test Result" start="989" end="999" text="GLICOSE 87" />
+<annotation id="34407" tag="Laboratory or Test Result" start="1002" end="1013" text="UREIA 48 48" />
+<annotation id="34408" tag="Laboratory or Test Result" start="1016" end="1022" text="HDL 28" />
+<annotation id="34409" tag="Laboratory or Test Result" start="1025" end="1034" text="SODIO 139" />
+<annotation id="34410" tag="Laboratory or Test Result" start="1037" end="1049" text="POTASSIO 4 , 8" />
+<annotation id="34411" tag="Laboratory or Test Result" start="1052" end="1072" text="COLESTEROL TOTAL 268" />
+<annotation id="34412" tag="Laboratory or Test Result" start="1075" end="1083" text="TSH 5 , 87" />
+<annotation id="34413" tag="Laboratory or Test Result" start="1086" end="1099" text="T4 LIVRE 0 , 86" />
+<annotation id="34414" tag="Laboratory or Test Result" start="1102" end="1120" text="TRIGLICERIDEOS 626" />
+<annotation id="34415" tag="Diagnostic Procedure" start="1125" end="1145" text="STRESS FARMACOLOGICO" />
+<annotation id="34416" tag="Diagnostic Procedure" start="1163" end="1201" text="ECOCARDIOGRAMA DE STRESS FARMACOLOGICO" />
+<annotation id="34417" tag="Laboratory or Test Result" start="1206" end="1238" text="EVIDENCIA DE ISQUEMIA MIOCÁRDICA" />
+<annotation id="34418" tag="Health Care Activity" start="1252" end="1267" text="AUMENTO DA DOSE" />
+<annotation id="34419" tag="Quantitative Concept" start="1289" end="1296" text="100 MCG" />
+<annotation id="34420" tag="Sign or Symptom" start="1339" end="1350" text="FALTA DE AR" />
+<annotation id="34421" tag="Laboratory Procedure" start="1403" end="1416" text="EXAMES DE TSH" />
+<annotation id="34422" tag="Laboratory Procedure" start="1418" end="1426" text="T4 LIVRE" />
+<annotation id="34423" tag="Laboratory Procedure" start="1444" end="1459" text="PERFIL LIPIDICO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="34299" annotation2="34380" reltype="associated_with" />
+<rel annotation1="34305" annotation2="34383" reltype="associated_with" />
+<rel annotation1="34305" annotation2="34306" reltype="associated_with" />
+<rel annotation1="34309" annotation2="34386" reltype="associated_with" />
+<rel annotation1="34309" annotation2="34310" reltype="associated_with" />
+<rel annotation1="34311" annotation2="34387" reltype="associated_with" />
+<rel annotation1="34311" annotation2="34312" reltype="associated_with" />
+<rel annotation1="34313" annotation2="34388" reltype="associated_with" />
+<rel annotation1="34313" annotation2="34314" reltype="associated_with" />
+<rel annotation1="34315" annotation2="34389" reltype="associated_with" />
+<rel annotation1="34315" annotation2="34316" reltype="associated_with" />
+<rel annotation1="34317" annotation2="34390" reltype="associated_with" />
+<rel annotation1="34317" annotation2="34318" reltype="associated_with" />
+<rel annotation1="34319" annotation2="34391" reltype="associated_with" />
+<rel annotation1="34319" annotation2="34320" reltype="associated_with" />
+<rel annotation1="34321" annotation2="34392" reltype="associated_with" />
+<rel annotation1="34321" annotation2="34322" reltype="associated_with" />
+<rel annotation1="34323" annotation2="34393" reltype="associated_with" />
+<rel annotation1="34323" annotation2="34324" reltype="associated_with" />
+<rel annotation1="34325" annotation2="34326" reltype="associated_with" />
+<rel annotation1="34325" annotation2="34327" reltype="associated_with" />
+<rel annotation1="34330" annotation2="34331" reltype="negation_of" />
+<rel annotation1="34332" annotation2="34396" reltype="negation_of" />
+<rel annotation1="34333" annotation2="34399" reltype="associated_with" />
+<rel annotation1="34334" annotation2="34335" reltype="negation_of" />
+<rel annotation1="34334" annotation2="34336" reltype="negation_of" />
+<rel annotation1="34337" annotation2="34338" reltype="negation_of" />
+<rel annotation1="34337" annotation2="34339" reltype="negation_of" />
+<rel annotation1="34340" annotation2="34341" reltype="negation_of" />
+<rel annotation1="34348" annotation2="34349" reltype="negation_of" />
+<rel annotation1="34358" annotation2="34359" reltype="negation_of" />
+<rel annotation1="34360" annotation2="34361" reltype="negation_of" />
+<rel annotation1="34362" annotation2="34402" reltype="negation_of" />
+<rel annotation1="34365" annotation2="34417" reltype="negation_of" />
+<rel annotation1="34384" annotation2="34385" reltype="associated_with" />
+<rel annotation1="34384" annotation2="34307" reltype="associated_with" />
+<rel annotation1="34394" annotation2="34328" reltype="associated_with" />
+<rel annotation1="34394" annotation2="34329" reltype="associated_with" />
+<rel annotation1="34394" annotation2="34395" reltype="associated_with" />
+<rel annotation1="34394" annotation2="34396" reltype="associated_with" />
+<rel annotation1="34397" annotation2="34399" reltype="associated_with" />
+<rel annotation1="34400" annotation2="34341" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

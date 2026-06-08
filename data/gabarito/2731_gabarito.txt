@@ -1,6 +1,0 @@
-Subjetivo 
- No decorrer da manhã, o [PROFISSÃO] [NOME], telefone [CONTATO], me reporta que o [PROFISSÃO] [NOME], 63 anos, [PROFISSÃO], residente na [LOCAL], apresenta tosse persistente e febrícula desde o amanhecer. Realizo uma avaliação telefônica com o [PROFISSÃO] [PROFISSÃO] [NOME], CRM [IDs], às [HORÁRIO] do dia [DATA], o qual se encontrava em atendimento no ambulatório da [ORGANIZAÇÃO]. Ele solicita a realização de exames de imagem e laboratoriais para investigar possíveis causas e promete visitar o paciente logo que possível. Número do atendimento: [IDs]
-
- Escore FUGULIN 18.00 - CUIDADOS DE MODERADA DEPENDÊNCIA 
- Escore MORSE 30.00 - RISCO MODERADO 
- Elaborado e assinado por [PROFISSÃO] [NOME], Coren [IDs] em [DATA] [HORÁRIO]

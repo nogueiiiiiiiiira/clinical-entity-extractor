@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 14/08/2015
+
+
+MCP  DILATADA  
+CINTILO  NEGATIVA  E CETS  SEM  CORONARIOPATIAS
+13-7-15  HOLTER  ALTA  DENSIDADE DE ESV  
+NAO RETORNOU  AO AMB  IC ?
+S   VERTIGEM  ESPORADICA - ASSOCIO  A  DOSE  OTIMIZADA  DE  CVD 
+P  MANETNHO CVD  12,5 12-12 
+MANTENHO AAS    SVT
+ENCAMINHAO AO AMB  ARRITMIAS   VIA ROTA
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="43~56" text="MCP  DILATADA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="59~66" text="CINTILO" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="80~84" text="CETS" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="91~106" text="CORONARIOPATIAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="116~122" text="HOLTER" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="124~146" text="ALTA  DENSIDADE DE ESV" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="153~161" text="RETORNOU" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Negativa" Modalidade="Não-Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="166~173" text="AMB  IC" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Negativa" Modalidade="Não-Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="180~200" text="VERTIGEM  ESPORADICA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="236~239" text="CVD" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="244~252" text="MANETNHO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E11" spans="253~262" text="CVD  12,5" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E12" spans="270~278" text="MANTENHO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E13" spans="279~282" text="AAS" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E14" spans="286~289" text="SVT" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E15" spans="304~318" text="AMB  ARRITMIAS" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E16" spans="290~300" text="ENCAMINHAO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="107~114" text="13-7-15" Type="Date" Value="2015-07-13" Mod="NA" />
+<TIMEX3 id="T1" spans="263~268" text="12-12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<RELATION id="R0" fromID="E2" fromText="CETS" toID="E3" toText="CORONARIOPATIAS" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="T0" fromText="13-7-15" toID="E4" toText="HOLTER" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E4" fromText="HOLTER" toID="E5" toText="ALTA  DENSIDADE DE ESV" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E6" fromText="RETORNOU" toID="E7" toText="AMB  IC" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E8" fromText="VERTIGEM  ESPORADICA" toID="E9" toText="CVD" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E10" fromText="MANETNHO" toID="E11" toText="CVD  12,5" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E11" fromText="CVD  12,5" toID="T1" toText="12-12" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E12" fromText="MANTENHO" toID="E14" toText="SVT" Relação_Temporal="OVERLAP" />
+<RELATION id="R8" fromID="E12" fromText="MANTENHO" toID="E13" toText="AAS" Relação_Temporal="OVERLAP" />
+<RELATION id="R9" fromID="E16" fromText="ENCAMINHAO" toID="E15" toText="AMB  ARRITMIAS" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

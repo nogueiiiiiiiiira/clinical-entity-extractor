@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>ins cardiac com retorno com exames 
+chagas nao reagente em 3 metodos. 
+hb glicada 6,15 
+creat 0,91, glicose 98m ct 164, hdl 38, ldl 96, tg 151, tsh 0,96
+ecocardo ve 9,4 / 8,5, feve 20, vd 24, ae 5
+refere melhora da dispmia..
+porem ainda em classe funcional III
+prescrevo enalapril 10 / 10, furosemida 40 / 40, carvedilol 6,25 / 6,25 , apresolina 50 / 50 , espironoloactona 25 / dia
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="31872" tag="Health Care Activity" start="16" end="23" text="retorno" abbr="" />
+<annotation id="31873" tag="Laboratory Procedure" start="28" end="34" text="exames" abbr="" />
+<annotation id="31874" tag="Abbreviation|Diagnostic Procedure" start="157" end="165" text="ecocardo" abbr="" />
+<annotation id="31875" tag="Health Care Activity" start="268" end="277" text="prescrevo" abbr="" />
+<annotation id="31876" tag="Organic Chemical|Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="278" end="287" text="enalapril" abbr="" />
+<annotation id="31877" tag="Organic Chemical|Pharmacologic Substance" start="297" end="307" text="furosemida" abbr="" />
+<annotation id="31878" tag="Pharmacologic Substance|Organic Chemical" start="317" end="327" text="carvedilol" abbr="" />
+<annotation id="31879" tag="Pharmacologic Substance|Organic Chemical" start="342" end="352" text="apresolina" abbr="" />
+<annotation id="31880" tag="Pharmacologic Substance|Organic Chemical" start="363" end="379" text="espironoloactona" abbr="" />
+<annotation id="31881" tag="Quantitative Concept" start="380" end="382" text="25" abbr="" />
+<annotation id="31882" tag="Temporal Concept" start="385" end="388" text="dia" abbr="" />
+<annotation id="31883" tag="Abbreviation|Disease or Syndrome" start="0" end="11" text="ins cardiac" />
+<annotation id="31884" tag="Laboratory or Test Result" start="37" end="56" text="chagas nao reagente" />
+<annotation id="31885" tag="Abbreviation|Laboratory or Test Result" start="73" end="88" text="hb glicada 6 , 15" />
+<annotation id="31886" tag="Abbreviation|Laboratory or Test Result" start="91" end="101" text="creat 0 , 91" />
+<annotation id="31887" tag="Abbreviation|Laboratory or Test Result" start="103" end="114" text="glicose 98m" />
+<annotation id="31888" tag="Laboratory or Test Result|Abbreviation" start="115" end="121" text="ct 164" />
+<annotation id="31889" tag="Abbreviation|Laboratory or Test Result" start="123" end="129" text="hdl 38" />
+<annotation id="31890" tag="Abbreviation|Laboratory or Test Result" start="131" end="137" text="ldl 96" />
+<annotation id="31891" tag="Abbreviation|Laboratory or Test Result" start="139" end="145" text="tg 151" />
+<annotation id="31892" tag="Abbreviation|Laboratory or Test Result" start="147" end="155" text="tsh 0 , 96" />
+<annotation id="31893" tag="Abbreviation|Laboratory or Test Result" start="166" end="178" text="ve 9 , 4 / 8 , 5" />
+<annotation id="31894" tag="Abbreviation|Laboratory or Test Result" start="180" end="187" text="feve 20" />
+<annotation id="31895" tag="Abbreviation|Laboratory or Test Result" start="189" end="194" text="vd 24" />
+<annotation id="31896" tag="Abbreviation|Laboratory or Test Result" start="196" end="200" text="ae 5" />
+<annotation id="31897" tag="Finding" start="209" end="227" text="melhora da dispmia" />
+<annotation id="31898" tag="Classification" start="246" end="266" text="classe funcional III" />
+<annotation id="31899" tag="Quantitative Concept" start="288" end="295" text="10 / 10" />
+<annotation id="31900" tag="Quantitative Concept" start="308" end="315" text="40 / 40" />
+<annotation id="31901" tag="Quantitative Concept" start="328" end="339" text="6 , 25 / 6 , 25" />
+<annotation id="31902" tag="Quantitative Concept" start="353" end="360" text="50 / 50" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="31873" annotation2="31884" reltype="associated_with" />
+<rel annotation1="31873" annotation2="31885" reltype="associated_with" />
+<rel annotation1="31873" annotation2="31886" reltype="associated_with" />
+<rel annotation1="31873" annotation2="31887" reltype="associated_with" />
+<rel annotation1="31873" annotation2="31888" reltype="associated_with" />
+<rel annotation1="31873" annotation2="31889" reltype="associated_with" />
+<rel annotation1="31873" annotation2="31890" reltype="associated_with" />
+<rel annotation1="31873" annotation2="31891" reltype="associated_with" />
+<rel annotation1="31873" annotation2="31892" reltype="associated_with" />
+<rel annotation1="31873" annotation2="31874" reltype="associated_with" />
+<rel annotation1="31874" annotation2="31893" reltype="associated_with" />
+<rel annotation1="31874" annotation2="31894" reltype="associated_with" />
+<rel annotation1="31874" annotation2="31895" reltype="associated_with" />
+<rel annotation1="31874" annotation2="31896" reltype="associated_with" />
+<rel annotation1="31875" annotation2="31876" reltype="associated_with" />
+<rel annotation1="31875" annotation2="31877" reltype="associated_with" />
+<rel annotation1="31875" annotation2="31878" reltype="associated_with" />
+<rel annotation1="31875" annotation2="31879" reltype="associated_with" />
+<rel annotation1="31875" annotation2="31880" reltype="associated_with" />
+<rel annotation1="31876" annotation2="31899" reltype="associated_with" />
+<rel annotation1="31877" annotation2="31900" reltype="associated_with" />
+<rel annotation1="31878" annotation2="31901" reltype="associated_with" />
+<rel annotation1="31879" annotation2="31902" reltype="associated_with" />
+<rel annotation1="31880" annotation2="31881" reltype="associated_with" />
+<rel annotation1="31881" annotation2="31882" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

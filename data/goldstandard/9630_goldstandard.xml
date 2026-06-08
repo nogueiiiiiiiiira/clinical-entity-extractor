@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 23/11/2015
+
+
+Lucas, 68 anos, natural de Colombro e mora em Barreirinha há 66 anos, casada, do lar, dois filhos
+QP Dor retroesternal, em repouso, em pontada, sem irradiação, com duração de 10 min, escala 3, acorda a noite por causa da dor, desde a angioplastia
+HMA Ao realizar um ECG para realizaçõa de cirurgia de catarata, foi encaminhada um teste ergométrico (30/09/15) que revelou a presença de um IAM, uma semana depois realizou angioplasta (05/10/15).
+HMP Episódio de infarto no dia 05 de outubro, realizaçõa de cateterismo cardíaco esquerdo, coronariografia com ventriculografia esquerda
+Hipotireoidismo há 5 anos
+HMF Pai falecido por trombose
+mãe falecida 
+Irmão com câncer de próstata 
+CHV
+Alimentação saudável
+Nega etilismo e tabagismo 
+Alergia a penicilina
+RS
+Obstipação há 1 mês, chegando a ficar 5 dias sem ir ao banheiro
+Amnésia recente
+Sente muito desânimo, angústia, humor deprimido
+Insônia terminal
+Muito cansaço
+Medicação
+Clopidogrel 75mg, AAs 100mg, Enalapril 10mg, Omeprazol 20mg, Levotiroxina 50 microgramas, Sinvastatina 40mg
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E1" spans="144~201" text="Dor retroesternal, em repouso, em pontada, sem irradiação" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="264~267" text="dor" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="277~289" text="angioplastia" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="306~312" text="um ECG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="332~352" text="cirurgia de catarata" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="358~369" text="encaminhada" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="373~390" text="teste ergométrico" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="406~413" text="revelou" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="428~434" text="um IAM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="463~474" text="angioplasta" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="503~510" text="infarto" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="547~576" text="cateterismo cardíaco esquerdo" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="578~623" text="coronariografia com ventriculografia esquerda" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="624~639" text="Hipotireoidismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="749~753" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E16" spans="754~762" text="etilismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="765~774" text="tabagismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E20" spans="800~810" text="Obstipação" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="864~879" text="Amnésia recente" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="892~900" text="desânimo" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="902~910" text="angústia" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="912~927" text="humor deprimido" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="928~944" text="Insônia terminal" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="945~958" text="Muito cansaço" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="959~968" text="Medicação" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E28" spans="969~985" text="Clopidogrel 75mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E29" spans="987~996" text="AAs 100mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E30" spans="998~1012" text="Enalapril 10mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E31" spans="1014~1028" text="Omeprazol 20mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E32" spans="1030~1045" text="Levotiroxina 50" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E33" spans="1059~1076" text="Sinvastatina 40mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<TIMEX3 id="T0" spans="243~250" text="a noite" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T1" spans="101~111" text="há 66 anos" Type="Duration" Value="P66Y" Mod="NA" />
+<TIMEX3 id="T2" spans="218~224" text="10 min" Type="Duration" Value="PT10M" Mod="NA" />
+<TIMEX3 id="T3" spans="392~400" text="30/09/15" Type="Date" Value="2015-09-30" Mod="NA" />
+<TIMEX3 id="T4" spans="476~484" text="05/10/15" Type="Date" Value="2015-10-05" Mod="NA" />
+<TIMEX3 id="T5" spans="518~531" text="05 de outubro" Type="Date" Value="2015-10-05" Mod="NA" />
+<TIMEX3 id="T6" spans="640~649" text="há 5 anos" Type="Duration" Value="P5Y" Mod="NA" />
+<TIMEX3 id="T7" spans="811~819" text="há 1 mês" Type="Date" Value="2015-10-23" Mod="NA" />
+<TIMEX3 id="T8" spans="838~844" text="5 dias" Type="Duration" Value="P5D" Mod="NA" />
+<RELATION id="R0" fromID="E1" fromText="Dor retroesternal, em repouso, em pontada, sem irradiação" toID="E3" toText="angioplastia" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R1" fromID="E2" fromText="dor" toID="E3" toText="angioplastia" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R2" fromID="T0" fromText="a noite" toID="E1" toText="Dor retroesternal, em repouso, em pontada, sem irradiação" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="T0" fromText="a noite" toID="E2" toText="dor" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="T2" fromText="10 min" toID="E1" toText="Dor retroesternal, em repouso, em pontada, sem irradiação" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="T2" fromText="10 min" toID="E2" toText="dor" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E2" fromText="dor" toID="E1" toText="Dor retroesternal, em repouso, em pontada, sem irradiação" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E4" fromText="um ECG" toID="E5" toText="cirurgia de catarata" Relação_Temporal="BEFORE" />
+<RELATION id="R8" fromID="E6" fromText="encaminhada" toID="E7" toText="teste ergométrico" Relação_Temporal="OVERLAP" />
+<RELATION id="R9" fromID="T3" fromText="30/09/15" toID="E7" toText="teste ergométrico" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="E7" fromText="teste ergométrico" toID="E8" toText="revelou" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E8" fromText="revelou" toID="E9" toText="um IAM" Relação_Temporal="OVERLAP" />
+<RELATION id="R12" fromID="T4" fromText="05/10/15" toID="E10" toText="angioplasta" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E7" fromText="teste ergométrico" toID="E10" toText="angioplasta" Relação_Temporal="BEFORE" />
+<RELATION id="R14" fromID="E9" fromText="um IAM" toID="E10" toText="angioplasta" Relação_Temporal="BEFORE" />
+<RELATION id="R15" fromID="T5" fromText="05 de outubro" toID="E11" toText="infarto" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="E11" fromText="infarto" toID="E13" toText="coronariografia com ventriculografia esquerda" Relação_Temporal="BEFORE" />
+<RELATION id="R17" fromID="E11" fromText="infarto" toID="E12" toText="cateterismo cardíaco esquerdo" Relação_Temporal="BEFORE" />
+<RELATION id="R18" fromID="E12" fromText="cateterismo cardíaco esquerdo" toID="E13" toText="coronariografia com ventriculografia esquerda" Relação_Temporal="OVERLAP" />
+<RELATION id="R19" fromID="T6" fromText="há 5 anos" toID="E14" toText="Hipotireoidismo" Relação_Temporal="OVERLAP" />
+<RELATION id="R20" fromID="T7" fromText="há 1 mês" toID="E20" toText="Obstipação" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

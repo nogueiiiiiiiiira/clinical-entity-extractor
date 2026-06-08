@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 55 anos.
+Comorbidades: HAS.
+Medicamentos atenolol 100mg, 12-12h, 
+	diltiazen 60mg, 12-12h, 
+	Enalapril 10mg, 12-12h, 
+	HCTZ 25mg, 
+	Marevan 5mg.
+HMA: fez 02 ablações (2009 e 2010) POR PALPITAÇÕES com taquicardia atrial;
+Atualmente sente palpitações quando faz grandes esforços ; dor de cabeça que melhora com analgésico comum. 
+Relata que acompanha pressão no posto e normalmente está 120x80.
+FC: 88.
+Edema discreto mmi.
+Ausculta pulmonar e cardiaca normais.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="29394" tag="Disease or Syndrome|Disease or Syndrome" start="17" end="29" text="Comorbidades" abbr="" />
+<annotation id="29395" tag="Abbreviation|Abbreviation|Disease or Syndrome|Disease or Syndrome" start="31" end="34" text="HAS" abbr="" />
+<annotation id="29396" tag="Pharmacologic Substance|Therapeutic or Preventive Procedure" start="37" end="49" text="Medicamentos" abbr="" />
+<annotation id="29397" tag="Organic Chemical|Pharmacologic Substance" start="50" end="58" text="atenolol" abbr="" />
+<annotation id="29398" tag="Quantitative Concept" start="59" end="64" text="100mg" abbr="" />
+<annotation id="29399" tag="Quantitative Concept" start="66" end="72" text="12-12h" abbr="" />
+<annotation id="29400" tag="Pharmacologic Substance" start="77" end="86" text="diltiazen" abbr="" />
+<annotation id="29401" tag="Quantitative Concept" start="87" end="91" text="60mg" abbr="" />
+<annotation id="29402" tag="Quantitative Concept" start="93" end="99" text="12-12h" abbr="" />
+<annotation id="29403" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="104" end="113" text="Enalapril" abbr="" />
+<annotation id="29404" tag="Quantitative Concept" start="114" end="118" text="10mg" abbr="" />
+<annotation id="29405" tag="Quantitative Concept" start="120" end="126" text="12-12h" abbr="" />
+<annotation id="29406" tag="Organic Chemical|Abbreviation|Pharmacologic Substance|Pharmacologic Substance|Abbreviation" start="131" end="135" text="HCTZ" abbr="hidroclorotiazida" />
+<annotation id="29407" tag="Quantitative Concept" start="136" end="140" text="25mg" abbr="" />
+<annotation id="29408" tag="Pharmacologic Substance" start="145" end="152" text="Marevan" abbr="" />
+<annotation id="29409" tag="Quantitative Concept" start="153" end="156" text="5mg" abbr="" />
+<annotation id="29410" tag="Quantitative Concept" start="168" end="170" text="02" abbr="" />
+<annotation id="29411" tag="Therapeutic or Preventive Procedure" start="171" end="179" text="ablações" abbr="" />
+<annotation id="29412" tag="Sign or Symptom" start="198" end="209" text="PALPITAÇÕES" abbr="" />
+<annotation id="29413" tag="Sign or Symptom" start="252" end="263" text="palpitações" abbr="" />
+<annotation id="29414" tag="Finding|Finding" start="312" end="319" text="melhora" abbr="" />
+<annotation id="29415" tag="Health Care Activity" start="355" end="364" text="acompanha" abbr="" />
+<annotation id="29416" tag="Clinical Attribute" start="365" end="372" text="pressão" abbr="" />
+<annotation id="29417" tag="Health Care Related Organization" start="376" end="381" text="posto" abbr="" />
+<annotation id="29418" tag="Quantitative Concept" start="401" end="407" text="120x80" abbr="" />
+<annotation id="29419" tag="Abbreviation|Clinical Attribute|Clinical Attribute|Abbreviation" start="410" end="412" text="FC" abbr="frequência cardíaca" />
+<annotation id="29420" tag="Quantitative Concept" start="414" end="416" text="88" abbr="" />
+<annotation id="29421" tag="Sign or Symptom" start="419" end="424" text="Edema" abbr="" />
+<annotation id="29422" tag="Body Part, Organ, or Organ Component|Abbreviation" start="434" end="437" text="mmi" abbr="membros inferiores" />
+<annotation id="29423" tag="Organ or Tissue Function|Abbreviation" start="460" end="468" text="cardiaca" abbr="" />
+<annotation id="29424" tag="Finding|Finding" start="469" end="476" text="normais" abbr="" />
+<annotation id="29425" tag="Laboratory or Test Result" start="214" end="232" text="taquicardia atrial" />
+<annotation id="29426" tag="Sign or Symptom" start="294" end="307" text="dor de cabeça" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="29397" annotation2="29398" reltype="associated_with" />
+<rel annotation1="29400" annotation2="29401" reltype="associated_with" />
+<rel annotation1="29403" annotation2="29404" reltype="associated_with" />
+<rel annotation1="29406" annotation2="29407" reltype="associated_with" />
+<rel annotation1="29408" annotation2="29409" reltype="associated_with" />
+<rel annotation1="29414" annotation2="29426" reltype="associated_with" />
+<rel annotation1="29419" annotation2="29420" reltype="associated_with" />
+<rel annotation1="29423" annotation2="29424" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># IAM 2013 + ATC
+# HAS
+#  DM
+#  TBG ATIVA
+
+# ECG FC 50 BS ZEI AS IS AL.
+#  CINTILO: FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR E ANTERO SEPTAL DISCRETA ISQUEMIA ASSOCIADA,
+FE 23-28%.
+# CINTILOGRAFIA 16/01/15: HIPOPERFUSÃO ACENTUADA E PERSISTENTE NO APICE E MEDIO APICAL PAREDE ANTERIOR E ANTERO SEPTAL VE. HIPOCINESIA DIFUSA DAS PAREDES DO VE, ANTERIOR E APICAL. FE 23---28%.
+# TESTE ESFORÇO 16/01/15: AUSENCIA DE MANIFESTAÇÕES ELETROCARDIOGRAFICAS SUJESTIVAS DE ISQUEMIA MIOCARDICA.
+
+EM USO DE: AAS 100MG DIA, CARVEDILOL 25MG DIA, ENALAPRIL 10MG 1/2CP 1X DIA, METFORMINA 850MG 1CP AO DIA, SINVASTATINA 80MG A NOITE.
+
+S: PACIENTE REFERE CONSEGUIR REALIZAR AS ATIVIDADES DIARIAS SEM LIMITAÇÕES, APRESENTANDO APENAS QUADRO DE DISPNEIA AOS GRANDES ESFORÇOS.
+NEGA DISPNEIA PAROXISTICA NOTURNA OU ORTOPNEIA.
+REFERE EPISOIDOS ESPORADICOS DE PALPITAÇÃO, SEM SINTOMAS ASSOCIADOS.
+NEGA DOR TORACICA.
+
+
+EXAME FISICO:
+BEG, HIDRATADA, NORMOCORADA, ACIANOTICA.
+FC 64, PA 130/80, SAT 97%, P: 61KG.
+AFEBRIL,
+ACV: BRNF2T SEM SOPRO AUDIVEL.
+
+P: oTIMIZADO TRATAMENTO COM CARVEDILOL 12,5MG 12/12 H, ENALAPRIL 5 MG 12/12H E INICIADO ESPIRONOLACTONA 25MG DE MANHA.
+SOLICITADO EXAMES LABORATORIAIS DE CONTROLE.
+SOLICITADO ECOCARDIO DE CONTROLE.
+ORIENTADA A CESSAR O TABAGISMO E ENCAMINHADA AO PROGRAMA DE ABANDONO AO TABAGISMO.
+RETORNO COM EXAMES.
+
+R3 CARDIO LUCAS
+Doutor Vital Brazil </TEXT>
+<TAGS>
+<annotation id="33050" tag="Abbreviation|Disease or Syndrome|Finding" start="2" end="5" text="IAM" abbr="" />
+<annotation id="33051" tag="Temporal Concept" start="6" end="10" text="2013" abbr="" />
+<annotation id="33052" tag="Abbreviation|Therapeutic or Preventive Procedure" start="13" end="16" text="ATC" abbr="" />
+<annotation id="33053" tag="Disease or Syndrome|Abbreviation" start="20" end="23" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="33054" tag="Disease or Syndrome|Finding|Abbreviation" start="28" end="30" text="DM" abbr="diabetes mellitus" />
+<annotation id="33055" tag="Diagnostic Procedure|Abbreviation" start="50" end="53" text="ECG" abbr="ecocardiograma" />
+<annotation id="33056" tag="Abbreviation|Laboratory or Test Result" start="60" end="62" text="BS" abbr="" />
+<annotation id="33057" tag="Abbreviation|Laboratory or Test Result" start="63" end="66" text="ZEI" abbr="" />
+<annotation id="33058" tag="Abbreviation|Laboratory or Test Result" start="67" end="69" text="AS" abbr="" />
+<annotation id="33059" tag="Laboratory or Test Result|Abbreviation" start="70" end="72" text="IS" abbr="" />
+<annotation id="33060" tag="Laboratory or Test Result|Abbreviation" start="73" end="75" text="AL" abbr="" />
+<annotation id="33061" tag="Abbreviation|Diagnostic Procedure" start="81" end="88" text="CINTILO" abbr="" />
+<annotation id="33062" tag="Diagnostic Procedure" start="205" end="218" text="CINTILOGRAFIA" abbr="" />
+<annotation id="33063" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="519" end="522" text="AAS" abbr="" />
+<annotation id="33064" tag="Quantitative Concept" start="523" end="528" text="100MG" abbr="" />
+<annotation id="33065" tag="Temporal Concept" start="529" end="532" text="DIA" abbr="" />
+<annotation id="33066" tag="Organic Chemical|Pharmacologic Substance" start="534" end="544" text="CARVEDILOL" abbr="" />
+<annotation id="33067" tag="Quantitative Concept" start="545" end="549" text="25MG" abbr="" />
+<annotation id="33068" tag="Temporal Concept" start="550" end="553" text="DIA" abbr="" />
+<annotation id="33069" tag="Organic Chemical|Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="555" end="564" text="ENALAPRIL" abbr="" />
+<annotation id="33070" tag="Quantitative Concept" start="565" end="569" text="10MG" abbr="" />
+<annotation id="33071" tag="Pharmacologic Substance|Organic Chemical" start="584" end="594" text="METFORMINA" abbr="" />
+<annotation id="33072" tag="Quantitative Concept" start="595" end="600" text="850MG" abbr="" />
+<annotation id="33073" tag="Pharmacologic Substance|Organic Chemical" start="613" end="625" text="SINVASTATINA" abbr="" />
+<annotation id="33074" tag="Quantitative Concept" start="626" end="630" text="80MG" abbr="" />
+<annotation id="33075" tag="Abbreviation|Finding" start="643" end="644" text="S" abbr="" />
+<annotation id="33076" tag="Patient or Disabled Group" start="646" end="654" text="PACIENTE" abbr="" />
+<annotation id="33077" tag="Negation" start="703" end="706" text="SEM" abbr="" />
+<annotation id="33078" tag="Sign or Symptom" start="707" end="717" text="LIMITAÇÕES" abbr="" />
+<annotation id="33079" tag="Negation" start="781" end="785" text="NEGA" abbr="" />
+<annotation id="33080" tag="Sign or Symptom" start="818" end="827" text="ORTOPNEIA" abbr="" />
+<annotation id="33081" tag="Negation" start="874" end="877" text="SEM" abbr="" />
+<annotation id="33082" tag="Negation" start="900" end="904" text="NEGA" abbr="" />
+<annotation id="33083" tag="Abbreviation|Finding" start="939" end="942" text="BEG" abbr="" />
+<annotation id="33084" tag="Finding" start="944" end="953" text="HIDRATADA" abbr="" />
+<annotation id="33085" tag="Finding" start="955" end="966" text="NORMOCORADA" abbr="" />
+<annotation id="33086" tag="Negation|Sign or Symptom" start="968" end="978" text="ACIANOTICA" abbr="" />
+<annotation id="33087" tag="Clinical Attribute|Abbreviation" start="981" end="983" text="FC" abbr="frequência cardíaca" />
+<annotation id="33088" tag="Quantitative Concept" start="984" end="986" text="64" abbr="" />
+<annotation id="33089" tag="Abbreviation|Clinical Attribute" start="988" end="990" text="PA" abbr="" />
+<annotation id="33090" tag="Quantitative Concept" start="991" end="997" text="130/80" abbr="" />
+<annotation id="33091" tag="Clinical Attribute|Abbreviation|Organism Attribute" start="1008" end="1009" text="P" abbr="" />
+<annotation id="33092" tag="Quantitative Concept" start="1011" end="1015" text="61KG" abbr="" />
+<annotation id="33093" tag="Sign or Symptom|Negation" start="1018" end="1025" text="AFEBRIL" abbr="" />
+<annotation id="33094" tag="Abbreviation|Diagnostic Procedure" start="1028" end="1031" text="ACV" abbr="" />
+<annotation id="33095" tag="Negation" start="1040" end="1043" text="SEM" abbr="" />
+<annotation id="33096" tag="Intellectual Product|Abbreviation" start="1062" end="1063" text="P" abbr="" />
+<annotation id="33097" tag="Organic Chemical|Pharmacologic Substance" start="1090" end="1100" text="CARVEDILOL" abbr="" />
+<annotation id="33098" tag="Pharmacologic Substance" start="1117" end="1126" text="ENALAPRIL" abbr="" />
+<annotation id="33099" tag="Temporal Concept" start="1132" end="1138" text="12/12H" abbr="" />
+<annotation id="33100" tag="Health Care Activity" start="1141" end="1149" text="INICIADO" abbr="" />
+<annotation id="33101" tag="Organic Chemical|Pharmacologic Substance" start="1150" end="1165" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="33102" tag="Quantitative Concept" start="1166" end="1170" text="25MG" abbr="" />
+<annotation id="33103" tag="Temporal Concept" start="1174" end="1179" text="MANHA" abbr="" />
+<annotation id="33104" tag="Health Care Activity" start="1182" end="1192" text="SOLICITADO" abbr="" />
+<annotation id="33105" tag="Health Care Activity" start="1228" end="1238" text="SOLICITADO" abbr="" />
+<annotation id="33106" tag="Diagnostic Procedure|Abbreviation" start="1239" end="1248" text="ECOCARDIO" abbr="ecocardiograma de controle" />
+<annotation id="33107" tag="Abbreviation|Disease or Syndrome" start="35" end="44" text="TBG ATIVA" />
+<annotation id="33108" tag="Laboratory or Test Result" start="54" end="59" text="FC 50" />
+<annotation id="33109" tag="Laboratory or Test Result" start="90" end="144" text="FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR" />
+<annotation id="33110" tag="Laboratory or Test Result" start="147" end="188" text="ANTERO SEPTAL DISCRETA ISQUEMIA ASSOCIADA" />
+<annotation id="33111" tag="Abbreviation|Laboratory or Test Result" start="191" end="200" text="FE 23-28%" />
+<annotation id="33112" tag="Laboratory or Test Result" start="229" end="289" text="HIPOPERFUSÃO ACENTUADA E PERSISTENTE NO APICE E MEDIO APICAL" />
+<annotation id="33113" tag="Abbreviation|Laboratory or Test Result" start="290" end="324" text="PAREDE ANTERIOR E ANTERO SEPTAL VE" />
+<annotation id="33114" tag="Abbreviation|Laboratory or Test Result" start="326" end="362" text="HIPOCINESIA DIFUSA DAS PAREDES DO VE" />
+<annotation id="33115" tag="Laboratory or Test Result" start="364" end="381" text="ANTERIOR E APICAL" />
+<annotation id="33116" tag="Abbreviation|Laboratory or Test Result" start="383" end="394" text="FE 23---28%" />
+<annotation id="33117" tag="Diagnostic Procedure" start="399" end="412" text="TESTE ESFORÇO" />
+<annotation id="33118" tag="Laboratory or Test Result" start="423" end="503" text="AUSENCIA DE MANIFESTAÇÕES ELETROCARDIOGRAFICAS SUJESTIVAS DE ISQUEMIA MIOCARDICA" />
+<annotation id="33119" tag="Temporal Concept" start="570" end="582" text="1/2CP 1X DIA" />
+<annotation id="33120" tag="Temporal Concept" start="601" end="611" text="1CP AO DIA" />
+<annotation id="33121" tag="Temporal Concept" start="631" end="638" text="A NOITE" />
+<annotation id="33122" tag="Finding" start="655" end="702" text="REFERE CONSEGUIR REALIZAR AS ATIVIDADES DIARIAS" />
+<annotation id="33123" tag="Sign or Symptom" start="749" end="778" text="DISPNEIA AOS GRANDES ESFORÇOS" />
+<annotation id="33124" tag="Disease or Syndrome|Sign or Symptom" start="786" end="814" text="DISPNEIA PAROXISTICA NOTURNA" />
+<annotation id="33125" tag="Sign or Symptom" start="837" end="872" text="EPISOIDOS ESPORADICOS DE PALPITAÇÃO" />
+<annotation id="33126" tag="Sign or Symptom" start="878" end="897" text="SINTOMAS ASSOCIADOS" />
+<annotation id="33127" tag="Sign or Symptom" start="905" end="917" text="DOR TORACICA" />
+<annotation id="33128" tag="Diagnostic Procedure" start="924" end="936" text="EXAME FISICO" />
+<annotation id="33129" tag="Abbreviation|Clinical Attribute" start="999" end="1006" text="SAT 97%" />
+<annotation id="33130" tag="Sign or Symptom" start="1044" end="1057" text="SOPRO AUDIVEL" />
+<annotation id="33131" tag="Health Care Activity" start="1065" end="1085" text="oTIMIZADO TRATAMENTO" />
+<annotation id="33132" tag="Quantitative Concept" start="1101" end="1107" text="12 , 5MG" />
+<annotation id="33133" tag="Temporal Concept" start="1108" end="1115" text="12/12 H" />
+<annotation id="33134" tag="Quantitative Concept" start="1127" end="1131" text="5 MG" />
+<annotation id="33135" tag="Laboratory Procedure" start="1193" end="1213" text="EXAMES LABORATORIAIS" />
+<annotation id="33136" tag="Therapeutic or Preventive Procedure" start="1275" end="1293" text="CESSAR O TABAGISMO" />
+<annotation id="33137" tag="Health Care Related Organization" start="1311" end="1344" text="PROGRAMA DE ABANDONO AO TABAGISMO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33050" annotation2="33051" reltype="associated_with" />
+<rel annotation1="33061" annotation2="33109" reltype="associated_with" />
+<rel annotation1="33061" annotation2="33110" reltype="associated_with" />
+<rel annotation1="33061" annotation2="33111" reltype="associated_with" />
+<rel annotation1="33062" annotation2="33114" reltype="associated_with" />
+<rel annotation1="33062" annotation2="33116" reltype="associated_with" />
+<rel annotation1="33063" annotation2="33064" reltype="associated_with" />
+<rel annotation1="33063" annotation2="33065" reltype="associated_with" />
+<rel annotation1="33066" annotation2="33067" reltype="associated_with" />
+<rel annotation1="33066" annotation2="33068" reltype="associated_with" />
+<rel annotation1="33069" annotation2="33070" reltype="associated_with" />
+<rel annotation1="33071" annotation2="33072" reltype="associated_with" />
+<rel annotation1="33073" annotation2="33074" reltype="associated_with" />
+<rel annotation1="33073" annotation2="33121" reltype="associated_with" />
+<rel annotation1="33079" annotation2="33124" reltype="negation_of" />
+<rel annotation1="33079" annotation2="33080" reltype="negation_of" />
+<rel annotation1="33081" annotation2="33126" reltype="negation_of" />
+<rel annotation1="33082" annotation2="33127" reltype="negation_of" />
+<rel annotation1="33087" annotation2="33088" reltype="associated_with" />
+<rel annotation1="33089" annotation2="33090" reltype="associated_with" />
+<rel annotation1="33091" annotation2="33092" reltype="associated_with" />
+<rel annotation1="33095" annotation2="33130" reltype="negation_of" />
+<rel annotation1="33096" annotation2="33131" reltype="associated_with" />
+<rel annotation1="33097" annotation2="33132" reltype="associated_with" />
+<rel annotation1="33097" annotation2="33133" reltype="associated_with" />
+<rel annotation1="33098" annotation2="33134" reltype="associated_with" />
+<rel annotation1="33098" annotation2="33099" reltype="associated_with" />
+<rel annotation1="33100" annotation2="33101" reltype="associated_with" />
+<rel annotation1="33101" annotation2="33102" reltype="associated_with" />
+<rel annotation1="33101" annotation2="33103" reltype="associated_with" />
+<rel annotation1="33104" annotation2="33135" reltype="associated_with" />
+<rel annotation1="33105" annotation2="33106" reltype="associated_with" />
+<rel annotation1="33114" annotation2="33115" reltype="associated_with" />
+<rel annotation1="33117" annotation2="33118" reltype="associated_with" />
+<rel annotation1="33128" annotation2="33083" reltype="associated_with" />
+<rel annotation1="33128" annotation2="33084" reltype="associated_with" />
+<rel annotation1="33128" annotation2="33085" reltype="associated_with" />
+<rel annotation1="33128" annotation2="33086" reltype="associated_with" />
+<rel annotation1="33128" annotation2="33093" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

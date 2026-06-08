@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>ID : Lucas, 79 anos, viuvo, cobrador de ônibus aposentado, 6 filhos.  # Medicações em uso : - losartana 50 mg 12/12 h - AAS 100 mg - captopril ? 1 x ao dia -hidroclorotiazida 25 mg 1 x ao dia -flutamida 250 mg 8/8 h # Comorbidades : HAS, Ca de Prostata em acompanhamento há 2 anos.  S : retorno com exames Acompanha na cardiologia desde 2014 devido hipertensão arterial ( descoberta devido a medida casual ). Nega tontura, dispneia, dor no peito, cansaço, ou outras queixas desde a consulta anterior. Tabagista de 78 maços / ano por 65 anos ( cigarro de palha ). Nega etilismo. Faz exercícios físicos regularmente. Dieta   O : # Exames laboratoriais (09/06) - Creatinina: 1,2 mg/dL -- TFG: 64,95 mL/min ( estádio II de DRC ) - Glicose em jejum : 101 mg/dL - Ureia : 30 mg/dL -Triglicerideos : 81 mg/dL - HDL : 36 mg/dL - Na : 142 mmol/L - K:4,8 mmol/L - Colesterol Total : 137 mg/dL - Colesterol LDL : 85 md/dL - Glicose TOTG : 125 mg/dL - Eritrocitos : 4,19 mi/mm3 - Hb glicada : 5,39% -Microalbuminuria / creatinina : 8,2 mg/ g creatinina  # ETT : VE com dimensões normais, hipertrofia concentrica discreta, contratilidade segmentar e função sistólica global preservadas e disfunção diastólica. AE e camaras direitas normais. Valvas cardíacas normais.  # EF : Altura : 1,72 m Peso: 92 kg IMC : 31,9 kg/m2 PA : 105/80 mmHg Pulso : 59 bpm FR : 18 mrpm BEG, LOTE, anictérico, hidratado, aciánotico. Ausculta pulmonar: crepitação em região interscapular. Exame cardiovascular: Bulhas não audíveis, ictus não palpável e não visível. Abdominal: Abdomen globoso, flácido, indolor a palpação, RHA presentes, sem visceromegalias.  A : HAS controlada com medicação Síndrome metabólica. HAS sd metabolica ca prostata.</TEXT>
+<TAGS>
+<annotation id="23182" tag="Pharmacologic Substance" start="94" end="103" text="losartana" abbr="" />
+<annotation id="23183" tag="Pharmacologic Substance|Abbreviation" start="120" end="123" text="AAS" abbr="Ácido acetil salicílico" />
+<annotation id="23184" tag="Pharmacologic Substance" start="133" end="142" text="captopril" abbr="" />
+<annotation id="23185" tag="Pharmacologic Substance" start="156" end="174" text="-hidroclorotiazida" abbr="" />
+<annotation id="23186" tag="Pharmacologic Substance" start="192" end="202" text="-flutamida" abbr="" />
+<annotation id="23187" tag="Disease or Syndrome|Idea or Concept" start="218" end="230" text="Comorbidades" abbr="" />
+<annotation id="23188" tag="Disease or Syndrome|Abbreviation" start="233" end="236" text="HAS" abbr="Hipertensão Arterial Sistêmica" />
+<annotation id="23189" tag="Health Care Activity" start="256" end="270" text="acompanhamento" abbr="" />
+<annotation id="23190" tag="Abbreviation|Finding" start="283" end="284" text="S" abbr="" />
+<annotation id="23191" tag="Health Care Activity" start="287" end="294" text="retorno" abbr="" />
+<annotation id="23192" tag="Diagnostic Procedure|Laboratory Procedure" start="299" end="305" text="exames" abbr="" />
+<annotation id="23193" tag="Health Care Activity" start="306" end="315" text="Acompanha" abbr="" />
+<annotation id="23194" tag="Health Care Related Organization" start="319" end="330" text="cardiologia" abbr="" />
+<annotation id="23195" tag="Negation" start="409" end="413" text="Nega" abbr="" />
+<annotation id="23196" tag="Sign or Symptom" start="414" end="421" text="tontura" abbr="" />
+<annotation id="23197" tag="Sign or Symptom" start="423" end="431" text="dispneia" abbr="" />
+<annotation id="23198" tag="Body Location or Region" start="440" end="445" text="peito" abbr="" />
+<annotation id="23199" tag="Sign or Symptom" start="447" end="454" text="cansaço" abbr="" />
+<annotation id="23200" tag="Sign or Symptom" start="466" end="473" text="queixas" abbr="" />
+<annotation id="23201" tag="Mental or Behavioral Dysfunction|Disease or Syndrome" start="501" end="510" text="Tabagista" abbr="" />
+<annotation id="23202" tag="Negation" start="563" end="567" text="Nega" abbr="" />
+<annotation id="23203" tag="Individual Behavior|Disease or Syndrome" start="568" end="576" text="etilismo" abbr="" />
+<annotation id="23204" tag="Food" start="615" end="620" text="Dieta" abbr="" />
+<annotation id="23205" tag="Diagnostic Procedure|Abbreviation" start="1044" end="1047" text="ETT" abbr="" />
+<annotation id="23206" tag="Abbreviation|Diagnostic Procedure" start="1257" end="1259" text="EF" abbr="" />
+<annotation id="23207" tag="Clinical Attribute" start="1262" end="1268" text="Altura" abbr="" />
+<annotation id="23208" tag="Clinical Attribute" start="1278" end="1282" text="Peso" abbr="" />
+<annotation id="23209" tag="Abbreviation|Clinical Attribute" start="1290" end="1293" text="IMC" abbr="" />
+<annotation id="23210" tag="Abbreviation|Clinical Attribute" start="1307" end="1309" text="PA" abbr="" />
+<annotation id="23211" tag="Clinical Attribute" start="1324" end="1329" text="Pulso" abbr="" />
+<annotation id="23212" tag="Abbreviation|Clinical Attribute" start="1339" end="1341" text="FR" abbr="" />
+<annotation id="23213" tag="Abbreviation|Finding" start="1352" end="1355" text="BEG" abbr="" />
+<annotation id="23214" tag="Abbreviation|Finding" start="1357" end="1361" text="LOTE" abbr="" />
+<annotation id="23215" tag="Finding|Negation" start="1363" end="1373" text="anictérico" abbr="" />
+<annotation id="23216" tag="Finding" start="1375" end="1384" text="hidratado" abbr="" />
+<annotation id="23217" tag="Negation|Finding" start="1386" end="1396" text="aciánotico" abbr="" />
+<annotation id="23218" tag="Sign or Symptom" start="1417" end="1427" text="crepitação" abbr="" />
+<annotation id="23219" tag="Clinical Attribute" start="1475" end="1481" text="Bulhas" abbr="" />
+<annotation id="23220" tag="Negation" start="1482" end="1485" text="não" abbr="" />
+<annotation id="23221" tag="Finding" start="1486" end="1494" text="audíveis" abbr="" />
+<annotation id="23222" tag="Body Location or Region|Clinical Attribute" start="1496" end="1501" text="ictus" abbr="" />
+<annotation id="23223" tag="Negation" start="1502" end="1505" text="não" abbr="" />
+<annotation id="23224" tag="Sign or Symptom" start="1506" end="1514" text="palpável" abbr="" />
+<annotation id="23225" tag="Negation" start="1517" end="1520" text="não" abbr="" />
+<annotation id="23226" tag="Sign or Symptom" start="1521" end="1528" text="visível" abbr="" />
+<annotation id="23227" tag="Body Location or Region" start="1530" end="1539" text="Abdominal" abbr="" />
+<annotation id="23228" tag="Body Location or Region" start="1541" end="1548" text="Abdomen" abbr="" />
+<annotation id="23229" tag="Sign or Symptom" start="1549" end="1556" text="globoso" abbr="" />
+<annotation id="23230" tag="Finding" start="1558" end="1565" text="flácido" abbr="" />
+<annotation id="23231" tag="Negation" start="1602" end="1605" text="sem" abbr="" />
+<annotation id="23232" tag="Sign or Symptom" start="1606" end="1621" text="visceromegalias" abbr="" />
+<annotation id="23233" tag="Abbreviation|Diagnostic Procedure" start="1624" end="1625" text="A" abbr="" />
+<annotation id="23234" tag="Pharmacologic Substance|Therapeutic or Preventive Procedure" start="1647" end="1656" text="medicação" abbr="" />
+<annotation id="23235" tag="Disease or Syndrome|Abbreviation" start="1678" end="1681" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="23236" tag="Age Group" start="12" end="19" text="79 anos" />
+<annotation id="23237" tag="Professional or Occupational Group" start="28" end="46" text="cobrador de ônibus" />
+<annotation id="23238" tag="Quantitative Concept" start="104" end="109" text="50 mg" />
+<annotation id="23239" tag="Temporal Concept" start="110" end="117" text="12/12 h" />
+<annotation id="23240" tag="Quantitative Concept" start="124" end="130" text="100 mg" />
+<annotation id="23241" tag="Temporal Concept" start="145" end="155" text="1 x ao dia" />
+<annotation id="23242" tag="Quantitative Concept" start="175" end="180" text="25 mg" />
+<annotation id="23243" tag="Temporal Concept" start="181" end="191" text="1 x ao dia" />
+<annotation id="23244" tag="Quantitative Concept" start="203" end="209" text="250 mg" />
+<annotation id="23245" tag="Temporal Concept" start="210" end="215" text="8/8 h" />
+<annotation id="23246" tag="Abbreviation|Disease or Syndrome|Neoplastic Process" start="238" end="252" text="Ca de Prostata" />
+<annotation id="23247" tag="Temporal Concept" start="271" end="280" text="há 2 anos" />
+<annotation id="23248" tag="Disease or Syndrome" start="349" end="369" text="hipertensão arterial" />
+<annotation id="23249" tag="Health Care Activity|Temporal Concept" start="482" end="499" text="consulta anterior" />
+<annotation id="23250" tag="Quantitative Concept" start="514" end="540" text="78 maços / ano por 65 anos" />
+<annotation id="23251" tag="Manufactured Object" start="543" end="559" text="cigarro de palha" />
+<annotation id="23252" tag="Finding|Individual Behavior" start="582" end="613" text="exercícios físicos regularmente" />
+<annotation id="23253" tag="Laboratory Procedure" start="629" end="649" text="Exames laboratoriais" />
+<annotation id="23254" tag="Laboratory or Test Result" start="660" end="681" text="Creatinina : 1 , 2 mg/dL" />
+<annotation id="23255" tag="Laboratory or Test Result" start="685" end="702" text="TFG : 64 , 95 mL/min" />
+<annotation id="23256" tag="Abbreviation|Disease or Syndrome" start="705" end="722" text="estádio II de DRC" />
+<annotation id="23257" tag="Laboratory or Test Result" start="727" end="755" text="Glicose em jejum : 101 mg/dL" />
+<annotation id="23258" tag="Laboratory or Test Result" start="758" end="774" text="Ureia : 30 mg/dL" />
+<annotation id="23259" tag="Laboratory or Test Result" start="775" end="801" text="-Triglicerideos : 81 mg/dL" />
+<annotation id="23260" tag="Laboratory or Test Result" start="804" end="818" text="HDL : 36 mg/dL" />
+<annotation id="23261" tag="Abbreviation|Laboratory or Test Result" start="821" end="836" text="Na : 142 mmol/L" />
+<annotation id="23262" tag="Abbreviation|Laboratory or Test Result" start="839" end="851" text="K : 4 , 8 mmol/L" />
+<annotation id="23263" tag="Laboratory or Test Result" start="854" end="882" text="Colesterol Total : 137 mg/dL" />
+<annotation id="23264" tag="Laboratory or Test Result" start="885" end="910" text="Colesterol LDL : 85 md/dL" />
+<annotation id="23265" tag="Laboratory or Test Result" start="913" end="937" text="Glicose TOTG : 125 mg/dL" />
+<annotation id="23266" tag="Laboratory or Test Result" start="940" end="965" text="Eritrocitos : 4 , 19 mi/mm3" />
+<annotation id="23267" tag="Laboratory or Test Result" start="968" end="986" text="Hb glicada : 5 , 39%" />
+<annotation id="23268" tag="Laboratory or Test Result" start="987" end="1040" text="-Microalbuminuria / creatinina : 8 , 2 mg/ g creatinina" />
+<annotation id="23269" tag="Abbreviation|Laboratory or Test Result" start="1050" end="1074" text="VE com dimensões normais" />
+<annotation id="23270" tag="Laboratory or Test Result" start="1076" end="1108" text="hipertrofia concentrica discreta" />
+<annotation id="23271" tag="Laboratory or Test Result" start="1110" end="1134" text="contratilidade segmentar" />
+<annotation id="23272" tag="Laboratory or Test Result" start="1137" end="1172" text="função sistólica global preservadas" />
+<annotation id="23273" tag="Laboratory or Test Result|Pathologic Function" start="1175" end="1195" text="disfunção diastólica" />
+<annotation id="23274" tag="Abbreviation|Laboratory or Test Result" start="1197" end="1226" text="AE e camaras direitas normais" />
+<annotation id="23275" tag="Laboratory or Test Result" start="1228" end="1252" text="Valvas cardíacas normais" />
+<annotation id="23276" tag="Quantitative Concept" start="1271" end="1277" text="1 , 72 m" />
+<annotation id="23277" tag="Quantitative Concept" start="1284" end="1289" text="92 kg" />
+<annotation id="23278" tag="Quantitative Concept" start="1296" end="1306" text="31 , 9 kg/m2" />
+<annotation id="23279" tag="Quantitative Concept" start="1312" end="1323" text="105/80 mmHg" />
+<annotation id="23280" tag="Quantitative Concept" start="1332" end="1338" text="59 bpm" />
+<annotation id="23281" tag="Quantitative Concept" start="1344" end="1351" text="18 mrpm" />
+<annotation id="23282" tag="Diagnostic Procedure" start="1398" end="1415" text="Ausculta pulmonar" />
+<annotation id="23283" tag="Body Location or Region" start="1431" end="1451" text="região interscapular" />
+<annotation id="23284" tag="Diagnostic Procedure" start="1453" end="1473" text="Exame cardiovascular" />
+<annotation id="23285" tag="Abbreviation|Finding" start="1587" end="1600" text="RHA presentes" />
+<annotation id="23286" tag="Abbreviation|Disease or Syndrome" start="1628" end="1642" text="HAS controlada" />
+<annotation id="23287" tag="Disease or Syndrome" start="1657" end="1676" text="Síndrome metabólica" />
+<annotation id="23288" tag="Abbreviation|Disease or Syndrome" start="1682" end="1695" text="sd metabolica" />
+<annotation id="23289" tag="Abbreviation|Neoplastic Process" start="1696" end="1707" text="ca prostata" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="23183" annotation2="23240" reltype="associated_with" />
+<rel annotation1="23195" annotation2="23199" reltype="negation_of" />
+<rel annotation1="23195" annotation2="23196" reltype="negation_of" />
+<rel annotation1="23202" annotation2="23203" reltype="negation_of" />
+<rel annotation1="23218" annotation2="23283" reltype="associated_with" />
+<rel annotation1="23220" annotation2="23221" reltype="negation_of" />
+<rel annotation1="23223" annotation2="23224" reltype="negation_of" />
+<rel annotation1="23225" annotation2="23226" reltype="negation_of" />
+<rel annotation1="23231" annotation2="23232" reltype="negation_of" />
+<rel annotation1="23246" annotation2="23189" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

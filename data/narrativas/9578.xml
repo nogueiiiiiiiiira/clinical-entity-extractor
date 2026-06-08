@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>sem  qx  cardiologicas
+tratando pnm ?? 
+qx dor difusa pelo corpo /// inapetencia
+hx protese valvar metalica por estenpose  ao
+usa marevan  em acompanhamento am  aco 31/3/14  rni 3,1
+enl  20 12/12  atl 50 12/12 espironolac]tona  25 mg / d  svt  20 mg / d
+ </TEXT>
+<TAGS>
+<annotation id="28587" tag="Negation" start="0" end="3" text="sem" abbr="" />
+<annotation id="28588" tag="Therapeutic or Preventive Procedure" start="24" end="32" text="tratando" abbr="" />
+<annotation id="28589" tag="Abbreviation|Disease or Syndrome" start="33" end="36" text="pnm" abbr="" />
+<annotation id="28590" tag="Abbreviation|Sign or Symptom" start="42" end="44" text="qx" abbr="" />
+<annotation id="28591" tag="Body Location or Region" start="61" end="66" text="corpo" abbr="" />
+<annotation id="28592" tag="Sign or Symptom" start="71" end="82" text="inapetencia" abbr="" />
+<annotation id="28593" tag="Abbreviation" start="84" end="86" text="hx" abbr="Histórico" />
+<annotation id="28594" tag="Pharmacologic Substance" start="134" end="141" text="marevan" abbr="" />
+<annotation id="28595" tag="Health Care Activity" start="146" end="160" text="acompanhamento" abbr="" />
+<annotation id="28596" tag="Pharmacologic Substance|Abbreviation" start="187" end="190" text="enl" abbr="enalapril" />
+<annotation id="28597" tag="Quantitative Concept" start="192" end="194" text="20" abbr="" />
+<annotation id="28598" tag="Temporal Concept" start="195" end="200" text="12/12" abbr="" />
+<annotation id="28599" tag="Abbreviation|Pharmacologic Substance" start="202" end="205" text="atl" abbr="" />
+<annotation id="28600" tag="Quantitative Concept" start="206" end="208" text="50" abbr="" />
+<annotation id="28601" tag="Temporal Concept" start="209" end="214" text="12/12" abbr="" />
+<annotation id="28602" tag="Pharmacologic Substance" start="215" end="231" text="espironolac]tona" abbr="" />
+<annotation id="28603" tag="Temporal Concept|Abbreviation" start="241" end="242" text="d" abbr="" />
+<annotation id="28604" tag="Abbreviation|Pharmacologic Substance" start="244" end="247" text="svt" abbr="" />
+<annotation id="28605" tag="Temporal Concept|Abbreviation" start="257" end="258" text="d" abbr="" />
+<annotation id="28606" tag="Abbreviation|Sign or Symptom" start="5" end="22" text="qx cardiologicas" />
+<annotation id="28607" tag="Sign or Symptom" start="45" end="55" text="dor difusa" />
+<annotation id="28608" tag="Medical Device|Therapeutic or Preventive Procedure" start="87" end="110" text="protese valvar metalica" />
+<annotation id="28609" tag="Laboratory or Test Result" start="178" end="185" text="rni 3 , 1" />
+<annotation id="28610" tag="Quantitative Concept" start="233" end="238" text="25 mg" />
+<annotation id="28611" tag="Quantitative Concept" start="249" end="254" text="20 mg" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28587" annotation2="28606" reltype="negation_of" />
+<rel annotation1="28588" annotation2="28589" reltype="associated_with" />
+<rel annotation1="28593" annotation2="28608" reltype="associated_with" />
+<rel annotation1="28596" annotation2="28597" reltype="associated_with" />
+<rel annotation1="28596" annotation2="28598" reltype="associated_with" />
+<rel annotation1="28599" annotation2="28600" reltype="associated_with" />
+<rel annotation1="28599" annotation2="28601" reltype="associated_with" />
+<rel annotation1="28607" annotation2="28591" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

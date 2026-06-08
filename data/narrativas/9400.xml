@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS, 57 ANOS  # DM,  # HAS # DAC - iam em 2009 --&gt; atc. # RVM em 2009. # ATC EM 2013 DE CD + IMPLANTE DE MP (bav de 2 grau mobitz 2) # Dislipidemia. # Tabagista há mais de 40 anos (10 CIGARROS /DIA).  # Em uso de insulina nph 26UI / 10UI, metformina 850MG CAFÉ / ALMOÇO / JANTA, ARADOIS 50MG /DIA, ANLODIPINA 5MG 12/12 HS, ENALAPRIL 20MG 12/12 HS, sinvastatina 80mg , SELOZOK 50MG /DIA, AAS 100mg,   S # NEGA PRECORDIALGIA, NEGA DISPNEIA, ORTOPNEIA, DPN. REFERE CLAUDICAÇÃO INTERMITENTE PARA MODERADOS ESFORÇOS.  O #  BEG, LOTE, CORADO, HIDRATADO, EUPNEICO, AFEBRIL, PA 150/80, FC 74, CP: SP, ACV: BCRNF 2T SS, AP: MV+ REDUZIDO DIFUSAMENTE, SEM RA, ABD: SP, MMII: PULSOS REDUZIDOS BILAT, SEM EDEMA OU EMPASTAMENTO,  LAB 13/01/14: GLICOSE 304; GLICOSE PÓS-PRANDIAL 309; CT 119; HDL 21; TG 214; TGO 19; HBA1C 6,70; CPK 72; CR 1,00; K 4,7; UR 30; MICROALBUMINURIA 24 HS (2114 MG); PU (GLICOSE ++; LEUC 2).  A #  DAC, HAS, DM.  P # AUMENTO SELOZOK PARA 100MG /DIA.  DEMAIS MANTIDO.  R3 CARDIO LUCAS, DR VITAL BRASIL.</TEXT>
+<TAGS>
+<annotation id="20184" tag="Disease or Syndrome|Abbreviation" start="18" end="20" text="DM" abbr="diabetes mellitus" />
+<annotation id="20185" tag="Abbreviation|Disease or Syndrome" start="25" end="28" text="HAS" abbr="" />
+<annotation id="20186" tag="Abbreviation|Disease or Syndrome" start="31" end="34" text="DAC" abbr="" />
+<annotation id="20187" tag="Abbreviation|Disease or Syndrome" start="37" end="40" text="iam" abbr="" />
+<annotation id="20188" tag="Therapeutic or Preventive Procedure|Abbreviation" start="53" end="56" text="atc" abbr="" />
+<annotation id="20189" tag="Abbreviation|Therapeutic or Preventive Procedure" start="60" end="63" text="RVM" abbr="" />
+<annotation id="20190" tag="Abbreviation|Therapeutic or Preventive Procedure" start="75" end="78" text="ATC" abbr="" />
+<annotation id="20191" tag="Abbreviation|Body Part, Organ, or Organ Component" start="90" end="92" text="CD" abbr="" />
+<annotation id="20192" tag="Disease or Syndrome" start="137" end="149" text="Dislipidemia" abbr="" />
+<annotation id="20193" tag="Mental or Behavioral Dysfunction" start="153" end="162" text="Tabagista" abbr="" />
+<annotation id="20194" tag="Organic Chemical|Pharmacologic Substance" start="241" end="251" text="metformina" abbr="" />
+<annotation id="20195" tag="Quantitative Concept" start="252" end="257" text="850MG" abbr="" />
+<annotation id="20196" tag="Pharmacologic Substance" start="281" end="288" text="ARADOIS" abbr="" />
+<annotation id="20197" tag="Pharmacologic Substance|Organic Chemical" start="300" end="310" text="ANLODIPINA" abbr="" />
+<annotation id="20198" tag="Quantitative Concept" start="311" end="314" text="5MG" abbr="" />
+<annotation id="20199" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="325" end="334" text="ENALAPRIL" abbr="" />
+<annotation id="20200" tag="Quantitative Concept" start="335" end="339" text="20MG" abbr="" />
+<annotation id="20201" tag="Organic Chemical|Pharmacologic Substance" start="350" end="362" text="sinvastatina" abbr="" />
+<annotation id="20202" tag="Quantitative Concept" start="363" end="367" text="80mg" abbr="" />
+<annotation id="20203" tag="Pharmacologic Substance" start="370" end="377" text="SELOZOK" abbr="" />
+<annotation id="20204" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="389" end="392" text="AAS" abbr="ácido acetilsalicílico" />
+<annotation id="20205" tag="Quantitative Concept" start="393" end="398" text="100mg" abbr="" />
+<annotation id="20206" tag="Abbreviation|Finding" start="402" end="403" text="S" abbr="" />
+<annotation id="20207" tag="Negation" start="406" end="410" text="NEGA" abbr="" />
+<annotation id="20208" tag="Sign or Symptom" start="411" end="424" text="PRECORDIALGIA" abbr="" />
+<annotation id="20209" tag="Negation" start="426" end="430" text="NEGA" abbr="" />
+<annotation id="20210" tag="Sign or Symptom" start="431" end="439" text="DISPNEIA" abbr="" />
+<annotation id="20211" tag="Sign or Symptom" start="441" end="450" text="ORTOPNEIA" abbr="" />
+<annotation id="20212" tag="Sign or Symptom|Abbreviation" start="452" end="455" text="DPN" abbr="dispneia paroxística noturna" />
+<annotation id="20213" tag="Health Care Activity|Abbreviation" start="515" end="516" text="O" abbr="" />
+<annotation id="20214" tag="Abbreviation|Finding" start="520" end="523" text="BEG" abbr="" />
+<annotation id="20215" tag="Finding|Abbreviation" start="525" end="529" text="LOTE" abbr="lúcido orientado no tempo e espaço" />
+<annotation id="20216" tag="Finding" start="531" end="537" text="CORADO" abbr="" />
+<annotation id="20217" tag="Finding" start="539" end="548" text="HIDRATADO" abbr="" />
+<annotation id="20218" tag="Finding" start="550" end="558" text="EUPNEICO" abbr="" />
+<annotation id="20219" tag="Sign or Symptom|Negation" start="560" end="567" text="AFEBRIL" abbr="" />
+<annotation id="20220" tag="Clinical Attribute|Abbreviation" start="569" end="571" text="PA" abbr="pressão arterial" />
+<annotation id="20221" tag="Quantitative Concept" start="572" end="578" text="150/80" abbr="" />
+<annotation id="20222" tag="Clinical Attribute|Abbreviation" start="580" end="582" text="FC" abbr="fraquencia cardíaca" />
+<annotation id="20223" tag="Quantitative Concept" start="583" end="585" text="74" abbr="" />
+<annotation id="20224" tag="Abbreviation|Body Location or Region" start="587" end="589" text="CP" abbr="" />
+<annotation id="20225" tag="Finding|Negation|Abbreviation" start="591" end="593" text="SP" abbr="sem particularidades" />
+<annotation id="20226" tag="Abbreviation|Body Location or Region" start="595" end="598" text="ACV" abbr="" />
+<annotation id="20227" tag="Abbreviation|Body Location or Region" start="613" end="615" text="AP" abbr="" />
+<annotation id="20228" tag="Negation|Negation" start="643" end="646" text="SEM" abbr="" />
+<annotation id="20229" tag="Sign or Symptom|Abbreviation" start="647" end="649" text="RA" abbr="ruídos adventícios" />
+<annotation id="20230" tag="Body Location or Region|Abbreviation" start="651" end="654" text="ABD" abbr="abdome" />
+<annotation id="20231" tag="Finding|Negation|Abbreviation" start="656" end="658" text="SP" abbr="sem particularidades" />
+<annotation id="20232" tag="Body Location or Region|Abbreviation|Abbreviation" start="660" end="664" text="MMII" abbr="membros inferiores" />
+<annotation id="20233" tag="Negation|Negation" start="690" end="693" text="SEM" abbr="" />
+<annotation id="20234" tag="Sign or Symptom|Pathologic Function" start="694" end="699" text="EDEMA" abbr="" />
+<annotation id="20235" tag="Sign or Symptom" start="703" end="715" text="EMPASTAMENTO" abbr="" />
+<annotation id="20236" tag="Abbreviation" start="718" end="721" text="LAB" abbr="laboratorial" />
+<annotation id="20237" tag="Abbreviation" start="880" end="882" text="PU" abbr="" />
+<annotation id="20238" tag="Diagnostic Procedure|Abbreviation" start="906" end="907" text="A" abbr="" />
+<annotation id="20239" tag="Disease or Syndrome|Abbreviation" start="911" end="914" text="DAC" abbr="doença arterial coronariana" />
+<annotation id="20240" tag="Abbreviation|Disease or Syndrome" start="916" end="919" text="HAS" abbr="" />
+<annotation id="20241" tag="Abbreviation|Disease or Syndrome" start="921" end="923" text="DM" abbr="" />
+<annotation id="20242" tag="Abbreviation|Intellectual Product" start="926" end="927" text="P" abbr="" />
+<annotation id="20243" tag="Abbreviation|Therapeutic or Preventive Procedure" start="95" end="109" text="IMPLANTE DE MP" />
+<annotation id="20244" tag="Abbreviation|Disease or Syndrome" start="111" end="133" text="bav de 2 grau mobitz 2" />
+<annotation id="20245" tag="Temporal Concept" start="163" end="181" text="há mais de 40 anos" />
+<annotation id="20246" tag="Quantitative Concept" start="183" end="199" text="10 CIGARROS /DIA" />
+<annotation id="20247" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="215" end="227" text="insulina nph" />
+<annotation id="20248" tag="Quantitative Concept" start="228" end="239" text="26UI / 10UI" />
+<annotation id="20249" tag="Temporal Concept" start="315" end="323" text="12/12 HS" />
+<annotation id="20250" tag="Temporal Concept" start="340" end="348" text="12/12 HS" />
+<annotation id="20251" tag="Sign or Symptom" start="464" end="488" text="CLAUDICAÇÃO INTERMITENTE" />
+<annotation id="20252" tag="Qualitative Concept" start="489" end="512" text="PARA MODERADOS ESFORÇOS" />
+<annotation id="20253" tag="Abbreviation|Sign or Symptom" start="617" end="641" text="MV+ REDUZIDO DIFUSAMENTE" />
+<annotation id="20254" tag="Abbreviation|Sign or Symptom" start="666" end="688" text="PULSOS REDUZIDOS BILAT" />
+<annotation id="20255" tag="Laboratory or Test Result" start="732" end="743" text="GLICOSE 304" />
+<annotation id="20256" tag="Laboratory or Test Result" start="745" end="769" text="GLICOSE PÓS-PRANDIAL 309" />
+<annotation id="20257" tag="Abbreviation|Laboratory or Test Result" start="771" end="777" text="CT 119" />
+<annotation id="20258" tag="Abbreviation|Laboratory or Test Result" start="779" end="785" text="HDL 21" />
+<annotation id="20259" tag="Abbreviation|Laboratory or Test Result" start="787" end="793" text="TG 214" />
+<annotation id="20260" tag="Laboratory or Test Result" start="795" end="801" text="TGO 19" />
+<annotation id="20261" tag="Abbreviation|Laboratory or Test Result" start="803" end="813" text="HBA1C 6 , 70" />
+<annotation id="20262" tag="Laboratory or Test Result" start="815" end="821" text="CPK 72" />
+<annotation id="20263" tag="Abbreviation|Laboratory or Test Result" start="823" end="830" text="CR 1 , 00" />
+<annotation id="20264" tag="Abbreviation|Laboratory or Test Result" start="832" end="837" text="K 4 , 7" />
+<annotation id="20265" tag="Abbreviation|Laboratory or Test Result" start="839" end="844" text="UR 30" />
+<annotation id="20266" tag="Laboratory or Test Result" start="846" end="877" text="MICROALBUMINURIA 24 HS ( 2114 MG" />
+<annotation id="20267" tag="Laboratory or Test Result" start="884" end="894" text="GLICOSE ++" />
+<annotation id="20268" tag="Abbreviation|Laboratory or Test Result" start="896" end="902" text="LEUC 2" />
+<annotation id="20269" tag="Health Care Activity" start="930" end="945" text="AUMENTO SELOZOK" />
+<annotation id="20270" tag="Professional or Occupational Group" start="981" end="990" text="R3 CARDIO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="20187" annotation2="20244" reltype="associated_with" />
+<rel annotation1="20188" annotation2="20187" reltype="associated_with" />
+<rel annotation1="20191" annotation2="20190" reltype="associated_with" />
+<rel annotation1="20193" annotation2="20245" reltype="associated_with" />
+<rel annotation1="20193" annotation2="20246" reltype="associated_with" />
+<rel annotation1="20195" annotation2="20194" reltype="associated_with" />
+<rel annotation1="20198" annotation2="20197" reltype="associated_with" />
+<rel annotation1="20198" annotation2="20249" reltype="associated_with" />
+<rel annotation1="20199" annotation2="20250" reltype="associated_with" />
+<rel annotation1="20200" annotation2="20199" reltype="associated_with" />
+<rel annotation1="20200" annotation2="20250" reltype="associated_with" />
+<rel annotation1="20202" annotation2="20201" reltype="associated_with" />
+<rel annotation1="20204" annotation2="20205" reltype="associated_with" />
+<rel annotation1="20207" annotation2="20208" reltype="negation_of" />
+<rel annotation1="20209" annotation2="20212" reltype="negation_of" />
+<rel annotation1="20209" annotation2="20210" reltype="negation_of" />
+<rel annotation1="20209" annotation2="20211" reltype="negation_of" />
+<rel annotation1="20220" annotation2="20221" reltype="associated_with" />
+<rel annotation1="20223" annotation2="20222" reltype="associated_with" />
+<rel annotation1="20224" annotation2="20225" reltype="associated_with" />
+<rel annotation1="20227" annotation2="20253" reltype="associated_with" />
+<rel annotation1="20229" annotation2="20228" reltype="negation_of" />
+<rel annotation1="20229" annotation2="20227" reltype="associated_with" />
+<rel annotation1="20232" annotation2="20234" reltype="associated_with" />
+<rel annotation1="20232" annotation2="20235" reltype="associated_with" />
+<rel annotation1="20233" annotation2="20235" reltype="negation_of" />
+<rel annotation1="20236" annotation2="20258" reltype="associated_with" />
+<rel annotation1="20236" annotation2="20256" reltype="associated_with" />
+<rel annotation1="20236" annotation2="20257" reltype="associated_with" />
+<rel annotation1="20236" annotation2="20259" reltype="associated_with" />
+<rel annotation1="20236" annotation2="20261" reltype="associated_with" />
+<rel annotation1="20236" annotation2="20262" reltype="associated_with" />
+<rel annotation1="20236" annotation2="20264" reltype="associated_with" />
+<rel annotation1="20236" annotation2="20265" reltype="associated_with" />
+<rel annotation1="20237" annotation2="20267" reltype="associated_with" />
+<rel annotation1="20237" annotation2="20268" reltype="associated_with" />
+<rel annotation1="20249" annotation2="20197" reltype="associated_with" />
+<rel annotation1="20252" annotation2="20251" reltype="associated_with" />
+<rel annotation1="20260" annotation2="20258" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

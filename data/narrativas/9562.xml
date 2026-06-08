@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>INVESTIGAVAA  DOR   RETROESTRENAL E  DISPNEIA   AOS ESFORÇOS 
+21/5/14   FE  35  EP 17 AE  38   FÇAO   SISTOLICA    HIPOCINESAI  DIFUSA   / REGURGITAÇÃO MI  DISCRETA  
+21/5/14  ECOESTRES   NEGATIVO  A   MCP  DILATADA P   CVD  3,125  12/12  CINTILO  (  NAO ACEITOU  O  CATE  )
+HIPOTIROIDEA   EM USO  DE  PURAN   HA     4  ANOS
+ </TEXT>
+<TAGS>
+<annotation id="27747" tag="Health Care Activity" start="0" end="12" text="INVESTIGAVAA" abbr="" />
+<annotation id="27748" tag="Diagnostic Procedure" start="178" end="187" text="ECOESTRES" abbr="" />
+<annotation id="27749" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="222" end="225" text="CVD" abbr="" />
+<annotation id="27750" tag="Temporal Concept" start="234" end="239" text="12/12" abbr="" />
+<annotation id="27751" tag="Diagnostic Procedure|Abbreviation" start="241" end="248" text="CINTILO" abbr="cintilografia" />
+<annotation id="27752" tag="Negation" start="253" end="256" text="NAO" abbr="" />
+<annotation id="27753" tag="Finding" start="257" end="264" text="ACEITOU" abbr="" />
+<annotation id="27754" tag="Abbreviation|Diagnostic Procedure|Therapeutic or Preventive Procedure" start="269" end="273" text="CATE" abbr="" />
+<annotation id="27755" tag="Finding" start="278" end="290" text="HIPOTIROIDEA" abbr="" />
+<annotation id="27756" tag="Pharmacologic Substance|Organic Chemical" start="305" end="310" text="PURAN" abbr="" />
+<annotation id="27757" tag="Sign or Symptom" start="14" end="33" text="DOR RETROESTRENAL" />
+<annotation id="27758" tag="Sign or Symptom" start="37" end="60" text="DISPNEIA AOS ESFORÇOS" />
+<annotation id="27759" tag="Abbreviation|Laboratory or Test Result" start="73" end="79" text="FE 35" />
+<annotation id="27760" tag="Abbreviation|Laboratory or Test Result" start="81" end="86" text="EP 17" />
+<annotation id="27761" tag="Abbreviation|Laboratory or Test Result" start="87" end="93" text="AE 38" />
+<annotation id="27762" tag="Laboratory or Test Result" start="96" end="135" text="FÇAO SISTOLICA HIPOCINESAI DIFUSA" />
+<annotation id="27763" tag="Abbreviation|Laboratory or Test Result" start="140" end="165" text="REGURGITAÇÃO MI DISCRETA" />
+<annotation id="27764" tag="Abbreviation|Disease or Syndrome" start="204" end="217" text="MCP DILATADA" />
+<annotation id="27765" tag="Quantitative Concept" start="227" end="232" text="3 , 125" />
+<annotation id="27766" tag="Temporal Concept" start="313" end="327" text="HA 4 ANOS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="27747" annotation2="27757" reltype="associated_with" />
+<rel annotation1="27747" annotation2="27758" reltype="associated_with" />
+<rel annotation1="27749" annotation2="27750" reltype="associated_with" />
+<rel annotation1="27749" annotation2="27765" reltype="associated_with" />
+<rel annotation1="27752" annotation2="27754" reltype="negation_of" />
+<rel annotation1="27752" annotation2="27753" reltype="negation_of" />
+<rel annotation1="27755" annotation2="27756" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

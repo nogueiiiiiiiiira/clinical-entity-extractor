@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 26/01/2016
+
+
+Lucas, 59 ANOS.
+COMORBIDADES: 
+# hoje avaliação exclusiva de mp
+# mp camara-dupla
+# programado em modo ddd 60/50 
+# Ritmo de base sinusal fc: 37 
+# bat ok
+# para eri = 1 MES 
+# a - imp = 388, sense = 5,4, clv - menor que 0,6 x 0,4 
+#  ENERGIAS ( 2,4 A 2,4 V ) 
+# v - imp = 381, sense = 12,7, clv = menor que 0,8 x 0,4
+PLANO
+# AGENDO AMBULATORIO PARA A PROXIMA SEGUNDA NA CX CARDIACA
+# MANTIDO PROGRAMAÇÃO
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="59~71" text="COMORBIDADES" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="81~106" text="avaliação exclusiva de mp" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E2" spans="109~124" text="mp camara-dupla" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="376~387" text="AMBULATORIO" Pre_anotacao="Sim" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E4" spans="414~425" text="CX CARDIACA" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="76~80" text="hoje" Type="Date" Value="2016-01-26" Mod="NA" />
+<TIMEX3 id="T1" spans="395~410" text="PROXIMA SEGUNDA" Type="Date" Value="2016-02-01" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="hoje" toID="E1" toText="avaliação exclusiva de mp" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E3" fromText="AMBULATORIO" toID="E4" toText="CX CARDIACA" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="T1" fromText="PROXIMA SEGUNDA" toID="E3" toText="AMBULATORIO" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 25/11/2014
+
+
+Lucas, 65 ANOS
+# MCP dilatada - IDIOPÁTICA
+CF II-III OSCILANTE.
+** PROTOCOLO DE TX CARDIACO - INDICE CARDIACO 3,44 **
+*** Em uso de: Omeprazol 20mg / d, AAS 100mg / d, Losartan 50mg 12/12hs, Espironolactona 25mg / d, Hidralazina 100mg 12/12hs, Carvedilol 12,5mg 12/12hs
+# Exames:
+CAT 09/06/2014: ausência de coronariopatia obstrutiva crítica
+IC 3,449 pré / 3,602 pós
+RVP em woods 0,217 pré / 0,147 pós
+S # Dispnéia CF II. Nega dor torácica. Nega palpitação e síncope. Há cerca de 2 semanas suspendeu losartan por hipotensão sintomática (PAS 70-80). Atendimento na UPA por tosse seca e dor torácica precordial em queimação, duração de horas, sem relação com esforço físico ( ECG BRE, tropo negativa ). 
+Ao exame:
+Pte em BEG, eupneico, corado, hidratado
+PA 100/60 mmHg
+discreta estase jugular a 45º
+MV+ bilateral sem RA
+RCR 2t SS ictus desviado 
+Sem VCM
+Sem edema MMII
+Boa perfusão periférica
+A # MCP dilatada - CF II 
+P # Oriento voltar com losartan e reduzo hidralazina 50 12/12hs. Retorno com lab em fev/15. 
+E4 cardio Doutor Vital Brazil ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="60~85" text="MCP dilatada - IDIOPÁTICA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="86~105" text="CF II-III OSCILANTE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="110~134" text="PROTOCOLO DE TX CARDIACO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="137~152" text="INDICE CARDIACO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="176~190" text="Omeprazol 20mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="196~205" text="AAS 100mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="211~224" text="Losartan 50mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="234~254" text="Espironolactona 25mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="260~277" text="Hidralazina 100mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="287~304" text="Carvedilol 12,5mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="315~321" text="Exames" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="323~326" text="CAT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="351~384" text="coronariopatia obstrutiva crítica" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="385~387" text="IC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="410~422" text="RVP em woods" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="449~463" text="Dispnéia CF II" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="465~469" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E17" spans="470~482" text="dor torácica" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="484~488" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E19" spans="489~499" text="palpitação" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="502~509" text="síncope" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="533~542" text="suspendeu" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="543~551" text="losartan" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="556~578" text="hipotensão sintomática" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="580~583" text="PAS" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="592~603" text="Atendimento" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="607~610" text="UPA" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="615~625" text="tosse seca" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="628~664" text="dor torácica precordial em queimação" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="717~720" text="ECG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="721~724" text="BRE" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E31" spans="726~731" text="tropo" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E32" spans="748~753" text="exame" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E33" spans="795~797" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E34" spans="810~839" text="discreta estase jugular a 45º" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E35" spans="858~860" text="RA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E36" spans="868~870" text="SS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E37" spans="871~885" text="ictus desviado" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E38" spans="891~894" text="VCM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E39" spans="899~909" text="edema MMII" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E40" spans="938~958" text="MCP dilatada - CF II" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E41" spans="983~991" text="losartan" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E42" spans="994~1000" text="reduzo" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E43" spans="1001~1015" text="hidralazina 50" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E44" spans="1025~1032" text="Retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E45" spans="1037~1040" text="lab" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="191~194" text="/ d" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T1" spans="677~682" text="horas" Type="Duration" Value="PTXH" Mod="NA" />
+<TIMEX3 id="T2" spans="511~532" text="Há cerca de 2 semanas" Type="Date" Value="2014-11-11" Mod="APPROX" />
+<TIMEX3 id="T3" spans="206~209" text="/ d" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="225~232" text="12/12hs" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T5" spans="255~258" text="/ d" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T6" spans="278~285" text="12/12hs" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T7" spans="305~312" text="12/12hs" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T8" spans="327~337" text="09/06/2014" Type="Date" Value="2014-06-09" Mod="NA" />
+<TIMEX3 id="T9" spans="1016~1023" text="12/12hs" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T10" spans="1041~1050" text="em fev/15" Type="Date" Value="2015-02" Mod="NA" />
+<RELATION id="R0" fromID="E2" fromText="PROTOCOLO DE TX CARDIACO" toID="E3" toText="INDICE CARDIACO" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E4" fromText="Omeprazol 20mg" toID="T0" toText="/ d" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E5" fromText="AAS 100mg" toID="T3" toText="/ d" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E6" fromText="Losartan 50mg" toID="T4" toText="12/12hs" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E7" fromText="Espironolactona 25mg" toID="T5" toText="/ d" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E8" fromText="Hidralazina 100mg" toID="T6" toText="12/12hs" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E9" fromText="Carvedilol 12,5mg" toID="T7" toText="12/12hs" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="T8" fromText="09/06/2014" toID="E11" toText="CAT" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E11" fromText="CAT" toID="E12" toText="coronariopatia obstrutiva crítica" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E10" fromText="Exames" toID="E11" toText="CAT" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="E10" fromText="Exames" toID="E14" toText="RVP em woods" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E10" fromText="Exames" toID="E13" toText="IC" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="T2" fromText="Há cerca de 2 semanas" toID="E21" toText="suspendeu" Relação_Temporal="OVERLAP" />
+<RELATION id="R13" fromID="T2" fromText="Há cerca de 2 semanas" toID="E22" toText="losartan" Relação_Temporal="OVERLAP" />
+<RELATION id="R14" fromID="E21" fromText="suspendeu" toID="E22" toText="losartan" Relação_Temporal="OVERLAP" />
+<RELATION id="R15" fromID="E23" fromText="hipotensão sintomática" toID="E22" toText="losartan" Relação_Temporal="OVERLAP" />
+<RELATION id="R16" fromID="E21" fromText="suspendeu" toID="E23" toText="hipotensão sintomática" Relação_Temporal="OVERLAP" />
+<RELATION id="R17" fromID="E23" fromText="hipotensão sintomática" toID="T2" toText="Há cerca de 2 semanas" Relação_Temporal="OVERLAP" />
+<RELATION id="R18" fromID="E25" fromText="Atendimento" toID="E26" toText="UPA" Relação_Temporal="OVERLAP" />
+<RELATION id="R19" fromID="E25" fromText="Atendimento" toID="E27" toText="tosse seca" Relação_Temporal="OVERLAP" />
+<RELATION id="R20" fromID="E25" fromText="Atendimento" toID="E28" toText="dor torácica precordial em queimação" Relação_Temporal="OVERLAP" />
+<RELATION id="R21" fromID="E28" fromText="dor torácica precordial em queimação" toID="T1" toText="horas" Relação_Temporal="OVERLAP" />
+<RELATION id="R22" fromID="E28" fromText="dor torácica precordial em queimação" toID="E27" toText="tosse seca" Relação_Temporal="OVERLAP" />
+<RELATION id="R23" fromID="E26" fromText="UPA" toID="E27" toText="tosse seca" Relação_Temporal="OVERLAP" />
+<RELATION id="R24" fromID="E26" fromText="UPA" toID="E28" toText="dor torácica precordial em queimação" Relação_Temporal="OVERLAP" />
+<RELATION id="R25" fromID="E29" fromText="ECG" toID="E30" toText="BRE" Relação_Temporal="CONTAINS" />
+<RELATION id="R26" fromID="E42" fromText="reduzo" toID="E43" toText="hidralazina 50" Relação_Temporal="OVERLAP" />
+<RELATION id="R27" fromID="E43" fromText="hidralazina 50" toID="T9" toText="12/12hs" Relação_Temporal="OVERLAP" />
+<RELATION id="R28" fromID="T10" fromText="em fev/15" toID="E44" toText="Retorno" Relação_Temporal="CONTAINS" />
+<RELATION id="R29" fromID="E44" fromText="Retorno" toID="E45" toText="lab" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

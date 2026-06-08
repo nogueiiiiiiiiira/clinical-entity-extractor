@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Luca, 76
+# MP desde 2002 - hx de síncope &gt;&gt; revisão em julho/2012
+# FA em anticoagulação
+# hipotireoidismo
+# Ex tabagista, parou há 12 anos, CT alta
+# Em uso de marevan - não sabe as outras medicações que usa
+Lab 26/01/2013 - Cr 1,2 / Glic 89/ Ur 35 / TGP 41 / TGO 43 / Na 136 / K 4,7 / CT 170 / TSH 9,41 / PSA 3,73 / HDL 58 / LDL 101 / TG 56 / t4 l 1,43
+S # Pct refere que há 3 meses inciou com tontura pela manhãque melhora no decorrer do dia.
+O # mv presente, simétrico, sem ra
+bcrnfss
+abdome sp
+mmii sem edema
+p # solicito que retorne semana que vem com as medicações de uso contínuo para ajustes + retorno em 3 meses
+e2 cardioDoutor Vital Brazil </TEXT>
+<TAGS>
+<annotation id="28167" tag="Abbreviation" start="12" end="14" text="MP" abbr="" />
+<annotation id="28168" tag="Abbreviation" start="28" end="30" text="hx" abbr="" />
+<annotation id="28169" tag="Sign or Symptom" start="34" end="41" text="síncope" abbr="" />
+<annotation id="28170" tag="Abbreviation|Pathologic Function|Disease or Syndrome" start="70" end="72" text="FA" abbr="" />
+<annotation id="28171" tag="Therapeutic or Preventive Procedure" start="76" end="90" text="anticoagulação" abbr="" />
+<annotation id="28172" tag="Disease or Syndrome" start="94" end="109" text="hipotireoidismo" abbr="" />
+<annotation id="28173" tag="Negation" start="176" end="179" text="não" abbr="" />
+<annotation id="28174" tag="Pharmacologic Substance" start="195" end="205" text="medicações" abbr="" />
+<annotation id="28175" tag="Laboratory Procedure|Abbreviation" start="215" end="218" text="Lab" abbr="Exames Laboratoriais" />
+<annotation id="28176" tag="Patient or Disabled Group|Abbreviation" start="366" end="369" text="Pct" abbr="paciente" />
+<annotation id="28177" tag="Sign or Symptom" start="403" end="410" text="tontura" abbr="" />
+<annotation id="28178" tag="Finding" start="471" end="480" text="simétrico" abbr="" />
+<annotation id="28179" tag="Negation" start="482" end="485" text="sem" abbr="" />
+<annotation id="28180" tag="Abbreviation|Sign or Symptom" start="486" end="488" text="ra" abbr="" />
+<annotation id="28181" tag="Finding|Abbreviation" start="490" end="497" text="bcrnfss" abbr="bulhas cardíacas rítmicas normo fonéticas sem sopro" />
+<annotation id="28182" tag="Body Location or Region" start="499" end="505" text="abdome" abbr="" />
+<annotation id="28183" tag="Negation|Abbreviation|Finding" start="506" end="508" text="sp" abbr="" />
+<annotation id="28184" tag="Body Location or Region|Abbreviation" start="510" end="514" text="mmii" abbr="Membros Inferiores" />
+<annotation id="28185" tag="Negation" start="515" end="518" text="sem" abbr="" />
+<annotation id="28186" tag="Sign or Symptom" start="519" end="524" text="edema" abbr="" />
+<annotation id="28187" tag="Health Care Activity" start="530" end="538" text="solicito" abbr="" />
+<annotation id="28188" tag="Pharmacologic Substance" start="573" end="583" text="medicações" abbr="" />
+<annotation id="28189" tag="Health Care Activity" start="605" end="612" text="ajustes" abbr="" />
+<annotation id="28190" tag="Health Care Activity" start="615" end="622" text="retorno" abbr="" />
+<annotation id="28191" tag="Finding" start="113" end="125" text="Ex tabagista" />
+<annotation id="28192" tag="Abbreviation|Disease or Syndrome" start="145" end="152" text="CT alta" />
+<annotation id="28193" tag="Pharmacologic Substance" start="163" end="173" text="de marevan" />
+<annotation id="28194" tag="Abbreviation|Laboratory or Test Result" start="232" end="238" text="Cr 1 , 2" />
+<annotation id="28195" tag="Abbreviation|Laboratory or Test Result" start="241" end="249" text="Glic 89/" />
+<annotation id="28196" tag="Abbreviation|Laboratory or Test Result" start="250" end="255" text="Ur 35" />
+<annotation id="28197" tag="Laboratory or Test Result" start="258" end="264" text="TGP 41" />
+<annotation id="28198" tag="Laboratory or Test Result" start="267" end="273" text="TGO 43" />
+<annotation id="28199" tag="Abbreviation|Laboratory or Test Result" start="276" end="282" text="Na 136" />
+<annotation id="28200" tag="Abbreviation|Laboratory or Test Result" start="285" end="290" text="K 4 , 7" />
+<annotation id="28201" tag="Abbreviation|Laboratory or Test Result" start="293" end="299" text="CT 170" />
+<annotation id="28202" tag="Laboratory or Test Result" start="302" end="310" text="TSH 9 , 41" />
+<annotation id="28203" tag="Laboratory or Test Result" start="313" end="321" text="PSA 3 , 73" />
+<annotation id="28204" tag="Laboratory or Test Result" start="324" end="330" text="HDL 58" />
+<annotation id="28205" tag="Laboratory or Test Result" start="333" end="340" text="LDL 101" />
+<annotation id="28206" tag="Abbreviation|Laboratory or Test Result" start="343" end="348" text="TG 56" />
+<annotation id="28207" tag="Abbreviation|Laboratory or Test Result" start="351" end="360" text="t4 l 1 , 43" />
+<annotation id="28208" tag="Abbreviation|Finding" start="458" end="469" text="mv presente" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28170" annotation2="28171" reltype="associated_with" />
+<rel annotation1="28179" annotation2="28180" reltype="negation_of" />
+<rel annotation1="28185" annotation2="28186" reltype="negation_of" />
+<rel annotation1="28208" annotation2="28178" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

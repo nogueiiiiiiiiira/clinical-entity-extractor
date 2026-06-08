@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>paciente em retorno para mostrar exames.
+
+HAS, hipotiroidismo, dislipidemia, síndrome X.
+
+em uso de enalapril 20 mg 12/12, AAS 100 mg, carvedilol 6,25 mg 2cp 12/12, hidroclorotiazida 25 mg , rosuvastatina 10 mg, ezetinibe 10 mg, sustrate 100 mg se angina, puran 25 mcg. 
+pct assintomática. 
+
+ecocardio transtorácico: remodelamento concêntrico do VE, disfunção diastólica grau II do VE.
+exames laboratoriais normais. (LDL: 122).
+
+
+BEG, CORADA, HIDRATADA, ANICTÉRICA, ACIANÓTICA.
+PA: 110/70.
+FC: 68.
+Auscuta cardiaca: BCRN.
+
+cdta: solicitadops exames labopratoriais, retorno em um ano.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="35835" tag="Health Care Activity" start="12" end="19" text="retorno" abbr="" />
+<annotation id="35836" tag="Laboratory or Test Result" start="33" end="39" text="exames" abbr="" />
+<annotation id="35837" tag="Abbreviation|Abbreviation|Disease or Syndrome|Disease or Syndrome" start="44" end="47" text="HAS" abbr="" />
+<annotation id="35838" tag="Disease or Syndrome" start="49" end="63" text="hipotiroidismo" abbr="" />
+<annotation id="35839" tag="Disease or Syndrome" start="65" end="77" text="dislipidemia" abbr="" />
+<annotation id="35840" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="104" end="113" text="enalapril" abbr="" />
+<annotation id="35841" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="127" end="130" text="AAS" abbr="ácido acetil salicílico" />
+<annotation id="35842" tag="Pharmacologic Substance|Organic Chemical" start="139" end="149" text="carvedilol" abbr="" />
+<annotation id="35843" tag="Pharmacologic Substance|Organic Chemical" start="169" end="186" text="hidroclorotiazida" abbr="" />
+<annotation id="35844" tag="Pharmacologic Substance|Organic Chemical" start="195" end="208" text="rosuvastatina" abbr="" />
+<annotation id="35845" tag="Pharmacologic Substance|Organic Chemical" start="216" end="225" text="ezetinibe" abbr="" />
+<annotation id="35846" tag="Pharmacologic Substance" start="233" end="241" text="sustrate" abbr="" />
+<annotation id="35847" tag="Sign or Symptom|Sign or Symptom" start="252" end="258" text="angina" abbr="" />
+<annotation id="35848" tag="Pharmacologic Substance|Organic Chemical|Hormone" start="260" end="265" text="puran" abbr="" />
+<annotation id="35849" tag="Abbreviation" start="276" end="279" text="pct" abbr="" />
+<annotation id="35850" tag="Sign or Symptom|Negation" start="280" end="293" text="assintomática" abbr="" />
+<annotation id="35851" tag="Abbreviation|Abbreviation|Finding|Finding" start="441" end="444" text="BEG" abbr="" />
+<annotation id="35852" tag="Finding" start="446" end="452" text="CORADA" abbr="" />
+<annotation id="35853" tag="Finding" start="454" end="463" text="HIDRATADA" abbr="" />
+<annotation id="35854" tag="Negation|Sign or Symptom" start="465" end="475" text="ANICTÉRICA" abbr="" />
+<annotation id="35855" tag="Negation|Sign or Symptom" start="477" end="487" text="ACIANÓTICA" abbr="" />
+<annotation id="35856" tag="Abbreviation|Abbreviation|Clinical Attribute|Clinical Attribute" start="490" end="492" text="PA" abbr="" />
+<annotation id="35857" tag="Quantitative Concept" start="494" end="500" text="110/70" abbr="" />
+<annotation id="35858" tag="Abbreviation|Abbreviation|Clinical Attribute|Clinical Attribute" start="503" end="505" text="FC" abbr="" />
+<annotation id="35859" tag="Quantitative Concept" start="507" end="509" text="68" abbr="" />
+<annotation id="35860" tag="Abbreviation|Finding" start="530" end="534" text="BCRN" abbr="" />
+<annotation id="35861" tag="Health Care Activity|Abbreviation" start="539" end="543" text="cdta" abbr="conduta" />
+<annotation id="35862" tag="Health Care Activity" start="545" end="557" text="solicitadops" abbr="" />
+<annotation id="35863" tag="Health Care Activity|Health Care Activity" start="581" end="588" text="retorno" abbr="" />
+<annotation id="35864" tag="Disease or Syndrome" start="79" end="89" text="síndrome X" />
+<annotation id="35865" tag="Quantitative Concept" start="114" end="125" text="20 mg 12/12" />
+<annotation id="35866" tag="Quantitative Concept" start="131" end="137" text="100 mg" />
+<annotation id="35867" tag="Quantitative Concept" start="150" end="167" text="6 , 25 mg 2cp 12/12" />
+<annotation id="35868" tag="Quantitative Concept" start="187" end="192" text="25 mg" />
+<annotation id="35869" tag="Quantitative Concept" start="209" end="214" text="10 mg" />
+<annotation id="35870" tag="Quantitative Concept" start="226" end="231" text="10 mg" />
+<annotation id="35871" tag="Quantitative Concept" start="242" end="248" text="100 mg" />
+<annotation id="35872" tag="Quantitative Concept" start="266" end="272" text="25 mcg" />
+<annotation id="35873" tag="Abbreviation|Diagnostic Procedure" start="299" end="322" text="ecocardio transtorácico" />
+<annotation id="35874" tag="Abbreviation|Laboratory or Test Result" start="324" end="355" text="remodelamento concêntrico do VE" />
+<annotation id="35875" tag="Abbreviation|Laboratory or Test Result" start="357" end="391" text="disfunção diastólica grau II do VE" />
+<annotation id="35876" tag="Laboratory or Test Result" start="394" end="422" text="exames laboratoriais normais" />
+<annotation id="35877" tag="Laboratory or Test Result" start="425" end="433" text="LDL : 122" />
+<annotation id="35878" tag="Diagnostic Procedure" start="512" end="528" text="Auscuta cardiaca" />
+<annotation id="35879" tag="Laboratory Procedure" start="558" end="579" text="exames labopratoriais" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="35835" annotation2="35836" reltype="associated_with" />
+<rel annotation1="35840" annotation2="35865" reltype="associated_with" />
+<rel annotation1="35841" annotation2="35866" reltype="associated_with" />
+<rel annotation1="35842" annotation2="35867" reltype="associated_with" />
+<rel annotation1="35843" annotation2="35868" reltype="associated_with" />
+<rel annotation1="35844" annotation2="35869" reltype="associated_with" />
+<rel annotation1="35845" annotation2="35870" reltype="associated_with" />
+<rel annotation1="35846" annotation2="35871" reltype="associated_with" />
+<rel annotation1="35848" annotation2="35872" reltype="associated_with" />
+<rel annotation1="35849" annotation2="35850" reltype="associated_with" />
+<rel annotation1="35856" annotation2="35857" reltype="associated_with" />
+<rel annotation1="35858" annotation2="35859" reltype="associated_with" />
+<rel annotation1="35861" annotation2="35862" reltype="associated_with" />
+<rel annotation1="35862" annotation2="35879" reltype="associated_with" />
+<rel annotation1="35873" annotation2="35875" reltype="associated_with" />
+<rel annotation1="35873" annotation2="35874" reltype="associated_with" />
+<rel annotation1="35878" annotation2="35860" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS, MASC, 86 ANOS.
+
+QP: CONSULTA DE ROTINA.
+
+HMA: INICIO DE 2013 IAM COM CAT E ANGIOPLASTIA. PACIENTE SEM QUEIXAS CARDIOLOGICAS. RELATA DOR A DEAMBULACAO. 
+
+EM USO DE: AAS 100 MG / CARVEDILOL 25 MG / HCTZ 25 MG / SINVASTATINA 20 MG.
+
+ECOCARDIO 25/11/13 - VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA E FUNÇÃO  GLOBAL MODERADAMENTE DIMINUIDA POR ACINESIA MEDIO APICAL PAREDE ANTERO SEPTAL. AUMENTO DE AE. REFLUXO MITRAL DISCRETO. ECTASIA DA RAIZ AÓRTICA. REFLUXO AÓRTICO DISCRETO.
+FEVE: 47%.
+
+EX:
+PA 120/60,
+FC: 73,
+SAT: 98,
+PC: BC HIPOFONETICAS SEM SORPOS COM EXTRASSISTOLES.
+EDEMA EM MMII ++/4.
+
+CONDUTA: A MEDICAÇAO FOI MANTIDA. RETONRO EM 1  MESES.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="33461" tag="Finding|Abbreviation|Clinical Attribute" start="7" end="11" text="MASC" abbr="" />
+<annotation id="33462" tag="Finding|Abbreviation" start="25" end="27" text="QP" abbr="queixa principal" />
+<annotation id="33463" tag="Abbreviation|Finding" start="52" end="55" text="HMA" abbr="" />
+<annotation id="33464" tag="Abbreviation|Disease or Syndrome" start="72" end="75" text="IAM" abbr="" />
+<annotation id="33465" tag="Abbreviation|Therapeutic or Preventive Procedure" start="80" end="83" text="CAT" abbr="" />
+<annotation id="33466" tag="Therapeutic or Preventive Procedure" start="86" end="98" text="ANGIOPLASTIA" abbr="" />
+<annotation id="33467" tag="Patient or Disabled Group|Patient or Disabled Group" start="100" end="108" text="PACIENTE" abbr="" />
+<annotation id="33468" tag="Negation|Negation" start="109" end="112" text="SEM" abbr="" />
+<annotation id="33469" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="177" end="180" text="AAS" abbr="" />
+<annotation id="33470" tag="Pharmacologic Substance|Organic Chemical" start="190" end="200" text="CARVEDILOL" abbr="" />
+<annotation id="33471" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="209" end="213" text="HCTZ" abbr="hidroclorotiazida" />
+<annotation id="33472" tag="Organic Chemical|Pharmacologic Substance" start="222" end="234" text="SINVASTATINA" abbr="" />
+<annotation id="33473" tag="Diagnostic Procedure|Abbreviation" start="245" end="254" text="ECOCARDIO" abbr="ecocardiograma" />
+<annotation id="33474" tag="Abbreviation|Diagnostic Procedure" start="509" end="511" text="EX" abbr="" />
+<annotation id="33475" tag="Abbreviation|Clinical Attribute" start="514" end="516" text="PA" abbr="" />
+<annotation id="33476" tag="Quantitative Concept" start="517" end="523" text="120/60" abbr="" />
+<annotation id="33477" tag="Abbreviation|Clinical Attribute" start="526" end="528" text="FC" abbr="" />
+<annotation id="33478" tag="Quantitative Concept" start="530" end="532" text="73" abbr="" />
+<annotation id="33479" tag="Abbreviation|Clinical Attribute" start="535" end="538" text="SAT" abbr="" />
+<annotation id="33480" tag="Quantitative Concept" start="540" end="542" text="98" abbr="" />
+<annotation id="33481" tag="Abbreviation" start="545" end="547" text="PC" abbr="" />
+<annotation id="33482" tag="Organ or Tissue Function" start="549" end="551" text="BC" abbr="" />
+<annotation id="33483" tag="Sign or Symptom" start="552" end="565" text="HIPOFONETICAS" abbr="" />
+<annotation id="33484" tag="Negation|Negation" start="566" end="569" text="SEM" abbr="" />
+<annotation id="33485" tag="Sign or Symptom" start="570" end="576" text="SORPOS" abbr="" />
+<annotation id="33486" tag="Sign or Symptom" start="581" end="595" text="EXTRASSISTOLES" abbr="" />
+<annotation id="33487" tag="Pathologic Function|Sign or Symptom" start="598" end="603" text="EDEMA" abbr="" />
+<annotation id="33488" tag="Abbreviation|Body Part, Organ, or Organ Component|Abbreviation" start="607" end="611" text="MMII" abbr="membros inferiores" />
+<annotation id="33489" tag="Laboratory or Test Result" start="612" end="616" text="++/4" abbr="" />
+<annotation id="33490" tag="Health Care Activity|Intellectual Product" start="621" end="628" text="CONDUTA" abbr="" />
+<annotation id="33491" tag="Pharmacologic Substance" start="632" end="641" text="MEDICAÇAO" abbr="" />
+<annotation id="33492" tag="Therapeutic or Preventive Procedure" start="646" end="653" text="MANTIDA" abbr="" />
+<annotation id="33493" tag="Finding" start="29" end="47" text="CONSULTA DE ROTINA" />
+<annotation id="33494" tag="Sign or Symptom" start="113" end="134" text="QUEIXAS CARDIOLOGICAS" />
+<annotation id="33495" tag="Sign or Symptom" start="143" end="160" text="DOR A DEAMBULACAO" />
+<annotation id="33496" tag="Quantitative Concept" start="181" end="187" text="100 MG" />
+<annotation id="33497" tag="Quantitative Concept" start="201" end="206" text="25 MG" />
+<annotation id="33498" tag="Quantitative Concept" start="214" end="219" text="25 MG" />
+<annotation id="33499" tag="Quantitative Concept" start="235" end="240" text="20 MG" />
+<annotation id="33500" tag="Abbreviation|Laboratory or Test Result" start="266" end="313" text="VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA" />
+<annotation id="33501" tag="Laboratory or Test Result" start="316" end="354" text="FUNÇÃO GLOBAL MODERADAMENTE DIMINUIDA" />
+<annotation id="33502" tag="Laboratory or Test Result" start="355" end="401" text="POR ACINESIA MEDIO APICAL PAREDE ANTERO SEPTAL" />
+<annotation id="33503" tag="Abbreviation|Laboratory or Test Result" start="403" end="416" text="AUMENTO DE AE" />
+<annotation id="33504" tag="Laboratory or Test Result" start="418" end="441" text="REFLUXO MITRAL DISCRETO" />
+<annotation id="33505" tag="Laboratory or Test Result" start="443" end="466" text="ECTASIA DA RAIZ AÓRTICA" />
+<annotation id="33506" tag="Laboratory or Test Result" start="468" end="492" text="REFLUXO AÓRTICO DISCRETO" />
+<annotation id="33507" tag="Abbreviation|Laboratory or Test Result" start="495" end="504" text="FEVE : 47%" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33462" annotation2="33493" reltype="associated_with" />
+<rel annotation1="33464" annotation2="33465" reltype="associated_with" />
+<rel annotation1="33464" annotation2="33466" reltype="associated_with" />
+<rel annotation1="33467" annotation2="33494" reltype="associated_with" />
+<rel annotation1="33468" annotation2="33494" reltype="negation_of" />
+<rel annotation1="33469" annotation2="33496" reltype="associated_with" />
+<rel annotation1="33470" annotation2="33497" reltype="associated_with" />
+<rel annotation1="33471" annotation2="33498" reltype="associated_with" />
+<rel annotation1="33472" annotation2="33499" reltype="associated_with" />
+<rel annotation1="33473" annotation2="33501" reltype="associated_with" />
+<rel annotation1="33473" annotation2="33500" reltype="associated_with" />
+<rel annotation1="33473" annotation2="33503" reltype="associated_with" />
+<rel annotation1="33473" annotation2="33504" reltype="associated_with" />
+<rel annotation1="33473" annotation2="33505" reltype="associated_with" />
+<rel annotation1="33473" annotation2="33506" reltype="associated_with" />
+<rel annotation1="33473" annotation2="33507" reltype="associated_with" />
+<rel annotation1="33475" annotation2="33476" reltype="associated_with" />
+<rel annotation1="33477" annotation2="33478" reltype="associated_with" />
+<rel annotation1="33479" annotation2="33480" reltype="associated_with" />
+<rel annotation1="33482" annotation2="33483" reltype="associated_with" />
+<rel annotation1="33482" annotation2="33485" reltype="associated_with" />
+<rel annotation1="33482" annotation2="33486" reltype="associated_with" />
+<rel annotation1="33484" annotation2="33485" reltype="negation_of" />
+<rel annotation1="33488" annotation2="33487" reltype="associated_with" />
+<rel annotation1="33489" annotation2="33487" reltype="associated_with" />
+<rel annotation1="33491" annotation2="33492" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

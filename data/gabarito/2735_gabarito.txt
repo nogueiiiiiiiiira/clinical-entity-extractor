@@ -1,5 +1,0 @@
-Subjetivo 
- Chego à informação pelo [PROFISSÃO] [PROFISSÃO] [NOME] de que o paciente [PROFISSÃO] [NOME], 60 anos, [PROFISSÃO], teve pico febril de 38,7 ° C. Em contato com o [PROFISSÃO] [PROFISSÃO], [PROFISSÃO] [NOME], CRM [IDs], às [HORÁRIO] do dia [DATA], foi prescrito paracetamol e realização de exames para investigar a causa da febre. O paciente permanecerá em monitoramento contínuo para averiguar resposta ao medicamento. Ele está no quarto 405 do [ORGANIZAÇÃO], telefone de emergência [CONTATO]. 
- Escore FUGULIN 22.00 - CUIDADOS DE MÉDIA DEPENDÊNCIA 
- Escore MORSE 55.00 - RISCO ALTO 
- Análise efetuada por [PROFISSÃO] [NOME] Coren [IDs] em [DATA] [HORÁRIO]

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>PACIENTE, 80 ANOS.
+ELETROCARDIOGRAMA: ALTERAÇÕES DIFUSAS DA REPOLARIZAÇÃO VENTRICULAR.
+EXAMES LABORATORIAIS: CREATININA 1,3 / GLICOSE 107 /  UREIA 46 /  TRIGLICERIDEOS 259 /  HDL 42 / POTASSIO 5,4 / COLESTEROL TOTAL 257 / LDL 163 / KPTT 1,31.
+CX CARDÍACA REALIZADA EM 2005: 3 PONTES DE SAFENA, COM HISTÓRIA DE INFARTO EM 2005.
+PACIENTE RELATA VERTIGEM MESMO SENTADA, NAO RELATA ANGINA, NEGA DISPNÉIA, RELATA EDEMA DE MMII.
+EM USO DE: ATENOLOL (1 CP), CAPTOPRIL(2 CP), FUROSEMIDA(1 CP), SINVASTATINA (1 CP A NOITE), OMEPRAZOL.
+ 
+ 
+HIPERTENSA.
+ </TEXT>
+<TAGS>
+<annotation id="33277" tag="Patient or Disabled Group|Patient or Disabled Group" start="0" end="8" text="PACIENTE" abbr="" />
+<annotation id="33278" tag="Diagnostic Procedure" start="20" end="37" text="ELETROCARDIOGRAMA" abbr="" />
+<annotation id="33279" tag="Quantitative Concept" start="277" end="278" text="3" abbr="" />
+<annotation id="33280" tag="Disease or Syndrome" start="313" end="320" text="INFARTO" abbr="" />
+<annotation id="33281" tag="Patient or Disabled Group|Patient or Disabled Group" start="331" end="339" text="PACIENTE" abbr="" />
+<annotation id="33282" tag="Negation" start="371" end="374" text="NAO" abbr="" />
+<annotation id="33283" tag="Sign or Symptom" start="382" end="388" text="ANGINA" abbr="" />
+<annotation id="33284" tag="Negation" start="390" end="394" text="NEGA" abbr="" />
+<annotation id="33285" tag="Sign or Symptom" start="395" end="403" text="DISPNÉIA" abbr="" />
+<annotation id="33286" tag="Sign or Symptom|Pathologic Function" start="412" end="417" text="EDEMA" abbr="" />
+<annotation id="33287" tag="Abbreviation|Body Part, Organ, or Organ Component|Abbreviation" start="421" end="425" text="MMII" abbr="membros inferiores" />
+<annotation id="33288" tag="Pharmacologic Substance|Organic Chemical" start="439" end="447" text="ATENOLOL" abbr="" />
+<annotation id="33289" tag="Pharmacologic Substance" start="456" end="465" text="CAPTOPRIL" abbr="" />
+<annotation id="33290" tag="Pharmacologic Substance|Organic Chemical" start="473" end="483" text="FUROSEMIDA" abbr="" />
+<annotation id="33291" tag="Organic Chemical|Pharmacologic Substance" start="491" end="503" text="SINVASTATINA" abbr="" />
+<annotation id="33292" tag="Organic Chemical|Pharmacologic Substance" start="520" end="529" text="OMEPRAZOL" abbr="" />
+<annotation id="33293" tag="Finding|Disease or Syndrome" start="538" end="548" text="HIPERTENSA" abbr="" />
+<annotation id="33294" tag="Laboratory or Test Result" start="39" end="86" text="ALTERAÇÕES DIFUSAS DA REPOLARIZAÇÃO VENTRICULAR" />
+<annotation id="33295" tag="Laboratory Procedure" start="89" end="109" text="EXAMES LABORATORIAIS" />
+<annotation id="33296" tag="Laboratory or Test Result" start="111" end="125" text="CREATININA 1 , 3" />
+<annotation id="33297" tag="Laboratory or Test Result" start="128" end="139" text="GLICOSE 107" />
+<annotation id="33298" tag="Laboratory or Test Result" start="143" end="151" text="UREIA 46" />
+<annotation id="33299" tag="Laboratory or Test Result" start="155" end="173" text="TRIGLICERIDEOS 259" />
+<annotation id="33300" tag="Laboratory or Test Result" start="177" end="183" text="HDL 42" />
+<annotation id="33301" tag="Laboratory or Test Result" start="186" end="198" text="POTASSIO 5 , 4" />
+<annotation id="33302" tag="Laboratory or Test Result" start="201" end="221" text="COLESTEROL TOTAL 257" />
+<annotation id="33303" tag="Laboratory or Test Result" start="224" end="231" text="LDL 163" />
+<annotation id="33304" tag="Laboratory or Test Result" start="234" end="243" text="KPTT 1 , 31" />
+<annotation id="33305" tag="Abbreviation|Therapeutic or Preventive Procedure" start="246" end="257" text="CX CARDÍACA" />
+<annotation id="33306" tag="Therapeutic or Preventive Procedure" start="279" end="295" text="PONTES DE SAFENA" />
+<annotation id="33307" tag="Sign or Symptom" start="347" end="369" text="VERTIGEM MESMO SENTADA" />
+<annotation id="33308" tag="Quantitative Concept|Abbreviation" start="449" end="453" text="1 CP" />
+<annotation id="33309" tag="Abbreviation|Quantitative Concept" start="466" end="470" text="2 CP" />
+<annotation id="33310" tag="Abbreviation|Quantitative Concept" start="484" end="488" text="1 CP" />
+<annotation id="33311" tag="Abbreviation|Quantitative Concept" start="505" end="509" text="1 CP" />
+<annotation id="33312" tag="Quantitative Concept|Temporal Concept" start="510" end="517" text="A NOITE" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33278" annotation2="33294" reltype="associated_with" />
+<rel annotation1="33279" annotation2="33306" reltype="associated_with" />
+<rel annotation1="33282" annotation2="33283" reltype="negation_of" />
+<rel annotation1="33284" annotation2="33285" reltype="negation_of" />
+<rel annotation1="33287" annotation2="33286" reltype="associated_with" />
+<rel annotation1="33288" annotation2="33308" reltype="associated_with" />
+<rel annotation1="33289" annotation2="33309" reltype="associated_with" />
+<rel annotation1="33290" annotation2="33310" reltype="associated_with" />
+<rel annotation1="33291" annotation2="33311" reltype="associated_with" />
+<rel annotation1="33291" annotation2="33312" reltype="associated_with" />
+<rel annotation1="33295" annotation2="33296" reltype="associated_with" />
+<rel annotation1="33295" annotation2="33297" reltype="associated_with" />
+<rel annotation1="33295" annotation2="33298" reltype="associated_with" />
+<rel annotation1="33295" annotation2="33299" reltype="associated_with" />
+<rel annotation1="33295" annotation2="33300" reltype="associated_with" />
+<rel annotation1="33295" annotation2="33301" reltype="associated_with" />
+<rel annotation1="33295" annotation2="33302" reltype="associated_with" />
+<rel annotation1="33295" annotation2="33303" reltype="associated_with" />
+<rel annotation1="33295" annotation2="33304" reltype="associated_with" />
+<rel annotation1="33305" annotation2="33280" reltype="associated_with" />
+<rel annotation1="33306" annotation2="33305" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

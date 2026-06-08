@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>50 ANOS.
+# HAS.
+# ULCERA PEPTICA.
+# MUD: ATENOLOL 25mg 3X / DIA.
+# PALPITAÇÃO AOS MODERADOS ESFORÇOS, DURAÇÃO DE  POUCOS MINUTOS, 3 EPISODIOS POR DIA, MELHORA ESPONTANEA. 
+MELHORA DAS DEMAIS QUEIXAS - DISPNEIA AOS MODERADOS ESFORÇOS ASSOCIADA A QUEIMAÇÃO DA REGIÃO CERVICAL. 
+# HMF + PARA DAC ( MÃE IAM AOS 45 ANOS ).
+# LAB (03/10/14): HDL 64, LDL 119, TRIGL 203, TSH 2,5, CT 224, CREATININA 0,94, GLICEMIA 74, HB 13,4, PLAQ 325,000.
+# ECG (04/02/14): RITMO SINUSAL, FC: 63 BPM, INTERVALO PR MÉDIO DE 160 mseg, EIXO +60 GRAUS.
+ECOCARDIO 04/10/14: DENTRO DOS LIMITES DA NORMALIDADE, AE 36, VD 16, SEPTO 8, PPVE 8, VE 42 X 22, FE 79%.
+ECG DE REPOUSO 12/09/14: TAQUICARDIA PAROXÍSTICA SUPRA VENTRICULAR.
+# PCTE EM BEG, NORMOCORADA, HIDRATADA.
+PA: 145/90mmHg.
+FC: 68bpm.
+BCRNF SS.
+CPP LIVRES.
+EDEMA DISCRETO EM MMII.
+# PLANO: SOLICITADO HOLTER 24HRS PARA AVALIAR FC EM 24 HRS.
+AUMENTADO DOSE DE ATENOLO PARA 100MG / DIA, OBSERVAR RELAÇÃO COM SINTOMAS PEO HOLTER.
+RETORNO EM 06 MESES.
+
+
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="29535" tag="Abbreviation|Abbreviation|Disease or Syndrome|Disease or Syndrome" start="12" end="15" text="HAS" abbr="" />
+<annotation id="29536" tag="Abbreviation" start="39" end="42" text="MUD" abbr="" />
+<annotation id="29537" tag="Pharmacologic Substance|Organic Chemical" start="44" end="52" text="ATENOLOL" abbr="" />
+<annotation id="29538" tag="Finding" start="177" end="184" text="MELHORA" abbr="" />
+<annotation id="29539" tag="Sign or Symptom|Sign or Symptom" start="196" end="203" text="QUEIXAS" abbr="" />
+<annotation id="29540" tag="Sign or Symptom" start="250" end="259" text="QUEIMAÇÃO" abbr="" />
+<annotation id="29541" tag="Disease or Syndrome|Abbreviation" start="295" end="298" text="DAC" abbr="doença arterial coronariana" />
+<annotation id="29542" tag="Family Group" start="301" end="304" text="MÃE" abbr="" />
+<annotation id="29543" tag="Disease or Syndrome|Abbreviation|Abbreviation|Disease or Syndrome" start="305" end="308" text="IAM" abbr="" />
+<annotation id="29544" tag="Abbreviation|Laboratory Procedure|Laboratory or Test Result|Abbreviation" start="327" end="330" text="LAB" abbr="" />
+<annotation id="29545" tag="Diagnostic Procedure|Abbreviation|Diagnostic Procedure" start="444" end="447" text="ECG" abbr="" />
+<annotation id="29546" tag="Abbreviation|Clinical Attribute|Clinical Attribute" start="475" end="477" text="FC" abbr="" />
+<annotation id="29547" tag="Abbreviation|Diagnostic Procedure" start="536" end="545" text="ECOCARDIO" abbr="" />
+<annotation id="29548" tag="Abbreviation" start="714" end="718" text="PCTE" abbr="" />
+<annotation id="29549" tag="Finding|Finding|Abbreviation|Abbreviation" start="722" end="725" text="BEG" abbr="bom estado geral" />
+<annotation id="29550" tag="Finding" start="727" end="738" text="NORMOCORADA" abbr="" />
+<annotation id="29551" tag="Finding" start="740" end="749" text="HIDRATADA" abbr="" />
+<annotation id="29552" tag="Clinical Attribute|Clinical Attribute|Abbreviation|Abbreviation" start="752" end="754" text="PA" abbr="pressão arterial" />
+<annotation id="29553" tag="Quantitative Concept" start="756" end="766" text="145/90mmHg" abbr="" />
+<annotation id="29554" tag="Clinical Attribute|Clinical Attribute|Abbreviation|Abbreviation" start="769" end="771" text="FC" abbr="frequência cardíaca" />
+<annotation id="29555" tag="Quantitative Concept" start="773" end="778" text="68bpm" abbr="" />
+<annotation id="29556" tag="Finding|Abbreviation|Abbreviation|Finding" start="781" end="786" text="BCRNF" abbr="" />
+<annotation id="29557" tag="Finding|Abbreviation" start="787" end="789" text="SS" abbr="sem sopros" />
+<annotation id="29558" tag="Body Part, Organ, or Organ Component|Abbreviation|Body Part, Organ, or Organ Component|Abbreviation" start="823" end="827" text="MMII" abbr="membros inferiores" />
+<annotation id="29559" tag="Health Care Activity" start="832" end="837" text="PLANO" abbr="" />
+<annotation id="29560" tag="Health Care Activity" start="839" end="849" text="SOLICITADO" abbr="" />
+<annotation id="29561" tag="Health Care Activity" start="868" end="875" text="AVALIAR" abbr="" />
+<annotation id="29562" tag="Clinical Attribute|Abbreviation" start="876" end="878" text="FC" abbr="frequência cardíaca" />
+<annotation id="29563" tag="Health Care Activity" start="891" end="900" text="AUMENTADO" abbr="" />
+<annotation id="29564" tag="Quantitative Concept" start="901" end="905" text="DOSE" abbr="" />
+<annotation id="29565" tag="Organic Chemical|Pharmacologic Substance" start="909" end="916" text="ATENOLO" abbr="" />
+<annotation id="29566" tag="Health Care Activity" start="935" end="943" text="OBSERVAR" abbr="" />
+<annotation id="29567" tag="Sign or Symptom" start="956" end="964" text="SINTOMAS" abbr="" />
+<annotation id="29568" tag="Diagnostic Procedure" start="969" end="975" text="HOLTER" abbr="" />
+<annotation id="29569" tag="Health Care Activity|Health Care Activity" start="978" end="985" text="RETORNO" abbr="" />
+<annotation id="29570" tag="Disease or Syndrome" start="20" end="34" text="ULCERA PEPTICA" />
+<annotation id="29571" tag="Quantitative Concept" start="53" end="66" text="25mg 3X / DIA" />
+<annotation id="29572" tag="Sign or Symptom" start="71" end="104" text="PALPITAÇÃO AOS MODERADOS ESFORÇOS" />
+<annotation id="29573" tag="Quantitative Concept" start="134" end="153" text="3 EPISODIOS POR DIA" />
+<annotation id="29574" tag="Finding" start="155" end="173" text="MELHORA ESPONTANEA" />
+<annotation id="29575" tag="Sign or Symptom" start="206" end="237" text="DISPNEIA AOS MODERADOS ESFORÇOS" />
+<annotation id="29576" tag="Body Location or Region" start="263" end="278" text="REGIÃO CERVICAL" />
+<annotation id="29577" tag="Abbreviation|Finding" start="284" end="289" text="HMF +" />
+<annotation id="29578" tag="Laboratory or Test Result" start="343" end="349" text="HDL 64" />
+<annotation id="29579" tag="Laboratory or Test Result" start="351" end="358" text="LDL 119" />
+<annotation id="29580" tag="Abbreviation|Laboratory or Test Result" start="360" end="369" text="TRIGL 203" />
+<annotation id="29581" tag="Laboratory or Test Result" start="371" end="378" text="TSH 2 , 5" />
+<annotation id="29582" tag="Abbreviation|Laboratory or Test Result" start="380" end="386" text="CT 224" />
+<annotation id="29583" tag="Laboratory or Test Result" start="388" end="403" text="CREATININA 0 , 94" />
+<annotation id="29584" tag="Laboratory or Test Result" start="405" end="416" text="GLICEMIA 74" />
+<annotation id="29585" tag="Laboratory or Test Result" start="418" end="425" text="HB 13 , 4" />
+<annotation id="29586" tag="Abbreviation|Laboratory or Test Result" start="427" end="439" text="PLAQ 325 , 000" />
+<annotation id="29587" tag="Finding|Laboratory or Test Result" start="460" end="473" text="RITMO SINUSAL" />
+<annotation id="29588" tag="Laboratory or Test Result" start="487" end="517" text="INTERVALO PR MÉDIO DE 160 mseg" />
+<annotation id="29589" tag="Laboratory or Test Result" start="519" end="533" text="EIXO +60 GRAUS" />
+<annotation id="29590" tag="Laboratory or Test Result" start="556" end="589" text="DENTRO DOS LIMITES DA NORMALIDADE" />
+<annotation id="29591" tag="Abbreviation|Laboratory or Test Result" start="591" end="596" text="AE 36" />
+<annotation id="29592" tag="Abbreviation|Laboratory or Test Result" start="598" end="603" text="VD 16" />
+<annotation id="29593" tag="Laboratory or Test Result" start="605" end="612" text="SEPTO 8" />
+<annotation id="29594" tag="Abbreviation|Laboratory or Test Result" start="614" end="620" text="PPVE 8" />
+<annotation id="29595" tag="Abbreviation|Laboratory or Test Result" start="622" end="632" text="VE 42 X 22" />
+<annotation id="29596" tag="Abbreviation|Laboratory or Test Result" start="634" end="640" text="FE 79%" />
+<annotation id="29597" tag="Diagnostic Procedure|Abbreviation" start="643" end="657" text="ECG DE REPOUSO" />
+<annotation id="29598" tag="Disease or Syndrome|Laboratory or Test Result" start="668" end="709" text="TAQUICARDIA PAROXÍSTICA SUPRA VENTRICULAR" />
+<annotation id="29599" tag="Abbreviation|Finding" start="792" end="802" text="CPP LIVRES" />
+<annotation id="29600" tag="Sign or Symptom" start="805" end="819" text="EDEMA DISCRETO" />
+<annotation id="29601" tag="Abbreviation|Diagnostic Procedure" start="850" end="862" text="HOLTER 24HRS" />
+<annotation id="29602" tag="Quantitative Concept" start="922" end="933" text="100MG / DIA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="29537" annotation2="29571" reltype="associated_with" />
+<rel annotation1="29539" annotation2="29575" reltype="associated_with" />
+<rel annotation1="29539" annotation2="29540" reltype="associated_with" />
+<rel annotation1="29540" annotation2="29576" reltype="associated_with" />
+<rel annotation1="29545" annotation2="29588" reltype="associated_with" />
+<rel annotation1="29547" annotation2="29590" reltype="associated_with" />
+<rel annotation1="29552" annotation2="29553" reltype="associated_with" />
+<rel annotation1="29554" annotation2="29555" reltype="associated_with" />
+<rel annotation1="29556" annotation2="29557" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

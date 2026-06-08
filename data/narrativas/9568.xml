@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 21 anos 
+Cx Ross 03/06/2015 ( Valva aórtica biscúspide com refluxo moderado ) 
+Uso: AAS 100 - 1xd; selozok 25; Enalapril 10 - 1xd.
+Paciente sem queixas. 
+Aguarda eco de controle 
+Nega dispneia; dor toracica qdo tosse,sem edema mmii. Nega ainda palpitação.
+Tosee seca.
+Trouxe exames
+Hb 14,5 / Leuc 10770 / Pla 274.000
+cr 0,7 / Ur 21
+K 4,5
+Haptoglobiina 165 / Cont reticulocitos 1,4%, LDH 503
+Ex Fisico: BEG, eupneico, acianotico, anicterico, sem edema mmii. 
+PA : 120x90mmHg, P = 83 spm, FR = 12 rpm.
+MV normodist sem ruidosd adv, RCR, 2T, BNF ss + / 6 + FA o e P.
+Ferida operatorio boma specto, com torax estavel, sem creptação.
+A # PO Cx Ross
+Mantenho medicações. Retorno em 2 meses com lbs. Aguardo ecocardio
+E3 cardio Doutor Vital Brazil </TEXT>
+<TAGS>
+<annotation id="27982" tag="Pathologic Function" start="67" end="74" text="refluxo" abbr="" />
+<annotation id="27983" tag="Qualitative Concept" start="75" end="83" text="moderado" abbr="" />
+<annotation id="27984" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="93" end="96" text="AAS" abbr="" />
+<annotation id="27985" tag="Quantitative Concept" start="97" end="100" text="100" abbr="" />
+<annotation id="27986" tag="Temporal Concept|Quantitative Concept" start="103" end="106" text="1xd" abbr="" />
+<annotation id="27987" tag="Pharmacologic Substance" start="108" end="115" text="selozok" abbr="" />
+<annotation id="27988" tag="Quantitative Concept" start="116" end="118" text="25" abbr="" />
+<annotation id="27989" tag="Organic Chemical|Pharmacologic Substance" start="120" end="129" text="Enalapril" abbr="" />
+<annotation id="27990" tag="Quantitative Concept" start="130" end="132" text="10" abbr="" />
+<annotation id="27991" tag="Quantitative Concept|Temporal Concept" start="135" end="138" text="1xd" abbr="" />
+<annotation id="27992" tag="Patient or Disabled Group" start="141" end="149" text="Paciente" abbr="" />
+<annotation id="27993" tag="Negation" start="150" end="153" text="sem" abbr="" />
+<annotation id="27994" tag="Sign or Symptom" start="154" end="161" text="queixas" abbr="" />
+<annotation id="27995" tag="Finding" start="165" end="172" text="Aguarda" abbr="" />
+<annotation id="27996" tag="Diagnostic Procedure" start="173" end="176" text="eco" abbr="" />
+<annotation id="27997" tag="Negation" start="191" end="195" text="Nega" abbr="" />
+<annotation id="27998" tag="Sign or Symptom" start="196" end="204" text="dispneia" abbr="" />
+<annotation id="27999" tag="Negation" start="229" end="232" text="sem" abbr="" />
+<annotation id="28000" tag="Sign or Symptom|Pathologic Function" start="233" end="238" text="edema" abbr="" />
+<annotation id="28001" tag="Body Location or Region|Abbreviation" start="239" end="243" text="mmii" abbr="Membros Inferiores" />
+<annotation id="28002" tag="Negation" start="245" end="249" text="Nega" abbr="" />
+<annotation id="28003" tag="Sign or Symptom" start="256" end="266" text="palpitação" abbr="" />
+<annotation id="28004" tag="Laboratory or Test Result|Diagnostic Procedure" start="289" end="295" text="exames" abbr="" />
+<annotation id="28005" tag="Abbreviation|Finding" start="421" end="424" text="BEG" abbr="" />
+<annotation id="28006" tag="Finding" start="426" end="434" text="eupneico" abbr="" />
+<annotation id="28007" tag="Finding|Negation" start="436" end="446" text="acianotico" abbr="" />
+<annotation id="28008" tag="Negation|Finding" start="448" end="458" text="anicterico" abbr="" />
+<annotation id="28009" tag="Negation" start="460" end="463" text="sem" abbr="" />
+<annotation id="28010" tag="Pathologic Function|Sign or Symptom" start="464" end="469" text="edema" abbr="" />
+<annotation id="28011" tag="Body Location or Region|Abbreviation" start="470" end="474" text="mmii" abbr="Membros Inferiores" />
+<annotation id="28012" tag="Abbreviation|Clinical Attribute" start="478" end="480" text="PA" abbr="" />
+<annotation id="28013" tag="Quantitative Concept" start="483" end="493" text="120x90mmHg" abbr="" />
+<annotation id="28014" tag="Abbreviation|Clinical Attribute" start="495" end="496" text="P" abbr="" />
+<annotation id="28015" tag="Abbreviation|Clinical Attribute" start="507" end="509" text="FR" abbr="" />
+<annotation id="28016" tag="Negation" start="534" end="537" text="sem" abbr="" />
+<annotation id="28017" tag="Abbreviation|Finding" start="551" end="554" text="RCR" abbr="" />
+<annotation id="28018" tag="Abbreviation|Finding" start="556" end="558" text="2T" abbr="" />
+<annotation id="28019" tag="Finding|Abbreviation" start="560" end="563" text="BNF" abbr="bulhas normofonéticas" />
+<annotation id="28020" tag="Finding|Abbreviation|Negation" start="564" end="566" text="ss" abbr="" />
+<annotation id="28021" tag="Disease or Syndrome|Pathologic Function|Abbreviation" start="575" end="577" text="FA" abbr="fibrilação atrial" />
+<annotation id="28022" tag="Negation" start="636" end="639" text="sem" abbr="" />
+<annotation id="28023" tag="Sign or Symptom" start="640" end="649" text="creptação" abbr="" />
+<annotation id="28024" tag="Diagnostic Procedure|Abbreviation" start="652" end="653" text="A" abbr="" />
+<annotation id="28025" tag="Temporal Concept|Abbreviation" start="656" end="658" text="PO" abbr="Pós-Operatório" />
+<annotation id="28026" tag="Pharmacologic Substance" start="677" end="687" text="medicações" abbr="" />
+<annotation id="28027" tag="Diagnostic Procedure|Abbreviation" start="712" end="715" text="lbs" abbr="" />
+<annotation id="28028" tag="Diagnostic Procedure|Abbreviation" start="725" end="734" text="ecocardio" abbr="ecocardiograma" />
+<annotation id="28029" tag="Abbreviation" start="739" end="745" text="cardio" abbr="" />
+<annotation id="28030" tag="Abbreviation|Therapeutic or Preventive Procedure" start="17" end="24" text="Cx Ross" />
+<annotation id="28031" tag="Body Part, Organ, or Organ Component" start="38" end="62" text="Valva aórtica biscúspide" />
+<annotation id="28032" tag="Abbreviation|Sign or Symptom" start="206" end="228" text="dor toracica qdo tosse" />
+<annotation id="28033" tag="Sign or Symptom" start="269" end="279" text="Tosee seca" />
+<annotation id="28034" tag="Abbreviation|Laboratory or Test Result" start="297" end="304" text="Hb 14 , 5" />
+<annotation id="28035" tag="Abbreviation|Laboratory or Test Result" start="307" end="317" text="Leuc 10770" />
+<annotation id="28036" tag="Laboratory or Test Result|Abbreviation" start="320" end="327" text="Pla 274" />
+<annotation id="28037" tag="Abbreviation|Laboratory or Test Result" start="333" end="339" text="cr 0 , 7" />
+<annotation id="28038" tag="Abbreviation|Laboratory or Test Result" start="342" end="347" text="Ur 21" />
+<annotation id="28039" tag="Abbreviation|Laboratory or Test Result" start="349" end="354" text="K 4 , 5" />
+<annotation id="28040" tag="Laboratory or Test Result" start="356" end="373" text="Haptoglobiina 165" />
+<annotation id="28041" tag="Abbreviation|Laboratory or Test Result" start="376" end="399" text="Cont reticulocitos 1 , 4%" />
+<annotation id="28042" tag="Laboratory or Test Result" start="401" end="408" text="LDH 503" />
+<annotation id="28043" tag="Abbreviation|Diagnostic Procedure|Health Care Activity" start="410" end="419" text="Ex Fisico" />
+<annotation id="28044" tag="Quantitative Concept" start="499" end="505" text="83 spm" />
+<annotation id="28045" tag="Quantitative Concept" start="512" end="518" text="12 rpm" />
+<annotation id="28046" tag="Abbreviation|Finding" start="521" end="533" text="MV normodist" />
+<annotation id="28047" tag="Sign or Symptom|Abbreviation" start="538" end="549" text="ruidosd adv" />
+<annotation id="28048" tag="Injury or Poisoning" start="586" end="603" text="Ferida operatorio" />
+<annotation id="28049" tag="Finding" start="604" end="615" text="boma specto" />
+<annotation id="28050" tag="Finding" start="621" end="634" text="torax estavel" />
+<annotation id="28051" tag="Abbreviation|Therapeutic or Preventive Procedure" start="659" end="666" text="Cx Ross" />
+<annotation id="28052" tag="Health Care Activity" start="689" end="707" text="Retorno em 2 meses" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="27984" annotation2="27985" reltype="associated_with" />
+<rel annotation1="27987" annotation2="27988" reltype="associated_with" />
+<rel annotation1="27989" annotation2="27990" reltype="associated_with" />
+<rel annotation1="27989" annotation2="27991" reltype="associated_with" />
+<rel annotation1="27997" annotation2="27998" reltype="negation_of" />
+<rel annotation1="27999" annotation2="28000" reltype="negation_of" />
+<rel annotation1="28002" annotation2="28003" reltype="negation_of" />
+<rel annotation1="28004" annotation2="28034" reltype="associated_with" />
+<rel annotation1="28004" annotation2="28035" reltype="associated_with" />
+<rel annotation1="28004" annotation2="28036" reltype="associated_with" />
+<rel annotation1="28009" annotation2="28010" reltype="negation_of" />
+<rel annotation1="28012" annotation2="28013" reltype="associated_with" />
+<rel annotation1="28014" annotation2="28044" reltype="associated_with" />
+<rel annotation1="28015" annotation2="28045" reltype="associated_with" />
+<rel annotation1="28016" annotation2="28047" reltype="negation_of" />
+<rel annotation1="28017" annotation2="28018" reltype="associated_with" />
+<rel annotation1="28017" annotation2="28019" reltype="associated_with" />
+<rel annotation1="28022" annotation2="28023" reltype="negation_of" />
+<rel annotation1="28025" annotation2="28051" reltype="associated_with" />
+<rel annotation1="28043" annotation2="28005" reltype="associated_with" />
+<rel annotation1="28043" annotation2="28006" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

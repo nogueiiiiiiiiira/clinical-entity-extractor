@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>POS TX CARDIACO HA 20 dias
+ULTIMA BIOPSIA AINDA SEM RESULTADO
+EM USO DE EVEROLIMUS 0,75 DE 8/8 , AZATIOPRINA 50 / 50 E PREDNISONA 20MG / DIA
+USO DE FURO , AAS , SINVA
+S # SEM QUEIXAS 
+REFERE QUEIMAÇÃO NAS PERNAS. DEMAIS SP
+O # PA 120/80, FC 89
+ACV BCRNF 
+CPP LIVRE
+MMII SEM EDEMA 
+A # POS TX CARDIACO , COM BOA EVOLUÇÃO. 
+P # NOVA BIOPSIA, ECO E LAB
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="28467" tag="Temporal Concept" start="0" end="3" text="POS" abbr="" />
+<annotation id="28468" tag="Diagnostic Procedure" start="35" end="42" text="BIOPSIA" abbr="" />
+<annotation id="28469" tag="Negation" start="49" end="52" text="SEM" abbr="" />
+<annotation id="28470" tag="Pharmacologic Substance" start="74" end="84" text="EVEROLIMUS" abbr="" />
+<annotation id="28471" tag="Temporal Concept" start="93" end="96" text="8/8" abbr="" />
+<annotation id="28472" tag="Pharmacologic Substance" start="99" end="110" text="AZATIOPRINA" abbr="" />
+<annotation id="28473" tag="Pharmacologic Substance" start="121" end="131" text="PREDNISONA" abbr="" />
+<annotation id="28474" tag="Abbreviation|Pharmacologic Substance" start="151" end="155" text="FURO" abbr="" />
+<annotation id="28475" tag="Abbreviation|Pharmacologic Substance" start="158" end="161" text="AAS" abbr="" />
+<annotation id="28476" tag="Pharmacologic Substance|Abbreviation" start="164" end="169" text="SINVA" abbr="sinvastatina" />
+<annotation id="28477" tag="Negation" start="175" end="178" text="SEM" abbr="" />
+<annotation id="28478" tag="Sign or Symptom" start="179" end="186" text="QUEIXAS" abbr="" />
+<annotation id="28479" tag="Abbreviation|Finding" start="225" end="227" text="SP" abbr="" />
+<annotation id="28480" tag="Abbreviation|Clinical Attribute" start="233" end="235" text="PA" abbr="" />
+<annotation id="28481" tag="Quantitative Concept" start="236" end="242" text="120/80" abbr="" />
+<annotation id="28482" tag="Abbreviation|Clinical Attribute" start="244" end="246" text="FC" abbr="" />
+<annotation id="28483" tag="Quantitative Concept" start="247" end="249" text="89" abbr="" />
+<annotation id="28484" tag="Abbreviation|Body System" start="251" end="254" text="ACV" abbr="" />
+<annotation id="28485" tag="Abbreviation|Finding" start="255" end="260" text="BCRNF" abbr="" />
+<annotation id="28486" tag="Abbreviation" start="274" end="278" text="MMII" abbr="Membros Inferiores" />
+<annotation id="28487" tag="Negation" start="279" end="282" text="SEM" abbr="" />
+<annotation id="28488" tag="Sign or Symptom" start="283" end="288" text="EDEMA" abbr="" />
+<annotation id="28489" tag="Temporal Concept" start="295" end="298" text="POS" abbr="" />
+<annotation id="28490" tag="Diagnostic Procedure" start="342" end="349" text="BIOPSIA" abbr="" />
+<annotation id="28491" tag="Diagnostic Procedure|Abbreviation" start="351" end="354" text="ECO" abbr="ecocardiograma" />
+<annotation id="28492" tag="Laboratory Procedure|Abbreviation" start="357" end="360" text="LAB" abbr="Exames Laboratoriais" />
+<annotation id="28493" tag="Abbreviation|Therapeutic or Preventive Procedure" start="4" end="15" text="TX CARDIACO" />
+<annotation id="28494" tag="Quantitative Concept" start="85" end="89" text="0 , 75" />
+<annotation id="28495" tag="Quantitative Concept" start="111" end="118" text="50 / 50" />
+<annotation id="28496" tag="Quantitative Concept" start="132" end="142" text="20MG / DIA" />
+<annotation id="28497" tag="Sign or Symptom" start="196" end="216" text="QUEIMAÇÃO NAS PERNAS" />
+<annotation id="28498" tag="Abbreviation|Finding" start="263" end="272" text="CPP LIVRE" />
+<annotation id="28499" tag="Abbreviation|Therapeutic or Preventive Procedure" start="299" end="310" text="TX CARDIACO" />
+<annotation id="28500" tag="Finding" start="317" end="329" text="BOA EVOLUÇÃO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28467" annotation2="28493" reltype="associated_with" />
+<rel annotation1="28470" annotation2="28494" reltype="associated_with" />
+<rel annotation1="28470" annotation2="28471" reltype="associated_with" />
+<rel annotation1="28472" annotation2="28495" reltype="associated_with" />
+<rel annotation1="28473" annotation2="28496" reltype="associated_with" />
+<rel annotation1="28477" annotation2="28478" reltype="negation_of" />
+<rel annotation1="28480" annotation2="28481" reltype="associated_with" />
+<rel annotation1="28482" annotation2="28483" reltype="associated_with" />
+<rel annotation1="28484" annotation2="28485" reltype="associated_with" />
+<rel annotation1="28486" annotation2="28488" reltype="associated_with" />
+<rel annotation1="28487" annotation2="28488" reltype="negation_of" />
+<rel annotation1="28489" annotation2="28499" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

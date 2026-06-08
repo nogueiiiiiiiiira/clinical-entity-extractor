@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 25/02/2016
+
+
+# IAM 2013 + ATC
+# HAS
+# DM
+# TBG ATIVA
+ 
+ 
+# S: Refere dispneia a medios/grandes esforços,
+refere edema de membros inferiores, com piora no final do dia.
+refere palpitaçoes esporádicas.
+ nega ortopneia ou dispneia paroxistica, nega dor toracica.
+
+relata caminhar bastante e andar de bicicleta.
+
+
+
+# ECOCARDIO 17/12/15: VE com dimensões normais e função sistólica global diminuída de grau moderado (FE simpson 42%). Alteração de contratilidade segmentar. Disfunção diastólica grau I. àtrio esquerdo e Câmaras direitas normais. Refluxo mitral discreto.
+
+# CINTILO FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR E ANTERO SEPTAL DISCRETA ISQUEMIA ASSOCIADA
+FE 23-28%.
+# CINTILOGRAFIA 16/01/15: HIPOPERFUSÃO ACENTUADA E PERSISTENTE NO APICE E MEDIO APICAL PAREDE ANTERIOR E ANTERO SEPTAL VE.
+HIPOCINESIA DIFUSA DAS PAREDES DO VE, ANTERIOR E APICAL. FE 23---28%.
+# TESTE ESFORÇO 16/01/15: AUSENCIA DE MANIFESTAÇÕES ELETROCARDIOGRAFICAS SUJESTIVAS DE ISQUEMIA MIOCARDICA.
+
+
+EM USO DE: AAS 100MG DIA, CARVEDILOL 12,5G 2x DIA, ENALAPRIL 10MG 1/2CP 2X DIA, METFORMINA 850MG 1CP AO DIA, SINVASTATINA 80MG A NOITE, ESPIRONOLACTONA 25MG (refere não utilizar corretamente pois causa cefaleia).
+
+O: P 70, PA 120/80.
+BEG, LOTE, normocorada, hidratada.
+BRNF SS.
+MV+ bilateralmente S RA.
+MMII edema +/++++ em membro direito.
+
+
+P: adiciono furosemida 40mg, aumento carvedilol para 25 2x ao dia, substituo sinvastatina por atorvastatina 80mg (LDL 122).
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="45~48" text="IAM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="56~59" text="ATC" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="62~65" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="68~70" text="DM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="73~82" text="TBG ATIVA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="92~98" text="Refere" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E6" spans="99~133" text="dispneia a medios/grandes esforços" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="135~141" text="refere" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E8" spans="142~169" text="edema de membros inferiores" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="175~196" text="piora no final do dia" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="198~204" text="refere" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E11" spans="205~228" text="palpitaçoes esporádicas" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="231~235" text="nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E13" spans="236~245" text="ortopneia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="249~269" text="dispneia paroxistica" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="271~275" text="nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E16" spans="276~288" text="dor toracica" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="291~297" text="relata" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E18" spans="343~352" text="ECOCARDIO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="390~440" text="função sistólica global diminuída de grau moderado" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="459~496" text="Alteração de contratilidade segmentar" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="498~525" text="Disfunção diastólica grau I" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="570~593" text="Refluxo mitral discreto" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="598~605" text="CINTILO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="606~676" text="FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR E ANTERO SEPTAL" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="677~694" text="DISCRETA ISQUEMIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="718~731" text="CINTILOGRAFIA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="742~837" text="HIPOPERFUSÃO ACENTUADA E PERSISTENTE NO APICE E MEDIO APICAL PAREDE ANTERIOR E ANTERO SEPTAL VE" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="839~894" text="HIPOCINESIA DIFUSA DAS PAREDES DO VE, ANTERIOR E APICAL" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="911~924" text="TESTE ESFORÇO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="996~1015" text="ISQUEMIA MIOCARDICA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E31" spans="1030~1039" text="AAS 100MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E32" spans="1045~1061" text="CARVEDILOL 12,5G" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E33" spans="1070~1084" text="ENALAPRIL 10MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E34" spans="1099~1115" text="METFORMINA 850MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E35" spans="1128~1145" text="SINVASTATINA 80MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E36" spans="1155~1175" text="ESPIRONOLACTONA 25MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E37" spans="1177~1183" text="refere" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E38" spans="1221~1229" text="cefaleia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E39" spans="1236~1237" text="P" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E40" spans="1242~1244" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E41" spans="1293~1295" text="SS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E42" spans="1318~1320" text="RA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E43" spans="1322~1357" text="MMII edema +/++++ em membro direito" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E44" spans="1373~1388" text="furosemida 40mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E45" spans="1390~1397" text="aumento" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E46" spans="1398~1416" text="carvedilol para 25" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E47" spans="1438~1450" text="sinvastatina" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E48" spans="1455~1473" text="atorvastatina 80mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E49" spans="1475~1478" text="LDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="49~53" text="2013" Type="Date" Value="2013" Mod="NA" />
+<TIMEX3 id="T1" spans="353~361" text="17/12/15" Type="Date" Value="2015-12-17" Mod="NA" />
+<TIMEX3 id="T2" spans="732~740" text="16/01/15" Type="Date" Value="2015-01-16" Mod="NA" />
+<TIMEX3 id="T3" spans="925~933" text="16/01/15" Type="Date" Value="2015-01-16" Mod="NA" />
+<TIMEX3 id="T4" spans="1040~1043" text="DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="1062~1068" text="2x DIA" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T6" spans="1085~1097" text="1/2CP 2X DIA" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="0.5" />
+<TIMEX3 id="T7" spans="1116~1126" text="1CP AO DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T8" spans="1146~1153" text="A NOITE" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T9" spans="1417~1426" text="2x ao dia" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<RELATION id="R0" fromID="T0" fromText="2013" toID="E0" toText="IAM" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E0" fromText="IAM" toID="E1" toText="ATC" Relação_Temporal="BEFORE" />
+<RELATION id="R2" fromID="E8" fromText="edema de membros inferiores" toID="E9" toText="piora no final do dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="T1" fromText="17/12/15" toID="E18" toText="ECOCARDIO" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="E18" fromText="ECOCARDIO" toID="E19" toText="função sistólica global diminuída de grau moderado" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="E18" fromText="ECOCARDIO" toID="E20" toText="Alteração de contratilidade segmentar" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E18" fromText="ECOCARDIO" toID="E21" toText="Disfunção diastólica grau I" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="E18" fromText="ECOCARDIO" toID="E22" toText="Refluxo mitral discreto" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E23" fromText="CINTILO" toID="E24" toText="FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR E ANTERO SEPTAL" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E23" fromText="CINTILO" toID="E25" toText="DISCRETA ISQUEMIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="T2" fromText="16/01/15" toID="E26" toText="CINTILOGRAFIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E26" fromText="CINTILOGRAFIA" toID="E28" toText="HIPOCINESIA DIFUSA DAS PAREDES DO VE, ANTERIOR E APICAL" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="E26" fromText="CINTILOGRAFIA" toID="E27" toText="HIPOPERFUSÃO ACENTUADA E PERSISTENTE NO APICE E MEDIO APICAL PAREDE ANTERIOR E ANTERO SEPTAL VE" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="T3" fromText="16/01/15" toID="E29" toText="TESTE ESFORÇO" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="E29" fromText="TESTE ESFORÇO" toID="E30" toText="ISQUEMIA MIOCARDICA" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="E31" fromText="AAS 100MG" toID="T4" toText="DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R16" fromID="E32" fromText="CARVEDILOL 12,5G" toID="T5" toText="2x DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R17" fromID="E33" fromText="ENALAPRIL 10MG" toID="T6" toText="1/2CP 2X DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R18" fromID="E34" fromText="METFORMINA 850MG" toID="T7" toText="1CP AO DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R19" fromID="E35" fromText="SINVASTATINA 80MG" toID="T8" toText="A NOITE" Relação_Temporal="OVERLAP" />
+<RELATION id="R20" fromID="E36" fromText="ESPIRONOLACTONA 25MG" toID="E38" toText="cefaleia" Relação_Temporal="OVERLAP" />
+<RELATION id="R21" fromID="E45" fromText="aumento" toID="E46" toText="carvedilol para 25" Relação_Temporal="OVERLAP" />
+<RELATION id="R22" fromID="E46" fromText="carvedilol para 25" toID="T9" toText="2x ao dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R23" fromID="E47" fromText="sinvastatina" toID="E48" toText="atorvastatina 80mg" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>ID : 58 anos, casado, 3 filhos, natural de Palmeiras e residente de Curitiba há 30 anos, trabalhou com pescados ( manipulador de pescados ) QP : Retorno com exames  HMA : # Paciente refere que não houve mudança nos sintomas. # Relata que tem dispneia aos mínimos esforços. ICC há 6-7 anos. Historia de TB há 9 anos fez tratamento tendo sido curado. Fez cirurgia de ponte de safena em 2013 ficando internado 68 dias ( infecção hospitalar  ) necessitando de transfusão de sangue; fez 3 cateterismo  sendo o ultimo em 2014 ; Fez cirurgia de apendicectomia há 30 anos e depois uma ressecção intestinal; Ultimo internamento há 3 meses por disturbio do potassio ( SIC ). Nega alergias.  HMP : # DM TIPO 2 INSULINO-DEPENDENTE # IAM e RVM EM SET/2013 # EX-ETILISTA,A ( PAROU HÁ 12 ANOS ) # EX-TABAGISTA, CARGA TABÁGICA DE 41 ANOS-MAÇO (PAROU HÁ 2 ANOS)  Medicamentos: Enalapril 2.5mg 12/12h AAS 100mg Furosemida 40mg 8/8h Carvedilol 25mg 12/12h Rosuvastatina 10mg Doxasozinha 2mg Omeprazol 20mg  Insulina NPH - 20U   Laboratório 19/01/16 : Eritrócitos 3.54 Hemoglobina 10.3 Hematocrito 32.1% Leucocitos 11620 Eosinofilos 581 Basofilos 116.2 Acido Urico 12.9 TAP 0.92 Sodio 137 Potassio 5.6 Creatinina 2.2  TFG CKD EPI 31.4 ml/min/1.73 m2 Glicose 177 Ureia 146 BT 0.6 - BD 0.3 - BI 0.3  Peso 93.5 PA 80/40 FC 68 SpO2 85% acv bcrnf cpp livre  Adiciono apresolina 25mg 12/12h Solicito perfil de ferro Prescrevo Annita Solicito retorno em 45 dias</TEXT>
+<TAGS>
+<annotation id="23984" tag="Finding" start="140" end="142" text="QP" abbr="" />
+<annotation id="23985" tag="Diagnostic Procedure" start="157" end="163" text="exames" abbr="" />
+<annotation id="23986" tag="Patient or Disabled Group" start="173" end="181" text="Paciente" abbr="" />
+<annotation id="23987" tag="Negation" start="193" end="196" text="não" abbr="" />
+<annotation id="23988" tag="Abbreviation|Disease or Syndrome" start="273" end="276" text="ICC" abbr="" />
+<annotation id="23989" tag="Disease or Syndrome|Abbreviation" start="302" end="304" text="TB" abbr="tuberculose" />
+<annotation id="23990" tag="Finding" start="341" end="347" text="curado" abbr="" />
+<annotation id="23991" tag="Therapeutic or Preventive Procedure" start="484" end="495" text="cateterismo" abbr="" />
+<annotation id="23992" tag="Negation" start="665" end="669" text="Nega" abbr="" />
+<annotation id="23993" tag="Pathologic Function|Sign or Symptom" start="670" end="678" text="alergias" abbr="" />
+<annotation id="23994" tag="Finding" start="681" end="684" text="HMP" abbr="" />
+<annotation id="23995" tag="Abbreviation|Disease or Syndrome" start="721" end="724" text="IAM" abbr="" />
+<annotation id="23996" tag="Therapeutic or Preventive Procedure|Abbreviation" start="727" end="730" text="RVM" abbr="revascularização miocárdica" />
+<annotation id="23997" tag="Finding" start="745" end="756" text="EX-ETILISTA" abbr="" />
+<annotation id="23998" tag="Finding" start="782" end="794" text="EX-TABAGISTA" abbr="" />
+<annotation id="23999" tag="Pharmacologic Substance" start="846" end="858" text="Medicamentos" abbr="" />
+<annotation id="24000" tag="Pharmacologic Substance" start="860" end="869" text="Enalapril" abbr="" />
+<annotation id="24001" tag="Abbreviation|Pharmacologic Substance" start="883" end="886" text="AAS" abbr="" />
+<annotation id="24002" tag="Quantitative Concept" start="887" end="892" text="100mg" abbr="" />
+<annotation id="24003" tag="Pharmacologic Substance" start="893" end="903" text="Furosemida" abbr="" />
+<annotation id="24004" tag="Temporal Concept" start="909" end="913" text="8/8h" abbr="" />
+<annotation id="24005" tag="Pharmacologic Substance" start="914" end="924" text="Carvedilol" abbr="" />
+<annotation id="24006" tag="Temporal Concept" start="930" end="936" text="12/12h" abbr="" />
+<annotation id="24007" tag="Pharmacologic Substance" start="937" end="950" text="Rosuvastatina" abbr="" />
+<annotation id="24008" tag="Quantitative Concept" start="951" end="955" text="10mg" abbr="" />
+<annotation id="24009" tag="Pharmacologic Substance" start="956" end="967" text="Doxasozinha" abbr="" />
+<annotation id="24010" tag="Quantitative Concept" start="968" end="971" text="2mg" abbr="" />
+<annotation id="24011" tag="Pharmacologic Substance" start="972" end="981" text="Omeprazol" abbr="" />
+<annotation id="24012" tag="Quantitative Concept" start="982" end="986" text="20mg" abbr="" />
+<annotation id="24013" tag="Quantitative Concept" start="1003" end="1006" text="20U" abbr="" />
+<annotation id="24014" tag="Laboratory Procedure" start="1009" end="1020" text="Laboratório" abbr="" />
+<annotation id="24015" tag="Clinical Attribute" start="1278" end="1282" text="Peso" abbr="" />
+<annotation id="24016" tag="Quantitative Concept" start="1283" end="1285" text="93" abbr="" />
+<annotation id="24017" tag="Clinical Attribute|Abbreviation" start="1288" end="1290" text="PA" abbr="pressão arterial" />
+<annotation id="24018" tag="Quantitative Concept" start="1291" end="1296" text="80/40" abbr="" />
+<annotation id="24019" tag="Clinical Attribute|Abbreviation" start="1297" end="1299" text="FC" abbr="Frequência Cardíaca" />
+<annotation id="24020" tag="Quantitative Concept" start="1300" end="1302" text="68" abbr="" />
+<annotation id="24021" tag="Abbreviation|Clinical Attribute" start="1303" end="1307" text="SpO2" abbr="" />
+<annotation id="24022" tag="Quantitative Concept" start="1308" end="1311" text="85%" abbr="" />
+<annotation id="24023" tag="Abbreviation|Body System" start="1312" end="1315" text="acv" abbr="" />
+<annotation id="24024" tag="Abbreviation|Finding" start="1316" end="1321" text="bcrnf" abbr="" />
+<annotation id="24025" tag="Clinical Attribute|Abbreviation" start="1322" end="1325" text="cpp" abbr="Campos Pleuro Pulmonares" />
+<annotation id="24026" tag="Finding" start="1326" end="1331" text="livre" abbr="" />
+<annotation id="24027" tag="Health Care Activity" start="1333" end="1341" text="Adiciono" abbr="" />
+<annotation id="24028" tag="Pharmacologic Substance" start="1342" end="1352" text="apresolina" abbr="" />
+<annotation id="24029" tag="Temporal Concept" start="1358" end="1364" text="12/12h" abbr="" />
+<annotation id="24030" tag="Health Care Activity" start="1365" end="1373" text="Solicito" abbr="" />
+<annotation id="24031" tag="Health Care Activity" start="1390" end="1399" text="Prescrevo" abbr="" />
+<annotation id="24032" tag="Pharmacologic Substance" start="1400" end="1406" text="Annita" abbr="" />
+<annotation id="24033" tag="Health Care Activity" start="1407" end="1415" text="Solicito" abbr="" />
+<annotation id="24034" tag="Health Care Activity" start="1416" end="1423" text="retorno" abbr="" />
+<annotation id="24035" tag="Professional or Occupational Group" start="114" end="137" text="manipulador de pescados" />
+<annotation id="24036" tag="Sign or Symptom" start="203" end="223" text="mudança nos sintomas" />
+<annotation id="24037" tag="Sign or Symptom" start="242" end="271" text="dispneia aos mínimos esforços" />
+<annotation id="24038" tag="Therapeutic or Preventive Procedure" start="353" end="380" text="cirurgia de ponte de safena" />
+<annotation id="24039" tag="Disease or Syndrome" start="417" end="436" text="infecção hospitalar" />
+<annotation id="24040" tag="Therapeutic or Preventive Procedure" start="456" end="476" text="transfusão de sangue" />
+<annotation id="24041" tag="Therapeutic or Preventive Procedure" start="526" end="552" text="cirurgia de apendicectomia" />
+<annotation id="24042" tag="Therapeutic or Preventive Procedure" start="577" end="597" text="ressecção intestinal" />
+<annotation id="24043" tag="Sign or Symptom" start="634" end="655" text="disturbio do potassio" />
+<annotation id="24044" tag="Abbreviation|Disease or Syndrome" start="689" end="718" text="DM TIPO 2 INSULINO-DEPENDENTE" />
+<annotation id="24045" tag="Quantitative Concept" start="814" end="826" text="41 ANOS-MAÇO" />
+<annotation id="24046" tag="Pharmacologic Substance" start="988" end="1000" text="Insulina NPH" />
+<annotation id="24047" tag="Laboratory or Test Result" start="1032" end="1045" text="Eritrócitos 3" />
+<annotation id="24048" tag="Laboratory or Test Result" start="1049" end="1063" text="Hemoglobina 10" />
+<annotation id="24049" tag="Laboratory or Test Result" start="1066" end="1080" text="Hematocrito 32" />
+<annotation id="24050" tag="Laboratory or Test Result" start="1084" end="1100" text="Leucocitos 11620" />
+<annotation id="24051" tag="Laboratory or Test Result" start="1101" end="1116" text="Eosinofilos 581" />
+<annotation id="24052" tag="Laboratory or Test Result" start="1117" end="1130" text="Basofilos 116" />
+<annotation id="24053" tag="Laboratory or Test Result" start="1133" end="1147" text="Acido Urico 12" />
+<annotation id="24054" tag="Laboratory or Test Result" start="1150" end="1155" text="TAP 0" />
+<annotation id="24055" tag="Laboratory or Test Result" start="1159" end="1168" text="Sodio 137" />
+<annotation id="24056" tag="Laboratory or Test Result" start="1169" end="1179" text="Potassio 5" />
+<annotation id="24057" tag="Laboratory or Test Result" start="1182" end="1194" text="Creatinina 2" />
+<annotation id="24058" tag="Laboratory or Test Result" start="1198" end="1212" text="TFG CKD EPI 31" />
+<annotation id="24059" tag="Laboratory or Test Result" start="1230" end="1241" text="Glicose 177" />
+<annotation id="24060" tag="Laboratory or Test Result" start="1242" end="1251" text="Ureia 146" />
+<annotation id="24061" tag="Abbreviation|Laboratory or Test Result" start="1252" end="1256" text="BT 0" />
+<annotation id="24062" tag="Abbreviation|Laboratory or Test Result" start="1261" end="1265" text="BD 0" />
+<annotation id="24063" tag="Abbreviation|Laboratory or Test Result" start="1270" end="1274" text="BI 0" />
+<annotation id="24064" tag="Laboratory Procedure" start="1374" end="1389" text="perfil de ferro" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="23987" annotation2="24036" reltype="negation_of" />
+<rel annotation1="23992" annotation2="23993" reltype="negation_of" />
+<rel annotation1="24001" annotation2="24002" reltype="associated_with" />
+<rel annotation1="24004" annotation2="24003" reltype="associated_with" />
+<rel annotation1="24006" annotation2="24005" reltype="associated_with" />
+<rel annotation1="24007" annotation2="24008" reltype="associated_with" />
+<rel annotation1="24009" annotation2="24010" reltype="associated_with" />
+<rel annotation1="24011" annotation2="24012" reltype="associated_with" />
+<rel annotation1="24015" annotation2="24016" reltype="associated_with" />
+<rel annotation1="24017" annotation2="24018" reltype="associated_with" />
+<rel annotation1="24019" annotation2="24020" reltype="associated_with" />
+<rel annotation1="24021" annotation2="24022" reltype="associated_with" />
+<rel annotation1="24023" annotation2="24024" reltype="associated_with" />
+<rel annotation1="24025" annotation2="24026" reltype="associated_with" />
+<rel annotation1="24027" annotation2="24028" reltype="associated_with" />
+<rel annotation1="24030" annotation2="24064" reltype="associated_with" />
+<rel annotation1="24031" annotation2="24032" reltype="associated_with" />
+<rel annotation1="24040" annotation2="24038" reltype="associated_with" />
+<rel annotation1="24046" annotation2="24013" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

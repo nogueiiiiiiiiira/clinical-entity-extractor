@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 15/03/2016
+
+
+POS TX CARDIACO HA 3 ANOS e 7 MESES 
+ULTIMA BIOPSIA
+EM USO DE CICLOSPORINA 100 / 100, MYFORTIC 360 / 360 ( REDUZIU PARA ESSA DOSE POR ENGANO ) , E PREDNISONA 5 MG / DIA
+USO DE AAS 100 / DIA
+S # SEM QUEIXAS 
+DEMAIS SP 
+AGURADA BIOPSIA.
+O # PA 120/80, FC 70
+ACV BCRNF 
+CPP LIVRE
+MMII SEM EDEMA 
+A # POS TX CARDIACO , COM BOA EVOLUÇÃO. AGUARDA LAUDO DA BIOPSIA
+P # SOLICITO LAB E ECOCC
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="47~58" text="TX CARDIACO" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="105~117" text="CICLOSPORINA" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="129~137" text="MYFORTIC" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="190~205" text="PREDNISONA 5 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="219~226" text="AAS 100" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="241~248" text="QUEIXAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="269~276" text="BIOPSIA" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E8" spans="282~284" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E9" spans="293~295" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E10" spans="329~334" text="EDEMA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E11" spans="344~355" text="TX CARDIACO" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="362~374" text="BOA EVOLUÇÃO" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="414~417" text="LAB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E15" spans="420~425" text="ECOCC" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E13" spans="80~94" text="ULTIMA BIOPSIA" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="59~78" text="HA 3 ANOS e 7 MESES" Type="Date" Value="2012-08-15" Mod="NA" />
+<TIMEX3 id="T1" spans="118~127" text="100 / 100" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T2" spans="138~147" text="360 / 360" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T3" spans="206~211" text="/ DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="227~232" text="/ DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<RELATION id="R0" fromID="T0" fromText="HA 3 ANOS e 7 MESES" toID="E0" toText="TX CARDIACO" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E2" fromText="CICLOSPORINA" toID="T1" toText="100 / 100" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E3" fromText="MYFORTIC" toID="T2" toText="360 / 360" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E4" fromText="PREDNISONA 5 MG" toID="T3" toText="/ DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E5" fromText="AAS 100" toID="T4" toText="/ DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E11" fromText="TX CARDIACO" toID="E12" toText="BOA EVOLUÇÃO" Relação_Temporal="BEFORE" />
+</TAGS>
+</Annotation_v1>

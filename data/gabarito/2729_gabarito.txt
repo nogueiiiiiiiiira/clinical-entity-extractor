@@ -1,6 +1,0 @@
-Subjetivo 
- EM TEMPO : Durante minha ronda noturna, sou alertado pela [PROFISSÃO] [NOME] acerca do paciente [PROFISSÃO] [NOME], 67 anos, [PROFISSÃO], que apresenta desconforto respiratório . Imediatamente contato o [PROFISSÃO] [NOME], [PROFISSÃO] de plantão, CRM [IDs], às [HORÁRIO], que se encontra no pronto-socorro assistindo outro caso e peço orientações . O doutor promete avaliar o [PROFISSÃO] [NOME] assim que possível . 
-     Contatei o familiar, [PROFISSÃO] [NOME], telefone [CONTATO], residente em [LOCAL], e ele foi avisado do ocorrido . 
-     Escore FUGULIN 18.00 - CUIDADOS DE MODERADA DEPENDÊNCIA 
-     Escore MORSE 65.00 - RISCO MUITO ALTO 
-     Elaborado e assinado por [PROFISSÃO] [NOME], Coren [IDs] em [DATA] [HORÁRIO]

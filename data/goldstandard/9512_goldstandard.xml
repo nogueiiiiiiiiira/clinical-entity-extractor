@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 11/09/2015
+
+
+DAC ESTAVEL   CD  MODERADA 
+IAM  2011  ATC DA 
+SEM QXC  CARDIOLOGICAS
+USA CLOPIDOGREL  ATV 20  AAS   ENL10 12-12 LIPANON MTP  25 D ANCORON
+5-8-15  CINTILO  NEGATIVA PARA ISQUEMIA TE   INFRA  4 MM V5-V6 
+A DAC ESTAVEL
+P  LAB 
+RETORNO EM 6 MESESS
+CESSAR   ANCORON
+MANTENHO MONOCORDIL  20 12-12
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="43~46" text="DAC" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="47~54" text="ESTAVEL" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="71~74" text="IAM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="82~88" text="ATC DA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="94~112" text="QXC  CARDIOLOGICAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="117~128" text="CLOPIDOGREL" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="130~136" text="ATV 20" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="138~141" text="AAS" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="144~149" text="ENL10" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="156~163" text="LIPANON" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="164~171" text="MTP  25" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="174~181" text="ANCORON" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="190~197" text="CINTILO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="213~221" text="ISQUEMIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="222~224" text="TE" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="227~232" text="INFRA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="248~251" text="DAC" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E19" spans="252~259" text="ESTAVEL" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E20" spans="263~266" text="LAB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E21" spans="268~275" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E22" spans="297~304" text="ANCORON" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E23" spans="288~294" text="CESSAR" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E24" spans="305~313" text="MANTENHO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E25" spans="314~328" text="MONOCORDIL  20" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="76~80" text="2011" Type="Date" Value="2011" Mod="NA" />
+<TIMEX3 id="T1" spans="150~155" text="12-12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T2" spans="172~173" text="D" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T3" spans="182~188" text="5-8-15" Type="Date" Value="2015-08-05" Mod="NA" />
+<TIMEX3 id="T4" spans="276~287" text="EM 6 MESESS" Type="Date" Value="2016-03-11" Mod="NA" />
+<TIMEX3 id="T5" spans="329~334" text="12-12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<RELATION id="R0" fromID="T0" fromText="2011" toID="E2" toText="IAM" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E2" fromText="IAM" toID="E3" toText="ATC DA" Relação_Temporal="BEFORE" />
+<RELATION id="R3" fromID="E8" fromText="ENL10" toID="T1" toText="12-12" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E12" fromText="MTP  25" toID="T2" toText="D" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="T3" fromText="5-8-15" toID="E14" toText="CINTILO" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="T3" fromText="5-8-15" toID="E16" toText="TE" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="E14" fromText="CINTILO" toID="E15" toText="ISQUEMIA" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E16" fromText="TE" toID="E17" toText="INFRA" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E18" fromText="DAC" toID="E19" toText="ESTAVEL" Relação_Temporal="OVERLAP" />
+<RELATION id="R10" fromID="E21" fromText="RETORNO" toID="E20" toText="LAB" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="T4" fromText="EM 6 MESESS" toID="E21" toText="RETORNO" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="E23" fromText="CESSAR" toID="E22" toText="ANCORON" Relação_Temporal="OVERLAP" />
+<RELATION id="R13" fromID="E24" fromText="MANTENHO" toID="E25" toText="MONOCORDIL  20" Relação_Temporal="OVERLAP" />
+<RELATION id="R14" fromID="E25" fromText="MONOCORDIL  20" toID="T5" toText="12-12" Relação_Temporal="OVERLAP" />
+<RELATION id="R15" fromID="T0" fromText="2011" toID="E3" toText="ATC DA" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

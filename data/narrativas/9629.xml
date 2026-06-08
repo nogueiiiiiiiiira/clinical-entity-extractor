@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 67 ANOS, CASADO, CURITIBA
+# RM EM 2010- 3 PONTES SAFENAS
+# HAS HÁ 15 ANOS
+# DM COM USO DE INSULINA HA 4 ANOS
+# ANGIOPLASTIA HÁ 10 ANOS
+# ARRITMIA
+MEDICAÇÕES:
+LOSARTANA 100MG 1 CP PELA MANHÃ E MEIO A TARDE
+ESPIRONOLACTONA 25MG 1 CP PELA MANHÃ
+CONCOR 5 MG 1 CP AO DIA
+AMIODARONA 200MG MEIO COMPRIMIDO AO DIA
+FUROSEMIDA 40 MG 1 CP PELA MANHÃ 
+MAREVAN 5 MG 2 CP DIA TODOS OS DIAS
+INSULINA 30 U A NOITE
+METFORMINA 500 MG 3 X AO DIA
+ATORVASTATINA  20 MG 4 CP DIA
+QUEIXA PRINCIPAL - DISPNEIA NYHA III
+NEGA DOR ANGINOSA
+EXAMES:
+ÚLTIMO RNI 31/03/2014: 1,32
+ECOCARDIOGRAMA 27/09/13
+CONCLUSÃO: HIPERTROFIADE VENTRICULO ESQUERDO, COM DIMENSOESAUMENTADAS E FUNÇÃO SISTOLICA COMPROMETIDA DE GRAU MODERADO,
+ACINESIA DE PAREDE INFERIOR E HIPOCINESIANOS DEMAIS SEGMENTOS, ALTERAÇÃO DO RELAXAMENTO VENTRICULAR ESQUERDO.
+REGURGITAÇÃOMITRAL MODERADA, ATRIO ESQUERDO DILATADO.
+CHV: EX TABAGISTA PAROU HÁ 5 ANOS MEIA CARTEIRA DIA
+NÃO FAZ USO DE ÁLCOOL HÁ ANOS
+SEDENTÁRIO
+NÃO CUIDA A DIETA, COMENDO POUCA GORDURA
+ICC GLOBAL
+FA PAROXISTICA
+TIO CARDIOPATA
+CX: 6 CATETERISMO, 2 ANGIOSPLATIA, 3 PONTE DE SAFENA.
+NEGA ALERGIAS
+NEGA OUTRAS INTERNAMENTOS.
+FRATUROU JOELHO E PERNA ? FEZ CIRURGIA
+NEGA QUEIXAS
+RETORNO COM EXAMES QUE NÃO FORAM REALIZADOS PQ PERDERAM O PAPEL</TEXT>
+<TAGS>
+<annotation id="31221" tag="Therapeutic or Preventive Procedure|Abbreviation|Diagnostic Procedure" start="36" end="38" text="RM" abbr="" />
+<annotation id="31222" tag="Quantitative Concept" start="48" end="49" text="3" abbr="" />
+<annotation id="31223" tag="Disease or Syndrome|Abbreviation|Disease or Syndrome" start="68" end="71" text="HAS" abbr="" />
+<annotation id="31224" tag="Abbreviation|Disease or Syndrome" start="86" end="88" text="DM" abbr="" />
+<annotation id="31225" tag="Pharmacologic Substance|Hormone|Pharmacologic Substance" start="100" end="108" text="INSULINA" abbr="" />
+<annotation id="31226" tag="Therapeutic or Preventive Procedure" start="122" end="134" text="ANGIOPLASTIA" abbr="" />
+<annotation id="31227" tag="Disease or Syndrome" start="149" end="157" text="ARRITMIA" abbr="" />
+<annotation id="31228" tag="Therapeutic or Preventive Procedure|Pharmacologic Substance|Pharmacologic Substance" start="159" end="169" text="MEDICAÇÕES" abbr="" />
+<annotation id="31229" tag="Pharmacologic Substance|Organic Chemical" start="172" end="181" text="LOSARTANA" abbr="" />
+<annotation id="31230" tag="Quantitative Concept" start="182" end="187" text="100MG" abbr="" />
+<annotation id="31231" tag="Quantitative Concept" start="206" end="210" text="MEIO" abbr="" />
+<annotation id="31232" tag="Organic Chemical|Pharmacologic Substance" start="220" end="235" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="31233" tag="Quantitative Concept" start="236" end="240" text="25MG" abbr="" />
+<annotation id="31234" tag="Organic Chemical|Pharmacologic Substance" start="258" end="264" text="CONCOR" abbr="" />
+<annotation id="31235" tag="Organic Chemical|Pharmacologic Substance" start="283" end="293" text="AMIODARONA" abbr="" />
+<annotation id="31236" tag="Quantitative Concept" start="294" end="299" text="200MG" abbr="" />
+<annotation id="31237" tag="Temporal Concept" start="319" end="322" text="DIA" abbr="" />
+<annotation id="31238" tag="Pharmacologic Substance|Organic Chemical" start="324" end="334" text="FUROSEMIDA" abbr="" />
+<annotation id="31239" tag="Pharmacologic Substance" start="359" end="366" text="MAREVAN" abbr="" />
+<annotation id="31240" tag="Temporal Concept" start="377" end="380" text="DIA" abbr="" />
+<annotation id="31241" tag="Pharmacologic Substance|Pharmacologic Substance|Hormone" start="396" end="404" text="INSULINA" abbr="" />
+<annotation id="31242" tag="Organic Chemical|Pharmacologic Substance" start="419" end="429" text="METFORMINA" abbr="" />
+<annotation id="31243" tag="Temporal Concept" start="444" end="447" text="DIA" abbr="" />
+<annotation id="31244" tag="Pharmacologic Substance|Organic Chemical" start="449" end="462" text="ATORVASTATINA" abbr="" />
+<annotation id="31245" tag="Temporal Concept" start="475" end="478" text="DIA" abbr="" />
+<annotation id="31246" tag="Negation" start="518" end="522" text="NEGA" abbr="" />
+<annotation id="31247" tag="Laboratory Procedure" start="537" end="543" text="EXAMES" abbr="" />
+<annotation id="31248" tag="Laboratory Procedure|Abbreviation" start="553" end="556" text="RNI" abbr="razão normalizada internacional" />
+<annotation id="31249" tag="Diagnostic Procedure" start="575" end="589" text="ECOCARDIOGRAMA" abbr="" />
+<annotation id="31250" tag="Negation|Negation" start="940" end="943" text="NÃO" abbr="" />
+<annotation id="31251" tag="Finding" start="971" end="981" text="SEDENTÁRIO" abbr="" />
+<annotation id="31252" tag="Negation|Negation" start="983" end="986" text="NÃO" abbr="" />
+<annotation id="31253" tag="Food" start="995" end="1000" text="DIETA" abbr="" />
+<annotation id="31254" tag="Family Group" start="1053" end="1056" text="TIO" abbr="" />
+<annotation id="31255" tag="Disease or Syndrome" start="1057" end="1067" text="CARDIOPATA" abbr="" />
+<annotation id="31256" tag="Abbreviation|Therapeutic or Preventive Procedure" start="1069" end="1071" text="CX" abbr="" />
+<annotation id="31257" tag="Quantitative Concept" start="1073" end="1074" text="6" abbr="" />
+<annotation id="31258" tag="Therapeutic or Preventive Procedure|Therapeutic or Preventive Procedure" start="1075" end="1086" text="CATETERISMO" abbr="" />
+<annotation id="31259" tag="Quantitative Concept" start="1088" end="1089" text="2" abbr="" />
+<annotation id="31260" tag="Therapeutic or Preventive Procedure" start="1090" end="1102" text="ANGIOSPLATIA" abbr="" />
+<annotation id="31261" tag="Quantitative Concept" start="1104" end="1105" text="3" abbr="" />
+<annotation id="31262" tag="Negation" start="1124" end="1128" text="NEGA" abbr="" />
+<annotation id="31263" tag="Pathologic Function" start="1129" end="1137" text="ALERGIAS" abbr="" />
+<annotation id="31264" tag="Negation" start="1139" end="1143" text="NEGA" abbr="" />
+<annotation id="31265" tag="Health Care Activity|Therapeutic or Preventive Procedure" start="1151" end="1164" text="INTERNAMENTOS" abbr="" />
+<annotation id="31266" tag="Injury or Poisoning" start="1167" end="1175" text="FRATUROU" abbr="" />
+<annotation id="31267" tag="Body Part, Organ, or Organ Component" start="1176" end="1182" text="JOELHO" abbr="" />
+<annotation id="31268" tag="Body Part, Organ, or Organ Component" start="1185" end="1190" text="PERNA" abbr="" />
+<annotation id="31269" tag="Therapeutic or Preventive Procedure" start="1197" end="1205" text="CIRURGIA" abbr="" />
+<annotation id="31270" tag="Negation|Negation" start="1207" end="1211" text="NEGA" abbr="" />
+<annotation id="31271" tag="Sign or Symptom" start="1212" end="1219" text="QUEIXAS" abbr="" />
+<annotation id="31272" tag="Health Care Activity" start="1221" end="1228" text="RETORNO" abbr="" />
+<annotation id="31273" tag="Laboratory or Test Result" start="1233" end="1239" text="EXAMES" abbr="" />
+<annotation id="31274" tag="Negation" start="1244" end="1247" text="NÃO" abbr="" />
+<annotation id="31275" tag="Health Care Activity" start="1254" end="1264" text="REALIZADOS" abbr="" />
+<annotation id="31276" tag="Therapeutic or Preventive Procedure" start="50" end="64" text="PONTES SAFENAS" />
+<annotation id="31277" tag="Temporal Concept" start="72" end="82" text="HÁ 15 ANOS" />
+<annotation id="31278" tag="Temporal Concept" start="109" end="118" text="HA 4 ANOS" />
+<annotation id="31279" tag="Temporal Concept" start="135" end="145" text="HÁ 10 ANOS" />
+<annotation id="31280" tag="Abbreviation|Quantitative Concept" start="188" end="192" text="1 CP" />
+<annotation id="31281" tag="Temporal Concept" start="193" end="203" text="PELA MANHÃ" />
+<annotation id="31282" tag="Temporal Concept" start="211" end="218" text="A TARDE" />
+<annotation id="31283" tag="Abbreviation|Quantitative Concept" start="241" end="245" text="1 CP" />
+<annotation id="31284" tag="Temporal Concept" start="246" end="256" text="PELA MANHÃ" />
+<annotation id="31285" tag="Quantitative Concept" start="265" end="269" text="5 MG" />
+<annotation id="31286" tag="Abbreviation|Quantitative Concept" start="270" end="274" text="1 CP" />
+<annotation id="31287" tag="Temporal Concept" start="275" end="281" text="AO DIA" />
+<annotation id="31288" tag="Quantitative Concept" start="300" end="315" text="MEIO COMPRIMIDO" />
+<annotation id="31289" tag="Quantitative Concept" start="335" end="340" text="40 MG" />
+<annotation id="31290" tag="Abbreviation|Quantitative Concept" start="341" end="345" text="1 CP" />
+<annotation id="31291" tag="Temporal Concept" start="346" end="356" text="PELA MANHÃ" />
+<annotation id="31292" tag="Quantitative Concept" start="367" end="371" text="5 MG" />
+<annotation id="31293" tag="Abbreviation|Quantitative Concept" start="372" end="376" text="2 CP" />
+<annotation id="31294" tag="Temporal Concept" start="381" end="394" text="TODOS OS DIAS" />
+<annotation id="31295" tag="Abbreviation|Quantitative Concept" start="405" end="409" text="30 U" />
+<annotation id="31296" tag="Temporal Concept" start="410" end="417" text="A NOITE" />
+<annotation id="31297" tag="Quantitative Concept" start="430" end="436" text="500 MG" />
+<annotation id="31298" tag="Abbreviation|Quantitative Concept" start="437" end="440" text="3 X" />
+<annotation id="31299" tag="Quantitative Concept" start="464" end="469" text="20 MG" />
+<annotation id="31300" tag="Quantitative Concept" start="470" end="474" text="4 CP" />
+<annotation id="31301" tag="Sign or Symptom" start="480" end="496" text="QUEIXA PRINCIPAL" />
+<annotation id="31302" tag="Disease or Syndrome" start="499" end="516" text="DISPNEIA NYHA III" />
+<annotation id="31303" tag="Sign or Symptom" start="523" end="535" text="DOR ANGINOSA" />
+<annotation id="31304" tag="Quantitative Concept" start="569" end="573" text="1 , 32" />
+<annotation id="31305" tag="Laboratory or Test Result" start="611" end="669" text="HIPERTROFIADE VENTRICULO ESQUERDO , COM DIMENSOESAUMENTADAS" />
+<annotation id="31306" tag="Laboratory or Test Result" start="672" end="718" text="FUNÇÃO SISTOLICA COMPROMETIDA DE GRAU MODERADO" />
+<annotation id="31307" tag="Laboratory or Test Result" start="721" end="782" text="ACINESIA DE PAREDE INFERIOR E HIPOCINESIANOS DEMAIS SEGMENTOS" />
+<annotation id="31308" tag="Laboratory or Test Result" start="784" end="829" text="ALTERAÇÃO DO RELAXAMENTO VENTRICULAR ESQUERDO" />
+<annotation id="31309" tag="Laboratory or Test Result" start="832" end="884" text="REGURGITAÇÃOMITRAL MODERADA , ATRIO ESQUERDO DILATADO" />
+<annotation id="31310" tag="Finding" start="892" end="904" text="EX TABAGISTA" />
+<annotation id="31311" tag="Finding" start="905" end="920" text="PAROU HÁ 5 ANOS" />
+<annotation id="31312" tag="Quantitative Concept" start="921" end="938" text="MEIA CARTEIRA DIA" />
+<annotation id="31313" tag="Temporal Concept" start="962" end="969" text="HÁ ANOS" />
+<annotation id="31314" tag="Finding" start="1002" end="1023" text="COMENDO POUCA GORDURA" />
+<annotation id="31315" tag="Abbreviation|Disease or Syndrome" start="1025" end="1035" text="ICC GLOBAL" />
+<annotation id="31316" tag="Abbreviation|Disease or Syndrome" start="1037" end="1051" text="FA PAROXISTICA" />
+<annotation id="31317" tag="Therapeutic or Preventive Procedure" start="1106" end="1121" text="PONTE DE SAFENA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="31222" annotation2="31276" reltype="associated_with" />
+<rel annotation1="31223" annotation2="31277" reltype="associated_with" />
+<rel annotation1="31224" annotation2="31225" reltype="associated_with" />
+<rel annotation1="31225" annotation2="31278" reltype="associated_with" />
+<rel annotation1="31226" annotation2="31279" reltype="associated_with" />
+<rel annotation1="31229" annotation2="31230" reltype="associated_with" />
+<rel annotation1="31229" annotation2="31280" reltype="associated_with" />
+<rel annotation1="31232" annotation2="31233" reltype="associated_with" />
+<rel annotation1="31232" annotation2="31283" reltype="associated_with" />
+<rel annotation1="31234" annotation2="31285" reltype="associated_with" />
+<rel annotation1="31234" annotation2="31286" reltype="associated_with" />
+<rel annotation1="31235" annotation2="31236" reltype="associated_with" />
+<rel annotation1="31238" annotation2="31289" reltype="associated_with" />
+<rel annotation1="31238" annotation2="31290" reltype="associated_with" />
+<rel annotation1="31239" annotation2="31292" reltype="associated_with" />
+<rel annotation1="31239" annotation2="31293" reltype="associated_with" />
+<rel annotation1="31241" annotation2="31295" reltype="associated_with" />
+<rel annotation1="31242" annotation2="31297" reltype="associated_with" />
+<rel annotation1="31248" annotation2="31304" reltype="associated_with" />
+<rel annotation1="31249" annotation2="31307" reltype="associated_with" />
+<rel annotation1="31249" annotation2="31308" reltype="associated_with" />
+<rel annotation1="31256" annotation2="31260" reltype="associated_with" />
+<rel annotation1="31256" annotation2="31317" reltype="associated_with" />
+<rel annotation1="31262" annotation2="31263" reltype="negation_of" />
+<rel annotation1="31264" annotation2="31265" reltype="negation_of" />
+<rel annotation1="31266" annotation2="31267" reltype="associated_with" />
+<rel annotation1="31266" annotation2="31268" reltype="associated_with" />
+<rel annotation1="31270" annotation2="31271" reltype="negation_of" />
+<rel annotation1="31293" annotation2="31240" reltype="associated_with" />
+<rel annotation1="31300" annotation2="31245" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

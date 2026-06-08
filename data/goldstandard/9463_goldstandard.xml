@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 17/06/2016
+
+
+ID : Lucas, 79 anos, viuvo, cobrador de ônibus aposentado, 6 filhos.  # Medicações em uso : - losartana 50 mg 12/12 h - AAS 100 mg - captopril ? 1 x ao dia -hidroclorotiazida 25 mg 1 x ao dia -flutamida 250 mg 8/8 h # Comorbidades : HAS, Ca de Prostata em acompanhamento há 2 anos.  S : retorno com exames Acompanha na cardiologia desde 2014 devido hipertensão arterial ( descoberta devido a medida casual ). Nega tontura, dispneia, dor no peito, cansaço, ou outras queixas desde a consulta anterior. Tabagista de 78 maços / ano por 65 anos ( cigarro de palha ). Nega etilismo. Faz exercícios físicos regularmente. Dieta   O : # Exames laboratoriais (09/06) - Creatinina: 1,2 mg/dL -- TFG: 64,95 mL/min ( estádio II de DRC ) - Glicose em jejum : 101 mg/dL - Ureia : 30 mg/dL -Triglicerideos : 81 mg/dL - HDL : 36 mg/dL - Na : 142 mmol/L - K:4,8 mmol/L - Colesterol Total : 137 mg/dL - Colesterol LDL : 85 md/dL - Glicose TOTG : 125 mg/dL - Eritrocitos : 4,19 mi/mm3 - Hb glicada : 5,39% -Microalbuminuria / creatinina : 8,2 mg/ g creatinina  # ETT : VE com dimensões normais, hipertrofia concentrica discreta, contratilidade segmentar e função sistólica global preservadas e disfunção diastólica. AE e camaras direitas normais. Valvas cardíacas normais.  # EF : Altura : 1,72 m Peso: 92 kg IMC : 31,9 kg/m2 PA : 105/80 mmHg Pulso : 59 bpm FR : 18 mrpm BEG, LOTE, anictérico, hidratado, aciánotico. Ausculta pulmonar: crepitação em região interscapular. Exame cardiovascular: Bulhas não audíveis, ictus não palpável e não visível. Abdominal: Abdomen globoso, flácido, indolor a palpação, RHA presentes, sem visceromegalias.  A : HAS controlada com medicação Síndrome metabólica. HAS sd metabolica ca prostata.]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="115~125" text="Medicações" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="137~152" text="losartana 50 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="163~173" text="AAS 100 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="176~185" text="captopril" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="200~223" text="hidroclorotiazida 25 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="236~252" text="flutamida 250 mg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="261~273" text="Comorbidades" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="276~279" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="281~295" text="Ca de Prostata" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="299~313" text="acompanhamento" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="330~337" text="retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E11" spans="342~348" text="exames" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="349~358" text="Acompanha" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="362~373" text="cardiologia" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="392~412" text="hipertensão arterial" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="452~456" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E16" spans="457~464" text="tontura" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="466~474" text="dispneia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="476~488" text="dor no peito" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="490~497" text="cansaço" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="544~553" text="Tabagista" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E22" spans="606~610" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E23" spans="611~619" text="etilismo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E24" spans="658~663" text="Dieta" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="672~692" text="Exames laboratoriais" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="703~713" text="Creatinina" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="728~731" text="TFG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="748~765" text="estádio II de DRC" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E29" spans="770~786" text="Glicose em jejum" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="956~968" text="Glicose TOTG" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E31" spans="983~994" text="Eritrocitos" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E32" spans="1011~1021" text="Hb glicada" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E33" spans="1031~1060" text="Microalbuminuria / creatinina" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E34" spans="1073~1083" text="creatinina" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E35" spans="1087~1090" text="ETT" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E36" spans="1119~1151" text="hipertrofia concentrica discreta" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E37" spans="1218~1238" text="disfunção diastólica" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E38" spans="1300~1302" text="EF" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E39" spans="1305~1311" text="Altura" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E40" spans="1321~1325" text="Peso" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E41" spans="1333~1336" text="IMC" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E43" spans="1367~1372" text="Pulso" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E44" spans="1382~1384" text="FR" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E45" spans="1460~1494" text="crepitação em região interscapular" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E46" spans="1496~1516" text="Exame cardiovascular" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E47" spans="1518~1537" text="Bulhas não audíveis" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E48" spans="1539~1571" text="ictus não palpável e não visível" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E49" spans="1649~1664" text="visceromegalias" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E50" spans="1671~1685" text="HAS controlada" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E51" spans="1690~1699" text="medicação" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E52" spans="1700~1719" text="Síndrome metabólica" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E53" spans="1721~1724" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E54" spans="1725~1738" text="sd metabolica" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E55" spans="1739~1750" text="ca prostata" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E56" spans="801~806" text="Ureia" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E57" spans="819~833" text="Triglicerideos" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E58" spans="847~850" text="HDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E59" spans="864~866" text="Na" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E60" spans="882~883" text="K" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E61" spans="897~913" text="Colesterol Total" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E62" spans="928~942" text="Colesterol LDL" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E63" spans="502~516" text="outras queixas" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E64" spans="1350~1352" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E20" spans="525~542" text="consulta anterior" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="153~160" text="12/12 h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T1" spans="188~198" text="1 x ao dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T2" spans="224~234" text="1 x ao dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T3" spans="253~258" text="8/8 h" Type="Set" Value="P1D" Mod="NA" Freq="3X" Cps="NA" />
+<TIMEX3 id="T4" spans="314~323" text="há 2 anos" Type="Duration" Value="P2Y" Mod="NA" />
+<TIMEX3 id="T5" spans="374~384" text="desde 2014" Type="Date" Value="2014" Mod="NA" />
+<TIMEX3 id="T6" spans="572~583" text="por 65 anos" Type="Duration" Value="P65Y" Mod="NA" />
+<TIMEX3 id="T7" spans="694~699" text="09/06" Type="Date" Value="2016-06-09" Mod="NA" />
+<RELATION id="R0" fromID="E1" fromText="losartana 50 mg" toID="T0" toText="12/12 h" Relação_Temporal="OVERLAP" />
+<RELATION id="R1" fromID="E3" fromText="captopril" toID="T1" toText="1 x ao dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E4" fromText="hidroclorotiazida 25 mg" toID="T2" toText="1 x ao dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E5" fromText="flutamida 250 mg" toID="T3" toText="8/8 h" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E8" fromText="Ca de Prostata" toID="E9" toText="acompanhamento" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E9" fromText="acompanhamento" toID="T4" toText="há 2 anos" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E10" fromText="retorno" toID="E11" toText="exames" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="E12" fromText="Acompanha" toID="T5" toText="desde 2014" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R8" fromID="E12" fromText="Acompanha" toID="E14" toText="hipertensão arterial" Relação_Temporal="OVERLAP" />
+<RELATION id="R9" fromID="E12" fromText="Acompanha" toID="E13" toText="cardiologia" Relação_Temporal="OVERLAP" />
+<RELATION id="R10" fromID="E16" fromText="tontura" toID="E20" toText="consulta anterior" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R11" fromID="E17" fromText="dispneia" toID="E20" toText="consulta anterior" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R12" fromID="E18" fromText="dor no peito" toID="E20" toText="consulta anterior" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R13" fromID="E19" fromText="cansaço" toID="E20" toText="consulta anterior" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R14" fromID="E63" fromText="outras queixas" toID="E20" toText="consulta anterior" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R15" fromID="E21" fromText="Tabagista" toID="T6" toText="por 65 anos" Relação_Temporal="OVERLAP" />
+<RELATION id="R16" fromID="T7" fromText="09/06" toID="E25" toText="Exames laboratoriais" Relação_Temporal="CONTAINS" />
+<RELATION id="R17" fromID="E25" fromText="Exames laboratoriais" toID="E26" toText="Creatinina" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="E25" fromText="Exames laboratoriais" toID="E27" toText="TFG" Relação_Temporal="CONTAINS" />
+<RELATION id="R19" fromID="E25" fromText="Exames laboratoriais" toID="E28" toText="estádio II de DRC" Relação_Temporal="CONTAINS" />
+<RELATION id="R20" fromID="E25" fromText="Exames laboratoriais" toID="E29" toText="Glicose em jejum" Relação_Temporal="CONTAINS" />
+<RELATION id="R21" fromID="E25" fromText="Exames laboratoriais" toID="E56" toText="Ureia" Relação_Temporal="CONTAINS" />
+<RELATION id="R22" fromID="E25" fromText="Exames laboratoriais" toID="E57" toText="Triglicerideos" Relação_Temporal="CONTAINS" />
+<RELATION id="R23" fromID="E25" fromText="Exames laboratoriais" toID="E58" toText="HDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R24" fromID="E25" fromText="Exames laboratoriais" toID="E59" toText="Na" Relação_Temporal="CONTAINS" />
+<RELATION id="R25" fromID="E25" fromText="Exames laboratoriais" toID="E60" toText="K" Relação_Temporal="CONTAINS" />
+<RELATION id="R26" fromID="E25" fromText="Exames laboratoriais" toID="E61" toText="Colesterol Total" Relação_Temporal="CONTAINS" />
+<RELATION id="R27" fromID="E25" fromText="Exames laboratoriais" toID="E62" toText="Colesterol LDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R28" fromID="E25" fromText="Exames laboratoriais" toID="E30" toText="Glicose TOTG" Relação_Temporal="CONTAINS" />
+<RELATION id="R29" fromID="E25" fromText="Exames laboratoriais" toID="E31" toText="Eritrocitos" Relação_Temporal="CONTAINS" />
+<RELATION id="R30" fromID="E25" fromText="Exames laboratoriais" toID="E32" toText="Hb glicada" Relação_Temporal="CONTAINS" />
+<RELATION id="R31" fromID="E25" fromText="Exames laboratoriais" toID="E33" toText="Microalbuminuria / creatinina" Relação_Temporal="CONTAINS" />
+<RELATION id="R32" fromID="E25" fromText="Exames laboratoriais" toID="E34" toText="creatinina" Relação_Temporal="CONTAINS" />
+<RELATION id="R33" fromID="E35" fromText="ETT" toID="E37" toText="disfunção diastólica" Relação_Temporal="CONTAINS" />
+<RELATION id="R34" fromID="E35" fromText="ETT" toID="E36" toText="hipertrofia concentrica discreta" Relação_Temporal="CONTAINS" />
+<RELATION id="R35" fromID="E50" fromText="HAS controlada" toID="E51" toText="medicação" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

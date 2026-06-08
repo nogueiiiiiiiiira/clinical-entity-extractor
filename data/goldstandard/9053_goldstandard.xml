@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 22/04/2014
+
+
+Dispneia importante aos esforços + dor tipo peso no peito no esforço.
+Obeso, has, icc
+
+c # cintilografia miocardica para avaliar angina.        ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="43~75" text="Dispneia importante aos esforços" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="78~111" text="dor tipo peso no peito no esforço" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="113~118" text="Obeso" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="120~123" text="has" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="125~128" text="icc" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="134~158" text="cintilografia miocardica" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E6" spans="164~171" text="avaliar" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E7" spans="172~178" text="angina" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<RELATION id="R0" fromID="E5" fromText="cintilografia miocardica" toID="E6" toText="avaliar" Relação_Temporal="BEFORE" />
+</TAGS>
+</Annotation_v1>

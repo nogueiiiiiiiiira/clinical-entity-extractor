@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 14/04/2015
+
+
+# MCP dilatada - IDIOPÁTICA
+CF II-III OSCILANTE.
+** PROTOCOLO DE TX CARDIACO - INDICE CARDIACO 
+*** Em uso de: Omeprazol 20mg / d, AAS 100mg / d, Losartan 50mg 12/12hs, Espironolactona 25mg / d, Hidralazina 50mg 12/12hs, Carvedilol 12,5mg 12/12hs
+S # QUEIXA DE CANSAÇO AOS ESFORÇOS. DEMAIS SP
+TG 111, HDL 37, K 4,7, CT 162, LDL 103, TSH 1,59, HB 13, HB GLICASADA 5,87, NA 145, TGP 28, TGO 26, CREAT 0,98
+AO EAXME PA 110/70 FC 64
+SEM TURGÊNCIA JUGULAR
+CPP - MV + BILATERAL, 
+PC - BCR SEM SOPROS,
+MMII - SEM EDEM
+A # MCP dilatada CF II / III
+P # MEDICAÇÕES MANTIDAS.
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="45~70" text="MCP dilatada - IDIOPÁTICA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="71~90" text="CF II-III OSCILANTE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="95~119" text="PROTOCOLO DE TX CARDIACO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="122~137" text="INDICE CARDIACO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="154~168" text="Omeprazol 20mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="174~183" text="AAS 100mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="189~202" text="Losartan 50mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="212~232" text="Espironolactona 25mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="238~254" text="Hidralazina 50mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="264~281" text="Carvedilol 12,5mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="294~300" text="QUEIXA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E11" spans="304~324" text="CANSAÇO AOS ESFORÇOS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="336~338" text="TG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="344~347" text="HDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="352~353" text="K" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="359~361" text="CT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="367~370" text="LDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="376~379" text="TSH" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="386~388" text="HB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="393~405" text="HB GLICASADA" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="412~414" text="NA" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="420~423" text="TGP" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="428~431" text="TGO" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="436~441" text="CREAT" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="450~455" text="EAXME" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E25" spans="456~458" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E26" spans="466~468" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E27" spans="476~493" text="TURGÊNCIA JUGULAR" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E28" spans="530~536" text="SOPROS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E29" spans="549~553" text="EDEM" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E30" spans="558~582" text="MCP dilatada CF II / III" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E31" spans="587~597" text="MEDICAÇÕES" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E32" spans="598~606" text="MANTIDAS" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="169~172" text="/ d" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T1" spans="184~187" text="/ d" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T2" spans="203~210" text="12/12hs" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T3" spans="233~236" text="/ d" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="255~262" text="12/12hs" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T5" spans="282~289" text="12/12hs" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<RELATION id="R0" fromID="E2" fromText="PROTOCOLO DE TX CARDIACO" toID="E3" toText="INDICE CARDIACO" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E4" fromText="Omeprazol 20mg" toID="T0" toText="/ d" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E5" fromText="AAS 100mg" toID="T1" toText="/ d" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E6" fromText="Losartan 50mg" toID="T2" toText="12/12hs" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E7" fromText="Espironolactona 25mg" toID="T3" toText="/ d" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E8" fromText="Hidralazina 50mg" toID="T4" toText="12/12hs" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E9" fromText="Carvedilol 12,5mg" toID="T5" toText="12/12hs" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E31" fromText="MEDICAÇÕES" toID="E32" toText="MANTIDAS" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

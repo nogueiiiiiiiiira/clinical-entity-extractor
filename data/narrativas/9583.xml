@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>sem queixas.
+sente-se bem.
+# hoje avaliação exclusiva de mp
+# mp camara-dupla
+# programado em modo ddd
+# bat ok
+# para eri = 2 meses
+# a - imp = 388, sense = 5,0, clv - menor que 1,0 x 0,4
+# v - imp = 395, sense = 11,5, clv = menor que 1,0 x 0,4
+# cd =  retorno como encaixe para avaliar bat - pcte ciente que NÃO PODE DIXAR DE VIR, se intercorrencias = procura direta.
+ </TEXT>
+<TAGS>
+<annotation id="28849" tag="Negation|Negation" start="0" end="3" text="sem" abbr="" />
+<annotation id="28850" tag="Sign or Symptom|Sign or Symptom" start="4" end="11" text="queixas" abbr="" />
+<annotation id="28851" tag="Temporal Concept" start="31" end="35" text="hoje" abbr="" />
+<annotation id="28852" tag="Health Care Activity" start="36" end="45" text="avaliação" abbr="" />
+<annotation id="28853" tag="Medical Device|Therapeutic or Preventive Procedure|Abbreviation" start="59" end="61" text="mp" abbr="marcapasso" />
+<annotation id="28854" tag="Abbreviation|Medical Device" start="65" end="67" text="mp" abbr="" />
+<annotation id="28855" tag="Health Care Activity" start="84" end="94" text="programado" abbr="" />
+<annotation id="28856" tag="Abbreviation|Clinical Attribute" start="125" end="128" text="eri" abbr="" />
+<annotation id="28857" tag="Quantitative Concept" start="152" end="155" text="388" abbr="" />
+<annotation id="28858" tag="Quantitative Concept" start="209" end="212" text="395" abbr="" />
+<annotation id="28859" tag="Health Care Activity" start="257" end="259" text="cd" abbr="" />
+<annotation id="28860" tag="Health Care Activity|Health Care Activity" start="263" end="270" text="retorno" abbr="" />
+<annotation id="28861" tag="Health Care Activity" start="276" end="283" text="encaixe" abbr="" />
+<annotation id="28862" tag="Abbreviation|Clinical Attribute" start="297" end="300" text="bat" abbr="" />
+<annotation id="28863" tag="Abbreviation" start="303" end="307" text="pcte" abbr="" />
+<annotation id="28864" tag="Negation|Negation" start="319" end="322" text="NÃO" abbr="" />
+<annotation id="28865" tag="Sign or Symptom|Sign or Symptom" start="345" end="360" text="intercorrencias" abbr="" />
+<annotation id="28866" tag="Finding" start="14" end="26" text="sente-se bem" />
+<annotation id="28867" tag="Abbreviation" start="98" end="106" text="modo ddd" />
+<annotation id="28868" tag="Abbreviation" start="110" end="116" text="bat ok" />
+<annotation id="28869" tag="Temporal Concept" start="131" end="138" text="2 meses" />
+<annotation id="28870" tag="Quantitative Concept" start="165" end="168" text="5 , 0" />
+<annotation id="28871" tag="Quantitative Concept" start="176" end="195" text="menor que 1 , 0 x 0 , 4" />
+<annotation id="28872" tag="Quantitative Concept" start="222" end="226" text="11 , 5" />
+<annotation id="28873" tag="Quantitative Concept" start="234" end="253" text="menor que 1 , 0 x 0 , 4" />
+<annotation id="28874" tag="Finding" start="323" end="340" text="PODE DIXAR DE VIR" />
+<annotation id="28875" tag="Health Care Activity" start="363" end="377" text="procura direta" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28849" annotation2="28850" reltype="negation_of" />
+<rel annotation1="28855" annotation2="28867" reltype="associated_with" />
+<rel annotation1="28856" annotation2="28869" reltype="associated_with" />
+<rel annotation1="28865" annotation2="28875" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

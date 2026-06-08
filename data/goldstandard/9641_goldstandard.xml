@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 08/07/2014
+
+
+Lucas
+# MCP dilatada
+Cansaço CF III
+PA 120/80 mmHg
+sem ingurgitamento jugular
+MV+ bilateral sem RA
+RCR 2t SS
+Sem VCM
+Sem edema MMII
+CAT 09/06/2014: ausência de coronariopatia obstrutiva crítica
+IC 3,449 pré / 3,602 pós
+RVP em woods 0,217 pré / 0,147 pós
+Espirometria normal
+CD # Retorno 3 semanas
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="51~63" text="MCP dilatada" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="64~78" text="Cansaço CF III" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="79~81" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E3" spans="98~120" text="ingurgitamento jugular" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E4" spans="139~141" text="RA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E5" spans="149~151" text="SS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E6" spans="156~159" text="VCM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E7" spans="164~174" text="edema MMII" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E8" spans="175~178" text="CAT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="203~236" text="coronariopatia obstrutiva crítica" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="237~239" text="IC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E11" spans="262~274" text="RVP em woods" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="297~309" text="Espirometria" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="322~329" text="Retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="179~189" text="09/06/2014" Type="Date" Value="2014-06-09" Mod="NA" />
+<TIMEX3 id="T1" spans="330~339" text="3 semanas" Type="Date" Value="2014-07-29" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="09/06/2014" toID="E8" toText="CAT" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E8" fromText="CAT" toID="E9" toText="coronariopatia obstrutiva crítica" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="T1" fromText="3 semanas" toID="E13" toText="Retorno" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

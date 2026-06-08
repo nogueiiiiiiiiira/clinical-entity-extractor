@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Paciente em consulta de rotina após episódio de IAM em janeiro, desde então apresenta-se estável.
+Relata dor em MMII com edema em pés.
+Ocasionalmente relata dor em ombros.
+Nega dispneia, precordialgia, ortopneia ou DPN.
+
+Em uso: AAS 100 mg, Hidroclorotiazida 25 mg, Sinvastatina 20 mg, Carvedilol 25 mg 1 xdia 1'1'1'1'1, Clopidogrel 75 mg 1 xdia e Cilostazol 50 mg 1 xdia.
+
+Conduta: Exame de sangue, ecocardiograma e retorno.
+ 
+Irmão com IAM aos 50 anos.
+Paciente realizou CAT (dezembro) e angioplastia em Janeiro (lesão de 80% em grande ramo marginal).
+HAS.
+DAC.
+ </TEXT>
+<TAGS>
+<annotation id="33419" tag="Patient or Disabled Group|Patient or Disabled Group" start="0" end="8" text="Paciente" abbr="" />
+<annotation id="33420" tag="Temporal Concept" start="31" end="35" text="após" abbr="" />
+<annotation id="33421" tag="Disease or Syndrome|Abbreviation" start="48" end="51" text="IAM" abbr="infarto agudo do miocárdio" />
+<annotation id="33422" tag="Sign or Symptom" start="106" end="109" text="dor" abbr="" />
+<annotation id="33423" tag="Abbreviation|Abbreviation|Body Part, Organ, or Organ Component" start="113" end="117" text="MMII" abbr="" />
+<annotation id="33424" tag="Pathologic Function|Sign or Symptom" start="122" end="127" text="edema" abbr="" />
+<annotation id="33425" tag="Body Part, Organ, or Organ Component" start="131" end="134" text="pés" abbr="" />
+<annotation id="33426" tag="Sign or Symptom" start="159" end="162" text="dor" abbr="" />
+<annotation id="33427" tag="Body Part, Organ, or Organ Component" start="166" end="172" text="ombros" abbr="" />
+<annotation id="33428" tag="Negation" start="175" end="179" text="Nega" abbr="" />
+<annotation id="33429" tag="Sign or Symptom" start="180" end="188" text="dispneia" abbr="" />
+<annotation id="33430" tag="Sign or Symptom" start="190" end="203" text="precordialgia" abbr="" />
+<annotation id="33431" tag="Sign or Symptom" start="205" end="214" text="ortopneia" abbr="" />
+<annotation id="33432" tag="Sign or Symptom|Abbreviation" start="218" end="221" text="DPN" abbr="dispneia paroxística noturna" />
+<annotation id="33433" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="234" end="237" text="AAS" abbr="ácido acetilsalicílico" />
+<annotation id="33434" tag="Organic Chemical|Pharmacologic Substance" start="246" end="263" text="Hidroclorotiazida" abbr="" />
+<annotation id="33435" tag="Pharmacologic Substance|Organic Chemical" start="271" end="283" text="Sinvastatina" abbr="" />
+<annotation id="33436" tag="Organic Chemical|Pharmacologic Substance" start="291" end="301" text="Carvedilol" abbr="" />
+<annotation id="33437" tag="Pharmacologic Substance|Organic Chemical" start="326" end="337" text="Clopidogrel" abbr="" />
+<annotation id="33438" tag="Organic Chemical|Pharmacologic Substance" start="353" end="363" text="Cilostazol" abbr="" />
+<annotation id="33439" tag="Intellectual Product|Health Care Activity" start="381" end="388" text="Conduta" abbr="" />
+<annotation id="33440" tag="Diagnostic Procedure" start="407" end="421" text="ecocardiograma" abbr="" />
+<annotation id="33441" tag="Health Care Activity" start="424" end="431" text="retorno" abbr="" />
+<annotation id="33442" tag="Family Group" start="437" end="442" text="Irmão" abbr="" />
+<annotation id="33443" tag="Abbreviation|Disease or Syndrome" start="447" end="450" text="IAM" abbr="" />
+<annotation id="33444" tag="Patient or Disabled Group|Patient or Disabled Group" start="465" end="473" text="Paciente" abbr="" />
+<annotation id="33445" tag="Therapeutic or Preventive Procedure|Abbreviation" start="483" end="486" text="CAT" abbr="cateterismo" />
+<annotation id="33446" tag="Therapeutic or Preventive Procedure" start="500" end="512" text="angioplastia" abbr="" />
+<annotation id="33447" tag="Abbreviation|Disease or Syndrome" start="565" end="568" text="HAS" abbr="" />
+<annotation id="33448" tag="Disease or Syndrome|Abbreviation" start="571" end="574" text="DAC" abbr="doença arterial coronariana" />
+<annotation id="33449" tag="Finding" start="12" end="30" text="consulta de rotina" />
+<annotation id="33450" tag="Finding" start="76" end="96" text="apresenta-se estável" />
+<annotation id="33451" tag="Quantitative Concept" start="238" end="244" text="100 mg" />
+<annotation id="33452" tag="Quantitative Concept" start="264" end="269" text="25 mg" />
+<annotation id="33453" tag="Quantitative Concept" start="284" end="289" text="20 mg" />
+<annotation id="33454" tag="Quantitative Concept" start="302" end="307" text="25 mg" />
+<annotation id="33455" tag="Quantitative Concept" start="308" end="314" text="1 xdia" />
+<annotation id="33456" tag="Quantitative Concept" start="338" end="343" text="75 mg" />
+<annotation id="33457" tag="Quantitative Concept" start="364" end="369" text="50 mg" />
+<annotation id="33458" tag="Quantitative Concept|Temporal Concept" start="370" end="376" text="1 xdia" />
+<annotation id="33459" tag="Laboratory Procedure" start="390" end="405" text="Exame de sangue" />
+<annotation id="33460" tag="Laboratory or Test Result" start="525" end="561" text="lesão de 80% em grande ramo marginal" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33422" annotation2="33423" reltype="associated_with" />
+<rel annotation1="33424" annotation2="33423" reltype="associated_with" />
+<rel annotation1="33425" annotation2="33424" reltype="associated_with" />
+<rel annotation1="33426" annotation2="33427" reltype="associated_with" />
+<rel annotation1="33428" annotation2="33429" reltype="negation_of" />
+<rel annotation1="33428" annotation2="33430" reltype="negation_of" />
+<rel annotation1="33428" annotation2="33431" reltype="negation_of" />
+<rel annotation1="33428" annotation2="33432" reltype="negation_of" />
+<rel annotation1="33442" annotation2="33443" reltype="associated_with" />
+<rel annotation1="33446" annotation2="33460" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 65 ANOS
+
+# PO DE TX CARDÍACO (23/10/15)  -  ( IC DILATADA IDIOPÁTICA)
+# EM USO DE : CICLOSPORINA 150MG 12/12H, MICOFENOLATO 720MG 8/8H, PREDNISONA 20MG / DIA
+AAS 100MG / DIA, OMZ 20MG / DIA. 
+- EXAMES - AVALIAÇÃO PRÉ - TRANSPLANTE:
+# DOPPLER CAROTIDAS + VERTEBRAIS: CERVICAL D: CAROTIDA: ESTENOSE 20-30% NA BIFURCAÇÃO CAROTÍDEA;
+# CATE 16/06/15: PRÉ: RVP 2,19 // RVS 24, PÓS: RVP 2,08 // RVS 12,59
+# ECOTT 28/8/15 AE 46 / VD 26 / S / PP 10 / 10 VE 81 / 66 FE 37%. VE DILATADO COM HIPOCONTRATIBILIDADE DIFUSA MODERADA / I
+AO LEVE / IMI LEVE AMODERADA / PSAP 39 MMHG.
+S #  SENTE BEM, DOR NA FO SOMENTE AOS MOVIMENTOS E AO TOSSIR. NEGA DISPNÉIA. RELATA QUE FO ESTÁ SECA, SEM SINAIS FLOGÍSTICOS. 
+NEGA FEBRE. 
+O # BEG, HIPOCORADO +/4+, EUPNEICO, AFEBRIL
+PA: 110X70 // FC: 80
+CV: BRNF SS
+CPP: MV+ BILATERAL, SEM RA
+FO LIMPA E SECA, SEM PRESENÇA DE SECREÇÃO
+ABD: RHA+, INDOLOR
+MMII: SEM EDEMA OU EMPASTAMENTO
+A # PO DE TX CARDIACO (23/10/15)
+P # MANTIDO RETORNO EM 30 DIAS
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="32246" tag="Temporal Concept" start="20" end="22" text="PO" abbr="" />
+<annotation id="32247" tag="Pharmacologic Substance|Amino Acid, Peptide, or Protein|Organic Chemical" start="94" end="106" text="CICLOSPORINA" abbr="" />
+<annotation id="32248" tag="Quantitative Concept" start="107" end="112" text="150MG" abbr="" />
+<annotation id="32249" tag="Quantitative Concept|Abbreviation|Temporal Concept" start="113" end="119" text="12/12H" abbr="" />
+<annotation id="32250" tag="Organic Chemical|Pharmacologic Substance" start="121" end="133" text="MICOFENOLATO" abbr="" />
+<annotation id="32251" tag="Quantitative Concept" start="134" end="139" text="720MG" abbr="" />
+<annotation id="32252" tag="Quantitative Concept|Temporal Concept|Abbreviation" start="140" end="144" text="8/8H" abbr="" />
+<annotation id="32253" tag="Organic Chemical|Hormone|Pharmacologic Substance" start="146" end="156" text="PREDNISONA" abbr="" />
+<annotation id="32254" tag="Quantitative Concept" start="157" end="161" text="20MG" abbr="" />
+<annotation id="32255" tag="Temporal Concept" start="164" end="167" text="DIA" abbr="" />
+<annotation id="32256" tag="Organic Chemical|Abbreviation|Pharmacologic Substance|Pharmacologic Substance" start="169" end="172" text="AAS" abbr="" />
+<annotation id="32257" tag="Quantitative Concept" start="173" end="178" text="100MG" abbr="" />
+<annotation id="32258" tag="Temporal Concept" start="181" end="184" text="DIA" abbr="" />
+<annotation id="32259" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="186" end="189" text="OMZ" abbr="omeprazol" />
+<annotation id="32260" tag="Quantitative Concept" start="190" end="194" text="20MG" abbr="" />
+<annotation id="32261" tag="Temporal Concept" start="197" end="200" text="DIA" abbr="" />
+<annotation id="32262" tag="Body Part, Organ, or Organ Component" start="291" end="299" text="CAROTIDA" abbr="" />
+<annotation id="32263" tag="Abbreviation|Diagnostic Procedure|Therapeutic or Preventive Procedure" start="345" end="349" text="CATE" abbr="" />
+<annotation id="32264" tag="Temporal Concept" start="360" end="363" text="PRÉ" abbr="" />
+<annotation id="32265" tag="Temporal Concept" start="385" end="388" text="PÓS" abbr="" />
+<annotation id="32266" tag="Abbreviation|Diagnostic Procedure" start="415" end="420" text="ECOTT" abbr="" />
+<annotation id="32267" tag="Injury or Poisoning" start="606" end="608" text="FO" abbr="" />
+<annotation id="32268" tag="Physiologic Function" start="621" end="631" text="MOVIMENTOS" abbr="" />
+<annotation id="32269" tag="Physiologic Function" start="637" end="643" text="TOSSIR" abbr="" />
+<annotation id="32270" tag="Negation" start="645" end="649" text="NEGA" abbr="" />
+<annotation id="32271" tag="Sign or Symptom" start="650" end="658" text="DISPNÉIA" abbr="" />
+<annotation id="32272" tag="Abbreviation|Injury or Poisoning" start="671" end="673" text="FO" abbr="" />
+<annotation id="32273" tag="Finding" start="679" end="683" text="SECA" abbr="" />
+<annotation id="32274" tag="Negation" start="685" end="688" text="SEM" abbr="" />
+<annotation id="32275" tag="Negation" start="711" end="715" text="NEGA" abbr="" />
+<annotation id="32276" tag="Sign or Symptom" start="716" end="721" text="FEBRE" abbr="" />
+<annotation id="32277" tag="Finding|Abbreviation" start="729" end="732" text="BEG" abbr="bom estado geral" />
+<annotation id="32278" tag="Finding" start="751" end="759" text="EUPNEICO" abbr="" />
+<annotation id="32279" tag="Sign or Symptom|Negation" start="761" end="768" text="AFEBRIL" abbr="" />
+<annotation id="32280" tag="Abbreviation|Clinical Attribute|Clinical Attribute" start="770" end="772" text="PA" abbr="" />
+<annotation id="32281" tag="Quantitative Concept" start="774" end="780" text="110X70" abbr="" />
+<annotation id="32282" tag="Clinical Attribute|Abbreviation|Clinical Attribute" start="784" end="786" text="FC" abbr="" />
+<annotation id="32283" tag="Quantitative Concept" start="788" end="790" text="80" abbr="" />
+<annotation id="32284" tag="Abbreviation|Clinical Attribute" start="792" end="794" text="CV" abbr="" />
+<annotation id="32285" tag="Negation|Sign or Symptom" start="801" end="803" text="SS" abbr="" />
+<annotation id="32286" tag="Clinical Attribute|Abbreviation" start="805" end="808" text="CPP" abbr="" />
+<annotation id="32287" tag="Negation" start="825" end="828" text="SEM" abbr="" />
+<annotation id="32288" tag="Abbreviation|Sign or Symptom" start="829" end="831" text="RA" abbr="" />
+<annotation id="32289" tag="Abbreviation|Injury or Poisoning" start="833" end="835" text="FO" abbr="" />
+<annotation id="32290" tag="Finding" start="836" end="841" text="LIMPA" abbr="" />
+<annotation id="32291" tag="Finding" start="844" end="848" text="SECA" abbr="" />
+<annotation id="32292" tag="Negation|Negation" start="850" end="853" text="SEM" abbr="" />
+<annotation id="32293" tag="Abbreviation" start="876" end="879" text="ABD" abbr="" />
+<annotation id="32294" tag="Finding|Finding|Abbreviation|Abbreviation" start="881" end="885" text="RHA+" abbr="ruídos hidroaéreos presentes" />
+<annotation id="32295" tag="Negation|Sign or Symptom" start="887" end="894" text="INDOLOR" abbr="" />
+<annotation id="32296" tag="Abbreviation|Body Location or Region|Body Part, Organ, or Organ Component|Abbreviation" start="896" end="900" text="MMII" abbr="membros inferiores" />
+<annotation id="32297" tag="Negation|Negation" start="902" end="905" text="SEM" abbr="" />
+<annotation id="32298" tag="Sign or Symptom|Sign or Symptom" start="906" end="911" text="EDEMA" abbr="" />
+<annotation id="32299" tag="Sign or Symptom" start="915" end="927" text="EMPASTAMENTO" abbr="" />
+<annotation id="32300" tag="Temporal Concept" start="933" end="935" text="PO" abbr="" />
+<annotation id="32301" tag="Health Care Activity|Health Care Activity" start="975" end="982" text="RETORNO" abbr="" />
+<annotation id="32302" tag="Quantitative Concept" start="986" end="988" text="30" abbr="" />
+<annotation id="32303" tag="Abbreviation|Therapeutic or Preventive Procedure" start="26" end="37" text="TX CARDÍACO" />
+<annotation id="32304" tag="Abbreviation|Disease or Syndrome" start="55" end="77" text="IC DILATADA IDIOPÁTICA" />
+<annotation id="32305" tag="Diagnostic Procedure|Health Care Activity" start="215" end="242" text="AVALIAÇÃO PRÉ - TRANSPLANTE" />
+<annotation id="32306" tag="Diagnostic Procedure" start="247" end="277" text="DOPPLER CAROTIDAS + VERTEBRAIS" />
+<annotation id="32307" tag="Abbreviation|Body Part, Organ, or Organ Component" start="279" end="289" text="CERVICAL D" />
+<annotation id="32308" tag="Laboratory or Test Result" start="301" end="340" text="ESTENOSE 20-30% NA BIFURCAÇÃO CAROTÍDEA" />
+<annotation id="32309" tag="Abbreviation|Laboratory or Test Result" start="365" end="373" text="RVP 2 , 19" />
+<annotation id="32310" tag="Abbreviation|Laboratory or Test Result" start="377" end="383" text="RVS 24" />
+<annotation id="32311" tag="Abbreviation|Laboratory or Test Result" start="390" end="398" text="RVP 2 , 08" />
+<annotation id="32312" tag="Laboratory or Test Result|Abbreviation" start="402" end="411" text="RVS 12 , 59" />
+<annotation id="32313" tag="Abbreviation|Laboratory or Test Result" start="429" end="434" text="AE 46" />
+<annotation id="32314" tag="Abbreviation|Laboratory or Test Result" start="437" end="442" text="VD 26" />
+<annotation id="32315" tag="Abbreviation|Laboratory or Test Result" start="449" end="459" text="PP 10 / 10" />
+<annotation id="32316" tag="Abbreviation|Laboratory or Test Result" start="460" end="470" text="VE 81 / 66" />
+<annotation id="32317" tag="Abbreviation|Laboratory or Test Result" start="471" end="477" text="FE 37%" />
+<annotation id="32318" tag="Abbreviation|Laboratory or Test Result" start="479" end="531" text="VE DILATADO COM HIPOCONTRATIBILIDADE DIFUSA MODERADA" />
+<annotation id="32319" tag="Abbreviation|Laboratory or Test Result" start="534" end="544" text="I AO LEVE" />
+<annotation id="32320" tag="Abbreviation|Laboratory or Test Result" start="547" end="565" text="IMI LEVE AMODERADA" />
+<annotation id="32321" tag="Abbreviation|Laboratory or Test Result" start="568" end="580" text="PSAP 39 MMHG" />
+<annotation id="32322" tag="Finding" start="588" end="597" text="SENTE BEM" />
+<annotation id="32323" tag="Sign or Symptom" start="689" end="707" text="SINAIS FLOGÍSTICOS" />
+<annotation id="32324" tag="Sign or Symptom" start="734" end="749" text="HIPOCORADO +/4+" />
+<annotation id="32325" tag="Abbreviation|Finding" start="810" end="823" text="MV+ BILATERAL" />
+<annotation id="32326" tag="Abbreviation|Therapeutic or Preventive Procedure" start="939" end="950" text="TX CARDIACO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="32247" annotation2="32248" reltype="associated_with" />
+<rel annotation1="32250" annotation2="32252" reltype="associated_with" />
+<rel annotation1="32250" annotation2="32251" reltype="associated_with" />
+<rel annotation1="32253" annotation2="32254" reltype="associated_with" />
+<rel annotation1="32256" annotation2="32257" reltype="associated_with" />
+<rel annotation1="32259" annotation2="32260" reltype="associated_with" />
+<rel annotation1="32266" annotation2="32321" reltype="associated_with" />
+<rel annotation1="32266" annotation2="32316" reltype="associated_with" />
+<rel annotation1="32266" annotation2="32320" reltype="associated_with" />
+<rel annotation1="32266" annotation2="32315" reltype="associated_with" />
+<rel annotation1="32266" annotation2="32314" reltype="associated_with" />
+<rel annotation1="32266" annotation2="32318" reltype="associated_with" />
+<rel annotation1="32266" annotation2="32317" reltype="associated_with" />
+<rel annotation1="32270" annotation2="32271" reltype="negation_of" />
+<rel annotation1="32272" annotation2="32273" reltype="associated_with" />
+<rel annotation1="32274" annotation2="32323" reltype="negation_of" />
+<rel annotation1="32275" annotation2="32276" reltype="negation_of" />
+<rel annotation1="32280" annotation2="32281" reltype="associated_with" />
+<rel annotation1="32282" annotation2="32283" reltype="associated_with" />
+<rel annotation1="32287" annotation2="32288" reltype="negation_of" />
+<rel annotation1="32289" annotation2="32290" reltype="associated_with" />
+<rel annotation1="32296" annotation2="32298" reltype="associated_with" />
+<rel annotation1="32296" annotation2="32299" reltype="associated_with" />
+<rel annotation1="32297" annotation2="32298" reltype="negation_of" />
+<rel annotation1="32297" annotation2="32299" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

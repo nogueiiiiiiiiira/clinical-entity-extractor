@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Protese Metalica Aortica em 2004.
+Uso: Enalapril 10 - 2cp - 12/12 / Atenolol 50 - 1cp = 12/12; Espironolactona 25 - 1xd; Sinvastatina 20 - 1x noite; Calcio 500 - 3x d;Marevan 5 - amb da ACXO; Trazodona 25 1x d.
+Dispnia esporadica, edema mmii eventual, sem palpitação, dor toracica quando epigastralgia que melhoram com paracetamol.
+Lab (21/01/16): Hbglic 6,34; TSH 2,15; Hb 13,5; VG 42% leuco 9610; plaq 234000; Urina I ok;  K 4,4; Cr 1,1; Gli 71; U 69; Tri 67; HDL- C 77; ColT 160; LDL- C 70;
+Ecocardio (04/12/15): AE 42; DDVE 39; DSVE 23; FE 73%; VMi area 1,65; calcificada, refluxo discreto. VAo protese metalica com espessamento, e relfuxo discreto.Grad medio de 16 e max de 30. ARea de 1,12. VTri = refluxo discreto com PSAP 56mmHg. VP refluxo minimo. VE hipertrofiado., SIv 13. PPVE 14.
+PA ( sentada ): 140x60mmHg, P 76. EM pé 2 idem.
+MV normodist sem ruidos adsventicios. RCR, 2T, BNF ss++ / 6+ FAo e Mi ( +/6+.
+BEG, eupneica, acianotica, orientada, Sem edema mmii.
+HD:protese Metalica AOrtoca normofuncionante.Disfunbção diastolica.
+CD:Suspendo Espironolactona.Reduzo Sinvastatina para 10mg / noite. ACrescento Omeprazol 20 -1x d. Retonro em 6m com lab.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="28642" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance" start="40" end="49" text="Enalapril" abbr="" />
+<annotation id="28643" tag="Quantitative Concept" start="50" end="52" text="10" abbr="" />
+<annotation id="28644" tag="Quantitative Concept|Abbreviation" start="55" end="58" text="2cp" abbr="" />
+<annotation id="28645" tag="Temporal Concept" start="61" end="66" text="12/12" abbr="" />
+<annotation id="28646" tag="Pharmacologic Substance" start="69" end="77" text="Atenolol" abbr="" />
+<annotation id="28647" tag="Quantitative Concept" start="78" end="80" text="50" abbr="" />
+<annotation id="28648" tag="Quantitative Concept|Abbreviation" start="83" end="86" text="1cp" abbr="" />
+<annotation id="28649" tag="Temporal Concept" start="89" end="94" text="12/12" abbr="" />
+<annotation id="28650" tag="Pharmacologic Substance|Organic Chemical" start="96" end="111" text="Espironolactona" abbr="" />
+<annotation id="28651" tag="Quantitative Concept" start="112" end="114" text="25" abbr="" />
+<annotation id="28652" tag="Temporal Concept|Quantitative Concept" start="117" end="120" text="1xd" abbr="" />
+<annotation id="28653" tag="Pharmacologic Substance|Organic Chemical" start="122" end="134" text="Sinvastatina" abbr="" />
+<annotation id="28654" tag="Quantitative Concept" start="135" end="137" text="20" abbr="" />
+<annotation id="28655" tag="Quantitative Concept|Abbreviation" start="140" end="142" text="1x" abbr="" />
+<annotation id="28656" tag="Temporal Concept" start="143" end="148" text="noite" abbr="" />
+<annotation id="28657" tag="Biologically Active Substance|Pharmacologic Substance" start="150" end="156" text="Calcio" abbr="" />
+<annotation id="28658" tag="Pharmacologic Substance" start="168" end="175" text="Marevan" abbr="" />
+<annotation id="28659" tag="Quantitative Concept" start="176" end="177" text="5" abbr="" />
+<annotation id="28660" tag="Pharmacologic Substance" start="193" end="202" text="Trazodona" abbr="" />
+<annotation id="28661" tag="Quantitative Concept" start="203" end="205" text="25" abbr="" />
+<annotation id="28662" tag="Abbreviation" start="206" end="208" text="1x" abbr="" />
+<annotation id="28663" tag="Sign or Symptom" start="233" end="238" text="edema" abbr="" />
+<annotation id="28664" tag="Body Location or Region|Abbreviation" start="239" end="243" text="mmii" abbr="Membros Inferiores" />
+<annotation id="28665" tag="Temporal Concept" start="244" end="252" text="eventual" abbr="" />
+<annotation id="28666" tag="Negation" start="254" end="257" text="sem" abbr="" />
+<annotation id="28667" tag="Sign or Symptom" start="258" end="268" text="palpitação" abbr="" />
+<annotation id="28668" tag="Body Location or Region" start="274" end="282" text="toracica" abbr="" />
+<annotation id="28669" tag="Sign or Symptom" start="290" end="303" text="epigastralgia" abbr="" />
+<annotation id="28670" tag="Finding" start="308" end="316" text="melhoram" abbr="" />
+<annotation id="28671" tag="Organic Chemical|Pharmacologic Substance" start="321" end="332" text="paracetamol" abbr="" />
+<annotation id="28672" tag="Abbreviation|Laboratory Procedure" start="335" end="338" text="Lab" abbr="" />
+<annotation id="28673" tag="Laboratory Procedure" start="415" end="420" text="Urina" abbr="" />
+<annotation id="28674" tag="Abbreviation|Diagnostic Procedure" start="498" end="507" text="Ecocardio" abbr="" />
+<annotation id="28675" tag="Laboratory or Test Result" start="568" end="579" text="calcificada" abbr="" />
+<annotation id="28676" tag="Abbreviation|Clinical Attribute" start="798" end="800" text="PA" abbr="" />
+<annotation id="28677" tag="Qualitative Concept" start="803" end="810" text="sentada" abbr="" />
+<annotation id="28678" tag="Quantitative Concept" start="814" end="824" text="140x60mmHg" abbr="" />
+<annotation id="28679" tag="Abbreviation|Clinical Attribute" start="826" end="827" text="P" abbr="" />
+<annotation id="28680" tag="Quantitative Concept" start="828" end="830" text="76" abbr="" />
+<annotation id="28681" tag="Negation" start="860" end="863" text="sem" abbr="" />
+<annotation id="28682" tag="Abbreviation" start="885" end="888" text="RCR" abbr="ritmo cardíaco regular" />
+<annotation id="28683" tag="Finding|Abbreviation" start="890" end="892" text="2T" abbr="2 tempos" />
+<annotation id="28684" tag="Finding|Abbreviation" start="894" end="897" text="BNF" abbr="bulhas normofonéticas" />
+<annotation id="28685" tag="Abbreviation" start="908" end="911" text="FAo" abbr="foco aórtico" />
+<annotation id="28686" tag="Abbreviation" start="914" end="916" text="Mi" abbr="mitral" />
+<annotation id="28687" tag="Laboratory or Test Result|Quantitative Concept" start="919" end="923" text="+/6+" abbr="" />
+<annotation id="28688" tag="Abbreviation|Finding" start="926" end="929" text="BEG" abbr="" />
+<annotation id="28689" tag="Finding" start="931" end="939" text="eupneica" abbr="" />
+<annotation id="28690" tag="Sign or Symptom|Negation" start="941" end="951" text="acianotica" abbr="" />
+<annotation id="28691" tag="Finding" start="953" end="962" text="orientada" abbr="" />
+<annotation id="28692" tag="Negation" start="964" end="967" text="Sem" abbr="" />
+<annotation id="28693" tag="Sign or Symptom" start="968" end="973" text="edema" abbr="" />
+<annotation id="28694" tag="Body Location or Region|Abbreviation" start="974" end="978" text="mmii" abbr="membros inferiores" />
+<annotation id="28695" tag="Abbreviation" start="981" end="983" text="HD" abbr="" />
+<annotation id="28696" tag="Abbreviation|Health Care Activity" start="1050" end="1052" text="CD" abbr="" />
+<annotation id="28697" tag="Health Care Activity" start="1053" end="1061" text="Suspendo" abbr="" />
+<annotation id="28698" tag="Pharmacologic Substance" start="1062" end="1077" text="Espironolactona" abbr="" />
+<annotation id="28699" tag="Health Care Activity|Therapeutic or Preventive Procedure" start="1078" end="1084" text="Reduzo" abbr="" />
+<annotation id="28700" tag="Pharmacologic Substance" start="1085" end="1097" text="Sinvastatina" abbr="" />
+<annotation id="28701" tag="Temporal Concept" start="1110" end="1115" text="noite" abbr="" />
+<annotation id="28702" tag="Therapeutic or Preventive Procedure|Health Care Activity" start="1117" end="1127" text="ACrescento" abbr="" />
+<annotation id="28703" tag="Pharmacologic Substance" start="1128" end="1137" text="Omeprazol" abbr="" />
+<annotation id="28704" tag="Abbreviation|Laboratory Procedure" start="1166" end="1169" text="lab" abbr="" />
+<annotation id="28705" tag="Medical Device|Therapeutic or Preventive Procedure" start="0" end="24" text="Protese Metalica Aortica" />
+<annotation id="28706" tag="Quantitative Concept" start="163" end="167" text="3x d" />
+<annotation id="28707" tag="Abbreviation" start="180" end="191" text="amb da ACXO" />
+<annotation id="28708" tag="Sign or Symptom" start="213" end="231" text="Dispnia esporadica" />
+<annotation id="28709" tag="Laboratory or Test Result|Abbreviation" start="351" end="362" text="Hbglic 6 , 34" />
+<annotation id="28710" tag="Laboratory or Test Result" start="364" end="372" text="TSH 2 , 15" />
+<annotation id="28711" tag="Laboratory or Test Result|Abbreviation" start="374" end="381" text="Hb 13 , 5" />
+<annotation id="28712" tag="Abbreviation|Laboratory or Test Result" start="383" end="389" text="VG 42%" />
+<annotation id="28713" tag="Abbreviation|Laboratory or Test Result" start="390" end="400" text="leuco 9610" />
+<annotation id="28714" tag="Abbreviation|Laboratory or Test Result" start="402" end="413" text="plaq 234000" />
+<annotation id="28715" tag="Abbreviation|Laboratory or Test Result" start="421" end="425" text="I ok" />
+<annotation id="28716" tag="Abbreviation|Laboratory or Test Result" start="428" end="433" text="K 4 , 4" />
+<annotation id="28717" tag="Abbreviation|Laboratory or Test Result" start="435" end="441" text="Cr 1 , 1" />
+<annotation id="28718" tag="Abbreviation|Laboratory or Test Result" start="443" end="449" text="Gli 71" />
+<annotation id="28719" tag="Abbreviation|Laboratory or Test Result" start="451" end="455" text="U 69" />
+<annotation id="28720" tag="Abbreviation|Laboratory or Test Result" start="457" end="463" text="Tri 67" />
+<annotation id="28721" tag="Laboratory or Test Result" start="465" end="474" text="HDL- C 77" />
+<annotation id="28722" tag="Abbreviation|Laboratory or Test Result" start="476" end="484" text="ColT 160" />
+<annotation id="28723" tag="Laboratory or Test Result" start="486" end="495" text="LDL- C 70" />
+<annotation id="28724" tag="Abbreviation|Laboratory or Test Result" start="520" end="525" text="AE 42" />
+<annotation id="28725" tag="Abbreviation|Laboratory or Test Result" start="527" end="534" text="DDVE 39" />
+<annotation id="28726" tag="Abbreviation|Laboratory or Test Result" start="536" end="543" text="DSVE 23" />
+<annotation id="28727" tag="Abbreviation|Laboratory or Test Result" start="545" end="551" text="FE 73%" />
+<annotation id="28728" tag="Abbreviation|Laboratory or Test Result" start="553" end="566" text="VMi area 1 , 65" />
+<annotation id="28729" tag="Laboratory or Test Result" start="581" end="597" text="refluxo discreto" />
+<annotation id="28730" tag="Abbreviation|Laboratory or Test Result" start="599" end="656" text="VAo protese metalica com espessamento , e relfuxo discreto" />
+<annotation id="28731" tag="Abbreviation|Laboratory or Test Result" start="657" end="685" text="Grad medio de 16 e max de 30" />
+<annotation id="28732" tag="Laboratory or Test Result" start="687" end="699" text="ARea de 1 , 12" />
+<annotation id="28733" tag="Laboratory or Test Result|Abbreviation" start="701" end="740" text="VTri = refluxo discreto com PSAP 56mmHg" />
+<annotation id="28734" tag="Abbreviation|Laboratory or Test Result" start="742" end="759" text="VP refluxo minimo" />
+<annotation id="28735" tag="Abbreviation|Laboratory or Test Result" start="761" end="777" text="VE hipertrofiado" />
+<annotation id="28736" tag="Abbreviation|Laboratory or Test Result" start="780" end="786" text="SIv 13" />
+<annotation id="28737" tag="Abbreviation|Laboratory or Test Result" start="788" end="795" text="PPVE 14" />
+<annotation id="28738" tag="Abbreviation|Finding" start="847" end="859" text="MV normodist" />
+<annotation id="28739" tag="Sign or Symptom" start="864" end="883" text="ruidos adsventicios" />
+<annotation id="28740" tag="Finding" start="984" end="1025" text="protese Metalica AOrtoca normofuncionante" />
+<annotation id="28741" tag="Laboratory or Test Result|Sign or Symptom" start="1026" end="1047" text="Disfunbção diastolica" />
+<annotation id="28742" tag="Quantitative Concept" start="1141" end="1146" text="-1x d" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28642" annotation2="28643" reltype="associated_with" />
+<rel annotation1="28642" annotation2="28644" reltype="associated_with" />
+<rel annotation1="28642" annotation2="28645" reltype="associated_with" />
+<rel annotation1="28646" annotation2="28647" reltype="associated_with" />
+<rel annotation1="28646" annotation2="28648" reltype="associated_with" />
+<rel annotation1="28646" annotation2="28649" reltype="associated_with" />
+<rel annotation1="28650" annotation2="28651" reltype="associated_with" />
+<rel annotation1="28650" annotation2="28652" reltype="associated_with" />
+<rel annotation1="28653" annotation2="28654" reltype="associated_with" />
+<rel annotation1="28653" annotation2="28656" reltype="associated_with" />
+<rel annotation1="28655" annotation2="28653" reltype="associated_with" />
+<rel annotation1="28664" annotation2="28663" reltype="associated_with" />
+<rel annotation1="28666" annotation2="28667" reltype="negation_of" />
+<rel annotation1="28681" annotation2="28739" reltype="negation_of" />
+<rel annotation1="28692" annotation2="28693" reltype="negation_of" />
+<rel annotation1="28694" annotation2="28693" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

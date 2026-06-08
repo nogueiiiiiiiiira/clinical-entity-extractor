@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 25/07/2014
+
+
+INVESTIGAVAA  DOR   RETROESTRENAL E  DISPNEIA   AOS ESFORÇOS 
+21/5/14   FE  35  EP 17 AE  38   FÇAO   SISTOLICA    HIPOCINESAI  DIFUSA   / REGURGITAÇÃO MI  DISCRETA  
+21/5/14  ECOESTRES   NEGATIVO  A   MCP  DILATADA P   CVD  3,125  12/12  CINTILO  (  NAO ACEITOU  O  CATE  )
+HIPOTIROIDEA   EM USO  DE  PURAN   HA     4  ANOS
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="57~76" text="DOR   RETROESTRENAL" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="80~103" text="DISPNEIA   AOS ESFORÇOS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="158~177" text="HIPOCINESAI  DIFUSA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="182~207" text="REGURGITAÇÃO MI  DISCRETA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="219~228" text="ECOESTRES" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="245~258" text="MCP  DILATADA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="282~289" text="CINTILO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="310~314" text="CATE" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="318~330" text="HIPOTIROIDEA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="345~350" text="PURAN" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<TIMEX3 id="T0" spans="105~112" text="21/5/14" Type="Date" Value="2014-05-21" Mod="NA" />
+<TIMEX3 id="T1" spans="210~217" text="21/5/14" Type="Date" Value="2014-05-21" Mod="NA" />
+<TIMEX3 id="T2" spans="275~280" text="12/12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T3" spans="353~367" text="HA     4  ANOS" Type="Duration" Value="P4Y" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="21/5/14" toID="E3" toText="REGURGITAÇÃO MI  DISCRETA" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="T0" fromText="21/5/14" toID="E2" toText="HIPOCINESAI  DIFUSA" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="T1" fromText="21/5/14" toID="E4" toText="ECOESTRES" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E4" fromText="ECOESTRES" toID="E5" toText="MCP  DILATADA" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="T2" fromText="12/12" toID="E7" toText="CATE" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="T2" fromText="12/12" toID="E6" toText="CINTILO" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E8" fromText="HIPOTIROIDEA" toID="E9" toText="PURAN" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E9" fromText="PURAN" toID="T3" toText="HA     4  ANOS" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

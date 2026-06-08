@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>DAC ESTAVEL -LESAO  REMANESCENTE    MODERADA 
+NAO CESSOU TBG
+SEM QX  CARDILOGICAS
+QX    MUIALGIA  E  DESCONFORTO  DE  MMII 
+30-4-15 FE  61   EP 33 AE  42 INSUF MI DISCRETA 21-5-15   T6 E POSITIVO PAR  ISQUEMIA
+7-5-15  HB 15    HT  46   K  5,3  NA  133   CRE  1  GLI  85   U    51    CK  71  TRI 310 TGP 36  HDL  47  TGO  31    COL  296   LDL  187  --LAB SEM  SVT P  CINTILO  VIA ROTA 
+ CESSAR  SVT  INICIO ATORVA  20    LIPANON   MTP 25  D MANTENHO    ENL 10 12-12  CLOPIDOGREL 75 D   AAS
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="25363" tag="Negation" start="47" end="50" text="NAO" abbr="" />
+<annotation id="25364" tag="Negation" start="63" end="66" text="SEM" abbr="" />
+<annotation id="25365" tag="Sign or Symptom|Abbreviation" start="85" end="87" text="QX" abbr="" />
+<annotation id="25366" tag="Sign or Symptom" start="91" end="99" text="MUIALGIA" abbr="" />
+<annotation id="25367" tag="Sign or Symptom" start="104" end="115" text="DESCONFORTO" abbr="" />
+<annotation id="25368" tag="Abbreviation|Body Location or Region" start="121" end="125" text="MMII" abbr="" />
+<annotation id="25369" tag="Clinical Attribute" start="136" end="138" text="FE" abbr="" />
+<annotation id="25370" tag="Quantitative Concept" start="140" end="142" text="61" abbr="" />
+<annotation id="25371" tag="Abbreviation|Clinical Attribute" start="145" end="147" text="EP" abbr="" />
+<annotation id="25372" tag="Quantitative Concept" start="148" end="150" text="33" abbr="" />
+<annotation id="25373" tag="Clinical Attribute" start="151" end="153" text="AE" abbr="" />
+<annotation id="25374" tag="Quantitative Concept" start="155" end="157" text="42" abbr="" />
+<annotation id="25375" tag="Abbreviation" start="186" end="188" text="T6" abbr="" />
+<annotation id="25376" tag="Laboratory or Test Result" start="191" end="199" text="POSITIVO" abbr="" />
+<annotation id="25377" tag="Disease or Syndrome" start="205" end="213" text="ISQUEMIA" abbr="" />
+<annotation id="25378" tag="Negation" start="359" end="362" text="SEM" abbr="" />
+<annotation id="25379" tag="Abbreviation|Pharmacologic Substance" start="364" end="367" text="SVT" abbr="" />
+<annotation id="25380" tag="Health Care Activity|Abbreviation" start="368" end="369" text="P" abbr="" />
+<annotation id="25381" tag="Abbreviation|Diagnostic Procedure" start="371" end="378" text="CINTILO" abbr="" />
+<annotation id="25382" tag="Pharmacologic Substance|Abbreviation" start="400" end="403" text="SVT" abbr="" />
+<annotation id="25383" tag="Health Care Activity" start="405" end="411" text="INICIO" abbr="" />
+<annotation id="25384" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="412" end="418" text="ATORVA" abbr="" />
+<annotation id="25385" tag="Quantitative Concept" start="420" end="422" text="20" abbr="" />
+<annotation id="25386" tag="Pharmacologic Substance" start="426" end="433" text="LIPANON" abbr="" />
+<annotation id="25387" tag="Abbreviation" start="436" end="439" text="MTP" abbr="" />
+<annotation id="25388" tag="Quantitative Concept" start="440" end="442" text="25" abbr="" />
+<annotation id="25389" tag="Health Care Activity" start="446" end="454" text="MANTENHO" abbr="" />
+<annotation id="25390" tag="Abbreviation|Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="458" end="461" text="ENL" abbr="" />
+<annotation id="25391" tag="Quantitative Concept" start="462" end="464" text="10" abbr="" />
+<annotation id="25392" tag="Quantitative Concept" start="465" end="470" text="12-12" abbr="" />
+<annotation id="25393" tag="Pharmacologic Substance" start="472" end="483" text="CLOPIDOGREL" abbr="" />
+<annotation id="25394" tag="Quantitative Concept" start="484" end="486" text="75" abbr="" />
+<annotation id="25395" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="491" end="494" text="AAS" abbr="" />
+<annotation id="25396" tag="Abbreviation|Disease or Syndrome" start="0" end="11" text="DAC ESTAVEL" />
+<annotation id="25397" tag="Laboratory or Test Result|Sign or Symptom" start="12" end="44" text="-LESAO REMANESCENTE MODERADA" />
+<annotation id="25398" tag="Abbreviation|Finding" start="51" end="61" text="CESSOU TBG" />
+<annotation id="25399" tag="Abbreviation|Sign or Symptom" start="67" end="83" text="QX CARDILOGICAS" />
+<annotation id="25400" tag="Abbreviation|Disease or Syndrome" start="158" end="175" text="INSUF MI DISCRETA" />
+<annotation id="25401" tag="Laboratory or Test Result" start="223" end="228" text="HB 15" />
+<annotation id="25402" tag="Abbreviation|Laboratory or Test Result" start="232" end="238" text="HT 46" />
+<annotation id="25403" tag="Laboratory or Test Result" start="241" end="247" text="K 5 , 3" />
+<annotation id="25404" tag="Laboratory or Test Result" start="249" end="256" text="NA 133" />
+<annotation id="25405" tag="Abbreviation|Laboratory or Test Result" start="259" end="265" text="CRE 1" />
+<annotation id="25406" tag="Abbreviation|Laboratory or Test Result" start="267" end="274" text="GLI 85" />
+<annotation id="25407" tag="Abbreviation|Laboratory or Test Result" start="277" end="284" text="U 51" />
+<annotation id="25408" tag="Laboratory or Test Result" start="288" end="294" text="CK 71" />
+<annotation id="25409" tag="Abbreviation|Laboratory or Test Result" start="296" end="303" text="TRI 310" />
+<annotation id="25410" tag="Laboratory or Test Result" start="304" end="310" text="TGP 36" />
+<annotation id="25411" tag="Laboratory or Test Result" start="312" end="319" text="HDL 47" />
+<annotation id="25412" tag="Laboratory or Test Result" start="321" end="328" text="TGO 31" />
+<annotation id="25413" tag="Abbreviation|Laboratory or Test Result" start="332" end="340" text="COL 296" />
+<annotation id="25414" tag="Laboratory or Test Result" start="343" end="351" text="LDL 187" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="25363" annotation2="25398" reltype="negation_of" />
+<rel annotation1="25364" annotation2="25399" reltype="negation_of" />
+<rel annotation1="25365" annotation2="25366" reltype="associated_with" />
+<rel annotation1="25368" annotation2="25367" reltype="associated_with" />
+<rel annotation1="25370" annotation2="25369" reltype="associated_with" />
+<rel annotation1="25372" annotation2="25371" reltype="associated_with" />
+<rel annotation1="25373" annotation2="25374" reltype="associated_with" />
+<rel annotation1="25376" annotation2="25377" reltype="associated_with" />
+<rel annotation1="25384" annotation2="25385" reltype="associated_with" />
+<rel annotation1="25390" annotation2="25391" reltype="associated_with" />
+<rel annotation1="25391" annotation2="25392" reltype="associated_with" />
+<rel annotation1="25394" annotation2="25393" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

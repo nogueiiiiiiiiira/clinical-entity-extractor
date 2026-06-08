@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 24/08/2015
+
+
+Lucas, 57 anos
+Homoenxerto aortico ( por EAo ) + MIE - DA; RAD - CD; SAF - MG em 2006 - Doutor Vital Brazil. Hipertenso,
+Em uso de: AAS 100 mg dia, losartana 100 mg dia, atovastatina 20 mg 4CP / DIA, atenolol 25mg / dia, furosemida 40mg / dia, omeoprazol 40mg ao dia, ezatimibe 10 mg, Hidantal 100mg - por cisticercose.
+Penicilina G benzatina 1,200,000U IM a cada 21 dia - suspenso em 2013
+DOR REGIAO ESTERNAL, EM FO, LOCAL FIOS AÇO, EM QUEIMAÇÃO. 
+- Labs: tg 221 / ct 166 / ldl 76, demais ok 
+- Ecocardio 12/08/15: A0 / VD 22 / Septo 11 / FE 66. Homoenxerto aortico com mobilidade ampla folhetps. grad pressao 4mmHg. Regurgitacao grau leve a moderada com jato dirigido valva mitral (?). 
+Exames:
+Ecocardiograma - 26/06/2013: Homoenxerto em posição aórtica normofuncionante. VE hipertrofiado com dimensões normais e fumção sistólica preservada. ALteração do relaxamento do VE AE dilatado. Homoenxerto com mobilidade adequada. FE: 66%
+- Lab (05/02/15): Cr 0,91, CT 174, TGC 197, HDL 44, K 4,8, LDL 90, Glic 107
+Ao exame:
+Pte em BEG, eupneico, corado, hidratado.
+FC79  PA: 130/80
+CP: sem estase jugular
+AC: BCRNF sem sopros
+AP: MV presente bilateralmente, sem RA.
+mantenho medicações
+encaminho para cir cardiaca para retirada pontos suttura esterno
+retorno 6 meses
+e3 cardio Doutor Vital Brazil 
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="58~77" text="Homoenxerto aortico" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="84~87" text="EAo" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="152~162" text="Hipertenso" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="175~185" text="AAS 100 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="191~207" text="losartana 100 mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="213~231" text="atovastatina 20 mg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="243~256" text="atenolol 25mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="264~279" text="furosemida 40mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="287~302" text="omeoprazol 40mg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="311~326" text="ezatimibe 10 mg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="328~342" text="Hidantal 100mg" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="349~361" text="cisticercose" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="416~424" text="suspenso" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E14" spans="433~452" text="DOR REGIAO ESTERNAL" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E15" spans="500~502" text="tg" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E16" spans="509~511" text="ct" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="518~521" text="ldl" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="539~548" text="Ecocardio" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="661~694" text="Regurgitacao grau leve a moderada" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="732~738" text="Exames" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="740~754" text="Ecocardiograma" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="818~834" text="VE hipertrofiado" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="888~918" text="ALteração do relaxamento do VE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="919~930" text="AE dilatado" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="979~982" text="Lab" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="995~997" text="Cr" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="1004~1006" text="CT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="1012~1015" text="TGC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="1021~1024" text="HDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="1029~1030" text="K" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E31" spans="1036~1039" text="LDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E32" spans="1044~1048" text="Glic" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E33" spans="1056~1061" text="exame" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E34" spans="1110~1112" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E35" spans="1129~1143" text="estase jugular" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E36" spans="1158~1164" text="sopros" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E37" spans="1201~1203" text="RA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E38" spans="1205~1213" text="mantenho" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E39" spans="1214~1224" text="medicações" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E40" spans="1225~1234" text="encaminho" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E41" spans="1240~1252" text="cir cardiaca" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E42" spans="1258~1289" text="retirada pontos suttura esterno" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E43" spans="1290~1297" text="retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E47" spans="363~396" text="Penicilina G benzatina 1,200,000U" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="124~128" text="2006" Type="Date" Value="2006" Mod="NA" />
+<TIMEX3 id="T1" spans="186~189" text="dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T2" spans="208~211" text="dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T3" spans="232~241" text="4CP / DIA" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="4" />
+<TIMEX3 id="T4" spans="257~262" text="/ dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="280~285" text="/ dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T6" spans="303~309" text="ao dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T7" spans="400~413" text="a cada 21 dia" Type="Set" Value="P21D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T8" spans="428~432" text="2013" Type="Date" Value="2013" Mod="NA" />
+<TIMEX3 id="T9" spans="549~557" text="12/08/15" Type="Date" Value="2015-08-12" Mod="NA" />
+<TIMEX3 id="T10" spans="757~767" text="26/06/2013" Type="Date" Value="2013-06-26" Mod="NA" />
+<TIMEX3 id="T11" spans="984~992" text="05/02/15" Type="Date" Value="2015-02-05" Mod="NA" />
+<TIMEX3 id="T12" spans="1298~1305" text="6 meses" Type="Date" Value="2016-02-24" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="2006" toID="E0" toText="Homoenxerto aortico" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E1" fromText="EAo" toID="E0" toText="Homoenxerto aortico" Relação_Temporal="BEFORE" />
+<RELATION id="R2" fromID="E3" fromText="AAS 100 mg" toID="T1" toText="dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E4" fromText="losartana 100 mg" toID="T2" toText="dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E5" fromText="atovastatina 20 mg" toID="T3" toText="4CP / DIA" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E6" fromText="atenolol 25mg" toID="T4" toText="/ dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E7" fromText="furosemida 40mg" toID="T5" toText="/ dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E8" fromText="omeoprazol 40mg" toID="T6" toText="ao dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R8" fromID="E10" fromText="Hidantal 100mg" toID="E11" toText="cisticercose" Relação_Temporal="OVERLAP" />
+<RELATION id="R9" fromID="E47" fromText="Penicilina G benzatina 1,200,000U" toID="T7" toText="a cada 21 dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R10" fromID="E47" fromText="Penicilina G benzatina 1,200,000U" toID="E13" toText="suspenso" Relação_Temporal="BEFORE" />
+<RELATION id="R11" fromID="E13" fromText="suspenso" toID="T8" toText="2013" Relação_Temporal="OVERLAP" />
+<RELATION id="R12" fromID="T9" fromText="12/08/15" toID="E18" toText="Ecocardio" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E18" fromText="Ecocardio" toID="E19" toText="Regurgitacao grau leve a moderada" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="T10" fromText="26/06/2013" toID="E21" toText="Ecocardiograma" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="E21" fromText="Ecocardiograma" toID="E22" toText="VE hipertrofiado" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="E21" fromText="Ecocardiograma" toID="E23" toText="ALteração do relaxamento do VE" Relação_Temporal="CONTAINS" />
+<RELATION id="R17" fromID="E21" fromText="Ecocardiograma" toID="E24" toText="AE dilatado" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="T11" fromText="05/02/15" toID="E25" toText="Lab" Relação_Temporal="CONTAINS" />
+<RELATION id="R19" fromID="E25" fromText="Lab" toID="E26" toText="Cr" Relação_Temporal="CONTAINS" />
+<RELATION id="R20" fromID="E25" fromText="Lab" toID="E27" toText="CT" Relação_Temporal="CONTAINS" />
+<RELATION id="R21" fromID="E25" fromText="Lab" toID="E28" toText="TGC" Relação_Temporal="CONTAINS" />
+<RELATION id="R22" fromID="E25" fromText="Lab" toID="E29" toText="HDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R23" fromID="E25" fromText="Lab" toID="E30" toText="K" Relação_Temporal="CONTAINS" />
+<RELATION id="R24" fromID="E25" fromText="Lab" toID="E31" toText="LDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R25" fromID="E25" fromText="Lab" toID="E32" toText="Glic" Relação_Temporal="CONTAINS" />
+<RELATION id="R26" fromID="E20" fromText="Exames" toID="E21" toText="Ecocardiograma" Relação_Temporal="CONTAINS" />
+<RELATION id="R27" fromID="E20" fromText="Exames" toID="E18" toText="Ecocardio" Relação_Temporal="CONTAINS" />
+<RELATION id="R28" fromID="E20" fromText="Exames" toID="E25" toText="Lab" Relação_Temporal="CONTAINS" />
+<RELATION id="R29" fromID="E20" fromText="Exames" toID="E16" toText="ct" Relação_Temporal="CONTAINS" />
+<RELATION id="R30" fromID="E20" fromText="Exames" toID="E17" toText="ldl" Relação_Temporal="CONTAINS" />
+<RELATION id="R31" fromID="E20" fromText="Exames" toID="E15" toText="tg" Relação_Temporal="CONTAINS" />
+<RELATION id="R32" fromID="E38" fromText="mantenho" toID="E39" toText="medicações" Relação_Temporal="OVERLAP" />
+<RELATION id="R33" fromID="E40" fromText="encaminho" toID="E42" toText="retirada pontos suttura esterno" Relação_Temporal="OVERLAP" />
+<RELATION id="R34" fromID="E40" fromText="encaminho" toID="E41" toText="cir cardiaca" Relação_Temporal="OVERLAP" />
+<RELATION id="R35" fromID="E41" fromText="cir cardiaca" toID="E42" toText="retirada pontos suttura esterno" Relação_Temporal="OVERLAP" />
+<RELATION id="R36" fromID="T12" fromText="6 meses" toID="E43" toText="retorno" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

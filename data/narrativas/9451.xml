@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Paciente em tratamento para ICC diastólica há cerca de  com melhora importante dos sintomas após início do tratamento. Hoje relata dispneia aos moderados esforços, nega disnpneía paroxística notrna, dorme com apenas 1 travesseiro. Nega precordialgia aos moderados esforços. Nega episódios anginosos. Nega outras queixas. Relata disúria associada à dor supra púbica. Faz 2 horas de caminhada / semana.   Ao EF: PA 130x78mmHg (relata PA normal quando em ambiente não hospitalar), FC 60bpm AR: mv sem RA ACV : rcr em 2T sem sopros, com hipofonese de bulhas AD: abdome globos, normotenso, indolor, ausência de massas ou visceromegalias Giordano - MMII sem edema  ex lab (04/11/14): - Cr: 1,1   Ur: 61 - Na: 140    K: 4,8  HBa1C: 6,59%  Clearence Cr: 49.9 CKD-EPI 51,7  MDRD   HD : - ICC diastólica classe I - HAS - DMII - Dislipidemia  CD : - Mantenho medicação. - Retorno em 6 meses - Solicito Ecocardio (retorno com exame). ICC classe I NYHA HAS, em uso de atenolol 100mg / dia, AAS 100mg / dia, furosemida 40mg 1cp / dia, losartana 50mg 12/12h DMII, metformina 850mg 1cp / dia Dislipidemia, faz uso de sinvastatina 20mg 02 cp à noite</TEXT>
+<TAGS>
+<annotation id="22434" tag="Patient or Disabled Group" start="0" end="8" text="Paciente" abbr="" />
+<annotation id="22435" tag="Therapeutic or Preventive Procedure" start="12" end="22" text="tratamento" abbr="" />
+<annotation id="22436" tag="Therapeutic or Preventive Procedure" start="107" end="117" text="tratamento" abbr="" />
+<annotation id="22437" tag="Negation" start="164" end="168" text="nega" abbr="" />
+<annotation id="22438" tag="Negation" start="231" end="235" text="Nega" abbr="" />
+<annotation id="22439" tag="Negation" start="274" end="278" text="Nega" abbr="" />
+<annotation id="22440" tag="Negation" start="300" end="304" text="Nega" abbr="" />
+<annotation id="22441" tag="Sign or Symptom" start="312" end="319" text="queixas" abbr="" />
+<annotation id="22442" tag="Sign or Symptom" start="328" end="335" text="disúria" abbr="" />
+<annotation id="22443" tag="Sign or Symptom" start="348" end="351" text="dor" abbr="" />
+<annotation id="22444" tag="Temporal Concept" start="393" end="399" text="semana" abbr="" />
+<annotation id="22445" tag="Abbreviation" start="406" end="408" text="EF" abbr="" />
+<annotation id="22446" tag="Abbreviation|Clinical Attribute" start="410" end="412" text="PA" abbr="" />
+<annotation id="22447" tag="Quantitative Concept" start="413" end="423" text="130x78mmHg" abbr="" />
+<annotation id="22448" tag="Clinical Attribute" start="432" end="434" text="PA" abbr="" />
+<annotation id="22449" tag="Clinical Attribute|Abbreviation" start="478" end="480" text="FC" abbr="Frequência Cardíaca" />
+<annotation id="22450" tag="Quantitative Concept" start="481" end="486" text="60bpm" abbr="" />
+<annotation id="22451" tag="Body System|Abbreviation|Clinical Attribute" start="487" end="489" text="AR" abbr="" />
+<annotation id="22452" tag="Abbreviation|Finding" start="491" end="493" text="mv" abbr="" />
+<annotation id="22453" tag="Negation" start="494" end="497" text="sem" abbr="" />
+<annotation id="22454" tag="Abbreviation|Sign or Symptom" start="498" end="500" text="RA" abbr="" />
+<annotation id="22455" tag="Abbreviation|Clinical Attribute|Body System" start="501" end="504" text="ACV" abbr="" />
+<annotation id="22456" tag="Negation" start="517" end="520" text="sem" abbr="" />
+<annotation id="22457" tag="Sign or Symptom" start="521" end="527" text="sopros" abbr="" />
+<annotation id="22458" tag="Clinical Attribute|Body System|Abbreviation" start="554" end="556" text="AD" abbr="" />
+<annotation id="22459" tag="Body Location or Region" start="558" end="564" text="abdome" abbr="" />
+<annotation id="22460" tag="Sign or Symptom" start="565" end="571" text="globos" abbr="" />
+<annotation id="22461" tag="Finding" start="573" end="583" text="normotenso" abbr="" />
+<annotation id="22462" tag="Negation|Finding" start="585" end="592" text="indolor" abbr="" />
+<annotation id="22463" tag="Negation" start="594" end="602" text="ausência" abbr="" />
+<annotation id="22464" tag="Sign or Symptom" start="606" end="612" text="massas" abbr="" />
+<annotation id="22465" tag="Sign or Symptom" start="616" end="631" text="visceromegalias" abbr="" />
+<annotation id="22466" tag="Negation" start="641" end="642" text="-" abbr="" />
+<annotation id="22467" tag="Body Location or Region|Abbreviation" start="643" end="647" text="MMII" abbr="Membros Inferiores" />
+<annotation id="22468" tag="Negation" start="648" end="651" text="sem" abbr="" />
+<annotation id="22469" tag="Sign or Symptom" start="652" end="657" text="edema" abbr="" />
+<annotation id="22470" tag="Abbreviation" start="772" end="774" text="HD" abbr="" />
+<annotation id="22471" tag="Disease or Syndrome|Abbreviation" start="805" end="808" text="HAS" abbr="Hipertensão Arterial Sistêmica" />
+<annotation id="22472" tag="Disease or Syndrome|Abbreviation" start="811" end="815" text="DMII" abbr="Diabetes Mellitus tipo 2" />
+<annotation id="22473" tag="Disease or Syndrome" start="818" end="830" text="Dislipidemia" abbr="" />
+<annotation id="22474" tag="Abbreviation|Intellectual Product" start="832" end="834" text="CD" abbr="" />
+<annotation id="22475" tag="Health Care Activity" start="839" end="847" text="Mantenho" abbr="" />
+<annotation id="22476" tag="Pharmacologic Substance|Therapeutic or Preventive Procedure" start="848" end="857" text="medicação" abbr="" />
+<annotation id="22477" tag="Health Care Activity" start="861" end="868" text="Retorno" abbr="" />
+<annotation id="22478" tag="Health Care Activity" start="882" end="890" text="Solicito" abbr="" />
+<annotation id="22479" tag="Abbreviation|Diagnostic Procedure" start="891" end="900" text="Ecocardio" abbr="" />
+<annotation id="22480" tag="Diagnostic Procedure" start="914" end="919" text="exame" abbr="" />
+<annotation id="22481" tag="Disease or Syndrome|Abbreviation" start="940" end="943" text="HAS" abbr="Hipertensão Arterial Sistêmica" />
+<annotation id="22482" tag="Pharmacologic Substance" start="955" end="963" text="atenolol" abbr="" />
+<annotation id="22483" tag="Pharmacologic Substance|Abbreviation" start="977" end="980" text="AAS" abbr="" />
+<annotation id="22484" tag="Pharmacologic Substance" start="994" end="1004" text="furosemida" abbr="" />
+<annotation id="22485" tag="Pharmacologic Substance" start="1021" end="1030" text="losartana" abbr="" />
+<annotation id="22486" tag="Abbreviation|Disease or Syndrome" start="1043" end="1047" text="DMII" abbr="" />
+<annotation id="22487" tag="Pharmacologic Substance" start="1049" end="1059" text="metformina" abbr="" />
+<annotation id="22488" tag="Disease or Syndrome" start="1076" end="1088" text="Dislipidemia" abbr="" />
+<annotation id="22489" tag="Pharmacologic Substance" start="1101" end="1113" text="sinvastatina" abbr="" />
+<annotation id="22490" tag="Temporal Concept" start="1127" end="1132" text="noite" abbr="" />
+<annotation id="22491" tag="Abbreviation|Disease or Syndrome" start="28" end="42" text="ICC diastólica" />
+<annotation id="22492" tag="Finding" start="60" end="91" text="melhora importante dos sintomas" />
+<annotation id="22493" tag="Sign or Symptom" start="131" end="162" text="dispneia aos moderados esforços" />
+<annotation id="22494" tag="Sign or Symptom" start="236" end="272" text="precordialgia aos moderados esforços" />
+<annotation id="22495" tag="Sign or Symptom" start="279" end="298" text="episódios anginosos" />
+<annotation id="22496" tag="Body Location or Region" start="352" end="364" text="supra púbica" />
+<annotation id="22497" tag="Abbreviation|Finding" start="507" end="516" text="rcr em 2T" />
+<annotation id="22498" tag="Sign or Symptom" start="533" end="553" text="hipofonese de bulhas" />
+<annotation id="22499" tag="Abbreviation|Diagnostic Procedure|Laboratory Procedure" start="659" end="665" text="ex lab" />
+<annotation id="22500" tag="Abbreviation|Laboratory or Test Result" start="680" end="687" text="Cr : 1 , 1" />
+<annotation id="22501" tag="Abbreviation|Laboratory or Test Result" start="690" end="696" text="Ur : 61" />
+<annotation id="22502" tag="Abbreviation|Laboratory or Test Result" start="699" end="706" text="Na : 140" />
+<annotation id="22503" tag="Abbreviation|Laboratory or Test Result" start="710" end="716" text="K : 4 , 8" />
+<annotation id="22504" tag="Abbreviation|Laboratory or Test Result" start="718" end="730" text="HBa1C : 6 , 59%" />
+<annotation id="22505" tag="Abbreviation|Laboratory or Test Result" start="732" end="748" text="Clearence Cr : 49" />
+<annotation id="22506" tag="Abbreviation|Laboratory or Test Result" start="751" end="761" text="CKD-EPI 51" />
+<annotation id="22507" tag="Laboratory or Test Result" start="762" end="769" text="7 MDRD" />
+<annotation id="22508" tag="Abbreviation|Disease or Syndrome" start="779" end="802" text="ICC diastólica classe I" />
+<annotation id="22509" tag="Abbreviation|Disease or Syndrome" start="922" end="939" text="ICC classe I NYHA" />
+<annotation id="22510" tag="Quantitative Concept" start="964" end="975" text="100mg / dia" />
+<annotation id="22511" tag="Quantitative Concept" start="981" end="992" text="100mg / dia" />
+<annotation id="22512" tag="Quantitative Concept" start="1005" end="1019" text="40mg 1cp / dia" />
+<annotation id="22513" tag="Quantitative Concept" start="1031" end="1042" text="50mg 12/12h" />
+<annotation id="22514" tag="Quantitative Concept" start="1060" end="1075" text="850mg 1cp / dia" />
+<annotation id="22515" tag="Quantitative Concept" start="1114" end="1124" text="20mg 02 cp" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="22435" annotation2="22491" reltype="associated_with" />
+<rel annotation1="22436" annotation2="22492" reltype="associated_with" />
+<rel annotation1="22438" annotation2="22494" reltype="negation_of" />
+<rel annotation1="22439" annotation2="22495" reltype="negation_of" />
+<rel annotation1="22440" annotation2="22441" reltype="negation_of" />
+<rel annotation1="22442" annotation2="22443" reltype="associated_with" />
+<rel annotation1="22443" annotation2="22496" reltype="associated_with" />
+<rel annotation1="22446" annotation2="22447" reltype="associated_with" />
+<rel annotation1="22449" annotation2="22450" reltype="associated_with" />
+<rel annotation1="22453" annotation2="22454" reltype="negation_of" />
+<rel annotation1="22456" annotation2="22457" reltype="negation_of" />
+<rel annotation1="22463" annotation2="22464" reltype="negation_of" />
+<rel annotation1="22468" annotation2="22469" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

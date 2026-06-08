@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>LUCAS, 63 ANOS
+
+# TV AO + MI = 2007
+   - PROTESE AO BRAILE 25MM
+   - PROTESE MI CARDIOPROTESE 29MM
+EM USO DE: ENALAPRIL 10MG; HCTZ 25MG /D; METOPROLOL 100MG /D; AAS 100MG /D; SVT 20MG /D.
+
+ECOCARDIO 2014: RA 33, VD 47, AE 47,  SEPTO 13, PP 13, DD 57, DS 41, FE 53%.
+MI BIOL: GMAX 14, MEDIO 5, IMOD.
+PROTESE AO BIOL GMAX 40, MEDIO 20 - DLAO DISCRETA.
+
+PCTE SEM QUEIXAS, NEGA DISPNÉIA, NEGA ORTOPNÉIA. QUEIXA-SE DE IMPOTENCIA APÓS INICIAR O USO DE METOPROLOL.
+SEQUELA MOTORA ESQ - PARALISIA INFANTIL? 
+
+PA 140X60, FC 64
+AP MVB+ S RA
+AC BCRNF SOPRO SISTOLICO AO E PANFOCAL +4/+6 EJETIVO; SOPRO DIASTOLICO AO E MI ASPIRATIVO +3/+6
+ABD SP
+MMII SP
+
+A # TROCA DE VAO E MI HÁ 8 ANOS
+CF I =&gt; LIMITADO PELA ALTERAÇÃO MOTORA? SUBESTIMADO
+
+P # AUMENTO ENALAPRIL 10 MG 12/12H; METOPROLOL 50MG /D.
+MANTIDOS DEMAIS.
+RETORNO COM NOVO ECO EM 6 MESES.
+
+R4 CARDIO LUCAS
+Doutor Vital Brazil </TEXT>
+<TAGS>
+<annotation id="32433" tag="Body Part, Organ, or Organ Component" start="23" end="25" text="AO" abbr="" />
+<annotation id="32434" tag="Body Part, Organ, or Organ Component" start="28" end="30" text="MI" abbr="" />
+<annotation id="32435" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance|Organic Chemical" start="115" end="124" text="ENALAPRIL" abbr="" />
+<annotation id="32436" tag="Quantitative Concept" start="125" end="129" text="10MG" abbr="" />
+<annotation id="32437" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="131" end="135" text="HCTZ" abbr="hidroclorotiazida" />
+<annotation id="32438" tag="Organic Chemical|Pharmacologic Substance" start="145" end="155" text="METOPROLOL" abbr="" />
+<annotation id="32439" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="166" end="169" text="AAS" abbr="" />
+<annotation id="32440" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="180" end="183" text="SVT" abbr="" />
+<annotation id="32441" tag="Abbreviation|Diagnostic Procedure" start="196" end="205" text="ECOCARDIO" abbr="" />
+<annotation id="32442" tag="Laboratory or Test Result" start="301" end="305" text="IMOD" abbr="" />
+<annotation id="32443" tag="Abbreviation" start="344" end="348" text="DLAO" abbr="" />
+<annotation id="32444" tag="Abbreviation|Patient or Disabled Group" start="362" end="366" text="PCTE" abbr="" />
+<annotation id="32445" tag="Negation|Negation" start="367" end="370" text="SEM" abbr="" />
+<annotation id="32446" tag="Sign or Symptom" start="371" end="378" text="QUEIXAS" abbr="" />
+<annotation id="32447" tag="Negation" start="380" end="384" text="NEGA" abbr="" />
+<annotation id="32448" tag="Sign or Symptom" start="385" end="393" text="DISPNÉIA" abbr="" />
+<annotation id="32449" tag="Negation" start="395" end="399" text="NEGA" abbr="" />
+<annotation id="32450" tag="Sign or Symptom" start="400" end="409" text="ORTOPNÉIA" abbr="" />
+<annotation id="32451" tag="Sign or Symptom" start="411" end="420" text="QUEIXA-SE" abbr="" />
+<annotation id="32452" tag="Disease or Syndrome" start="424" end="434" text="IMPOTENCIA" abbr="" />
+<annotation id="32453" tag="Pharmacologic Substance|Organic Chemical" start="457" end="467" text="METOPROLOL" abbr="" />
+<annotation id="32454" tag="Clinical Attribute|Abbreviation" start="515" end="517" text="PA" abbr="pressão arterial" />
+<annotation id="32455" tag="Quantitative Concept" start="518" end="524" text="140X60" abbr="" />
+<annotation id="32456" tag="Clinical Attribute|Abbreviation" start="526" end="528" text="FC" abbr="frequência cardíaca" />
+<annotation id="32457" tag="Quantitative Concept" start="529" end="531" text="64" abbr="" />
+<annotation id="32458" tag="Abbreviation|Diagnostic Procedure" start="533" end="535" text="AP" abbr="" />
+<annotation id="32459" tag="Finding|Abbreviation" start="536" end="540" text="MVB+" abbr="murmúrio vesicular presente bilateral" />
+<annotation id="32460" tag="Negation|Abbreviation" start="541" end="542" text="S" abbr="sem" />
+<annotation id="32461" tag="Abbreviation|Sign or Symptom" start="543" end="545" text="RA" abbr="" />
+<annotation id="32462" tag="Abbreviation|Diagnostic Procedure" start="547" end="549" text="AC" abbr="" />
+<annotation id="32463" tag="Abbreviation|Finding" start="550" end="555" text="BCRNF" abbr="" />
+<annotation id="32464" tag="Abbreviation|Body Location or Region|Body Part, Organ, or Organ Component" start="572" end="574" text="AO" abbr="" />
+<annotation id="32465" tag="Body Location or Region" start="577" end="585" text="PANFOCAL" abbr="" />
+<annotation id="32466" tag="Body Part, Organ, or Organ Component|Abbreviation|Body Location or Region" start="618" end="620" text="AO" abbr="" />
+<annotation id="32467" tag="Body Part, Organ, or Organ Component|Abbreviation|Body Location or Region" start="623" end="625" text="MI" abbr="" />
+<annotation id="32468" tag="Qualitative Concept" start="626" end="636" text="ASPIRATIVO" abbr="" />
+<annotation id="32469" tag="Laboratory or Test Result" start="637" end="642" text="+3/+6" abbr="" />
+<annotation id="32470" tag="Body Part, Organ, or Organ Component" start="644" end="647" text="ABD" abbr="" />
+<annotation id="32471" tag="Body Part, Organ, or Organ Component|Abbreviation|Abbreviation" start="652" end="656" text="MMII" abbr="membros inferiores" />
+<annotation id="32472" tag="Abbreviation|Finding" start="657" end="659" text="SP" abbr="" />
+<annotation id="32473" tag="Abbreviation|Diagnostic Procedure" start="663" end="664" text="A" abbr="" />
+<annotation id="32474" tag="Medical Device" start="676" end="679" text="VAO" abbr="" />
+<annotation id="32475" tag="Body Part, Organ, or Organ Component" start="682" end="684" text="MI" abbr="" />
+<annotation id="32476" tag="Intellectual Product|Abbreviation" start="751" end="752" text="P" abbr="" />
+<annotation id="32477" tag="Therapeutic or Preventive Procedure|Health Care Activity" start="755" end="762" text="AUMENTO" abbr="" />
+<annotation id="32478" tag="Pharmacologic Substance|Organic Chemical|Amino Acid, Peptide, or Protein" start="763" end="772" text="ENALAPRIL" abbr="" />
+<annotation id="32479" tag="Temporal Concept" start="779" end="785" text="12/12H" abbr="" />
+<annotation id="32480" tag="Organic Chemical|Pharmacologic Substance" start="787" end="797" text="METOPROLOL" abbr="" />
+<annotation id="32481" tag="Quantitative Concept" start="798" end="802" text="50MG" abbr="" />
+<annotation id="32482" tag="Temporal Concept" start="803" end="805" text="/D" abbr="" />
+<annotation id="32483" tag="Abbreviation|Diagnostic Procedure" start="843" end="846" text="ECO" abbr="" />
+<annotation id="32484" tag="Medical Device|Abbreviation" start="44" end="66" text="PROTESE AO BRAILE 25MM" />
+<annotation id="32485" tag="Abbreviation|Medical Device" start="73" end="102" text="PROTESE MI CARDIOPROTESE 29MM" />
+<annotation id="32486" tag="Quantitative Concept" start="136" end="143" text="25MG /D" />
+<annotation id="32487" tag="Abbreviation|Laboratory or Test Result" start="212" end="217" text="RA 33" />
+<annotation id="32488" tag="Abbreviation|Laboratory or Test Result" start="219" end="224" text="VD 47" />
+<annotation id="32489" tag="Abbreviation|Laboratory or Test Result" start="226" end="231" text="AE 47" />
+<annotation id="32490" tag="Laboratory or Test Result" start="234" end="242" text="SEPTO 13" />
+<annotation id="32491" tag="Abbreviation|Laboratory or Test Result" start="244" end="249" text="PP 13" />
+<annotation id="32492" tag="Abbreviation|Laboratory or Test Result" start="251" end="256" text="DD 57" />
+<annotation id="32493" tag="Abbreviation|Laboratory or Test Result" start="258" end="263" text="DS 41" />
+<annotation id="32494" tag="Abbreviation|Laboratory or Test Result" start="265" end="271" text="FE 53%" />
+<annotation id="32495" tag="Abbreviation" start="274" end="281" text="MI BIOL" />
+<annotation id="32496" tag="Laboratory or Test Result" start="283" end="290" text="GMAX 14" />
+<annotation id="32497" tag="Laboratory or Test Result" start="292" end="299" text="MEDIO 5" />
+<annotation id="32498" tag="Abbreviation|Medical Device" start="308" end="323" text="PROTESE AO BIOL" />
+<annotation id="32499" tag="Abbreviation|Pathologic Function" start="470" end="488" text="SEQUELA MOTORA ESQ" />
+<annotation id="32500" tag="Disease or Syndrome" start="491" end="509" text="PARALISIA INFANTIL" />
+<annotation id="32501" tag="Pathologic Function|Sign or Symptom" start="556" end="571" text="SOPRO SISTOLICO" />
+<annotation id="32502" tag="Laboratory or Test Result" start="586" end="599" text="+4/+6 EJETIVO" />
+<annotation id="32503" tag="Pathologic Function|Sign or Symptom" start="601" end="617" text="SOPRO DIASTOLICO" />
+<annotation id="32504" tag="Temporal Concept" start="685" end="694" text="HÁ 8 ANOS" />
+<annotation id="32505" tag="Pathologic Function" start="718" end="734" text="ALTERAÇÃO MOTORA" />
+<annotation id="32506" tag="Quantitative Concept" start="773" end="778" text="10 MG" />
+<annotation id="32507" tag="Health Care Activity" start="808" end="823" text="MANTIDOS DEMAIS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="32436" annotation2="32435" reltype="associated_with" />
+<rel annotation1="32437" annotation2="32486" reltype="associated_with" />
+<rel annotation1="32445" annotation2="32446" reltype="negation_of" />
+<rel annotation1="32447" annotation2="32448" reltype="negation_of" />
+<rel annotation1="32449" annotation2="32450" reltype="negation_of" />
+<rel annotation1="32454" annotation2="32455" reltype="associated_with" />
+<rel annotation1="32456" annotation2="32457" reltype="associated_with" />
+<rel annotation1="32458" annotation2="32459" reltype="associated_with" />
+<rel annotation1="32460" annotation2="32461" reltype="negation_of" />
+<rel annotation1="32462" annotation2="32463" reltype="associated_with" />
+<rel annotation1="32464" annotation2="32501" reltype="associated_with" />
+<rel annotation1="32465" annotation2="32501" reltype="associated_with" />
+<rel annotation1="32466" annotation2="32503" reltype="associated_with" />
+<rel annotation1="32467" annotation2="32503" reltype="associated_with" />
+<rel annotation1="32468" annotation2="32503" reltype="associated_with" />
+<rel annotation1="32469" annotation2="32503" reltype="associated_with" />
+<rel annotation1="32479" annotation2="32478" reltype="associated_with" />
+<rel annotation1="32481" annotation2="32480" reltype="associated_with" />
+<rel annotation1="32482" annotation2="32480" reltype="associated_with" />
+<rel annotation1="32506" annotation2="32478" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

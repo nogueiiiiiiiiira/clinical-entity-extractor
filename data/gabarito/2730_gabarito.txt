@@ -1,7 +1,0 @@
-Subjetivo 
- Durante o turno da noite, o [PROFISSÃO] [NOME], 32 anos, [PROFISSÃO], reporta que a paciente [PROFISSÃO] [NOME], 57 anos, [PROFISSÃO], começou a apresentar episódios de febre e calafrios . Indica-se que não há registros de administração de antipiréticos no prontuário . Contato feito com a [PROFISSÃO] [NOME], CRM [IDs], [PROFISSÃO], às [HORÁRIO], que está de sobreaviso e pediu para iniciar a medicação conforme protocolo sepsis enquanto ela avalia a paciente . Telefone da [PROFISSÃO] [NOME] : [CONTATO] . 
- Escore FUGULIN 22.00 - CUIDADOS DE ALTA DEPENDÊNCIA 
- Escore MORSE 45.00 - RISCO ALTO 
- Redigido e confirmado por [PROFISSÃO] [NOME], Coren [IDs] em [DATA] [HORÁRIO] 
-
- Contato feito com [PROFISSÃO] [NOME] através do telefone [CONTATO] . E-mail de [PROFISSÃO] [NOME] : [CONTATO] . Residência atual no [LOCAL] . Atendimento no [ORGANIZAÇÃO], leito 204, identificação do atendimento : [IDs] .

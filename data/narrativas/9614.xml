@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>* ENCAMINHADO DA UBS
+Lucas, 63 ANOS
+# PERDA DE VISÃO À ESQUERDA EM 2006
+# HAS
+# HF NEGATIVA
+# MEDICAÇÕES: ENALAPRIL 10MG 12/12H
+ASSINTOMÁTICO.
+GOSTARIA DE UM CHECK-UP.
+MÉDICOS FALARAM QUE O PERDA DE VISÃO PODERIA SER POR PROBLEMAS CARDÍACOS
+PA 140/90 MMHG, FC 94 BPM
+RCR 2T SS
+MV+ BILATERAL SEM RA
+ECG: FC 75 BPM, SINUSAL, DISTÚRBIOS DE CONDUÇÃO DE RAMO DIREITO
+ECOCARDIO NORMAL
+TE NORMAL
+ALTA DO AMBULATORIO
+ACOMPANHAR NA UBS
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="30455" tag="Health Care Activity" start="2" end="13" text="ENCAMINHADO" abbr="" />
+<annotation id="30456" tag="Health Care Related Organization|Abbreviation" start="17" end="20" text="UBS" abbr="unidade básica de saúde" />
+<annotation id="30457" tag="Disease or Syndrome|Disease or Syndrome|Abbreviation" start="77" end="80" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="30458" tag="Abbreviation|Finding" start="84" end="86" text="HF" abbr="" />
+<annotation id="30459" tag="Negation|Qualitative Concept" start="87" end="95" text="NEGATIVA" abbr="" />
+<annotation id="30460" tag="Pharmacologic Substance|Therapeutic or Preventive Procedure" start="99" end="109" text="MEDICAÇÕES" abbr="" />
+<annotation id="30461" tag="Amino Acid, Peptide, or Protein|Organic Chemical|Pharmacologic Substance" start="111" end="120" text="ENALAPRIL" abbr="" />
+<annotation id="30462" tag="Quantitative Concept" start="121" end="125" text="10MG" abbr="" />
+<annotation id="30463" tag="Abbreviation|Temporal Concept" start="126" end="132" text="12/12H" abbr="" />
+<annotation id="30464" tag="Negation|Sign or Symptom" start="134" end="147" text="ASSINTOMÁTICO" abbr="" />
+<annotation id="30465" tag="Health Care Activity" start="165" end="173" text="CHECK-UP" abbr="" />
+<annotation id="30466" tag="Professional or Occupational Group" start="176" end="183" text="MÉDICOS" abbr="" />
+<annotation id="30467" tag="Clinical Attribute|Abbreviation|Clinical Attribute" start="250" end="252" text="PA" abbr="" />
+<annotation id="30468" tag="Abbreviation|Clinical Attribute|Clinical Attribute" start="266" end="268" text="FC" abbr="" />
+<annotation id="30469" tag="Negation" start="302" end="305" text="SEM" abbr="" />
+<annotation id="30470" tag="Sign or Symptom" start="306" end="308" text="RA" abbr="" />
+<annotation id="30471" tag="Abbreviation|Abbreviation|Diagnostic Procedure|Diagnostic Procedure" start="310" end="313" text="ECG" abbr="" />
+<annotation id="30472" tag="Clinical Attribute" start="315" end="317" text="FC" abbr="" />
+<annotation id="30473" tag="Laboratory or Test Result" start="326" end="333" text="SINUSAL" abbr="" />
+<annotation id="30474" tag="Abbreviation|Diagnostic Procedure" start="375" end="384" text="ECOCARDIO" abbr="" />
+<annotation id="30475" tag="Laboratory or Test Result" start="385" end="391" text="NORMAL" abbr="" />
+<annotation id="30476" tag="Diagnostic Procedure|Abbreviation" start="393" end="395" text="TE" abbr="ecocardiograma transtorácico" />
+<annotation id="30477" tag="Laboratory or Test Result" start="396" end="402" text="NORMAL" abbr="" />
+<annotation id="30478" tag="Health Care Activity" start="404" end="408" text="ALTA" abbr="" />
+<annotation id="30479" tag="Health Care Related Organization" start="412" end="423" text="AMBULATORIO" abbr="" />
+<annotation id="30480" tag="Health Care Activity" start="425" end="435" text="ACOMPANHAR" abbr="" />
+<annotation id="30481" tag="Abbreviation|Health Care Related Organization" start="439" end="442" text="UBS" abbr="" />
+<annotation id="30482" tag="Finding|Sign or Symptom" start="40" end="54" text="PERDA DE VISÃO" />
+<annotation id="30483" tag="Disease or Syndrome" start="198" end="212" text="PERDA DE VISÃO" />
+<annotation id="30484" tag="Sign or Symptom" start="229" end="248" text="PROBLEMAS CARDÍACOS" />
+<annotation id="30485" tag="Quantitative Concept" start="253" end="264" text="140/90 MMHG" />
+<annotation id="30486" tag="Abbreviation|Quantitative Concept" start="269" end="275" text="94 BPM" />
+<annotation id="30487" tag="Abbreviation|Finding" start="277" end="286" text="RCR 2T SS" />
+<annotation id="30488" tag="Abbreviation|Finding" start="288" end="301" text="MV+ BILATERAL" />
+<annotation id="30489" tag="Abbreviation|Quantitative Concept" start="318" end="324" text="75 BPM" />
+<annotation id="30490" tag="Laboratory or Test Result" start="335" end="373" text="DISTÚRBIOS DE CONDUÇÃO DE RAMO DIREITO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="30459" annotation2="30458" reltype="negation_of" />
+<rel annotation1="30461" annotation2="30462" reltype="associated_with" />
+<rel annotation1="30467" annotation2="30485" reltype="associated_with" />
+<rel annotation1="30468" annotation2="30486" reltype="associated_with" />
+<rel annotation1="30471" annotation2="30473" reltype="associated_with" />
+<rel annotation1="30471" annotation2="30490" reltype="associated_with" />
+<rel annotation1="30474" annotation2="30475" reltype="associated_with" />
+<rel annotation1="30476" annotation2="30477" reltype="associated_with" />
+<rel annotation1="30478" annotation2="30479" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

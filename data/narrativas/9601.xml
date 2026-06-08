@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 57 anos
+Homoenxerto aortico ( por EAo ) + MIE - DA; RAD - CD; SAF - MG em 2006 - Doutor Vital Brazil. Hipertenso,
+Em uso de: AAS 100 mg dia, losartana 100 mg dia, atovastatina 20 mg 4CP / DIA, atenolol 25mg / dia, furosemida 40mg / dia, omeoprazol 40mg ao dia, ezatimibe 10 mg, Hidantal 100mg - por cisticercose.
+Penicilina G benzatina 1,200,000U IM a cada 21 dia - suspenso em 2013
+DOR REGIAO ESTERNAL, EM FO, LOCAL FIOS AÇO, EM QUEIMAÇÃO. 
+- Labs: tg 221 / ct 166 / ldl 76, demais ok 
+- Ecocardio 12/08/15: A0 / VD 22 / Septo 11 / FE 66. Homoenxerto aortico com mobilidade ampla folhetps. grad pressao 4mmHg. Regurgitacao grau leve a moderada com jato dirigido valva mitral (?). 
+Exames:
+Ecocardiograma - 26/06/2013: Homoenxerto em posição aórtica normofuncionante. VE hipertrofiado com dimensões normais e fumção sistólica preservada. ALteração
+do relaxamento do VE AE dilatado. Homoenxerto com mobilidade adequada. FE: 66%
+- Lab (05/02/15): Cr 0,91, CT 174, TGC 197, HDL 44, K 4,8, LDL 90, Glic 107
+Ao exame:
+Pte em BEG, eupneico, corado, hidratado.
+FC79  PA: 130/80
+CP: sem estase jugular
+AC: BCRNF sem sopros
+AP: MV presente bilateralmente, sem RA.
+mantenho medicações
+encaminho para cir cardiaca para retirada pontos suttura esterno
+retorno 6 meses
+e3 cardio Doutor Vital Brazil 
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="29823" tag="Abbreviation|Disease or Syndrome" start="42" end="45" text="EAo" abbr="" />
+<annotation id="29824" tag="Disease or Syndrome" start="110" end="120" text="Hipertenso" abbr="" />
+<annotation id="29825" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="134" end="137" text="AAS" abbr="" />
+<annotation id="29826" tag="Temporal Concept" start="145" end="148" text="dia" abbr="" />
+<annotation id="29827" tag="Pharmacologic Substance|Organic Chemical" start="150" end="159" text="losartana" abbr="" />
+<annotation id="29828" tag="Temporal Concept" start="167" end="170" text="dia" abbr="" />
+<annotation id="29829" tag="Pharmacologic Substance|Organic Chemical" start="172" end="184" text="atovastatina" abbr="" />
+<annotation id="29830" tag="Abbreviation|Quantitative Concept" start="191" end="194" text="4CP" abbr="" />
+<annotation id="29831" tag="Temporal Concept" start="197" end="200" text="DIA" abbr="" />
+<annotation id="29832" tag="Pharmacologic Substance|Organic Chemical" start="202" end="210" text="atenolol" abbr="" />
+<annotation id="29833" tag="Quantitative Concept" start="211" end="215" text="25mg" abbr="" />
+<annotation id="29834" tag="Temporal Concept" start="218" end="221" text="dia" abbr="" />
+<annotation id="29835" tag="Organic Chemical|Pharmacologic Substance" start="223" end="233" text="furosemida" abbr="" />
+<annotation id="29836" tag="Quantitative Concept" start="234" end="238" text="40mg" abbr="" />
+<annotation id="29837" tag="Temporal Concept" start="241" end="244" text="dia" abbr="" />
+<annotation id="29838" tag="Pharmacologic Substance|Organic Chemical" start="246" end="256" text="omeoprazol" abbr="" />
+<annotation id="29839" tag="Quantitative Concept" start="257" end="261" text="40mg" abbr="" />
+<annotation id="29840" tag="Temporal Concept" start="265" end="268" text="dia" abbr="" />
+<annotation id="29841" tag="Pharmacologic Substance|Organic Chemical" start="270" end="279" text="ezatimibe" abbr="" />
+<annotation id="29842" tag="Organic Chemical|Pharmacologic Substance" start="287" end="295" text="Hidantal" abbr="" />
+<annotation id="29843" tag="Quantitative Concept" start="296" end="301" text="100mg" abbr="" />
+<annotation id="29844" tag="Disease or Syndrome" start="308" end="320" text="cisticercose" abbr="" />
+<annotation id="29845" tag="Abbreviation" start="357" end="359" text="IM" abbr="" />
+<annotation id="29846" tag="Health Care Activity" start="376" end="384" text="suspenso" abbr="" />
+<annotation id="29847" tag="Body Location or Region" start="405" end="413" text="ESTERNAL" abbr="" />
+<annotation id="29848" tag="Injury or Poisoning|Abbreviation" start="418" end="420" text="FO" abbr="ferida operatória" />
+<annotation id="29849" tag="Qualitative Concept" start="441" end="450" text="QUEIMAÇÃO" abbr="" />
+<annotation id="29850" tag="Abbreviation|Laboratory or Test Result|Laboratory Procedure" start="456" end="460" text="Labs" abbr="" />
+<annotation id="29851" tag="Diagnostic Procedure|Abbreviation" start="502" end="511" text="Ecocardio" abbr="" />
+<annotation id="29852" tag="Laboratory or Test Result|Abbreviation" start="522" end="524" text="A0" abbr="" />
+<annotation id="29853" tag="Diagnostic Procedure" start="705" end="719" text="Ecocardiograma" abbr="" />
+<annotation id="29854" tag="Laboratory Procedure|Abbreviation" start="946" end="949" text="Lab" abbr="laboratório" />
+<annotation id="29855" tag="Patient or Disabled Group|Abbreviation" start="1032" end="1035" text="Pte" abbr="" />
+<annotation id="29856" tag="Abbreviation|Finding" start="1039" end="1042" text="BEG" abbr="" />
+<annotation id="29857" tag="Finding" start="1044" end="1052" text="eupneico" abbr="" />
+<annotation id="29858" tag="Finding" start="1054" end="1060" text="corado" abbr="" />
+<annotation id="29859" tag="Finding" start="1062" end="1071" text="hidratado" abbr="" />
+<annotation id="29860" tag="Abbreviation|Clinical Attribute" start="1074" end="1078" text="FC79" abbr="" />
+<annotation id="29861" tag="Abbreviation|Clinical Attribute" start="1080" end="1082" text="PA" abbr="" />
+<annotation id="29862" tag="Quantitative Concept" start="1084" end="1090" text="130/80" abbr="" />
+<annotation id="29863" tag="Body Part, Organ, or Organ Component|Clinical Attribute|Abbreviation" start="1092" end="1094" text="CP" abbr="" />
+<annotation id="29864" tag="Negation" start="1096" end="1099" text="sem" abbr="" />
+<annotation id="29865" tag="Abbreviation|Clinical Attribute" start="1116" end="1118" text="AC" abbr="" />
+<annotation id="29866" tag="Negation" start="1126" end="1129" text="sem" abbr="" />
+<annotation id="29867" tag="Sign or Symptom" start="1130" end="1136" text="sopros" abbr="" />
+<annotation id="29868" tag="Clinical Attribute|Abbreviation" start="1138" end="1140" text="AP" abbr="" />
+<annotation id="29869" tag="Negation" start="1170" end="1173" text="sem" abbr="" />
+<annotation id="29870" tag="Sign or Symptom|Abbreviation" start="1174" end="1176" text="RA" abbr="ruídos adventícios" />
+<annotation id="29871" tag="Health Care Activity" start="1179" end="1187" text="mantenho" abbr="" />
+<annotation id="29872" tag="Therapeutic or Preventive Procedure|Pharmacologic Substance" start="1188" end="1198" text="medicações" abbr="" />
+<annotation id="29873" tag="Health Care Activity" start="1200" end="1209" text="encaminho" abbr="" />
+<annotation id="29874" tag="Health Care Activity" start="1233" end="1241" text="retirada" abbr="" />
+<annotation id="29875" tag="Therapeutic or Preventive Procedure" start="1242" end="1248" text="pontos" abbr="" />
+<annotation id="29876" tag="Health Care Activity" start="1266" end="1273" text="retorno" abbr="" />
+<annotation id="29877" tag="Professional or Occupational Group" start="1286" end="1292" text="cardio" abbr="" />
+<annotation id="29878" tag="Professional or Occupational Group" start="1293" end="1299" text="Doutor" abbr="" />
+<annotation id="29879" tag="Therapeutic or Preventive Procedure" start="16" end="35" text="Homoenxerto aortico" />
+<annotation id="29880" tag="Body Part, Organ, or Organ Component|Abbreviation" start="50" end="58" text="MIE - DA" />
+<annotation id="29881" tag="Abbreviation|Body Part, Organ, or Organ Component" start="60" end="68" text="RAD - CD" />
+<annotation id="29882" tag="Abbreviation|Body Part, Organ, or Organ Component" start="70" end="78" text="SAF - MG" />
+<annotation id="29883" tag="Quantitative Concept" start="138" end="144" text="100 mg" />
+<annotation id="29884" tag="Quantitative Concept" start="160" end="166" text="100 mg" />
+<annotation id="29885" tag="Quantitative Concept" start="185" end="190" text="20 mg" />
+<annotation id="29886" tag="Quantitative Concept" start="280" end="285" text="10 mg" />
+<annotation id="29887" tag="Antibiotic|Organic Chemical" start="323" end="345" text="Penicilina G benzatina" />
+<annotation id="29888" tag="Quantitative Concept" start="346" end="356" text="1 , 200 , 000U" />
+<annotation id="29889" tag="Temporal Concept" start="360" end="373" text="a cada 21 dia" />
+<annotation id="29890" tag="Medical Device" start="428" end="436" text="FIOS AÇO" />
+<annotation id="29891" tag="Abbreviation|Laboratory or Test Result" start="462" end="468" text="tg 221" />
+<annotation id="29892" tag="Abbreviation|Laboratory or Test Result" start="471" end="477" text="ct 166" />
+<annotation id="29893" tag="Abbreviation|Laboratory or Test Result" start="480" end="486" text="ldl 76" />
+<annotation id="29894" tag="Laboratory or Test Result" start="488" end="497" text="demais ok" />
+<annotation id="29895" tag="Abbreviation|Laboratory or Test Result" start="527" end="532" text="VD 22" />
+<annotation id="29896" tag="Laboratory or Test Result" start="535" end="543" text="Septo 11" />
+<annotation id="29897" tag="Abbreviation|Laboratory or Test Result" start="546" end="551" text="FE 66" />
+<annotation id="29898" tag="Laboratory or Test Result" start="553" end="602" text="Homoenxerto aortico com mobilidade ampla folhetps" />
+<annotation id="29899" tag="Abbreviation|Laboratory or Test Result" start="604" end="622" text="grad pressao 4mmHg" />
+<annotation id="29900" tag="Laboratory or Test Result" start="624" end="688" text="Regurgitacao grau leve a moderada com jato dirigido valva mitral" />
+<annotation id="29901" tag="Laboratory or Test Result" start="734" end="781" text="Homoenxerto em posição aórtica normofuncionante" />
+<annotation id="29902" tag="Laboratory or Test Result|Abbreviation" start="783" end="851" text="VE hipertrofiado com dimensões normais e fumção sistólica preservada" />
+<annotation id="29903" tag="Abbreviation|Laboratory or Test Result" start="853" end="896" text="ALteração do relaxamento do VE AE dilatado" />
+<annotation id="29904" tag="Laboratory or Test Result" start="898" end="933" text="Homoenxerto com mobilidade adequada" />
+<annotation id="29905" tag="Abbreviation|Laboratory or Test Result" start="935" end="942" text="FE : 66%" />
+<annotation id="29906" tag="Abbreviation|Laboratory or Test Result" start="962" end="969" text="Cr 0 , 91" />
+<annotation id="29907" tag="Abbreviation|Laboratory or Test Result" start="971" end="977" text="CT 174" />
+<annotation id="29908" tag="Abbreviation|Laboratory or Test Result" start="979" end="986" text="TGC 197" />
+<annotation id="29909" tag="Abbreviation|Laboratory or Test Result" start="988" end="994" text="HDL 44" />
+<annotation id="29910" tag="Abbreviation|Laboratory or Test Result" start="996" end="1001" text="K 4 , 8" />
+<annotation id="29911" tag="Abbreviation|Laboratory or Test Result" start="1003" end="1009" text="LDL 90" />
+<annotation id="29912" tag="Abbreviation|Laboratory or Test Result" start="1011" end="1019" text="Glic 107" />
+<annotation id="29913" tag="Sign or Symptom" start="1100" end="1114" text="estase jugular" />
+<annotation id="29914" tag="Abbreviation|Finding" start="1142" end="1168" text="MV presente bilateralmente" />
+<annotation id="29915" tag="Abbreviation|Professional or Occupational Group" start="1215" end="1227" text="cir cardiaca" />
+<annotation id="29916" tag="Temporal Concept" start="1274" end="1281" text="6 meses" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="29825" annotation2="29883" reltype="associated_with" />
+<rel annotation1="29827" annotation2="29884" reltype="associated_with" />
+<rel annotation1="29829" annotation2="29885" reltype="associated_with" />
+<rel annotation1="29829" annotation2="29830" reltype="associated_with" />
+<rel annotation1="29830" annotation2="29831" reltype="associated_with" />
+<rel annotation1="29832" annotation2="29833" reltype="associated_with" />
+<rel annotation1="29833" annotation2="29834" reltype="associated_with" />
+<rel annotation1="29835" annotation2="29836" reltype="associated_with" />
+<rel annotation1="29836" annotation2="29837" reltype="associated_with" />
+<rel annotation1="29838" annotation2="29839" reltype="associated_with" />
+<rel annotation1="29839" annotation2="29840" reltype="associated_with" />
+<rel annotation1="29841" annotation2="29886" reltype="associated_with" />
+<rel annotation1="29842" annotation2="29843" reltype="associated_with" />
+<rel annotation1="29850" annotation2="29891" reltype="associated_with" />
+<rel annotation1="29850" annotation2="29892" reltype="associated_with" />
+<rel annotation1="29850" annotation2="29893" reltype="associated_with" />
+<rel annotation1="29851" annotation2="29895" reltype="associated_with" />
+<rel annotation1="29851" annotation2="29896" reltype="associated_with" />
+<rel annotation1="29851" annotation2="29897" reltype="associated_with" />
+<rel annotation1="29851" annotation2="29898" reltype="associated_with" />
+<rel annotation1="29851" annotation2="29899" reltype="associated_with" />
+<rel annotation1="29851" annotation2="29900" reltype="associated_with" />
+<rel annotation1="29853" annotation2="29901" reltype="associated_with" />
+<rel annotation1="29853" annotation2="29902" reltype="associated_with" />
+<rel annotation1="29853" annotation2="29904" reltype="associated_with" />
+<rel annotation1="29853" annotation2="29905" reltype="associated_with" />
+<rel annotation1="29854" annotation2="29906" reltype="associated_with" />
+<rel annotation1="29854" annotation2="29907" reltype="associated_with" />
+<rel annotation1="29854" annotation2="29908" reltype="associated_with" />
+<rel annotation1="29854" annotation2="29909" reltype="associated_with" />
+<rel annotation1="29854" annotation2="29910" reltype="associated_with" />
+<rel annotation1="29854" annotation2="29911" reltype="associated_with" />
+<rel annotation1="29854" annotation2="29912" reltype="associated_with" />
+<rel annotation1="29861" annotation2="29862" reltype="associated_with" />
+<rel annotation1="29864" annotation2="29913" reltype="negation_of" />
+<rel annotation1="29869" annotation2="29870" reltype="negation_of" />
+<rel annotation1="29871" annotation2="29872" reltype="associated_with" />
+<rel annotation1="29873" annotation2="29915" reltype="associated_with" />
+<rel annotation1="29883" annotation2="29826" reltype="associated_with" />
+<rel annotation1="29884" annotation2="29828" reltype="associated_with" />
+<rel annotation1="29887" annotation2="29888" reltype="associated_with" />
+<rel annotation1="29888" annotation2="29845" reltype="associated_with" />
+<rel annotation1="29915" annotation2="29874" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

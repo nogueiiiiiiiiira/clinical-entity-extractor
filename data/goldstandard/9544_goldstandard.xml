@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 01/10/2015
+
+
+Lucas, 60 ANOS
+# IC ETIOLOGIA ISQUEMICA
+# IAM EM 27/08/2010
+# POT ATC C STENT
+# POT RVM 2011 MIE - DA / SF - DIAG
+# EM USO DE:
+- CARVEDILOL 25MG 12/12HS
+- ROSUVA 10 
+- VALSARTAN 320 
+- FURO 40
+- APRESOLINA 50MG 12/12HS 
+- ESPIRO 25 
+- AAS 100 
+- MONOC 20MG NOITE
+- MTF 850 3X
+- LEVOTIROX 50 
+- INDAPAMIDA 1,5
+S # RELATA DISPNEIA PARA MODERADOS ESFORÇOS. NEGA DOR PRECORDIAL, EDEMA DE MMII, ORTOPNEIA E DPN. 
+- CINTILO (06/10/14): HIPOPERFUSÃO PERSISTENTE ( FIBROSE ) DE GRANDE EXTENSÃO, NO SEGMENTO MEDIOAPICAL DA PAREDE ANTERIOR E ÁPICE DE VE, EM GRAU DISCRETO NA PAREDE ANTEROSSEPTAL. FE REPOUSO 49%
+- ECO 17/09/15: AE 42, VD 26, SE 10, PP 9, DD 55, DS 46, FE 34%, PSAP 49 MMHG. VE ACINESIA ANTERO-SEPTAL E ANTERIOR MEDIO-APICAL E APICAL.
+- LAB : 23/04/15: K 5,1, CR 1,03, T4 LIVRE 2,26 ( 1,74 )
+O # 
+PA 100/60, FC 72 SAT 98%
+CORADO, HIDRATADO, EUPNEICO
+BCRNF SS 2T
+MV+ SIM BILART SRA
+ABD SP
+MMII S EDEMA
+A # IC ISQUEMICA
+P # MANTENHO MEDICAÇÕES
+- SOLICITO NOVOS EXAMES LABORATORIAIS ( AVALIAR FUNÇÃO DA TIREOIDE - T4 ACIMA DO VALOR DE REFERENCIA E FUNÇÃO RENAL K 5,1)
+- DEMAIS MANTIDO
+- RETORNO EM 4 MESES
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="60~82" text="IC ETIOLOGIA ISQUEMICA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="85~88" text="IAM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="109~120" text="ATC C STENT" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="127~130" text="RVM" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="172~187" text="CARVEDILOL 25MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="198~207" text="ROSUVA 10" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="211~224" text="VALSARTAN 320" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="228~235" text="FURO 40" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="238~253" text="APRESOLINA 50MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="265~274" text="ESPIRO 25" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="278~285" text="AAS 100" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="289~299" text="MONOC 20MG" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="308~315" text="MTF 850" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="321~333" text="LEVOTIROX 50" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="337~351" text="INDAPAMIDA 1,5" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="356~362" text="RELATA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E16" spans="363~395" text="DISPNEIA PARA MODERADOS ESFORÇOS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="402~416" text="DOR PRECORDIAL" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="397~401" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E19" spans="418~431" text="EDEMA DE MMII" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="433~442" text="ORTOPNEIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="445~448" text="DPN" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="453~460" text="CINTILO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="473~628" text="HIPOPERFUSÃO PERSISTENTE ( FIBROSE ) DE GRANDE EXTENSÃO, NO SEGMENTO MEDIOAPICAL DA PAREDE ANTERIOR E ÁPICE DE VE, EM GRAU DISCRETO NA PAREDE ANTEROSSEPTAL" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="724~782" text="VE ACINESIA ANTERO-SEPTAL E ANTERIOR MEDIO-APICAL E APICAL" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="647~650" text="ECO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="786~789" text="LAB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="802~803" text="K" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="809~811" text="CR" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="818~826" text="T4 LIVRE" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="846~848" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E31" spans="857~859" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E32" spans="863~866" text="SAT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E33" spans="905~907" text="SS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E34" spans="926~929" text="SRA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E35" spans="944~949" text="EDEMA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E36" spans="954~966" text="IC ISQUEMICA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E37" spans="971~979" text="MANTENHO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E38" spans="980~990" text="MEDICAÇÕES" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E39" spans="1008~1028" text="EXAMES LABORATORIAIS" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E40" spans="1060~1091" text="T4 ACIMA DO VALOR DE REFERENCIA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E43" spans="1133~1140" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E44" spans="1107~1108" text="K" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E42" spans="1116~1130" text="DEMAIS MANTIDO" Pre_anotacao="Não" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="92~102" text="27/08/2010" Type="Date" Value="2010-08-27" Mod="NA" />
+<TIMEX3 id="T1" spans="131~135" text="2011" Type="Date" Value="2011" Mod="NA" />
+<TIMEX3 id="T2" spans="188~195" text="12/12HS" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T3" spans="254~261" text="12/12HS" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T4" spans="300~305" text="NOITE" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="316~318" text="3X" Type="Set" Value="P1D" Mod="NA" Freq="3X" Cps="NA" />
+<TIMEX3 id="T6" spans="462~470" text="06/10/14" Type="Date" Value="2014-10-06" Mod="NA" />
+<TIMEX3 id="T7" spans="651~659" text="17/09/15" Type="Date" Value="2015-09-17" Mod="NA" />
+<TIMEX3 id="T8" spans="792~800" text="23/04/15" Type="Date" Value="2015-04-23" Mod="NA" />
+<TIMEX3 id="T9" spans="1141~1151" text="EM 4 MESES" Type="Date" Value="2016-02-01" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="27/08/2010" toID="E1" toText="IAM" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="T1" fromText="2011" toID="E3" toText="RVM" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E4" fromText="CARVEDILOL 25MG" toID="T2" toText="12/12HS" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E8" fromText="APRESOLINA 50MG" toID="T3" toText="12/12HS" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E11" fromText="MONOC 20MG" toID="T4" toText="NOITE" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E12" fromText="MTF 850" toID="T5" toText="3X" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="T6" fromText="06/10/14" toID="E22" toText="CINTILO" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="E22" fromText="CINTILO" toID="E23" toText="HIPOPERFUSÃO PERSISTENTE ( FIBROSE ) DE GRANDE EXTENSÃO, NO SEGMENTO MEDIOAPICAL DA PAREDE ANTERIOR E ÁPICE DE VE, EM GRAU DISCRETO NA PAREDE ANTEROSSEPTAL" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="T7" fromText="17/09/15" toID="E25" toText="ECO" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E25" fromText="ECO" toID="E24" toText="VE ACINESIA ANTERO-SEPTAL E ANTERIOR MEDIO-APICAL E APICAL" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="T8" fromText="23/04/15" toID="E26" toText="LAB" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E26" fromText="LAB" toID="E27" toText="K" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="E26" fromText="LAB" toID="E28" toText="CR" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E26" fromText="LAB" toID="E29" toText="T4 LIVRE" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="E37" fromText="MANTENHO" toID="E38" toText="MEDICAÇÕES" Relação_Temporal="OVERLAP" />
+<RELATION id="R15" fromID="T9" fromText="EM 4 MESES" toID="E43" toText="RETORNO" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="E43" fromText="RETORNO" toID="E39" toText="EXAMES LABORATORIAIS" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

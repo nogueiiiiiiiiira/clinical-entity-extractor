@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 07/10/2013
+
+
+S # angioplastia, implante de marcapasso (pacte assintomatico, ecg de repouso com bav de 2 grau mobitz 2), cat em agosto desse ano. Permaneceu em UTI por 10 dias. DM, HAS, DAC (rvm há 4 anos), dislipidemia. Em uso de insulina nph, metformina, sinvastatina 40mg 2 cp, carvedilol 6,25mg, losartana 50mg 2 x dia, AAS 100mg, clopidogrel 75mg. Tabagista há mais de 40 anos. Hoje fuma 8 cigarros por dia. Antes 2 carteiras/dia. Nega queixas.  O # LAboratorial 07/08/2013: HB: 12,9; Hematocrito 37,5; glicemia: 144; microalbuminuria: 2030,7 mg.  Cintilografia de perfusao miocardica agosto/13: Sem evidencias de isquemia miocardica, fç do VE preservada com hipocinesia septal. DIlatação do VE, FE VE em repouso 61%, FE VE apos estresse 60%.  CAt agosto 2013: reestenose de stent 70% em cd, Oclusao total de stent em ramo diagonalis, *angioplastia de agosto 2013 de cornoaria direita com stent.  O # EF cardiaco e abdominal sp. Pulmonar: ? em base E, PA: 150/75 mmhg.  P # retorno em 6 meses com exames prescrito, anlodipino e enalapril para tto de microalbuminuria.]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="47~59" text="angioplastia" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E1" spans="73~83" text="marcapasso" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="106~120" text="ecg de repouso" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="125~147" text="bav de 2 grau mobitz 2" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="150~153" text="cat" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="189~192" text="UTI" Pre_anotacao="Sim" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="206~208" text="DM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="210~213" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="215~218" text="DAC" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="220~223" text="rvm" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="236~248" text="dislipidemia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="260~272" text="insulina nph" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="274~284" text="metformina" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E13" spans="286~303" text="sinvastatina 40mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="310~327" text="carvedilol 6,25mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="329~343" text="losartana 50mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="353~362" text="AAS 100mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="364~380" text="clopidogrel 75mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E18" spans="382~391" text="Tabagista" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E19" spans="465~469" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E20" spans="470~477" text="queixas" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="484~496" text="LAboratorial" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E22" spans="509~511" text="HB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E23" spans="519~530" text="Hematocrito" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E24" spans="537~545" text="glicemia" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="552~568" text="microalbuminuria" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="582~618" text="Cintilografia de perfusao miocardica" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="634~644" text="evidencias" Pre_anotacao="Não" Tipo="Evidência" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="648~667" text="isquemia miocardica" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="693~711" text="hipocinesia septal" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="713~728" text="DIlatação do VE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E31" spans="778~781" text="CAt" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E32" spans="795~824" text="reestenose de stent 70% em cd" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E33" spans="826~867" text="Oclusao total de stent em ramo diagonalis" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E34" spans="870~882" text="angioplastia" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E36" spans="986~988" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E37" spans="1008~1015" text="retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E38" spans="1031~1037" text="exames" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E39" spans="1049~1059" text="anlodipino" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E40" spans="1062~1071" text="enalapril" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E41" spans="1084~1100" text="microalbuminuria" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E42" spans="935~958" text="EF cardiaco e abdominal" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<TIMEX3 id="T0" spans="157~173" text="agosto desse ano" Type="Date" Value="2013-08" Mod="NA" />
+<TIMEX3 id="T1" spans="193~204" text="por 10 dias" Type="Duration" Value="P10D" Mod="NA" />
+<TIMEX3 id="T2" spans="224~233" text="há 4 anos" Type="Date" Value="2009-10-07" Mod="NA" />
+<TIMEX3 id="T3" spans="344~351" text="2 x dia" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T4" spans="392~410" text="há mais de 40 anos" Type="Duration" Value="P40Y" Mod="MORE" />
+<TIMEX3 id="T5" spans="412~416" text="Hoje" Type="Date" Value="2013-10-07" Mod="NA" />
+<TIMEX3 id="T6" spans="497~507" text="07/08/2013" Type="Date" Value="2013-08-07" Mod="NA" />
+<TIMEX3 id="T7" spans="619~628" text="agosto/13" Type="Date" Value="2013-08" Mod="NA" />
+<TIMEX3 id="T8" spans="782~793" text="agosto 2013" Type="Date" Value="2013-08" Mod="NA" />
+<TIMEX3 id="T9" spans="886~897" text="agosto 2013" Type="Date" Value="2013-08" Mod="NA" />
+<TIMEX3 id="T10" spans="1016~1026" text="em 6 meses" Type="Date" Value="2014-04-07" Mod="NA" />
+<RELATION id="R0" fromID="E2" fromText="ecg de repouso" toID="E3" toText="bav de 2 grau mobitz 2" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="T0" fromText="agosto desse ano" toID="E4" toText="cat" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E5" fromText="UTI" toID="T1" toText="por 10 dias" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="T2" fromText="há 4 anos" toID="E9" toText="rvm" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E15" fromText="losartana 50mg" toID="T3" toText="2 x dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="E18" fromText="Tabagista" toID="T4" toText="há mais de 40 anos" Relação_Temporal="OVERLAP" />
+<RELATION id="R8" fromID="T6" fromText="07/08/2013" toID="E21" toText="LAboratorial" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E21" fromText="LAboratorial" toID="E22" toText="HB" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="E21" fromText="LAboratorial" toID="E23" toText="Hematocrito" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E21" fromText="LAboratorial" toID="E24" toText="glicemia" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="E21" fromText="LAboratorial" toID="E25" toText="microalbuminuria" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="T7" fromText="agosto/13" toID="E26" toText="Cintilografia de perfusao miocardica" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="E27" fromText="evidencias" toID="E28" toText="isquemia miocardica" Relação_Temporal="OVERLAP" />
+<RELATION id="R15" fromID="E26" fromText="Cintilografia de perfusao miocardica" toID="E27" toText="evidencias" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="E26" fromText="Cintilografia de perfusao miocardica" toID="E29" toText="hipocinesia septal" Relação_Temporal="CONTAINS" />
+<RELATION id="R17" fromID="E26" fromText="Cintilografia de perfusao miocardica" toID="E30" toText="DIlatação do VE" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="T8" fromText="agosto 2013" toID="E31" toText="CAt" Relação_Temporal="CONTAINS" />
+<RELATION id="R19" fromID="E31" fromText="CAt" toID="E32" toText="reestenose de stent 70% em cd" Relação_Temporal="CONTAINS" />
+<RELATION id="R20" fromID="E31" fromText="CAt" toID="E33" toText="Oclusao total de stent em ramo diagonalis" Relação_Temporal="CONTAINS" />
+<RELATION id="R21" fromID="T9" fromText="agosto 2013" toID="E34" toText="angioplastia" Relação_Temporal="CONTAINS" />
+<RELATION id="R22" fromID="T10" fromText="em 6 meses" toID="E37" toText="retorno" Relação_Temporal="CONTAINS" />
+<RELATION id="R23" fromID="E37" fromText="retorno" toID="E38" toText="exames" Relação_Temporal="CONTAINS" />
+<RELATION id="R24" fromID="E26" fromText="Cintilografia de perfusao miocardica" toID="E28" toText="isquemia miocardica" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

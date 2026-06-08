@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>AMBULATORIO DO TAP
+- PACIENTE NÃO ESTAVA PRESENTE NA CONSULTA, APENAS FAMILIAR
+- POSOLOGIA E RETORNO NA CARTEIRINHA
+- RNI 6,0, SEM SINAIS DE SANGRAMENTO - EM USO DE ATB
+- ORIENTADO SUSPENDER MEDICAÇÃO E RETORNO NO DIA 13/06/14
+- ORIENTADO LEVAR PACIENTE AO CMUM OU NA UDT DA SANTA CASA, CASO HAJA ALGUM TIPO DE SANGRAMENTO
+R3 CARDIO 
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="28567" tag="Patient or Disabled Group" start="22" end="30" text="PACIENTE" abbr="" />
+<annotation id="28568" tag="Negation" start="31" end="34" text="NÃO" abbr="" />
+<annotation id="28569" tag="Finding" start="42" end="50" text="PRESENTE" abbr="" />
+<annotation id="28570" tag="Health Care Activity" start="54" end="62" text="CONSULTA" abbr="" />
+<annotation id="28571" tag="Family Group" start="71" end="79" text="FAMILIAR" abbr="" />
+<annotation id="28572" tag="Negation" start="130" end="133" text="SEM" abbr="" />
+<annotation id="28573" tag="Antibiotic|Abbreviation" start="168" end="171" text="ATB" abbr="Antibiótico" />
+<annotation id="28574" tag="Health Care Activity" start="175" end="184" text="ORIENTADO" abbr="" />
+<annotation id="28575" tag="Health Care Activity" start="185" end="194" text="SUSPENDER" abbr="" />
+<annotation id="28576" tag="Therapeutic or Preventive Procedure|Pharmacologic Substance" start="195" end="204" text="MEDICAÇÃO" abbr="" />
+<annotation id="28577" tag="Health Care Activity" start="234" end="243" text="ORIENTADO" abbr="" />
+<annotation id="28578" tag="Patient or Disabled Group" start="250" end="258" text="PACIENTE" abbr="" />
+<annotation id="28579" tag="Abbreviation" start="262" end="266" text="CMUM" abbr="" />
+<annotation id="28580" tag="Health Care Related Organization|Abbreviation" start="273" end="276" text="UDT" abbr="unidade de dor torácica" />
+<annotation id="28581" tag="Sign or Symptom" start="316" end="327" text="SANGRAMENTO" abbr="" />
+<annotation id="28582" tag="Abbreviation" start="332" end="338" text="CARDIO" abbr="" />
+<annotation id="28583" tag="Abbreviation|Health Care Related Organization" start="0" end="18" text="AMBULATORIO DO TAP" />
+<annotation id="28584" tag="Health Care Activity" start="95" end="117" text="RETORNO NA CARTEIRINHA" />
+<annotation id="28585" tag="Laboratory or Test Result" start="121" end="128" text="RNI 6 , 0" />
+<annotation id="28586" tag="Sign or Symptom" start="134" end="155" text="SINAIS DE SANGRAMENTO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28567" annotation2="28570" reltype="associated_with" />
+<rel annotation1="28568" annotation2="28570" reltype="negation_of" />
+<rel annotation1="28568" annotation2="28569" reltype="negation_of" />
+<rel annotation1="28569" annotation2="28570" reltype="associated_with" />
+<rel annotation1="28572" annotation2="28586" reltype="negation_of" />
+<rel annotation1="28574" annotation2="28575" reltype="associated_with" />
+<rel annotation1="28575" annotation2="28576" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

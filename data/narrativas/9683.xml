@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># DM / DLP / hipotireoidismo / FAC.
+
+Paciente refere tontura, mal estar e cansaço durante os dias de calor. Nega síncope, palpitações e dispnéia. 
+Trouxe Eco com AE aumentado, FE 49%, IM e IT leves.
+
+Ao exame: Bom estado geral, corada, hidratada, eupnéica.
+PA 100/70, FC 72.
+RCI sem sopros.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="33967" tag="Abbreviation|Disease or Syndrome" start="2" end="4" text="DM" abbr="" />
+<annotation id="33968" tag="Abbreviation|Disease or Syndrome" start="7" end="10" text="DLP" abbr="" />
+<annotation id="33969" tag="Disease or Syndrome" start="13" end="28" text="hipotireoidismo" abbr="" />
+<annotation id="33970" tag="Abbreviation" start="31" end="34" text="FAC" abbr="" />
+<annotation id="33971" tag="Patient or Disabled Group" start="39" end="47" text="Paciente" abbr="" />
+<annotation id="33972" tag="Sign or Symptom" start="55" end="62" text="tontura" abbr="" />
+<annotation id="33973" tag="Negation" start="110" end="114" text="Nega" abbr="" />
+<annotation id="33974" tag="Sign or Symptom" start="115" end="122" text="síncope" abbr="" />
+<annotation id="33975" tag="Sign or Symptom" start="124" end="135" text="palpitações" abbr="" />
+<annotation id="33976" tag="Sign or Symptom" start="138" end="146" text="dispnéia" abbr="" />
+<annotation id="33977" tag="Abbreviation|Diagnostic Procedure" start="157" end="160" text="Eco" abbr="" />
+<annotation id="33978" tag="Laboratory or Test Result|Abbreviation" start="187" end="189" text="IM" abbr="insuficiência mitral" />
+<annotation id="33979" tag="Laboratory or Test Result|Abbreviation" start="192" end="194" text="IT" abbr="insuficiência tricúspide" />
+<annotation id="33980" tag="Qualitative Concept" start="195" end="200" text="leves" abbr="" />
+<annotation id="33981" tag="Diagnostic Procedure" start="208" end="213" text="exame" abbr="" />
+<annotation id="33982" tag="Finding" start="233" end="239" text="corada" abbr="" />
+<annotation id="33983" tag="Finding" start="241" end="250" text="hidratada" abbr="" />
+<annotation id="33984" tag="Finding" start="252" end="260" text="eupnéica" abbr="" />
+<annotation id="33985" tag="Abbreviation|Clinical Attribute" start="263" end="265" text="PA" abbr="" />
+<annotation id="33986" tag="Quantitative Concept" start="266" end="272" text="100/70" abbr="" />
+<annotation id="33987" tag="Clinical Attribute|Abbreviation" start="274" end="276" text="FC" abbr="frequência cardíaca" />
+<annotation id="33988" tag="Quantitative Concept" start="277" end="279" text="72" abbr="" />
+<annotation id="33989" tag="Abbreviation" start="282" end="285" text="RCI" abbr="" />
+<annotation id="33990" tag="Negation" start="286" end="289" text="sem" abbr="" />
+<annotation id="33991" tag="Sign or Symptom" start="290" end="296" text="sopros" abbr="" />
+<annotation id="33992" tag="Sign or Symptom" start="64" end="73" text="mal estar" />
+<annotation id="33993" tag="Temporal Concept|Sign or Symptom" start="76" end="108" text="cansaço durante os dias de calor" />
+<annotation id="33994" tag="Abbreviation|Laboratory or Test Result" start="165" end="177" text="AE aumentado" />
+<annotation id="33995" tag="Abbreviation|Laboratory or Test Result" start="179" end="185" text="FE 49%" />
+<annotation id="33996" tag="Finding" start="215" end="231" text="Bom estado geral" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33971" annotation2="33972" reltype="associated_with" />
+<rel annotation1="33971" annotation2="33992" reltype="associated_with" />
+<rel annotation1="33973" annotation2="33974" reltype="negation_of" />
+<rel annotation1="33973" annotation2="33975" reltype="negation_of" />
+<rel annotation1="33973" annotation2="33976" reltype="negation_of" />
+<rel annotation1="33977" annotation2="33994" reltype="associated_with" />
+<rel annotation1="33977" annotation2="33995" reltype="associated_with" />
+<rel annotation1="33977" annotation2="33978" reltype="associated_with" />
+<rel annotation1="33977" annotation2="33979" reltype="associated_with" />
+<rel annotation1="33980" annotation2="33978" reltype="associated_with" />
+<rel annotation1="33980" annotation2="33979" reltype="associated_with" />
+<rel annotation1="33981" annotation2="33996" reltype="associated_with" />
+<rel annotation1="33981" annotation2="33982" reltype="associated_with" />
+<rel annotation1="33981" annotation2="33983" reltype="associated_with" />
+<rel annotation1="33981" annotation2="33984" reltype="associated_with" />
+<rel annotation1="33985" annotation2="33986" reltype="associated_with" />
+<rel annotation1="33987" annotation2="33988" reltype="associated_with" />
+<rel annotation1="33989" annotation2="33991" reltype="associated_with" />
+<rel annotation1="33990" annotation2="33991" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

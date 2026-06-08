@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 60 ANOS
+# HAS
+# DSLP
+# MIOCARDIOPATIA ISQUEMICA
+# 06/2013: IAMCSST - KILLIP I =&gt; ATC DA COM STENT COM SUCESSO
+# EX-TABAGISTA: 45MAÇOS/ANO PAROU QUANDO INFARTOU
+# EM USO DE: AAS 100MG, ENALAPRIL 10MG 12/12H; BRILINTA 90MG 12/12H; SELOZOK 150MG; SINVASTATINA 40MG / D; ESPIRONOLACTONA 25MG / D
+# ECOCARDIO 24/10/13: AE 44 // VD 25 // SEPTO 10 // VE 64 // FE 40% *
+VE AUMENTADO EM GRAU DISCRETO, PADRÃO DE HIPERTROFIA EXCENTRICA, DISFUNÇÃO SISTOLICA MODERADA. CONTRAÇÃO SEGMENTAR DO VE
+ALTERADA. DISFUNÇÃO DIASTÓLICA GRAU II DO VE - RESTRITIVO.AE AUMENTADO EM GRAU DISCRETO. INSUFICIENCIA MITRAL DISCRETA
+S # DISPNEIA EM REPOUSO, PRINCIPALMENTE AO DEITAR. DORME COM 2 TRAVESSEIROS, REFERE DISPNEIA PAROXISTICA.
+DOR TORACICA CONTINUA DIARIAMENTE, TIPO FISGADA,DURAÇAO DE ATÉ UM MINUTO. SEM IRRADIAÇAO. SEM RELAÇAO COM ESFORÇO FISICO OU REPOUSO. 
+NAO CONSEGIU REALIZAR NOVO ECOCARDIO POR FALTA DE VAGA.
+AO EXAME:
+BEG, LOTE
+PA 140X80 MMHG   FC 65
+AP MVB+, DIFUSAMENTE DIMINUIDO, S RA
+AC BCRNF SS
+MMII SP
+EX LAB:
+HBA1C 5,1%  K 5,3
+A #  DAC  IC ETIOLOGIA  ISQUEMICA
+P # SUSPENDO BRILINTA CARVEDILOL 25MG  E SUSPENDO SELOZOK
+PRESCREVO FUROSEMIDA 
+AGUARDA ECOCARDIO
+R2 CM Doutor Vital Brazil </TEXT>
+<TAGS>
+<annotation id="30814" tag="Abbreviation|Disease or Syndrome" start="18" end="21" text="HAS" abbr="" />
+<annotation id="30815" tag="Abbreviation|Disease or Syndrome" start="25" end="29" text="DSLP" abbr="" />
+<annotation id="30816" tag="Abbreviation|Disease or Syndrome" start="70" end="77" text="IAMCSST" abbr="" />
+<annotation id="30817" tag="Finding" start="124" end="136" text="EX-TABAGISTA" abbr="" />
+<annotation id="30818" tag="Quantitative Concept" start="138" end="149" text="45MAÇOS/ANO" abbr="" />
+<annotation id="30819" tag="Pharmacologic Substance|Organic Chemical|Abbreviation|Pharmacologic Substance" start="186" end="189" text="AAS" abbr="" />
+<annotation id="30820" tag="Quantitative Concept" start="190" end="195" text="100MG" abbr="" />
+<annotation id="30821" tag="Organic Chemical|Pharmacologic Substance|Amino Acid, Peptide, or Protein" start="197" end="206" text="ENALAPRIL" abbr="" />
+<annotation id="30822" tag="Abbreviation" start="212" end="218" text="12/12H" abbr="" />
+<annotation id="30823" tag="Nucleic Acid, Nucleoside, or Nucleotide|Organic Chemical|Pharmacologic Substance" start="220" end="228" text="BRILINTA" abbr="" />
+<annotation id="30824" tag="Quantitative Concept" start="229" end="233" text="90MG" abbr="" />
+<annotation id="30825" tag="Quantitative Concept|Abbreviation" start="234" end="240" text="12/12H" abbr="" />
+<annotation id="30826" tag="Pharmacologic Substance|Organic Chemical" start="242" end="249" text="SELOZOK" abbr="" />
+<annotation id="30827" tag="Quantitative Concept" start="250" end="255" text="150MG" abbr="" />
+<annotation id="30828" tag="Organic Chemical|Pharmacologic Substance" start="257" end="269" text="SINVASTATINA" abbr="" />
+<annotation id="30829" tag="Quantitative Concept" start="270" end="274" text="40MG" abbr="" />
+<annotation id="30830" tag="Temporal Concept|Abbreviation" start="277" end="278" text="D" abbr="" />
+<annotation id="30831" tag="Pharmacologic Substance|Organic Chemical" start="280" end="295" text="ESPIRONOLACTONA" abbr="" />
+<annotation id="30832" tag="Quantitative Concept" start="296" end="300" text="25MG" abbr="" />
+<annotation id="30833" tag="Temporal Concept|Abbreviation" start="303" end="304" text="D" abbr="" />
+<annotation id="30834" tag="Abbreviation|Diagnostic Procedure" start="308" end="317" text="ECOCARDIO" abbr="" />
+<annotation id="30835" tag="Temporal Concept" start="748" end="759" text="DIARIAMENTE" abbr="" />
+<annotation id="30836" tag="Negation" start="800" end="803" text="SEM" abbr="" />
+<annotation id="30837" tag="Natural Phenomenon or Process|Sign or Symptom" start="804" end="814" text="IRRADIAÇAO" abbr="" />
+<annotation id="30838" tag="Negation" start="816" end="819" text="SEM" abbr="" />
+<annotation id="30839" tag="Qualitative Concept" start="820" end="827" text="RELAÇAO" abbr="" />
+<annotation id="30840" tag="Daily or Recreational Activity" start="850" end="857" text="REPOUSO" abbr="" />
+<annotation id="30841" tag="Negation" start="861" end="864" text="NAO" abbr="" />
+<annotation id="30842" tag="Abbreviation|Diagnostic Procedure" start="888" end="897" text="ECOCARDIO" abbr="" />
+<annotation id="30843" tag="Abbreviation|Finding" start="929" end="932" text="BEG" abbr="" />
+<annotation id="30844" tag="Abbreviation|Finding" start="934" end="938" text="LOTE" abbr="" />
+<annotation id="30845" tag="Clinical Attribute|Abbreviation" start="940" end="942" text="PA" abbr="pressão arterial" />
+<annotation id="30846" tag="Abbreviation|Clinical Attribute" start="957" end="959" text="FC" abbr="" />
+<annotation id="30847" tag="Quantitative Concept" start="960" end="962" text="65" abbr="" />
+<annotation id="30848" tag="Abbreviation|Clinical Attribute" start="964" end="966" text="AP" abbr="" />
+<annotation id="30849" tag="Abbreviation|Finding" start="967" end="971" text="MVB+" abbr="" />
+<annotation id="30850" tag="Abbreviation|Negation" start="996" end="997" text="S" abbr="" />
+<annotation id="30851" tag="Abbreviation|Sign or Symptom" start="998" end="1000" text="RA" abbr="" />
+<annotation id="30852" tag="Clinical Attribute|Abbreviation" start="1002" end="1004" text="AC" abbr="" />
+<annotation id="30853" tag="Abbreviation|Finding|Finding|Abbreviation" start="1005" end="1010" text="BCRNF" abbr="bulhas cardíacas rítmicas e normofonéticas" />
+<annotation id="30854" tag="Sign or Symptom|Abbreviation|Negation" start="1011" end="1013" text="SS" abbr="" />
+<annotation id="30855" tag="Abbreviation|Abbreviation|Body Part, Organ, or Organ Component|Body Location or Region" start="1015" end="1019" text="MMII" abbr="" />
+<annotation id="30856" tag="Finding|Abbreviation" start="1020" end="1022" text="SP" abbr="sem particularidades" />
+<annotation id="30857" tag="Disease or Syndrome|Abbreviation" start="1057" end="1060" text="DAC" abbr="doença arterial coronariana" />
+<annotation id="30858" tag="Health Care Activity" start="1091" end="1099" text="SUSPENDO" abbr="" />
+<annotation id="30859" tag="Pharmacologic Substance|Nucleic Acid, Nucleoside, or Nucleotide|Organic Chemical" start="1100" end="1108" text="BRILINTA" abbr="" />
+<annotation id="30860" tag="Pharmacologic Substance|Organic Chemical" start="1109" end="1119" text="CARVEDILOL" abbr="" />
+<annotation id="30861" tag="Quantitative Concept" start="1120" end="1124" text="25MG" abbr="" />
+<annotation id="30862" tag="Health Care Activity" start="1128" end="1136" text="SUSPENDO" abbr="" />
+<annotation id="30863" tag="Organic Chemical|Pharmacologic Substance" start="1137" end="1144" text="SELOZOK" abbr="" />
+<annotation id="30864" tag="Health Care Activity" start="1146" end="1155" text="PRESCREVO" abbr="" />
+<annotation id="30865" tag="Organic Chemical|Pharmacologic Substance" start="1156" end="1166" text="FUROSEMIDA" abbr="" />
+<annotation id="30866" tag="Abbreviation|Diagnostic Procedure" start="1177" end="1186" text="ECOCARDIO" abbr="" />
+<annotation id="30867" tag="Abbreviation|Professional or Occupational Group" start="1188" end="1190" text="R2" abbr="" />
+<annotation id="30868" tag="Disease or Syndrome" start="33" end="57" text="MIOCARDIOPATIA ISQUEMICA" />
+<annotation id="30869" tag="Classification" start="80" end="88" text="KILLIP I" />
+<annotation id="30870" tag="Abbreviation|Therapeutic or Preventive Procedure" start="92" end="108" text="ATC DA COM STENT" />
+<annotation id="30871" tag="Finding" start="150" end="171" text="PAROU QUANDO INFARTOU" />
+<annotation id="30872" tag="Abbreviation|Laboratory or Test Result" start="328" end="333" text="AE 44" />
+<annotation id="30873" tag="Abbreviation|Laboratory or Test Result" start="337" end="342" text="VD 25" />
+<annotation id="30874" tag="Laboratory or Test Result" start="346" end="354" text="SEPTO 10" />
+<annotation id="30875" tag="Abbreviation|Laboratory or Test Result" start="358" end="363" text="VE 64" />
+<annotation id="30876" tag="Laboratory or Test Result|Abbreviation" start="367" end="373" text="FE 40%" />
+<annotation id="30877" tag="Abbreviation|Laboratory or Test Result" start="377" end="406" text="VE AUMENTADO EM GRAU DISCRETO" />
+<annotation id="30878" tag="Laboratory or Test Result" start="408" end="440" text="PADRÃO DE HIPERTROFIA EXCENTRICA" />
+<annotation id="30879" tag="Laboratory or Test Result" start="442" end="470" text="DISFUNÇÃO SISTOLICA MODERADA" />
+<annotation id="30880" tag="Abbreviation|Laboratory or Test Result" start="472" end="507" text="CONTRAÇÃO SEGMENTAR DO VE ALTERADA" />
+<annotation id="30881" tag="Abbreviation|Laboratory or Test Result" start="509" end="556" text="DISFUNÇÃO DIASTÓLICA GRAU II DO VE - RESTRITIVO" />
+<annotation id="30882" tag="Abbreviation|Laboratory or Test Result" start="557" end="586" text="AE AUMENTADO EM GRAU DISCRETO" />
+<annotation id="30883" tag="Disease or Syndrome|Laboratory or Test Result" start="588" end="617" text="INSUFICIENCIA MITRAL DISCRETA" />
+<annotation id="30884" tag="Sign or Symptom" start="623" end="642" text="DISPNEIA EM REPOUSO" />
+<annotation id="30885" tag="Qualitative Concept" start="644" end="668" text="PRINCIPALMENTE AO DEITAR" />
+<annotation id="30886" tag="Finding" start="670" end="694" text="DORME COM 2 TRAVESSEIROS" />
+<annotation id="30887" tag="Disease or Syndrome|Sign or Symptom" start="703" end="723" text="DISPNEIA PAROXISTICA" />
+<annotation id="30888" tag="Sign or Symptom" start="726" end="747" text="DOR TORACICA CONTINUA" />
+<annotation id="30889" tag="Qualitative Concept" start="761" end="773" text="TIPO FISGADA" />
+<annotation id="30890" tag="Temporal Concept" start="774" end="798" text="DURAÇAO DE ATÉ UM MINUTO" />
+<annotation id="30891" tag="Quantitative Concept" start="943" end="954" text="140X80 MMHG" />
+<annotation id="30892" tag="Sign or Symptom" start="973" end="994" text="DIFUSAMENTE DIMINUIDO" />
+<annotation id="30893" tag="Abbreviation|Laboratory Procedure" start="1024" end="1030" text="EX LAB" />
+<annotation id="30894" tag="Abbreviation|Laboratory or Test Result" start="1033" end="1043" text="HBA1C 5 , 1%" />
+<annotation id="30895" tag="Abbreviation|Laboratory or Test Result" start="1045" end="1050" text="K 5 , 3" />
+<annotation id="30896" tag="Abbreviation|Disease or Syndrome" start="1062" end="1085" text="IC ETIOLOGIA ISQUEMICA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="30816" annotation2="30869" reltype="associated_with" />
+<rel annotation1="30817" annotation2="30818" reltype="associated_with" />
+<rel annotation1="30819" annotation2="30820" reltype="associated_with" />
+<rel annotation1="30823" annotation2="30824" reltype="associated_with" />
+<rel annotation1="30826" annotation2="30827" reltype="associated_with" />
+<rel annotation1="30828" annotation2="30829" reltype="associated_with" />
+<rel annotation1="30829" annotation2="30830" reltype="associated_with" />
+<rel annotation1="30831" annotation2="30832" reltype="associated_with" />
+<rel annotation1="30832" annotation2="30833" reltype="associated_with" />
+<rel annotation1="30834" annotation2="30872" reltype="associated_with" />
+<rel annotation1="30834" annotation2="30873" reltype="associated_with" />
+<rel annotation1="30834" annotation2="30874" reltype="associated_with" />
+<rel annotation1="30834" annotation2="30875" reltype="associated_with" />
+<rel annotation1="30834" annotation2="30876" reltype="associated_with" />
+<rel annotation1="30834" annotation2="30877" reltype="associated_with" />
+<rel annotation1="30834" annotation2="30878" reltype="associated_with" />
+<rel annotation1="30834" annotation2="30879" reltype="associated_with" />
+<rel annotation1="30836" annotation2="30837" reltype="negation_of" />
+<rel annotation1="30845" annotation2="30891" reltype="associated_with" />
+<rel annotation1="30846" annotation2="30847" reltype="associated_with" />
+<rel annotation1="30850" annotation2="30851" reltype="negation_of" />
+<rel annotation1="30860" annotation2="30861" reltype="associated_with" />
+<rel annotation1="30864" annotation2="30865" reltype="associated_with" />
+<rel annotation1="30888" annotation2="30835" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

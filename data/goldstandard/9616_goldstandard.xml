@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 26/11/2013
+
+
+Lucas, 51 ANOS
+S # VEM PARA ACOMPANHAMENTO
+ECO 15/10/13  AE 55 FE 53% VALVA MITRAL COM IMAGEM SUGESTIVA DE VEGETAÇÃO E COM REGURGITAÇÃO MODERADA A ACENTUADA, HIPOCINESIA DIFUSA DO VE CATE  CIR CORONARIA SEM LESOES E COM IRREGULARIDADES PARIETAIS, VE COM HIPOCINESIA DIFUSA , INSUF MITRAL SEVERA
+P3 SOL ECO ETE URGENTE
+RETORNO COM EXAMES
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="71~85" text="ACOMPANHAMENTO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E1" spans="86~89" text="ECO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="166~199" text="REGURGITAÇÃO MODERADA A ACENTUADA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="201~225" text="HIPOCINESIA DIFUSA DO VE" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="226~230" text="CATE" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="250~256" text="LESOES" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="263~288" text="IRREGULARIDADES PARIETAIS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E9" spans="290~315" text="VE COM HIPOCINESIA DIFUSA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="318~337" text="INSUF MITRAL SEVERA" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="361~368" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E13" spans="373~379" text="EXAMES" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E14" spans="345~352" text="ECO ETE" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E2" spans="150~159" text="VEGETAÇÃO" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="90~98" text="15/10/13" Type="Date" Value="2013-10-15" Mod="NA" />
+<RELATION id="R0" fromID="T0" fromText="15/10/13" toID="E1" toText="ECO" Relação_Temporal="CONTAINS" />
+<RELATION id="R1" fromID="E1" fromText="ECO" toID="E5" toText="HIPOCINESIA DIFUSA DO VE" Relação_Temporal="CONTAINS" />
+<RELATION id="R2" fromID="E1" fromText="ECO" toID="E3" toText="REGURGITAÇÃO MODERADA A ACENTUADA" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E1" fromText="ECO" toID="E2" toText="VEGETAÇÃO" Relação_Temporal="CONTAINS" />
+<RELATION id="R4" fromID="E6" fromText="CATE" toID="E9" toText="VE COM HIPOCINESIA DIFUSA" Relação_Temporal="CONTAINS" />
+<RELATION id="R5" fromID="E6" fromText="CATE" toID="E8" toText="IRREGULARIDADES PARIETAIS" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E6" fromText="CATE" toID="E7" toText="LESOES" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="T0" fromText="15/10/13" toID="E6" toText="CATE" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E6" fromText="CATE" toID="E10" toText="INSUF MITRAL SEVERA" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E13" fromText="EXAMES" toID="E14" toText="ECO ETE" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="E12" fromText="RETORNO" toID="E13" toText="EXAMES" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

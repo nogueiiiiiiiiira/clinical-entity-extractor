@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 01/10/2014
+
+
+Cx bariatrica 2x ( ultima ha 1,5a ).Valva aortica bicúspide com gra no cate de 38 mmHg..Uso: Enalapril 10 - 12/12h; Monocordil ?mg - 2xd ; FSM - 1/2cp ao dia; Espironolactona 25 - 1xd; Apresolina 25 - 12/12h; Carvedilol 12.5 - 12/12h.
+Dispnéia de longa data, progressiva,aos moderados esforços. Ardencia retoresternal aos grandes esforços vespertino
+BEG, eupneico, acianotico, anictrico, PA (sentado): 130x90mmHg, P = 68 spm, FR = 12 rpm. MV normodist sem ruidoa adv. RCR, 2T, BNFss++ / 6+ FAO e Ao ac. 
+Cate (18/09/2014): sem coronariopatia obstrutiva, VE disfunção de grau moderado, estenose aortica grau moderado.
+CD; mantida e retorno amanha com Doutor Vital Brazil e vamos discutir a situação.
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E1" spans="79~102" text="Valva aortica bicúspide" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="114~118" text="cate" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="136~148" text="Enalapril 10" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E4" spans="159~169" text="Monocordil" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E5" spans="182~185" text="FSM" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E6" spans="202~220" text="Espironolactona 25" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E7" spans="228~241" text="Apresolina 25" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E8" spans="252~267" text="Carvedilol 12.5" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E9" spans="278~286" text="Dispnéia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="338~381" text="Ardencia retoresternal aos grandes esforços" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="457~458" text="P" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E13" spans="469~471" text="FR" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E14" spans="499~509" text="ruidoa adv" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E15" spans="520~544" text="BNFss++ / 6+ FAO e Ao ac" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E16" spans="547~551" text="Cate" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E17" spans="570~595" text="coronariopatia obstrutiva" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E18" spans="597~626" text="VE disfunção de grau moderado" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="628~658" text="estenose aortica grau moderado" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E20" spans="664~671" text="mantida" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E21" spans="674~681" text="retorno" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E22" spans="431~443" text="PA (sentado)" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E11" spans="43~59" text="Cx bariatrica 2x" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<TIMEX3 id="T0" spans="69~76" text="ha 1,5a" Type="Date" Value="2013-04-01" Mod="NA" />
+<TIMEX3 id="T1" spans="151~157" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T2" spans="176~179" text="2xd" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T3" spans="188~200" text="1/2cp ao dia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="0.5" />
+<TIMEX3 id="T4" spans="223~226" text="1xd" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="244~250" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T6" spans="270~276" text="12/12h" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T7" spans="382~392" text="vespertino" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T8" spans="553~563" text="18/09/2014" Type="Date" Value="2014-09-18" Mod="NA" />
+<TIMEX3 id="T9" spans="682~688" text="amanha" Type="Date" Value="2014-10-02" Mod="NA" />
+<RELATION id="R0" fromID="E3" fromText="Enalapril 10" toID="T1" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R1" fromID="E4" fromText="Monocordil" toID="T2" toText="2xd" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E5" fromText="FSM" toID="T3" toText="1/2cp ao dia" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E6" fromText="Espironolactona 25" toID="T4" toText="1xd" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E7" fromText="Apresolina 25" toID="T5" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E8" fromText="Carvedilol 12.5" toID="T6" toText="12/12h" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="E10" fromText="Ardencia retoresternal aos grandes esforços" toID="T7" toText="vespertino" Relação_Temporal="OVERLAP" />
+<RELATION id="R7" fromID="T8" fromText="18/09/2014" toID="E16" toText="Cate" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E16" fromText="Cate" toID="E17" toText="coronariopatia obstrutiva" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E16" fromText="Cate" toID="E18" toText="VE disfunção de grau moderado" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="E16" fromText="Cate" toID="E19" toText="estenose aortica grau moderado" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="T9" fromText="amanha" toID="E21" toText="retorno" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 04/12/2014
+
+
+# Lucas, 55 ANOS
+# NATURAL DE ALAGOAS, RESIDENTE EM CURITIBA.
+# DÇ DE CHAGAS
+# BAVT
+# MARCA-PASSO DUPLACAMARA EM DDD 50-60 DESDE 2007
+# PACIENTE ENCAMINHADO DO AMBULATÓRIO DE ARRITMIAS.
+PACIENTE NEGA DISPNEIA, NEGA ORTOPNEIA, NEGA DPN.
+SEM OUTRAS QUEIXAS
+# NEGA HX DE HAS, DM, DISLIPIDEMIA E TIREOIDOPATIAS.
+# MÃE FALECIDA POR CARDIOPATIA ( IAM ?), 65 ANOS.
+# CX DE APENDICITE E HERNIAS PARAMEDIANAS HÁ > 20 ANOS
+# EM USO DE:
+METOPROLOL 50MG 12/12HS
+ENALAPRIL 10 MG 12/12HS
+ESPIRONO 25
+SVT 20
+EXAMES LAB 11/11: CREAT 1; UR 58; GLI 71; TG 88; HDL 52; CT 160; LDL 90; Na 140; K 5,2; Hb 14,8/ Ht 46,6/LEUC 5150
+EF # BEG, LOTE, CORADO E HIDRATADO.
+PA: 90/60MMHG; P: 72
+AUSENCIA DE TURGÊNCIA JUGULAR
+ICTUS PALPÁVEL EM 7º EIC EM LINHA HEMIAXILAR E
+BCRNF 2T SS
+AUSCULTA PULMONAR SEM ALTERAÇÕES.
+ABDOME INOCENTE.
+SEM EDEMA EM MMII. PULSOS + BL, SIMÉTRICOS.
+A: DÇA CHAGAS
+P: MANTENHO MEDICAÇÕES
+SOLICITO ECOCARDIO
+RETORNO EM 3 MESES
+ 
+ 
+ 
+ ]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="107~119" text="DÇ DE CHAGAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E1" spans="122~126" text="BAVT" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E2" spans="129~152" text="MARCA-PASSO DUPLACAMARA" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E3" spans="188~199" text="ENCAMINHADO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E5" spans="203~227" text="AMBULATÓRIO DE ARRITMIAS" Pre_anotacao="Não" Tipo="Departamento Clínico" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="238~242" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E7" spans="243~251" text="DISPNEIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="253~257" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E9" spans="258~267" text="ORTOPNEIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E10" spans="269~273" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E11" spans="274~277" text="DPN" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E12" spans="283~297" text="OUTRAS QUEIXAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E13" spans="300~304" text="NEGA" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E14" spans="311~314" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="316~318" text="DM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="320~332" text="DISLIPIDEMIA" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="335~349" text="TIREOIDOPATIAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E18" spans="403~442" text="CX DE APENDICITE E HERNIAS PARAMEDIANAS" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E19" spans="469~484" text="METOPROLOL 50MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E20" spans="493~508" text="ENALAPRIL 10 MG" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E22" spans="517~528" text="ESPIRONO 25" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E23" spans="529~535" text="SVT 20" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E24" spans="536~546" text="EXAMES LAB" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="554~559" text="CREAT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E26" spans="563~565" text="UR" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E27" spans="570~573" text="GLI" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E28" spans="578~580" text="TG" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E29" spans="585~588" text="HDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E30" spans="593~595" text="CT" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E31" spans="601~604" text="LDL" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E32" spans="609~611" text="Na" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E33" spans="617~618" text="K" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E34" spans="624~626" text="Hb" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E35" spans="633~635" text="Ht" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E36" spans="641~645" text="LEUC" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E37" spans="651~653" text="EF" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E39" spans="687~689" text="PA" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E41" spans="702~703" text="P" Pre_anotacao="Não" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E42" spans="720~737" text="TURGÊNCIA JUGULAR" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E43" spans="738~784" text="ICTUS PALPÁVEL EM 7º EIC EM LINHA HEMIAXILAR E" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E44" spans="794~796" text="SS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E45" spans="819~829" text="ALTERAÇÕES" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E46" spans="852~865" text="EDEMA EM MMII" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E47" spans="895~905" text="DÇA CHAGAS" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E48" spans="909~917" text="MANTENHO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E50" spans="918~928" text="MEDICAÇÕES" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E51" spans="938~947" text="ECOCARDIO" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E52" spans="948~955" text="RETORNO" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="166~176" text="DESDE 2007" Type="Date" Value="2007" Mod="NA" />
+<TIMEX3 id="T1" spans="443~455" text="HÁ &gt; 20 ANOS" Type="Date" Value="1994-12-04" Mod="MORE" />
+<TIMEX3 id="T2" spans="485~492" text="12/12HS" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T3" spans="509~516" text="12/12HS" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="NA" />
+<TIMEX3 id="T4" spans="547~552" text="11/11" Type="Date" Value="2014-11-11" Mod="NA" />
+<TIMEX3 id="T5" spans="956~966" text="EM 3 MESES" Type="Date" Value="2015-03-04" Mod="NA" />
+<RELATION id="R0" fromID="E2" fromText="MARCA-PASSO DUPLACAMARA" toID="T0" toText="DESDE 2007" Relação_Temporal="BEGINS_ON" />
+<RELATION id="R1" fromID="E3" fromText="ENCAMINHADO" toID="E5" toText="AMBULATÓRIO DE ARRITMIAS" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="T1" fromText="HÁ &gt; 20 ANOS" toID="E18" toText="CX DE APENDICITE E HERNIAS PARAMEDIANAS" Relação_Temporal="CONTAINS" />
+<RELATION id="R3" fromID="E19" fromText="METOPROLOL 50MG" toID="T2" toText="12/12HS" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E20" fromText="ENALAPRIL 10 MG" toID="T3" toText="12/12HS" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="T4" fromText="11/11" toID="E24" toText="EXAMES LAB" Relação_Temporal="CONTAINS" />
+<RELATION id="R6" fromID="E24" fromText="EXAMES LAB" toID="E36" toText="LEUC" Relação_Temporal="CONTAINS" />
+<RELATION id="R7" fromID="E24" fromText="EXAMES LAB" toID="E35" toText="Ht" Relação_Temporal="CONTAINS" />
+<RELATION id="R8" fromID="E24" fromText="EXAMES LAB" toID="E34" toText="Hb" Relação_Temporal="CONTAINS" />
+<RELATION id="R9" fromID="E24" fromText="EXAMES LAB" toID="E33" toText="K" Relação_Temporal="CONTAINS" />
+<RELATION id="R10" fromID="E24" fromText="EXAMES LAB" toID="E32" toText="Na" Relação_Temporal="CONTAINS" />
+<RELATION id="R11" fromID="E24" fromText="EXAMES LAB" toID="E31" toText="LDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R12" fromID="E24" fromText="EXAMES LAB" toID="E30" toText="CT" Relação_Temporal="CONTAINS" />
+<RELATION id="R13" fromID="E24" fromText="EXAMES LAB" toID="E29" toText="HDL" Relação_Temporal="CONTAINS" />
+<RELATION id="R14" fromID="E24" fromText="EXAMES LAB" toID="E28" toText="TG" Relação_Temporal="CONTAINS" />
+<RELATION id="R15" fromID="E24" fromText="EXAMES LAB" toID="E27" toText="GLI" Relação_Temporal="CONTAINS" />
+<RELATION id="R16" fromID="E24" fromText="EXAMES LAB" toID="E26" toText="UR" Relação_Temporal="CONTAINS" />
+<RELATION id="R17" fromID="E24" fromText="EXAMES LAB" toID="E25" toText="CREAT" Relação_Temporal="CONTAINS" />
+<RELATION id="R18" fromID="E48" fromText="MANTENHO" toID="E50" toText="MEDICAÇÕES" Relação_Temporal="OVERLAP" />
+<RELATION id="R19" fromID="T5" fromText="EM 3 MESES" toID="E52" toText="RETORNO" Relação_Temporal="CONTAINS" />
+<RELATION id="R20" fromID="E52" fromText="RETORNO" toID="E51" toText="ECOCARDIO" Relação_Temporal="CONTAINS" />
+</TAGS>
+</Annotation_v1>

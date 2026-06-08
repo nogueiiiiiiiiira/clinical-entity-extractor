@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>USUÁRIA DE MAREVAN DEVIDO " ARRITMIA ", NÃO SABE INFORMAR MAIORES DETALHES.
+sEM QUEIXAS. SEM RELATO DE SANGRAMENTOS.
+EM USO DE 2CP DE SEG A SEXT E 1CP SAB E DOM
+RNI 3,40
+CD: ORIENTO PACIENTE. ALERTO SINAIS DE GRAVIDADE. MANTER AS MEDICAÇÃO DE USO, COM AJUSTE DE COSE. RETORNO AGENDADA
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="31028" tag="Organic Chemical|Pharmacologic Substance" start="11" end="18" text="MAREVAN" abbr="" />
+<annotation id="31029" tag="Finding|Disease or Syndrome" start="28" end="36" text="ARRITMIA" abbr="" />
+<annotation id="31030" tag="Negation" start="40" end="43" text="NÃO" abbr="" />
+<annotation id="31031" tag="Negation|Negation" start="77" end="80" text="sEM" abbr="" />
+<annotation id="31032" tag="Sign or Symptom|Sign or Symptom" start="81" end="88" text="QUEIXAS" abbr="" />
+<annotation id="31033" tag="Negation" start="90" end="93" text="SEM" abbr="" />
+<annotation id="31034" tag="Sign or Symptom" start="104" end="116" text="SANGRAMENTOS" abbr="" />
+<annotation id="31035" tag="Quantitative Concept" start="129" end="132" text="2CP" abbr="" />
+<annotation id="31036" tag="Quantitative Concept" start="149" end="152" text="1CP" abbr="" />
+<annotation id="31037" tag="Abbreviation|Health Care Activity" start="174" end="176" text="CD" abbr="" />
+<annotation id="31038" tag="Health Care Activity" start="178" end="185" text="ORIENTO" abbr="" />
+<annotation id="31039" tag="Patient or Disabled Group" start="186" end="194" text="PACIENTE" abbr="" />
+<annotation id="31040" tag="Health Care Activity" start="196" end="202" text="ALERTO" abbr="" />
+<annotation id="31041" tag="Health Care Activity" start="224" end="230" text="MANTER" abbr="" />
+<annotation id="31042" tag="Pharmacologic Substance" start="234" end="243" text="MEDICAÇÃO" abbr="" />
+<annotation id="31043" tag="Finding" start="44" end="74" text="SABE INFORMAR MAIORES DETALHES" />
+<annotation id="31044" tag="Temporal Concept" start="136" end="146" text="SEG A SEXT" />
+<annotation id="31045" tag="Temporal Concept" start="153" end="162" text="SAB E DOM" />
+<annotation id="31046" tag="Abbreviation|Laboratory or Test Result" start="164" end="172" text="RNI 3 , 40" />
+<annotation id="31047" tag="Sign or Symptom" start="203" end="222" text="SINAIS DE GRAVIDADE" />
+<annotation id="31048" tag="Health Care Activity" start="256" end="270" text="AJUSTE DE COSE" />
+<annotation id="31049" tag="Health Care Activity" start="272" end="288" text="RETORNO AGENDADA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="31030" annotation2="31043" reltype="negation_of" />
+<rel annotation1="31031" annotation2="31032" reltype="negation_of" />
+<rel annotation1="31033" annotation2="31034" reltype="negation_of" />
+<rel annotation1="31035" annotation2="31044" reltype="associated_with" />
+<rel annotation1="31036" annotation2="31045" reltype="associated_with" />
+<rel annotation1="31037" annotation2="31038" reltype="associated_with" />
+<rel annotation1="31038" annotation2="31047" reltype="associated_with" />
+<rel annotation1="31038" annotation2="31039" reltype="associated_with" />
+<rel annotation1="31040" annotation2="31047" reltype="associated_with" />
+<rel annotation1="31041" annotation2="31042" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

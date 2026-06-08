@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>INVESTIGAVA  DOR ATIPICA 
+CINTILO ISQUEMIA  DISCRETA   P INFERIOR  VE    FE 34 - 46 
+2-6-15   CATE  TORTUOSIDADES -- MIOCSRDIOPATIA   VE   DISCRETA MODERADA
+S  MELHORA  GRADATIVA DOS  SINTOMAS
+O  NDN
+A  MCP DILATADA X
+P  AO  AMB IC
+HOLTER
+OTIMIZO
+CVD  12,5 12-12   DEMAIS MANTIDO
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="27767" tag="Health Care Activity" start="0" end="11" text="INVESTIGAVA" abbr="" />
+<annotation id="27768" tag="Diagnostic Procedure|Abbreviation" start="27" end="34" text="CINTILO" abbr="cintilografia" />
+<annotation id="27769" tag="Diagnostic Procedure|Abbreviation" start="96" end="100" text="CATE" abbr="cateterismo" />
+<annotation id="27770" tag="Abbreviation|Negation" start="160" end="161" text="S" abbr="" />
+<annotation id="27771" tag="Finding|Abbreviation" start="200" end="203" text="NDN" abbr="" />
+<annotation id="27772" tag="Diagnostic Procedure|Abbreviation" start="205" end="206" text="A" abbr="" />
+<annotation id="27773" tag="Intellectual Product|Abbreviation" start="224" end="225" text="P" abbr="" />
+<annotation id="27774" tag="Diagnostic Procedure" start="239" end="245" text="HOLTER" abbr="" />
+<annotation id="27775" tag="Health Care Activity" start="247" end="254" text="OTIMIZO" abbr="" />
+<annotation id="27776" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="256" end="259" text="CVD" abbr="" />
+<annotation id="27777" tag="Temporal Concept" start="266" end="271" text="12-12" abbr="" />
+<annotation id="27778" tag="Sign or Symptom" start="13" end="24" text="DOR ATIPICA" />
+<annotation id="27779" tag="Abbreviation|Laboratory or Test Result" start="35" end="70" text="ISQUEMIA DISCRETA P INFERIOR VE" />
+<annotation id="27780" tag="Abbreviation|Laboratory or Test Result" start="74" end="79" text="FE 34" />
+<annotation id="27781" tag="Abbreviation|Laboratory or Test Result" start="119" end="158" text="MIOCSRDIOPATIA VE DISCRETA MODERADA" />
+<annotation id="27782" tag="Finding" start="163" end="195" text="MELHORA GRADATIVA DOS SINTOMAS" />
+<annotation id="27783" tag="Abbreviation|Disease or Syndrome" start="208" end="220" text="MCP DILATADA" />
+<annotation id="27784" tag="Abbreviation|Health Care Related Organization" start="231" end="237" text="AMB IC" />
+<annotation id="27785" tag="Quantitative Concept" start="261" end="265" text="12 , 5" />
+<annotation id="27786" tag="Health Care Activity" start="274" end="288" text="DEMAIS MANTIDO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="27767" annotation2="27778" reltype="associated_with" />
+<rel annotation1="27768" annotation2="27779" reltype="associated_with" />
+<rel annotation1="27770" annotation2="27782" reltype="negation_of" />
+<rel annotation1="27776" annotation2="27785" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

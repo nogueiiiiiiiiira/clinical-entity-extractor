@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>POS TX CARDIACO HA 9  MESES
+ULTIMA BIOPSIA 04/2016 - 0R
+EM USO DE CICLO 50 / 50, AZATIOPRINA 50 
+USO DE omeprazol , AAS 100, ATENOLOL 50 / DIA
+DOSAGEM CICLOSPORINA 9JULHO/16): 217
+S # SEM QUEIXAS
+O # PA 130/80, FC 89
+ACV BCRNF
+CPP LIVRE
+MMII SEM EDEMA
+A # POS TX CARDIACO, COM BOA EVOLUÇÃO.
+P # LAB
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="32365" tag="Temporal Concept" start="0" end="3" text="POS" abbr="" />
+<annotation id="32366" tag="Diagnostic Procedure" start="36" end="43" text="BIOPSIA" abbr="" />
+<annotation id="32367" tag="Amino Acid, Peptide, or Protein|Pharmacologic Substance|Abbreviation" start="68" end="73" text="CICLO" abbr="" />
+<annotation id="32368" tag="Pharmacologic Substance|Organic Chemical|Hazardous or Poisonous Substance" start="83" end="94" text="AZATIOPRINA" abbr="" />
+<annotation id="32369" tag="Quantitative Concept" start="95" end="97" text="50" abbr="" />
+<annotation id="32370" tag="Pharmacologic Substance|Organic Chemical" start="107" end="116" text="omeprazol" abbr="" />
+<annotation id="32371" tag="Pharmacologic Substance|Organic Chemical|Abbreviation|Pharmacologic Substance" start="119" end="122" text="AAS" abbr="" />
+<annotation id="32372" tag="Quantitative Concept" start="123" end="126" text="100" abbr="" />
+<annotation id="32373" tag="Organic Chemical|Pharmacologic Substance" start="128" end="136" text="ATENOLOL" abbr="" />
+<annotation id="32374" tag="Quantitative Concept" start="137" end="139" text="50" abbr="" />
+<annotation id="32375" tag="Temporal Concept" start="142" end="145" text="DIA" abbr="" />
+<annotation id="32376" tag="Quantitative Concept" start="180" end="183" text="217" abbr="" />
+<annotation id="32377" tag="Negation" start="189" end="192" text="SEM" abbr="" />
+<annotation id="32378" tag="Sign or Symptom" start="193" end="200" text="QUEIXAS" abbr="" />
+<annotation id="32379" tag="Abbreviation|Clinical Attribute" start="206" end="208" text="PA" abbr="" />
+<annotation id="32380" tag="Quantitative Concept" start="209" end="215" text="130/80" abbr="" />
+<annotation id="32381" tag="Clinical Attribute|Abbreviation" start="217" end="219" text="FC" abbr="frequência cardíaca" />
+<annotation id="32382" tag="Quantitative Concept" start="220" end="222" text="89" abbr="" />
+<annotation id="32383" tag="Clinical Attribute|Abbreviation" start="224" end="227" text="ACV" abbr="" />
+<annotation id="32384" tag="Abbreviation|Finding" start="228" end="233" text="BCRNF" abbr="" />
+<annotation id="32385" tag="Abbreviation|Body Part, Organ, or Organ Component" start="246" end="250" text="MMII" abbr="" />
+<annotation id="32386" tag="Negation" start="251" end="254" text="SEM" abbr="" />
+<annotation id="32387" tag="Sign or Symptom" start="255" end="260" text="EDEMA" abbr="" />
+<annotation id="32388" tag="Temporal Concept" start="266" end="269" text="POS" abbr="" />
+<annotation id="32389" tag="Abbreviation|Laboratory Procedure" start="306" end="309" text="LAB" abbr="" />
+<annotation id="32390" tag="Abbreviation|Therapeutic or Preventive Procedure" start="4" end="15" text="TX CARDIACO" />
+<annotation id="32391" tag="Temporal Concept" start="16" end="27" text="HA 9 MESES" />
+<annotation id="32392" tag="Quantitative Concept" start="74" end="81" text="50 / 50" />
+<annotation id="32393" tag="Laboratory or Test Result" start="147" end="167" text="DOSAGEM CICLOSPORINA" />
+<annotation id="32394" tag="Abbreviation|Finding" start="235" end="244" text="CPP LIVRE" />
+<annotation id="32395" tag="Abbreviation|Therapeutic or Preventive Procedure" start="270" end="281" text="TX CARDIACO" />
+<annotation id="32396" tag="Finding" start="287" end="299" text="BOA EVOLUÇÃO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="32365" annotation2="32390" reltype="associated_with" />
+<rel annotation1="32367" annotation2="32392" reltype="associated_with" />
+<rel annotation1="32368" annotation2="32369" reltype="associated_with" />
+<rel annotation1="32371" annotation2="32372" reltype="associated_with" />
+<rel annotation1="32373" annotation2="32374" reltype="associated_with" />
+<rel annotation1="32374" annotation2="32375" reltype="associated_with" />
+<rel annotation1="32377" annotation2="32378" reltype="negation_of" />
+<rel annotation1="32379" annotation2="32380" reltype="associated_with" />
+<rel annotation1="32381" annotation2="32382" reltype="associated_with" />
+<rel annotation1="32383" annotation2="32384" reltype="associated_with" />
+<rel annotation1="32385" annotation2="32387" reltype="associated_with" />
+<rel annotation1="32386" annotation2="32387" reltype="negation_of" />
+<rel annotation1="32388" annotation2="32395" reltype="associated_with" />
+<rel annotation1="32393" annotation2="32376" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Annotation_v1>
+<TEXT><![CDATA[Data de Criação do Documento: 08/10/2015
+
+
+LUCAS, 69 anos.
+
+HMA: paciente relata cansaço, dor precordial quando tosse. Nega dispneia, ortopneia e DNP. Paciente relata apenas um episodio no momento de gripe.
+HAS, ICC, nega DM.
+carvedilol 1 cp 12/12, furosemida 20mg 2 cp de 12/12, sinvastatina 1cp a noite, AAS 100mg apos almoço e Omeprazol 20mg 1 xdia.
+
+HMP: paciente relata 4 angioplastia, ultima em 2012.
+
+CHV: tabagista de mais de maço dia ha 3 anos. etilista de moderado de cerveja.
+
+S # paciente relata cansaço.
+
+O # BEG, orientado, anicterico, afebril.
+Cardiaco: sp, FC: 74bpm. 
+Pulmonar: sp.
+MMII: sem edema e sem empastamento.
+Abdome: flacido, indolor, RHA+.
+
+# C: solicito exames laboratoriais e encaminho para Doutor Vital Brazil.]]></TEXT>
+<TAGS>
+<EVENT id="E0" spans="74~80" text="relata" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E1" spans="81~88" text="cansaço" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E2" spans="90~104" text="dor precordial" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E3" spans="112~117" text="tosse" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E4" spans="119~123" text="Nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E5" spans="124~132" text="dispneia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E6" spans="134~143" text="ortopneia" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E7" spans="146~149" text="DNP" Pre_anotacao="Não" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E8" spans="160~166" text="relata" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E9" spans="200~205" text="gripe" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E10" spans="207~210" text="HAS" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E11" spans="212~215" text="ICC" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E12" spans="217~221" text="nega" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E13" spans="222~224" text="DM" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E14" spans="226~236" text="carvedilol" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E15" spans="249~264" text="furosemida 20mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E16" spans="280~292" text="sinvastatina" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E17" spans="306~315" text="AAS 100mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E18" spans="330~344" text="Omeprazol 20mg" Pre_anotacao="Sim" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E19" spans="368~374" text="relata" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E20" spans="375~389" text="4 angioplastia" Pre_anotacao="Não" Tipo="Tratamento" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E21" spans="413~422" text="tabagista" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E22" spans="454~462" text="etilista" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes/Sobreposta" />
+<EVENT id="E23" spans="501~507" text="relata" Pre_anotacao="Sim" Tipo="Evidência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E24" spans="508~515" text="cansaço" Pre_anotacao="Não" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Antes" />
+<EVENT id="E25" spans="550~557" text="afebril" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E26" spans="573~575" text="FC" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E27" spans="609~614" text="edema" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E28" spans="621~633" text="empastamento" Pre_anotacao="Sim" Tipo="Problema" Polaridade="Negativa" Modalidade="Factual" Relação_DCT="Sobreposta" />
+<EVENT id="E29" spans="682~702" text="exames laboratoriais" Pre_anotacao="Sim" Tipo="Teste" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<EVENT id="E30" spans="705~714" text="encaminho" Pre_anotacao="Sim" Tipo="Ocorrência" Polaridade="Positiva" Modalidade="Factual" Relação_DCT="Depois" />
+<TIMEX3 id="T0" spans="237~247" text="1 cp 12/12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="1" />
+<TIMEX3 id="T1" spans="265~278" text="2 cp de 12/12" Type="Set" Value="P1D" Mod="NA" Freq="2X" Cps="2" />
+<TIMEX3 id="T2" spans="293~304" text="1cp a noite" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="1" />
+<TIMEX3 id="T3" spans="316~327" text="apos almoço" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T4" spans="345~351" text="1 xdia" Type="Set" Value="P1D" Mod="NA" Freq="1X" Cps="NA" />
+<TIMEX3 id="T5" spans="401~405" text="2012" Type="Date" Value="2012" Mod="NA" />
+<TIMEX3 id="T6" spans="443~452" text="ha 3 anos" Type="Duration" Value="P3Y" Mod="NA" />
+<RELATION id="R0" fromID="E2" fromText="dor precordial" toID="E3" toText="tosse" Relação_Temporal="OVERLAP" />
+<RELATION id="R1" fromID="E14" fromText="carvedilol" toID="T0" toText="1 cp 12/12" Relação_Temporal="OVERLAP" />
+<RELATION id="R2" fromID="E15" fromText="furosemida 20mg" toID="T1" toText="2 cp de 12/12" Relação_Temporal="OVERLAP" />
+<RELATION id="R3" fromID="E16" fromText="sinvastatina" toID="T2" toText="1cp a noite" Relação_Temporal="OVERLAP" />
+<RELATION id="R4" fromID="E17" fromText="AAS 100mg" toID="T3" toText="apos almoço" Relação_Temporal="OVERLAP" />
+<RELATION id="R5" fromID="E18" fromText="Omeprazol 20mg" toID="T4" toText="1 xdia" Relação_Temporal="OVERLAP" />
+<RELATION id="R6" fromID="T6" fromText="ha 3 anos" toID="E21" toText="tabagista" Relação_Temporal="OVERLAP" />
+</TAGS>
+</Annotation_v1>

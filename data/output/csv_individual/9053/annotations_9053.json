@@ -1,0 +1,37 @@
+[
+  {
+    "textoAnalisado": "dor tipo peso no peito",
+    "categoria": "Problema",
+    "abreviacao": false,
+    "abreviacao_original": null,
+    "polaridade": "Positiva"
+  },
+  {
+    "textoAnalisado": "hipertensão arterial sistêmica",
+    "categoria": "Problema",
+    "abreviacao": true,
+    "abreviacao_original": "has",
+    "polaridade": "Positiva"
+  },
+  {
+    "textoAnalisado": "cintilografia miocardica",
+    "categoria": "Teste",
+    "abreviacao": false,
+    "abreviacao_original": null,
+    "polaridade": "Positiva"
+  },
+  {
+    "textoAnalisado": "dispneia",
+    "categoria": "Problema",
+    "abreviacao": false,
+    "abreviacao_original": null,
+    "polaridade": "Positiva"
+  },
+  {
+    "textoAnalisado": "obesidade",
+    "categoria": "Problema",
+    "abreviacao": false,
+    "abreviacao_original": null,
+    "polaridade": "Positiva"
+  }
+]

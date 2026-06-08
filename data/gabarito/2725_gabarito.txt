@@ -1,5 +1,0 @@
-Subjetivo 
- EM TEMPO : Recebida informação da [PROFISSÃO] [NOME], 30 anos, acerca do estado de confusão mental do [PROFISSÃO] [NOME], 75 anos, [PROFISSÃO]. Ao avaliar o paciente, constato a necessidade de intervenção neurológica. Contato realizado com o [PROFISSÃO] [PROFISSÃO] [NOME], CRM [IDs], às [HORÁRIO], que pede a realização imediata de uma tomografia craniana. 
- Escore FUGULIN 30.00 - CUIDADOS DE ALTA DEPENDÊNCIA 
- Escore MORSE 60.00 - RISCO MUITO ALTO 
- Elaborado e assinado por [PROFISSÃO] [NOME], Coren [IDs] em [DATA] [HORÁRIO]

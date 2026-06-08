@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>DAC ESTAVEL   CD  MODERADA 
+IAM  2011  ATC DA 
+SEM QXC  CARDIOLOGICAS
+USA CLOPIDOGREL  ATV 20  AAS   ENL10 12-12 LIPANON MTP  25 D ANCORON
+5-8-15  CINTILO  NEGATIVA PARA ISQUEMIA TE   INFRA  4 MM V5-V6 
+A DAC ESTAVEL
+P  LAB 
+RETORNO EM 6 MESESS
+CESSAR   ANCORON
+MANTENHO MONOCORDIL  20 12-12
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="25415" tag="Abbreviation|Disease or Syndrome" start="29" end="32" text="IAM" abbr="" />
+<annotation id="25416" tag="Therapeutic or Preventive Procedure|Abbreviation" start="40" end="43" text="ATC" abbr="" />
+<annotation id="25417" tag="Body Part, Organ, or Organ Component|Abbreviation" start="44" end="46" text="DA" abbr="" />
+<annotation id="25418" tag="Negation" start="49" end="52" text="SEM" abbr="" />
+<annotation id="25419" tag="Pharmacologic Substance" start="77" end="88" text="CLOPIDOGREL" abbr="" />
+<annotation id="25420" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="90" end="93" text="ATV" abbr="artrovastatina" />
+<annotation id="25421" tag="Quantitative Concept" start="94" end="96" text="20" abbr="" />
+<annotation id="25422" tag="Organic Chemical|Abbreviation|Pharmacologic Substance" start="98" end="101" text="AAS" abbr="" />
+<annotation id="25423" tag="Quantitative Concept|Amino Acid, Peptide, or Protein|Abbreviation|Pharmacologic Substance" start="104" end="109" text="ENL10" abbr="" />
+<annotation id="25424" tag="Quantitative Concept" start="110" end="115" text="12-12" abbr="" />
+<annotation id="25425" tag="Pharmacologic Substance" start="116" end="123" text="LIPANON" abbr="" />
+<annotation id="25426" tag="Abbreviation" start="124" end="127" text="MTP" abbr="" />
+<annotation id="25427" tag="Quantitative Concept" start="129" end="131" text="25" abbr="" />
+<annotation id="25428" tag="Pharmacologic Substance" start="134" end="141" text="ANCORON" abbr="" />
+<annotation id="25429" tag="Diagnostic Procedure|Abbreviation" start="151" end="158" text="CINTILO" abbr="cintilografia" />
+<annotation id="25430" tag="Diagnostic Procedure|Abbreviation" start="183" end="185" text="TE" abbr="" />
+<annotation id="25431" tag="Abbreviation" start="223" end="224" text="P" abbr="" />
+<annotation id="25432" tag="Abbreviation" start="226" end="229" text="LAB" abbr="" />
+<annotation id="25433" tag="Health Care Activity" start="232" end="239" text="RETORNO" abbr="" />
+<annotation id="25434" tag="Health Care Activity" start="253" end="259" text="CESSAR" abbr="" />
+<annotation id="25435" tag="Pharmacologic Substance" start="262" end="269" text="ANCORON" abbr="" />
+<annotation id="25436" tag="Health Care Activity" start="271" end="279" text="MANTENHO" abbr="" />
+<annotation id="25437" tag="Pharmacologic Substance|Organic Chemical" start="280" end="290" text="MONOCORDIL" abbr="" />
+<annotation id="25438" tag="Quantitative Concept" start="292" end="294" text="20" abbr="" />
+<annotation id="25439" tag="Quantitative Concept" start="295" end="300" text="12-12" abbr="" />
+<annotation id="25440" tag="Abbreviation|Disease or Syndrome" start="0" end="11" text="DAC ESTAVEL" />
+<annotation id="25441" tag="Abbreviation" start="14" end="26" text="CD MODERADA" />
+<annotation id="25442" tag="Abbreviation|Sign or Symptom" start="53" end="71" text="QXC CARDIOLOGICAS" />
+<annotation id="25443" tag="Laboratory or Test Result" start="160" end="182" text="NEGATIVA PARA ISQUEMIA" />
+<annotation id="25444" tag="Laboratory or Test Result" start="188" end="205" text="INFRA 4 MM V5-V6" />
+<annotation id="25445" tag="Disease or Syndrome|Abbreviation" start="210" end="221" text="DAC ESTAVEL" />
+<annotation id="25446" tag="Temporal Concept" start="243" end="251" text="6 MESESS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="25418" annotation2="25442" reltype="negation_of" />
+<rel annotation1="25421" annotation2="25420" reltype="associated_with" />
+<rel annotation1="25423" annotation2="25424" reltype="associated_with" />
+<rel annotation1="25427" annotation2="25426" reltype="associated_with" />
+<rel annotation1="25429" annotation2="25443" reltype="associated_with" />
+<rel annotation1="25430" annotation2="25444" reltype="associated_with" />
+<rel annotation1="25434" annotation2="25435" reltype="associated_with" />
+<rel annotation1="25436" annotation2="25437" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

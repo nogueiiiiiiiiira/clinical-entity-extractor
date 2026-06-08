@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 80 anos.
+Acompanhamento de cx cardíaca.
+ 
+2 irmãos faleceram com infarto fulminante antes dos 60 anos.
+Mãe tinha história de angina, faleceu com AVC aos 70 anos.
+Pai faleceu de IAM com 68 anos.
+Em 2005 teve história de IAM e AVC. Assim, foi indicada cx ponte de safena; paciente relata que foram 3 pontes de safena e enchimento de mamária.
+Está em uso de captopril M e N, sinvastatina N, atenolol 1 cp M, furosemida.
+Acompanhamento de coronariopatia.</TEXT>
+<TAGS>
+<annotation id="33245" tag="Health Care Activity" start="17" end="31" text="Acompanhamento" abbr="" />
+<annotation id="33246" tag="Quantitative Concept" start="52" end="53" text="2" abbr="" />
+<annotation id="33247" tag="Family Group" start="54" end="60" text="irmãos" abbr="" />
+<annotation id="33248" tag="Finding" start="61" end="70" text="faleceram" abbr="" />
+<annotation id="33249" tag="Family Group" start="114" end="117" text="Mãe" abbr="" />
+<annotation id="33250" tag="Finding" start="144" end="151" text="faleceu" abbr="" />
+<annotation id="33251" tag="Disease or Syndrome|Disease or Syndrome|Abbreviation" start="156" end="159" text="AVC" abbr="acidente vascular cerebral" />
+<annotation id="33252" tag="Family Group" start="174" end="177" text="Pai" abbr="" />
+<annotation id="33253" tag="Finding" start="178" end="185" text="faleceu" abbr="" />
+<annotation id="33254" tag="Disease or Syndrome|Abbreviation" start="189" end="192" text="IAM" abbr="infarto agudo do miocárdio" />
+<annotation id="33255" tag="Abbreviation|Disease or Syndrome" start="232" end="235" text="IAM" abbr="" />
+<annotation id="33256" tag="Abbreviation|Disease or Syndrome|Disease or Syndrome" start="238" end="241" text="AVC" abbr="" />
+<annotation id="33257" tag="Patient or Disabled Group|Patient or Disabled Group" start="283" end="291" text="paciente" abbr="" />
+<annotation id="33258" tag="Quantitative Concept" start="309" end="310" text="3" abbr="" />
+<annotation id="33259" tag="Pharmacologic Substance" start="369" end="378" text="captopril" abbr="" />
+<annotation id="33260" tag="Abbreviation" start="379" end="380" text="M" abbr="" />
+<annotation id="33261" tag="Abbreviation" start="383" end="384" text="N" abbr="" />
+<annotation id="33262" tag="Organic Chemical|Pharmacologic Substance" start="386" end="398" text="sinvastatina" abbr="" />
+<annotation id="33263" tag="Temporal Concept|Abbreviation" start="399" end="400" text="N" abbr="" />
+<annotation id="33264" tag="Organic Chemical|Pharmacologic Substance" start="402" end="410" text="atenolol" abbr="" />
+<annotation id="33265" tag="Abbreviation|Temporal Concept" start="416" end="417" text="M" abbr="" />
+<annotation id="33266" tag="Pharmacologic Substance|Organic Chemical" start="419" end="429" text="furosemida" abbr="" />
+<annotation id="33267" tag="Disease or Syndrome" start="450" end="464" text="coronariopatia" abbr="" />
+<annotation id="33268" tag="Abbreviation|Therapeutic or Preventive Procedure" start="35" end="46" text="cx cardíaca" />
+<annotation id="33269" tag="Disease or Syndrome" start="75" end="93" text="infarto fulminante" />
+<annotation id="33270" tag="Temporal Concept" start="94" end="111" text="antes dos 60 anos" />
+<annotation id="33271" tag="Temporal Concept" start="160" end="171" text="aos 70 anos" />
+<annotation id="33272" tag="Health Care Activity" start="250" end="262" text="foi indicada" />
+<annotation id="33273" tag="Abbreviation|Therapeutic or Preventive Procedure" start="263" end="281" text="cx ponte de safena" />
+<annotation id="33274" tag="Therapeutic or Preventive Procedure" start="311" end="327" text="pontes de safena" />
+<annotation id="33275" tag="Therapeutic or Preventive Procedure" start="330" end="351" text="enchimento de mamária" />
+<annotation id="33276" tag="Quantitative Concept|Abbreviation" start="411" end="415" text="1 cp" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="33247" annotation2="33269" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

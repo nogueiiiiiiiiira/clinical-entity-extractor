@@ -1,0 +1,7 @@
+{"entities": [
+  {"text": "dispneia", "original": "Dispneia importante aos esforços", "polarity": "Positiva", "abbreviation": false, "category": "Problema"},
+  {"text": "dor tipo peso no peito", "original": "dor tipo peso no peito no esforço", "polarity": "Positiva", "abbreviation": false, "category": "Problema"},
+  {"text": "obesidade", "original": "Obeso", "polarity": "Positiva", "abbreviation": false, "category": "Problema"},
+  {"text": "hipertensão arterial sistêmica", "original": "has", "polarity": "Positiva", "abbreviation": true, "category": "Problema"},
+  {"text": "cintilografia miocardica", "original": "icc c # cintilografia miocardica", "polarity": "Positiva", "abbreviation": false, "category": "Teste" }
+]}

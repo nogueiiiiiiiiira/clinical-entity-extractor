@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># sem queixas
+# chagas
+# acompanha na cardio geral e esta aguardando consulta
+# faço receita conforme já utiliza pois está com dificuldade de conseguir os medicamentos - mas não faltar cardio
+mp camara dupla
+# programado em modo ddd 60-50
+# ritmo proprio = bav com escape ventricular
+# 97% em vat
+# bat = ok 
+# para eri = 10 MESES !!!!
+# A - imp = 395, sense = 5,3, cla = menor que 1,0 x 0,4
+# v - imp = 381, sense = mAIor que 10, clv = menor que 1,0 x 2,4
+# cd = programação mantida + retorno em 6 meses ( devido a bateria !!!!!! demais ok !!!! pcte ciente ) ou se intercorrencias = procura direta + não faltar cardio.
+ </TEXT>
+<TAGS>
+<annotation id="28819" tag="Negation" start="2" end="5" text="sem" abbr="" />
+<annotation id="28820" tag="Sign or Symptom" start="6" end="13" text="queixas" abbr="" />
+<annotation id="28821" tag="Disease or Syndrome" start="17" end="23" text="chagas" abbr="" />
+<annotation id="28822" tag="Health Care Activity" start="71" end="79" text="consulta" abbr="" />
+<annotation id="28823" tag="Intellectual Product|Health Care Activity" start="88" end="95" text="receita" abbr="" />
+<annotation id="28824" tag="Sign or Symptom" start="130" end="141" text="dificuldade" abbr="" />
+<annotation id="28825" tag="Pharmacologic Substance" start="158" end="170" text="medicamentos" abbr="" />
+<annotation id="28826" tag="Negation" start="177" end="180" text="não" abbr="" />
+<annotation id="28827" tag="Abbreviation|Professional or Occupational Group" start="188" end="194" text="cardio" abbr="" />
+<annotation id="28828" tag="Health Care Activity|Abbreviation" start="471" end="473" text="cd" abbr="" />
+<annotation id="28829" tag="Abbreviation|Patient or Disabled Group" start="558" end="562" text="pcte" abbr="" />
+<annotation id="28830" tag="Sign or Symptom" start="578" end="593" text="intercorrencias" abbr="" />
+<annotation id="28831" tag="Negation" start="613" end="616" text="não" abbr="" />
+<annotation id="28832" tag="Abbreviation|Professional or Occupational Group" start="624" end="630" text="cardio" abbr="" />
+<annotation id="28833" tag="Abbreviation|Health Care Related Organization|Professional or Occupational Group" start="40" end="52" text="cardio geral" />
+<annotation id="28834" tag="Abbreviation|Therapeutic or Preventive Procedure" start="196" end="211" text="mp camara dupla" />
+<annotation id="28835" tag="Qualitative Concept" start="229" end="243" text="modo ddd 60-50" />
+<annotation id="28836" tag="Finding" start="247" end="260" text="ritmo proprio" />
+<annotation id="28837" tag="Abbreviation|Laboratory or Test Result|Sign or Symptom" start="263" end="289" text="bav com escape ventricular" />
+<annotation id="28838" tag="Abbreviation|Laboratory or Test Result" start="293" end="303" text="97% em vat" />
+<annotation id="28839" tag="Abbreviation|Laboratory or Test Result" start="307" end="315" text="bat = ok" />
+<annotation id="28840" tag="Abbreviation|Laboratory or Test Result" start="320" end="339" text="para eri = 10 MESES" />
+<annotation id="28841" tag="Abbreviation|Laboratory or Test Result" start="352" end="361" text="imp = 395" />
+<annotation id="28842" tag="Abbreviation|Laboratory or Test Result" start="363" end="374" text="sense = 5 , 3" />
+<annotation id="28843" tag="Abbreviation" start="376" end="395" text="cla = menor que 1 , 0" />
+<annotation id="28844" tag="Abbreviation|Laboratory or Test Result" start="409" end="418" text="imp = 381" />
+<annotation id="28845" tag="Abbreviation|Laboratory or Test Result" start="420" end="440" text="sense = mAIor que 10" />
+<annotation id="28846" tag="Abbreviation" start="442" end="459" text="clv = menor que 1" />
+<annotation id="28847" tag="Finding" start="476" end="495" text="programação mantida" />
+<annotation id="28848" tag="Finding" start="596" end="610" text="procura direta" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28819" annotation2="28820" reltype="negation_of" />
+<rel annotation1="28824" annotation2="28825" reltype="associated_with" />
+<rel annotation1="28826" annotation2="28827" reltype="negation_of" />
+<rel annotation1="28831" annotation2="28832" reltype="negation_of" />
+<rel annotation1="28834" annotation2="28836" reltype="associated_with" />
+<rel annotation1="28834" annotation2="28837" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 59 ANOS.
+COMORBIDADES: 
+# hoje avaliação exclusiva de mp
+# mp camara-dupla
+# programado em modo ddd 60/50 
+# Ritmo de base sinusal fc: 37 
+# bat ok
+# para eri = 1 MES 
+# a - imp = 388, sense = 5,4, clv - menor que 0,6 x 0,4 
+#  ENERGIAS ( 2,4 A 2,4 V ) 
+# v - imp = 381, sense = 12,7, clv = menor que 0,8 x 0,4
+PLANO
+# AGENDO AMBULATORIO PARA A PROXIMA SEGUNDA NA CX CARDIACA
+# MANTIDO PROGRAMAÇÃO
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="28876" tag="Disease or Syndrome|Disease or Syndrome" start="17" end="29" text="COMORBIDADES" abbr="" />
+<annotation id="28877" tag="Temporal Concept" start="35" end="39" text="hoje" abbr="" />
+<annotation id="28878" tag="Health Care Activity" start="40" end="49" text="avaliação" abbr="" />
+<annotation id="28879" tag="Abbreviation|Medical Device" start="63" end="65" text="mp" abbr="" />
+<annotation id="28880" tag="Health Care Activity" start="88" end="98" text="programado" abbr="" />
+<annotation id="28881" tag="Quantitative Concept" start="111" end="116" text="60/50" abbr="" />
+<annotation id="28882" tag="Clinical Attribute|Clinical Attribute|Abbreviation" start="143" end="145" text="fc" abbr="frequência cardíaca" />
+<annotation id="28883" tag="Quantitative Concept" start="147" end="149" text="37" abbr="" />
+<annotation id="28884" tag="Clinical Attribute" start="169" end="172" text="eri" abbr="" />
+<annotation id="28885" tag="Quantitative Concept" start="195" end="198" text="388" abbr="" />
+<annotation id="28886" tag="Clinical Attribute" start="244" end="252" text="ENERGIAS" abbr="" />
+<annotation id="28887" tag="Quantitative Concept" start="283" end="286" text="381" abbr="" />
+<annotation id="28888" tag="Health Care Activity" start="329" end="334" text="PLANO" abbr="" />
+<annotation id="28889" tag="Health Care Activity" start="338" end="344" text="AGENDO" abbr="" />
+<annotation id="28890" tag="Health Care Related Organization" start="345" end="356" text="AMBULATORIO" abbr="" />
+<annotation id="28891" tag="Abbreviation|Medical Device" start="69" end="84" text="mp camara-dupla" />
+<annotation id="28892" tag="Abbreviation" start="102" end="110" text="modo ddd" />
+<annotation id="28893" tag="Finding" start="121" end="142" text="Ritmo de base sinusal" />
+<annotation id="28894" tag="Abbreviation|Finding" start="154" end="160" text="bat ok" />
+<annotation id="28895" tag="Temporal Concept" start="175" end="180" text="1 MES" />
+<annotation id="28896" tag="Quantitative Concept" start="208" end="211" text="5 , 4" />
+<annotation id="28897" tag="Quantitative Concept" start="219" end="238" text="menor que 0 , 6 x 0 , 4" />
+<annotation id="28898" tag="Quantitative Concept" start="255" end="266" text="2 , 4 A 2 , 4 V" />
+<annotation id="28899" tag="Quantitative Concept" start="296" end="300" text="12 , 7" />
+<annotation id="28900" tag="Quantitative Concept" start="308" end="327" text="menor que 0 , 8 x 0 , 4" />
+<annotation id="28901" tag="Abbreviation|Health Care Related Organization" start="383" end="394" text="CX CARDIACA" />
+<annotation id="28902" tag="Health Care Activity" start="398" end="417" text="MANTIDO PROGRAMAÇÃO" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="28882" annotation2="28883" reltype="associated_with" />
+<rel annotation1="28884" annotation2="28895" reltype="associated_with" />
+<rel annotation1="28886" annotation2="28898" reltype="associated_with" />
+<rel annotation1="28889" annotation2="28890" reltype="associated_with" />
+<rel annotation1="28892" annotation2="28881" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

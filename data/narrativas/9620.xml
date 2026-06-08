@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Lucas, 85A
+FA DESDE JAN/13
+HAS
+DEFICIT COGNITIVO
+EM USO DE: ADDERA    ATENOLOL 50MG 1X / D   ENL 10MG 2X / D   AAS 200MG    EXELON / QUETIAPINA
+S: 
+PCTE SEM QEUIXAS, NEGA DISPNEIA, PALPITACOES E DOR TORACICA.
+AINDA NAO OPEROU A CATARATA.
+O:
+PA 110X70   P 60
+BCANF SS
+CPP LIVRES
+A:
+FA CRONICA SEM ACO - AGUARDA CX CATARATA
+HAS
+P:
+MANTIDAS MEDICS E DOSES
+AGUARDA CX CATARATA PARA INICIAR ACO
+RET 6M
+ENCAMINHO PARA OFTALMO DA STA CASA
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="30658" tag="Abbreviation|Disease or Syndrome" start="12" end="14" text="FA" abbr="" />
+<annotation id="30659" tag="Abbreviation|Disease or Syndrome|Disease or Syndrome" start="29" end="32" text="HAS" abbr="" />
+<annotation id="30660" tag="Pharmacologic Substance|Organic Chemical" start="64" end="70" text="ADDERA" abbr="" />
+<annotation id="30661" tag="Pharmacologic Substance|Organic Chemical" start="74" end="82" text="ATENOLOL" abbr="" />
+<annotation id="30662" tag="Quantitative Concept" start="83" end="87" text="50MG" abbr="" />
+<annotation id="30663" tag="Abbreviation|Quantitative Concept" start="88" end="90" text="1X" abbr="" />
+<annotation id="30664" tag="Abbreviation|Temporal Concept" start="93" end="94" text="D" abbr="" />
+<annotation id="30665" tag="Pharmacologic Substance|Organic Chemical|Abbreviation|Amino Acid, Peptide, or Protein" start="97" end="100" text="ENL" abbr="" />
+<annotation id="30666" tag="Quantitative Concept" start="101" end="105" text="10MG" abbr="" />
+<annotation id="30667" tag="Quantitative Concept|Abbreviation" start="106" end="108" text="2X" abbr="" />
+<annotation id="30668" tag="Temporal Concept|Abbreviation" start="111" end="112" text="D" abbr="dia" />
+<annotation id="30669" tag="Pharmacologic Substance|Pharmacologic Substance|Organic Chemical|Abbreviation" start="115" end="118" text="AAS" abbr="ácido acetilsalicílico" />
+<annotation id="30670" tag="Quantitative Concept" start="119" end="124" text="200MG" abbr="" />
+<annotation id="30671" tag="Pharmacologic Substance|Organic Chemical" start="128" end="134" text="EXELON" abbr="" />
+<annotation id="30672" tag="Pharmacologic Substance|Organic Chemical" start="137" end="147" text="QUETIAPINA" abbr="" />
+<annotation id="30673" tag="Abbreviation|Patient or Disabled Group" start="154" end="158" text="PCTE" abbr="" />
+<annotation id="30674" tag="Negation" start="159" end="162" text="SEM" abbr="" />
+<annotation id="30675" tag="Sign or Symptom" start="163" end="170" text="QEUIXAS" abbr="" />
+<annotation id="30676" tag="Negation" start="172" end="176" text="NEGA" abbr="" />
+<annotation id="30677" tag="Sign or Symptom" start="177" end="185" text="DISPNEIA" abbr="" />
+<annotation id="30678" tag="Sign or Symptom" start="187" end="198" text="PALPITACOES" abbr="" />
+<annotation id="30679" tag="Negation" start="222" end="225" text="NAO" abbr="" />
+<annotation id="30680" tag="Disease or Syndrome" start="235" end="243" text="CATARATA" abbr="" />
+<annotation id="30681" tag="Abbreviation|Clinical Attribute|Clinical Attribute" start="250" end="252" text="PA" abbr="" />
+<annotation id="30682" tag="Quantitative Concept" start="253" end="259" text="110X70" abbr="" />
+<annotation id="30683" tag="Abbreviation|Clinical Attribute" start="262" end="263" text="P" abbr="" />
+<annotation id="30684" tag="Quantitative Concept" start="264" end="266" text="60" abbr="" />
+<annotation id="30685" tag="Sign or Symptom" start="268" end="273" text="BCANF" abbr="" />
+<annotation id="30686" tag="Sign or Symptom|Negation" start="274" end="276" text="SS" abbr="" />
+<annotation id="30687" tag="Negation" start="305" end="308" text="SEM" abbr="" />
+<annotation id="30688" tag="Abbreviation|Pharmacologic Substance" start="309" end="312" text="ACO" abbr="" />
+<annotation id="30689" tag="Abbreviation|Disease or Syndrome|Disease or Syndrome" start="336" end="339" text="HAS" abbr="" />
+<annotation id="30690" tag="Health Care Activity" start="345" end="353" text="MANTIDAS" abbr="" />
+<annotation id="30691" tag="Abbreviation|Pharmacologic Substance" start="354" end="360" text="MEDICS" abbr="" />
+<annotation id="30692" tag="Quantitative Concept" start="363" end="368" text="DOSES" abbr="" />
+<annotation id="30693" tag="Health Care Activity" start="370" end="377" text="AGUARDA" abbr="" />
+<annotation id="30694" tag="Abbreviation" start="378" end="380" text="CX" abbr="" />
+<annotation id="30695" tag="Disease or Syndrome" start="381" end="389" text="CATARATA" abbr="" />
+<annotation id="30696" tag="Abbreviation|Pharmacologic Substance" start="403" end="406" text="ACO" abbr="" />
+<annotation id="30697" tag="Abbreviation|Health Care Activity" start="408" end="411" text="RET" abbr="" />
+<annotation id="30698" tag="Abbreviation|Temporal Concept" start="412" end="414" text="6M" abbr="" />
+<annotation id="30699" tag="Health Care Activity" start="416" end="425" text="ENCAMINHO" abbr="" />
+<annotation id="30700" tag="Professional or Occupational Group|Abbreviation" start="431" end="438" text="OFTALMO" abbr="" />
+<annotation id="30701" tag="Finding|Sign or Symptom" start="34" end="51" text="DEFICIT COGNITIVO" />
+<annotation id="30702" tag="Sign or Symptom" start="201" end="213" text="DOR TORACICA" />
+<annotation id="30703" tag="Abbreviation|Finding" start="278" end="288" text="CPP LIVRES" />
+<annotation id="30704" tag="Abbreviation|Disease or Syndrome" start="294" end="304" text="FA CRONICA" />
+<annotation id="30705" tag="Abbreviation|Therapeutic or Preventive Procedure" start="323" end="334" text="CX CATARATA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="30661" annotation2="30662" reltype="associated_with" />
+<rel annotation1="30662" annotation2="30663" reltype="associated_with" />
+<rel annotation1="30665" annotation2="30666" reltype="associated_with" />
+<rel annotation1="30666" annotation2="30667" reltype="associated_with" />
+<rel annotation1="30669" annotation2="30670" reltype="associated_with" />
+<rel annotation1="30674" annotation2="30675" reltype="negation_of" />
+<rel annotation1="30676" annotation2="30677" reltype="negation_of" />
+<rel annotation1="30676" annotation2="30678" reltype="negation_of" />
+<rel annotation1="30676" annotation2="30702" reltype="negation_of" />
+<rel annotation1="30681" annotation2="30682" reltype="associated_with" />
+<rel annotation1="30683" annotation2="30684" reltype="associated_with" />
+<rel annotation1="30687" annotation2="30688" reltype="negation_of" />
+<rel annotation1="30690" annotation2="30691" reltype="associated_with" />
+<rel annotation1="30699" annotation2="30700" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>
