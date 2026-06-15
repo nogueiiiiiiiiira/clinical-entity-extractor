@@ -15,12 +15,141 @@
 
 ## 1. Sobre o Pipeline
 
-O Clinical Term Mapper é um pipeline modular para extração e mapeamento de entidades clínicas em narrativas médicas em português brasileiro. Utiliza modelos de linguagem de grande escala (LLMs) via Ollama para identificar termos clínicos (doenças, sintomas, medicamentos, exames, procedimentos) e expandir abreviações, seguido de um mapeamento automático para códigos padronizados:
+O **Clinical Term Mapper** é um pipeline (automatizado) para:
+1) extrair entidades clínicas (termos) de narrativas médicas em XML; 
+2) expandir abreviações quando aplicável; 
+3) mapear cada termo para códigos padronizados (SNOMED CT e CID-11); 
+4) auditar/avaliar a qualidade vs. um **gold standard**.
 
-- **SNOMED CT**: via BioPortal API
-- **CID-11**: via API oficial da Organização Mundial da Saúde
+O pipeline roda com **LLMs via Ollama** em duas “funções” distintas:
 
-O pipeline inclui também uma etapa de validação semântica dos mapeamentos usando LLM, garantindo alta precisão nas anotações.
+- **LLM avaliado (extração / normalização / expansão):** é o modelo que produz hipóteses (ex.: lista de termos e expansões).
+- **LLM juiz (JUDGE_MODEL):** é usado como “validador”/“comparador semântico” para decidir se uma hipótese deve ser aceita (ex.: se um termo é clínico/útil, se a expansão faz sentido, se o mapeamento para um código está correto).
+
+> Importante: a execução é orquestrada pelo `app.py` e os scripts são executados **sequencialmente** (não há paralelismo que “pausa o pipeline”). O que existe é auditoria/log detalhados para posterior verificação humana.
+
+### 1.1. Etapas automáticas (end-to-end)
+
+O pipeline completo segue esta ordem (definida pelo `app.py` e documentada também em `scripts/README.md`):
+
+1. **`00_preprocess.py`**: limpa XMLs e gera texto em `data/output/textos_limpos/`.
+2. **`01_extract_terms.py`**: chama o LLM para extrair termos; depois usa o **LLM juiz** para validar “falsos positivos” (FP) e, quando necessário, também valida expansões de abreviações.
+   - Saída principal: CSVs por narrativa em `data/output/csv_individual/{id}/extracted_terms.csv` (e logs).
+3. **`02_map_terminology.py`**: para cada termo extraído, consulta as APIs de **SNOMED CT (BioPortal)** e **CID-11 (WHO)**; aplica **ranking** e então usa o **LLM juiz** para validar se o candidato de código está correto.
+   - Saída principal: atualiza os CSVs com `SCTID`, `CID11`, e flags de correção (`SCTID_correto`, `CID11_correto`).
+4. **`03_merge_results.py`**: consolida todos os CSVs em `data/output/consolidated_terms.csv` e calcula estatísticas de mapeamento.
+5. **`04_evaluate.py`**: compara predições vs. gold standard e produz métricas (VP/FP/FN) em modo **exato (strict)** e **relaxado**.
+6. **`05_audit_report.py`**: gera relatórios de auditoria e arquivos auxiliares para inspeção humana (ex.: lista de rejeitados pelo juiz, comparativos VP/FP/FN).
+
+### 1.2. Como o “LLM juiz” funciona (decisões)
+
+O projeto implementa o “LLM juiz” via chamadas ao modelo configurado em `Config.JUDGE_MODEL`.
+
+Na prática, o juiz aparece em três usos principais:
+
+1) **Validação de termo clínico / rejeição de FP** (no `01_extract_terms.py`)
+- Função: `is_valid_clinical_term_llm(term, contexto)`.
+- O juiz recebe um prompt que contém:
+  - `term` (o termo candidato)
+  - `contexto` (um snippet do texto ao redor do termo, quando há correspondência)
+- A decisão retornada pelo juiz é interpretada como “SIM/NAO” (string contendo “SIM” => aceita; caso contrário => rejeita).
+- Resultado é armazenado em cache para reduzir custo (`fp_validation_cache.json`).
+
+2) **Validação de expansão de abreviação** (também no `01_extract_terms.py`)
+- Função: `verificar_expansao_llm(abrev, expandido)`.
+- O juiz retorna `1` ou `0` para dizer se a expansão está correta.
+- Resultado fica em `expansion_cache.json`.
+
+3) **Validação do mapeamento para códigos** (em `02_map_terminology.py` / `utils.py`)
+- Função: `validar_mapeamento_llm(termo_original, codigo, label_conceito, ...)`.
+- O juiz recebe o termo, o código e o “label/descrição” do conceito.
+- Opcionalmente, inclui `contexto_adicional` (trecho do texto original) para ajudar na decisão.
+- Retorna `1` (aceito) ou `0` (rejeitado).
+- Resultado é cacheado em `validation_cache.json`.
+
+Além disso, quando existem conflitos de expansão ou de mapeamento, o projeto usa o juiz para resolver:
+- `resolver_conflito_expansao(...)`
+- `resolver_conflito_mapeamento(...)`
+
+### 1.3. Como o “LLM avaliado” funciona (extração/hypotheses)
+
+O LLM que é “avaliado” (isto é: gera a hipótese que depois será julgada) é o modelo configurado como `Config.OLLAMA_MODEL`.
+
+No pipeline atual, a extração acontece no `01_extract_terms.py` por `PesquisaClin_Llama(textoClinico)`:
+- O prompt (template em `prompts/pesquisa_clin_llama_system.py`) pede para extrair **termos clínicos** em formato JSON.
+- A saída é parseada para obter `entities` com campos como:
+  - `text` (termo)
+  - `original` (variante original quando houver)
+  - `abbreviation` (boolean)
+  - `category` (Problema/Teste/Tratamento)
+  - `polarity` (Positiva/Negativa)
+
+Depois disso, o pipeline:
+- remove entidades que não batem com o snippet encontrado;
+- usa o **LLM juiz** para rejeitar falsos positivos;
+- consolida entidades duplicadas e resolve conflitos de expansão quando existirem;
+- salva logs e CSVs.
+
+### 1.4. “Hierarquia” e organização/normalização das terminologias
+
+O projeto não implementa uma hierarquia manual tipo “termo > sinônimo > pai” como uma árvore fixa. O que existe, na prática, é uma **normalização + resolução por caches e validação por modelo**, que funciona como uma “camada de organização” para reduzir variações:
+
+- **Normalização de texto** (`padronizar_string`, `normalizar_termo_texto`, `normalizar_para_match` em `scripts/utils.py`).
+- **Normalização com LLM** (quando usada): `normalize_with_llm` / `normalize_clinical_term`.
+- **Determinismo por regras de conflito**: ao consolidar expansões, o sistema chama o juiz para decidir entre candidatos.
+- **Ranking de candidatos de APIs**: ao mapear, `02_map_terminology.py` faz ranking por similaridade e então valida com o juiz.
+
+Em outras palavras: a “hierarquia” de decisão é:
+1) gerar candidatos (LLM avaliado e/ou APIs);
+2) normalizar e consolidar (regras + caches);
+3) validar/selecionar final com o **LLM juiz**.
+
+### 1.5. Como o usuário pode verificar X respostas / auditar correção
+
+O projeto gera artefatos para inspeção humana. Para checar “X respostas” de forma direta, os caminhos mais úteis são:
+
+1) **Resposta bruta do LLM de extração por narrativa**
+- `data/output/logs/{id}/llm_response_{id}.json`
+- Contém o prompt e a resposta bruta do modelo (útil para auditoria do que foi extraído).
+
+2) **Lista de termos rejeitados pelo juiz (FP)**
+- `data/output/logs/filtered_terms_log.txt`
+
+3) **Decisões individuais do “LLM juiz” (estrutura JSON)**
+- `data/output/logs/decisions/`
+- Cada arquivo JSON registra:
+  - `decision_type` (ex.: `fp_validation`, `semantic_match`, `mapping_validation`, etc.)
+  - `input` (termo/código/conteúdo usado)
+  - `output` (SIM/NAO ou 1/0)
+  - `cache_hit` (se veio de cache)
+
+4) **Resultados por narrativa (CSV)**
+- `data/output/csv_individual/{id}/extracted_terms.csv`
+- Colunas principais incluem `textoAnalisado`, `categoria`, `abreviacao`, `SCTID`, `CID11` e flags `SCTID_correto`/`CID11_correto`.
+
+5) **Consolidação global e avaliação vs gold standard**
+- `data/output/consolidated_terms.csv`
+- XLSX/CSV de avaliação:
+  - `data/output/evaluation/avaliacao_exata/avaliacao_detalhada_exata.xlsx`
+  - `data/output/evaluation/avaliacao_relaxada/avaliacao_detalhada_relaxada.xlsx`
+
+6) **Arquivos de comparação VP/FP/FN para inspeção (auditoria)**
+- `data/output/auditoria/comparacao/acertos_vp.csv`
+- `data/output/auditoria/comparacao/falsos_positivos_fp.csv`
+- `data/output/auditoria/comparacao/falsos_negativos_fn.csv`
+
+7) **Amostra de erros classificada**
+- `data/output/evaluation/avaliacao_* /erros_classificados_{sufixo}.csv` (gerado em `04_evaluate.py`).
+
+#### “Verificar X respostas” (na prática)
+Você pode escolher X linhas diretamente dos CSVs/arquivos acima (ex.: pegar as primeiras 50 FP) e comparar:
+- `termoAnalisado` vs `semClin_textoAnalisado` (para FP/FN);
+- `SCTID/CID11` vs `SCTID_correto/CID11_correto`;
+- e abrir o arquivo JSON de decisão correspondente em `data/output/logs/decisions/` para ver a entrada e a saída do juiz.
+
+> O projeto não “para” o pipeline: a checagem humana acontece **depois** via esses artefatos.
+
+
 
 ## 2. Dataset
 
