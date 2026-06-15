@@ -1,5 +1,4 @@
 """Configurações centrais para o pipeline de extração e mapeamento de termos clínicos."""
-
 import os
 
 
@@ -9,13 +8,14 @@ class Config:
     _REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
     OLLAMA_MODEL = "hf.co/althayr/Gemma-3-Gaia-PT-BR-4b-it-GGUF:latest"
+    JUDGE_MODEL = "llama3.1:8b"
+
     TEMPERATURE = 0.0
     TOP_P = 0.9
-    MAX_TOKENS = 8192
+    MAX_TOKENS = 32768
     REPEAT_PENALTY = 1.1
 
-    # Paths absolutos (evita dependência do cwd ao executar scripts)
-    NARRATIVES_FOLDER = os.path.join(_REPO_ROOT, "data", "narr")
+    NARRATIVES_FOLDER = os.path.join(_REPO_ROOT, "data", "narrativas")
     GOLDSTANDARD_FOLDER = os.path.join(_REPO_ROOT, "data", "goldstandard")
     OUTPUT_BASE = os.path.join(_REPO_ROOT, "data", "output")
     CSV_INDIVIDUAL_FOLDER = os.path.join(OUTPUT_BASE, "csv_individual")
@@ -23,12 +23,21 @@ class Config:
     DICIONARIOS_FOLDER = os.path.join(_REPO_ROOT, "data", "dicionarios")
     PROMPTS_FOLDER = os.path.join(_REPO_ROOT, "prompts")
     CLEAN_TEXTS_FOLDER = os.path.join(OUTPUT_BASE, "textos_limpos")
+    LLM_RESPONSES_FOLDER = os.path.join(LOGS_FOLDER, "llm_responses")
 
-    RETRIES = 1
-    EXTRA_RETRIES = 1
-    MAX_WORKERS = None
-    FUZZY_THRESHOLD = 65
-    TFIDF_SIMILARITY_THRESHOLD = 0.7
+    EVALUATION_BASE = os.path.join(OUTPUT_BASE, "evaluation")
+    EVALUATION_EXATA = os.path.join(EVALUATION_BASE, "avaliacao_exata")
+    EVALUATION_RELAXADA = os.path.join(EVALUATION_BASE, "avaliacao_relaxada")
+    METRICS_FOLDER = os.path.join(EVALUATION_BASE, "metricas")
+
+    FUZZY_THRESHOLD = 45
+    TFIDF_SIMILARITY_THRESHOLD = 0.5
+
+    ENABLE_AGGRESSIVE_EXTRACTION = True
+    ENABLE_POST_PROCESSING = False
+
+    SKIP_FP_VALIDATION_FOR_LONG_TERMS = True
+    PERMISSIVE_FP_VALIDATION = True
 
     BIOPORTAL_API_KEY = "09b5677b-aa9d-4e32-b509-bfccfe44c479"
     BIOPORTAL_URL = "http://data.bioontology.org/search"
@@ -44,4 +53,3 @@ class Config:
     EXPANSION_CACHE_FILE = "expansion_cache.json"
     NORM_CACHE_FILE = "norm_cache.json"
     FP_VALIDATION_CACHE_FILE = "fp_validation_cache.json"
-

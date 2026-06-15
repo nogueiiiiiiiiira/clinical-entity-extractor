@@ -39,7 +39,6 @@ def main() -> None:
         txt_path = os.path.join(Config.CLEAN_TEXTS_FOLDER, f"{base}.txt")
         with open(txt_path, 'w', encoding='utf-8') as f:
             f.write(clean_text)
-        print(f"\n\n  OK: {base}.txt salvo em {Config.CLEAN_TEXTS_FOLDER}")
 
 if __name__ == "__main__":
     main()

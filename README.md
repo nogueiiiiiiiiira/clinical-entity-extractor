@@ -176,19 +176,23 @@ python 01_extract_terms.py
 python 02_map_terminology.py
 python 03_merge_results.py
 python 04_evaluate.py
+python 05_audit_report.py
 ```
+
 
 ## 7. Saídas Geradas
 
 | Arquivo | Descrição |
 |---------|-----------|
-| `output/csv_individual/{id}/extracted_terms.csv` | Termos extraídos e mapeados por narrativa |
-| `output/logs/log_execucao.txt` | Log completo da execução |
-| `output/logs/filtered_terms_log.txt` | Termos rejeitados pela validação de FP |
-| `output/consolidated_terms.csv` | Tabela consolidada com todos os termos |
-| `output/evaluation/avaliacao_detalhada_{sufixo}.xlsx` | Avaliação detalhada (Excel) |
-| `output/evaluation/tabela*.csv` | Tabelas de métricas (contagem, precisão, recall, F1) |
-| `output/evaluation/erros_classificados.csv` | Análise qualitativa dos erros |
+| `data/output/csv_individual/{id}/extracted_terms.csv` | Termos extraídos e mapeados por narrativa |
+| `data/output/logs/log_execucao.txt` | Log completo da execução |
+| `data/output/logs/filtered_terms_log.txt` | Termos rejeitados pela validação de FP |
+| `data/output/consolidated_terms.csv` | Tabela consolidada com todos os termos |
+
+| `data/output/evaluation/avaliacao_detalhada_{sufixo}.xlsx` | Avaliação detalhada (Excel) |
+| `data/output/evaluation/metricas/*` | Tabelas de métricas (contagem, precisão, recall, F1) |
+| `data/output/evaluation/*/erros_classificados_{sufixo}.csv` | Análise qualitativa dos erros (por modo) |
+
 
 
 ## 8. Referências

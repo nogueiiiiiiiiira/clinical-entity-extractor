@@ -44,7 +44,6 @@ def main():
         df_mestre["SCTID_correto"].sum() if ("SCTID_correto" in df_mestre.columns and termos_com_snomed > 0) else 0
     )
 
-    # Preferir CID11 se existir; senão usar CID10 como fallback (legado)
     cid_code_col = "CID11" if "CID11" in df_mestre.columns else "CID10"
     cid_correct_col = "CID11_correto" if "CID11_correto" in df_mestre.columns else "CID10_correto"
 
@@ -58,7 +57,7 @@ def main():
     precisao_cid = cid_corretos / total_termos if total_termos > 0 else 0
     precisao_geral = (snomed_corretos + cid_corretos) / (2 * total_termos) if total_termos > 0 else 0
 
-    print("\n\nRESULTADOS DO MAPEAMENTO")
+    print("\n\n==== RESULTADOS DO MAPEAMENTO ====")
     print(f"\nTotal de termos avaliados: {total_termos}")
     print(f"\nTermos com código SNOMED: {termos_com_snomed} ({termos_com_snomed/total_termos:.2%})")
     print(f"\nTermos com código CID-11: {termos_com_cid} ({termos_com_cid/total_termos:.2%})")
@@ -76,7 +75,7 @@ def main():
             if expansoes_totais > 0:
                 expansoes_corretas = df_abrev['expansao_correta'].sum()
                 taxa_acerto = expansoes_corretas / expansoes_totais
-                print(f"\n\nTAXA DE ACERTO DE EXPANSÃO DE ABREVIAÇÕES: {taxa_acerto:.2%} ({expansoes_corretas}/{expansoes_totais})")
+                print(f"\n\n==== TAXA DE ACERTO DE EXPANSÃO DE ABREVIAÇÕES: {taxa_acerto:.2%} ({expansoes_corretas}/{expansoes_totais}) ====")
                 print(f"\nExpansões corretas (1): {expansoes_corretas}, incorretas (0): {expansoes_totais - expansoes_corretas}")
             else:
                 print("\n\nNenhuma abreviação com validação de expansão encontrada.")

@@ -1,6 +1,0 @@
-nomeNarrativa,textoPrompt,categoria,textoAnalisado,abreviacao,abreviacao_original,polaridade,expansao_correta,SCTID,CID11,SCTID_correto,CID11_correto
-9053.xml,"Dispneia importante aos esforços + dor tipo peso no peito no esforço. Obeso, has, icc c # cintilografia miocardica para avaliar angina.",Problema,dor tipo peso no peito,False,,Positiva,,,other,0,1
-9053.xml,"Dispneia importante aos esforços + dor tipo peso no peito no esforço. Obeso, has, icc c # cintilografia miocardica para avaliar angina.",Problema,hipertensão arterial sistêmica,True,has,Positiva,0.0,246280004.0,1015872326,1,1
-9053.xml,"Dispneia importante aos esforços + dor tipo peso no peito no esforço. Obeso, has, icc c # cintilografia miocardica para avaliar angina.",Teste,cintilografia miocardica,False,,Positiva,,,654702340,0,1
-9053.xml,"Dispneia importante aos esforços + dor tipo peso no peito no esforço. Obeso, has, icc c # cintilografia miocardica para avaliar angina.",Problema,dispneia,False,,Positiva,,,960305085,0,1
-9053.xml,"Dispneia importante aos esforços + dor tipo peso no peito no esforço. Obeso, has, icc c # cintilografia miocardica para avaliar angina.",Problema,obesidade,False,,Positiva,,438506002.0,1704980054,1,1

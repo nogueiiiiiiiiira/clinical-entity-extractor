@@ -1,4 +1,4 @@
-"""Adiciona códigos SNOMED CT e CID-11 aos termos extraídos, usando APIs e validação por LLM."""
+"""Adiciona códigos SNOMED CT e CID-11 aos termos extraídos, usando APIs e validação por LLM (modelo juiz). Sem repetições."""
 
 import sys
 import os
@@ -25,7 +25,25 @@ VALIDATION_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Confi
 NORM_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.NORM_CACHE_FILE))
 
 
-def mapear_termo_api(termo: str) -> dict:
+def extrair_contexto_para_termo(df: pd.DataFrame, termo: str) -> str:
+    """Extrai o contexto original de onde o termo foi extraído."""
+    rows = df[df["textoAnalisado"] == termo]
+    if rows.empty:
+        return ""
+    texto_prompt = rows.iloc[0].get("textoPrompt", "")
+    if not texto_prompt:
+        return ""
+    termo_norm = termo.lower()
+    texto_lower = texto_prompt.lower()
+    idx = texto_lower.find(termo_norm)
+    if idx == -1:
+        return texto_prompt[:200]
+    start = max(0, idx - 80)
+    end = min(len(texto_prompt), idx + len(termo) + 80)
+    return texto_prompt[start:end].replace("\n", " ").strip()
+
+
+def mapear_termo_api(termo: str, df: pd.DataFrame = None) -> dict:
     termo_norm = normalize_term(
         termo, NORM_CACHE, os.path.join(Config.DICIONARIOS_FOLDER, Config.NORM_CACHE_FILE)
     )
@@ -34,6 +52,10 @@ def mapear_termo_api(termo: str) -> dict:
         cached = API_CACHE[termo_norm]
         if cached.get("CID11") is not None:
             return cached
+
+    contexto = ""
+    if df is not None:
+        contexto = extrair_contexto_para_termo(df, termo)
 
     snomed_res = query_snomed(
         termo_norm,
@@ -54,15 +76,13 @@ def mapear_termo_api(termo: str) -> dict:
 
     if snomed_res:
         ranked_snomed = rank_results(snomed_res, termo_norm, is_snomed=True)
-        for i in range(min(3, len(ranked_snomed))):
-            cand = ranked_snomed[i][0]
+        if ranked_snomed:
+            cand = ranked_snomed[0][0]
             label = cand.get("label", "")
             codigo = cand.get("code", "")
-            if not label or not codigo:
-                continue
-            label_detalhado = get_label_snomed(codigo) or label
-            if (
-                validar_mapeamento_llm(
+            if label and codigo:
+                label_detalhado = get_label_snomed(codigo) or label
+                if validar_mapeamento_llm(
                     termo_norm,
                     codigo,
                     label_detalhado,
@@ -71,27 +91,24 @@ def mapear_termo_api(termo: str) -> dict:
                         Config.DICIONARIOS_FOLDER,
                         Config.VALIDATION_CACHE_FILE,
                     ),
-                )
-                == 1
-            ):
+                    contexto_adicional=contexto
+                ) == 1:
+                    best_snomed = cand
+                    snomed_correto = 1
+                else:
+                    best_snomed = cand
+            else:
                 best_snomed = cand
-                snomed_correto = 1
-                break
-
-        if best_snomed is None and ranked_snomed:
-            best_snomed = ranked_snomed[0][0]
 
     if icd_res:
         ranked_icd = rank_results(icd_res, termo_norm, is_snomed=False)
-        for i in range(min(3, len(ranked_icd))):
-            cand = ranked_icd[i][0]
+        if ranked_icd:
+            cand = ranked_icd[0][0]
             title = cand.get("title", "")
             codigo = cand.get("code", "")
-            if not codigo:
-                continue
-            title_detalhado = get_label_cid11(codigo) or title or ""
-            if (
-                validar_mapeamento_llm(
+            if codigo:
+                title_detalhado = get_label_cid11(codigo) or title or ""
+                if validar_mapeamento_llm(
                     termo_norm,
                     codigo,
                     title_detalhado,
@@ -100,15 +117,14 @@ def mapear_termo_api(termo: str) -> dict:
                         Config.DICIONARIOS_FOLDER,
                         Config.VALIDATION_CACHE_FILE,
                     ),
-                )
-                == 1
-            ):
+                    contexto_adicional=contexto
+                ) == 1:
+                    best_icd = cand
+                    cid_correto = 1
+                else:
+                    best_icd = cand
+            else:
                 best_icd = cand
-                cid_correto = 1
-                break
-
-        if best_icd is None and ranked_icd:
-            best_icd = ranked_icd[0][0]
 
     resultado = {
         "SCTID": best_snomed["code"] if best_snomed else None,
@@ -140,7 +156,7 @@ def _mapear_csv(path_csv: str) -> None:
     for termo in termos_unicos:
         termo_str = str(termo).strip()
         if termo_str:
-            mapa_global[termo_str] = mapear_termo_api(termo_str)
+            mapa_global[termo_str] = mapear_termo_api(termo_str, df)
 
     df["SCTID"] = df["textoAnalisado"].map(
         lambda x: mapa_global.get(str(x).strip(), {}).get("SCTID") if pd.notna(x) else None
@@ -181,7 +197,7 @@ def main():
         if not os.path.exists(csv_path):
             continue
         _mapear_csv(csv_path)
-        print(f"\nMapeamento concluído para {narrative_base}")
+        print(f"\nMapeamento concluído para {narrative_base}\n")
 
     print("\nTodos os CSVs foram atualizados com códigos.")
 

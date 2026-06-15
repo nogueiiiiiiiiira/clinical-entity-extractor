@@ -1,4 +1,4 @@
-"""Extrai termos clínicos de narrativas usando LLM, com validação de FP, expansão de abreviações, resolução de conflitos e geração de logs."""
+"""Extrai termos clínicos de narrativas usando LLM, com validação de FP, expansão de abreviações, resolução de conflitos e geração de logs. Execução sequencial sem repetições."""
 
 import sys
 import os
@@ -6,16 +6,17 @@ import re
 import json
 import time
 import atexit
-import concurrent.futures
 import pandas as pd
 import xml.etree.ElementTree as ET
 import ollama
+from utils import log_decision
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config.config import Config
 from utils import (
     padronizar_string, normalizar_termo_texto, load_json_cache, save_json_cache,
-    verificar_expansao_llm, resolver_conflito_expansao, salvar_annotations_json, Tee
+    verificar_expansao_llm, resolver_conflito_expansao, salvar_annotations_json, Tee,
+    _save_llm_response
 )
 from prompts.pesquisa_clin_llama_system import SYSTEM_PROMPT as EXTRACTION_SYSTEM_PROMPT
 
@@ -27,11 +28,12 @@ EXPANSION_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config
 NOISE_LOG_GLOBAL = []
 
 def is_valid_clinical_term_llm(term: str, contexto: str = None) -> bool:
-    """Usa LLM para decidir se um termo é uma entidade clínica válida (evita FPs)."""
+    if Config.PERMISSIVE_FP_VALIDATION:
+        return True
     cache_key = f"valid_{term}"
     if cache_key in FP_VALIDATION_CACHE:
         return FP_VALIDATION_CACHE[cache_key]
-    if len(term) > 5 and not term.isupper() and not any(w in term.lower() for w in ['apresenta', 'refere', 'nega', 'paciente']):
+    if Config.SKIP_FP_VALIDATION_FOR_LONG_TERMS and len(term) > 4:
         FP_VALIDATION_CACHE[cache_key] = True
         save_json_cache(FP_VALIDATION_CACHE, FP_CACHE_FILE)
         return True
@@ -47,18 +49,27 @@ def is_valid_clinical_term_llm(term: str, contexto: str = None) -> bool:
     from prompts.validar_termo_clinico_user import USER_TEMPLATE as VALIDAR_TERMO_USER
     user_prompt = VALIDAR_TERMO_USER.format(term=term, contexto=snippet)
     try:
-        resp = ollama.chat(model=Config.OLLAMA_MODEL,
+        resp = ollama.chat(model=Config.JUDGE_MODEL,
                            messages=[{"role": "user", "content": user_prompt}],
                            options={"temperature": 0})
+        _save_llm_response(Config.JUDGE_MODEL, user_prompt, resp["message"]["content"], "fp_validation", term)
         result = "SIM" in resp["message"]["content"].upper()
     except:
         result = True
+    if not result:
+        NOISE_LOG_GLOBAL.append(f'{term}|fp_llm_rejected|ctx:{snippet[:100] if snippet else ""}')
+    log_decision(
+        decision_type="fp_validation",
+        input_data={"term": term, "contexto": snippet[:200] if snippet else ""},
+        output="SIM" if result else "NAO",
+        reason="LLM_judge",
+        cache_hit=(cache_key in FP_VALIDATION_CACHE)
+    )
     FP_VALIDATION_CACHE[cache_key] = result
     save_json_cache(FP_VALIDATION_CACHE, FP_CACHE_FILE)
     return result
 
 def extrair_annotations_validas(resposta_json: str, texto_original: str, narrative_name: str) -> list:
-    """Extrai entidades do JSON do LLM, valida substring e aplica filtro de FP."""
     def parse_response(text):
         try:
             return json.loads(text)
@@ -110,12 +121,29 @@ def extrair_annotations_validas(resposta_json: str, texto_original: str, narrati
         })
     return validas
 
-def PesquisaClin_Llama(textoClinico: str, attempt: int = 1, extra: bool = False) -> str:
-    """Envia prompt para o LLM e retorna a resposta JSON com entidades."""
-    if extra:
-        user_prompt = f"Tentativa especial. Extraia ABSOLUTAMENTE TODOS os termos clínicos. Retorne APENAS JSON. Texto: {textoClinico}\n\nJSON:"
+def extrair_entidades_via_regex(raw_text: str) -> str:
+    pattern = r'"text":\s*"([^"]+)"\s*,\s*"original":\s*"([^"]+)"\s*,\s*"polarity":\s*"([^"]+)"\s*,\s*"abbreviation":\s*(true|false)\s*,\s*"category":\s*"([^"]+)"'
+    matches = re.findall(pattern, raw_text, re.DOTALL)
+    entities = []
+    for match in matches:
+        entities.append({
+            "text": match[0],
+            "original": match[1],
+            "polarity": match[2],
+            "abbreviation": match[3].lower() == "true",
+            "category": match[4]
+        })
+    return json.dumps({"entities": entities}, ensure_ascii=False)
+
+def PesquisaClin_Llama(textoClinico: str) -> str:
+    if Config.ENABLE_AGGRESSIVE_EXTRACTION:
+        user_prompt = f"""Texto clínico (extraia ABSOLUTAMENTE TODOS os termos clínicos relevantes, incluindo doenças, sintomas, exames, medicamentos, procedimentos, achados físicos, resultados laboratoriais, mesmo que pareçam pouco relevantes ou estejam em negação complexa):
+
+{textoClinico}
+
+JSON:"""
     else:
-        user_prompt = f"Texto clínico (tentativa {attempt}):\n{textoClinico}\n\nJSON:"
+        user_prompt = f"Texto clínico:\n{textoClinico}\n\nJSON:"
     try:
         response = ollama.chat(
             model=Config.OLLAMA_MODEL,
@@ -124,6 +152,7 @@ def PesquisaClin_Llama(textoClinico: str, attempt: int = 1, extra: bool = False)
             options={'temperature': 0.2, 'top_p': Config.TOP_P, 'num_predict': Config.MAX_TOKENS, 'repeat_penalty': Config.REPEAT_PENALTY}
         )
         raw_text = response['message']['content'].strip()
+        _save_llm_response(Config.OLLAMA_MODEL, user_prompt, raw_text, "extraction", "main")
         json_match = re.search(r'```json\s*(.*?)\s*```', raw_text, re.DOTALL)
         if json_match:
             raw_text = json_match.group(1)
@@ -132,18 +161,28 @@ def PesquisaClin_Llama(textoClinico: str, attempt: int = 1, extra: bool = False)
             if json_match:
                 raw_text = json_match.group(0)
             else:
-                raw_text = '{"entities": []}'
+                return extrair_entidades_via_regex(raw_text)
         try:
             json.loads(raw_text)
             return raw_text
-        except:
-            return '{"entities": []}'
+        except json.JSONDecodeError:
+            if raw_text.strip().startswith('{"entities": ['):
+                repaired = raw_text.strip()
+                if not repaired.endswith(']'):
+                    repaired += ']'
+                if not repaired.endswith('}'):
+                    repaired += '}'
+                try:
+                    json.loads(repaired)
+                    return repaired
+                except:
+                    pass
+            return extrair_entidades_via_regex(raw_text)
     except Exception as e:
         print(f"\n\nErro na chamada LLM: {e}")
         return '{"entities": []}'
 
 def consolidar_annotations(lista_de_listas: list, narrative_name: str, texto_original: str) -> list:
-    """Consolida múltiplas tentativas, resolvendo conflitos de expansão e removendo duplicatas."""
     melhores = {}
     for ann_list in lista_de_listas:
         for ann in ann_list:
@@ -185,7 +224,6 @@ def consolidar_annotations(lista_de_listas: list, narrative_name: str, texto_ori
     return filtered
 
 def criar_dataframe_da_lista(annotations_consolidadas: list, narrative_name: str, texto_original: str, csv_filename: str):
-    """Cria DataFrame a partir das anotações consolidadas e salva CSV individual."""
     if not annotations_consolidadas:
         empty_df = pd.DataFrame([{"nomeNarrativa": narrative_name, "erro": "Nenhuma anotação válida"}])
         empty_df.to_csv(csv_filename, index=False, encoding='utf-8')
@@ -208,7 +246,6 @@ def criar_dataframe_da_lista(annotations_consolidadas: list, narrative_name: str
     return df
 
 def processar_narrativa_completa(nome_narrativa: str):
-    """Processa uma única narrativa: extrai termos, expande abreviações, valida expansões e salva CSV e JSON."""
     caminho_narrativa = os.path.join(Config.NARRATIVES_FOLDER, nome_narrativa)
     narrative_base = os.path.splitext(nome_narrativa)[0]
     narrative_output_dir = os.path.join(Config.CSV_INDIVIDUAL_FOLDER, narrative_base)
@@ -231,51 +268,20 @@ def processar_narrativa_completa(nome_narrativa: str):
     except Exception as e:
         print(f"\n\nErro ao ler XML {nome_narrativa}: {e}")
         return None
-    todas_annotations_attempts = []
-    sucesso_parcial = False
-    for attempt in range(1, Config.RETRIES + 1):
-        try:
-            print(f"\n\nIniciando tentativa {attempt} para {nome_narrativa}")
-            resposta_json = PesquisaClin_Llama(xml_text, attempt=attempt, extra=False)
-            log_dir = os.path.join(Config.LOGS_FOLDER, narrative_base)
-            os.makedirs(log_dir, exist_ok=True)
-            log_path = os.path.join(log_dir, f"llm_response_{narrative_base}_attempt{attempt}.json")
-            with open(log_path, 'w', encoding='utf-8') as f:
-                f.write(resposta_json)
-            annotations_validas = extrair_annotations_validas(resposta_json, xml_text, nome_narrativa)
-            if annotations_validas:
-                todas_annotations_attempts.append(annotations_validas)
-                sucesso_parcial = True
-                print(f"\nTentativa {attempt} gerou {len(annotations_validas)} termos válidos.")
-            else:
-                print(f"\nTentativa {attempt} não gerou termos válidos.")
-        except Exception as e:
-            print(f"\nErro na tentativa {attempt}: {e}")
-        time.sleep(2)
-    if not sucesso_parcial:
-        print(f"\nNenhuma tentativa gerou termos para {nome_narrativa}. Tentativas extras.")
-        for extra_attempt in range(1, Config.EXTRA_RETRIES + 1):
-            try:
-                resposta_json = PesquisaClin_Llama(xml_text, attempt=extra_attempt, extra=True)
-                annotations_validas = extrair_annotations_validas(resposta_json, xml_text, nome_narrativa)
-                if annotations_validas:
-                    todas_annotations_attempts.append(annotations_validas)
-                    sucesso_parcial = True
-                    print(f"\nTentativa extra {extra_attempt} gerou {len(annotations_validas)} termos válidos.")
-                    break
-                else:
-                    print(f"\nTentativa extra {extra_attempt} não gerou termos.")
-            except Exception as e:
-                print(f"\nErro na tentativa extra {extra_attempt}: {e}")
-            time.sleep(2)
-    if not sucesso_parcial:
-        empty_df = pd.DataFrame([{"nomeNarrativa": nome_narrativa, "erro": "Nenhuma anotação mesmo após tentativas extras"}])
+    print(f"\nExtraindo termos de {nome_narrativa}")
+    resposta_json = PesquisaClin_Llama(xml_text)
+    log_dir = os.path.join(Config.LOGS_FOLDER, narrative_base)
+    os.makedirs(log_dir, exist_ok=True)
+    log_path = os.path.join(log_dir, f"llm_response_{narrative_base}.json")
+    with open(log_path, 'w', encoding='utf-8') as f:
+        f.write(resposta_json)
+    annotations_validas = extrair_annotations_validas(resposta_json, xml_text, nome_narrativa)
+    if not annotations_validas:
+        print(f"\nNenhum termo válido extraído para {nome_narrativa}.")
+        empty_df = pd.DataFrame([{"nomeNarrativa": nome_narrativa, "erro": "Nenhuma anotação válida"}])
         empty_df.to_csv(output_csv_individual, index=False, encoding='utf-8')
         return None
-    annotations_consolidadas = []
-    if todas_annotations_attempts:
-        melhor_attempt = max(todas_annotations_attempts, key=len)
-        annotations_consolidadas = consolidar_annotations([melhor_attempt], nome_narrativa, xml_text)
+    annotations_consolidadas = consolidar_annotations([annotations_validas], nome_narrativa, xml_text)
     if not annotations_consolidadas:
         empty_df = pd.DataFrame([{"nomeNarrativa": nome_narrativa, "erro": "Nenhuma anotação válida após consolidação"}])
         empty_df.to_csv(output_csv_individual, index=False, encoding='utf-8')
@@ -285,7 +291,7 @@ def processar_narrativa_completa(nome_narrativa: str):
         print(f"\n\nDataFrame vazio para {nome_narrativa}.")
         return None
     salvar_annotations_json(annotations_consolidadas, narrative_base, narrative_output_dir)
-    print(f"\n\nProcessado {nome_narrativa} -> {len(df)} termos únicos. Validando expansões...")
+    print(f"Processado {nome_narrativa} -> {len(df)} termos únicos. Validando expansões...\n")
     for idx, row in df.iterrows():
         if row['abreviacao'] and pd.notna(row['abreviacao_original']):
             abrev = row['abreviacao_original']
@@ -298,18 +304,11 @@ def processar_narrativa_completa(nome_narrativa: str):
     df.to_csv(output_csv_individual, index=False, encoding='utf-8')
     return df
 
-def get_optimal_workers() -> int:
-    """Determina o número ideal de workers para processamento paralelo."""
-    cpu_count = os.cpu_count() or 2
-    return min(cpu_count, 4) if Config.MAX_WORKERS is None else Config.MAX_WORKERS
-
 def main() -> None:
-    """Executa a extração paralela de termos para todos os arquivos XML da pasta narrativas."""
     os.makedirs(Config.LOGS_FOLDER, exist_ok=True)
     log_file = open(os.path.join(Config.LOGS_FOLDER, "log_execucao.txt"), "w", encoding="utf-8")
     original_stdout = sys.stdout
     sys.stdout = Tee(sys.stdout, log_file)
-
     def cleanup_logging():
         nonlocal log_file, original_stdout
         if sys.stdout is not original_stdout:
@@ -317,7 +316,6 @@ def main() -> None:
         if log_file and not log_file.closed:
             log_file.close()
     atexit.register(cleanup_logging)
-
     os.makedirs(Config.CSV_INDIVIDUAL_FOLDER, exist_ok=True)
     os.makedirs(Config.LOGS_FOLDER, exist_ok=True)
     os.makedirs(Config.DICIONARIOS_FOLDER, exist_ok=True)
@@ -329,24 +327,15 @@ def main() -> None:
             if f.endswith('_goldstandard.xml'):
                 continue
             arquivos_xml.append(f)
-
-    max_workers = get_optimal_workers()
-    print(f"\nIniciando extração paralela com até {max_workers} threads.")
     lista_dataframes = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_narrative = {executor.submit(processar_narrativa_completa, nome): nome for nome in arquivos_xml}
-        for future in concurrent.futures.as_completed(future_to_narrative):
-            nome = future_to_narrative[future]
-            try:
-                df = future.result()
-                if df is not None and not df.empty:
-                    lista_dataframes.append(df)
-            except Exception as e:
-                print(f"\nErro ao processar {nome}: {e}")
+    for nome in arquivos_xml:
+        df = processar_narrativa_completa(nome)
+        if df is not None and not df.empty:
+            lista_dataframes.append(df)
+        time.sleep(1)
     if lista_dataframes:
         df_mestre = pd.concat(lista_dataframes, ignore_index=True)
         df_mestre.to_csv(os.path.join(Config.CSV_INDIVIDUAL_FOLDER, "all_extracted_terms.csv"), index=False, encoding='utf-8')
-        print("\nExtração concluída.")
     else:
         print("\nNenhum termo extraído.")
     if NOISE_LOG_GLOBAL:
@@ -354,7 +343,6 @@ def main() -> None:
         with open(noise_log_path, 'w', encoding='utf-8') as f:
             for entry in NOISE_LOG_GLOBAL:
                 f.write(entry + "\n")
-        print(f"\nLog de termos filtrados salvo em {noise_log_path}")
 
 if __name__ == "__main__":
     main()

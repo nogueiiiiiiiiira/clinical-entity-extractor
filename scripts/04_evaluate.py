@@ -19,7 +19,9 @@ from utils import (
     llm_semantic_match,
     load_json_cache,
     save_json_cache,
+    verificar_expansao_llm,
 )
+expansion_cache = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE))
 
 
 def extrair_gold_terms(root, narrativa_filename):
@@ -173,8 +175,8 @@ def extrair_contexto(texto, termo, window=80):
     return snippet.strip()
 
 
-def avaliar_modo(csv_path, modo, output_suffix):
-    print(f"\nIniciando avaliação no modo {modo.upper()} (sufixo: {output_suffix})")
+def avaliar_modo(csv_path, modo, output_suffix, output_dir):
+    os.makedirs(output_dir, exist_ok=True)
 
     df_prompts = pd.read_csv(csv_path)
     if "polaridade" in df_prompts.columns:
@@ -264,10 +266,20 @@ def avaliar_modo(csv_path, modo, output_suffix):
                         gold["termo_norm"], pred["termo_norm"]
                     ):
                         matches.append((2, i, j, "VP"))
-                    elif fuzzy_partial_match(pred["termo_norm"], gold["termo_norm"]):
-                        matches.append((1, i, j, "VP"))
-                    elif llm_semantic_match(pred["termo_norm"], gold["termo_norm"]):
-                        matches.append((0.5, i, j, "VP"))
+                    elif verificar_expansao_llm(gold["termo_norm"], pred["termo_norm"], expansion_cache, os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE)) == 1:
+                        matches.append((2, i, j, "VP"))
+                    else:
+                        import re
+                        def normalize_freq(t):
+                            return re.sub(r'\s*\d+xd\s*', '', t)
+                        pred_norm_freq = normalize_freq(pred["termo_norm"])
+                        gold_norm_freq = normalize_freq(gold["termo_norm"])
+                        if pred_norm_freq == gold_norm_freq:
+                            matches.append((2, i, j, "VP"))
+                        elif fuzzy_partial_match(pred["termo_norm"], gold["termo_norm"]):
+                            matches.append((1, i, j, "VP"))
+                        elif llm_semantic_match(pred["termo_norm"], gold["termo_norm"]):
+                            matches.append((0.5, i, j, "VP"))
 
         matches.sort(key=lambda x: (-x[0], x[1], x[2]))
 
@@ -351,13 +363,8 @@ def avaliar_modo(csv_path, modo, output_suffix):
                 categoria_stats.setdefault(cat, {"VP": 0, "FP": 0, "FN": 0})
                 categoria_stats[cat]["FN"] += 1
 
-    eval_dir = os.path.join(Config.OUTPUT_BASE, "evaluation")
-    os.makedirs(eval_dir, exist_ok=True)
-
-    excel_path = os.path.join(eval_dir, f"avaliacao_detalhada_{output_suffix}.xlsx")
+    excel_path = os.path.join(output_dir, f"avaliacao_detalhada_{output_suffix}.xlsx")
     df_resultado.to_excel(excel_path, index=False, engine="openpyxl")
-
-    print(f"\nPlanilha detalhada salva em {excel_path}")
 
     total_acertos = metricas["VP"]
     prec = total_acertos / (total_acertos + metricas["FP"]) if (total_acertos + metricas["FP"]) > 0 else 0
@@ -365,13 +372,13 @@ def avaliar_modo(csv_path, modo, output_suffix):
     f1 = 2 * (prec * rec) / (prec + rec) if (prec + rec) > 0 else 0
 
     pd.DataFrame([metricas]).to_csv(
-        os.path.join(eval_dir, f"tabela2_contagem_geral_{output_suffix}.csv"),
+        os.path.join(output_dir, f"tabela2_contagem_geral_{output_suffix}.csv"),
         index=False,
     )
     pd.DataFrame(
         [{"Modelo": f"Extração - modo {modo}", "Precisão": prec, "Recall": rec, "F1": f1}]
     ).to_csv(
-        os.path.join(eval_dir, f"tabela5_comparacao_geral_{output_suffix}.csv"),
+        os.path.join(output_dir, f"tabela5_comparacao_geral_{output_suffix}.csv"),
         index=False,
     )
 
@@ -389,11 +396,11 @@ def avaliar_modo(csv_path, modo, output_suffix):
         linhas_tabela6.append({"Categoria": cat, "Precisão": prec_cat, "Recall": rec_cat, "F1": f1_cat})
 
     pd.DataFrame(linhas_tabela3).to_csv(
-        os.path.join(eval_dir, f"tabela3_contagem_por_categoria_{output_suffix}.csv"),
+        os.path.join(output_dir, f"tabela3_contagem_por_categoria_{output_suffix}.csv"),
         index=False,
     )
     pd.DataFrame(linhas_tabela6).to_csv(
-        os.path.join(eval_dir, f"tabela6_detalhamento_categoria_{output_suffix}.csv"),
+        os.path.join(output_dir, f"tabela6_detalhamento_categoria_{output_suffix}.csv"),
         index=False,
     )
 
@@ -456,11 +463,119 @@ def avaliar_modo(csv_path, modo, output_suffix):
         )
 
     pd.DataFrame(resumo_erros).to_csv(
-        os.path.join(eval_dir, f"erros_classificados_{output_suffix}.csv"),
+        os.path.join(output_dir, f"erros_classificados_{output_suffix}.csv"),
         index=False,
     )
 
-    print(f"\nAvaliação no modo {modo} concluída.")
+    return {
+        "modo": modo,
+        "total_termos_avaliados": len(df_resultado),
+        "VP": metricas["VP"],
+        "FP": metricas["FP"],
+        "FN": metricas["FN"],
+        "precisao": prec,
+        "recall": rec,
+        "f1": f1
+    }
+
+
+def calcular_metricas_mapeamento(consolidated_csv):
+    """Calcula métricas de mapeamento a partir do CSV consolidado."""
+    df = pd.read_csv(consolidated_csv)
+
+    total_termos = len(df)
+
+    termos_com_snomed = df["SCTID"].notna().sum() if "SCTID" in df.columns else 0
+    snomed_corretos = (
+        df["SCTID_correto"].sum() if ("SCTID_correto" in df.columns and termos_com_snomed > 0) else 0
+    )
+
+    cid_code_col = "CID11" if "CID11" in df.columns else "CID10"
+    cid_correct_col = "CID11_correto" if "CID11_correto" in df.columns else "CID10_correto"
+
+    termos_com_cid = df[cid_code_col].notna().sum() if cid_code_col in df.columns else 0
+    cid_corretos = (
+        df[cid_correct_col].sum() if (cid_correct_col in df.columns and termos_com_cid > 0) else 0
+    )
+
+    precisao_snomed = snomed_corretos / total_termos if total_termos > 0 else 0
+    precisao_cid = cid_corretos / total_termos if total_termos > 0 else 0
+    precisao_geral = (snomed_corretos + cid_corretos) / (2 * total_termos) if total_termos > 0 else 0
+
+    expansoes_corretas = 0
+    expansoes_totais = 0
+    taxa_expansao = 0
+    if 'expansao_correta' in df.columns:
+        mask = df['abreviacao'] == True
+        df_abrev = df[mask]
+        if not df_abrev.empty:
+            expansoes_totais = df_abrev['expansao_correta'].notna().sum()
+            if expansoes_totais > 0:
+                expansoes_corretas = df_abrev['expansao_correta'].sum()
+                taxa_expansao = expansoes_corretas / expansoes_totais
+
+    return {
+        "total_termos_avaliados": total_termos,
+        "termos_com_snomed": termos_com_snomed,
+        "termos_com_cid": termos_com_cid,
+        "snomed_corretos": snomed_corretos,
+        "cid_corretos": cid_corretos,
+        "precisao_snomed": precisao_snomed,
+        "precisao_cid": precisao_cid,
+        "precisao_geral": precisao_geral,
+        "expansoes_totais": expansoes_totais,
+        "expansoes_corretas": expansoes_corretas,
+        "taxa_expansao": taxa_expansao
+    }
+
+
+def salvar_metricas_consolidadas(metricas_exata, metricas_relaxada, metricas_mapeamento):
+    """Salva todas as métricas em um CSV único."""
+    os.makedirs(Config.METRICS_FOLDER, exist_ok=True)
+
+    linhas = []
+
+    linhas.append({
+        "categoria": "avaliacao_exata",
+        "total_termos_avaliados": metricas_exata["total_termos_avaliados"],
+        "VP": metricas_exata["VP"],
+        "FP": metricas_exata["FP"],
+        "FN": metricas_exata["FN"],
+        "precisao": metricas_exata["precisao"],
+        "recall": metricas_exata["recall"],
+        "f1": metricas_exata["f1"]
+    })
+
+    linhas.append({
+        "categoria": "avaliacao_relaxada",
+        "total_termos_avaliados": metricas_relaxada["total_termos_avaliados"],
+        "VP": metricas_relaxada["VP"],
+        "FP": metricas_relaxada["FP"],
+        "FN": metricas_relaxada["FN"],
+        "precisao": metricas_relaxada["precisao"],
+        "recall": metricas_relaxada["recall"],
+        "f1": metricas_relaxada["f1"]
+    })
+
+    linhas.append({
+        "categoria": "mapeamento",
+        "total_termos_avaliados": metricas_mapeamento["total_termos_avaliados"],
+        "termos_com_snomed": metricas_mapeamento["termos_com_snomed"],
+        "termos_com_cid": metricas_mapeamento["termos_com_cid"],
+        "snomed_corretos": metricas_mapeamento["snomed_corretos"],
+        "cid_corretos": metricas_mapeamento["cid_corretos"],
+        "precisao_snomed": metricas_mapeamento["precisao_snomed"],
+        "precisao_cid": metricas_mapeamento["precisao_cid"],
+        "precisao_geral": metricas_mapeamento["precisao_geral"],
+        "expansoes_totais": metricas_mapeamento["expansoes_totais"],
+        "expansoes_corretas": metricas_mapeamento["expansoes_corretas"],
+        "taxa_expansao": metricas_mapeamento["taxa_expansao"]
+    })
+
+    df_metricas = pd.DataFrame(linhas)
+    output_path = os.path.join(Config.METRICS_FOLDER, "metricas_consolidadas.csv")
+    df_metricas.to_csv(output_path, index=False, encoding='utf-8')
+    print(f"\nMétricas consolidadas salvas em {output_path}")
 
 
 def main():
@@ -469,12 +584,29 @@ def main():
         print("\nArquivo consolidado não encontrado. Execute 03_merge_results.py primeiro.")
         return
 
-    avaliar_modo(consolidated_csv, modo="strict", output_suffix="exata")
-    avaliar_modo(consolidated_csv, modo="relaxed", output_suffix="relaxada")
+    metricas_mapeamento = calcular_metricas_mapeamento(consolidated_csv)
 
-    print("\nAvaliação completa (modos estrito e relaxado) finalizada.")
+    metricas_exata = avaliar_modo(consolidated_csv, modo="strict", output_suffix="exata", output_dir=Config.EVALUATION_EXATA)
+    metricas_relaxada = avaliar_modo(consolidated_csv, modo="relaxed", output_suffix="relaxada", output_dir=Config.EVALUATION_RELAXADA)
+
+    salvar_metricas_consolidadas(metricas_exata, metricas_relaxada, metricas_mapeamento)
+
+    print("\n\n=== RESUMO DAS MÉTRICAS DE MAPEAMENTO ===")
+    print(f"Total de termos avaliados: {metricas_mapeamento['total_termos_avaliados']}")
+    print(f"Termos com código SNOMED: {metricas_mapeamento['termos_com_snomed']}")
+    print(f"Termos com código CID-11: {metricas_mapeamento['termos_com_cid']}")
+    print(f"SNOMED - Acertos: {metricas_mapeamento['snomed_corretos']}/{metricas_mapeamento['total_termos_avaliados']} -> Precisão: {metricas_mapeamento['precisao_snomed']:.2%}")
+    print(f"CID-11 - Acertos: {metricas_mapeamento['cid_corretos']}/{metricas_mapeamento['total_termos_avaliados']} -> Precisão: {metricas_mapeamento['precisao_cid']:.2%}")
+    print(f"Precisão geral do mapeamento: {metricas_mapeamento['precisao_geral']:.2%}")
+    if metricas_mapeamento['expansoes_totais'] > 0:
+        print(f"Taxa de acerto de expansão de abreviações: {metricas_mapeamento['taxa_expansao']:.2%} ({metricas_mapeamento['expansoes_corretas']}/{metricas_mapeamento['expansoes_totais']})")
+
+    print("\n\n=== RESUMO AVALIAÇÃO EXATA ===")
+    print(f"Precisão: {metricas_exata['precisao']:.2%} | Recall: {metricas_exata['recall']:.2%} | F1: {metricas_exata['f1']:.2%}")
+
+    print("\n=== RESUMO AVALIAÇÃO RELAXADA ===")
+    print(f"Precisão: {metricas_relaxada['precisao']:.2%} | Recall: {metricas_relaxada['recall']:.2%} | F1: {metricas_relaxada['f1']:.2%}")
 
 
 if __name__ == "__main__":
     main()
-

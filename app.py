@@ -1,7 +1,7 @@
 """Ponto de entrada principal do pipeline de extração e mapeamento de termos clínicos.
 
 Executa sequencialmente todos os scripts do pipeline, na ordem correta:
-00_preprocess.py -> 01_extract_terms.py -> 02_map_terminology.py -> 03_merge_results.py -> 04_evaluate.py
+00_preprocess.py -> 01_extract_terms.py -> 02_map_terminology.py -> 03_merge_results.py -> 04_evaluate.py -> 05_audit_report.py
 
 Para execução parcial, use os argumentos --start-at e --stop-after.
 """
@@ -21,10 +21,6 @@ def run_script(script_name: str, step_num: int, total_steps: int) -> bool:
         print(f"\n\n[ERRO] Script não encontrado: {script_path}")
         return False
 
-    print(f"\n\n{'='*80}")
-    print(f"\nExecutando passo {step_num}/{total_steps}: {script_name}")
-    print(f"\n{'='*80}\n")
-
     result = subprocess.run(
         [sys.executable, str(script_path)],
         cwd=SCRIPT_DIR,
@@ -35,7 +31,6 @@ def run_script(script_name: str, step_num: int, total_steps: int) -> bool:
         print(f"\n\n[ERRO] {script_name} falhou com código {result.returncode}")
         return False
 
-    print(f"\n\n[OK] {script_name} concluído com sucesso.\n")
     return True
 
 def main():
@@ -45,17 +40,13 @@ def main():
     )
     parser.add_argument(
         "--start-at",
-        type=str,
-        choices=["00", "01", "02", "03", "04"],
         default="00",
-        help="Script a partir do qual iniciar (00, 01, 02, 03, 04). Padrão: 00"
+        help="Script a partir do qual iniciar (00, 01, 02, 03, 04, 05). Padrão: 00"
     )
     parser.add_argument(
         "--stop-after",
-        type=str,
-        choices=["00", "01", "02", "03", "04"],
-        default="04",
-        help="Script após o qual parar (00, 01, 02, 03, 04). Padrão: 04"
+        default="05",
+        help="Script após o qual parar (00, 01, 02, 03, 04, 05). Padrão: 05"
     )
     args = parser.parse_args()
 
@@ -64,7 +55,8 @@ def main():
         ("01_extract_terms.py", "01"),
         ("02_map_terminology.py", "02"),
         ("03_merge_results.py", "03"),
-        ("04_evaluate.py", "04")
+        ("04_evaluate.py", "04"),
+        ("05_audit_report.py", "05")
     ]
 
     start_index = None
