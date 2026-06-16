@@ -120,13 +120,13 @@ def gerar_relatorio_auditoria():
 
 
 def gerar_comparacao_gold_vs_predito():
-    """Gera uma comparacao entre o que o LLM extraiu e o gold standard, usando o arquivo de avaliacao relaxada."""
+    """Gera uma comparacao entre o que o LLM extraiu e o gold standard, usando o arquivo de avaliacao."""
     
-    avaliacao_path = os.path.join(Config.EVALUATION_RELAXADA, "avaliacao_detalhada_relaxada.xlsx")
+    avaliacao_path = os.path.join(Config.EVALUATION_BASE, "avaliacao_detalhada_avaliacao.xlsx")
     if not os.path.exists(avaliacao_path):
-        avaliacao_path = os.path.join(Config.EVALUATION_RELAXADA, "avaliacao_detalhada_relaxada.csv")
+        avaliacao_path = os.path.join(Config.EVALUATION_BASE, "avaliacao_detalhada_avaliacao.csv")
         if not os.path.exists(avaliacao_path):
-            print("\nArquivo de avaliacao relaxada nao encontrado. Execute 04_evaluate.py primeiro.")
+            print("\nArquivo de avaliacao nao encontrado. Execute 04_evaluate.py primeiro.")
             return
     
     if avaliacao_path.endswith('.xlsx'):

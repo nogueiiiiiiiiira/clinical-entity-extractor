@@ -529,32 +529,21 @@ def calcular_metricas_mapeamento(consolidated_csv):
     }
 
 
-def salvar_metricas_consolidadas(metricas_exata, metricas_relaxada, metricas_mapeamento):
+def salvar_metricas_consolidadas(metricas_avaliacao, metricas_mapeamento):
     """Salva todas as métricas em um CSV único."""
     os.makedirs(Config.METRICS_FOLDER, exist_ok=True)
 
     linhas = []
 
     linhas.append({
-        "categoria": "avaliacao_exata",
-        "total_termos_avaliados": metricas_exata["total_termos_avaliados"],
-        "VP": metricas_exata["VP"],
-        "FP": metricas_exata["FP"],
-        "FN": metricas_exata["FN"],
-        "precisao": metricas_exata["precisao"],
-        "recall": metricas_exata["recall"],
-        "f1": metricas_exata["f1"]
-    })
-
-    linhas.append({
-        "categoria": "avaliacao_relaxada",
-        "total_termos_avaliados": metricas_relaxada["total_termos_avaliados"],
-        "VP": metricas_relaxada["VP"],
-        "FP": metricas_relaxada["FP"],
-        "FN": metricas_relaxada["FN"],
-        "precisao": metricas_relaxada["precisao"],
-        "recall": metricas_relaxada["recall"],
-        "f1": metricas_relaxada["f1"]
+        "categoria": "avaliacao",
+        "total_termos_avaliados": metricas_avaliacao["total_termos_avaliados"],
+        "VP": metricas_avaliacao["VP"],
+        "FP": metricas_avaliacao["FP"],
+        "FN": metricas_avaliacao["FN"],
+        "precisao": metricas_avaliacao["precisao"],
+        "recall": metricas_avaliacao["recall"],
+        "f1": metricas_avaliacao["f1"]
     })
 
     linhas.append({
@@ -586,10 +575,9 @@ def main():
 
     metricas_mapeamento = calcular_metricas_mapeamento(consolidated_csv)
 
-    metricas_exata = avaliar_modo(consolidated_csv, modo="strict", output_suffix="exata", output_dir=Config.EVALUATION_EXATA)
-    metricas_relaxada = avaliar_modo(consolidated_csv, modo="relaxed", output_suffix="relaxada", output_dir=Config.EVALUATION_RELAXADA)
+    metricas_avaliacao = avaliar_modo(consolidated_csv, modo="relaxed", output_suffix="avaliacao", output_dir=Config.EVALUATION_BASE)
 
-    salvar_metricas_consolidadas(metricas_exata, metricas_relaxada, metricas_mapeamento)
+    salvar_metricas_consolidadas(metricas_avaliacao, metricas_mapeamento)
 
     print("\n\n=== RESUMO DAS MÉTRICAS DE MAPEAMENTO ===")
     print(f"Total de termos avaliados: {metricas_mapeamento['total_termos_avaliados']}")
@@ -601,11 +589,8 @@ def main():
     if metricas_mapeamento['expansoes_totais'] > 0:
         print(f"Taxa de acerto de expansão de abreviações: {metricas_mapeamento['taxa_expansao']:.2%} ({metricas_mapeamento['expansoes_corretas']}/{metricas_mapeamento['expansoes_totais']})")
 
-    print("\n\n=== RESUMO AVALIAÇÃO EXATA ===")
-    print(f"Precisão: {metricas_exata['precisao']:.2%} | Recall: {metricas_exata['recall']:.2%} | F1: {metricas_exata['f1']:.2%}")
-
-    print("\n=== RESUMO AVALIAÇÃO RELAXADA ===")
-    print(f"Precisão: {metricas_relaxada['precisao']:.2%} | Recall: {metricas_relaxada['recall']:.2%} | F1: {metricas_relaxada['f1']:.2%}")
+    print("\n\n=== RESUMO AVALIAÇÃO ===")
+    print(f"Precisão: {metricas_avaliacao['precisao']:.2%} | Recall: {metricas_avaliacao['recall']:.2%} | F1: {metricas_avaliacao['f1']:.2%}")
 
 
 if __name__ == "__main__":

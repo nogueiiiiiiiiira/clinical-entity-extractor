@@ -25,9 +25,7 @@ class Config:
     CLEAN_TEXTS_FOLDER = os.path.join(OUTPUT_BASE, "textos_limpos")
     LLM_RESPONSES_FOLDER = os.path.join(LOGS_FOLDER, "llm_responses")
 
-    EVALUATION_BASE = os.path.join(OUTPUT_BASE, "evaluation")
-    EVALUATION_EXATA = os.path.join(EVALUATION_BASE, "avaliacao_exata")
-    EVALUATION_RELAXADA = os.path.join(EVALUATION_BASE, "avaliacao_relaxada")
+    EVALUATION_BASE = os.path.join(OUTPUT_BASE, "avaliacao")
     METRICS_FOLDER = os.path.join(EVALUATION_BASE, "metricas")
 
     FUZZY_THRESHOLD = 45
