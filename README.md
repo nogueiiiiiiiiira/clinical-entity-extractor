@@ -1,341 +1,376 @@
-# Clinical Term Mapper – Extração e Mapeamento de Termos Clínicos
+# Clinical Entity Extractor + Terminology Mapper (SNOMED CT & CID-11)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+Pipeline para:
+1) extrair termos clínicos (texto→entidades) a partir de narrativas XML,
+2) validar/filtrar falsos positivos e resolver ambiguidades,
+3) mapear cada termo para **SNOMED CT** e **CID-11**,
+4) consolidar resultados,
+5) avaliar contra **gold standard** e gerar relatórios.
 
-## Sumário
-- [1. Sobre o Pipeline](#1-sobre-o-pipeline)
-- [2. Dataset](#2-dataset)
-- [3. Pré-requisitos e Instalação](#3-pré-requisitos-e-instalação)
-- [4. Estrutura do Projeto](#4-estrutura-do-projeto)
-- [5. Configuração](#5-configuração)
-- [6. Execução](#6-execução)
-- [7. Saídas Geradas](#7-saídas-geradas)
-- [8. Referências](#8-referências)
+> Linguagem do domínio: PT-BR.
 
-## 1. Sobre o Pipeline
+---
 
-O **Clinical Term Mapper** é um pipeline (automatizado) para:
-1) extrair entidades clínicas (termos) de narrativas médicas em XML; 
-2) expandir abreviações quando aplicável; 
-3) mapear cada termo para códigos padronizados (SNOMED CT e CID-11); 
-4) auditar/avaliar a qualidade vs. um **gold standard**.
+## Como executar
 
-O pipeline roda com **LLMs via Ollama** em duas “funções” distintas:
+### Dependências
+- Python 3.x
+- `ollama` funcionando localmente (modelo de extração e modelo “juiz”
+- Acesso às APIs usadas no mapeamento:
+  - BioPortal Search (SNOMED CT)
+  - WHO ICD-11 Search + token endpoint
 
-- **LLM avaliado (extração / normalização / expansão):** é o modelo que produz hipóteses (ex.: lista de termos e expansões).
-- **LLM juiz (JUDGE_MODEL):** é usado como “validador”/“comparador semântico” para decidir se uma hipótese deve ser aceita (ex.: se um termo é clínico/útil, se a expansão faz sentido, se o mapeamento para um código está correto).
-
-> Importante: a execução é orquestrada pelo `app.py` e os scripts são executados **sequencialmente** (não há paralelismo que “pausa o pipeline”). O que existe é auditoria/log detalhados para posterior verificação humana.
-
-### 1.1. Etapas automáticas (end-to-end)
-
-O pipeline completo segue esta ordem (definida pelo `app.py` e documentada também em `scripts/README.md`):
-
-1. **`00_preprocess.py`**: limpa XMLs e gera texto em `data/output/textos_limpos/`.
-2. **`01_extract_terms.py`**: chama o LLM para extrair termos; depois usa o **LLM juiz** para validar “falsos positivos” (FP) e, quando necessário, também valida expansões de abreviações.
-   - Saída principal: CSVs por narrativa em `data/output/csv_individual/{id}/extracted_terms.csv` (e logs).
-3. **`02_map_terminology.py`**: para cada termo extraído, consulta as APIs de **SNOMED CT (BioPortal)** e **CID-11 (WHO)**; aplica **ranking** e então usa o **LLM juiz** para validar se o candidato de código está correto.
-   - Saída principal: atualiza os CSVs com `SCTID`, `CID11`, e flags de correção (`SCTID_correto`, `CID11_correto`).
-4. **`03_merge_results.py`**: consolida todos os CSVs em `data/output/consolidated_terms.csv` e calcula estatísticas de mapeamento.
-5. **`04_evaluate.py`**: compara predições vs. gold standard e produz métricas (VP/FP/FN) em modo **exato (strict)** e **relaxado**.
-6. **`05_audit_report.py`**: gera relatórios de auditoria e arquivos auxiliares para inspeção humana (ex.: lista de rejeitados pelo juiz, comparativos VP/FP/FN).
-
-### 1.2. Como o “LLM juiz” funciona (decisões)
-
-O projeto implementa o “LLM juiz” via chamadas ao modelo configurado em `Config.JUDGE_MODEL`.
-
-Na prática, o juiz aparece em três usos principais:
-
-1) **Validação de termo clínico / rejeição de FP** (no `01_extract_terms.py`)
-- Função: `is_valid_clinical_term_llm(term, contexto)`.
-- O juiz recebe um prompt que contém:
-  - `term` (o termo candidato)
-  - `contexto` (um snippet do texto ao redor do termo, quando há correspondência)
-- A decisão retornada pelo juiz é interpretada como “SIM/NAO” (string contendo “SIM” => aceita; caso contrário => rejeita).
-- Resultado é armazenado em cache para reduzir custo (`fp_validation_cache.json`).
-
-2) **Validação de expansão de abreviação** (também no `01_extract_terms.py`)
-- Função: `verificar_expansao_llm(abrev, expandido)`.
-- O juiz retorna `1` ou `0` para dizer se a expansão está correta.
-- Resultado fica em `expansion_cache.json`.
-
-3) **Validação do mapeamento para códigos** (em `02_map_terminology.py` / `utils.py`)
-- Função: `validar_mapeamento_llm(termo_original, codigo, label_conceito, ...)`.
-- O juiz recebe o termo, o código e o “label/descrição” do conceito.
-- Opcionalmente, inclui `contexto_adicional` (trecho do texto original) para ajudar na decisão.
-- Retorna `1` (aceito) ou `0` (rejeitado).
-- Resultado é cacheado em `validation_cache.json`.
-
-Além disso, quando existem conflitos de expansão ou de mapeamento, o projeto usa o juiz para resolver:
-- `resolver_conflito_expansao(...)`
-- `resolver_conflito_mapeamento(...)`
-
-### 1.3. Como o “LLM avaliado” funciona (extração/hypotheses)
-
-O LLM que é “avaliado” (isto é: gera a hipótese que depois será julgada) é o modelo configurado como `Config.OLLAMA_MODEL`.
-
-No pipeline atual, a extração acontece no `01_extract_terms.py` por `PesquisaClin_Llama(textoClinico)`:
-- O prompt (template em `prompts/pesquisa_clin_llama_system.py`) pede para extrair **termos clínicos** em formato JSON.
-- A saída é parseada para obter `entities` com campos como:
-  - `text` (termo)
-  - `original` (variante original quando houver)
-  - `abbreviation` (boolean)
-  - `category` (Problema/Teste/Tratamento)
-  - `polarity` (Positiva/Negativa)
-
-Depois disso, o pipeline:
-- remove entidades que não batem com o snippet encontrado;
-- usa o **LLM juiz** para rejeitar falsos positivos;
-- consolida entidades duplicadas e resolve conflitos de expansão quando existirem;
-- salva logs e CSVs.
-
-### 1.4. “Hierarquia” e organização/normalização das terminologias
-
-O projeto não implementa uma hierarquia manual tipo “termo > sinônimo > pai” como uma árvore fixa. O que existe, na prática, é uma **normalização + resolução por caches e validação por modelo**, que funciona como uma “camada de organização” para reduzir variações:
-
-- **Normalização de texto** (`padronizar_string`, `normalizar_termo_texto`, `normalizar_para_match` em `scripts/utils.py`).
-- **Normalização com LLM** (quando usada): `normalize_with_llm` / `normalize_clinical_term`.
-- **Determinismo por regras de conflito**: ao consolidar expansões, o sistema chama o juiz para decidir entre candidatos.
-- **Ranking de candidatos de APIs**: ao mapear, `02_map_terminology.py` faz ranking por similaridade e então valida com o juiz.
-
-Em outras palavras: a “hierarquia” de decisão é:
-1) gerar candidatos (LLM avaliado e/ou APIs);
-2) normalizar e consolidar (regras + caches);
-3) validar/selecionar final com o **LLM juiz**.
-
-### 1.5. Como o usuário pode verificar X respostas / auditar correção
-
-O projeto gera artefatos para inspeção humana. Para checar “X respostas” de forma direta, os caminhos mais úteis são:
-
-1) **Resposta bruta do LLM de extração por narrativa**
-- `data/output/logs/{id}/llm_response_{id}.json`
-- Contém o prompt e a resposta bruta do modelo (útil para auditoria do que foi extraído).
-
-2) **Lista de termos rejeitados pelo juiz (FP)**
-- `data/output/logs/filtered_terms_log.txt`
-
-3) **Decisões individuais do “LLM juiz” (estrutura JSON)**
-- `data/output/logs/decisions/`
-- Cada arquivo JSON registra:
-  - `decision_type` (ex.: `fp_validation`, `semantic_match`, `mapping_validation`, etc.)
-  - `input` (termo/código/conteúdo usado)
-  - `output` (SIM/NAO ou 1/0)
-  - `cache_hit` (se veio de cache)
-
-4) **Resultados por narrativa (CSV)**
-- `data/output/csv_individual/{id}/extracted_terms.csv`
-- Colunas principais incluem `textoAnalisado`, `categoria`, `abreviacao`, `SCTID`, `CID11` e flags `SCTID_correto`/`CID11_correto`.
-
-5) **Consolidação global e avaliação vs gold standard**
-- `data/output/consolidated_terms.csv`
-- XLSX/CSV de avaliação:
-  - `data/output/evaluation/avaliacao_exata/avaliacao_detalhada_exata.xlsx`
-  - `data/output/evaluation/avaliacao_relaxada/avaliacao_detalhada_relaxada.xlsx`
-
-6) **Arquivos de comparação VP/FP/FN para inspeção (auditoria)**
-- `data/output/auditoria/comparacao/acertos_vp.csv`
-- `data/output/auditoria/comparacao/falsos_positivos_fp.csv`
-- `data/output/auditoria/comparacao/falsos_negativos_fn.csv`
-
-7) **Amostra de erros classificada**
-- `data/output/evaluation/avaliacao_* /erros_classificados_{sufixo}.csv` (gerado em `04_evaluate.py`).
-
-#### “Verificar X respostas” (na prática)
-Você pode escolher X linhas diretamente dos CSVs/arquivos acima (ex.: pegar as primeiras 50 FP) e comparar:
-- `termoAnalisado` vs `semClin_textoAnalisado` (para FP/FN);
-- `SCTID/CID11` vs `SCTID_correto/CID11_correto`;
-- e abrir o arquivo JSON de decisão correspondente em `data/output/logs/decisions/` para ver a entrada e a saída do juiz.
-
-> O projeto não “para” o pipeline: a checagem humana acontece **depois** via esses artefatos.
-
-
-
-## 2. Dataset
-
-O pipeline foi desenvolvido e validado utilizando o corpus **SemClin-Br** (Semantic Clinical Corpus for Brazilian Portuguese) (Oliveira et al., 2022). O corpus é composto por 1.000 anotações clínicas anotadas manualmente por especialistas de diferentes especialidades médicas e instituições. O SemClin-Br inclui 65.117 entidades anotadas, 11.263 relações semânticas, além de dicionários de abreviações médicas e pistas de negação. Ele serve como ground-truth para a extração de entidades e para a avaliação da acurácia dos mapeamentos.
-
-Para utilizar o corpus, é necessário preencher e assinar um termo de solicitação disponível no repositório oficial do projeto. Mais informações podem ser obtidas em:
-
-- **Artigo original**: [SemClinBr - a multi-institutional and multi-specialty semantically annotated corpus for Portuguese clinical NLP tasks](https://doi.org/10.1186/s13326-022-00269-1)
-- **Repositório GitHub**: [HAILab-PUCPR/SemClinBr](https://github.com/HAILab-PUCPR/SemClinBr)
-
-## 3. Pré-requisitos e Instalação
-
-### 3.1. Requisitos de sistema
-- Python 3.8 ou superior
-- Ollama instalado e em execução
-- Acesso à internet para consultas às APIs de mapeamento
-- Espaço em disco: aproximadamente 5 GB (modelos, caches e dados)
-
-### 3.2. Instalação do Ollama
-
+Instale pacotes:
 ```bash
-# Baixar e instalar o Ollama (Linux, macOS, WSL)
-curl -fsSL https://ollama.com/install.sh | sh
-
-# ou acesse https://ollama.com/download para outras plataformas
-
-# Baixar o modelo Llama 3.1 8B (recomendado)
-ollama pull llama3.1:8b
-
-# Iniciar o servidor (geralmente já inicia automaticamente)
-ollama serve
-```
-
-### 3.3. Configuração do ambiente Python
-
-```bash
-# Criar e ativar ambiente virtual (recomendado)
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-
-# Instalar dependências
 pip install -r requirements.txt
 ```
 
-Conteúdo do `requirements.txt`:
-
-```text
-pandas
-openpyxl
-unidecode
-scikit-learn
-rapidfuzz
-requests
-ollama
-```
-
-### 3.4. Configuração das APIs de mapeamento
-
-O pipeline utiliza as seguintes APIs públicas:
-
-- **BioPortal** (SNOMED CT): requer uma chave de API gratuita. Obtenha em [https://bioportal.bioontology.org/](https://bioportal.bioontology.org/)
-- **CID-11 API**: requer credenciais de cliente. Obtenha em [https://icd.who.int/icdapi](https://icd.who.int/icdapi)
-
-As credenciais devem ser inseridas no arquivo `config/config.py`.
-
-## 4. Estrutura do Projeto
-
-```text
-clinical-term-mapper/
-├── config/
-│   └── config.py                 # Configurações centralizadas
-├── scripts/
-│   ├── 00_preprocess.py          # Limpeza e extração de texto dos XMLs
-│   ├── 01_extract_terms.py       # Extração de entidades via LLM
-│   ├── 02_map_terminology.py     # Mapeamento SNOMED e CID-11
-│   ├── 03_merge_results.py       # Consolidação e estatísticas
-│   ├── 04_evaluate.py            # Avaliação contra gold standard
-│   └── utils.py                  # Funções utilitárias
-├── prompts/                      # Templates de prompts para LLM
-├── data/
-│   ├── narrativas/               # Arquivos XML originais
-│   ├── goldstandard/             # Anotações de referência
-│   ├── dicionarios/              # Caches das APIs
-│   └── output/                   # Resultados gerados
-├── app.py                        # Orquestrador do pipeline
-├── requirements.txt
-└── README.md
-```
-
-## 5. Configuração
-
-### 5.1. Arquivo `config/config.py`
-
-Edite as variáveis conforme sua instalação:
-
-```python
-class Config:
-    # Modelo Ollama
-    OLLAMA_MODEL = "llama3.1:8b"
-    TEMPERATURE = 0.0
-    TOP_P = 0.9
-    MAX_TOKENS = 8192
-    REPEAT_PENALTY = 1.1
-
-    # Pastas
-    NARRATIVES_FOLDER = "../data/narrativas"
-    GOLDSTANDARD_FOLDER = "../data/goldstandard"
-    OUTPUT_BASE = "../data/output"
-    CSV_INDIVIDUAL_FOLDER = "../data/output/csv_individual"
-    LOGS_FOLDER = "../data/output/logs"
-    DICIONARIOS_FOLDER = "../data/dicionarios"
-    PROMPTS_FOLDER = "../prompts"
-
-    # Processamento
-    RETRIES = 5
-    EXTRA_RETRIES = 3
-    MAX_WORKERS = 4               # Ajuste conforme sua CPU/GPU
-    FUZZY_THRESHOLD = 65
-
-    # APIs
-    BIOPORTAL_API_KEY = "sua_chave_aqui"
-    ICD_CLIENT_ID = "seu_client_id_aqui"
-    ICD_CLIENT_SECRET = "seu_client_secret_aqui"
-```
-
-### 5.2. Dados de entrada
-
-- **Narrativas**: Coloque os arquivos XML originais (com tag `<TEXT>`) em `data/narrativas/`.
-- **Gold standard**: Coloque os arquivos XML anotados (com tags `<EVENT>`) em `data/goldstandard/`.
-- **Prompts**: A pasta `prompts/` contém os templates LLM para cada etapa. Não altere a menos que saiba o que está fazendo.
-
-## 6. Execução
-
-### 6.1. Execução completa
-
+### Pipeline completo
 ```bash
 python app.py
 ```
 
-### 6.2. Execução parcial (a partir de uma etapa)
-
+### Execução parcial
+O orquestrador `app.py` permite:
 ```bash
-python app.py --start-at 02 --stop-after 03
+python app.py --start-at 00 --stop-after 02
 ```
+Passos possíveis: `00`, `01`, `02`, `03`, `04`, `05`.
 
-### 6.3. Execução manual (script por script)
+---
 
-```bash
-cd scripts
-python 00_preprocess.py
-python 01_extract_terms.py
-python 02_map_terminology.py
-python 03_merge_results.py
-python 04_evaluate.py
-python 05_audit_report.py
-```
+## Hierarquia terminológica (o que é o quê)
+
+O pipeline trabalha com **3 níveis**:
+
+1) **Termo clínico (texto)**
+   - Saída do LLM de extração: entidade textual com `text`, `original`, `polarity`, `abbreviation`, `category`.
+
+2) **Código de ontologia (conceito clínico normalizado)**
+   - **SNOMED CT**: `SCTID` (code) + “label” consultado/validado.
+   - **CID-11**: `CID11` (code) + “title” consultado/validado.
+
+3) **Indicador de acerto (decisão do “juiz”)**
+   - Para cada mapeamento, o pipeline armazena:
+     - `SCTID_correto` ∈ {0,1}
+     - `CID11_correto` ∈ {0,1}
+   - Esses campos são decididos via LLM (“modelo juiz”) comparando:
+     - termo original/label vs. significado do código sugerido.
+
+---
+
+## Visão geral do pipeline (passo a passo)
+
+O `app.py` executa, na ordem:
+
+1. `00_preprocess.py`
+2. `01_extract_terms.py`
+3. `02_map_terminology.py`
+4. `03_merge_results.py`
+5. `04_evaluate.py`
+6. `05_audit_report.py`
+
+---
+
+## Passo 00 — Preprocessamento (`scripts/00_preprocess.py`)
+
+### Objetivo
+Transformar entradas XML em um texto “limpo” pronto para LLM.
+
+### O que faz
+- Lê cada arquivo `.xml` em `data/narrativas/`.
+- Extrai o conteúdo da tag XML: `.//TEXT`.
+- Remove quebras e múltiplos espaços (normaliza `\s+` → espaço).
+- Salva em:
+  - `data/output/textos_limpos/{NOME}.txt`
+
+### Saída
+- Um `.txt` por narrativa.
+
+---
+
+## Passo 01 — Extração de termos (`scripts/01_extract_terms.py`)
+
+### Objetivo
+Extrair entidades clínicas do texto usando:
+- **LLM extrator** (`Config.OLLAMA_MODEL`)
+- **LLM juiz** (`Config.JUDGE_MODEL`) para validações e “veto”
+- Caches para evitar chamadas repetidas
+
+### Entradas
+- XMLs em `data/narrativas/`
+- Usado: conteúdo dentro de `.//TEXT`
+
+### Saídas principais (por narrativa)
+Para cada narrativa `XXXX.xml`:
+- `data/output/csv_individual/XXXX/extracted_terms.csv`
+- `data/output/csv_individual/XXXX/annotations_XXXX.json` (annotations consolidadas)
+- `data/output/logs/XXXX/llm_response_XXXX.json` (resposta bruta do LLM)
+
+E no final:
+- `data/output/csv_individual/all_extracted_terms.csv` (consolidado)
+- `data/output/logs/filtered_terms_log.txt` (termos rejeitados pelo juiz)
+
+### Funções-chave (como cada “peça” funciona)
+
+#### 1) `PesquisaClin_Llama(textoClinico) -> str`
+- Monta prompt:
+  - Se `Config.ENABLE_AGGRESSIVE_EXTRACTION=True`, pede “extraia ABSOLUTAMENTE TUDO…”.
+  - Caso contrário, prompt mais restrito.
+- Chama o extrator via `ollama.chat`.
+- Tenta obter JSON:
+  1. procura bloco ```json ... ```
+  2. procura a primeira ocorrência de `{...}`
+  3. fallback para regex `extrair_entidades_via_regex`
+- Se falhar, retorna `{"entities": []}`.
+
+#### 2) `extrair_annotations_validas(resposta_json, texto_original, narrative_name)`
+- Faz parse robusto do JSON (lida com JSON cercado por texto).
+- Para cada entidade candidata, normaliza e valida:
+  - Checa se `original` é substring contínua do `texto_original`.
+  - Chama `is_valid_clinical_term_llm(texto, contexto)`.
+  - Se inválido: adiciona em `NOISE_LOG_GLOBAL`.
+- Normaliza campos:
+  - `polarity`: garante “Positiva”/“Negativa”
+  - `categoria`: garante “Problema”/“Teste”/“Tratamento”
+- Retorna lista com:
+  - `textoAnalisado`, `categoria`, `abreviacao`, `abreviacao_original`, `polaridade`
+
+#### 3) `is_valid_clinical_term_llm(term, contexto) -> bool`
+É o “juiz” da **extração** (falso positivo).
+- Se `Config.PERMISSIVE_FP_VALIDATION=True`, sempre aceita (veto fica desligado).
+- Caso contrário:
+  - Usa cache `fp_validation_cache.json` por `valid_{term}`.
+  - Regra: se `SKIP_FP_VALIDATION_FOR_LONG_TERMS` e `len(term)>4`, aceita diretamente.
+  - Monta prompt do juiz usando `prompts/validar_termo_clinico_user.py`.
+  - Interpreta retorno contendo “SIM”.
+- Registra auditoria via `utils.log_decision(decision_type="fp_validation", ...)`.
+
+> Isso explica “como ocorre as funcionalidades do juiz” no passo 01: ele filtra ruído/FPs.
+
+#### 4) `consolidar_annotations(lista_de_listas, narrative_name, texto_original)`
+- Deduplica por `(normalizado, polaridade)`.
+- Preferência por spans maiores.
+- Se existirem expansões conflitantes para a mesma abreviação:
+  - chama `utils.resolver_conflito_expansao(...)` (LLM juiz)
+
+#### 5) `criar_dataframe_da_lista(...)`
+- Converte anotações consolidadas em DataFrame com colunas:
+  - `nomeNarrativa`, `textoPrompt`, `categoria`, `textoAnalisado`, `abreviacao`, `abreviacao_original`, `polaridade`
+- Salva em `extracted_terms.csv`.
+
+#### 6) Pós-processamento de abreviações (expansão)
+Após salvar o CSV:
+- Para cada linha com `abreviacao=True`:
+  - chama `utils.verificar_expansao_llm(abrev, expandido, ...)`
+  - guarda em `expansao_correta`.
+
+#### 7) Logs de debug pessoal (por que tudo é salvo)
+O passo 01 gera:
+- `logs/log_execucao.txt` (stdout espelhado via `Tee`)
+- arquivos por narrativa:
+  - `logs/XXXX/llm_response_XXXX.json` (prompt e resposta)
+- `dicionarios/*.json` (caches de normalização/expansão/validação)
+
+Isso permite você:
+- reproduzir decisões,
+- inspecionar o que o LLM devolveu,
+- comparar antes/depois de mudanças em prompts,
+- medir hit de cache.
+
+---
+
+## Passo 02 — Mapeamento de terminologias (`scripts/02_map_terminology.py`)
+
+### Objetivo
+Para cada `textoAnalisado` extraído, obter:
+- melhor candidato SNOMED CT → `SCTID`
+- melhor candidato CID-11 → `CID11`
+- e validar o acerto com o **modelo juiz** (LLM).
+
+### Entradas
+- `data/output/csv_individual/*/extracted_terms.csv`
+
+### O que faz (por termo)
+Função principal: `mapear_termo_api(termo, df)`
+
+1) **Normaliza o termo**
+   - `utils.normalize_term(...)` (usa `normalize_with_llm_*` + cache)
+
+2) **Consulta APIs**
+   - `utils.query_snomed(...)`
+     - BioPortal Search SNOMED CT
+   - `utils.query_icd11(...)`
+     - token WHO + busca ICD-11
+
+3) **Ranking dos candidatos**
+   - `utils.rank_results(...)`
+     - usa similaridade baseada em TF-IDF char n-grams
+
+4) **Validação com “juiz”**
+   - Para SNOMED:
+     - pega `code` + `label`
+     - chama `utils.validar_mapeamento_llm(...)`
+       - prompt `prompts/validar_mapeamento_llm_*`
+       - saída interpretada como 1 (correto) / 0 (incorreto)
+   - Para CID-11:
+     - pega `code` + `title`
+     - chama `utils.validar_mapeamento_llm(...)` igualmente
+
+5) **Retorna resultado**
+- `SCTID`: código do melhor candidato (se validado)
+- `CID11`: código do melhor candidato (se validado)
+- `SCTID_correto`, `CID11_correto`: 0/1
+
+### Caches envolvidos (por que existem)
+- `api_cache.json`: salva resultados brutos de query SNOMED/CID
+- `validation_cache.json`: salva decisão do juiz `(termo_original|codigo)`
+- `norm_cache.json`: salva normalização do termo
+
+---
+
+## Passo 03 — Consolidação e métricas locais (`scripts/03_merge_results.py`)
+
+### Objetivo
+Juntar outputs individuais num arquivo mestre e imprimir estatísticas.
+
+### O que faz
+- Lê todos `extracted_terms.csv` dentro de `data/output/csv_individual/*/`
+- Concatena em `data/output/consolidated_terms.csv`
+- Imprime:
+  - contagem de termos com `SCTID`
+  - contagem de termos com `CID11`
+  - precisão estimada via campos `*_correto`
+  - taxa de acerto de `expansao_correta` (abreviações)
+
+---
+
+## Passo 04 — Avaliação vs Gold Standard (`scripts/04_evaluate.py`)
+
+### Objetivo
+Medir VP/FP/FN comparando `consolidated_terms.csv` com XMLs em `data/goldstandard/`.
+
+### O que faz (alto nível)
+1) Para cada narrativa:
+   - extrai termos gold usando `extrair_gold_terms(root, narrativa_filename)`
+     - filtra `EVENT` com `Tipo` {Problema, Tratamento, Teste}
+     - respeita polaridade Negativa via regras do XML
+
+2) Para cada termo predito:
+   - compara com termos gold usando:
+     - match exato por normalização (`termo_norm`)
+     - modo `relaxed` (expansões/semelhança fuzzy/LLM semântico)
+       - `expansion_of(...)`
+       - `verificar_expansao_llm(...)` (quando aplicável)
+       - `fuzzy_partial_match(...)`
+       - `llm_semantic_match(...)`
+
+3) Monta tabela de avaliação detalhada:
+- classe `VP`, `FP`, `FN`
+- salva planilha `.xlsx`
+
+Também gera CSVs auxiliares:
+- `tabela2_contagem_geral_*`
+- `tabela5_comparacao_geral_*`
+- `tabela3_contagem_por_categoria_*`
+- `tabela6_detalhamento_categoria_*`
+
+### Auditoria de erros
+- `classificar_erro(...)` tenta rotular cada FP/FN com causa (ex.: fragmentado, abreviação não expandida, variação lexical extrema, etc.)
+- `erros_classificados_*.csv` consolida exemplos com contexto.
+
+---
+
+## Passo 05 — Auditoria e comparação (`scripts/05_audit_report.py`)
+
+### Objetivo
+Gerar relatórios “humanos” para depurar decisões.
+
+### Relatórios gerados
+- `data/output/auditoria/termos_rejeitados.csv`
+  - usa `logs/filtered_terms_log.txt`
+- `data/output/auditoria/resumo_auditoria.csv`
+- `data/output/auditoria/comparacao/*`
+  - listas VP/FP/FN com termos e categorias
+
+---
+
+## Saídas (o que você deve encontrar no disco)
+
+Principais:
+- `data/output/textos_limpos/*.txt` (00)
+- `data/output/csv_individual/*/extracted_terms.csv` (01, 02)
+- `data/output/csv_individual/all_extracted_terms.csv` (01)
+- `data/output/consolidated_terms.csv` (03)
+- `data/output/avaliacao/*` (04)
+- `data/output/auditoria/*` (05)
+
+---
+
+## Exemplo completo de narrativa (o fluxo inteiro)
+
+Considere a narrativa (exemplo simplificado):
+> “Paciente refere **has** (hipertensão arterial sistêmica) e **dor torácica**. Nega **dispneia**.”
+
+### 1) Passo 00
+- O XML é limpo: extrai o texto da tag `<TEXT>`.
+
+### 2) Passo 01 (extração)
+- O LLM extrator retorna entidades com JSON contendo, tipicamente:
+  - `has` como `abbreviation=true`
+  - `dor torácica` como `category=Problema`
+  - `dispneia` como `polarity=Negativa` (por negação)
+- Em seguida:
+  - o “juiz” pode rejeitar algum termo como FP (dependendo de `PERMISSIVE_FP_VALIDATION`).
+  - abreviação `has` recebe expansão e é validada via `verificar_expansao_llm`.
+- O CSV final da narrativa fica com:
+  - `textoAnalisado`: expansão (ou termo normal)
+  - `abreviacao_original`: “has”
+  - `expansao_correta`: 0/1
+
+### 3) Passo 02 (mapeamento SNOMED/CID-11)
+Para cada `textoAnalisado`:
+- consulta SNOMED e CID-11
+- rankeia candidatos
+- “juiz de mapeamento” decide `SCTID_correto` e `CID11_correto`
+
+### 4) Passo 03 (consolidação)
+- O pipeline concatena todas as narrativas e salva `consolidated_terms.csv`.
+
+### 5) Passo 04 (avaliação)
+- Com gold standard:
+  - se o termo normalizado bate, vira `VP`
+  - se só bate por expansão/similaridade, continua sendo `VP` no modo `relaxed`
+  - se não existe no gold → `FP`
+  - se gold tem e o modelo não previu → `FN`
+
+### 6) Passo 05 (auditoria)
+- Gera listas de FP/FN e agrupa “por que errou” (por exemplo, abreviação não expandida).
+
+---
+
+## Debug: onde olhar
+
+1) `data/dicionarios/*.json`
+   - caches: normalização, expansão, validações de mapeamento
+2) `data/output/logs/llm_responses/*.json`
+   - cada chamada do LLM salva prompt + resposta
+3) `data/output/logs/decisions/*.json`
+   - decisões estruturadas (cache_hit, motivo, input/output)
+
+---
+
+## Arquitetura
+
+- **Extrator** (LLM): gera entidades em JSON.
+- **Juiz** (LLM):
+  - valida FP da extração (passo 01)
+  - resolve conflitos de expansão
+  - valida expansão de abreviação
+  - valida mapeamento SNOMED/CID-11 (passo 02)
+- **Candidatos** (APIs): SNOMED/BioPortal e ICD-11.
+- **Ranking**: similaridade TF-IDF char n-grams.
+- **Consolidação**: concatena CSVs e gera métricas.
+- **Avaliação**: VP/FP/FN vs gold.
 
 
-## 7. Saídas Geradas
-
-| Arquivo | Descrição |
-|---------|-----------|
-| `data/output/csv_individual/{id}/extracted_terms.csv` | Termos extraídos e mapeados por narrativa |
-| `data/output/logs/log_execucao.txt` | Log completo da execução |
-| `data/output/logs/filtered_terms_log.txt` | Termos rejeitados pela validação de FP |
-| `data/output/consolidated_terms.csv` | Tabela consolidada com todos os termos |
-
-| `data/output/evaluation/avaliacao_detalhada_{sufixo}.xlsx` | Avaliação detalhada (Excel) |
-| `data/output/evaluation/metricas/*` | Tabelas de métricas (contagem, precisão, recall, F1) |
-| `data/output/evaluation/*/erros_classificados_{sufixo}.csv` | Análise qualitativa dos erros (por modo) |
-
-
-
-## 8. Referências
-
-```bibtex
-@article{Oliveira2022,
-  doi = {10.1186/s13326-022-00269-1},
-  year = {2022},
-  month = may,
-  publisher = {Springer Science and Business Media {LLC}},
-  volume = {13},
-  number = {1},
-  author = {Lucas Emanuel Silva e Oliveira and Ana Carolina Peters and Adalniza Moura Pucca da Silva and Caroline Pilatti Gebeluca and Yohan Bonescki Gumiel and Lilian Mie Mukai Cintho and Deborah Ribeiro Carvalho and Sadid Al Hasan and Claudia Maria Cabral Moro},
-  title = {{SemClinBr} - a multi-institutional and multi-specialty semantically annotated corpus for Portuguese clinical {NLP} tasks},
-  journal = {Journal of Biomedical Semantics}
-}
-```

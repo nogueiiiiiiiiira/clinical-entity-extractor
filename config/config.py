@@ -6,9 +6,8 @@ class Config:
     """Armazena todos os parâmetros de configuração, caminhos e credenciais de API."""
 
     _REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-
-    OLLAMA_MODEL = "hf.co/althayr/Gemma-3-Gaia-PT-BR-4b-it-GGUF:latest"
-    JUDGE_MODEL = "llama3.1:8b"
+    OLLAMA_MODEL = "llama3.1:8b"
+    JUDGE_MODEL = "hf.co/althayr/Gemma-3-Gaia-PT-BR-4b-it-GGUF:latest"
 
     TEMPERATURE = 0.0
     TOP_P = 0.9
