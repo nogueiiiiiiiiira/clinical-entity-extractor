@@ -38,13 +38,6 @@ TIPOS_SEMANTICOS_VALIDOS = [
     "Clinical Attribute"
 ]
 
-TERMOS_GENERICOS = [
-    "paciente", "pacientes", "medico", "medicos", "médico", "médicos",
-    "hospital", "hospitais", "enfermeiro", "enfermeiros", "enfermaria",
-    "historia", "história", "exame", "exames", "consulta", "consultas",
-    "queixa", "queixas", "diagnostico", "diagnóstico", "evolucao", "evolução"
-]
-
 def is_valid_clinical_term_llm(term: str, contexto: str = None) -> bool:
     """
     Valida se um termo é uma entidade clínica válida usando a API SNOMED.
@@ -56,9 +49,6 @@ def is_valid_clinical_term_llm(term: str, contexto: str = None) -> bool:
 
     from utils import normalize_basic
     termo_norm = normalize_basic(term)
-
-    if termo_norm in TERMOS_GENERICOS or term.lower() in TERMOS_GENERICOS:
-        return False
 
     cache_key = f"valid_api_{termo_norm}"
     if cache_key in FP_VALIDATION_CACHE:
