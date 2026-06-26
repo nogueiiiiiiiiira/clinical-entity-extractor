@@ -95,7 +95,7 @@ Transformar entradas XML em um texto “limpo” pronto para LLM.
 ### Objetivo
 Extrair entidades clínicas do texto usando:
 - **LLM extrator** (`Config.OLLAMA_MODEL`)
-- **Validação objetiva de Falsos Positivos** via **API SNOMED CT + Filtro Semântico** (substitui o antigo “juiz de FP” baseado em LLM)
+- **Validação objetiva de Falsos Positivos** via **API SNOMED CT + Filtro Semântico**
 - **LLM juiz** (`Config.JUDGE_MODEL`) mantido **apenas** para resolução de ambiguidades contextuais (expansão de abreviações e validação de mapeamento)
 - Caches para evitar chamadas repetidas
 
@@ -375,7 +375,6 @@ Para cada `textoAnalisado` (ex: "has", "dor torácica", "dispneia"):
 - **Extrator** (LLM): gera entidades em JSON.
 - **Filtro de Falsos Positivos** (API SNOMED + Regras):
   - Valida se o termo existe no SNOMED e se possui tipo semântico clínico válido.
-  - *Substitui o antigo LLM juiz de FP*, tornando a filtragem mais rápida, objetiva e confiável para siglas (ex: HAS, DM).
   - Não há interferência manual com listas de termos genéricos; a decisão é puramente baseada na ontologia SNOMED.
 - **Juiz Contextual** (LLM):
   - **Mantido** para tarefas que exigem compreensão do texto:
