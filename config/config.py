@@ -34,7 +34,7 @@ class Config:
     ENABLE_POST_PROCESSING = False
 
     SKIP_FP_VALIDATION_FOR_LONG_TERMS = True
-    PERMISSIVE_FP_VALIDATION = True
+    PERMISSIVE_FP_VALIDATION = False
 
     BIOPORTAL_API_KEY = "09b5677b-aa9d-4e32-b509-bfccfe44c479"
     BIOPORTAL_URL = "http://data.bioontology.org/search"
