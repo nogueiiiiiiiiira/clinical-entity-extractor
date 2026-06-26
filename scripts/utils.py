@@ -497,17 +497,29 @@ def log_decision(decision_type: str, input_data: dict, output: str, confidence: 
         json.dump(log_entry, f, indent=2, ensure_ascii=False)
 
 
+def get_snomed_semantic_type(code: str) -> str:
+    """
+    Obtém o tipo semântico de um código SNOMED CT via BioPortal.
+    Retorna uma string como 'Disorder', 'Finding', 'Substance', etc.
+    """
+    url = f"http://data.bioontology.org/ontologies/SNOMEDCT/classes/{code}"
+    headers = {"Authorization": f"apikey token={Config.BIOPORTAL_API_KEY}"}
+    try:
+        r = requests.get(url, headers=headers, timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            semantic_type = data.get("semanticType")
+            if not semantic_type:
+                types = data.get("types", [])
+                if types and isinstance(types, list):
+                    semantic_type = types[0].get("name", "")
+            return semantic_type if semantic_type else ""
+    except Exception as e:
+        print(f"Erro ao buscar tipo semântico para {code}: {e}")
+    return ""
+
+
 def normalizar_para_match(termo: str) -> str:
     if not isinstance(termo, str):
         termo = str(termo)
-    t = padronizar_string(termo)
-    t = re.sub(r'\b\d+[.,]?\d*\s*(mg|g|ui|mcg|ml|cp|%|x/?dia|cp/dia|/dia|cp ao dia|vezes ao dia|gotas?/?semana|comp|comprimidos?)\b', '', t, flags=re.IGNORECASE)
-    t = re.sub(r'\b\d+[.,]?\d*\s*-\s*\d+[.,]?\d*\s*(mg|g|ui|mcg|ml)\b', '', t, flags=re.IGNORECASE)
-    t = re.sub(r'\b\d+\s*x\s*/?\s*dia\b', '', t, flags=re.IGNORECASE)
-    t = re.sub(r'\b\d+/\d+\s*(h|hora)?\b', '', t)
-    t = re.sub(r'\b\d+\s*cp\b', '', t)
-    t = re.sub(r'\b\d+\s*carteiras?\s*/\s*dia\b', '', t, flags=re.IGNORECASE)
-    t = re.sub(r'\b\d+\s*anos-maco\b', '', t, flags=re.IGNORECASE)
-    t = re.sub(r'[^\w\s]', ' ', t)
-    t = re.sub(r'\s+', ' ', t).strip()
-    return t
+    return normalizar_termo_texto(termo)
