@@ -2,7 +2,7 @@
 
 Pipeline para:
 1) extrair termos clínicos (texto→entidades) a partir de narrativas XML,
-2) validar/filtrar falsos positivos e resolver ambiguidades,
+2) validar/filtrar falsos positivos de forma **objetiva via SNOMED CT** e resolver ambiguidades contextuais com LLM,
 3) mapear cada termo para **SNOMED CT** e **CID-11**,
 4) consolidar resultados,
 5) avaliar contra **gold standard** e gerar relatórios.
@@ -15,7 +15,7 @@ Pipeline para:
 
 ### Dependências
 - Python 3.x
-- `ollama` funcionando localmente (modelo de extração e modelo “juiz”
+- `ollama` funcionando localmente (modelo de extração e modelo “juiz” para tarefas contextuais)
 - Acesso às APIs usadas no mapeamento:
   - BioPortal Search (SNOMED CT)
   - WHO ICD-11 Search + token endpoint
@@ -94,7 +94,8 @@ Transformar entradas XML em um texto “limpo” pronto para LLM.
 ### Objetivo
 Extrair entidades clínicas do texto usando:
 - **LLM extrator** (`Config.OLLAMA_MODEL`)
-- **LLM juiz** (`Config.JUDGE_MODEL`) para validações e “veto”
+- **Validação objetiva de Falsos Positivos** via **API SNOMED CT + Filtro Semântico** (substitui o antigo “juiz de FP” baseado em LLM)
+- **LLM juiz** (`Config.JUDGE_MODEL`) mantido **apenas** para resolução de ambiguidades contextuais (expansão de abreviações e validação de mapeamento)
 - Caches para evitar chamadas repetidas
 
 ### Entradas
@@ -109,7 +110,7 @@ Para cada narrativa `XXXX.xml`:
 
 E no final:
 - `data/output/csv_individual/all_extracted_terms.csv` (consolidado)
-- `data/output/logs/filtered_terms_log.txt` (termos rejeitados pelo juiz)
+- `data/output/logs/filtered_terms_log.txt` (termos rejeitados pela validação)
 
 ### Funções-chave (como cada “peça” funciona)
 
@@ -128,7 +129,7 @@ E no final:
 - Faz parse robusto do JSON (lida com JSON cercado por texto).
 - Para cada entidade candidata, normaliza e valida:
   - Checa se `original` é substring contínua do `texto_original`.
-  - Chama `is_valid_clinical_term_llm(texto, contexto)`.
+  - Chama `is_valid_clinical_term_llm(texto, contexto)` **(agora baseada em API SNOMED)**.
   - Se inválido: adiciona em `NOISE_LOG_GLOBAL`.
 - Normaliza campos:
   - `polarity`: garante “Positiva”/“Negativa”
@@ -136,23 +137,27 @@ E no final:
 - Retorna lista com:
   - `textoAnalisado`, `categoria`, `abreviacao`, `abreviacao_original`, `polaridade`
 
-#### 3) `is_valid_clinical_term_llm(term, contexto) -> bool`
-É o “juiz” da **extração** (falso positivo).
-- Se `Config.PERMISSIVE_FP_VALIDATION=True`, sempre aceita (veto fica desligado).
-- Caso contrário:
-  - Usa cache `fp_validation_cache.json` por `valid_{term}`.
-  - Regra: se `SKIP_FP_VALIDATION_FOR_LONG_TERMS` e `len(term)>4`, aceita diretamente.
-  - Monta prompt do juiz usando `prompts/validar_termo_clinico_user.py`.
-  - Interpreta retorno contendo “SIM”.
-- Registra auditoria via `utils.log_decision(decision_type="fp_validation", ...)`.
+#### 3) `is_valid_clinical_term_llm(term, contexto) -> bool` (NOVA VERSÃO)
+Esta função agora atua como um **filtro objetivo baseado em terminologia**, e **não** chama mais o LLM para decidir se o termo é ruído.
 
-> Isso explica “como ocorre as funcionalidades do juiz” no passo 01: ele filtra ruído/FPs.
+- Se `Config.PERMISSIVE_FP_VALIDATION=True`, aceita tudo (modo permissivo, desliga o filtro).
+- Caso contrário (padrão `False`):
+  - **Normaliza** o termo.
+  - **Verifica a `TERMOS_GENERICOS`**: se o termo estiver nesta lista (ex: "paciente", "médico", "hospital", "queixa"), **rejeita imediatamente**.
+  - **Consulta a API SNOMED** (`utils.query_snomed`) para o termo.
+  - Se não encontrar resultados no SNOMED, **rejeita**.
+  - Se encontrar, para cada resultado, obtém o **tipo semântico** (`utils.get_snomed_semantic_type`).
+  - Se o tipo semântico estiver em `TIPOS_SEMANTICOS_VALIDOS` (ex: `Disorder`, `Finding`, `Procedure`, `Substance`), **aceita**.
+  - Caso contrário (ex: `Person`, `Environment`, `Qualifier`), **rejeita**.
+- Resultados são cacheados em `fp_validation_cache.json` para evitar chamadas repetidas à API.
+
+> **Impacto prático**: "HAS" agora é **mantido** (SNOMED retorna `Disorder`), enquanto "paciente" é **descartado** (está em `TERMOS_GENERICOS` ou tem tipo `Person`). O processo é mais rápido, barato e não sofre com alucinações de LLM para siglas.
 
 #### 4) `consolidar_annotations(lista_de_listas, narrative_name, texto_original)`
 - Deduplica por `(normalizado, polaridade)`.
 - Preferência por spans maiores.
 - Se existirem expansões conflitantes para a mesma abreviação:
-  - chama `utils.resolver_conflito_expansao(...)` (LLM juiz)
+  - chama `utils.resolver_conflito_expansao(...)` (LLM juiz, mantido para esta tarefa contextual).
 
 #### 5) `criar_dataframe_da_lista(...)`
 - Converte anotações consolidadas em DataFrame com colunas:
@@ -162,7 +167,7 @@ E no final:
 #### 6) Pós-processamento de abreviações (expansão)
 Após salvar o CSV:
 - Para cada linha com `abreviacao=True`:
-  - chama `utils.verificar_expansao_llm(abrev, expandido, ...)`
+  - chama `utils.verificar_expansao_llm(abrev, expandido, ...)` (LLM juiz mantido)
   - guarda em `expansao_correta`.
 
 #### 7) Logs de debug pessoal (por que tudo é salvo)
@@ -170,7 +175,7 @@ O passo 01 gera:
 - `logs/log_execucao.txt` (stdout espelhado via `Tee`)
 - arquivos por narrativa:
   - `logs/XXXX/llm_response_XXXX.json` (prompt e resposta)
-- `dicionarios/*.json` (caches de normalização/expansão/validação)
+- `dicionarios/*.json` (caches de normalização, validação de FP via API, expansão)
 
 Isso permite você:
 - reproduzir decisões,
@@ -186,7 +191,7 @@ Isso permite você:
 Para cada `textoAnalisado` extraído, obter:
 - melhor candidato SNOMED CT → `SCTID`
 - melhor candidato CID-11 → `CID11`
-- e validar o acerto com o **modelo juiz** (LLM).
+- e validar o acerto com o **modelo juiz** (LLM), que **continua atuando** nesta etapa para garantir a correção contextual do código.
 
 ### Entradas
 - `data/output/csv_individual/*/extracted_terms.csv`
@@ -207,7 +212,7 @@ Função principal: `mapear_termo_api(termo, df)`
    - `utils.rank_results(...)`
      - usa similaridade baseada em TF-IDF char n-grams
 
-4) **Validação com “juiz”**
+4) **Validação com “juiz” (LLM)**
    - Para SNOMED:
      - pega `code` + `label`
      - chama `utils.validar_mapeamento_llm(...)`
@@ -321,18 +326,23 @@ Considere a narrativa (exemplo simplificado):
   - `dor torácica` como `category=Problema`
   - `dispneia` como `polarity=Negativa` (por negação)
 - Em seguida:
-  - o “juiz” pode rejeitar algum termo como FP (dependendo de `PERMISSIVE_FP_VALIDATION`).
-  - abreviação `has` recebe expansão e é validada via `verificar_expansao_llm`.
+  - **Validação de FP (API SNOMED)**: 
+    - `"paciente"` → rejeitado (está em `TERMOS_GENERICOS` ou tipo `Person`).
+    - `"has"` → consulta SNOMED, encontra `Disorder` → **mantido**.
+    - `"dor torácica"` → consulta SNOMED, encontra `Finding` → **mantido**.
+    - `"dispneia"` → consulta SNOMED, encontra `Finding` → **mantido** (a polaridade é tratada separadamente).
+  - Expansão de abreviação (`has`): o LLM juiz valida a expansão "hipertensão arterial sistêmica" via `verificar_expansao_llm`.
 - O CSV final da narrativa fica com:
   - `textoAnalisado`: expansão (ou termo normal)
   - `abreviacao_original`: “has”
   - `expansao_correta`: 0/1
+  - **Nota**: "paciente" não aparece no CSV final.
 
 ### 3) Passo 02 (mapeamento SNOMED/CID-11)
-Para cada `textoAnalisado`:
+Para cada `textoAnalisado` (ex: "has", "dor torácica", "dispneia"):
 - consulta SNOMED e CID-11
 - rankeia candidatos
-- “juiz de mapeamento” decide `SCTID_correto` e `CID11_correto`
+- “juiz de mapeamento” (LLM) decide `SCTID_correto` e `CID11_correto`
 
 ### 4) Passo 03 (consolidação)
 - O pipeline concatena todas as narrativas e salva `consolidated_terms.csv`.
@@ -352,25 +362,26 @@ Para cada `textoAnalisado`:
 ## Debug: onde olhar
 
 1) `data/dicionarios/*.json`
-   - caches: normalização, expansão, validações de mapeamento
+   - caches: normalização, expansão, validações de mapeamento e **validação de FP via API SNOMED** (`fp_validation_cache.json`).
 2) `data/output/logs/llm_responses/*.json`
-   - cada chamada do LLM salva prompt + resposta
+   - cada chamada do LLM salva prompt + resposta (extração, expansão, mapeamento).
 3) `data/output/logs/decisions/*.json`
-   - decisões estruturadas (cache_hit, motivo, input/output)
+   - decisões estruturadas (cache_hit, motivo, input/output).
 
 ---
 
 ## Arquitetura
 
 - **Extrator** (LLM): gera entidades em JSON.
-- **Juiz** (LLM):
-  - valida FP da extração (passo 01)
-  - resolve conflitos de expansão
-  - valida expansão de abreviação
-  - valida mapeamento SNOMED/CID-11 (passo 02)
+- **Filtro de Falsos Positivos** (API SNOMED + Regras):
+  - Valida se o termo existe no SNOMED, se possui tipo semântico clínico válido e se não está na lista de genéricos.
+  - *Substitui o antigo LLM juiz de FP*, tornando a filtragem mais rápida, objetiva e confiável para siglas (ex: HAS, DM).
+- **Juiz Contextual** (LLM):
+  - **Mantido** para tarefas que exigem compreensão do texto:
+    - Resolução de conflitos de expansão.
+    - Validação de expansão de abreviação.
+    - Validação de mapeamento SNOMED/CID-11 (passo 02).
 - **Candidatos** (APIs): SNOMED/BioPortal e ICD-11.
 - **Ranking**: similaridade TF-IDF char n-grams.
 - **Consolidação**: concatena CSVs e gera métricas.
 - **Avaliação**: VP/FP/FN vs gold.
-
-
