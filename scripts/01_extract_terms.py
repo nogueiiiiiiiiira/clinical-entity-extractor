@@ -16,7 +16,7 @@ from config.config import Config
 from utils import (
     padronizar_string, normalizar_termo_texto, load_json_cache, save_json_cache,
     verificar_expansao_llm, resolver_conflito_expansao, salvar_annotations_json, Tee,
-    _save_llm_response
+    _save_llm_response, query_snomed, get_snomed_semantic_type
 )
 from prompts.pesquisa_clin_llama_system import SYSTEM_PROMPT as EXTRACTION_SYSTEM_PROMPT
 
@@ -27,47 +27,65 @@ FP_VALIDATION_CACHE.update(load_json_cache(FP_CACHE_FILE))
 EXPANSION_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE))
 NOISE_LOG_GLOBAL = []
 
+TIPOS_SEMANTICOS_VALIDOS = [
+    "Disorder",
+    "Finding",
+    "Procedure",
+    "Substance",
+    "Organism",
+    "Body Structure",
+    "Pharmaceutical",
+    "Clinical Attribute"
+]
+
+TERMOS_GENERICOS = [
+    "paciente", "pacientes", "medico", "medicos", "médico", "médicos",
+    "hospital", "hospitais", "enfermeiro", "enfermeiros", "enfermaria",
+    "historia", "história", "exame", "exames", "consulta", "consultas",
+    "queixa", "queixas", "diagnostico", "diagnóstico", "evolucao", "evolução"
+]
+
 def is_valid_clinical_term_llm(term: str, contexto: str = None) -> bool:
+    """
+    Valida se um termo é uma entidade clínica válida usando a API SNOMED.
+    Se o termo não existir no SNOMED ou for de um tipo semântico inválido, descarta.
+    Se existir e for de um tipo semântico válido, mantém.
+    """
     if Config.PERMISSIVE_FP_VALIDATION:
         return True
-    cache_key = f"valid_{term}"
+
+    from utils import normalize_basic
+    termo_norm = normalize_basic(term)
+
+    if termo_norm in TERMOS_GENERICOS or term.lower() in TERMOS_GENERICOS:
+        return False
+
+    cache_key = f"valid_api_{termo_norm}"
     if cache_key in FP_VALIDATION_CACHE:
         return FP_VALIDATION_CACHE[cache_key]
-    if Config.SKIP_FP_VALIDATION_FOR_LONG_TERMS and len(term) > 4:
-        FP_VALIDATION_CACHE[cache_key] = True
+
+    resultados = query_snomed(termo_norm, FP_VALIDATION_CACHE, FP_CACHE_FILE)
+
+    if not resultados:
+        FP_VALIDATION_CACHE[cache_key] = False
         save_json_cache(FP_VALIDATION_CACHE, FP_CACHE_FILE)
-        return True
-    snippet = ""
-    if contexto:
-        ctx_norm = padronizar_string(contexto)
-        t_norm = padronizar_string(term)
-        if t_norm and t_norm in ctx_norm:
-            idx = ctx_norm.find(t_norm)
-            start = max(0, idx - 100)
-            end = min(len(ctx_norm), idx + len(t_norm) + 100)
-            snippet = f" no contexto: {ctx_norm[start:end]}"
-    from prompts.validar_termo_clinico_user import USER_TEMPLATE as VALIDAR_TERMO_USER
-    user_prompt = VALIDAR_TERMO_USER.format(term=term, contexto=snippet)
-    try:
-        resp = ollama.chat(model=Config.JUDGE_MODEL,
-                           messages=[{"role": "user", "content": user_prompt}],
-                           options={"temperature": 0})
-        _save_llm_response(Config.JUDGE_MODEL, user_prompt, resp["message"]["content"], "fp_validation", term)
-        result = "SIM" in resp["message"]["content"].upper()
-    except:
-        result = True
-    if not result:
-        NOISE_LOG_GLOBAL.append(f'{term}|fp_llm_rejected|ctx:{snippet[:100] if snippet else ""}')
-    log_decision(
-        decision_type="fp_validation",
-        input_data={"term": term, "contexto": snippet[:200] if snippet else ""},
-        output="SIM" if result else "NAO",
-        reason="LLM_judge",
-        cache_hit=(cache_key in FP_VALIDATION_CACHE)
-    )
-    FP_VALIDATION_CACHE[cache_key] = result
+        return False
+
+    for res in resultados:
+        code = res.get("code")
+        if not code:
+            continue
+
+        semantic_type = get_snomed_semantic_type(code)
+
+        if semantic_type in TIPOS_SEMANTICOS_VALIDOS:
+            FP_VALIDATION_CACHE[cache_key] = True
+            save_json_cache(FP_VALIDATION_CACHE, FP_CACHE_FILE)
+            return True
+
+    FP_VALIDATION_CACHE[cache_key] = False
     save_json_cache(FP_VALIDATION_CACHE, FP_CACHE_FILE)
-    return result
+    return False
 
 def extrair_annotations_validas(resposta_json: str, texto_original: str, narrative_name: str) -> list:
     def parse_response(text):
