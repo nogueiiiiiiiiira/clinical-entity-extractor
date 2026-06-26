@@ -1,3 +1,4 @@
+
 # Clinical Entity Extractor + Terminology Mapper (SNOMED CT & CID-11)
 
 Pipeline para:
@@ -143,7 +144,6 @@ Esta função agora atua como um **filtro objetivo baseado em terminologia**, e 
 - Se `Config.PERMISSIVE_FP_VALIDATION=True`, aceita tudo (modo permissivo, desliga o filtro).
 - Caso contrário (padrão `False`):
   - **Normaliza** o termo.
-  - **Verifica a `TERMOS_GENERICOS`**: se o termo estiver nesta lista (ex: "paciente", "médico", "hospital", "queixa"), **rejeita imediatamente**.
   - **Consulta a API SNOMED** (`utils.query_snomed`) para o termo.
   - Se não encontrar resultados no SNOMED, **rejeita**.
   - Se encontrar, para cada resultado, obtém o **tipo semântico** (`utils.get_snomed_semantic_type`).
@@ -151,7 +151,7 @@ Esta função agora atua como um **filtro objetivo baseado em terminologia**, e 
   - Caso contrário (ex: `Person`, `Environment`, `Qualifier`), **rejeita**.
 - Resultados são cacheados em `fp_validation_cache.json` para evitar chamadas repetidas à API.
 
-> **Impacto prático**: "HAS" agora é **mantido** (SNOMED retorna `Disorder`), enquanto "paciente" é **descartado** (está em `TERMOS_GENERICOS` ou tem tipo `Person`). O processo é mais rápido, barato e não sofre com alucinações de LLM para siglas.
+> **Impacto prático**: "HAS" agora é **mantido** (SNOMED retorna `Disorder`), enquanto "paciente" é **descartado** naturalmente (pois retorna `Person`, que não está na lista de tipos válidos). Não há interferência manual com listas de termos genéricos — a decisão é puramente baseada na ontologia SNOMED.
 
 #### 4) `consolidar_annotations(lista_de_listas, narrative_name, texto_original)`
 - Deduplica por `(normalizado, polaridade)`.
@@ -327,7 +327,7 @@ Considere a narrativa (exemplo simplificado):
   - `dispneia` como `polarity=Negativa` (por negação)
 - Em seguida:
   - **Validação de FP (API SNOMED)**: 
-    - `"paciente"` → rejeitado (está em `TERMOS_GENERICOS` ou tipo `Person`).
+    - `"paciente"` → consulta SNOMED, retorna `Person` (não está em `TIPOS_SEMANTICOS_VALIDOS`) → **rejeitado**.
     - `"has"` → consulta SNOMED, encontra `Disorder` → **mantido**.
     - `"dor torácica"` → consulta SNOMED, encontra `Finding` → **mantido**.
     - `"dispneia"` → consulta SNOMED, encontra `Finding` → **mantido** (a polaridade é tratada separadamente).
@@ -374,8 +374,9 @@ Para cada `textoAnalisado` (ex: "has", "dor torácica", "dispneia"):
 
 - **Extrator** (LLM): gera entidades em JSON.
 - **Filtro de Falsos Positivos** (API SNOMED + Regras):
-  - Valida se o termo existe no SNOMED, se possui tipo semântico clínico válido e se não está na lista de genéricos.
+  - Valida se o termo existe no SNOMED e se possui tipo semântico clínico válido.
   - *Substitui o antigo LLM juiz de FP*, tornando a filtragem mais rápida, objetiva e confiável para siglas (ex: HAS, DM).
+  - Não há interferência manual com listas de termos genéricos; a decisão é puramente baseada na ontologia SNOMED.
 - **Juiz Contextual** (LLM):
   - **Mantido** para tarefas que exigem compreensão do texto:
     - Resolução de conflitos de expansão.
