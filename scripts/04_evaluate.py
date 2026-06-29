@@ -278,8 +278,7 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
                             matches.append((2, i, j, "VP"))
                         elif fuzzy_partial_match(pred["termo_norm"], gold["termo_norm"]):
                             matches.append((1, i, j, "VP"))
-                        elif llm_semantic_match(pred["termo_norm"], gold["termo_norm"]):
-                            matches.append((0.5, i, j, "VP"))
+
 
         matches.sort(key=lambda x: (-x[0], x[1], x[2]))
 

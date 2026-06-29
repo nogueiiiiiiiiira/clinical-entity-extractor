@@ -221,7 +221,7 @@ def query_icd11(query: str, api_cache: dict, cache_file: str, force_refresh: boo
     }
     params = {"q": query, "useFlexisearch": "true"}
     try:
-        r = requests.get(Config.ICD_SEARCH_URL, headers=headers, params=params, timeout=30)
+        r = requests.get(Config.ICD_SEARCH_URL, headers=headers, params=params, timeout=None)
         print(f"ICD-11 query: '{query}' | status={r.status_code}")
         if r.status_code != 200:
             print(f"ICD-11 error body: {r.text[:300]}")
@@ -505,7 +505,7 @@ def get_snomed_semantic_type(code: str) -> str:
     url = f"http://data.bioontology.org/ontologies/SNOMEDCT/classes/{code}"
     headers = {"Authorization": f"apikey token={Config.BIOPORTAL_API_KEY}"}
     try:
-        r = requests.get(url, headers=headers, timeout=10)
+        r = requests.get(url, headers=headers, timeout=None)
         if r.status_code == 200:
             data = r.json()
             semantic_type = data.get("semanticType")

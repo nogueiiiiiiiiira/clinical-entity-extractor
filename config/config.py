@@ -14,7 +14,7 @@ class Config:
     MAX_TOKENS = 32768
     REPEAT_PENALTY = 1.1
 
-    NARRATIVES_FOLDER = os.path.join(_REPO_ROOT, "data", "narrativas")
+    NARRATIVES_FOLDER = os.path.join(_REPO_ROOT, "data", "teste")
     GOLDSTANDARD_FOLDER = os.path.join(_REPO_ROOT, "data", "goldstandard")
     OUTPUT_BASE = os.path.join(_REPO_ROOT, "data", "output")
     CSV_INDIVIDUAL_FOLDER = os.path.join(OUTPUT_BASE, "csv_individual")
@@ -33,9 +33,6 @@ class Config:
     ENABLE_AGGRESSIVE_EXTRACTION = True
     ENABLE_POST_PROCESSING = False
 
-    SKIP_FP_VALIDATION_FOR_LONG_TERMS = True
-    PERMISSIVE_FP_VALIDATION = False
-
     BIOPORTAL_API_KEY = "09b5677b-aa9d-4e32-b509-bfccfe44c479"
     BIOPORTAL_URL = "http://data.bioontology.org/search"
     SNOMED_ONTOLOGY = "SNOMEDCT"
@@ -49,4 +46,3 @@ class Config:
     VALIDATION_CACHE_FILE = "validation_cache.json"
     EXPANSION_CACHE_FILE = "expansion_cache.json"
     NORM_CACHE_FILE = "norm_cache.json"
-    FP_VALIDATION_CACHE_FILE = "fp_validation_cache.json"

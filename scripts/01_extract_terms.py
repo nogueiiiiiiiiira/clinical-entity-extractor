@@ -1,4 +1,4 @@
-"""Extrai termos clínicos de narrativas usando LLM, com validação de FP, expansão de abreviações, resolução de conflitos e geração de logs. Execução sequencial sem repetições."""
+"""Extrai termos clínicos de narrativas usando LLM, com expansão de abreviações, resolução de conflitos e geração de logs. Execução sequencial sem repetições."""
 
 import sys
 import os
@@ -16,66 +16,12 @@ from config.config import Config
 from utils import (
     padronizar_string, normalizar_termo_texto, load_json_cache, save_json_cache,
     verificar_expansao_llm, resolver_conflito_expansao, salvar_annotations_json, Tee,
-    _save_llm_response, query_snomed, get_snomed_semantic_type
+    _save_llm_response
 )
 from prompts.pesquisa_clin_llama_system import SYSTEM_PROMPT as EXTRACTION_SYSTEM_PROMPT
 
-FP_VALIDATION_CACHE = {}
 NORM_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.NORM_CACHE_FILE))
-FP_CACHE_FILE = os.path.join(Config.DICIONARIOS_FOLDER, Config.FP_VALIDATION_CACHE_FILE)
-FP_VALIDATION_CACHE.update(load_json_cache(FP_CACHE_FILE))
 EXPANSION_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE))
-NOISE_LOG_GLOBAL = []
-
-TIPOS_SEMANTICOS_VALIDOS = [
-    "Disorder",
-    "Finding",
-    "Procedure",
-    "Substance",
-    "Organism",
-    "Body Structure",
-    "Pharmaceutical",
-    "Clinical Attribute"
-]
-
-def is_valid_clinical_term_llm(term: str, contexto: str = None) -> bool:
-    """
-    Valida se um termo é uma entidade clínica válida usando a API SNOMED.
-    Se o termo não existir no SNOMED ou for de um tipo semântico inválido, descarta.
-    Se existir e for de um tipo semântico válido, mantém.
-    """
-    if Config.PERMISSIVE_FP_VALIDATION:
-        return True
-
-    from utils import normalize_basic
-    termo_norm = normalize_basic(term)
-
-    cache_key = f"valid_api_{termo_norm}"
-    if cache_key in FP_VALIDATION_CACHE:
-        return FP_VALIDATION_CACHE[cache_key]
-
-    resultados = query_snomed(termo_norm, FP_VALIDATION_CACHE, FP_CACHE_FILE)
-
-    if not resultados:
-        FP_VALIDATION_CACHE[cache_key] = False
-        save_json_cache(FP_VALIDATION_CACHE, FP_CACHE_FILE)
-        return False
-
-    for res in resultados:
-        code = res.get("code")
-        if not code:
-            continue
-
-        semantic_type = get_snomed_semantic_type(code)
-
-        if semantic_type in TIPOS_SEMANTICOS_VALIDOS:
-            FP_VALIDATION_CACHE[cache_key] = True
-            save_json_cache(FP_VALIDATION_CACHE, FP_CACHE_FILE)
-            return True
-
-    FP_VALIDATION_CACHE[cache_key] = False
-    save_json_cache(FP_VALIDATION_CACHE, FP_CACHE_FILE)
-    return False
 
 def extrair_annotations_validas(resposta_json: str, texto_original: str, narrative_name: str) -> list:
     def parse_response(text):
@@ -108,9 +54,6 @@ def extrair_annotations_validas(resposta_json: str, texto_original: str, narrati
         original_excerpt = ent.get('original', texto)
         excerpt_norm = padronizar_string(original_excerpt)
         if excerpt_norm and excerpt_norm not in texto_norm:
-            continue
-        if not is_valid_clinical_term_llm(texto, contexto=texto_original):
-            NOISE_LOG_GLOBAL.append(f'{narrative_name}|{texto}|fp_llm_rejected')
             continue
         polaridade = ent.get('polarity', 'Positiva').strip().capitalize()
         if polaridade not in ('Positiva', 'Negativa'):
@@ -346,11 +289,6 @@ def main() -> None:
         df_mestre.to_csv(os.path.join(Config.CSV_INDIVIDUAL_FOLDER, "all_extracted_terms.csv"), index=False, encoding='utf-8')
     else:
         print("\nNenhum termo extraído.")
-    if NOISE_LOG_GLOBAL:
-        noise_log_path = os.path.join(Config.LOGS_FOLDER, "filtered_terms_log.txt")
-        with open(noise_log_path, 'w', encoding='utf-8') as f:
-            for entry in NOISE_LOG_GLOBAL:
-                f.write(entry + "\n")
 
 if __name__ == "__main__":
     main()
