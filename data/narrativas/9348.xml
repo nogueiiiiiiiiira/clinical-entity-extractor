@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Plastia Mitral ( Insuficiencia ), CRM Saf-2Mg e e Saf-3MG ).(09/03/16).
+Uso: AAS 100  -1xd; Metoprolol  25 -1xd; FSM -1xd ; Levotiroxina 175  -1xd; Sinva 40 -1xd; Fluoxetina 20-1xd.
+
+Refere melhora da dispneia depois da cx porem mantem aos mdoeardos-leves esforço. Discreto edema mmii pricn a esquerda.Nega palpitação.Dor a movimentação do torax.
+
+MV normodist sem ruidos adv . RCR ,2T , BNf sem sopros. PA  120x70mmHg  P 81 spm , Fr 12 rpm. 
+
+CD&gt;: mantida. Ecocardio e lab .
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="19451" tag="Disease or Syndrome|Pathologic Function" start="17" end="30" text="Insuficiencia" abbr="" />
+<annotation id="19452" tag="Abbreviation|Therapeutic or Preventive Procedure" start="34" end="37" text="CRM" abbr="" />
+<annotation id="19453" tag="Qualitative Concept|Abbreviation|Spatial Concept" start="38" end="45" text="Saf-2Mg" abbr="" />
+<annotation id="19454" tag="Spatial Concept|Qualitative Concept|Abbreviation" start="50" end="57" text="Saf-3MG" abbr="" />
+<annotation id="19455" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="78" end="81" text="AAS" abbr="Ácido acetil salicílico" />
+<annotation id="19456" tag="Pharmacologic Substance|Organic Chemical" start="93" end="103" text="Metoprolol" abbr="" />
+<annotation id="19457" tag="Quantitative Concept" start="105" end="107" text="25" abbr="" />
+<annotation id="19458" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="114" end="117" text="FSM" abbr="" />
+<annotation id="19459" tag="Organic Chemical|Pharmacologic Substance" start="125" end="137" text="Levotiroxina" abbr="" />
+<annotation id="19460" tag="Quantitative Concept" start="138" end="141" text="175" abbr="" />
+<annotation id="19461" tag="Abbreviation|Pharmacologic Substance|Organic Chemical" start="149" end="154" text="Sinva" abbr="" />
+<annotation id="19462" tag="Quantitative Concept" start="155" end="157" text="40" abbr="" />
+<annotation id="19463" tag="Pharmacologic Substance|Organic Chemical" start="164" end="174" text="Fluoxetina" abbr="" />
+<annotation id="19464" tag="Temporal Concept" start="213" end="219" text="depois" abbr="" />
+<annotation id="19465" tag="Abbreviation|Therapeutic or Preventive Procedure" start="223" end="225" text="cx" abbr="" />
+<annotation id="19466" tag="Abbreviation|Body Location or Region" start="283" end="287" text="mmii" abbr="" />
+<annotation id="19467" tag="Negation" start="305" end="309" text="Nega" abbr="" />
+<annotation id="19468" tag="Sign or Symptom" start="310" end="320" text="palpitação" abbr="" />
+<annotation id="19469" tag="Body Location or Region" start="343" end="348" text="torax" abbr="" />
+<annotation id="19470" tag="Negation" start="366" end="369" text="sem" abbr="" />
+<annotation id="19471" tag="Abbreviation|Finding" start="383" end="386" text="RCR" abbr="" />
+<annotation id="19472" tag="Abbreviation|Temporal Concept|Finding" start="388" end="390" text="2T" abbr="" />
+<annotation id="19473" tag="Abbreviation|Finding" start="393" end="396" text="BNf" abbr="" />
+<annotation id="19474" tag="Negation" start="397" end="400" text="sem" abbr="" />
+<annotation id="19475" tag="Sign or Symptom" start="401" end="407" text="sopros" abbr="" />
+<annotation id="19476" tag="Clinical Attribute|Abbreviation" start="409" end="411" text="PA" abbr="Pressão Arterial" />
+<annotation id="19477" tag="Quantitative Concept|Abbreviation" start="413" end="423" text="120x70mmHg" abbr="" />
+<annotation id="19478" tag="Abbreviation|Clinical Attribute" start="425" end="426" text="P" abbr="" />
+<annotation id="19479" tag="Abbreviation|Clinical Attribute" start="436" end="438" text="Fr" abbr="" />
+<annotation id="19480" tag="Intellectual Product|Abbreviation" start="451" end="454" text="CD&amp;gt;" abbr="" />
+<annotation id="19481" tag="Diagnostic Procedure|Abbreviation" start="465" end="474" text="Ecocardio" abbr="" />
+<annotation id="19482" tag="Abbreviation|Laboratory Procedure" start="477" end="480" text="lab" abbr="" />
+<annotation id="19483" tag="Therapeutic or Preventive Procedure" start="0" end="14" text="Plastia Mitral" />
+<annotation id="19484" tag="Finding" start="193" end="212" text="melhora da dispneia" />
+<annotation id="19485" tag="Sign or Symptom" start="243" end="266" text="mdoeardos-leves esforço" />
+<annotation id="19486" tag="Sign or Symptom" start="268" end="282" text="Discreto edema" />
+<annotation id="19487" tag="Sign or Symptom" start="288" end="304" text="pricn a esquerda" />
+<annotation id="19488" tag="Sign or Symptom" start="321" end="339" text="Dor a movimentação" />
+<annotation id="19489" tag="Abbreviation|Finding" start="353" end="365" text="MV normodist" />
+<annotation id="19490" tag="Abbreviation|Sign or Symptom" start="370" end="380" text="ruidos adv" />
+<annotation id="19491" tag="Abbreviation|Quantitative Concept" start="427" end="433" text="81 spm" />
+<annotation id="19492" tag="Abbreviation|Quantitative Concept" start="439" end="445" text="12 rpm" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="19451" annotation2="19483" reltype="associated_with" />
+<rel annotation1="19452" annotation2="19453" reltype="associated_with" />
+<rel annotation1="19452" annotation2="19454" reltype="associated_with" />
+<rel annotation1="19465" annotation2="19484" reltype="associated_with" />
+<rel annotation1="19466" annotation2="19486" reltype="associated_with" />
+<rel annotation1="19469" annotation2="19488" reltype="associated_with" />
+<rel annotation1="19470" annotation2="19490" reltype="negation_of" />
+<rel annotation1="19474" annotation2="19475" reltype="negation_of" />
+<rel annotation1="19476" annotation2="19477" reltype="associated_with" />
+<rel annotation1="19478" annotation2="19491" reltype="associated_with" />
+<rel annotation1="19479" annotation2="19492" reltype="associated_with" />
+<rel annotation1="19485" annotation2="19484" reltype="associated_with" />
+<rel annotation1="19487" annotation2="19486" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>
