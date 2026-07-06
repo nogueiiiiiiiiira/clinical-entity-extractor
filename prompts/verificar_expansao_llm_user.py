@@ -1,1 +1,1 @@
-USER_TEMPLATE = "Abreviação: {abrev}\nExpansão: {expandido}\nCorreta? (1/0):"
+USER_TEMPLATE = "Abreviação: {abrev}\nExpansão: {expandido}\nA expansão é a forma completa e correta da abreviação? (1/0):"

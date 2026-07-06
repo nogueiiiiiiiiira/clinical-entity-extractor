@@ -28,7 +28,7 @@ def main() -> None:
     os.makedirs(Config.CLEAN_TEXTS_FOLDER, exist_ok=True)
     
     xml_files = [f for f in os.listdir(Config.NARRATIVES_FOLDER) if f.endswith('.xml') and not f.endswith('_goldstandard.xml')]
-    print(f"\n\nEncontrados {len(xml_files)} arquivos XML")
+    print(f"Encontrados {len(xml_files)} arquivos XML")
     for xml_file in xml_files:
         xml_path = os.path.join(Config.NARRATIVES_FOLDER, xml_file)
         clean_text = clean_xml_text(xml_path)

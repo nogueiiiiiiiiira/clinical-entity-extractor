@@ -249,7 +249,7 @@ def processar_narrativa_completa(nome_narrativa: str):
     except Exception as e:
         print(f"\n\nErro ao ler XML {nome_narrativa}: {e}")
         return None
-    print(f"\nExtraindo termos de {nome_narrativa}")
+    print(f"Extraindo termos de {nome_narrativa}")
     resposta_json = PesquisaClin_Llama(xml_text)
     log_dir = os.path.join(Config.LOGS_FOLDER, narrative_base)
     os.makedirs(log_dir, exist_ok=True)

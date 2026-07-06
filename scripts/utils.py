@@ -482,6 +482,15 @@ def verificar_expansao_hibrida(abrev: str, expandido: str, expansion_cache: dict
             save_json_cache(expansion_cache, expansion_cache_file)
             return 1
     
+    palavras_exp = expandido_norm.split()
+    iniciais = ''.join(p[0] for p in palavras_exp if p)
+    if len(iniciais) >= 2 and iniciais != abrev_norm:
+        print(f"[DEBUG] Iniciais da expansão ('{iniciais}') não correspondem à abreviação ('{abrev_norm}') -> 0")
+        cache_key = f"{abrev}|{expandido}"
+        expansion_cache[cache_key] = 0
+        save_json_cache(expansion_cache, expansion_cache_file)
+        return 0
+    
     snomed_result = verificar_expansao_com_snomed(abrev, expandido, api_cache, api_cache_file, contexto)
     if snomed_result == 1:
         print(f"[DEBUG] Híbrido: SNOMED validou -> '{abrev}' -> '{expandido}' = 1")

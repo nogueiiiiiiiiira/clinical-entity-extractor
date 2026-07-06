@@ -12,15 +12,12 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 from config.config import Config
 from utils import (
     padronizar_string,
-    normalizar_termo_texto,
     normalizar_para_match,
     expansion_of,
     fuzzy_partial_match,
-    llm_semantic_match,
     load_json_cache,
-    save_json_cache,
-    verificar_expansao_llm,
 )
+
 expansion_cache = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE))
 
 
@@ -266,8 +263,6 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
                         gold["termo_norm"], pred["termo_norm"]
                     ):
                         matches.append((2, i, j, "VP"))
-                    elif verificar_expansao_llm(gold["termo_norm"], pred["termo_norm"], expansion_cache, os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE)) == 1:
-                        matches.append((2, i, j, "VP"))
                     else:
                         import re
                         def normalize_freq(t):
@@ -278,7 +273,6 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
                             matches.append((2, i, j, "VP"))
                         elif fuzzy_partial_match(pred["termo_norm"], gold["termo_norm"]):
                             matches.append((1, i, j, "VP"))
-
 
         matches.sort(key=lambda x: (-x[0], x[1], x[2]))
 

@@ -54,7 +54,7 @@ def mapear_termo_api(termo: str, df: pd.DataFrame = None) -> dict:
 
     mapeamento_local = get_mapeamento_local(termo_norm, MAPEAMENTO_LOCAL_CACHE)
     if mapeamento_local:
-        print(f"[DEBUG] Mapeamento local encontrado para '{termo_norm}': SNOMED={mapeamento_local.get('snomed')}, CID={mapeamento_local.get('cid11')}")
+        print(f"\n[DEBUG] Mapeamento local encontrado para '{termo_norm}': SNOMED={mapeamento_local.get('snomed')}, CID={mapeamento_local.get('cid11')}\n")
         return {
             "SCTID": mapeamento_local.get("snomed"),
             "CID11": mapeamento_local.get("cid11"),
