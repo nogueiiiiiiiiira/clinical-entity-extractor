@@ -403,69 +403,6 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
         index=False,
     )
 
-    erros_por_tipo = {}
-    for _, row in df_resultado.iterrows():
-        classificacao = row["classificacao"]
-        if classificacao not in ("FP", "FN"):
-            continue
-
-        pred_term = row["termoAnalisado"] if classificacao == "FP" else None
-        gold_term = row["semClin_textoAnalisado"] if classificacao == "FN" else None
-
-        texto = row["textoPrompt"]
-        narrativa = row["nomeNarrativa"]
-
-        categoria_pred = row["categoria"] if classificacao == "FP" else None
-        categoria_gold = row["semClin_categoria"] if classificacao == "FN" else None
-
-        todos_pred = (
-            df_resultado[df_resultado["nomeNarrativa"] == narrativa]["termoAnalisado"]
-            .dropna()
-            .tolist()
-        )
-        todos_gold = (
-            df_resultado[df_resultado["nomeNarrativa"] == narrativa]["semClin_textoAnalisado"]
-            .dropna()
-            .tolist()
-        )
-
-        tipo = classificar_erro(
-            pred_term,
-            gold_term,
-            texto,
-            todos_pred,
-            todos_gold,
-            classificacao,
-            categoria_pred,
-            categoria_gold,
-        )
-        erros_por_tipo.setdefault(tipo, []).append(row)
-
-    resumo_erros = []
-    for tipo, rows in erros_por_tipo.items():
-        amostra = rows[0]
-        termo_exibido = (
-            amostra["termoAnalisado"] if amostra["classificacao"] == "FP" else amostra["semClin_textoAnalisado"]
-        )
-        contexto = (
-            extrair_contexto(amostra["textoPrompt"], termo_exibido) if amostra["textoPrompt"] else ""
-        )
-        resumo_erros.append(
-            {
-                "Tipo de erro": tipo,
-                "Termo extraído": termo_exibido,
-                "FN ou FP": amostra["classificacao"],
-                "Texto original": contexto,
-                "Explicação": f"{len(rows)} ocorrências",
-                "Contagem": len(rows),
-            }
-        )
-
-    pd.DataFrame(resumo_erros).to_csv(
-        os.path.join(output_dir, f"erros_classificados_{output_suffix}.csv"),
-        index=False,
-    )
-
     return {
         "modo": modo,
         "total_termos_avaliados": len(df_resultado),
@@ -578,7 +515,7 @@ def main():
 
     salvar_metricas_consolidadas(metricas_avaliacao, metricas_mapeamento)
 
-    print("\n\n=== RESUMO DAS MÉTRICAS DE MAPEAMENTO ===")
+    print("\n\n=== RESUMO DAS MÉTRICAS DE MAPEAMENTO ===\n")
     print(f"Total de termos avaliados: {metricas_mapeamento['total_termos_avaliados']}")
     print(f"Termos com código SNOMED: {metricas_mapeamento['termos_com_snomed']}")
     print(f"Termos com código CID-11: {metricas_mapeamento['termos_com_cid']}")

@@ -1,0 +1,106 @@
+{
+  "hipertensão arterial sistêmica": {
+    "snomed": "38341003",
+    "cid11": "BA00"
+  },
+  "insuficiência cardíaca congestiva": {
+    "snomed": "84114007",
+    "cid11": "BD10"
+  },
+  "diabetes mellitus": {
+    "snomed": "73211009",
+    "cid11": "5A10"
+  },
+  "infarto agudo do miocárdio": {
+    "snomed": "22298006",
+    "cid11": "BA41"
+  },
+  "angina": {
+    "snomed": "194828000",
+    "cid11": "BA40"
+  },
+  "dislipidemia": {
+    "snomed": "55822004",
+    "cid11": "5C80"
+  },
+  "obesidade": {
+    "snomed": "414915002",
+    "cid11": "5B81"
+  },
+  "tabagismo": {
+    "snomed": "230062007",
+    "cid11": "6C4A"
+  },
+  "fibrilação atrial": {
+    "snomed": "49436004",
+    "cid11": "BC81"
+  },
+  "insuficiência mitral": {
+    "snomed": "79619009",
+    "cid11": "BD83"
+  },
+  "insuficiência aórtica": {
+    "snomed": "60234000",
+    "cid11": "BD70"
+  },
+  "estenose aórtica": {
+    "snomed": "60573004",
+    "cid11": "BD70"
+  },
+  "insuficiência renal crônica": {
+    "snomed": "709044004",
+    "cid11": "GB61"
+  },
+  "doença arterial coronariana": {
+    "snomed": "414545008",
+    "cid11": "BA80"
+  },
+  "hipertrofia ventricular esquerda": {
+    "snomed": "85898001",
+    "cid11": "BC43"
+  },
+  "hipocinesia septal": {
+    "snomed": "102513004",
+    "cid11": "BC43"
+  },
+  "isquemia miocárdica": {
+    "snomed": "414545008",
+    "cid11": "BA40"
+  },
+  "dispnEia": {
+    "snomed": "267036007",
+    "cid11": "MD11"
+  },
+  "ortopneia": {
+    "snomed": "60862002",
+    "cid11": "MD11"
+  },
+  "palpitações": {
+    "snomed": "80313002",
+    "cid11": "MC81"
+  },
+  "síncope": {
+    "snomed": "27206000",
+    "cid11": "MB20"
+  },
+  "tontura": {
+    "snomed": "404640003",
+    "cid11": "MB48"
+  },
+  "epigastralgia": {
+    "snomed": "21522001",
+    "cid11": "MD91"
+  },
+  "claudicação intermitente": {
+    "snomed": "19523000",
+    "cid11": "BD42"
+  },
+  "fraqueza": {
+    "snomed": "13791008",
+    "cid11": "MB47"
+  },
+  "edema": {
+    "snomed": "271723007",
+    "cid11": "MG29"
+  }
+}

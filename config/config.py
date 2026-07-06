@@ -1,3 +1,4 @@
+# config.py
 """Configurações centrais para o pipeline de extração e mapeamento de termos clínicos."""
 import os
 
@@ -46,3 +47,8 @@ class Config:
     VALIDATION_CACHE_FILE = "validation_cache.json"
     EXPANSION_CACHE_FILE = "expansion_cache.json"
     NORM_CACHE_FILE = "norm_cache.json"
+    ABREVIACOES_FILE = "abreviacoes.json"
+    ABREVIACOES_PATH = os.path.join(DICIONARIOS_FOLDER, ABREVIACOES_FILE)
+
+    MAPEAMENTO_LOCAL_FILE = "mapeamento_local.json"
+    MAPEAMENTO_LOCAL_PATH = os.path.join(DICIONARIOS_FOLDER, MAPEAMENTO_LOCAL_FILE)

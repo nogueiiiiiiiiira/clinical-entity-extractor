@@ -1,5 +1,4 @@
-"""Extrai termos clínicos de narrativas usando LLM, com expansão de abreviações, resolução de conflitos e geração de logs. Execução sequencial sem repetições."""
-
+# 01_extract_terms.py
 import sys
 import os
 import re
@@ -10,18 +9,20 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 import ollama
 from utils import log_decision
-
+from utils import load_abreviacoes
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config.config import Config
 from utils import (
     padronizar_string, normalizar_termo_texto, load_json_cache, save_json_cache,
-    verificar_expansao_llm, resolver_conflito_expansao, salvar_annotations_json, Tee,
-    _save_llm_response
+    verificar_expansao_hibrida, resolver_conflito_expansao, salvar_annotations_json, Tee,
+    _save_llm_response, query_snomed, query_snomed_by_code, load_abreviacoes
 )
 from prompts.pesquisa_clin_llama_system import SYSTEM_PROMPT as EXTRACTION_SYSTEM_PROMPT
 
 NORM_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.NORM_CACHE_FILE))
 EXPANSION_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE))
+API_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.CACHE_FILE))
+ABREVIACOES_CACHE = load_abreviacoes(os.path.join(Config.DICIONARIOS_FOLDER, Config.ABREVIACOES_FILE))
 
 def extrair_annotations_validas(resposta_json: str, texto_original: str, narrative_name: str) -> list:
     def parse_response(text):
@@ -60,6 +61,9 @@ def extrair_annotations_validas(resposta_json: str, texto_original: str, narrati
             polaridade = 'Positiva'
         abbreviation = ent.get('abbreviation', False)
         original = ent.get('original', texto if abbreviation else None)
+        if original and (len(original) > 6 or ' ' in original):
+            abbreviation = False
+            original = None
         categoria = ent.get('category', 'Problema')
         if categoria not in ('Problema', 'Teste', 'Tratamento'):
             categoria = 'Problema'
@@ -149,14 +153,19 @@ def consolidar_annotations(lista_de_listas: list, narrative_name: str, texto_ori
                 if (ann["abreviacao"] and existing["abreviacao"] and
                     ann["abreviacao_original"] == existing["abreviacao_original"] and
                     normalizar_termo_texto(ann["textoAnalisado"]) != normalizar_termo_texto(existing["textoAnalisado"])):
+                    
+                    contexto = extrair_contexto_para_termo(pd.DataFrame([ann, existing]), ann["abreviacao_original"])
+                    
                     melhor_exp = resolver_conflito_expansao(
                         ann["abreviacao_original"],
                         [existing["textoAnalisado"], ann["textoAnalisado"]],
                         EXPANSION_CACHE,
-                        os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE)
+                        os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE),
+                        contexto
                     )
                     if melhor_exp:
                         melhores[key]["textoAnalisado"] = melhor_exp
+                        
     lista_entidades = list(melhores.values())
     lista_entidades.sort(key=lambda x: len(x["textoAnalisado"].split()), reverse=True)
     filtered = []
@@ -195,6 +204,27 @@ def criar_dataframe_da_lista(annotations_consolidadas: list, narrative_name: str
     os.makedirs(os.path.dirname(csv_filename), exist_ok=True)
     df.to_csv(csv_filename, index=False, encoding='utf-8')
     return df
+
+def extrair_contexto_para_termo(df: pd.DataFrame, termo: str) -> str:
+    rows = df[df["textoAnalisado"] == termo]
+    if rows.empty:
+        return ""
+    texto_prompt = rows.iloc[0].get("textoPrompt", "")
+    if not texto_prompt:
+        return ""
+    termo_norm = termo.lower()
+    texto_lower = texto_prompt.lower()
+    idx = texto_lower.find(termo_norm)
+    if idx == -1:
+        return texto_prompt[:400] + "..." if len(texto_prompt) > 400 else texto_prompt
+    start = max(0, idx - 150)
+    end = min(len(texto_prompt), idx + len(termo) + 150)
+    snippet = texto_prompt[start:end].replace("\n", " ")
+    if start > 0:
+        snippet = "..." + snippet
+    if end < len(texto_prompt):
+        snippet = snippet + "..."
+    return snippet.strip()
 
 def processar_narrativa_completa(nome_narrativa: str):
     caminho_narrativa = os.path.join(Config.NARRATIVES_FOLDER, nome_narrativa)
@@ -242,14 +272,32 @@ def processar_narrativa_completa(nome_narrativa: str):
         print(f"\n\nDataFrame vazio para {nome_narrativa}.")
         return None
     salvar_annotations_json(annotations_consolidadas, narrative_base, narrative_output_dir)
+
     print(f"Processado {nome_narrativa} -> {len(df)} termos únicos. Validando expansões...\n")
+    api_cache = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.CACHE_FILE))
+    expansion_cache = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE))
     for idx, row in df.iterrows():
         if row['abreviacao'] and pd.notna(row['abreviacao_original']):
             abrev = row['abreviacao_original']
             expandido = row['textoAnalisado']
-            correto = verificar_expansao_llm(abrev, expandido, EXPANSION_CACHE,
-                                             os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE))
-            df.at[idx, 'expansao_correta'] = correto
+            if len(abrev) <= 6 and ' ' not in abrev:
+                print(f"\n[DEBUG] Validando expansão híbrida para '{abrev}' -> '{expandido}'")
+                
+                contexto = extrair_contexto_para_termo(df, expandido)
+                
+                correto = verificar_expansao_hibrida(
+                    abrev, expandido, expansion_cache,
+                    os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE),
+                    api_cache,
+                    os.path.join(Config.DICIONARIOS_FOLDER, Config.CACHE_FILE),
+                    ABREVIACOES_CACHE,
+                    contexto
+                )
+                df.at[idx, 'expansao_correta'] = correto
+                print(f"[DEBUG] Resultado validação híbrida: {correto}")
+            else:
+                print(f"[DEBUG] Ignorando validação para '{abrev}' - não parece ser uma abreviação (len={len(abrev)})")
+                df.at[idx, 'expansao_correta'] = None
         else:
             df.at[idx, 'expansao_correta'] = None
     df.to_csv(output_csv_individual, index=False, encoding='utf-8')

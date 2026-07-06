@@ -1,3 +1,4 @@
+# 02_map_terminology.py
 """Adiciona códigos SNOMED CT e CID-11 aos termos extraídos, usando APIs e validação por LLM (modelo juiz). Sem repetições."""
 
 import sys
@@ -18,11 +19,14 @@ from utils import (
     save_json_cache,
     validar_mapeamento_llm,
     resolver_conflito_mapeamento,
+    load_mapeamento_local,
+    get_mapeamento_local,
 )
 
 API_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.CACHE_FILE))
 VALIDATION_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.VALIDATION_CACHE_FILE))
 NORM_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.NORM_CACHE_FILE))
+MAPEAMENTO_LOCAL_CACHE = load_mapeamento_local(os.path.join(Config.DICIONARIOS_FOLDER, Config.MAPEAMENTO_LOCAL_FILE))
 
 
 def extrair_contexto_para_termo(df: pd.DataFrame, termo: str) -> str:
@@ -47,6 +51,16 @@ def mapear_termo_api(termo: str, df: pd.DataFrame = None) -> dict:
     termo_norm = normalize_term(
         termo, NORM_CACHE, os.path.join(Config.DICIONARIOS_FOLDER, Config.NORM_CACHE_FILE)
     )
+
+    mapeamento_local = get_mapeamento_local(termo_norm, MAPEAMENTO_LOCAL_CACHE)
+    if mapeamento_local:
+        print(f"[DEBUG] Mapeamento local encontrado para '{termo_norm}': SNOMED={mapeamento_local.get('snomed')}, CID={mapeamento_local.get('cid11')}")
+        return {
+            "SCTID": mapeamento_local.get("snomed"),
+            "CID11": mapeamento_local.get("cid11"),
+            "SCTID_correto": 1,
+            "CID11_correto": 1
+        }
 
     if termo_norm in API_CACHE:
         cached = API_CACHE[termo_norm]

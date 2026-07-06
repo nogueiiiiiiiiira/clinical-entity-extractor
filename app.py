@@ -1,7 +1,8 @@
+# app.py
 """Ponto de entrada principal do pipeline de extração e mapeamento de termos clínicos.
 
 Executa sequencialmente todos os scripts do pipeline, na ordem correta:
-00_preprocess.py -> 01_extract_terms.py -> 02_map_terminology.py -> 03_merge_results.py -> 04_evaluate.py -> 05_audit_report.py
+00_preprocess.py -> 01_extract_terms.py -> 02_map_terminology.py -> 03_merge_results.py -> 04_evaluate.py -> 05_audit_report.py -> 06_populate_abbreviations.py
 
 Para execução parcial, use os argumentos --start-at e --stop-after.
 """
@@ -41,7 +42,7 @@ def main():
     parser.add_argument(
         "--start-at",
         default="00",
-        help="Script a partir do qual iniciar (00, 01, 02, 03, 04, 05). Padrão: 00"
+        help="Script a partir do qual iniciar (00, 01, 02, 03, 04, 05, 06). Padrão: 00"
     )
     parser.add_argument(
         "--stop-after",
@@ -56,7 +57,7 @@ def main():
         ("02_map_terminology.py", "02"),
         ("03_merge_results.py", "03"),
         ("04_evaluate.py", "04"),
-        ("05_audit_report.py", "05")
+        ("05_audit_report.py", "05"),
     ]
 
     start_index = None

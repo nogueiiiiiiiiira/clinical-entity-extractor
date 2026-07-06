@@ -1,5 +1,4 @@
-"""Funções utilitárias compartilhadas entre todos os scripts do pipeline, incluindo redirecionamento de log."""
-
+# utils.py
 import sys
 import os
 import re
@@ -14,19 +13,14 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import ollama
 
-
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config.config import Config
-
 
 cache_lock = threading.Lock()
 _icd_token = None
 _token_expiry = 0
 
-
 class Tee:
-    """Redireciona a saída padrão para múltiplos arquivos ao mesmo tempo."""
-
     def __init__(self, *files):
         self.files = files
 
@@ -45,9 +39,7 @@ class Tee:
             except ValueError:
                 pass
 
-
 def _save_llm_response(model: str, prompt: str, response: str, response_type: str, identifier: str = ""):
-    """Salva a resposta do LLM em um arquivo de log com timestamp."""
     os.makedirs(Config.LLM_RESPONSES_FOLDER, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
     safe_type = re.sub(r'[^a-zA-Z0-9_]', '_', response_type)
@@ -64,31 +56,38 @@ def _save_llm_response(model: str, prompt: str, response: str, response_type: st
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(log_data, f, indent=2, ensure_ascii=False)
 
-
 def load_json_cache(filepath: str) -> dict:
     if os.path.exists(filepath):
         with open(filepath, "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
 
-
 def save_json_cache(cache: dict, filepath: str) -> None:
     with cache_lock:
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(cache, f, indent=2, ensure_ascii=False)
 
+def load_abreviacoes(filepath: str) -> dict:
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def expandir_abreviacao_direta(abrev: str, abreviacoes_cache: dict) -> str:
+    abrev_lower = abrev.lower().strip()
+    if abrev_lower in abreviacoes_cache:
+        return abreviacoes_cache[abrev_lower]
+    return None
 
 def padronizar_string(string) -> str:
     if isinstance(string, str):
         return unidecode.unidecode(string.lower().strip())
     return str(string) if string is not None else ""
 
-
 def normalize_basic(term: str) -> str:
     t = padronizar_string(term)
     t = ''.join(c for c in t if c.isalnum() or c.isspace())
     return t
-
 
 def normalize_with_llm(term: str, norm_cache: dict, norm_cache_file: str) -> str:
     if term in norm_cache:
@@ -114,10 +113,8 @@ def normalize_with_llm(term: str, norm_cache: dict, norm_cache_file: str) -> str
     save_json_cache(norm_cache, norm_cache_file)
     return result
 
-
 def normalize_term(term: str, norm_cache: dict, norm_cache_file: str) -> str:
     return normalize_with_llm(term, norm_cache, norm_cache_file)
-
 
 def normalize_clinical_term(term: str, norm_cache: dict, norm_cache_file: str) -> str:
     from prompts.normalize_clinical_term_user import USER_TEMPLATE
@@ -143,11 +140,10 @@ def normalize_clinical_term(term: str, norm_cache: dict, norm_cache_file: str) -
     t = re.sub(r'\s+', ' ', t).strip()
     return t if t else term
 
-
 def query_snomed(query: str, api_cache: dict, cache_file: str) -> list:
     norm_q = normalize_basic(query)
-    if norm_q in api_cache:
-        return api_cache[norm_q].get("snomed_results", [])
+    if norm_q in api_cache and "snomed_results" in api_cache[norm_q]:
+        return api_cache[norm_q]["snomed_results"]
     params = {"q": query, "ontologies": Config.SNOMED_ONTOLOGY}
     headers = {"Authorization": f"apikey token={Config.BIOPORTAL_API_KEY}"}
     try:
@@ -170,6 +166,61 @@ def query_snomed(query: str, api_cache: dict, cache_file: str) -> list:
     except:
         return []
 
+def query_snomed_by_code(code: str, api_cache: dict, cache_file: str) -> dict:
+    cache_key = f"code_{code}"
+    if cache_key in api_cache:
+        return api_cache[cache_key]
+    url = f"http://data.bioontology.org/ontologies/SNOMEDCT/classes/{code}"
+    headers = {"Authorization": f"apikey token={Config.BIOPORTAL_API_KEY}"}
+    try:
+        r = requests.get(url, headers=headers, timeout=None)
+        if r.status_code == 200:
+            data = r.json()
+            result = {
+                "code": code,
+                "label": data.get("prefLabel", ""),
+                "synonyms": []
+            }
+            for prop in data.get("properties", []):
+                if prop.get("type") == "synonym":
+                    result["synonyms"].append(prop.get("value", ""))
+            api_cache[cache_key] = result
+            save_json_cache(api_cache, cache_file)
+            return result
+    except:
+        pass
+    return {}
+
+def validate_abbreviation_expansion_with_snomed(abbrev: str, expansion: str, api_cache: dict, cache_file: str) -> bool:
+    print(f"[DEBUG] Validando expansão via SNOMED: '{abbrev}' -> '{expansion}'")
+    normalized_exp = normalize_basic(expansion)
+    results = query_snomed(expansion, api_cache, cache_file)
+    if not results:
+        print(f"[DEBUG] Nenhum resultado SNOMED para '{expansion}'")
+        return False
+    for result in results:
+        code = result.get("code")
+        if not code:
+            continue
+        concept = query_snomed_by_code(code, api_cache, cache_file)
+        if not concept:
+            continue
+        label_norm = normalize_basic(concept.get("label", ""))
+        if label_norm == normalized_exp:
+            print(f"[DEBUG] Expansão validada pelo label: '{expansion}'")
+            return True
+        for syn in concept.get("synonyms", []):
+            syn_norm = normalize_basic(syn)
+            if syn_norm == normalized_exp:
+                print(f"[DEBUG] Expansão validada por sinônimo: '{syn}'")
+                return True
+        abbr_search = query_snomed(abbrev, api_cache, cache_file)
+        for abbr_result in abbr_search:
+            if abbr_result.get("code") == code:
+                print(f"[DEBUG] Abreviação mapeia diretamente para o código: '{abbrev}'")
+                return True
+    print(f"[DEBUG] Expansão NÃO validada: '{abbrev}' -> '{expansion}'")
+    return False
 
 def get_label_snomed(code: str) -> str:
     url = f"http://data.bioontology.org/ontologies/SNOMEDCT/classes?include=prefLabel&conceptid={code}"
@@ -182,7 +233,6 @@ def get_label_snomed(code: str) -> str:
     except:
         pass
     return ""
-
 
 def get_icd_token() -> str:
     global _icd_token, _token_expiry
@@ -202,11 +252,10 @@ def get_icd_token() -> str:
         print(f"ICD token exception: {e}")
         return None
 
-
 def query_icd11(query: str, api_cache: dict, cache_file: str, force_refresh: bool = False) -> list:
     norm_q = normalize_basic(query)
-    if not force_refresh and norm_q in api_cache:
-        cached = api_cache[norm_q].get("icd11_results")
+    if not force_refresh and norm_q in api_cache and "icd11_results" in api_cache[norm_q]:
+        cached = api_cache[norm_q]["icd11_results"]
         if cached is not None:
             return cached
     token = get_icd_token()
@@ -248,7 +297,6 @@ def query_icd11(query: str, api_cache: dict, cache_file: str, force_refresh: boo
         print(f"ICD-11 exception: {e}")
         return []
 
-
 def get_label_cid11(code: str) -> str:
     token = get_icd_token()
     if not token:
@@ -272,7 +320,6 @@ def get_label_cid11(code: str) -> str:
         pass
     return ""
 
-
 def similarity(a: str, b: str) -> float:
     vectorizer = TfidfVectorizer(analyzer='char_wb', ngram_range=(2,4), lowercase=True)
     try:
@@ -281,7 +328,6 @@ def similarity(a: str, b: str) -> float:
     except:
         sim = 0.0
     return sim
-
 
 def rank_results(results: list, query: str, is_snomed: bool = True) -> list:
     scored = []
@@ -293,7 +339,6 @@ def rank_results(results: list, query: str, is_snomed: bool = True) -> list:
     scored.sort(key=lambda x: x[1], reverse=True)
     return scored
 
-
 def normalizar_termo_texto(termo: str) -> str:
     if not isinstance(termo, str):
         termo = str(termo)
@@ -302,7 +347,6 @@ def normalizar_termo_texto(termo: str) -> str:
     normalizado = re.sub(r'[^\w\s]', '', normalizado)
     normalizado = re.sub(r'\s+', ' ', normalizado).strip()
     return normalizado
-
 
 def expansion_of(expanded: str, abbr: str) -> bool:
     cleaned = re.sub(r'\s*\([^)]*\)', '', expanded)
@@ -313,7 +357,6 @@ def expansion_of(expanded: str, abbr: str) -> bool:
     words = exp_norm.split()
     initials = ''.join(w[0] for w in words if w)
     return initials == abbr_norm
-
 
 def fuzzy_partial_match(str1: str, str2: str, threshold: int = Config.FUZZY_THRESHOLD) -> bool:
     from rapidfuzz import fuzz
@@ -332,9 +375,7 @@ def fuzzy_partial_match(str1: str, str2: str, threshold: int = Config.FUZZY_THRE
         return False
     return fuzz.token_sort_ratio(s1, s2) >= threshold
 
-
 def llm_semantic_match(term1: str, term2: str) -> bool:
-    """Usa o modelo JUIZ para comparar semanticamente dois termos."""
     from prompts.semantic_match_user import USER_TEMPLATE
     from prompts.semantic_match_system import SYSTEM_PROMPT as SEMANTIC_SYSTEM
     user_prompt = USER_TEMPLATE.format(term1=term1, term2=term2)
@@ -348,15 +389,17 @@ def llm_semantic_match(term1: str, term2: str) -> bool:
     except:
         return False
 
-
-def verificar_expansao_llm(abrev: str, expandido: str, expansion_cache: dict, expansion_cache_file: str) -> int:
-    """Usa o modelo JUIZ para verificar expansão de abreviação."""
+def verificar_expansao_llm(abrev: str, expandido: str, expansion_cache: dict, expansion_cache_file: str, contexto: str = "") -> int:
     cache_key = f"{abrev}|{expandido}"
     if cache_key in expansion_cache:
+        print(f"[DEBUG] Expansão em cache: '{abrev}' -> '{expandido}' = {expansion_cache[cache_key]}")
         return expansion_cache[cache_key]
+    print(f"\n[DEBUG] Validando expansão com LLM: '{abrev}' -> '{expandido}'")
     from prompts.verificar_expansao_llm_user import USER_TEMPLATE
     from prompts.verificar_expansao_llm_system import SYSTEM_PROMPT as VERIFICAR_EXPANS_SYSTEM
     user_prompt = USER_TEMPLATE.format(abrev=abrev, expandido=expandido)
+    if contexto:
+        user_prompt = f"{user_prompt}\n\nContexto onde a abreviação apareceu: \"{contexto}\""
     try:
         resp = ollama.chat(model=Config.JUDGE_MODEL,
                            messages=[{"role": "system", "content": VERIFICAR_EXPANS_SYSTEM},
@@ -372,11 +415,98 @@ def verificar_expansao_llm(abrev: str, expandido: str, expansion_cache: dict, ex
         resposta = 0
     expansion_cache[cache_key] = resposta
     save_json_cache(expansion_cache, expansion_cache_file)
+    print(f"[DEBUG] Resultado LLM para expansão: '{abrev}' -> '{expandido}' = {resposta}")
     return resposta
 
+def verificar_expansao_com_snomed(abrev: str, expandido: str, api_cache: dict, api_cache_file: str, contexto: str = "") -> int:
+    print(f"[DEBUG] Verificando expansão com SNOMED: '{abrev}' -> '{expandido}'")
+    cache_key = f"snomed_exp_{abrev}|{expandido}"
+    if cache_key in api_cache:
+        return api_cache[cache_key]
+    try:
+        resultados = query_snomed(expandido, api_cache, api_cache_file)
+        if not resultados:
+            print(f"[DEBUG] Nenhum resultado SNOMED para '{expandido}'")
+            api_cache[cache_key] = 0
+            save_json_cache(api_cache, api_cache_file)
+            return 0
+        for res in resultados:
+            code = res.get("code")
+            if code:
+                conceito = query_snomed_by_code(code, api_cache, api_cache_file)
+                if conceito:
+                    label_norm = normalize_basic(conceito.get("label", ""))
+                    exp_norm = normalize_basic(expandido)
+                    if label_norm == exp_norm:
+                        api_cache[cache_key] = 1
+                        save_json_cache(api_cache, api_cache_file)
+                        print(f"[DEBUG] Expansão validada por SNOMED (label): '{abrev}' -> '{expandido}'")
+                        return 1
+                    for syn in conceito.get("synonyms", []):
+                        if normalize_basic(syn) == exp_norm:
+                            api_cache[cache_key] = 1
+                            save_json_cache(api_cache, api_cache_file)
+                            print(f"[DEBUG] Expansão validada por SNOMED (sinônimo): '{abrev}' -> '{expandido}'")
+                            return 1
+            resultados_abrev = query_snomed(abrev, api_cache, api_cache_file)
+            for res_abrev in resultados_abrev:
+                if res_abrev.get("code") == code:
+                    api_cache[cache_key] = 1
+                    save_json_cache(api_cache, api_cache_file)
+                    print(f"[DEBUG] Expansão validada por SNOMED (abrev mapeia para código): '{abrev}' -> '{expandido}'")
+                    return 1
+        api_cache[cache_key] = 0
+        save_json_cache(api_cache, api_cache_file)
+        print(f"[DEBUG] Expansão NÃO validada por SNOMED: '{abrev}' -> '{expandido}'")
+        return 0
+    except Exception as e:
+        print(f"[DEBUG] Erro na verificação SNOMED: {e}")
+        return 0
 
-def resolver_conflito_expansao(abrev: str, expansoes_candidatas: list, expansion_cache: dict, expansion_cache_file: str) -> str:
-    """Usa o modelo JUIZ para resolver conflito entre duas expansões."""
+def verificar_expansao_hibrida(abrev: str, expandido: str, expansion_cache: dict, expansion_cache_file: str, api_cache: dict, api_cache_file: str, abreviacoes_cache: dict, contexto: str = "") -> int:
+    print(f"[DEBUG] Verificação híbrida: '{abrev}' -> '{expandido}'")
+    
+    if len(abrev) > 6 or ' ' in abrev:
+        print(f"[DEBUG] '{abrev}' não parece ser uma abreviação (len={len(abrev)} ou contém espaços)")
+        return 0
+    
+    abrev_norm = abrev.lower().strip()
+    expandido_norm = expandido.lower().strip()
+    
+    if abrev_norm in abreviacoes_cache:
+        expansao_correta = abreviacoes_cache[abrev_norm]
+        if expandido_norm == expansao_correta.lower().strip():
+            print(f"[DEBUG] Dicionário local validou: '{abrev}' -> '{expandido}' = 1")
+            cache_key = f"{abrev}|{expandido}"
+            expansion_cache[cache_key] = 1
+            save_json_cache(expansion_cache, expansion_cache_file)
+            return 1
+    
+    snomed_result = verificar_expansao_com_snomed(abrev, expandido, api_cache, api_cache_file, contexto)
+    if snomed_result == 1:
+        print(f"[DEBUG] Híbrido: SNOMED validou -> '{abrev}' -> '{expandido}' = 1")
+        return 1
+    
+    resultados_snomed = query_snomed(abrev, api_cache, api_cache_file)
+    if resultados_snomed:
+        for res in resultados_snomed:
+            code = res.get("code")
+            if code:
+                conceito = query_snomed_by_code(code, api_cache, api_cache_file)
+                if conceito:
+                    label_norm = normalize_basic(conceito.get("label", ""))
+                    if expandido_norm == label_norm:
+                        print(f"[DEBUG] SNOMED fallback validou via código: '{abrev}' -> '{expandido}' = 1")
+                        cache_key = f"{abrev}|{expandido}"
+                        expansion_cache[cache_key] = 1
+                        save_json_cache(expansion_cache, expansion_cache_file)
+                        return 1
+    
+    llm_result = verificar_expansao_llm(abrev, expandido, expansion_cache, expansion_cache_file, contexto)
+    print(f"[DEBUG] Híbrido: LLM validou -> '{abrev}' -> '{expandido}' = {llm_result}")
+    return llm_result
+
+def resolver_conflito_expansao(abrev: str, expansoes_candidatas: list, expansion_cache: dict, expansion_cache_file: str, contexto: str = "") -> str:
     cache_key = f"conflito_{abrev}|{expansoes_candidatas[0]}|{expansoes_candidatas[1]}"
     if cache_key in expansion_cache:
         idx = expansion_cache[cache_key]
@@ -384,6 +514,8 @@ def resolver_conflito_expansao(abrev: str, expansoes_candidatas: list, expansion
     from prompts.resolver_conflito_expansao_user import USER_TEMPLATE
     from prompts.resolver_conflito_expansao_system import SYSTEM_PROMPT as RESOLVE_CONFLITO_EXP_SYSTEM
     user_prompt = USER_TEMPLATE.format(abrev=abrev, exp1=expansoes_candidatas[0], exp2=expansoes_candidatas[1])
+    if contexto:
+        user_prompt = f"{user_prompt}\n\nContexto onde a abreviação apareceu: \"{contexto}\""
     try:
         resp = ollama.chat(model=Config.JUDGE_MODEL,
                            messages=[{"role": "system", "content": RESOLVE_CONFLITO_EXP_SYSTEM},
@@ -403,11 +535,9 @@ def resolver_conflito_expansao(abrev: str, expansoes_candidatas: list, expansion
     save_json_cache(expansion_cache, expansion_cache_file)
     return expansoes_candidatas[resultado]
 
-
 def validar_mapeamento_llm(termo_original: str, codigo: str, label_conceito: str,
                           validation_cache: dict, validation_cache_file: str,
                           contexto_adicional: str = "") -> int:
-    """Usa o modelo JUIZ para validar mapeamento (sem repetições)."""
     cache_key = f"{termo_original}|{codigo}"
     if cache_key in validation_cache:
         return validation_cache[cache_key]
@@ -442,16 +572,17 @@ def validar_mapeamento_llm(termo_original: str, codigo: str, label_conceito: str
     save_json_cache(validation_cache, validation_cache_file)
     return final
 
-
 def resolver_conflito_mapeamento(termo_original: str, codigo: str, label_conceito: str,
-                                 validation_cache: dict, validation_cache_file: str) -> int:
-    """Usa o modelo JUIZ para resolver conflito de mapeamento (sem repetições)."""
+                                 validation_cache: dict, validation_cache_file: str,
+                                 contexto_adicional: str = "") -> int:
     cache_key = f"conflito_{termo_original}|{codigo}"
     if cache_key in validation_cache:
         return validation_cache[cache_key]
     from prompts.resolver_conflito_mapeamento_user import USER_TEMPLATE as RESOLVE_CONFLITO_MAP_USER
     from prompts.resolver_conflito_mapeamento_system import SYSTEM_PROMPT as RESOLVE_CONFLITO_MAP_SYSTEM
     user_prompt = RESOLVE_CONFLITO_MAP_USER.format(termo_original=termo_original, label_conceito=label_conceito, codigo=codigo)
+    if contexto_adicional:
+        user_prompt = f"{user_prompt}\n\nContexto do termo no texto original: \"{contexto_adicional}\""
     try:
         resp = ollama.chat(model=Config.JUDGE_MODEL,
                            messages=[{"role": "system", "content": RESOLVE_CONFLITO_MAP_SYSTEM},
@@ -466,16 +597,13 @@ def resolver_conflito_mapeamento(termo_original: str, codigo: str, label_conceit
     save_json_cache(validation_cache, validation_cache_file)
     return final
 
-
 def salvar_annotations_json(annotations: list, narrative_name: str, output_dir: str) -> None:
     json_path = os.path.join(output_dir, f"annotations_{narrative_name}.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(annotations, f, indent=2, ensure_ascii=False)
 
-
 def log_decision(decision_type: str, input_data: dict, output: str, confidence: float = None,
                  reason: str = None, cache_hit: bool = False):
-    """Registra decisoes do LLM de forma estruturada para auditoria."""
     log_dir = os.path.join(Config.LOGS_FOLDER, "decisions")
     os.makedirs(log_dir, exist_ok=True)
 
@@ -496,12 +624,7 @@ def log_decision(decision_type: str, input_data: dict, output: str, confidence: 
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(log_entry, f, indent=2, ensure_ascii=False)
 
-
 def get_snomed_semantic_type(code: str) -> str:
-    """
-    Obtém o tipo semântico de um código SNOMED CT via BioPortal.
-    Retorna uma string como 'Disorder', 'Finding', 'Substance', etc.
-    """
     url = f"http://data.bioontology.org/ontologies/SNOMEDCT/classes/{code}"
     headers = {"Authorization": f"apikey token={Config.BIOPORTAL_API_KEY}"}
     try:
@@ -518,8 +641,19 @@ def get_snomed_semantic_type(code: str) -> str:
         print(f"Erro ao buscar tipo semântico para {code}: {e}")
     return ""
 
-
 def normalizar_para_match(termo: str) -> str:
     if not isinstance(termo, str):
         termo = str(termo)
     return normalizar_termo_texto(termo)
+
+def load_mapeamento_local(filepath: str) -> dict:
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def get_mapeamento_local(termo: str, mapeamento_cache: dict) -> dict:
+    termo_norm = normalize_basic(termo)
+    if termo_norm in mapeamento_cache:
+        return mapeamento_cache[termo_norm]
+    return None
