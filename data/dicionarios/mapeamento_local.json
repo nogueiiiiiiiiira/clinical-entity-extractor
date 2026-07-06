@@ -37,15 +37,15 @@
   },
   "insuficiência mitral": {
     "snomed": "79619009",
-    "cid11": "BD83"
+    "cid11": "BD81"
   },
   "insuficiência aórtica": {
     "snomed": "60234000",
-    "cid11": "BD70"
+    "cid11": "BD82.0"
   },
   "estenose aórtica": {
     "snomed": "60573004",
-    "cid11": "BD70"
+    "cid11": "BD82.1"
   },
   "insuficiência renal crônica": {
     "snomed": "709044004",
@@ -60,14 +60,13 @@
     "cid11": "BC43"
   },
   "hipocinesia septal": {
-    "snomed": "102513004",
-    "cid11": "BC43"
+    "snomed": "102513004"
   },
   "isquemia miocárdica": {
-    "snomed": "414545008",
-    "cid11": "BA40"
+    "snomed": "26120005",
+    "cid11": "BA4Z"
   },
-  "dispnEia": {
+  "dispneia": {
     "snomed": "267036007",
     "cid11": "MD11"
   },
@@ -93,7 +92,7 @@
   },
   "claudicação intermitente": {
     "snomed": "19523000",
-    "cid11": "BD42"
+    "cid11": "BD40.0"
   },
   "fraqueza": {
     "snomed": "13791008",

@@ -2,20 +2,17 @@
 """Ponto de entrada principal do pipeline de extração e mapeamento de termos clínicos.
 
 Executa sequencialmente todos os scripts do pipeline, na ordem correta:
-00_preprocess.py -> 01_extract_terms.py -> 02_map_terminology.py -> 03_merge_results.py -> 04_evaluate.py -> 05_audit_report.py -> 06_populate_abbreviations.py
-
-Para execução parcial, use os argumentos --start-at e --stop-after.
+00_preprocess.py -> 01_extract_terms.py -> 02_map_terminology.py -> 03_merge_results.py -> 04_evaluate.py -> 05_audit_report.py
 """
 
 import sys
 import os
 import subprocess
-import argparse
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent / "scripts"
 
-def run_script(script_name: str, step_num: int, total_steps: int) -> bool:
+def run_script(script_name: str) -> bool:
     """Executa um script Python e retorna True se bem-sucedido."""
     script_path = SCRIPT_DIR / script_name
     if not script_path.exists():
@@ -35,52 +32,32 @@ def run_script(script_name: str, step_num: int, total_steps: int) -> bool:
     return True
 
 def main():
-    """Orquestra a execução do pipeline conforme argumentos fornecidos."""
-    parser = argparse.ArgumentParser(
-        description="Executa o pipeline completo de extração e mapeamento de termos clínicos."
-    )
-    parser.add_argument(
-        "--start-at",
-        default="00",
-        help="Script a partir do qual iniciar (00, 01, 02, 03, 04, 05, 06). Padrão: 00"
-    )
-    parser.add_argument(
-        "--stop-after",
-        default="05",
-        help="Script após o qual parar (00, 01, 02, 03, 04, 05). Padrão: 05"
-    )
-    args = parser.parse_args()
-
+    """Orquestra a execução do pipeline completo."""
+    
     steps = [
-        ("00_preprocess.py", "00"),
-        ("01_extract_terms.py", "01"),
-        ("02_map_terminology.py", "02"),
-        ("03_merge_results.py", "03"),
-        ("04_evaluate.py", "04"),
-        ("05_audit_report.py", "05"),
+        "00_preprocess.py",
+        "01_extract_terms.py",
+        "02_map_terminology.py",
+        "03_merge_results.py",
+        "04_evaluate.py",
+        "05_audit_report.py",
     ]
 
-    start_index = None
-    stop_index = None
-    for i, (_, step_id) in enumerate(steps):
-        if step_id == args.start_at:
-            start_index = i
-        if step_id == args.stop_after:
-            stop_index = i
-
-    if start_index is None or stop_index is None:
-        sys.exit(1)
-
-    total = stop_index - start_index + 1
-    step_counter = 1
-
-    for i in range(start_index, stop_index + 1):
-        script_name, _ = steps[i]
-        success = run_script(script_name, step_counter, total)
+    total_steps = len(steps)
+    
+    for i, script_name in enumerate(steps, 1):
+        print(f"\n{'='*60}")
+        print(f"Executando passo {i}/{total_steps}: {script_name}")
+        print(f"{'='*60}")
+        
+        success = run_script(script_name)
         if not success:
             print(f"\n\nPipeline interrompido na etapa {script_name}.")
             sys.exit(1)
-        step_counter += 1
+    
+    print(f"\n{'='*60}")
+    print("Pipeline concluído com sucesso!")
+    print(f"{'='*60}")
 
 if __name__ == "__main__":
     main()

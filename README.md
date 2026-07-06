@@ -42,21 +42,14 @@ Passos possíveis: `00`, `01`, `02`, `03`, `04`, `05`.
 
 ## Hierarquia terminológica (o que é o quê)
 
-O pipeline trabalha com **3 níveis**:
+O pipeline trabalha com **2 artefatos principais**:
 
-1) **Termo clínico (texto)**
-   - Saída do LLM de extração: entidade textual com `text`, `original`, `polarity`, `abbreviation`, `category`.
+1) **Extração (texto → entidades)**
+   - Resultado por narrativa: CSV com `textoAnalisado`, `categoria`, `abreviacao`, `abreviacao_original`, `polaridade`.
 
-2) **Código de ontologia (conceito clínico normalizado)**
-   - **SNOMED CT**: `SCTID` (code) + “label” consultado/validado.
-   - **CID-11**: `CID11` (code) + “title” consultado/validado.
+2) **Mapeamento (entidade → códigos)**
+   - Resultado no mesmo CSV: `SCTID`, `CID11` e flags `SCTID_correto`/`CID11_correto` (decisão do LLM juiz após rankeamento nas APIs).
 
-3) **Indicador de acerto (decisão do “juiz”)**
-   - Para cada mapeamento, o pipeline armazena:
-     - `SCTID_correto` ∈ {0,1}
-     - `CID11_correto` ∈ {0,1}
-   - Esses campos são decididos via LLM (“modelo juiz”) comparando:
-     - termo original/label vs. significado do código sugerido.
 
 ---
 
@@ -93,11 +86,15 @@ Transformar entradas XML em um texto “limpo” pronto para LLM.
 ## Passo 01 — Extração de termos (`scripts/01_extract_terms.py`)
 
 ### Objetivo
-Extrair entidades clínicas do texto usando:
-- **LLM extrator** (`Config.OLLAMA_MODEL`)
-- **Validação objetiva de Falsos Positivos** via **API SNOMED CT + Filtro Semântico**
-- **LLM juiz** (`Config.JUDGE_MODEL`) mantido **apenas** para resolução de ambiguidades contextuais (expansão de abreviações e validação de mapeamento)
-- Caches para evitar chamadas repetidas
+Extrair entidades clínicas do texto com LLM e gerar um CSV por narrativa.
+
+### O que faz (na prática)
+- Usa o **LLM extrator** (`Config.OLLAMA_MODEL`) para gerar JSON com entidades.
+- Faz validações/limpeza dos campos retornados (ex.: `polarity` e `categoria`).
+- Consolida/deduplica e resolve conflitos de expansão de abreviações (LLM juiz).
+- Valida expansão de abreviação (quando o termo parece abreviação) usando função híbrida (SNOMED + LLM + dicionário local + caches).
+- Salva logs/artefatos por narrativa.
+
 
 ### Entradas
 - XMLs em `data/narrativas/`
@@ -111,9 +108,9 @@ Para cada narrativa `XXXX.xml`:
 
 E no final:
 - `data/output/csv_individual/all_extracted_terms.csv` (consolidado)
-- `data/output/logs/filtered_terms_log.txt` (termos rejeitados pela validação)
 
 ### Funções-chave (como cada “peça” funciona)
+
 
 #### 1) `PesquisaClin_Llama(textoClinico) -> str`
 - Monta prompt:
@@ -127,33 +124,33 @@ E no final:
 - Se falhar, retorna `{"entities": []}`.
 
 #### 2) `extrair_annotations_validas(resposta_json, texto_original, narrative_name)`
-- Faz parse robusto do JSON (lida com JSON cercado por texto).
-- Para cada entidade candidata, normaliza e valida:
-  - Checa se `original` é substring contínua do `texto_original`.
-  - Chama `is_valid_clinical_term_llm(texto, contexto)` **(agora baseada em API SNOMED)**.
-  - Se inválido: adiciona em `NOISE_LOG_GLOBAL`.
-- Normaliza campos:
-  - `polarity`: garante “Positiva”/“Negativa”
-  - `categoria`: garante “Problema”/“Teste”/“Tratamento”
-- Retorna lista com:
+- Faz parse robusto do JSON (aceita JSON rodeado por texto).
+- Para cada entidade:
+  - pega `text`/`original`/campos equivalentes
+  - valida `original` (quando existe) para estar contido no texto (via normalização)
+  - normaliza `polarity` para `Positiva`/`Negativa`
+  - normaliza `category` para `Problema`/`Teste`/`Tratamento`
+- Retorna objetos com:
   - `textoAnalisado`, `categoria`, `abreviacao`, `abreviacao_original`, `polaridade`
 
-#### 3) `is_valid_clinical_term_llm(term, contexto) -> bool` (NOVA VERSÃO)
-Esta função agora atua como um **filtro objetivo baseado em terminologia**, e **não** chama mais o LLM para decidir se o termo é ruído.
+#### 3) `consolidar_annotations(lista_de_listas, narrative_name, texto_original)`
+- Deduplica por `(normalizado(textoAnalisado), polaridade)` e mantém a versão com span maior.
+- Se houver conflito para expansão de abreviação, resolve com `utils.resolver_conflito_expansao(...)` (LLM juiz).
 
-- Se `Config.PERMISSIVE_FP_VALIDATION=True`, aceita tudo (modo permissivo, desliga o filtro).
-- Caso contrário (padrão `False`):
-  - **Normaliza** o termo.
-  - **Consulta a API SNOMED** (`utils.query_snomed`) para o termo.
-  - Se não encontrar resultados no SNOMED, **rejeita**.
-  - Se encontrar, para cada resultado, obtém o **tipo semântico** (`utils.get_snomed_semantic_type`).
-  - Se o tipo semântico estiver em `TIPOS_SEMANTICOS_VALIDOS` (ex: `Disorder`, `Finding`, `Procedure`, `Substance`), **aceita**.
-  - Caso contrário (ex: `Person`, `Environment`, `Qualifier`), **rejeita**.
-- Resultados são cacheados em `fp_validation_cache.json` para evitar chamadas repetidas à API.
+#### 4) `criar_dataframe_da_lista(...)`
+- Converte as anotações consolidadas em DataFrame e salva `extracted_terms.csv`.
+- Colunas: `nomeNarrativa`, `textoPrompt`, `categoria`, `textoAnalisado`, `abreviacao`, `abreviacao_original`, `polaridade`
 
-> **Impacto prático**: "HAS" agora é **mantido** (SNOMED retorna `Disorder`), enquanto "paciente" é **descartado** naturalmente (pois retorna `Person`, que não está na lista de tipos válidos). Não há interferência manual com listas de termos genéricos — a decisão é puramente baseada na ontologia SNOMED.
+#### 5) Validação de expansão de abreviações (pós-CSV)
+- Para linhas com `abreviacao=True` e abreviações curtas (`len<=6` e sem espaço), chama `utils.verificar_expansao_hibrida(...)`.
+- Salva a flag `expansao_correta` (0/1 ou vazio).
 
-#### 4) `consolidar_annotations(lista_de_listas, narrative_name, texto_original)`
+#### 6) Logs
+- `data/output/logs/log_execucao.txt` (stdout espelhado)
+- `data/output/logs/<ID>/llm_response_<ID>.json`
+- caches em `data/dicionarios/` (normalização, expansão e decisões).
+
+
 - Deduplica por `(normalizado, polaridade)`.
 - Preferência por spans maiores.
 - Se existirem expansões conflitantes para a mesma abreviação:
@@ -188,49 +185,27 @@ Isso permite você:
 ## Passo 02 — Mapeamento de terminologias (`scripts/02_map_terminology.py`)
 
 ### Objetivo
-Para cada `textoAnalisado` extraído, obter:
-- melhor candidato SNOMED CT → `SCTID`
-- melhor candidato CID-11 → `CID11`
-- e validar o acerto com o **modelo juiz** (LLM), que **continua atuando** nesta etapa para garantir a correção contextual do código.
+Mapear cada `textoAnalisado` para códigos **SNOMED CT** e **CID-11**, preenchendo o CSV com:
+- `SCTID` e `CID11`
+- `SCTID_correto` e `CID11_correto` (decisão do LLM juiz)
 
-### Entradas
-- `data/output/csv_individual/*/extracted_terms.csv`
+### O que faz (na prática)
+- Lê cada `extracted_terms.csv` em `data/output/csv_individual/*/`.
+- Para cada `textoAnalisado` único:
+  1) normaliza o termo com cache (`utils.normalize_term`) 
+  2) tenta mapeamento local em `data/dicionarios/mapeamento_local.json`
+  3) se não achar localmente, consulta APIs:
+     - SNOMED (BioPortal)
+     - CID-11 (WHO / token + busca)
+  4) rankeia candidatos por similaridade (TF-IDF char n-grams)
+  5) valida o melhor candidato com o LLM juiz (`utils.validar_mapeamento_llm`) e grava as flags `*_correto`
+- Atualiza o CSV no mesmo local.
 
-### O que faz (por termo)
-Função principal: `mapear_termo_api(termo, df)`
+### Caches usados
+- Cache de APIs (resultados brutos)
+- Cache de normalização
+- Cache de validação do juiz (por `termo_original|codigo`)
 
-1) **Normaliza o termo**
-   - `utils.normalize_term(...)` (usa `normalize_with_llm_*` + cache)
-
-2) **Consulta APIs**
-   - `utils.query_snomed(...)`
-     - BioPortal Search SNOMED CT
-   - `utils.query_icd11(...)`
-     - token WHO + busca ICD-11
-
-3) **Ranking dos candidatos**
-   - `utils.rank_results(...)`
-     - usa similaridade baseada em TF-IDF char n-grams
-
-4) **Validação com “juiz” (LLM)**
-   - Para SNOMED:
-     - pega `code` + `label`
-     - chama `utils.validar_mapeamento_llm(...)`
-       - prompt `prompts/validar_mapeamento_llm_*`
-       - saída interpretada como 1 (correto) / 0 (incorreto)
-   - Para CID-11:
-     - pega `code` + `title`
-     - chama `utils.validar_mapeamento_llm(...)` igualmente
-
-5) **Retorna resultado**
-- `SCTID`: código do melhor candidato (se validado)
-- `CID11`: código do melhor candidato (se validado)
-- `SCTID_correto`, `CID11_correto`: 0/1
-
-### Caches envolvidos (por que existem)
-- `api_cache.json`: salva resultados brutos de query SNOMED/CID
-- `validation_cache.json`: salva decisão do juiz `(termo_original|codigo)`
-- `norm_cache.json`: salva normalização do termo
 
 ---
 
@@ -289,14 +264,19 @@ Também gera CSVs auxiliares:
 ## Passo 05 — Auditoria e comparação (`scripts/05_audit_report.py`)
 
 ### Objetivo
-Gerar relatórios “humanos” para depurar decisões.
+Gera arquivos para revisar decisões do pipeline.
 
-### Relatórios gerados
-- `data/output/auditoria/termos_rejeitados.csv`
-  - usa `logs/filtered_terms_log.txt`
-- `data/output/auditoria/resumo_auditoria.csv`
-- `data/output/auditoria/comparacao/*`
-  - listas VP/FP/FN com termos e categorias
+### O que gera (na prática)
+- Lê `data/output/logs/filtered_terms_log.txt` (se existir) e salva:
+  - `data/output/auditoria/termos_rejeitados.csv`
+- Resume respostas do LLM de extração, se existirem logs em `Config.LLM_RESPONSES_FOLDER`.
+  - salva `respostas_llm_extracao.csv`
+- Resume validações de mapeamento, se existirem em `Config.LOGS_FOLDER/decisions/`.
+  - salva `validacoes_mapeamento.csv`
+- Tenta ler o arquivo de avaliação gerado no passo 04 e salva listas:
+  - `.../auditoria/comparacao/acertos_vp.csv`
+  - `.../auditoria/comparacao/falsos_positivos_fp.csv`
+  - `.../auditoria/comparacao/falsos_negativos_fn.csv`
 
 ---
 
@@ -313,6 +293,7 @@ Principais:
 ---
 
 ## Exemplo completo de narrativa (o fluxo inteiro)
+
 
 Considere a narrativa (exemplo simplificado):
 > “Paciente refere **has** (hipertensão arterial sistêmica) e **dor torácica**. Nega **dispneia**.”
