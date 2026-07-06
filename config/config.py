@@ -15,7 +15,7 @@ class Config:
     MAX_TOKENS = 32768
     REPEAT_PENALTY = 1.1
 
-    NARRATIVES_FOLDER = os.path.join(_REPO_ROOT, "data", "teste")
+    NARRATIVES_FOLDER = os.path.join(_REPO_ROOT, "data", "narrativas")
     GOLDSTANDARD_FOLDER = os.path.join(_REPO_ROOT, "data", "goldstandard")
     OUTPUT_BASE = os.path.join(_REPO_ROOT, "data", "output")
     CSV_INDIVIDUAL_FOLDER = os.path.join(OUTPUT_BASE, "csv_individual")
