@@ -5,6 +5,7 @@ REGRAS OBRIGATÓRIAS:
 - Extraia absolutamente TUDO que for clínico: doenças, sintomas, exames, medicamentos, cirurgias, procedimentos, achados físicos, resultados laboratoriais, valores anormais de exames, sinais vitais alterados.
 - Preserve doses, unidades, frequências e valores exatamente como aparecem no texto. NÃO remova informações numéricas ou de dosagem.
 - Expanda abreviações sempre que possível. Se a sigla aparecer seguida de sua forma expandida entre parênteses, use-a imediatamente.
+- Para siglas muito curtas e genéricas (ex.: "cx", "sx", "rx"), expanda apenas para o termo mais geral ("cirurgia", "síndrome", "raio-x") a menos que o contexto indique claramente uma especialidade ou procedimento específico.
 - Para cada entidade, forneça:
   - text: termo clínico normalizado (expandido se for abreviação), preservando doses e unidades quando presentes.
   - original: texto exato como aparece no original (deve ser uma substring CONTÍNUA do texto fornecido)

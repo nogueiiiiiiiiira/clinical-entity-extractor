@@ -21,6 +21,7 @@ from utils import (
     resolver_conflito_mapeamento,
     load_mapeamento_local,
     get_mapeamento_local,
+    get_mapeamento_local_normalizado,
 )
 
 API_CACHE = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.CACHE_FILE))
@@ -52,7 +53,7 @@ def mapear_termo_api(termo: str, df: pd.DataFrame = None) -> dict:
         termo, NORM_CACHE, os.path.join(Config.DICIONARIOS_FOLDER, Config.NORM_CACHE_FILE)
     )
 
-    mapeamento_local = get_mapeamento_local(termo_norm, MAPEAMENTO_LOCAL_CACHE)
+    mapeamento_local = get_mapeamento_local_normalizado(termo_norm, MAPEAMENTO_LOCAL_CACHE)
     if mapeamento_local:
         print(f"\n[DEBUG] Mapeamento local encontrado para '{termo_norm}': SNOMED={mapeamento_local.get('snomed')}, CID={mapeamento_local.get('cid11')}\n")
         return {
@@ -94,9 +95,10 @@ def mapear_termo_api(termo: str, df: pd.DataFrame = None) -> dict:
             cand = ranked_snomed[0][0]
             label = cand.get("label", "")
             codigo = cand.get("code", "")
+            sim_score = ranked_snomed[0][1] if len(ranked_snomed) > 0 else 0.0
             if label and codigo:
                 label_detalhado = get_label_snomed(codigo) or label
-                if validar_mapeamento_llm(
+                valido = validar_mapeamento_llm(
                     termo_norm,
                     codigo,
                     label_detalhado,
@@ -106,7 +108,12 @@ def mapear_termo_api(termo: str, df: pd.DataFrame = None) -> dict:
                         Config.VALIDATION_CACHE_FILE,
                     ),
                     contexto_adicional=contexto
-                ) == 1:
+                )
+                if valido == 1:
+                    best_snomed = cand
+                    snomed_correto = 1
+                elif sim_score >= 0.5:  # limiar reduzido de 0.7 para 0.5
+                    print(f"[DEBUG] Fallback por similaridade: aceitando '{termo_norm}' -> '{label_detalhado}' (sim={sim_score:.2f})")
                     best_snomed = cand
                     snomed_correto = 1
                 else:
@@ -120,9 +127,10 @@ def mapear_termo_api(termo: str, df: pd.DataFrame = None) -> dict:
             cand = ranked_icd[0][0]
             title = cand.get("title", "")
             codigo = cand.get("code", "")
+            sim_score = ranked_icd[0][1] if len(ranked_icd) > 0 else 0.0
             if codigo:
                 title_detalhado = get_label_cid11(codigo) or title or ""
-                if validar_mapeamento_llm(
+                valido = validar_mapeamento_llm(
                     termo_norm,
                     codigo,
                     title_detalhado,
@@ -132,7 +140,12 @@ def mapear_termo_api(termo: str, df: pd.DataFrame = None) -> dict:
                         Config.VALIDATION_CACHE_FILE,
                     ),
                     contexto_adicional=contexto
-                ) == 1:
+                )
+                if valido == 1:
+                    best_icd = cand
+                    cid_correto = 1
+                elif sim_score >= 0.5:  # limiar reduzido de 0.7 para 0.5
+                    print(f"[DEBUG] Fallback por similaridade: aceitando '{termo_norm}' -> '{title_detalhado}' (sim={sim_score:.2f})")
                     best_icd = cand
                     cid_correto = 1
                 else:

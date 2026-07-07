@@ -98,14 +98,8 @@
   "mi": "mitral",
   "tri": "tricúspide",
   "ao": "aórtica",
-  "ve": "ventrículo esquerdo",
-  "vd": "ventrículo direito",
-  "ae": "átrio esquerdo",
-  "ad": "átrio direito",
   "ddve": "diâmetro diastólico do ventrículo esquerdo",
   "dsve": "diâmetro sistólico do ventrículo esquerdo",
   "ppve": "parede posterior do ventrículo esquerdo",
-  "septo": "septo interventricular",
-  "ae": "átrio esquerdo",
-  "ad": "átrio direito"
+  "septo": "septo interventricular"
 }

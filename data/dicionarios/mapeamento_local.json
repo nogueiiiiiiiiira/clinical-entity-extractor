@@ -60,7 +60,8 @@
     "cid11": "BC43"
   },
   "hipocinesia septal": {
-    "snomed": "102513004"
+    "snomed": "102513004",
+    "cid11": "BA4Z"
   },
   "isquemia miocárdica": {
     "snomed": "26120005",
@@ -73,6 +74,10 @@
   "ortopneia": {
     "snomed": "60862002",
     "cid11": "MD11"
+  },
+  "dispneia paroxística noturna": {
+    "snomed": "230429003",
+    "cid11": "MD11.0"
   },
   "palpitações": {
     "snomed": "80313002",
@@ -101,5 +106,45 @@
   "edema": {
     "snomed": "271723007",
     "cid11": "MG29"
+  },
+  "edema de membros inferiores": {
+    "snomed": "271723007",
+    "cid11": "MG29"
+  },
+  "cirurgia": {
+    "snomed": "387713003",
+    "cid11": "QC1Z"
+  },
+  "ácido acetilsalicílico": {
+    "snomed": "387458008",
+    "cid11": "XC0G"
+  },
+  "metoprolol": {
+    "snomed": "372826007",
+    "cid11": "XC0H"
+  },
+  "levotiroxina": {
+    "snomed": "374298009",
+    "cid11": "XC0I"
+  },
+  "furosemida": {
+    "snomed": "317972000",
+    "cid11": "XC0J"
+  },
+  "fluoxetina": {
+    "snomed": "332406008",
+    "cid11": "XC0K"
+  },
+  "sinvastatina": {
+    "snomed": "259031006",
+    "cid11": "XC0L"
+  },
+  "plastia mitral": {
+    "snomed": "253395003",
+    "cid11": "QC1Y"
+  },
+  "ecocardiograma": {
+    "snomed": "13657006",
+    "cid11": "QC1Z"
   }
 }

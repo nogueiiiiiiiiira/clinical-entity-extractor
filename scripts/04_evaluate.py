@@ -16,9 +16,12 @@ from utils import (
     expansion_of,
     fuzzy_partial_match,
     load_json_cache,
+    load_abreviacoes,
+    expandir_abreviacao_direta
 )
 
 expansion_cache = load_json_cache(os.path.join(Config.DICIONARIOS_FOLDER, Config.EXPANSION_CACHE_FILE))
+ABREV_CACHE = load_abreviacoes(os.path.join(Config.DICIONARIOS_FOLDER, Config.ABREVIACOES_FILE))
 
 
 def extrair_gold_terms(root, narrativa_filename):
@@ -49,7 +52,7 @@ def extrair_gold_terms(root, narrativa_filename):
             continue
 
         id_anot = annotation.get("id")
-        dado = padronizar_string(annotation.get("text"))
+        dado = annotation.get("text", "").strip()
         negado = False
 
         anot_principal = root.find(f".//EVENT[@id='{id_anot}']")
@@ -172,6 +175,17 @@ def extrair_contexto(texto, termo, window=80):
     return snippet.strip()
 
 
+def apenas_conceito(texto):
+    if not texto:
+        return ""
+    return re.sub(
+        r'\b\d+[.,]?\d*\s*(mg|g|ui|mcg|ml|cp|%|x/?dia|bpm|spm|rpm|mmHg|mmhg)\b',
+        '',
+        texto,
+        flags=re.IGNORECASE
+    ).strip()
+
+
 def avaliar_modo(csv_path, modo, output_suffix, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
@@ -181,6 +195,9 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
             df_prompts["polaridade"].str.strip().str.lower() == "positiva"
         ]
 
+    if "original" not in df_prompts.columns:
+        df_prompts["original"] = df_prompts["textoAnalisado"]
+
     narrativas_unicas = df_prompts["nomeNarrativa"].unique()
 
     df_resultado = pd.DataFrame(
@@ -189,6 +206,7 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
             "textoPrompt",
             "categoria",
             "termoAnalisado",
+            "original",
             "abreviacao",
             "CID11",
             "expansao_correta",
@@ -212,6 +230,7 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
         achados_prompt = df_narr[
             [
                 "textoAnalisado",
+                "original",
                 "textoPrompt",
                 "categoria",
                 "abreviacao",
@@ -244,7 +263,7 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
         texto_prompt = df_narr.iloc[0]["textoPrompt"] if not df_narr.empty else ""
 
         for p in achados_prompt:
-            p["termo_norm"] = normalizar_para_match(p["textoAnalisado"])
+            p["termo_original"] = normalizar_para_match(p.get("original", p["textoAnalisado"]))
         for g in achados_semclin:
             g["termo_norm"] = normalizar_para_match(g["termo"])
 
@@ -254,24 +273,41 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
         matches = []
         for i, pred in enumerate(achados_prompt):
             for j, gold in enumerate(achados_semclin):
-                if not pred["termo_norm"] or not gold["termo_norm"]:
+                if not pred["termo_original"] or not gold["termo_norm"]:
                     continue
-                if pred["termo_norm"] == gold["termo_norm"]:
+                if pred["termo_original"] == gold["termo_norm"]:
                     matches.append((3, i, j, "VP"))
                 elif modo == "relaxed":
-                    if expansion_of(pred["termo_norm"], gold["termo_norm"]) or expansion_of(
-                        gold["termo_norm"], pred["termo_norm"]
+                    expanded_pred = expandir_abreviacao_direta(pred["termo_original"], ABREV_CACHE)
+                    expanded_gold = expandir_abreviacao_direta(gold["termo_norm"], ABREV_CACHE)
+                    if expanded_pred and expanded_pred == gold["termo_norm"]:
+                        matches.append((2, i, j, "VP"))
+                    elif expanded_gold and expanded_gold == pred["termo_original"]:
+                        matches.append((2, i, j, "VP"))
+                    elif expansion_of(pred["termo_original"], gold["termo_norm"]) or expansion_of(
+                        gold["termo_norm"], pred["termo_original"]
                     ):
                         matches.append((2, i, j, "VP"))
                     else:
+                        pred_norm = pred["termo_original"]
+                        gold_norm = gold["termo_norm"]
+                        if gold_norm and pred_norm:
+                            if gold_norm in pred_norm or pred_norm in gold_norm:
+                                matches.append((2, i, j, "VP"))
+                                continue
+                        conceito_pred = apenas_conceito(pred_norm)
+                        conceito_gold = apenas_conceito(gold_norm)
+                        if conceito_pred and conceito_gold and conceito_pred == conceito_gold:
+                            matches.append((2, i, j, "VP"))
+                            continue
                         import re
                         def normalize_freq(t):
                             return re.sub(r'\s*\d+xd\s*', '', t)
-                        pred_norm_freq = normalize_freq(pred["termo_norm"])
+                        pred_norm_freq = normalize_freq(pred["termo_original"])
                         gold_norm_freq = normalize_freq(gold["termo_norm"])
                         if pred_norm_freq == gold_norm_freq:
                             matches.append((2, i, j, "VP"))
-                        elif fuzzy_partial_match(pred["termo_norm"], gold["termo_norm"]):
+                        elif fuzzy_partial_match(pred["termo_original"], gold["termo_norm"]):
                             matches.append((1, i, j, "VP"))
 
         matches.sort(key=lambda x: (-x[0], x[1], x[2]))
@@ -288,6 +324,7 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
                 "textoPrompt": pred["textoPrompt"],
                 "categoria": pred["categoria"],
                 "termoAnalisado": pred["textoAnalisado"],
+                "original": pred.get("original", ""),
                 "abreviacao": pred["abreviacao"],
                 "CID11": pred.get("CID11", ""),
                 "expansao_correta": pred.get("expansao_correta", ""),
@@ -315,6 +352,7 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
                     "textoPrompt": pred["textoPrompt"],
                     "categoria": pred["categoria"],
                     "termoAnalisado": pred["textoAnalisado"],
+                    "original": pred.get("original", ""),
                     "abreviacao": pred["abreviacao"],
                     "CID11": pred.get("CID11", ""),
                     "expansao_correta": pred.get("expansao_correta", ""),
@@ -339,6 +377,7 @@ def avaliar_modo(csv_path, modo, output_suffix, output_dir):
                     "textoPrompt": "",
                     "categoria": "",
                     "termoAnalisado": "",
+                    "original": "",
                     "abreviacao": "",
                     "CID11": "",
                     "expansao_correta": "",

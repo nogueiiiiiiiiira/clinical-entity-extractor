@@ -31,14 +31,8 @@ pip install -r requirements.txt
 python app.py
 ```
 
-### Execução parcial
-O orquestrador `app.py` permite:
-```bash
-python app.py --start-at 00 --stop-after 02
-```
-Passos possíveis: `00`, `01`, `02`, `03`, `04`, `05`.
-
 ---
+
 
 ## Hierarquia terminológica (o que é o quê)
 
@@ -72,7 +66,7 @@ O `app.py` executa, na ordem:
 Transformar entradas XML em um texto “limpo” pronto para LLM.
 
 ### O que faz
-- Lê cada arquivo `.xml` em `data/narrativas/`.
+- Lê cada arquivo `.xml` da pasta configurada em `Config.NARRATIVES_FOLDER`.
 - Extrai o conteúdo da tag XML: `.//TEXT`.
 - Remove quebras e múltiplos espaços (normaliza `\s+` → espaço).
 - Salva em:
@@ -84,6 +78,7 @@ Transformar entradas XML em um texto “limpo” pronto para LLM.
 ---
 
 ## Passo 01 — Extração de termos (`scripts/01_extract_terms.py`)
+
 
 ### Objetivo
 Extrair entidades clínicas do texto com LLM e gerar um CSV por narrativa.
@@ -97,14 +92,16 @@ Extrair entidades clínicas do texto com LLM e gerar um CSV por narrativa.
 
 
 ### Entradas
-- XMLs em `data/narrativas/`
-- Usado: conteúdo dentro de `.//TEXT`
+- Usados: conteúdo dentro de `.//TEXT`.
 
 ### Saídas principais (por narrativa)
 Para cada narrativa `XXXX.xml`:
 - `data/output/csv_individual/XXXX/extracted_terms.csv`
-- `data/output/csv_individual/XXXX/annotations_XXXX.json` (annotations consolidadas)
-- `data/output/logs/XXXX/llm_response_XXXX.json` (resposta bruta do LLM)
+- `data/output/csv_individual/XXXX/extracted_terms.csv`
+- `data/output/logs/<narrative_base>/llm_response_<narrative_base>.json` (resposta bruta do LLM)
+- Colunas típicas no CSV do passo 01 incluem: `nomeNarrativa`, `textoPrompt`, `categoria`, `textoAnalisado`, `original`, `abreviacao`, `abreviacao_original`, `polaridade` e (para abreviações curtas) `expansao_correta`.
+
+
 
 E no final:
 - `data/output/csv_individual/all_extracted_terms.csv` (consolidado)

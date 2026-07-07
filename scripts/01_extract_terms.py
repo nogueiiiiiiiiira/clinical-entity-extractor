@@ -66,18 +66,17 @@ def extrair_annotations_validas(resposta_json: str, texto_original: str, narrati
         if not texto:
             continue
 
-        original_excerpt = ent.get('original', texto)
+        original_excerpt = ent.get('original', texto).strip()
+        if not original_excerpt:
+            original_excerpt = texto
 
         polaridade = ent.get('polarity', 'Positiva').strip().capitalize()
         if polaridade not in ('Positiva', 'Negativa'):
             polaridade = 'Positiva'
 
         abbreviation = ent.get('abbreviation', False)
-        original = ent.get('original', texto if abbreviation else None)
-
-        if original and (len(original) > 6 or ' ' in original):
+        if original_excerpt and (len(original_excerpt) > 6 or ' ' in original_excerpt):
             abbreviation = False
-            original = None
 
         categoria = ent.get('category', 'Problema')
         if categoria not in ('Problema', 'Teste', 'Tratamento'):
@@ -85,9 +84,10 @@ def extrair_annotations_validas(resposta_json: str, texto_original: str, narrati
 
         validas.append({
             "textoAnalisado": texto,
+            "original": original_excerpt,
             "categoria": categoria,
             "abreviacao": abbreviation,
-            "abreviacao_original": original if abbreviation else None,
+            "abreviacao_original": original_excerpt if abbreviation else None,
             "polaridade": polaridade
         })
 
@@ -213,13 +213,14 @@ def criar_dataframe_da_lista(annotations_consolidadas: list, narrative_name: str
             "textoPrompt": texto_original,
             "categoria": ann["categoria"],
             "textoAnalisado": ann["textoAnalisado"],
+            "original": ann.get("original", ann["textoAnalisado"]),
             "abreviacao": ann["abreviacao"],
             "abreviacao_original": ann["abreviacao_original"] if ann["abreviacao"] else None,
             "polaridade": ann.get("polaridade", "Positiva")
         })
 
     df = pd.DataFrame(dados_extraidos)
-    df = df[["nomeNarrativa", "textoPrompt", "categoria", "textoAnalisado", "abreviacao", "abreviacao_original", "polaridade"]]
+    df = df[["nomeNarrativa", "textoPrompt", "categoria", "textoAnalisado", "original", "abreviacao", "abreviacao_original", "polaridade"]]
     os.makedirs(os.path.dirname(csv_filename), exist_ok=True)
     df.to_csv(csv_filename, index=False, encoding='utf-8')
     return df
@@ -332,7 +333,13 @@ def processar_narrativa_completa(nome_narrativa: str):
                     ABREVIACOES_CACHE,
                     contexto
                 )
-                df.at[idx, 'expansao_correta'] = correto
+                if correto == 1:
+                    df.at[idx, 'expansao_correta'] = 1
+                else:
+                    df.at[idx, 'expansao_correta'] = 0
+                    df.at[idx, 'textoAnalisado'] = row['original']
+                    df.at[idx, 'abreviacao'] = False
+                    df.at[idx, 'abreviacao_original'] = None
                 print(f"[DEBUG] Resultado validação híbrida: {correto}")
             else:
                 print(f"[DEBUG] Ignorando validação para '{abrev}' - não parece ser uma abreviação (len={len(abrev)})")
