@@ -59,10 +59,6 @@
     "snomed": "85898001",
     "cid11": "BC43"
   },
-  "hipocinesia septal": {
-    "snomed": "102513004",
-    "cid11": "BA4Z"
-  },
   "isquemia miocárdica": {
     "snomed": "26120005",
     "cid11": "BA4Z"
@@ -77,7 +73,7 @@
   },
   "dispneia paroxística noturna": {
     "snomed": "230429003",
-    "cid11": "MD11.0"
+    "cid11": "MD11"
   },
   "palpitações": {
     "snomed": "80313002",

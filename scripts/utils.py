@@ -811,10 +811,10 @@ def consolidar_annotations_semantic(annotations_list: list, threshold: float = 0
     return consolidados
 
 def normalizar_para_mapeamento_local(termo: str) -> str:
-    """Remove doses, unidades e frequências para mapeamento local."""
     if not termo:
         return ""
     t = termo.lower().strip()
+    t = re.sub(r'\s*\([^)]*\)', '', t)
     t = re.sub(r'\b\d+[.,]?\d*\s*(mg|g|ui|mcg|ml|cp|%|x/?dia|bpm|spm|rpm|mmHg|mmhg)\b', '', t, flags=re.IGNORECASE)
     t = re.sub(r'\b\d+\s*-\s*\d+\s*(mg|g|ui|mcg|ml)\b', '', t)
     t = re.sub(r'\b\d+\s*x\s*/?\s*dia\b', '', t)
@@ -822,6 +822,7 @@ def normalizar_para_mapeamento_local(termo: str) -> str:
     t = re.sub(r'\b\d+\s*cp\b', '', t)
     t = re.sub(r'\b\d+\s*[.,]?\d*\s*(mg|g|ui|mcg|ml|cp|%|x/?dia|bpm|spm|rpm|mmHg|mmhg)\b', '', t, flags=re.IGNORECASE)
     t = re.sub(r'\s+', ' ', t).strip()
+    t = re.sub(r'\s*\([a-zA-Z]+\)$', '', t).strip()
     return t
 
 def get_mapeamento_local_normalizado(termo: str, mapeamento_cache: dict) -> dict:
