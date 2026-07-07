@@ -7,6 +7,7 @@ import xml.etree.ElementTree as ET
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config.config import Config
+from utils import apply_ocr_corrections
 
 def clean_xml_text(xml_path: str) -> str:
     """Extrai o conteúdo da tag TEXT, remove tags XML/HTML e normaliza espaços."""
@@ -18,6 +19,7 @@ def clean_xml_text(xml_path: str) -> str:
             return ""
         raw = text_elem.text
         raw = re.sub(r'\s+', ' ', raw).strip()
+        raw = apply_ocr_corrections(raw)
         return raw
     except Exception as e:
         print(f"\n\nErro ao processar {xml_path}: {e}")

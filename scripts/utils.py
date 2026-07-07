@@ -43,7 +43,7 @@ def _save_llm_response(model: str, prompt: str, response: str, response_type: st
     os.makedirs(Config.LLM_RESPONSES_FOLDER, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
     safe_type = re.sub(r'[^a-zA-Z0-9_]', '_', response_type)
-    filename = f"{timestamp}_{safe_type}_{identifier}.json"
+    filename = f"{timestamp}_{safe_type}_{identifier}_llama.json"
     filepath = os.path.join(Config.LLM_RESPONSES_FOLDER, filename)
     log_data = {
         "timestamp": timestamp,
@@ -471,29 +471,50 @@ def verificar_expansao_hibrida(abrev: str, expandido: str, expansion_cache: dict
         return 0
     
     abrev_norm = abrev.lower().strip()
-    expandido_norm = expandido.lower().strip()
+    
+    expandido_limpo = re.sub(r'\s*\([^)]*\)', '', expandido)
+    expandido_limpo = re.sub(r'\b\d+\b', '', expandido_limpo)
+    expandido_limpo = re.sub(r'\b(tipo|grau|nível|classe|estágio)\s*\d*\b', '', expandido_limpo, flags=re.IGNORECASE)
+    expandido_limpo = re.sub(r'[^\w\s]', ' ', expandido_limpo)
+    expandido_limpo = re.sub(r'\s+', ' ', expandido_limpo).strip()
+    expandido_norm = expandido_limpo.lower().strip()
+    
+    print(f"[DEBUG] Expansão limpa: '{expandido_limpo}'")
     
     if abrev_norm in abreviacoes_cache:
         expansao_correta = abreviacoes_cache[abrev_norm]
         if expandido_norm == expansao_correta.lower().strip():
-            print(f"[DEBUG] Dicionário local validou: '{abrev}' -> '{expandido}' = 1")
+            print(f"[DEBUG] Dicionário local validou (exato): '{abrev}' -> '{expandido_limpo}' = 1")
             cache_key = f"{abrev}|{expandido}"
             expansion_cache[cache_key] = 1
             save_json_cache(expansion_cache, expansion_cache_file)
             return 1
+        from sklearn.feature_extraction.text import TfidfVectorizer
+        from sklearn.metrics.pairwise import cosine_similarity
+        try:
+            vectorizer = TfidfVectorizer(analyzer='char_wb', ngram_range=(2,4))
+            tfidf = vectorizer.fit_transform([expandido_norm, expansao_correta.lower().strip()])
+            sim = cosine_similarity(tfidf[0:1], tfidf[1:2])[0][0]
+            if sim >= 0.7:
+                print(f"[DEBUG] Dicionário local validou (fuzzy, sim={sim:.2f}): '{abrev}' -> '{expandido_limpo}' = 1")
+                cache_key = f"{abrev}|{expandido}"
+                expansion_cache[cache_key] = 1
+                save_json_cache(expansion_cache, expansion_cache_file)
+                return 1
+        except:
+            pass
     
     palavras_exp = expandido_norm.split()
     iniciais = ''.join(p[0] for p in palavras_exp if p)
     if len(iniciais) >= 2 and iniciais != abrev_norm:
-        print(f"[DEBUG] Iniciais da expansão ('{iniciais}') não correspondem à abreviação ('{abrev_norm}') -> 0")
-        cache_key = f"{abrev}|{expandido}"
-        expansion_cache[cache_key] = 0
-        save_json_cache(expansion_cache, expansion_cache_file)
-        return 0
+        print(f"[DEBUG] Iniciais da expansão ('{iniciais}') não correspondem à abreviação ('{abrev_norm}') - continuando validação...")
     
-    snomed_result = verificar_expansao_com_snomed(abrev, expandido, api_cache, api_cache_file, contexto)
+    snomed_result = verificar_expansao_com_snomed(abrev, expandido_limpo, api_cache, api_cache_file, contexto)
     if snomed_result == 1:
-        print(f"[DEBUG] Híbrido: SNOMED validou -> '{abrev}' -> '{expandido}' = 1")
+        print(f"[DEBUG] Híbrido: SNOMED validou -> '{abrev}' -> '{expandido_limpo}' = 1")
+        cache_key = f"{abrev}|{expandido}"
+        expansion_cache[cache_key] = 1
+        save_json_cache(expansion_cache, expansion_cache_file)
         return 1
     
     resultados_snomed = query_snomed(abrev, api_cache, api_cache_file)
@@ -505,14 +526,14 @@ def verificar_expansao_hibrida(abrev: str, expandido: str, expansion_cache: dict
                 if conceito:
                     label_norm = normalize_basic(conceito.get("label", ""))
                     if expandido_norm == label_norm:
-                        print(f"[DEBUG] SNOMED fallback validou via código: '{abrev}' -> '{expandido}' = 1")
+                        print(f"[DEBUG] SNOMED fallback validou via código: '{abrev}' -> '{expandido_limpo}' = 1")
                         cache_key = f"{abrev}|{expandido}"
                         expansion_cache[cache_key] = 1
                         save_json_cache(expansion_cache, expansion_cache_file)
                         return 1
     
-    llm_result = verificar_expansao_llm(abrev, expandido, expansion_cache, expansion_cache_file, contexto)
-    print(f"[DEBUG] Híbrido: LLM validou -> '{abrev}' -> '{expandido}' = {llm_result}")
+    llm_result = verificar_expansao_llm(abrev, expandido_limpo, expansion_cache, expansion_cache_file, contexto)
+    print(f"[DEBUG] Híbrido: LLM validou -> '{abrev}' -> '{expandido_limpo}' = {llm_result}")
     return llm_result
 
 def resolver_conflito_expansao(abrev: str, expansoes_candidatas: list, expansion_cache: dict, expansion_cache_file: str, contexto: str = "") -> str:
@@ -607,7 +628,7 @@ def resolver_conflito_mapeamento(termo_original: str, codigo: str, label_conceit
     return final
 
 def salvar_annotations_json(annotations: list, narrative_name: str, output_dir: str) -> None:
-    json_path = os.path.join(output_dir, f"annotations_{narrative_name}.json")
+    json_path = os.path.join(output_dir, f"annotations_{narrative_name}_llama.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(annotations, f, indent=2, ensure_ascii=False)
 
@@ -617,7 +638,7 @@ def log_decision(decision_type: str, input_data: dict, output: str, confidence: 
     os.makedirs(log_dir, exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-    filename = f"{timestamp}_{decision_type}.json"
+    filename = f"{timestamp}_{decision_type}_llama.json"
     filepath = os.path.join(log_dir, filename)
 
     log_entry = {
@@ -666,3 +687,125 @@ def get_mapeamento_local(termo: str, mapeamento_cache: dict) -> dict:
     if termo_norm in mapeamento_cache:
         return mapeamento_cache[termo_norm]
     return None
+
+OCR_CORRECTIONS = {
+    "mdoeardos": "moderados",
+    "disnpneía": "dispneia",
+    "pricn": "predomínio",
+    "Dopença": "Doença",
+    "osstents": "stents",
+    "labopratoriais": "laboratoriais",
+    "disfunbção": "disfunção",
+    "relfuxo": "refluxo",
+    "taquicardico": "taquicárdico",
+    "constulta": "consulta",
+    "fumou": "fuma",
+    "sufoco": "sufocação",
+    "queimação": "queimação",
+    "cornoaria": "coronária",
+    "empaturrilha": "panturrilha",
+    "mdoeardos": "moderados",
+    "copnstulta": "consulta",
+    "duarnte": "durante",
+    "pcte": "paciente",
+    "qeixas": "queixas",
+    "sincope": "síncope",
+    "claudicação": "claudicação",
+}
+
+def apply_ocr_corrections(text: str) -> str:
+    """Aplica correções de OCR/digitação com base em dicionário."""
+    if not isinstance(text, str):
+        return text
+    for erro, correto in OCR_CORRECTIONS.items():
+        text = re.sub(r'\b' + re.escape(erro) + r'\b', correto, text, flags=re.IGNORECASE)
+    return text
+
+VERBOS_INDESEJADOS = [
+    "refere", "relata", "apresenta", "nega", "queixa", "informa", "descreve",
+    "referindo", "relatando", "negando", "queixando"
+]
+
+def post_process_entities(entities: list, abrev_cache: dict) -> list:
+    """Pós-processa as entidades: remove verbos, combina termos quebrados, expande siglas."""
+    if not entities:
+        return entities
+
+    processed = []
+    for ent in entities:
+        texto = ent.get("textoAnalisado", "").strip()
+        if not texto:
+            continue
+
+        if texto.lower() in VERBOS_INDESEJADOS:
+            continue
+
+        if len(texto) <= 6 and texto.isalpha():
+            expansao = expandir_abreviacao_direta(texto, abrev_cache)
+            if expansao:
+                ent["textoAnalisado"] = expansao
+                ent["abreviacao"] = True
+                ent["abreviacao_original"] = texto
+
+        processed.append(ent)
+
+    return processed
+
+_semantic_model = None
+
+def get_semantic_model():
+    global _semantic_model
+    if _semantic_model is None:
+        try:
+            from sentence_transformers import SentenceTransformer
+            _semantic_model = SentenceTransformer('all-MiniLM-L6-v2')
+        except ImportError:
+            _semantic_model = None
+    return _semantic_model
+
+def semantic_similarity(a: str, b: str) -> float:
+    """Calcula similaridade semântica usando Sentence-BERT ou fallback para TF-IDF."""
+    model = get_semantic_model()
+    if model is not None:
+        try:
+            emb = model.encode([a, b])
+            sim = cosine_similarity([emb[0]], [emb[1]])[0][0]
+            return sim
+        except:
+            pass
+    return similarity(a, b)
+
+def consolidar_annotations_semantic(annotations_list: list, threshold: float = 0.85) -> list:
+    """Consolida anotações usando similaridade semântica, preservando o span mais longo."""
+    if not annotations_list:
+        return []
+
+    grupos = {}
+    for ann in annotations_list:
+        key = (ann.get("polaridade", "Positiva"), ann.get("categoria", "Problema"))
+        grupos.setdefault(key, []).append(ann)
+
+    consolidados = []
+    for key, grupo in grupos.items():
+        grupo.sort(key=lambda x: len(x.get("textoAnalisado", "")), reverse=True)
+
+        selecionados = []
+        for ann in grupo:
+            texto = ann.get("textoAnalisado", "").strip()
+            if not texto:
+                continue
+            duplicado = False
+            for sel in selecionados:
+                if semantic_similarity(texto, sel.get("textoAnalisado", "")) >= threshold:
+                    if len(texto) > len(sel.get("textoAnalisado", "")):
+                        sel["textoAnalisado"] = texto
+                        if ann.get("abreviacao_original"):
+                            sel["abreviacao_original"] = ann["abreviacao_original"]
+                            sel["abreviacao"] = ann["abreviacao"]
+                    duplicado = True
+                    break
+            if not duplicado:
+                selecionados.append(ann.copy())
+        consolidados.extend(selecionados)
+
+    return consolidados

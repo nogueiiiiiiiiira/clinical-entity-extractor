@@ -32,7 +32,7 @@ class Config:
     TFIDF_SIMILARITY_THRESHOLD = 0.5
 
     ENABLE_AGGRESSIVE_EXTRACTION = True
-    ENABLE_POST_PROCESSING = False
+    ENABLE_POST_PROCESSING = True  
 
     BIOPORTAL_API_KEY = "09b5677b-aa9d-4e32-b509-bfccfe44c479"
     BIOPORTAL_URL = "http://data.bioontology.org/search"
@@ -43,12 +43,12 @@ class Config:
     ICD_TOKEN_URL = "https://icdaccessmanagement.who.int/connect/token"
     ICD_SEARCH_URL = "https://id.who.int/icd/release/11/2024-01/mms/search"
 
-    CACHE_FILE = "api_cache.json"
-    VALIDATION_CACHE_FILE = "validation_cache.json"
-    EXPANSION_CACHE_FILE = "expansion_cache.json"
-    NORM_CACHE_FILE = "norm_cache.json"
-    ABREVIACOES_FILE = "abreviacoes.json"
+    CACHE_FILE = "api_cache_llama.json"
+    VALIDATION_CACHE_FILE = "validation_cache_llama.json"
+    EXPANSION_CACHE_FILE = "expansion_cache_llama.json"
+    NORM_CACHE_FILE = "norm_cache_llama.json"
+    ABREVIACOES_FILE = "abreviacoes_llama.json"
     ABREVIACOES_PATH = os.path.join(DICIONARIOS_FOLDER, ABREVIACOES_FILE)
 
-    MAPEAMENTO_LOCAL_FILE = "mapeamento_local.json"
+    MAPEAMENTO_LOCAL_FILE = "mapeamento_local_llama.json"
     MAPEAMENTO_LOCAL_PATH = os.path.join(DICIONARIOS_FOLDER, MAPEAMENTO_LOCAL_FILE)

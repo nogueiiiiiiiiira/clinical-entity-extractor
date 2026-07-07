@@ -20,6 +20,7 @@ REGRAS DE GRANULARIDADE:
 - NUNCA crie frases que não apareçam de forma contígua no original.
 - Separe entidades unidas por "e", "&" ou vírgula em entidades individuais.
 - Quando um verbo como "avaliar", "investigar", "diagnosticar" anteceder um termo clínico, extraia APENAS o termo clínico (não o verbo).
+- EXTRAIA PROCEDIMENTOS como "plastia mitral", "troca valvar", "implante de marcapasso", "angioplastia", "cateterismo", "revascularização do miocárdio", "cirurgia de ponte de safena", etc., mesmo que apareçam com abreviações (ex.: CRM, ATC, RVM).
 
 EXEMPLOS DETALHADOS:
 

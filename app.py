@@ -26,7 +26,7 @@ def run_script(script_name: str, log_file_handle) -> bool:
         log_file_handle.flush()
         return False
 
-    print(f"\nExecutando {script_name}...")
+    print(f"\nExecutando {script_name}...\n")
     log_file_handle.write(f"\n--- Início: {script_name} ---\n")
     log_file_handle.flush()
 
